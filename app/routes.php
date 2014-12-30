@@ -15,6 +15,4 @@ Route::get('/', function()
 {
 	return View::make('hello');
 
-//	$trait = new \App\Polymorphic\TraitConcrete();
-//	dd($trait);
 });

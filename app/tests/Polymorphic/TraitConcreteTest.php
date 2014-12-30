@@ -1062,6 +1062,22 @@ class TraitConcreteTest extends \TestCase {
         }
     }
 
+    /**
+     *Test method returns true if argument passed is a valid png file, otherwise false.
+     */
+    public function test_validatorTrait_pngIsValid_method()
+    {
+
+    }
+
+    /**
+     *Test method returns true if argument passed is a valid image, otherwise false.
+     */
+    public function test_validatorTrait_imageIsValid_method()
+    {
+
+    }
+
 
 
 }

@@ -20,6 +20,15 @@ class TraitConcrete {
 
 
 
+    public function pngIsValid($filename)
+    {
+        return (exif_imagetype($filename) == IMAGETYPE_PNG);
+    }
+
+    public function imageIsValid()
+    {
+
+    }
 
 
 

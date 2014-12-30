@@ -11,11 +11,14 @@ namespace App\DomainLogic\ImageDirectory;
 
 class ImageInternalService {
 
-    public function store()
+    public function store($attributes = array())
     {
-        //get image file
+        //get image file - not done
+//        $imageName = $this->getAttributeFromArguments($attributes, 'image');
 
-        //validate that its in png format - not done
+        //validate that its a valid image - not done
+
+        //validate that its in png format - Working!
 
         //create three sizes (small, medium, and large) - not done
 
