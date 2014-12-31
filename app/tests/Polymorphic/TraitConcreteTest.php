@@ -1114,6 +1114,27 @@ class TraitConcreteTest extends \TestCase {
         unlink($textFile->getPathname());
     }
 
+    /**
+     *Test method resizes an image, and returns the short and full paths to the new image.
+     */
+    public function test_unidentifiedTrait_resizeAndStoreImage_method()
+    {
+        //trait instance
+
+        //good mock uploaded image to resize
+
+        //bad mock uploaded file
+
+        //call resizeAndStoreImage method on good image
+
+            //assert the short and full paths are returned
+
+            //assert the image was indeed resized
+
+            //assert the original image is still in its original place and size
+
+        //call resizeAndStoreImage method on bad file and assert exception.
+    }
 
 
 }

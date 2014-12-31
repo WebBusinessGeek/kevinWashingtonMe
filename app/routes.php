@@ -15,12 +15,5 @@ Route::get('/', function()
 {
     return View::make('hello');
 
-//    $trait = new \App\Polymorphic\TraitConcrete();
-//
-//    $file = $trait->createMockUploadedTextFile('someFile', 'uploads/testing', 'something');
-//
-//
-//    dd($file->getMimeType());
-
 
 });

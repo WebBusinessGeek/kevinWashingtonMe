@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ImageInternalService.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79136693" vertical-offset="25" max-vertical-offset="1275">
-              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.25179857" vertical-offset="0" max-vertical-offset="695">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -41,7 +41,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
+    <option name="x" value="355" />
     <option name="y" value="22" />
     <option name="width" value="984" />
     <option name="height" value="744" />
@@ -165,15 +165,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -192,7 +192,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="143" y="22" width="984" height="744" extended-state="0" />
+    <frame x="355" y="22" width="984" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -204,17 +204,17 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22256097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -240,9 +240,35 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="1275">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <marker date="1420043678000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="1250">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding />
+          <folding>
+            <marker date="1420043678000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -250,7 +276,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="1250">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding />
+          <folding>
+            <marker date="1420043678000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -259,124 +294,126 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="26380" max-vertical-offset="27075">
           <caret line="1069" column="0" selection-start-line="1069" selection-start-column="0" selection-end-line="1069" selection-end-column="0" />
           <folding>
-            <marker date="1420043177000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420043177000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder=" Test if method returns true if passed in array keys are accepted model attributes, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if  mandatory values are set on arrayToCheck, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test that method returns an array of attribute names associated with model. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns associative array of configuration values specified, otherwise throws an error. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if minimum length of characters is met, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if minimum amount of integers used in string met, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if minimum amount of alpha characters are met, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if no invalid characters are set, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test password meets requirements (min. length, min. integers, min. letters, no invalid characters). Returns boolean. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true is valid email format is used, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if all valid formats are given, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if value is unique to class, otherwise false ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if all values are unique where necessary, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns a new instance of a model class. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method adds passed in attributes to specified model and returns the instance. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method stores an Eloquent model in its database table. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns the eloquent model specified, otherwise returns an error message. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method adds passed in attributes to existing model ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method deletes a Eloquent model from the database. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if instance specified exists, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if ip address is in valid format, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns Model instance if correct credentials used, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test functions returns true if passed in secret is correct. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns equal to now +  $x hours. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method hashes all hashAble attributes and returns them. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if argument passed is using the valid extension, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if argument passed is a valid image, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420051537000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder=" Test if method returns true if passed in array keys are accepted model attributes, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if  mandatory values are set on arrayToCheck, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test that method returns an array of attribute names associated with model. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns associative array of configuration values specified, otherwise throws an error. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if minimum length of characters is met, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if minimum amount of integers used in string met, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if minimum amount of alpha characters are met, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if no invalid characters are set, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test password meets requirements (min. length, min. integers, min. letters, no invalid characters). Returns boolean. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true is valid email format is used, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if all valid formats are given, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if value is unique to class, otherwise false ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if all values are unique where necessary, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns a new instance of a model class. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method adds passed in attributes to specified model and returns the instance. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method stores an Eloquent model in its database table. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns the eloquent model specified, otherwise returns an error message. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method adds passed in attributes to existing model ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method deletes a Eloquent model from the database. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if instance specified exists, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if ip address is in valid format, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns Model instance if correct credentials used, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test functions returns true if passed in secret is correct. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns equal to now +  $x hours. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method hashes all hashAble attributes and returns them. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if argument passed is using the valid extension, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if argument passed is a valid image, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method resizes an image, and returns the short and full paths to the new image. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -399,14 +436,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="1150">
           <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50359714" vertical-offset="0" max-vertical-offset="5000">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1420043678000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -457,13 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.50359714" vertical-offset="1075" max-vertical-offset="3275">
           <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4676259" vertical-offset="75" max-vertical-offset="1150">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -541,188 +573,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1438849" vertical-offset="0" max-vertical-offset="7650">
           <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding>
-            <marker date="1417551353000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1417551353000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" A file uploaded through a form. ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" Whether the test mode is activated. ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" The original name of the uploaded file. ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" The mime type provided by the uploader. ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" The file size provided by the uploader. ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" The UPLOAD_ERR_XXX constant provided by the uploader. ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" Accepts the information of the uploaded file as provided by the PHP global $_FILES. ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" Returns the original file name. ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" Returns the original file extension ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" Returns the file mime type. ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" Returns the extension based on the client mime type. ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" Returns the file size. ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" Returns the upload error. ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" Returns whether the file was uploaded successfully. ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" Moves the file to a new location. ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" Returns the maximum size of an uploaded file as configured in php.ini ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder=" Returns an informative upload error message. ..." />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1417551353000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25179857" vertical-offset="0" max-vertical-offset="695">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1420042887000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1420042887000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420042887000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420042887000" expanded="true" signature="-1:-1" placeholder="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/Polymorphic/TraitConcreteTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60431653" vertical-offset="27280" max-vertical-offset="27975">
-          <caret line="1114" column="5" selection-start-line="1114" selection-start-column="5" selection-end-line="1114" selection-end-column="5" />
-          <folding>
-            <marker date="1420043177000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420043177000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder=" Test if method returns true if passed in array keys are accepted model attributes, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if  mandatory values are set on arrayToCheck, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test that method returns an array of attribute names associated with model. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns associative array of configuration values specified, otherwise throws an error. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if minimum length of characters is met, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if minimum amount of integers used in string met, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if minimum amount of alpha characters are met, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if no invalid characters are set, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test password meets requirements (min. length, min. integers, min. letters, no invalid characters). Returns boolean. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true is valid email format is used, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if all valid formats are given, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if value is unique to class, otherwise false ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if all values are unique where necessary, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns a new instance of a model class. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method adds passed in attributes to specified model and returns the instance. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method stores an Eloquent model in its database table. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns the eloquent model specified, otherwise returns an error message. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method adds passed in attributes to existing model ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method deletes a Eloquent model from the database. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if instance specified exists, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if ip address is in valid format, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns Model instance if correct credentials used, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test functions returns true if passed in secret is correct. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns equal to now +  $x hours. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method hashes all hashAble attributes and returns them. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if argument passed is using the valid extension, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="Test method returns true if argument passed is a valid image, otherwise false. ..." />
-            <marker date="1420043177000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -730,53 +581,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7122302" vertical-offset="3730" max-vertical-offset="7000">
           <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-          <folding>
-            <marker date="1420043243000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder=" Returns true if array passed in contains keys the model will accept as attributes. ..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder=" Returns true if mandatory values are set in arrayToCheck, otherwise false. ..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder=" Returns true if password is valid, false if password is not valid. ..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder=" Returns true is string to check equal to or greater than minimum length, otherwise false. ..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder=" Returns true if string contains the minimum amount of integers, otherwise false. ..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder=" Returns true if string contains the minimum amount of letters, otherwise false. ..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder=" Returns true if no invalid characters are found in the string, otherwise false. ..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder=" Returns true if email format is valid, otherwise false. ..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder=" @param UploadedFile $fileToCheck ..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder=" Returns true if format of ipAddress passed is valid, otherwise false. ..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder=" @param $fileExtension ..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder=" Returns true if instances specified exists, otherwise false. ..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder=" Returns true if most credentials are in valid format, otherwise false. ..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder=" Returns true if unique value is not present in database table already, otherwise false. ..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder=" Returns true if no duplicated data has been passed to a unique attribute, otherwise false. ..." />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420043243000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -784,26 +589,303 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2877698" vertical-offset="0" max-vertical-offset="1600">
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50359714" vertical-offset="75" max-vertical-offset="1275">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <marker date="1419012147000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1419012147000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder=" Stores Eloquent models in their respective database table and returns the stored instance. ..." />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder=" Returns model specified, otherwise throws an error. Will cause FATAL ERROR if class name cannot be found. ..." />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder=" Deletes Model passed in. Returns true if Model was deleted. ..." />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043678000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.5784752" vertical-offset="0" max-vertical-offset="2950">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <marker date="1420045107000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Indicates if loading of the provider is deferred. ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Bootstrap the application events. ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Register the service provider. ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Get the services provided by the provider. ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Facades/Image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21582733" vertical-offset="0" max-vertical-offset="695">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Size.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.705036" vertical-offset="0" max-vertical-offset="9475">
+          <caret line="103" column="20" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+          <folding>
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Width ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Height ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Pivot point ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Creates a new Size instance ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Set the width and height absolutely ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Set current pivot point ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Get the current width ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Get the current height ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Calculate the current aspect ratio ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Resize to desired width and/or height ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Scale size according to given constraints ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Scale size according to given constraints ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Calculate the relative position to another Size ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Resize given Size to best fitting size of current size. ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Checks if given size fits into current size ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Aligns current size's pivot point to given position ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Runs constraints on current size ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21582733" vertical-offset="0" max-vertical-offset="2925">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <marker date="1420045107000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Instance of Illuminate Config respository ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Creates new instance of Image Manager ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Creates a driver instance according to config settings ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Initiates an Image instance from different input types ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Creates an empty image canvas ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Create new cached image and run callback ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6975">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Instance of current image driver ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Image resource/object of current image processor ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Image resource backup of current image processor ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Last image encoding result ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Creates a new Image instance ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Magic method to catch all image calls ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Starts encoding of current image ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Saves encoded image in filesystem ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Runs a given filter on current image ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Returns current image driver ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Sets current image driver ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Returns current image resource/obj ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Sets current image resource ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Returns current image backup ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Sets current image backup ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Checks if current image is already encoded ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Returns encoded image data of current image ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Sets encoded image buffer ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Calculates current image width ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Alias of getWidth() ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Calculates current image height ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Alias of getHeight ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Reads mime type ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Returns encoded image data in string conversion ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder=" Cloning an image ..." />
+            <marker date="1420045107000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageManagerStatic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8633093" vertical-offset="0" max-vertical-offset="2075">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1420048614000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420048614000" expanded="true" signature="-1:-1" placeholder=" Instance of Intervention\Image\ImageManager ..." />
+            <marker date="1420048614000" expanded="true" signature="-1:-1" placeholder=" Creates a new instance ..." />
+            <marker date="1420048614000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420048614000" expanded="true" signature="-1:-1" placeholder=" Creates a new instance ..." />
+            <marker date="1420048614000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420048614000" expanded="true" signature="-1:-1" placeholder=" Statically initiates an Image instance from different input types ..." />
+            <marker date="1420048614000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420048614000" expanded="true" signature="-1:-1" placeholder=" Statically creates an empty image canvas ..." />
+            <marker date="1420048614000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420048614000" expanded="true" signature="-1:-1" placeholder=" Create new cached image and run callback statically ..." />
+            <marker date="1420048614000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/local/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6115108" vertical-offset="0" max-vertical-offset="695">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1420048757000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420048757000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7194245" vertical-offset="75" max-vertical-offset="1200">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <marker date="1420048819000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;laravel/laravel&quot;...}" />
+            <marker date="1420048819000" expanded="true" signature="-1:-1" placeholder="{&quot;laravel/framework&quot;: &quot;4.2.*&quot;...}" />
+            <marker date="1420048819000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420048819000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1420048819000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420048819000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1420048819000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1420048819000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1420048819000" expanded="true" signature="-1:-1" placeholder="{&quot;preferred-install&quot;: &quot;dist&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.352518" vertical-offset="2855" max-vertical-offset="5050">
+          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding>
+            <marker date="1420049712000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420049712000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420049712000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420049712000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420049712000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420049712000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420049712000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420049712000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420049712000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420049712000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420049712000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420049712000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Polymorphic/FactoryTrait.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4028777" vertical-offset="400" max-vertical-offset="2300">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+        <state vertical-scroll-proportion="2.2302158" vertical-offset="0" max-vertical-offset="2300">
+          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
           <folding>
             <marker date="1420043320000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
             <marker date="1420043320000" expanded="true" signature="-1:-1" placeholder="..." />
@@ -817,22 +899,161 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/nikic/php-parser/test/code/parser/stmt/class/trait.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Polymorphic/TraitConcrete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43165466" vertical-offset="0" max-vertical-offset="1950">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.78417265" vertical-offset="80" max-vertical-offset="2325">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding>
-            <marker date="1420043320000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420043320000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1420043320000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051225000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420051225000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1420051225000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051225000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051225000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
+    <entry file="file://$PROJECT_DIR$/app/tests/Polymorphic/TraitConcreteTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79136693" vertical-offset="25" max-vertical-offset="1275">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.8201439" vertical-offset="27655" max-vertical-offset="28500">
+          <caret line="1135" column="76" selection-start-line="1135" selection-start-column="76" selection-end-line="1135" selection-end-column="76" />
+          <folding>
+            <marker date="1420051537000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420051537000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder=" Test if method returns true if passed in array keys are accepted model attributes, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if  mandatory values are set on arrayToCheck, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test that method returns an array of attribute names associated with model. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns associative array of configuration values specified, otherwise throws an error. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if minimum length of characters is met, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if minimum amount of integers used in string met, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if minimum amount of alpha characters are met, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if no invalid characters are set, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test password meets requirements (min. length, min. integers, min. letters, no invalid characters). Returns boolean. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true is valid email format is used, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if all valid formats are given, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if value is unique to class, otherwise false ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if all values are unique where necessary, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns a new instance of a model class. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method adds passed in attributes to specified model and returns the instance. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method stores an Eloquent model in its database table. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns the eloquent model specified, otherwise returns an error message. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method adds passed in attributes to existing model ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method deletes a Eloquent model from the database. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if instance specified exists, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if ip address is in valid format, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns Model instance if correct credentials used, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test functions returns true if passed in secret is correct. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns equal to now +  $x hours. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method hashes all hashAble attributes and returns them. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if argument passed is using the valid extension, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method returns true if argument passed is a valid image, otherwise false. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="Test method resizes an image, and returns the short and full paths to the new image. ..." />
+            <marker date="1420051537000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25179857" vertical-offset="0" max-vertical-offset="695">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
