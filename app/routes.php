@@ -13,6 +13,11 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+    return View::make('hello');
+
+//    $trait = new \App\Polymorphic\TraitConcrete();
+//
+//    $pngImage = $trait->createMockUploadedImage('png', 'someFile', 'uploads/original');
+//    dd(unlink($pngImage->getPathname()));
 
 });

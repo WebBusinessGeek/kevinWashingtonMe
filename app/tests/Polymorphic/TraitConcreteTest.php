@@ -1063,10 +1063,29 @@ class TraitConcreteTest extends \TestCase {
     }
 
     /**
-     *Test method returns true if argument passed is a valid png file, otherwise false.
+     *Test method returns true if argument passed is using the valid extension, otherwise false.
      */
-    public function test_validatorTrait_pngIsValid_method()
+    public function test_validatorTrait_extensionIsValid_method()
     {
+//
+        $trait = new \App\Polymorphic\TraitConcrete();
+
+        //good mockUploadedImage with png extension
+        $pngImage = $trait->createMockUploadedImage('png', 'validatorTraitPngIsValidMethodTest','uploads/original');
+
+        //bad mockUploadedImage with gif extension
+        $gifImage = $trait->createMockUploadedImage('gif', 'validatorTraitPngIsValidMethodTest','uploads/original');
+
+        //call extensionIsValid with 'png' extension and assertTrue on good image
+        $this->assertTrue($trait->extensionIsValid($pngImage->getClientOriginalExtension(), 'png'));
+
+        //call extensionIsValid with 'png' extension and assertFalse on bad image
+        $this->assertFalse($trait->extensionIsValid($gifImage->getClientOriginalExtension(), 'png'));
+
+        //delete images
+        unlink($pngImage->getPathname());
+        unlink($gifImage->getPathname());
+
 
     }
 
@@ -1075,7 +1094,6 @@ class TraitConcreteTest extends \TestCase {
      */
     public function test_validatorTrait_imageIsValid_method()
     {
-
     }
 
 

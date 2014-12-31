@@ -14,15 +14,16 @@ class ImageInternalService {
     public function store($attributes = array())
     {
         //get image file - not done
-//        $imageName = $this->getAttributeFromArguments($attributes, 'image');
 
         //validate that its a valid image - not done
 
-        //validate that its in png format - Working!
+        //validate that its in png format - DONE
+
+        //name the image - not done
 
         //create three sizes (small, medium, and large) - not done
 
-        //save the paths as attributes on the image - not done
+        //attach the paths (small, medium, large, original) to image object - not done
 
         //store the image in the database - not done
     }
