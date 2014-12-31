@@ -9,43 +9,50 @@
 namespace App\DomainLogic\ImageDirectory;
 
 
-class ImageInternalService {
+use App\Base\InternalService;
+
+class ImageInternalService extends InternalService{
+
+    public function __construct()
+    {
+        $this->model = new Image();
+    }
 
     public function store($attributes = array())
     {
-        //get image file - not done
+        $image = $attributes['image'];
 
-        //determine if uploaded file was image - DONE
+        if($this->imageIsValid($image) && $this->extensionIsValid($image->getClientOriginalExtension(), 'png'))
+        {
+            $name = ['name' => $attributes['name']];
 
-        //validate that its in png format - DONE
+            $paths = ['originalPath' => explode('/public/',$image->getPathName())[1],];
 
-        //create four sizes (small, medium, and large, original) - not done
-            //dynamically resize image  and receive new paths - done
-            //place to store size parameters - not done
-            //dynamically call the resize method using a looping function - not done
+            foreach($this->model->imageSizes as $size)
+            {
+                $width = $this->model->$size.'Width';
+                $height = $this->model->$size.'Height';
+                $directory = $this->model->$size. 'Storage';
+                $paths[$size.'Path'] = $this->resizeAndStoreImage($image, $width, $height, $directory)['shortPath'];
+            }
 
-        //create image object
-            //attach the paths (small, medium, large, original) to image object - not done
-            //name the image object - not done
-            //store the image in the database - not done
+           return $this->storeEloquentModelInDatabase($this->addAttributesToExistingModel($this->addAttributesToNewModel($paths, $this->getModelClassName()),$name));
+        }
 
-        //return the image object?
+        return $this->sendMessage('Not a valid image');
     }
 
-    public function show()
-    {
 
-    }
+    public function show($model_id)
+    {}
 
-    public function update()
-    {
+    public function update($model_id, $attributes = array())
+    {}
 
-    }
 
-    public function destroy()
-    {
+    public function destroy($model_id)
+    {}
 
-    }
 
     public function index()
     {

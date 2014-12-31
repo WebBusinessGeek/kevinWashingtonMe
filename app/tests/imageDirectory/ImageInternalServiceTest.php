@@ -18,6 +18,16 @@ class ImageInternalServiceTest extends \TestCase {
      */
     public function test_imageInternalService_store_method()
     {
+        //service instance
 
+        //good attributes
+
+        //bad attributes
+
+        //call store method on good attributes and assert the returned Image model attributes
+
+        //call store method on bad attributes and assert error message
+
+        //delete the image files created from testing.
     }
 }

@@ -18,7 +18,8 @@
 			"app/database/seeds",
 			"app/tests/TestCase.php",
 			"app/domainLogic",
-			"app/Polymorphic"
+			"app/Polymorphic",
+			"app/Base"
 
 		]
 	},
