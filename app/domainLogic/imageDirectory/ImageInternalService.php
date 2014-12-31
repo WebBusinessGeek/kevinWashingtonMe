@@ -15,7 +15,7 @@ class ImageInternalService {
     {
         //get image file - not done
 
-        //validate that its a valid image - not done
+        //determine if uploaded file was image - not done
 
         //validate that its in png format - DONE
 

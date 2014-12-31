@@ -17,7 +17,10 @@ Route::get('/', function()
 
 //    $trait = new \App\Polymorphic\TraitConcrete();
 //
-//    $pngImage = $trait->createMockUploadedImage('png', 'someFile', 'uploads/original');
-//    dd(unlink($pngImage->getPathname()));
+//    $file = $trait->createMockUploadedTextFile('someFile', 'uploads/testing', 'something');
+//
+//
+//    dd($file->getMimeType());
+
 
 });

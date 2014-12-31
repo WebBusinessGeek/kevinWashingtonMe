@@ -1094,6 +1094,24 @@ class TraitConcreteTest extends \TestCase {
      */
     public function test_validatorTrait_imageIsValid_method()
     {
+        //trait instance
+        $trait = new TraitConcrete();
+
+        //good image file to check
+        $imageFile = $trait->createMockUploadedImage('png', 'validatorTraitImageIsValidMethodTest1', 'uploads/testing');
+
+        //bad nonImage file to check
+        $textFile = $trait->createMockUploadedTextFile('validatorTraitImageIsValidMethodTest2', 'uploads/testing');
+
+        //call imageIsValid on good file and assert true
+        $this->assertTrue($trait->imageIsValid($imageFile));
+
+        //call imageIsValid on bad image and assert false
+        $this->assertFalse($trait->imageIsValid($textFile));
+
+        //delete files
+        unlink($imageFile->getPathname());
+        unlink($textFile->getPathname());
     }
 
 

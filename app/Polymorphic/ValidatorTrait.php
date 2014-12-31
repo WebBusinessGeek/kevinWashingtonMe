@@ -9,6 +9,8 @@
 namespace App\Polymorphic;
 
 
+use Symfony\Component\HttpFoundation\File\UploadedFile;
+
 trait ValidatorTrait {
 
     use InvokerTrait;
@@ -151,6 +153,16 @@ trait ValidatorTrait {
         return (filter_var($emailToCheck, FILTER_VALIDATE_EMAIL))? true : false ;
     }
 
+    /**Returns true if uploaded file is valid, otherwise false.
+     * @param UploadedFile $fileToCheck
+     * @return bool
+     */
+    public function imageIsValid(UploadedFile $fileToCheck)
+    {
+        return (explode('/', $fileToCheck->getMimeType())[0] == 'image');
+    }
+
+
     /**
      * Returns true if format of ipAddress passed is valid, otherwise false.
      * @param $ipToCheck
@@ -160,6 +172,18 @@ trait ValidatorTrait {
     {
         return (filter_var($ipToCheck, FILTER_VALIDATE_IP))? true : false ;
     }
+
+
+    /**Returns true if $fileExtension matches $extensionToMatch, otherwise returns false.
+     * @param $fileExtension
+     * @param $extensionToMatch
+     * @return bool
+     */
+    public function extensionIsValid($fileExtension, $extensionToMatch)
+    {
+        return $fileExtension == $extensionToMatch;
+    }
+
 
     /**
      * Returns true if instances specified exists, otherwise false.
