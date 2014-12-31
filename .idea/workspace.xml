@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FactoryTrait.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Polymorphic/FactoryTrait.php">
+      <file leaf-file-name="ImageInternalService.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.9784173" vertical-offset="0" max-vertical-offset="2300">
-              <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.79136693" vertical-offset="25" max-vertical-offset="1275">
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -242,15 +242,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="1250">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <marker date="1420040570000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -258,15 +250,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="1250">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <marker date="1420040570000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -415,15 +399,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="1150">
           <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-          <folding>
-            <marker date="1420040570000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -558,22 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="722">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53956836" vertical-offset="25" max-vertical-offset="1250">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding>
-            <marker date="1420040570000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420040570000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,18 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Polymorphic/TraitConcrete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43165466" vertical-offset="0" max-vertical-offset="1950">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <marker date="1420043320000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420043320000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1420043320000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Polymorphic/RepositoryTrait.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2877698" vertical-offset="0" max-vertical-offset="1600">
@@ -854,8 +802,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Polymorphic/FactoryTrait.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9784173" vertical-offset="0" max-vertical-offset="2300">
+        <state vertical-scroll-proportion="1.4028777" vertical-offset="400" max-vertical-offset="2300">
           <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+          <folding>
+            <marker date="1420043320000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420043320000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420043320000" expanded="true" signature="-1:-1" placeholder=" Returns a new instance of the class name passed in. ..." />
+            <marker date="1420043320000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043320000" expanded="true" signature="-1:-1" placeholder=" @param $filename ..." />
+            <marker date="1420043320000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420043320000" expanded="true" signature="-1:-1" placeholder=" ..." />
+            <marker date="1420043320000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Polymorphic/TraitConcrete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43165466" vertical-offset="0" max-vertical-offset="1950">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <marker date="1420043320000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420043320000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1420043320000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79136693" vertical-offset="25" max-vertical-offset="1275">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding />
         </state>
       </provider>
