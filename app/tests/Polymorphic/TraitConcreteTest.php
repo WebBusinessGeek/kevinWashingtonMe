@@ -1120,20 +1120,50 @@ class TraitConcreteTest extends \TestCase {
     public function test_unidentifiedTrait_resizeAndStoreImage_method()
     {
         //trait instance
+        $trait = new TraitConcrete();
 
-        //good mock uploaded image to resize
+        //good mock uploaded image to resize and store its size
+        $imageFile = $trait->createMockUploadedImage('png', 'resizeAndStoreImageMethodTest', 'uploads/testing');
+        $originalSize = getimagesize($imageFile->getPathName());
+        $originalWidth = $originalSize[0];
+        $originalHeight = $originalSize[1];
+
+        //new width and height values
+        $newWidth = 500;
+        $newHeight = 600;
 
         //bad mock uploaded file
+        $textFile = $trait->createMockUploadedTextFile('resizeAndStoreImageMethodTest', 'uploads/testing','text from test');
 
         //call resizeAndStoreImage method on good image
+        //CHANGE DIRECTORY OR TEST WILL FAIL DUE TO OVERWRITING ORIGINAL IMAGE!!
+        $goodResponse = $trait->resizeAndStoreImage($imageFile, $newWidth, $newHeight, 'uploads/large');
 
             //assert the short and full paths are returned
+            $this->assertTrue(is_array($goodResponse));
 
             //assert the image was indeed resized
+            $newSize = getimagesize($goodResponse['fullPath']);
+            $this->assertEquals($newWidth, $newSize[0]);
+            $this->assertEquals($newHeight, $newSize[1]);
 
             //assert the original image is still in its original place and size
+            $confirmOldSize = getimagesize($imageFile->getPathName());
+            $confirmOldWidth = $confirmOldSize[0];
+            $confirmOldHeight = $confirmOldSize[1];
+
+            $this->assertEquals($confirmOldHeight, $originalHeight);
+            $this->assertEquals($confirmOldWidth, $originalWidth);
+
+
+        unlink($imageFile->getPathName());
+        unlink($goodResponse['fullPath']);
+        unlink($textFile->getPathName());
 
         //call resizeAndStoreImage method on bad file and assert exception.
+        $this->setExpectedException('Exception', '');
+        $trait->resizeAndStoreImage($textFile, $newWidth, $newHeight, 'uploads/large');
+
     }
 
 

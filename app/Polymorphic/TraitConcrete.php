@@ -18,22 +18,10 @@ use Symfony\Component\HttpFoundation\File\UploadedFile;
 class TraitConcrete {
 
     use AuthorizationTrait, AuthenticationTrait,
-         RepositoryTrait, ResponderTrait, ValidatorTrait;
+         RepositoryTrait, ResponderTrait, ValidatorTrait, ResourceHandlingTrait;
 
 
-    public function resizeAndStoreImage(UploadedFile $image, $width, $height, $directoryToStore)
-    {
-        $storageDirectory = public_path().'/'.$directoryToStore.'/';
-        $pathToImage = $storageDirectory. $image->getClientOriginalName();
-        \Image::make($image)->resize($width, $height)->save($pathToImage);
 
-        $paths = [
-            'fullPath' => $pathToImage,
-            'shortPath' => explode('/public/', $pathToImage)[1]
-        ];
-
-        return $paths;
-    }
 
 
 

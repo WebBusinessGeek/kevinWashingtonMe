@@ -20,6 +20,9 @@ class ImageInternalService {
         //validate that its in png format - DONE
 
         //create four sizes (small, medium, and large, original) - not done
+            //dynamically resize image  and receive new paths - done
+            //place to store size parameters - not done
+            //dynamically call the resize method using a looping function - not done
 
         //create image object
             //attach the paths (small, medium, large, original) to image object - not done
