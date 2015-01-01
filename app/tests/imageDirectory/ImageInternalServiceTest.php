@@ -55,4 +55,41 @@ class ImageInternalServiceTest extends \TestCase {
         //delete the image resources from database
         Image::destroy($goodResponse->id);
     }
+
+
+    /**
+     *Test method returns specified instance from database, otherwise error message.
+     */
+    public function test_imageInternalService_show_method()
+    {
+        //service instance
+        $imageService = new ImageInternalService();
+
+        //store real image resource instance in database
+        $goodAttr = [
+            'name' => 'imageInternalService@showMethodTest',
+            'image' => $imageService->createMockUploadedImage('png', 'someImage', 'uploads/testing')
+        ];
+
+        $storedImage = $imageService->store($goodAttr);
+
+        //assert its in database
+        $fromDB = Image::find($storedImage->id);
+        $this->assertEquals($goodAttr['name'], $fromDB->getName());
+
+        //call show method and assert its the same resource
+        $fromDBWithShowMethod = $imageService->show($storedImage->id);
+        $this->assertEquals($fromDB, $fromDBWithShowMethod);
+
+        //destroy image resource
+        Image::destroy($fromDBWithShowMethod->id);
+        unlink($fromDBWithShowMethod->originalLongPath);
+        unlink($fromDBWithShowMethod->smallLongPath);
+        unlink($fromDBWithShowMethod->mediumLongPath);
+        unlink($fromDBWithShowMethod->largeLongPath);
+
+        //call show method on bad id and assert error message
+        $badResponse = $imageService->show('aaa');
+        $this->assertEquals('Model not found.', $badResponse);
+    }
 }

@@ -115,5 +115,10 @@ class BaseModel {
         return $this->hashAbleAttributes;
     }
 
+    public function getName()
+    {
+        return $this->name;
+    }
+
 
 }

@@ -19,7 +19,6 @@ class Image extends Model {
     protected $table = 'images';
 
 
-
     protected $modelAttributes = [
 //		START AT ZERO (0)!!! => [
 //
