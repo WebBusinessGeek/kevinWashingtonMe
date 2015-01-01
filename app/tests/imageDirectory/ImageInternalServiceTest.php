@@ -45,7 +45,7 @@ class ImageInternalServiceTest extends \TestCase {
         $this->assertEquals('Not a valid image', $badResponse);
 
         //delete the image files created from testing.
-//        unlink($goodResponse->originalLongPath);
+        unlink($goodResponse->originalLongPath);
         unlink($goodResponse->smallLongPath);
         unlink($goodResponse->mediumLongPath);
         unlink($goodResponse->largeLongPath);

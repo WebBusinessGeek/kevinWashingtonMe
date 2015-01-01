@@ -26,7 +26,13 @@ class ImageInternalService extends InternalService{
         {
             $name = ['name' => $attributes['name']];
 
-            $paths = ['originalPath' => explode('/public/',$image->getPathName())[1],];
+            $origShortPath = $this->model->originalStorage.'/'.$image->getClientOriginalName();
+            $origLongPath = public_path().'/'.$origShortPath;
+
+            $paths = [
+                'originalLongPath' => $origLongPath,
+                'originalPath' => $origShortPath
+            ];
 
             foreach($this->model->imageSizes as $size)
             {
@@ -45,6 +51,8 @@ class ImageInternalService extends InternalService{
                 $paths[$shortPath] = $imagePaths['shortPath'];
 
             }
+
+            rename($image->getPathName(),$origLongPath);
 
            return $this->storeEloquentModelInDatabase($this->addAttributesToExistingModel($this->addAttributesToNewModel($paths, $this->getModelClassName()),$name));
         }
