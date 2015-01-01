@@ -30,10 +30,20 @@ class ImageInternalService extends InternalService{
 
             foreach($this->model->imageSizes as $size)
             {
-                $width = $this->model->$size.'Width';
-                $height = $this->model->$size.'Height';
-                $directory = $this->model->$size. 'Storage';
-                $paths[$size.'Path'] = $this->resizeAndStoreImage($image, $width, $height, $directory)['shortPath'];
+                $width = $size .'Width';
+                $height =$size .'Height';
+                $directory = $size . 'Storage';
+
+                $useWidth = $this->model->$width;
+                $useHeight = $this->model->$height;
+                $useStorage = $this->model->$directory;
+
+                $longPath = $size.'LongPath';
+                $shortPath = $size.'Path';
+                $imagePaths = $this->resizeAndStoreImage($image, $useWidth, $useHeight, $useStorage);
+                $paths[$longPath] = $imagePaths['fullPath'];
+                $paths[$shortPath] = $imagePaths['shortPath'];
+
             }
 
            return $this->storeEloquentModelInDatabase($this->addAttributesToExistingModel($this->addAttributesToNewModel($paths, $this->getModelClassName()),$name));

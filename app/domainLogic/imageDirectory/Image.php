@@ -13,7 +13,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Image extends Model {
 
-    protected $fillable = ['name' , 'mediumPath', 'smallPath', 'largePath', 'originalPath'];
+    protected $fillable = ['name' , 'mediumPath', 'smallPath', 'largePath', 'originalPath', 'mediumLongPath', 'smallLongPath', 'largeLongPath', 'originalLongPath'];
 
 
     protected $table = 'images';
@@ -130,7 +130,76 @@ class Image extends Model {
 
             'key' => false,
 
+        ],
+
+        5 =>[
+            'name' => 'originalLongPath',
+
+            'format' => 'path',
+
+            'nullable' => false,
+
+            'unique' => true,
+
+            'exists' => null,
+
+            'identifier' => false,
+
+            'key' => false,
+
+        ],
+
+        6 =>[
+            'name' => 'smallLongPath',
+
+            'format' => 'path',
+
+            'nullable' => false,
+
+            'unique' => true,
+
+            'exists' => null,
+
+            'identifier' => false,
+
+            'key' => false,
+
+        ],
+
+        7 =>[
+            'name' => 'mediumLongPath',
+
+            'format' => 'path',
+
+            'nullable' => false,
+
+            'unique' => true,
+
+            'exists' => null,
+
+            'identifier' => false,
+
+            'key' => false,
+
+        ],
+
+        8 =>[
+            'name' => 'largeLongPath',
+
+            'format' => 'path',
+
+            'nullable' => false,
+
+            'unique' => true,
+
+            'exists' => null,
+
+            'identifier' => false,
+
+            'key' => false,
+
         ]
+
 
 
 

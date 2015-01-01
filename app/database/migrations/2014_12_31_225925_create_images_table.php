@@ -21,6 +21,10 @@ class CreateImagesTable extends Migration {
 			$table->char('smallPath');
 			$table->char('mediumPath');
 			$table->char('largePath');
+			$table->char('originalLongPath');
+			$table->char('smallLongPath');
+			$table->char('mediumLongPath');
+			$table->char('largeLongPath');
 
 		});
 	}
