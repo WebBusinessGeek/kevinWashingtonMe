@@ -232,4 +232,17 @@ class Image extends Model {
     public $largeStorage = 'uploads/large';
 
 
+    protected $destroyableAttributes = [
+        'originalLongPath',
+        'smallLongPath',
+        'mediumLongPath',
+        'largeLongPath',
+    ];
+
+    public function getDestroyableAttributes()
+    {
+        return $this->destroyableAttributes;
+    }
+
+
 }

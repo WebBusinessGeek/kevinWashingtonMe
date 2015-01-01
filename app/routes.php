@@ -14,12 +14,20 @@
 Route::get('/', function()
 {
     return View::make('hello');
-
-//    $trait = new \App\Polymorphic\TraitConcrete();
-//    $file = $trait->createMockUploadedImage('png', 'someName', 'uploads/testing');
-////    dd(explode('/public/', $file->getPathName()));
-////    dd(public_path());
+////
+//    $imageService = new \App\DomainLogic\ImageDirectory\ImageInternalService();
 //
-//    dd($file->getClientOriginalName());
+//    $attr = [
+//        'name' => 'someName',
+//        'image' => $imageService->createMockUploadedImage('png', 'someName', 'uploads/testing'),
+//        ];
+//
+//    $newImageObject = $imageService->store($attr);
+//
+//    dd($newImageObject->getDestroyableAttributes());
+
+
+
+
 
 });

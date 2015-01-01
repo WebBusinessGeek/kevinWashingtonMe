@@ -92,4 +92,31 @@ class ImageInternalServiceTest extends \TestCase {
         $badResponse = $imageService->show('aaa');
         $this->assertEquals('Model not found.', $badResponse);
     }
+
+    /**
+     *Test method removes model instance from database if it exists, otherwise should throw error message.
+     */
+    public function test_imageInternalService_destroy_method()
+    {
+//        //service instance
+//        $imageService = new ImageInternalService();
+//
+//        //create and store new image instance
+//        $good = [
+//            'name' => 'imageInternalService@destroyMethodTest',
+//            'image' => $imageService->createMockUploadedImage('png', 'someFileName', 'uploads/testing')
+//        ];
+
+        //assert its indeed in database
+
+        //call destroy method on instance
+
+            //assert its no longer in database
+
+            //assert images are no longer stored
+
+        //call destroy method on bad id and assert error message
+
+
+    }
 }

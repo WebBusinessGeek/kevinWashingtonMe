@@ -136,6 +136,12 @@ abstract class InternalService {
     }
 
 
+    public function getModelDestroyableAttributes()
+    {
+        return $this->model->getDestroyableAttributes();
+    }
+
+
 
 
 

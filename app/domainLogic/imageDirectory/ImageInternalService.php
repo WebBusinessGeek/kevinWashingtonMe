@@ -81,14 +81,28 @@ class ImageInternalService extends InternalService{
         }
     }
 
-    
+
 
     public function update($model_id, $attributes = array())
     {}
 
 
     public function destroy($model_id)
-    {}
+    {
+        $potentialModel = $this->show($model_id);
+
+        if($this->isModelInstance($potentialModel))
+        {
+            //delete its images
+            foreach($this->getModelDestroyableAttributes() as $attribute)
+            {
+                unlink($potentialModel->$attribute);
+            }
+
+            return $this->deleteEloquentModelFromDatabase($potentialModel, $this->getModelClassName());
+        }
+         return $potentialModel;
+    }
 
 
     public function index()
