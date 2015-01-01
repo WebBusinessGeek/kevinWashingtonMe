@@ -98,25 +98,36 @@ class ImageInternalServiceTest extends \TestCase {
      */
     public function test_imageInternalService_destroy_method()
     {
-//        //service instance
-//        $imageService = new ImageInternalService();
-//
-//        //create and store new image instance
-//        $good = [
-//            'name' => 'imageInternalService@destroyMethodTest',
-//            'image' => $imageService->createMockUploadedImage('png', 'someFileName', 'uploads/testing')
-//        ];
+        //service instance
+        $imageService = new ImageInternalService();
+
+        //create and store new image instance
+        $good = [
+            'name' => 'imageInternalService@destroyMethodTest',
+            'image' => $imageService->createMockUploadedImage('png', 'someFileName', 'uploads/testing')
+        ];
+
+        $stored = $imageService->store($good);
 
         //assert its indeed in database
+        $fromDB = Image::find($stored->id);
+        $this->assertEquals($stored->originalPath, $fromDB->originalPath);
 
         //call destroy method on instance
+        $imageService->destroy($fromDB->id);
 
             //assert its no longer in database
+            $nonExistenceCheck = $imageService->show($stored->id);
+            $this->assertEquals('Model not found.', $nonExistenceCheck);
 
             //assert images are no longer stored
+            foreach($imageService->getModelDestroyableAttributes() as $attr)
+            {
+                $this->assertFalse(file_exists($fromDB->$attr));
+            }
 
         //call destroy method on bad id and assert error message
-
+        $this->assertEquals('Model not found.', $imageService->destroy('aaa'));
 
     }
 }

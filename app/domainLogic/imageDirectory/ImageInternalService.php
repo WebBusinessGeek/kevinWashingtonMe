@@ -71,14 +71,7 @@ class ImageInternalService extends InternalService{
      */
     public function show($model_id)
     {
-        try
-        {
-            return $this->getEloquentModelFromDatabase($model_id, $this->getModelClassName());
-        }
-        catch(ModelNotFoundException $e)
-        {
-            return 'No Model by that id.';
-        }
+        return $this->getEloquentModelFromDatabase($model_id, $this->getModelClassName());
     }
 
 
@@ -87,13 +80,18 @@ class ImageInternalService extends InternalService{
     {}
 
 
+    
+    /**Removes an Image model resource from the database table along with its attached images if the resource exists.
+     * Otherwise returns an error message.
+     * @param $model_id
+     * @return mixed|string
+     */
     public function destroy($model_id)
     {
         $potentialModel = $this->show($model_id);
 
         if($this->isModelInstance($potentialModel))
         {
-            //delete its images
             foreach($this->getModelDestroyableAttributes() as $attribute)
             {
                 unlink($potentialModel->$attribute);
