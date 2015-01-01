@@ -14,17 +14,8 @@
 Route::get('/', function()
 {
     return View::make('hello');
-////
-//    $imageService = new \App\DomainLogic\ImageDirectory\ImageInternalService();
-//
-//    $attr = [
-//        'name' => 'someName',
-//        'image' => $imageService->createMockUploadedImage('png', 'someName', 'uploads/testing'),
-//        ];
-//
-//    $newImageObject = $imageService->store($attr);
-//
-//    dd($newImageObject->getDestroyableAttributes());
+
+
 
 
 

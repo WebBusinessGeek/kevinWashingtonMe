@@ -77,10 +77,12 @@ class ImageInternalService extends InternalService{
 
 
     public function update($model_id, $attributes = array())
-    {}
+    {
+        //
+    }
 
 
-    
+
     /**Removes an Image model resource from the database table along with its attached images if the resource exists.
      * Otherwise returns an error message.
      * @param $model_id
@@ -101,6 +103,8 @@ class ImageInternalService extends InternalService{
         }
          return $potentialModel;
     }
+
+
 
 
     public function index()
