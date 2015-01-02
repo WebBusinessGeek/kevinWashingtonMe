@@ -27,8 +27,8 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25179857" vertical-offset="0" max-vertical-offset="695">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.43165466" vertical-offset="0" max-vertical-offset="695">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -41,8 +41,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="25" />
-    <option name="y" value="22" />
+    <option name="x" value="34" />
+    <option name="y" value="24" />
     <option name="width" value="1412" />
     <option name="height" value="744" />
   </component>
@@ -69,7 +69,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -122,6 +121,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,15 +151,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -178,7 +178,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="25" y="22" width="1412" height="744" extended-state="0" />
+    <frame x="34" y="24" width="1412" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -193,13 +193,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -224,72 +224,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="1250">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <marker date="1420148508000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420148508000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder=" @param $model_id ..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="1250">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <marker date="1420148508000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420148508000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder=" @param $model_id ..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/Polymorphic/TraitConcreteTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="26380" max-vertical-offset="27075">
-          <caret line="1069" column="0" selection-start-line="1069" selection-start-column="0" selection-end-line="1069" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="4400">
-          <caret line="149" column="5" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Playground/restArchitectureTest/app/UserDirectory/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="4575">
@@ -302,23 +236,24 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="1150">
           <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
           <folding>
-            <marker date="1420148508000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420148508000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder=" @param $model_id ..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420159183000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder=" @param $model_id ..." />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -525,7 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4676259" vertical-offset="0" max-vertical-offset="2025">
           <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,14 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.4469357" vertical-offset="8850" max-vertical-offset="78300">
           <caret line="256" column="7" selection-start-line="256" selection-start-column="7" selection-end-line="256" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Polymorphic/InvokerTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4071856" vertical-offset="1328" max-vertical-offset="2375">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -615,22 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.4460433" vertical-offset="230" max-vertical-offset="3275">
           <caret line="113" column="41" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
-          <folding>
-            <marker date="1420148209000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420148209000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1420148209000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420148209000" expanded="true" signature="-1:-1" placeholder="Test method stores a new image resource ..." />
-            <marker date="1420148209000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148209000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420148209000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420148209000" expanded="true" signature="-1:-1" placeholder="Test method returns specified instance from database, otherwise error message. ..." />
-            <marker date="1420148209000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148209000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420148209000" expanded="true" signature="-1:-1" placeholder="Test method removes model instance from database if it exists, otherwise should throw error message. ..." />
-            <marker date="1420148209000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148209000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420148209000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,45 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2733813" vertical-offset="535" max-vertical-offset="1600">
           <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <marker date="1419012147000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1419012147000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder=" Stores Eloquent models in their respective database table and returns the stored instance. ..." />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder=" Returns model specified, otherwise throws an error. Will cause FATAL ERROR if class name cannot be found. ..." />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder=" Deletes Model passed in. Returns true if Model was deleted. ..." />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1151079" vertical-offset="1250" max-vertical-offset="2825">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <marker date="1420148508000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420148508000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder=" @param $model_id ..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420148508000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,168 +555,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="6.2230215" vertical-offset="0" max-vertical-offset="26675">
           <caret line="177" column="20" selection-start-line="177" selection-start-column="20" selection-end-line="177" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Polymorphic/InvokerTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49928057" vertical-offset="1653" max-vertical-offset="2375">
+          <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
           <folding>
-            <marker date="1419281770000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" The intermediate table for the relation. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" The foreign key of the parent model. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" The associated key of the relation. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" The &quot;name&quot; of the relationship. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" The pivot table columns to retrieve. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Any pivot table restrictions. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Create a new has many relationship instance. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the results of the relationship. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Set a where clause for a pivot table column. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Set an or where clause for a pivot table column. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Execute the query and get the first result. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Execute the query and get the first result or throw an exception. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Execute the query as a &quot;select&quot; statement. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get a paginator for the &quot;select&quot; statement. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Hydrate the pivot table relationship on the models. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the pivot attributes from a model. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Set the base constraints on the relation query. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Add the constraints for a relationship count query. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Add the constraints for a relationship count query on the same table. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get a relationship join table hash. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Set the select clause for the relation query. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the pivot columns for the relation. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Determine whether the given column is defined as a pivot column. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Set the join clause for the relation query. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Set the where clause for the relation query. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Set the constraints for an eager load of the relation. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Initialize the relation on a set of models. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Match the eagerly loaded results to their parents. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Build model dictionary keyed by the relation's foreign key. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Touch all of the related models for the relationship. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get all of the IDs for the related models. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Save a new model and attach it to the parent model. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Save an array of new models and attach them to the parent model. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Create a new instance of the related model. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Create an array of new instances of the related models. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Sync the intermediate tables with a list of IDs or collection of models. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Format the sync list so that it is keyed by ID. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Attach all of the IDs that aren't in the current array. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Update an existing pivot record on the table. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Attach a model to the parent. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Create an array of records to insert into the pivot table. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Create a full attachment record payload. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the attach record ID and extra attributes. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Create a new pivot attachment record. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Set the creation and update timestamps on an attach record. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Detach models from the relationship. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" If we're touching the parent model, touch. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Determine if we should touch the parent on sync. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Attempt to guess the name of the inverse of the relation. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Create a new query builder for the pivot table. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get a new plain query builder for the pivot table. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get a new pivot statement for a given &quot;other&quot; ID. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Create a new pivot model instance. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Create a new existing pivot model instance. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Set the columns on the pivot table to retrieve. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Specify that the pivot table has creation and update timestamps. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the related model's updated at column name. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the key for comparing against the parent key in &quot;has&quot; query. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the fully qualified foreign key for the relation. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the fully qualified &quot;other key&quot; for the relation. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the fully qualified parent key name. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the intermediate table for the relationship. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the relationship name for the relationship. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1418918016000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1418918016000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1418918016000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1418918016000" expanded="true" signature="-1:-1" placeholder=" Returns a named array of the specified configuration values. Otherwise throws an exception. ..." />
+            <marker date="1418918016000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1418918016000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1418918016000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1418918016000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1418918016000" expanded="true" signature="-1:-1" placeholder=" Returns all the names of the attributes ..." />
+            <marker date="1418918016000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1418918016000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1418918016000" expanded="true" signature="-1:-1" placeholder=" Dynamically adds attributes to a new model instance. ..." />
+            <marker date="1418918016000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1418918016000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1418918016000" expanded="true" signature="-1:-1" placeholder=" Adds attributes to an existing Eloquent Model. ..." />
+            <marker date="1418918016000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1418918016000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.1438849" vertical-offset="1425" max-vertical-offset="2925">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <marker date="1420159183000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420159183000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder=" @param $model_id ..." />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420159183000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25179857" vertical-offset="0" max-vertical-offset="695">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.43165466" vertical-offset="0" max-vertical-offset="695">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>

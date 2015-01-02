@@ -47,19 +47,14 @@ class ImageInternalService extends InternalService{
                 $height =$size .'Height';
                 $directory = $size . 'Storage';
 
-                $useWidth = $this->model->$width;
-                $useHeight = $this->model->$height;
-                $useStorage = $this->model->$directory;
+                $imagePaths = $this->resizeAndStoreImage($image, $this->model->$width, $this->model->$height, $this->model->$directory);
 
-                $longPath = $size.'LongPath';
-                $shortPath = $size.'Path';
-                $imagePaths = $this->resizeAndStoreImage($image, $useWidth, $useHeight, $useStorage);
-                $paths[$longPath] = $imagePaths['fullPath'];
-                $paths[$shortPath] = $imagePaths['shortPath'];
-
+                $paths[$size.'LongPath'] = $imagePaths['fullPath'];
+                $paths[$size.'Path'] = $imagePaths['shortPath'];
             }
             rename($image->getPathName(),$origLongPath);
-           return $this->storeEloquentModelInDatabase($this->addAttributesToExistingModel($this->addAttributesToNewModel($paths, $this->getModelClassName()),$name));
+
+            return $this->storeEloquentModelInDatabase($this->addAttributesToNewModel(array_merge($paths, $name), $this->getModelClassName()));
         }
         return $this->sendMessage('Not a valid image');
     }
@@ -78,7 +73,16 @@ class ImageInternalService extends InternalService{
 
     public function update($model_id, $attributes = array())
     {
-        //
+
+        $potentialModel = $this->show($model_id);
+
+        if($this->isModelInstance($potentialModel))
+        {
+
+            //update logic
+        }
+
+        return $potentialModel;
     }
 
 
