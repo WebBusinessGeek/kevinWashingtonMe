@@ -130,4 +130,13 @@ class ImageInternalServiceTest extends \TestCase {
         $this->assertEquals('Model not found.', $imageService->destroy('aaa'));
 
     }
+
+
+    /**
+     *Test method updates an image resource w
+     */
+    public function test_imageInternalService_update_method()
+    {
+
+    }
 }
