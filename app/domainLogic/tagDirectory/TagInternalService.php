@@ -13,11 +13,29 @@ use App\Base\InternalService;
 
 class TagInternalService extends InternalService {
 
+    public function __construct()
+    {
+        $this->model = new Tag();
+    }
 
 
     public function store($credentialsOrAttributes = [])
     {
-        // TODO: Implement store() method.
+        //setup
+//        $passToStoreMethodIfValid = ['title' => $credentialsOrAttributes['title']];
+        $modelAttributes = $this->getModelAttributes();
+
+        //run validations for data integrity
+        if($this->modelAcceptsAttributes($credentialsOrAttributes,$modelAttributes)
+//            &&
+//            $this->checkMajorFormatsAreValid($passToStoreMethodIfValid, $modelAttributes)
+        )
+        {
+            //create model, attach attributes, store in correct database table
+          return $this->storeEloquentModelInDatabase($this->addAttributesToNewModel($credentialsOrAttributes, $this->getModelClassName()));
+        }
+
+        return $this->sendMessage('Invalid attributes sent to method.');
     }
 
     public function show($model_id)
