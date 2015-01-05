@@ -28,11 +28,36 @@ abstract class InternalService {
 
     abstract public function store($credentialsOrAttributes =[]);
 
-    abstract public function show($model_id);
-
     abstract public function update($model_id, $attributes = array());
 
-    abstract public function destroy($model_id);
+
+    /**Parent show function. Retrieves and returns a specified instance if it exists.
+     * Otherwise returns error message.
+     * @param $model_id
+     * @return string
+     */
+    public function show($model_id)
+   {
+       return $this->getEloquentModelFromDatabase($model_id, $this->getModelClassName());
+   }
+
+
+    /**Parent destroy function. Removes specified instance from database.
+     * Allows children to 'hook into' parent::function by implementing their own uniqueDestroyLogic methods.
+     * @param $model_id
+     * @return mixed|string
+     */
+    public function destroy($model_id)
+    {
+        $potentialModel = $this->show($model_id);
+        if($this->isModelInstance($potentialModel))
+        {
+            $this->uniqueDestroyLogic($potentialModel);
+            return $this->deleteEloquentModelFromDatabase($potentialModel, $this->getModelClassName());
+        }
+
+        return $potentialModel;
+    }
 
     /**
      *Ensures requirements are set on services and their models.
@@ -142,6 +167,11 @@ abstract class InternalService {
     }
 
 
+
+    public function uniqueDestroyLogic(Model $model)
+    {
+        return '';
+    }
 
 
 

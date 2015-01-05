@@ -10,6 +10,7 @@ namespace App\DomainLogic\ImageDirectory;
 
 
 use App\Base\InternalService;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 
 class ImageInternalService extends InternalService{
@@ -66,7 +67,7 @@ class ImageInternalService extends InternalService{
      */
     public function show($model_id)
     {
-        return $this->getEloquentModelFromDatabase($model_id, $this->getModelClassName());
+        return parent::show($model_id);
     }
 
 
@@ -94,25 +95,22 @@ class ImageInternalService extends InternalService{
      */
     public function destroy($model_id)
     {
-        $potentialModel = $this->show($model_id);
-
-        if($this->isModelInstance($potentialModel))
-        {
-            foreach($this->getModelDestroyableAttributes() as $attribute)
-            {
-                unlink($potentialModel->$attribute);
-            }
-
-            return $this->deleteEloquentModelFromDatabase($potentialModel, $this->getModelClassName());
-        }
-         return $potentialModel;
+      return parent::destroy($model_id);
     }
-
 
 
 
     public function index()
     {
 
+    }
+
+
+    public function uniqueDestroyLogic(Model $model)
+    {
+        foreach($this->getModelDestroyableAttributes() as $attribute)
+        {
+            unlink($model->$attribute);
+        }
     }
 }

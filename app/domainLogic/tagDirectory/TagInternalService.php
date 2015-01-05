@@ -47,7 +47,7 @@ class TagInternalService extends InternalService {
      */
     public function show($model_id)
     {
-       return $this->getEloquentModelFromDatabase($model_id, $this->getModelClassName());
+        return parent::show($model_id);
     }
 
 
@@ -57,15 +57,7 @@ class TagInternalService extends InternalService {
      */
     public function destroy($model_id)
     {
-
-        $potentialModel = $this->show($model_id);
-        if($this->isModelInstance($potentialModel))
-        {
-            return $this->deleteEloquentModelFromDatabase($potentialModel, $this->getModelClassName());
-        }
-
-        return $potentialModel;
-
+       return parent::destroy($model_id);
     }
 
 
