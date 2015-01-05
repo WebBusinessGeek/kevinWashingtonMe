@@ -15,20 +15,15 @@ Route::get('/', function()
 {
     return View::make('hello');
 
-
-//
 //    $tagService = new \App\DomainLogic\TagDirectory\TagInternalService();
 //
 //    $good = [
-//        'title' => 'someTitle'
+//        'title' => 'someTitle',
 //    ];
-//    $response = $tagService->modelAcceptsAttributes($good, $tagService->getModelAttributes());
+//
+//    $response = $tagService->store($good);
 //
 //
-//
-//    $tag = new \App\DomainLogic\TagDirectory\Tag();
-//    $image = new \App\DomainLogic\ImageDirectory\Image();
-//    $imageService = new \App\DomainLogic\ImageDirectory\ImageInternalService();
-//
-//    dd($imageService->getModelAttributes());
+//    dd($response);
+
 });

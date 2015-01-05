@@ -66,7 +66,7 @@ class BaseModel {
      * Returns the models attributes and configuration values as multi-dimensional array.
      * @return array
      */
-    public function getAttributes()
+    public function getSelfModelAttributes()
     {
         return $this->modelAttributes;
     }
@@ -103,9 +103,9 @@ class BaseModel {
 
         for($x = 0; $answer == 'No setting by that name, has it been set?' || $x > $indefiniteBlock; $x++)
         {
-            (!$this->getAttributes()[$x][$settingName])
+            (!$this->getSelfModelAttributes()[$x][$settingName])
                 ?
-                :$answer = $this->getAttributes()[$x]['name'];
+                :$answer = $this->getSelfModelAttributes()[$x]['name'];
         }
         return $answer;
     }

@@ -224,10 +224,10 @@ class TraitConcreteTest extends \TestCase {
 
         //User model instance and assert it has $modelAttribute property set
         $user = new User();
-        $this->assertTrue(is_array($user->getAttributes()));
+        $this->assertTrue(is_array($user->getSelfModelAttributes()));
 
         //assert getModelAttributeNames returns an array
-        $this->assertTrue(is_array($trait->getModelAttributeNames($user->getAttributes())));
+        $this->assertTrue(is_array($trait->getModelAttributeNames($user->getSelfModelAttributes())));
     }
 
 
@@ -241,7 +241,7 @@ class TraitConcreteTest extends \TestCase {
 
         //User model instance and assert it has $modelAttribute property set
         $user = new User();
-        $this->assertTrue(is_array($user->getAttributes()));
+        $this->assertTrue(is_array($user->getSelfModelAttributes()));
 
         //assertTrue getModelAttributeConfiguration returns an array with all valid configs
         $configs = [
@@ -249,12 +249,12 @@ class TraitConcreteTest extends \TestCase {
         ];
         foreach($configs as $config)
         {
-            $this->assertTrue(is_array($trait->getModelAttributeConfiguration($user->getAttributes(), $config)));
+            $this->assertTrue(is_array($trait->getModelAttributeConfiguration($user->getSelfModelAttributes(), $config)));
         }
 
         //assertFalse getModelAttributeConfiguration throws an exception when invalid config as used.
         $this->setExpectedException('InvalidArgumentException', 'Configuration values invalid');
-        $trait->getModelAttributeConfiguration($user->getAttributes(), 'error');
+        $trait->getModelAttributeConfiguration($user->getSelfModelAttributes(), 'error');
 
     }
 
@@ -559,13 +559,13 @@ class TraitConcreteTest extends \TestCase {
         ];
 
         //call avoidDuplicationOfUniqueData method using good credentials and assertFalse
-        $this->assertFalse($trait->avoidDuplicationOfUniqueData($good1, $user->getAttributes(),$user->getClassName()));
+        $this->assertFalse($trait->avoidDuplicationOfUniqueData($good1, $user->getSelfModelAttributes(),$user->getClassName()));
 
         //delete the user from db
         $user->delete();
 
         //call avoidDuplicationOfUniqueData method on bad credentials and assert true.
-        $this->assertTrue($trait->avoidDuplicationOfUniqueData($bad1, $user->getAttributes(), $user->getClassName()));
+        $this->assertTrue($trait->avoidDuplicationOfUniqueData($bad1, $user->getSelfModelAttributes(), $user->getClassName()));
 
     }
 
@@ -1117,7 +1117,7 @@ class TraitConcreteTest extends \TestCase {
     /**
      *Test method resizes an image, and returns the short and full paths to the new image.
      */
-    public function test_unidentifiedTrait_resizeAndStoreImage_method()
+    public function test_resourceHandlingTrait_resizeAndStoreImage_method()
     {
         //trait instance
         $trait = new TraitConcrete();
@@ -1165,6 +1165,20 @@ class TraitConcreteTest extends \TestCase {
         $trait->resizeAndStoreImage($textFile, $newWidth, $newHeight, 'uploads/large');
 
     }
+
+
+    /**
+     *Test method returns true if string passed in is in valid format, otherwise false.
+     */
+    public function test_validatorTrait_stringIsValid_method()
+    {
+        //if valid format
+            //return true
+        //if invalid format
+            //return false
+    }
+
+
 
 
 }

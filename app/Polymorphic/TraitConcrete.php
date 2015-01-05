@@ -21,6 +21,12 @@ class TraitConcrete {
          RepositoryTrait, ResponderTrait, ValidatorTrait, ResourceHandlingTrait;
 
 
+    public function stringIsValid()
+    {
+
+    }
+
+
 
 
 

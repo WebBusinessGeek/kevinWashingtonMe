@@ -22,13 +22,13 @@ class TagInternalService extends InternalService {
     public function store($credentialsOrAttributes = [])
     {
         //setup
-//        $passToStoreMethodIfValid = ['title' => $credentialsOrAttributes['title']];
+        $passToStoreMethodIfValid = ['title' => $credentialsOrAttributes['title']];
         $modelAttributes = $this->getModelAttributes();
 
         //run validations for data integrity
         if($this->modelAcceptsAttributes($credentialsOrAttributes,$modelAttributes)
-//            &&
-//            $this->checkMajorFormatsAreValid($passToStoreMethodIfValid, $modelAttributes)
+            &&
+            $this->checkMajorFormatsAreValid($passToStoreMethodIfValid, $modelAttributes)
         )
         {
             //create model, attach attributes, store in correct database table

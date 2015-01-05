@@ -52,7 +52,7 @@ abstract class InternalService {
      */
     public function getModelAttributes()
     {
-        return $this->model->getAttributes();
+        return $this->model->getSelfModelAttributes();
     }
 
 
