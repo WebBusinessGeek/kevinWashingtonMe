@@ -90,10 +90,13 @@ class ImageInternalService extends InternalService{
     }
 
 
-
-    public function index()
+    /**Returns all records as paginated results. 
+     * @param $paginationCount
+     * @return mixed
+     */
+    public function index($paginationCount)
     {
-
+        return parent::index($paginationCount);
     }
 
 

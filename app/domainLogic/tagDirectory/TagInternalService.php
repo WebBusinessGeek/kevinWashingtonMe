@@ -72,12 +72,16 @@ class TagInternalService extends InternalService {
     }
 
 
-    public function index()
+    public function index($paginationCount)
     {
-        // TODO: Implement index() method.
+        return parent::index($paginationCount);
     }
 
-    
+
+    /**Descendant 'Hook' for parent::update method validations.
+     * @param array $attributes
+     * @return array|mixed
+     */
     public function uniqueValidationLogic($attributes = array())
     {
         return ($this->modelAcceptsAttributes($attributes, $this->getModelAttributes()))? $attributes: $this->sendMessage('Invalid attributes given.');

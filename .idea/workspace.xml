@@ -26,11 +26,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="TagInternalService.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/domainLogic/tagDirectory/TagInternalService.php">
+          <file leaf-file-name="ImageInternalService.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.3597122" vertical-offset="905" max-vertical-offset="2150">
-                  <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+                <state vertical-scroll-proportion="0.43165466" vertical-offset="1825" max-vertical-offset="2700">
+                  <caret line="92" column="49" selection-start-line="92" selection-start-column="49" selection-end-line="92" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -40,11 +40,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="InternalService.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/Base/InternalService.php">
+          <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/routes.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7553957" vertical-offset="0" max-vertical-offset="5225">
-                  <caret line="32" column="121" selection-start-line="32" selection-start-column="121" selection-end-line="32" selection-end-column="121" />
+                <state vertical-scroll-proportion="0.64748204" vertical-offset="0" max-vertical-offset="695">
+                  <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -86,6 +86,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -196,7 +197,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,15 +231,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -273,13 +273,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -312,20 +312,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64748204" vertical-offset="0" max-vertical-offset="725">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="722">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ImageController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38848922" vertical-offset="105" max-vertical-offset="1000">
@@ -607,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50359714" vertical-offset="0" max-vertical-offset="695">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Polymorphic/ValidatorTrait.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4172662" vertical-offset="5360" max-vertical-offset="7100">
@@ -640,52 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48920864" vertical-offset="135" max-vertical-offset="1600">
           <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <marker date="1419012147000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1419012147000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder=" Stores Eloquent models in their respective database table and returns the stored instance. ..." />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder=" Returns model specified, otherwise throws an error. Will cause FATAL ERROR if class name cannot be found. ..." />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder=" Deletes Model passed in. Returns true if Model was deleted. ..." />
-            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25179857" vertical-offset="0" max-vertical-offset="2625">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1420480224000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420480224000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
-            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder=" @param $model_id ..." />
-            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
-            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Base/InternalService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7553957" vertical-offset="0" max-vertical-offset="5225">
-          <caret line="32" column="121" selection-start-line="32" selection-start-column="121" selection-end-line="32" selection-end-column="121" />
           <folding />
         </state>
       </provider>
@@ -694,33 +627,209 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.74820143" vertical-offset="3280" max-vertical-offset="4150">
           <caret line="159" column="23" selection-start-line="159" selection-start-column="23" selection-end-line="159" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Base/InternalService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50359714" vertical-offset="0" max-vertical-offset="5325">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <marker date="1420481873000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420481873000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1420481873000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420481873000" expanded="true" signature="-1:-1" placeholder="Test method returns a new resource instance from database if attributes are correct. ..." />
-            <marker date="1420481873000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420481873000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420481873000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420481873000" expanded="true" signature="-1:-1" placeholder="Test method returns specified tag instance if it exists, otherwise returns an error message.  ..." />
-            <marker date="1420481873000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420481873000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420481873000" expanded="true" signature="-1:-1" placeholder="Test method destroys specified instance if it exists, otherwise returns an error message. ..." />
-            <marker date="1420481873000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420481873000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420481873000" expanded="true" signature="-1:-1" placeholder="Test method returns an updated model instance if attributes passed are valid. ..." />
-            <marker date="1420481873000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420481873000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420481873000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420481873000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420489785000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420489785000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder=" Otherwise will return error message. ..." />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns error message. ..." />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder=" Allows children to 'hook into' parent::function by implementing their own uniqueDestroyLogic methods. ..." />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="Ensures requirements are set on services and their models. ..." />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder=" Returns $model's attributes as a multidimensional array. ..." />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder=" Return $model's class name. ..." />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder=" Returns true if all values and attributes are valid, otherwise false. ..." />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder=" Returns true if passed in Model instance is an actual instance, otherwise false. ..." />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder=" @param $potentialModel ..." />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420489785000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/PaginationServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.61870503" vertical-offset="530" max-vertical-offset="1225">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Indicates if loading of the provider is deferred. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Register the service provider. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the services provided by the provider. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/Paginator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.877697" vertical-offset="12525" max-vertical-offset="13600">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <marker date="1419281770000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" The pagination factory. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" The items being paginated. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" The total number of items. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Indicates if a pagination doing &quot;quick&quot; pagination has more items. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" The amount of items to show per page. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the current page for the request. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the last available page number. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" The number of the first item in this range. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" The number of the last item in this range. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" All of the additional query string values. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" The fragment to be appended to all URLs. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Create a new Paginator instance. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Setup the pagination context (current and last page). ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Calculate the current and last pages for this instance. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Calculate the first and last item number for this instance. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the current page for the request. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Determine if the given value is a valid page number. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the pagination links view. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get a URL for a given page number. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get / set the URL fragment to be appended to URLs. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Build the full fragment portion of a URL. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Add a query string value to the paginator. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Add an array of query string values. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Add a query string value to the paginator. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Determine if the paginator is doing &quot;quick&quot; pagination. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the current page for the request. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the last page that should be available. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the number of the first item on the paginator. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the number of the last item on the paginator. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the number of items to be displayed per page. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get a collection instance containing the items. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the items being paginated. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Set the items being paginated. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the total number of items in the collection. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Set the base URL in use by the paginator. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the pagination factory. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get an iterator for the items. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Determine if the list of items is empty or not. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the number of items for the current page. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Determine if the given item exists. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the item at the given offset. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Set the item at the given offset. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Unset the item at the given key. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the instance as an array. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Convert the object to its JSON representation. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Call a method on the underlying Collection ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64748204" vertical-offset="0" max-vertical-offset="695">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/domainLogic/tagDirectory/TagInternalService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3597122" vertical-offset="905" max-vertical-offset="2150">
-          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.64028776" vertical-offset="1305" max-vertical-offset="2250">
+          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+          <folding>
+            <marker date="1420490021000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420490021000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420490021000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420490021000" expanded="true" signature="-1:-1" placeholder=" @param array $credentialsOrAttributes ..." />
+            <marker date="1420490021000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420490021000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420490021000" expanded="true" signature="-1:-1" placeholder=" @param $model_id ..." />
+            <marker date="1420490021000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420490021000" expanded="true" signature="-1:-1" placeholder=" @param $model_id ..." />
+            <marker date="1420490021000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420490021000" expanded="true" signature="-1:-1" placeholder=" @param $model_id ..." />
+            <marker date="1420490021000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420490021000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420490021000" expanded="true" signature="-1:-1" placeholder=" @param array $attributes ..." />
+            <marker date="1420490021000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43165466" vertical-offset="1825" max-vertical-offset="2700">
+          <caret line="92" column="49" selection-start-line="92" selection-start-column="49" selection-end-line="92" selection-end-column="49" />
           <folding />
         </state>
       </provider>

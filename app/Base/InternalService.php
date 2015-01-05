@@ -24,7 +24,11 @@ abstract class InternalService {
 
     public $model;
 
-    abstract public function index();
+    public function index($paginationCount)
+    {
+        $model = $this->getModelClassName();
+        return $model::paginate($paginationCount);
+    }
 
     abstract public function store($credentialsOrAttributes =[]);
 
