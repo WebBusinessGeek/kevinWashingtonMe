@@ -72,6 +72,10 @@ class TagInternalService extends InternalService {
     }
 
 
+    /**Returns all tag instances in database paginated.
+     * @param $paginationCount
+     * @return mixed
+     */
     public function index($paginationCount)
     {
         return parent::index($paginationCount);
