@@ -86,18 +86,32 @@ class TagInternalServiceTest extends \TestCase{
     public function test_tagInternalService_destroy_method()
     {
         //service instance
+        $tagService = new TagInternalService();
 
         //create and store new instance
+        $good = [
+            'title' => 'tagInternalServiceDestroyMethodTest',
+
+        ];
+
+        $storeResponse = $tagService->store($good);
 
         //assert its indeed in database
+        $showResponse = $tagService->show($storeResponse->id);
+        $this->assertEquals($good['title'], $showResponse->title);
 
         //call destroy method on instance
+        $destroyResponse = $tagService->destroy($showResponse->id);
 
         //assert its no longer in database
+        $ensureNotInDB = Tag::find($showResponse->id);
+        $this->assertEquals(null, $ensureNotInDB);
 
         //call destroy method on bad id
+        $destroyResponseBad = $tagService->destroy('aaa');
 
         //assert error message
+        $this->assertEquals('Model not found.', $destroyResponseBad);
     }
 
 

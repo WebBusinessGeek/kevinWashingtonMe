@@ -51,15 +51,21 @@ class TagInternalService extends InternalService {
     }
 
 
+    /**Removes specified tag instance from database if it exists. Otherwise returns error message.
+     * @param $model_id
+     * @return mixed|string
+     */
     public function destroy($model_id)
     {
-       //attempt show
 
-       //check if instance was returned
-            //if not
-                // return error message
-            //if so
-                //delete logic
+        $potentialModel = $this->show($model_id);
+        if($this->isModelInstance($potentialModel))
+        {
+            return $this->deleteEloquentModelFromDatabase($potentialModel, $this->getModelClassName());
+        }
+
+        return $potentialModel;
+
     }
 
 
