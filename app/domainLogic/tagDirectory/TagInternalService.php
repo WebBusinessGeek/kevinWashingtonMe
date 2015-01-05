@@ -61,7 +61,11 @@ class TagInternalService extends InternalService {
     }
 
 
-
+    /**Updates the specified tag instance if it exists. Otherwise will throw an error message.
+     * @param $model_id
+     * @param array $attributes
+     * @return array|\Illuminate\Database\Eloquent\Model|string
+     */
     public function update($model_id, $attributes = array())
     {
         return parent::update($model_id, $attributes);
@@ -73,6 +77,7 @@ class TagInternalService extends InternalService {
         // TODO: Implement index() method.
     }
 
+    
     public function uniqueValidationLogic($attributes = array())
     {
         return ($this->modelAcceptsAttributes($attributes, $this->getModelAttributes()))? $attributes: $this->sendMessage('Invalid attributes given.');

@@ -28,6 +28,13 @@ abstract class InternalService {
 
     abstract public function store($credentialsOrAttributes =[]);
 
+    /**Parent update function. Updates the specified model if it exists and the attributes given are valid.
+     * Otherwise will return error message.
+     * Allows for 'hook' in for uniqueUpdateLogic and uniqueValidationLogic from descendants that extend this base class.
+     * @param $model_id
+     * @param array $attributes
+     * @return array|Model|string
+     */
     public function update($model_id, $attributes = array())
     {
 
