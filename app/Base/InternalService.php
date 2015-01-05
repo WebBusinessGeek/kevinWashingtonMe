@@ -28,7 +28,26 @@ abstract class InternalService {
 
     abstract public function store($credentialsOrAttributes =[]);
 
-    abstract public function update($model_id, $attributes = array());
+    public function update($model_id, $attributes = array())
+    {
+
+        $potentialModel = $this->show($model_id);
+
+        if($this->isModelInstance($potentialModel))
+        {
+
+            $validatedAttributes = $this->uniqueValidationLogic($attributes);
+
+            if(is_array($validatedAttributes))
+            {
+                $this->uniqueUpdateLogic();
+                return $this->storeEloquentModelInDatabase($this->addAttributesToExistingModel($potentialModel, $validatedAttributes));
+            }
+          return $validatedAttributes;
+        }
+
+        return $potentialModel;
+    }
 
 
     /**Parent show function. Retrieves and returns a specified instance if it exists.
@@ -173,6 +192,15 @@ abstract class InternalService {
         return '';
     }
 
+    public function uniqueValidationLogic($attributes = array())
+    {
+        return $attributes;
+    }
+
+    public function uniqueUpdateLogic()
+    {
+        return '';
+    }
 
 
 

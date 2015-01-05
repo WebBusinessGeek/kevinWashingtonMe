@@ -115,4 +115,53 @@ class TagInternalServiceTest extends \TestCase{
     }
 
 
+    /**
+     *Test method returns an updated model instance if attributes passed are valid.
+     * Otherwise should throw error message
+     */
+    public function test_tagInternalService_update_method()
+    {
+        //service instance
+        $tagService = new TagInternalService();
+
+        //create and store a new tag instance
+        $attr = [
+            'title' => 'tagInternalServiceUpdateMethodTest',
+        ];
+
+        $storeResponse = $tagService->store($attr);
+
+        //assert its in database and attributes are as expected
+        $fromDB = $tagService->show($storeResponse->id);
+        $this->assertEquals($attr['title'], $fromDB->title);
+
+        //call update method on the instance
+        $newAttr = [
+            'title' => 'tagInternalServiceUpdateMethodTestUpdated'
+        ];
+
+        $updateResponse = $tagService->update($storeResponse->id, $newAttr);
+
+        //assert that changes were made
+        $updatedFromDB = $tagService->show($storeResponse->id);
+        $this->assertEquals($newAttr['title'], $updatedFromDB->title);
+
+        //call update with bad attributes
+        $badAttr = [
+            'wrong' => 'someValue'
+        ];
+
+        //call update with bad id
+        $updateResponseBad1 = $tagService->update($storeResponse->id, $badAttr);
+        $updateResponseBad2 = $tagService->update('aaa', $attr);
+
+        //assert error messages
+        $this->assertEquals('Invalid attributes given.', $updateResponseBad1);
+        $this->assertEquals('Model not found.', $updateResponseBad2);
+
+        //clean up testing resources
+        Tag::destroy($storeResponse->id);
+    }
+
+
 }

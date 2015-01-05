@@ -64,7 +64,7 @@ class TagInternalService extends InternalService {
 
     public function update($model_id, $attributes = array())
     {
-        // TODO: Implement update() method.
+        return parent::update($model_id, $attributes);
     }
 
 
@@ -73,5 +73,9 @@ class TagInternalService extends InternalService {
         // TODO: Implement index() method.
     }
 
+    public function uniqueValidationLogic($attributes = array())
+    {
+        return ($this->modelAcceptsAttributes($attributes, $this->getModelAttributes()))? $attributes: $this->sendMessage('Invalid attributes given.');
+    }
 
 }

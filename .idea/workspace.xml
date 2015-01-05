@@ -26,11 +26,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="InternalService.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/Base/InternalService.php">
+          <file leaf-file-name="TagInternalServiceTest.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/tests/tagDirectory/TagInternalServiceTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.17985612" vertical-offset="1300" max-vertical-offset="4350">
-                  <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+                <state vertical-scroll-proportion="0.74820143" vertical-offset="3280" max-vertical-offset="4150">
+                  <caret line="159" column="44" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -40,11 +40,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="ImageInternalService.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
+          <file leaf-file-name="InternalService.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Base/InternalService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="3.3021584" vertical-offset="380" max-vertical-offset="2850">
-                  <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+                <state vertical-scroll-proportion="-4.8992805" vertical-offset="4355" max-vertical-offset="5050">
+                  <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -59,9 +59,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
     <option name="y" value="22" />
-    <option name="width" value="1494" />
+    <option name="width" value="1440" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -87,7 +86,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,6 +196,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,7 +258,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="22" width="1494" height="744" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -268,7 +267,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22222222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22222222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -530,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Polymorphic/RepositoryTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2733813" vertical-offset="535" max-vertical-offset="1600">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="6.2230215" vertical-offset="0" max-vertical-offset="26675">
@@ -597,7 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4676259" vertical-offset="75" max-vertical-offset="2375">
           <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -613,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43165466" vertical-offset="75" max-vertical-offset="1250">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,61 +636,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/tagDirectory/TagInternalServiceTest.php">
+    <entry file="file://$PROJECT_DIR$/app/Polymorphic/RepositoryTrait.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38848922" vertical-offset="2230" max-vertical-offset="2925">
-          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.48920864" vertical-offset="135" max-vertical-offset="1600">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <marker date="1420476634000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420476634000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1420476634000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420476634000" expanded="true" signature="-1:-1" placeholder="Test method returns a new resource instance from database if attributes are correct. ..." />
-            <marker date="1420476634000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420476634000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420476634000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420476634000" expanded="true" signature="-1:-1" placeholder="Test method returns specified tag instance if it exists, otherwise returns an error message.  ..." />
-            <marker date="1420476634000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420476634000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420476634000" expanded="true" signature="-1:-1" placeholder="Test method destroys specified instance if it exists, otherwise returns an error message. ..." />
-            <marker date="1420476634000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420476634000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domainLogic/tagDirectory/TagInternalService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64028776" vertical-offset="1230" max-vertical-offset="1925">
-          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
-          <folding>
-            <marker date="1420477592000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420477592000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420477592000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420477592000" expanded="true" signature="-1:-1" placeholder=" @param array $credentialsOrAttributes ..." />
-            <marker date="1420477592000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420477592000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420477592000" expanded="true" signature="-1:-1" placeholder=" @param $model_id ..." />
-            <marker date="1420477592000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420477592000" expanded="true" signature="-1:-1" placeholder=" @param $model_id ..." />
-            <marker date="1420477592000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420477592000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420477592000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419012147000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1419012147000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder=" Stores Eloquent models in their respective database table and returns the stored instance. ..." />
+            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder=" Returns model specified, otherwise throws an error. Will cause FATAL ERROR if class name cannot be found. ..." />
+            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder=" Deletes Model passed in. Returns true if Model was deleted. ..." />
+            <marker date="1419012147000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/ImageInternalService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.3021584" vertical-offset="380" max-vertical-offset="2850">
-          <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.25179857" vertical-offset="0" max-vertical-offset="2625">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1420480224000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420480224000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
+            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder=" @param $model_id ..." />
+            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
+            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420480224000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Base/InternalService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.17985612" vertical-offset="1300" max-vertical-offset="4350">
-          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        <state vertical-scroll-proportion="-4.8992805" vertical-offset="4355" max-vertical-offset="5050">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domainLogic/tagDirectory/TagInternalService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60431653" vertical-offset="730" max-vertical-offset="2025">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <marker date="1420481824000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420481824000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420481824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420481824000" expanded="true" signature="-1:-1" placeholder=" @param array $credentialsOrAttributes ..." />
+            <marker date="1420481824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420481824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420481824000" expanded="true" signature="-1:-1" placeholder=" @param $model_id ..." />
+            <marker date="1420481824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420481824000" expanded="true" signature="-1:-1" placeholder=" @param $model_id ..." />
+            <marker date="1420481824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420481824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420481824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420481824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/tagDirectory/TagInternalServiceTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74820143" vertical-offset="3280" max-vertical-offset="4150">
+          <caret line="159" column="44" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="44" />
           <folding />
         </state>
       </provider>

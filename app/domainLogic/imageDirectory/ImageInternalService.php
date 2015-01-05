@@ -75,15 +75,6 @@ class ImageInternalService extends InternalService{
     public function update($model_id, $attributes = array())
     {
 
-        $potentialModel = $this->show($model_id);
-
-        if($this->isModelInstance($potentialModel))
-        {
-
-            //update logic
-        }
-
-        return $potentialModel;
     }
 
 
