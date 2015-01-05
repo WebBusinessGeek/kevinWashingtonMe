@@ -226,7 +226,7 @@ trait ValidatorTrait {
     {
         $falseCounter = 0;
         $formatCheck = $this->getModelAttributeConfiguration($modelAttributes, 'format');
-        $blockFormatCheck = ['exists'];
+        $blockFormatCheck = ['exists', 'string'];
 
         foreach($credentialsToCheck as $key => $value)
         {

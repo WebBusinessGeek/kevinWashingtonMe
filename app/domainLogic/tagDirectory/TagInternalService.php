@@ -19,16 +19,19 @@ class TagInternalService extends InternalService {
     }
 
 
+    /**Creates and stores a new tag instance in database if attributes passed in are valid. Otherwise returns error message.
+     * @param array $credentialsOrAttributes
+     * @return \Illuminate\Database\Eloquent\Model|mixed
+     */
     public function store($credentialsOrAttributes = [])
     {
         //setup
-        $passToStoreMethodIfValid = ['title' => $credentialsOrAttributes['title']];
         $modelAttributes = $this->getModelAttributes();
 
         //run validations for data integrity
         if($this->modelAcceptsAttributes($credentialsOrAttributes,$modelAttributes)
             &&
-            $this->checkMajorFormatsAreValid($passToStoreMethodIfValid, $modelAttributes)
+            $this->checkMajorFormatsAreValid($credentialsOrAttributes, $modelAttributes)
         )
         {
             //create model, attach attributes, store in correct database table
@@ -38,15 +41,25 @@ class TagInternalService extends InternalService {
         return $this->sendMessage('Invalid attributes sent to method.');
     }
 
+    /**Retrieves the specified tag instance from the database if it exists, otherwise returns an error message.
+     * @param $model_id
+     * @return string
+     */
     public function show($model_id)
     {
-        // TODO: Implement show() method.
+       return $this->getEloquentModelFromDatabase($model_id, $this->getModelClassName());
     }
 
 
     public function destroy($model_id)
     {
-        // TODO: Implement destroy() method.
+       //attempt show
+
+       //check if instance was returned
+            //if not
+                // return error message
+            //if so
+                //delete logic
     }
 
 

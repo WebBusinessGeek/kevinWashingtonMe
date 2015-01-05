@@ -1167,16 +1167,7 @@ class TraitConcreteTest extends \TestCase {
     }
 
 
-    /**
-     *Test method returns true if string passed in is in valid format, otherwise false.
-     */
-    public function test_validatorTrait_stringIsValid_method()
-    {
-        //if valid format
-            //return true
-        //if invalid format
-            //return false
-    }
+
 
 
 
