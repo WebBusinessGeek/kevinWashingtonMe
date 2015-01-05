@@ -90,7 +90,7 @@ class ImageInternalService extends InternalService{
     }
 
 
-    /**Returns all records as paginated results. 
+    /**Returns all records as paginated results.
      * @param $paginationCount
      * @return mixed
      */

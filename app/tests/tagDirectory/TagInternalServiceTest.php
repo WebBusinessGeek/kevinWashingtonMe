@@ -12,6 +12,7 @@ namespace tests\tagDirectory;
 use App\DomainLogic\TagDirectory\Tag;
 use App\DomainLogic\TagDirectory\TagInternalService;
 use Illuminate\Foundation\Testing\TestCase;
+use Illuminate\Support\Facades\Paginator;
 
 class TagInternalServiceTest extends \TestCase{
 
@@ -161,6 +162,43 @@ class TagInternalServiceTest extends \TestCase{
 
         //clean up testing resources
         Tag::destroy($storeResponse->id);
+    }
+
+    /**
+     *Test method returns a paginator class instance with correct number of items.
+     */
+    public function test_tagInternalService_index_method()
+    {
+        //service instance
+        $tagService = new TagInternalService();
+
+        $paginationCount = 6;
+        $paginatorClass = 'Illuminate\Pagination\Paginator';
+
+        //fake data
+        $tags = [];
+        foreach(range(1, 20) as $index)
+        {
+           array_push($tags,
+               Tag::create([
+                   'title' => 'tagNumber' . $index,
+               ]));
+        };
+
+        //call index method
+        $indexResponse = $tagService->index($paginationCount);
+
+        //assert paginator instance
+        $this->assertEquals(get_class($indexResponse),$paginatorClass);
+
+        //assert amount of items return in the collection
+        $this->assertEquals(count($indexResponse), $paginationCount);
+
+        //delete testing resources
+        foreach($tags as $tag)
+        {
+            Tag::destroy($tag->id);
+        }
     }
 
 

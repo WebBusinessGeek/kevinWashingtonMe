@@ -14,7 +14,7 @@
 Route::get('/', function()
 {
     return View::make('hello');
-
+//
 //    foreach(range(1,15) as $index)
 //    {
 //        \App\DomainLogic\TagDirectory\Tag::create([
@@ -23,5 +23,5 @@ Route::get('/', function()
 //    }
 //
 //    $tagService = new \App\DomainLogic\TagDirectory\TagInternalService();
-//    dd(count($tagService->index(6)->getItems()));
+//    dd($tagService->index(6));
 });
