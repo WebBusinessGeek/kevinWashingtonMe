@@ -43,7 +43,7 @@ class TagInternalServiceTest extends \TestCase{
 
         //call store method on bad attributes and assert error message
         $storeMethodCallResponseBad = $tagService->store($bad);
-        $this->assertEquals('Invalid attributes sent to method.', $storeMethodCallResponseBad);
+        $this->assertEquals('Invalid attributes sent to store method.', $storeMethodCallResponseBad);
 
         //delete all resources
         Tag::destroy($storeMethodCallResponse->id);

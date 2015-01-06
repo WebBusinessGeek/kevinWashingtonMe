@@ -63,7 +63,7 @@ class ImageInternalService extends InternalService{
 
 
 
-    public function uniqueDestroyLogic(Model $model)
+    public function runUniqueDestroyLogic(Model $model)
     {
         foreach($this->getModelDestroyableAttributes() as $attribute)
         {

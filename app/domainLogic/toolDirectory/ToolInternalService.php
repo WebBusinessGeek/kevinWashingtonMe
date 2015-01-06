@@ -20,20 +20,6 @@ class ToolInternalService extends InternalService{
         $this->model = new Tag();
     }
 
-    public function store($credentialsOrAttributes = [])
-    {
-        //validate attributes
-
-            //if all good
-
-                //add attributes to new model
-                //save model to database
-                //return model
-
-            //if not good
-
-                //return error message
-    }
 
 
 }

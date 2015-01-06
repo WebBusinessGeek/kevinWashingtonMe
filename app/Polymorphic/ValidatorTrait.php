@@ -225,15 +225,15 @@ trait ValidatorTrait {
     public function checkMajorFormatsAreValid($credentialsToCheck = array(), $modelAttributes = array())
     {
         $falseCounter = 0;
-        $formatCheck = $this->getModelAttributeConfiguration($modelAttributes, 'format');
+        $formatValuesForAttributes = $this->getModelAttributeConfiguration($modelAttributes, 'format');
         $blockFormatCheck = ['exists', 'string'];
 
-        foreach($credentialsToCheck as $key => $value)
+        foreach($credentialsToCheck as $attributeName => $attributeValue)
         {
-            if(!in_array($formatCheck[$key], $blockFormatCheck))
+            if(isset($formatValuesForAttributes[$attributeName]) && !in_array($formatValuesForAttributes[$attributeName], $blockFormatCheck))
             {
-                $formattingMethod = $formatCheck[$key] .'isValid';
-                ($this->$formattingMethod($value)) ? : $falseCounter++;
+                $dynamicValidationMethodToCall = $formatValuesForAttributes[$attributeName] .'isValid';
+                ($this->$dynamicValidationMethodToCall($attributeValue)) ? : $falseCounter++;
             }
 
         }

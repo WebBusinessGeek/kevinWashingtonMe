@@ -35,7 +35,14 @@ abstract class InternalService {
         }
     }
 
-    /**Returns all instances paginated according to the parameter passed as an argument.
+
+    /****************************************************************************************************************/
+    /*                      INDEX - STORE - SHOW - UPDATE - DESTROY ParentMethods                                   */
+    /****************************************************************************************************************/
+
+
+
+    /**Returns all instances paginated according to the parameter passed as the argument: $paginationCount.
      * @param $paginationCount
      * @return mixed
      */
@@ -46,23 +53,40 @@ abstract class InternalService {
     }
 
 
+    /**Parent store function. Creates and returns a new instance if attributes passed are valid.
+     * Otherwise returns an error message.
+     * @param array $credentialsOrAttributes
+     * @return Model|mixed
+     */
     public function store($credentialsOrAttributes =[])
     {
+        $modelAttributes = $this->getModelAttributes();
 
-        //run validations
-            //checkMajorFormatsAreValid
-            //checkModelAcceptsAttributes
-            //checkUniqueValidationLogic *HOOK FOR DESCENDANTS
-
-                //if good
-                    //runUniquePreAttributeAddingLogic * HOOK / Allows descendants to run any logic they need to before adding attributes
-                    //runUniqueAttributeManipulationLogic * HOOK / SHOULD RETURN $attributes to be used in next method below.
-                    //addAttributesToNewModel //should use the above $attributes returned ^
-                    //storeModelInDatabase // should use the above $model return ^
-
-                //if bad
-                    //return $this->sendMessage('Invalid attributes sent.')
+        if( $this->checkMajorFormatsAreValid($credentialsOrAttributes, $modelAttributes) &&
+            $this->checkModelAcceptsAttributes($credentialsOrAttributes, $modelAttributes) &&
+            /*HOOK*/ $this->checkUniqueValidationLogicAndReturnBoolean($credentialsOrAttributes, $modelAttributes))//HOOK - Implement any validation logic that should be ran by overriding this method in descendant class! Must return a boolean!
+        {
+            /*HOOK*/ $this->runUniquePreAttributeAddingLogic();//HOOK - Implement any logic that should be ran before adding attributes in by overriding this method in descendant class! Should not return anything for usage!
+            /*HOOK*/ $manipulatedAttributes = $this->runUniqueAttributeManipulationLogic($credentialsOrAttributes);//HOOK - Implement any logic that should be ran on the attributes before they are added to a new model by overriding this method on descendant class! Must return $attributes!
+            return $this->storeEloquentModelInDatabase($this->addAttributesToNewModel($manipulatedAttributes, $this->getModelClassName()));
+        }
+        return $this->sendMessage('Invalid attributes sent to store method.');
     }
+
+
+
+    /**Parent show function. Retrieves and returns a specified instance if it exists.
+     * Otherwise returns error message.
+     * @param $model_id
+     * @return string
+     */
+    public function show($model_id)
+    {
+        $model = $this->getEloquentModelFromDatabase($model_id, $this->getModelClassName());
+        return /*HOOK*/ $this->runUniqueLogicBeforeModelIsReturned($model);//HOOK - Implement any logic that should be ran on model before its returned in the descendant class by overriding this method. Method must return the Model to be compatible!
+    }
+
+
 
     /**Parent update function. Updates the specified model if it exists and the attributes given are valid.
      * Otherwise will return error message.
@@ -73,35 +97,21 @@ abstract class InternalService {
      */
     public function update($model_id, $attributes = array())
     {
-
         $potentialModel = $this->show($model_id);
 
         if($this->isModelInstance($potentialModel))
         {
-
-            $validatedAttributes = $this->uniqueValidationLogic($attributes);
-
+            $validatedAttributes = /*HOOK*/ $this->runUniqueValidationLogicAndReturnAttributes($attributes);//HOOK - Implement any unique validation logic that should be ran by overriding this method on the descendant class. Should return attributes or error message to be compatible!
             if(is_array($validatedAttributes))
             {
-                $this->uniqueUpdateLogic();
+                /*HOOK*/$this->runUniqueUpdateLogic();//HOOK - Implement any unique update logic that should be ran by overriding this method in the descendant class. Should not return anything for usage!
                 return $this->storeEloquentModelInDatabase($this->addAttributesToExistingModel($potentialModel, $validatedAttributes));
             }
           return $validatedAttributes;
         }
-
         return $potentialModel;
     }
 
-
-    /**Parent show function. Retrieves and returns a specified instance if it exists.
-     * Otherwise returns error message.
-     * @param $model_id
-     * @return string
-     */
-    public function show($model_id)
-   {
-       return $this->getEloquentModelFromDatabase($model_id, $this->getModelClassName());
-   }
 
 
     /**Parent destroy function. Removes specified instance from database.
@@ -114,12 +124,62 @@ abstract class InternalService {
         $potentialModel = $this->show($model_id);
         if($this->isModelInstance($potentialModel))
         {
-            $this->uniqueDestroyLogic($potentialModel);
+            /*HOOK*/$this->runUniqueDestroyLogic($potentialModel);//HOOK - Implement any unique destroy logic by overriding this method on the descendant class. Should not return anything for usage!
             return $this->deleteEloquentModelFromDatabase($potentialModel, $this->getModelClassName());
         }
 
         return $potentialModel;
     }
+
+
+    /****************************************************************************************************************/
+    /*                                           HOOKMethods                                                         */
+    /****************************************************************************************************************/
+
+
+
+    public function runUniqueDestroyLogic(Model $model)
+    {
+        return '';
+    }
+
+    public function runUniqueValidationLogicAndReturnAttributes($attributes = array())
+    {
+        return $attributes;
+    }
+
+    public function checkUniqueValidationLogicAndReturnBoolean($attributes = array())
+    {
+        return true;
+    }
+
+    public function runUniqueUpdateLogic()
+    {
+        return '';
+    }
+
+    public function runUniquePreAttributeAddingLogic()
+    {
+        return '';
+    }
+
+    public function runUniqueAttributeManipulationLogic($attributes = array())
+    {
+        return $attributes;
+    }
+
+
+    public function runUniqueLogicBeforeModelIsReturned($model)
+    {
+        return $model;
+    }
+
+
+
+    /****************************************************************************************************************/
+    /*                                      HelperMethods                                                           */
+    /****************************************************************************************************************/
+
 
 
 
@@ -142,7 +202,6 @@ abstract class InternalService {
         return $this->model->getClassName();
     }
 
-
     /**
      * Returns true if all values and attributes are valid, otherwise false.
      * No tests for function directly!
@@ -151,12 +210,13 @@ abstract class InternalService {
      */
     public function checkAttributes($attributes = array())
     {
-       return (
-        $this->checkModelAcceptsAttributes($attributes, $this->getModelAttributes()) &&
-        $this->modelNonNullableAttributesSet($attributes, $this->getModelAttributes()) &&
-        $this->checkMajorFormatsAreValid($attributes, $this->getModelAttributes()) &&
-        $this->avoidDuplicationOfUniqueData($attributes, $this->getModelAttributes(), $this->getModelClassName())
-       == true ) ? :false;
+        $modelAttributes = $this->getModelAttributes();
+
+        return ($this->checkModelAcceptsAttributes($attributes, $modelAttributes) &&
+                $this->modelNonNullableAttributesSet($attributes, $modelAttributes) &&
+                $this->checkMajorFormatsAreValid($attributes, $modelAttributes) &&
+                $this->avoidDuplicationOfUniqueData($attributes, $modelAttributes, $this->getModelClassName()))
+            ? : false;
 
     }
 
@@ -220,20 +280,21 @@ abstract class InternalService {
 
 
 
-    public function uniqueDestroyLogic(Model $model)
-    {
-        return '';
-    }
 
-    public function uniqueValidationLogic($attributes = array())
-    {
-        return $attributes;
-    }
 
-    public function uniqueUpdateLogic()
-    {
-        return '';
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
