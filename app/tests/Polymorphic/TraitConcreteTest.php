@@ -107,12 +107,12 @@ class TraitConcreteTest extends \TestCase {
         ];
 
         //call modelAcceptsAttributes method on good arrays and assert true
-        $this->assertTrue($trait->modelAcceptsAttributes($good1, $arrayToMatch));
-        $this->assertTrue($trait->modelAcceptsAttributes($good2, $arrayToMatch));
+        $this->assertTrue($trait->checkModelAcceptsAttributes($good1, $arrayToMatch));
+        $this->assertTrue($trait->checkModelAcceptsAttributes($good2, $arrayToMatch));
 
         //call modelAcceptsAttributes method on bad arrays and assert false
-        $this->assertFalse($trait->modelAcceptsAttributes($bad1, $arrayToMatch));
-        $this->assertFalse($trait->modelAcceptsAttributes($bad2, $arrayToMatch));
+        $this->assertFalse($trait->checkModelAcceptsAttributes($bad1, $arrayToMatch));
+        $this->assertFalse($trait->checkModelAcceptsAttributes($bad2, $arrayToMatch));
     }
 
 

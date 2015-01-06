@@ -24,13 +24,45 @@ abstract class InternalService {
 
     public $model;
 
+    /**
+     *Ensures requirements are set on services and their models.
+     */
+    public function __construct()
+    {
+        if($this->model == null || $this->model->modelAttributes = null)
+        {
+            throw new MissingMandatoryParametersException('No model on class or no attributes on model');
+        }
+    }
+
+    /**Returns all instances paginated according to the parameter passed as an argument.
+     * @param $paginationCount
+     * @return mixed
+     */
     public function index($paginationCount)
     {
         $model = $this->getModelClassName();
         return $model::paginate($paginationCount);
     }
 
-    abstract public function store($credentialsOrAttributes =[]);
+
+    public function store($credentialsOrAttributes =[])
+    {
+
+        //run validations
+            //checkMajorFormatsAreValid
+            //checkModelAcceptsAttributes
+            //checkUniqueValidationLogic *HOOK FOR DESCENDANTS
+
+                //if good
+                    //runUniquePreAttributeAddingLogic * HOOK / Allows descendants to run any logic they need to before adding attributes
+                    //runUniqueAttributeManipulationLogic * HOOK / SHOULD RETURN $attributes to be used in next method below.
+                    //addAttributesToNewModel //should use the above $attributes returned ^
+                    //storeModelInDatabase // should use the above $model return ^
+
+                //if bad
+                    //return $this->sendMessage('Invalid attributes sent.')
+    }
 
     /**Parent update function. Updates the specified model if it exists and the attributes given are valid.
      * Otherwise will return error message.
@@ -89,16 +121,6 @@ abstract class InternalService {
         return $potentialModel;
     }
 
-    /**
-     *Ensures requirements are set on services and their models.
-     */
-    public function __construct()
-    {
-        if($this->model == null || $this->model->modelAttributes = null)
-        {
-            throw new MissingMandatoryParametersException('No model on class or no attributes on model');
-        }
-    }
 
 
     /**
@@ -130,7 +152,7 @@ abstract class InternalService {
     public function checkAttributes($attributes = array())
     {
        return (
-        $this->modelAcceptsAttributes($attributes, $this->getModelAttributes()) &&
+        $this->checkModelAcceptsAttributes($attributes, $this->getModelAttributes()) &&
         $this->modelNonNullableAttributesSet($attributes, $this->getModelAttributes()) &&
         $this->checkMajorFormatsAreValid($attributes, $this->getModelAttributes()) &&
         $this->avoidDuplicationOfUniqueData($attributes, $this->getModelAttributes(), $this->getModelClassName())

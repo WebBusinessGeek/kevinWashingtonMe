@@ -10,8 +10,15 @@ namespace App\DomainLogic\ToolDirectory;
 
 
 use App\Base\InternalService;
+use App\DomainLogic\TagDirectory\Tag;
 
 class ToolInternalService extends InternalService{
+
+
+    public function __construct()
+    {
+        $this->model = new Tag();
+    }
 
     public function store($credentialsOrAttributes = [])
     {
@@ -28,24 +35,5 @@ class ToolInternalService extends InternalService{
                 //return error message
     }
 
-    public function show($model_id)
-    {
-        return parent::show($model_id);
-    }
 
-    public function update($model_id, $attributes = array())
-    {
-        return parent::update($model_id, $attributes);
-    }
-
-
-    public function destroy($model_id)
-    {
-        return parent::destroy($model_id);
-    }
-
-    public function index($paginationCount)
-    {
-        return parent::index($paginationCount);
-    }
 }

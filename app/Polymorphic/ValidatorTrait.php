@@ -21,7 +21,7 @@ trait ValidatorTrait {
      * @param $modelAttributes
      * @return bool
      */
-    public function modelAcceptsAttributes($arrayToCheck, $modelAttributes)
+    public function checkModelAcceptsAttributes($arrayToCheck, $modelAttributes)
     {
         $falseCounter = 0;
 

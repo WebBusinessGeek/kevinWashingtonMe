@@ -61,43 +61,6 @@ class ImageInternalService extends InternalService{
     }
 
 
-    /**Returns specified Image resource from database if it exists, otherwise returns an error message.
-     * @param $model_id
-     * @return string
-     */
-    public function show($model_id)
-    {
-        return parent::show($model_id);
-    }
-
-
-
-    public function update($model_id, $attributes = array())
-    {
-
-    }
-
-
-
-    /**Removes an Image model resource from the database table along with its attached images if the resource exists.
-     * Otherwise returns an error message.
-     * @param $model_id
-     * @return mixed|string
-     */
-    public function destroy($model_id)
-    {
-      return parent::destroy($model_id);
-    }
-
-
-    /**Returns all records as paginated results.
-     * @param $paginationCount
-     * @return mixed
-     */
-    public function index($paginationCount)
-    {
-        return parent::index($paginationCount);
-    }
 
 
     public function uniqueDestroyLogic(Model $model)

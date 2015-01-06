@@ -29,7 +29,7 @@ class TagInternalService extends InternalService {
         $modelAttributes = $this->getModelAttributes();
 
         //run validations for data integrity
-        if($this->modelAcceptsAttributes($credentialsOrAttributes,$modelAttributes)
+        if($this->checkModelAcceptsAttributes($credentialsOrAttributes,$modelAttributes)
             &&
             $this->checkMajorFormatsAreValid($credentialsOrAttributes, $modelAttributes)
         )
@@ -41,45 +41,6 @@ class TagInternalService extends InternalService {
         return $this->sendMessage('Invalid attributes sent to method.');
     }
 
-    /**Retrieves the specified tag instance from the database if it exists, otherwise returns an error message.
-     * @param $model_id
-     * @return string
-     */
-    public function show($model_id)
-    {
-        return parent::show($model_id);
-    }
-
-
-    /**Removes specified tag instance from database if it exists. Otherwise returns error message.
-     * @param $model_id
-     * @return mixed|string
-     */
-    public function destroy($model_id)
-    {
-       return parent::destroy($model_id);
-    }
-
-
-    /**Updates the specified tag instance if it exists. Otherwise will throw an error message.
-     * @param $model_id
-     * @param array $attributes
-     * @return array|\Illuminate\Database\Eloquent\Model|string
-     */
-    public function update($model_id, $attributes = array())
-    {
-        return parent::update($model_id, $attributes);
-    }
-
-
-    /**Returns all tag instances in database paginated.
-     * @param $paginationCount
-     * @return mixed
-     */
-    public function index($paginationCount)
-    {
-        return parent::index($paginationCount);
-    }
 
 
     /**Descendant 'Hook' for parent::update method validations.
@@ -88,7 +49,7 @@ class TagInternalService extends InternalService {
      */
     public function uniqueValidationLogic($attributes = array())
     {
-        return ($this->modelAcceptsAttributes($attributes, $this->getModelAttributes()))? $attributes: $this->sendMessage('Invalid attributes given.');
+        return ($this->checkModelAcceptsAttributes($attributes, $this->getModelAttributes()))? $attributes: $this->sendMessage('Invalid attributes given.');
     }
 
 }
