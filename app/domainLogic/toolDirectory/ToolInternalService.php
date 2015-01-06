@@ -17,7 +17,7 @@ class ToolInternalService extends InternalService{
 
     public function __construct()
     {
-        $this->model = new Tag();
+        $this->model = new Tool();
     }
 
 

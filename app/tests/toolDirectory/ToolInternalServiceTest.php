@@ -26,7 +26,7 @@ class ToolInternalServiceTest extends \TestCase{
 
         //good attributes to add to new model
         $good = [
-            'title' => 'toolInternalServiceShowMethodTest',
+            'title' => 'toolInternalServiceStoreMethodTest',
         ];
 
         //call store on good attributes
@@ -56,11 +56,48 @@ class ToolInternalServiceTest extends \TestCase{
     }
 
     /**
-     *
+     *Test method retrieves specified instance from database table if it exists.
+     * Otherwise should return error message.
      */
     public function test_toolInternalService_show_method()
     {
+        //service instance
+        $toolService = new ToolInternalService();
 
+        //create new tool instance
+        $good = [
+            'title' => 'toolInternalServiceShowMethodTest',
+        ];
+
+        $storeResponse = $toolService->store($good);
+
+        //prove its in database
+        $proofTestInstanceIsInDatabase = Tool::find($storeResponse->id);
+        $this->assertEquals($good['title'], $proofTestInstanceIsInDatabase->title);
+
+        //call show method using new instances id
+        $showResponse = $toolService->show($proofTestInstanceIsInDatabase->id);
+
+        //assert
+
+            //instance of model returned
+            $this->assertTrue($toolService->isModelInstance($showResponse));
+
+            //attributes are as expected
+            $this->assertEquals($good['title'], $showResponse->title);
+
+        //call show method on bad id to invoke error message
+        $bad = [
+            'wrong' => 'someTitle',
+        ];
+
+        $showResponseBad = $toolService->show('aaa');
+
+        //assert error message
+        $this->assertEquals('Model not found.', $showResponseBad);
+
+        //cleanup
+        Tool::destroy($proofTestInstanceIsInDatabase->id);
     }
 
     /**
