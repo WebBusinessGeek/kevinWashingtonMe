@@ -105,7 +105,7 @@ abstract class InternalService {
             $validatedAttributes = /*HOOK*/ $this->runUniqueValidationLogicAndReturnAttributes($attributes);//HOOK - Implement any unique validation logic that should be ran by overriding this method on the descendant class. Should return attributes or error message to be compatible!
             if(is_array($validatedAttributes))
             {
-                /*HOOK*/$this->runUniqueUpdateLogic();//HOOK - Implement any unique update logic that should be ran by overriding this method in the descendant class. Should not return anything for usage!
+                /*HOOK*/$this->runUniqueUpdateLogic($potentialModel, $validatedAttributes);//HOOK - Implement any unique update logic that should be ran by overriding this method in the descendant class. Should not return anything for usage!
                 return $this->storeEloquentModelInDatabase($this->addAttributesToExistingModel($potentialModel, $validatedAttributes));
             }
           return $validatedAttributes;
