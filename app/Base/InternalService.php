@@ -66,8 +66,9 @@ abstract class InternalService {
             $this->checkModelAcceptsAttributes($credentialsOrAttributes, $modelAttributes) &&
             /*HOOK*/ $this->checkUniqueValidationLogicAndReturnBoolean($credentialsOrAttributes, $modelAttributes))//HOOK - Implement any validation logic that should be ran by overriding this method in descendant class! Must return a boolean!
         {
-            /*HOOK*/ $this->runUniquePreAttributeAddingLogic();//HOOK - Implement any logic that should be ran before adding attributes in by overriding this method in descendant class! Should not return anything for usage!
+            /*HOOK*/ $this->runUniquePREAttributeManipulationLogic($credentialsOrAttributes);//HOOK - Implement any logic that should be ran before manipulating attributes by overriding this method in descendant class! Should not return anything for usage!
             /*HOOK*/ $manipulatedAttributes = $this->runUniqueAttributeManipulationLogic($credentialsOrAttributes);//HOOK - Implement any logic that should be ran on the attributes before they are added to a new model by overriding this method on descendant class! Must return $attributes!
+            /*HOOK*/ $this->runUniquePOSTAttributeManipulationLogic($credentialsOrAttributes, $manipulatedAttributes);//HOOK - Implement any logic that should be ran after attributes are manipulated to new model by overriding this method in descendant class! Should not return anything for usage!
             return $this->storeEloquentModelInDatabase($this->addAttributesToNewModel($manipulatedAttributes, $this->getModelClassName()));
         }
         return $this->sendMessage('Invalid attributes sent to store method.');
@@ -137,38 +138,72 @@ abstract class InternalService {
     /****************************************************************************************************************/
 
 
-
+    /**HOOK : Allows descendant to HOOK into PARENT::DESTROY method for custom destroy logic
+     * @param Model $model
+     * @return string
+     */
     public function runUniqueDestroyLogic(Model $model)
     {
         return '';
     }
 
+    /**HOOK : Allows descendant to HOOK into PARENT::method for custom validation logic and return attributes
+     * @param array $attributes
+     * @return array
+     */
     public function runUniqueValidationLogicAndReturnAttributes($attributes = array())
     {
         return $attributes;
     }
 
+    /**HOOK : Allows descendant to HOOK into PARENT::method for custom validation logic and returns boolean
+     * @param array $attributes
+     * @return bool
+     */
     public function checkUniqueValidationLogicAndReturnBoolean($attributes = array())
     {
         return true;
     }
 
+    /**HOOK : Allows descendant to HOOK into PARENT::UPDATE method for custom update logic.
+     * @return string
+     */
     public function runUniqueUpdateLogic()
     {
         return '';
     }
 
-    public function runUniquePreAttributeAddingLogic()
+    /**HOOK : Allows descendant to HOOK into PARENT::method for custom logic BEFORE attributes are manipulated.
+     * @return string
+     */
+    public function runUniquePREAttributeManipulationLogic()
     {
         return '';
     }
 
+    /**HOOK : Allows descendant to HOOK into PARENT::method for custom logic AFTER attributes are manipulated.
+     * @return string
+     */
+    public function runUniquePOSTAttributeManipulationLogic()
+    {
+        return '';
+    }
+
+
+    /**HOOK : Allows descendant to HOOK into PARENT::method for custom attribute manipulation logic.
+     * @param array $attributes
+     * @return array
+     */
     public function runUniqueAttributeManipulationLogic($attributes = array())
     {
         return $attributes;
     }
 
 
+    /**HOOK : Allows descendant to HOOK into PARENT::method for custom logic before model is returned from parent::method.
+     * @param $model
+     * @return mixed
+     */
     public function runUniqueLogicBeforeModelIsReturned($model)
     {
         return $model;
@@ -242,12 +277,21 @@ abstract class InternalService {
     }
 
 
+    /**
+     * @param $settingName
+     * @return mixed
+     */
     public function getModelAttributeWithSetting($settingName)
     {
         return $this->model->getAttributeWithSetting($settingName);
     }
 
 
+    /**
+     * @param $settingName
+     * @param $modelClassName
+     * @return mixed
+     */
     public function getSpecificModelAttributeWithSetting($settingName, $modelClassName)
     {
         $model = $this->createNewModel($modelClassName);
@@ -255,24 +299,36 @@ abstract class InternalService {
     }
 
 
+    /**
+     * @return mixed
+     */
     public function getModelDelimiter()
     {
         return $this->model->getDelimiter();
     }
 
 
+    /**
+     * @return mixed
+     */
     public function getModelLoginExpiration()
     {
         return $this->model->getLoginExpiration();
     }
 
 
+    /**
+     * @return mixed
+     */
     public function getModelHashAbleAttributes()
     {
         return $this->model->getHashAbleAttributes();
     }
 
 
+    /**
+     * @return mixed
+     */
     public function getModelDestroyableAttributes()
     {
         return $this->model->getDestroyableAttributes();

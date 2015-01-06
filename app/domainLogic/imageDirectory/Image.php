@@ -197,7 +197,24 @@ class Image extends Model {
 
             'key' => false,
 
-        ]
+        ],
+
+        9 =>[
+            'name' => 'image',
+
+            'format' => 'image',
+
+            'nullable' => false,
+
+            'unique' => false,
+
+            'exists' => null,
+
+            'identifier' => false,
+
+            'key' => false,
+
+        ],
 
 
 

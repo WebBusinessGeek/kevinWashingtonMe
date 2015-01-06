@@ -25,11 +25,11 @@ trait ValidatorTrait {
     {
         $falseCounter = 0;
 
-        $attrArray = $this->getModelAttributeNames($modelAttributes);
+        $acceptedAttributes = $this->getModelAttributeNames($modelAttributes);
 
-        foreach($arrayToCheck as $key => $value)
+        foreach($arrayToCheck as $checkIfAttributeIsAccepted => $value)
         {
-            (in_array($key, $attrArray)) ? : $falseCounter++;
+            (in_array($checkIfAttributeIsAccepted, $acceptedAttributes)) ? : $falseCounter++;
         }
 
         return($falseCounter > 0) ? false : true;
@@ -226,7 +226,7 @@ trait ValidatorTrait {
     {
         $falseCounter = 0;
         $formatValuesForAttributes = $this->getModelAttributeConfiguration($modelAttributes, 'format');
-        $blockFormatCheck = ['exists', 'string'];
+        $blockFormatCheck = ['exists', 'string', 'image'];
 
         foreach($credentialsToCheck as $attributeName => $attributeValue)
         {

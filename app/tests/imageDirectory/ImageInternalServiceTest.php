@@ -42,7 +42,7 @@ class ImageInternalServiceTest extends \TestCase {
 
         //call store method on bad attributes and assert error message
         $badResponse = $imageService->store($bad1);
-        $this->assertEquals('Not a valid image', $badResponse);
+        $this->assertEquals('Invalid attributes sent to store method.', $badResponse);
 
         //delete the image files created from testing.
         unlink($goodResponse->originalLongPath);
