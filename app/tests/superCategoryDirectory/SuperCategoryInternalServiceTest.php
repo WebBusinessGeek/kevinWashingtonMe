@@ -54,4 +54,25 @@ class SuperCategoryInternalServiceTest extends \TestCase {
         //cleanup
         SuperCategory::destroy($storeResponse->id);
     }
+
+    
+    public function test_superCategoryInternalService_show_method()
+    {
+
+    }
+
+    public function test_superCategoryInternalService_update_method()
+    {
+
+    }
+
+    public function test_superCategoryInternalService_destroy_method()
+    {
+
+    }
+
+    public function test_superCategoryInternalService_index_method()
+    {
+
+    }
 }
