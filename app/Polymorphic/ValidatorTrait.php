@@ -79,11 +79,11 @@ trait ValidatorTrait {
             'invalidCharacters' => "/[$%^&*()\-_+={}|\\[\]:;\"'<>?,.\/]/",
         ];
 
-        foreach($defaults as $key => $value)
+        foreach($defaults as $ruleToEnforce => $defaultValue)
         {
-            if(!isset(${$key}))
+            if(!isset(${$ruleToEnforce}))
             {
-                ${$key} = $value ;
+                ${$ruleToEnforce} = $defaultValue ;
             }
         }
 
