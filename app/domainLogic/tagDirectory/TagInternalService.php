@@ -20,13 +20,6 @@ class TagInternalService extends InternalService {
 
 
 
-    /**Descendant 'Hook' for parent::update method validations.
-     * @param array $attributes
-     * @return array|mixed
-     */
-    public function runUniqueValidationLogicAndReturnAttributes($attributes = array())
-    {
-        return ($this->checkModelAcceptsAttributes($attributes, $this->getModelAttributes()))? $attributes: $this->sendMessage('Invalid attributes given.');
-    }
+
 
 }

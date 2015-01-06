@@ -157,7 +157,7 @@ class TagInternalServiceTest extends \TestCase{
         $updateResponseBad2 = $tagService->update('aaa', $attr);
 
         //assert error messages
-        $this->assertEquals('Invalid attributes given.', $updateResponseBad1);
+        $this->assertEquals('Invalid attributes sent to update method.', $updateResponseBad1);
         $this->assertEquals('Model not found.', $updateResponseBad2);
 
         //clean up testing resources

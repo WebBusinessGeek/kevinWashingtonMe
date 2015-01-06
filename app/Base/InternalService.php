@@ -98,17 +98,22 @@ abstract class InternalService {
      */
     public function update($model_id, $attributes = array())
     {
+
         $potentialModel = $this->show($model_id);
 
         if($this->isModelInstance($potentialModel))
         {
+            $modelAttributes = $this->getModelAttributes();
             $validatedAttributes = /*HOOK*/ $this->runUniqueValidationLogicAndReturnAttributes($attributes);//HOOK - Implement any unique validation logic that should be ran by overriding this method on the descendant class. Should return attributes or error message to be compatible!
-            if(is_array($validatedAttributes))
+
+            if(is_array($validatedAttributes) &&
+                $this->checkModelAcceptsAttributes($attributes, $modelAttributes) &&
+                $this->checkMajorFormatsAreValid($attributes, $modelAttributes))
             {
                 /*HOOK*/$this->runUniqueUpdateLogic($potentialModel, $validatedAttributes);//HOOK - Implement any unique update logic that should be ran by overriding this method in the descendant class. Should not return anything for usage!
                 return $this->storeEloquentModelInDatabase($this->addAttributesToExistingModel($potentialModel, $validatedAttributes));
             }
-          return $validatedAttributes;
+          return $this->sendMessage('Invalid attributes sent to update method.');
         }
         return $potentialModel;
     }
