@@ -105,7 +105,24 @@ class ToolInternalServiceTest extends \TestCase{
      */
     public function test_toolInternalService_update_method()
     {
+        //service instance
 
+        //create and store a new tool instance
+
+        //assert
+
+            //its indeed in database
+            //attributes are expected
+
+        //call update method on instance
+
+        //assert changes were made to database instance
+
+        //call update with bad attributes
+
+        //assert error messages returned
+
+        //clean up
     }
 
     /**
