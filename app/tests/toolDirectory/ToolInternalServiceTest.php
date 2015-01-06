@@ -188,7 +188,7 @@ class ToolInternalServiceTest extends \TestCase{
     }
 
     /**
-     *Test method returns an instance of paginator class with correct amount of items. 
+     *Test method returns an instance of paginator class with correct amount of items.
      */
     public function test_toolInternalService_index_method()
     {
