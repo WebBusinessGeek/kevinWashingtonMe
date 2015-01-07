@@ -342,14 +342,38 @@ class CategoryInternalServiceTest extends \TestCase {
     /***********************************************************************************************************/
 
 
+    /**
+     *Test destroy method removes instance from database if id is correct.
+     */
     public function test_categoryInternalService_destroy_method_removes_instance_from_database_if_id_is_correct()
     {
+        //goodStoreResponse
+        $storeResponse = $this->goodStoreResponse();
+
+        //id for instance
+        $idToUseForInstance = $storeResponse->id;
+
+        //call destroy method
+        $this->service->destroy($idToUseForInstance);
+
+        //attempt to get instance from database
+        $fromDB = Category::find($idToUseForInstance);
+
+        //assert null
+        $this->assertEquals(null, $fromDB);
 
     }
 
+    /**
+     *Test destroy method returns an error message if bad id used. 
+     */
     public function test_categoryInternalService_destroy_method_returns_error_message_if_id_does_not_exist()
     {
+        //call destroy method on bad id
+        $destroyResponseBad = $this->service->destroy('aaa');
 
+        //assert error message
+        $this->assertEquals('Model not found.', $destroyResponseBad);
     }
 
 

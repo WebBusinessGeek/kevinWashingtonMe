@@ -28,8 +28,8 @@
       <file leaf-file-name="CategoryInternalServiceTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/tests/categoryDirectory/CategoryInternalServiceTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5323741" vertical-offset="7855" max-vertical-offset="10325">
-              <caret line="337" column="0" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.35971224" vertical-offset="9225" max-vertical-offset="10925">
+              <caret line="367" column="67" selection-start-line="367" selection-start-column="67" selection-end-line="367" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -799,8 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/categoryDirectory/CategoryInternalServiceTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5323741" vertical-offset="7855" max-vertical-offset="10325">
-          <caret line="337" column="0" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.35971224" vertical-offset="9225" max-vertical-offset="10925">
+          <caret line="367" column="67" selection-start-line="367" selection-start-column="67" selection-end-line="367" selection-end-column="67" />
           <folding />
         </state>
       </provider>
