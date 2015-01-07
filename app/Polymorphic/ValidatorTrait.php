@@ -264,16 +264,16 @@ trait ValidatorTrait {
      * @param $modelClassName
      * @return bool
      */
-    public function avoidDuplicationOfUniqueData($credentials = array(), $modelAttributes = array(), $modelClassName)
+    public function avoidDuplicationOfUniqueData($credentialsOrAttributes = array(), $modelAttributes = array(), $modelClassName)
     {
         $falseCounter = 0;
-        $uniqueCheck = $this->getModelSpecificAttributeValues($modelAttributes, 'unique');
+        $uniqueValuesForAttributesOnModel = $this->getModelSpecificAttributeValues($modelAttributes, 'unique');
 
-        foreach($credentials as $key => $value)
+        foreach($credentialsOrAttributes as $attributeName => $attributeValue)
         {
-            if($uniqueCheck[$key] == true)
+            if($uniqueValuesForAttributesOnModel[$attributeName] == true)
             {
-                ($this->dataIsUnique($value, $key, $modelClassName))? : $falseCounter++;
+                ($this->dataIsUnique($attributeValue, $attributeName, $modelClassName))? : $falseCounter++;
             }
         }
         return ($falseCounter > 0) ? false: true;

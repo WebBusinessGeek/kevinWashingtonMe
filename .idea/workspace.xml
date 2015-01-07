@@ -28,8 +28,8 @@
       <file leaf-file-name="ValidatorTrait.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Polymorphic/ValidatorTrait.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.705036" vertical-offset="5135" max-vertical-offset="7100">
-              <caret line="230" column="67" selection-start-line="230" selection-start-column="67" selection-end-line="230" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.74820143" vertical-offset="6305" max-vertical-offset="7100">
+              <caret line="278" column="49" selection-start-line="278" selection-start-column="49" selection-end-line="278" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -781,8 +781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Polymorphic/ValidatorTrait.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.705036" vertical-offset="5135" max-vertical-offset="7100">
-          <caret line="230" column="67" selection-start-line="230" selection-start-column="67" selection-end-line="230" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.74820143" vertical-offset="6305" max-vertical-offset="7100">
+          <caret line="278" column="49" selection-start-line="278" selection-start-column="49" selection-end-line="278" selection-end-column="49" />
           <folding />
         </state>
       </provider>
