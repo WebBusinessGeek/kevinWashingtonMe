@@ -295,6 +295,26 @@ class CategoryInternalServiceTest extends \TestCase {
      */
     public function test_categoryInternalService_update_method_returns_error_message_if_superCategory_owner_doesnt_exist()
     {
+        //goodStoreResponse
+        $storeResponse = $this->goodStoreResponse();
+        $idToUseForInstance = $storeResponse->id;
+
+        //new attributes - good title, bad supercategory_id
+        $newTitle = 'someTitle';
+        $superCategoryId = 'aaa';
+        $newAttributes = [
+            'title' => $newTitle,
+            'superCategory_id' => $superCategoryId,
+        ];
+
+        //call update method
+        $updateResponse = $this->service->update($idToUseForInstance,$newAttributes);
+
+        //assert error message
+        $this->assertEquals('Invalid attributes sent to update method.', $updateResponse);
+
+        //cleanup - category
+        Category::destroy($idToUseForInstance);
 
     }
 
@@ -303,7 +323,17 @@ class CategoryInternalServiceTest extends \TestCase {
      */
     public function test_categoryInternalService_update_method_returns_error_message_if_id_does_not_exist()
     {
+        //new attributes - good
+        $newAttributes = $this->returnGoodAttributes();
 
+        //call update with bad id
+        $updateResponse = $this->service->update('aaa', $newAttributes);
+
+        //assert error message
+        $this->assertEquals('Model not found.', $updateResponse);
+
+        //cleanup - superCategory
+        SuperCategory::destroy($newAttributes['superCategory_id']);
     }
 
 

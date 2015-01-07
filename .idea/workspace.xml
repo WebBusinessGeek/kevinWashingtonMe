@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ValidatorTrait.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Polymorphic/ValidatorTrait.php">
+      <file leaf-file-name="CategoryInternalServiceTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/tests/categoryDirectory/CategoryInternalServiceTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74820143" vertical-offset="6305" max-vertical-offset="7100">
-              <caret line="278" column="49" selection-start-line="278" selection-start-column="49" selection-end-line="278" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.5323741" vertical-offset="7855" max-vertical-offset="10325">
+              <caret line="337" column="0" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -594,14 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/domainLogic/categoryDirectory/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39568347" vertical-offset="225" max-vertical-offset="1800">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/domainLogic/tagDirectory/TagInternalService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.50359714" vertical-offset="0" max-vertical-offset="695">
@@ -719,70 +711,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Polymorphic/ValidatorTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.280576" vertical-offset="450" max-vertical-offset="7100">
+          <caret line="281" column="0" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
+          <folding>
+            <marker date="1420669075000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder=" Returns true if array passed in contains keys the model will accept as attributes. ..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder=" Returns true if mandatory values are set in arrayToCheck, otherwise false. ..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder=" Returns true if password is valid, false if password is not valid. ..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder=" Returns true is string to check equal to or greater than minimum length, otherwise false. ..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder=" Returns true if string contains the minimum amount of integers, otherwise false. ..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder=" Returns true if string contains the minimum amount of letters, otherwise false. ..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder=" Returns true if no invalid characters are found in the string, otherwise false. ..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder=" Returns true if email format is valid, otherwise false. ..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder=" @param UploadedFile $fileToCheck ..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder=" Returns true if format of ipAddress passed is valid, otherwise false. ..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder=" @param $fileExtension ..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder=" Returns true if instances specified exists, otherwise false. ..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder=" Returns true if most credentials are in valid format, otherwise false. ..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder=" Returns true if unique value is not present in database table already, otherwise false. ..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder=" Returns true if no duplicated data has been passed to a unique attribute, otherwise false. ..." />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420669075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domainLogic/categoryDirectory/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7194245" vertical-offset="0" max-vertical-offset="1800">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1420661377000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420661377000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420661377000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420661377000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420661377000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420661377000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420661377000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/domainLogic/categoryDirectory/CategoryInternalService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28057554" vertical-offset="55" max-vertical-offset="1050">
+        <state vertical-scroll-proportion="0.31654677" vertical-offset="30" max-vertical-offset="1050">
           <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
+          <folding>
+            <marker date="1420665134000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420665134000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420665134000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420665134000" expanded="true" signature="-1:-1" placeholder=" @param array $attributes ..." />
+            <marker date="1420665134000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420665134000" expanded="true" signature="-1:-1" placeholder=" @param array $attributes ..." />
+            <marker date="1420665134000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/categoryDirectory/CategoryInternalServiceTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4964029" vertical-offset="6530" max-vertical-offset="9575">
-          <caret line="283" column="30" selection-start-line="283" selection-start-column="30" selection-end-line="283" selection-end-column="30" />
-          <folding>
-            <marker date="1420668042000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420668042000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="Test method returns new category instance if attributes are valid. ..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="Test method saves new category instance in database if attributes are valid. ..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="Test method returns error message if superCategory referenced doesn't exist. ..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="Test method returns error message if attributenames passed to store method are invalid. ..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="Test method returns correct class instance if id is valid. ..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="Test method returns correct category instance if id is valid. ..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="Test method returns error message if id is invalid. ..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="Test update method returns instance of category class if attributes are correct. ..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="Test update method returns update instance if attributes are correct. ..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="Test update method saves changes to database. ..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="Test update method returns error message if attributes names are invalid. ..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="Test update method returns error message if superCategory owner doesnt exist. ..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="Test update method returns error message if bad id given. ..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Database\Eloquent\Model|mixed ..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder=" @return array ..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420668042000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Polymorphic/ValidatorTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74820143" vertical-offset="6305" max-vertical-offset="7100">
-          <caret line="278" column="49" selection-start-line="278" selection-start-column="49" selection-end-line="278" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.5323741" vertical-offset="7855" max-vertical-offset="10325">
+          <caret line="337" column="0" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
           <folding />
         </state>
       </provider>
