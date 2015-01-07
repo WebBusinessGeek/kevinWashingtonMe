@@ -205,9 +205,9 @@ class ToolInternalServiceTest extends \TestCase{
         $tools = [];
         foreach(range(1, 20) as $index)
         {
-            Tool::create([
+            array_push($tools, Tool::create([
                 'title' => 'toolNumber'.$index,
-            ]);
+            ]));
         }
         //call index method
         $indexResponse = $toolService->index($paginationCount);

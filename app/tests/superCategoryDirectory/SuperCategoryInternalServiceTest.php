@@ -55,24 +55,181 @@ class SuperCategoryInternalServiceTest extends \TestCase {
         SuperCategory::destroy($storeResponse->id);
     }
 
-    
+
+    /**
+     *Test method retrieves specified superCategory instance if it exists, otherwise should return error message.
+     */
     public function test_superCategoryInternalService_show_method()
     {
+        //service instance
+        $superCategoryService = new SuperCategoryInternalService();
 
+        //create and store new superCategory instance
+        $attributes = [
+            'title' => 'superCategoryInternalServiceShowMethodTest',
+        ];
+
+        $storeResponse = $superCategoryService->store($attributes);
+        $idToUseForInstance = $storeResponse->id;
+        //assert its indeed in database
+        $proofInstanceIsInDB = SuperCategory::find($idToUseForInstance);
+        $this->assertTrue($superCategoryService->isModelInstance($proofInstanceIsInDB));
+        $this->assertEquals($attributes['title'], $proofInstanceIsInDB->title);
+
+        //call show method
+        $showResponse = $superCategoryService->show($idToUseForInstance);
+
+        //assert attributes and type of show response
+        $this->assertTrue($superCategoryService->isModelInstance($showResponse));
+        $this->assertEquals($attributes['title'], $showResponse->title);
+
+        //call show method on bad id
+        $showResponseBad = $superCategoryService->show('aaa');
+
+        //assert error message
+        $this->assertEquals('Model not found.', $showResponseBad);
+
+        //cleanup
+        SuperCategory::destroy($idToUseForInstance);
     }
 
+
+    /**
+     *Test method updates a superCategory model instance if it exists and the attributes are valid.
+     * Otherwise should return an error message.
+     */
     public function test_superCategoryInternalService_update_method()
     {
+        //service instance
+        $superCategoryService = new SuperCategoryInternalService();
 
+        //create and store superCategory instance
+        $attributes = [
+            'title' => 'superCategoryInternalServiceUpdateMethodTest'
+        ];
+
+        $storeResponse = $superCategoryService->store($attributes);
+        $idToUseForInstance = $storeResponse->id;
+
+        //assert its indeed in database
+        $proofInstanceIsInDB = SuperCategory::find($idToUseForInstance);
+
+            //type
+            $this->assertTrue($superCategoryService->isModelInstance($proofInstanceIsInDB));
+
+            //attribute
+            $this->assertEquals($attributes['title'], $proofInstanceIsInDB->title);
+
+        //new attributes
+        $newAttributes = [
+            'title' => 'superCategoryInternalServiceUpdateMethodTest2'
+        ];
+
+        //call update method with new attributes
+        $updateResponse = $superCategoryService->update($idToUseForInstance, $newAttributes);
+
+        //assert changes
+        $proofInstanceWasUpdated = SuperCategory::find($idToUseForInstance);
+            //type
+            $this->assertTrue($superCategoryService->isModelInstance($proofInstanceWasUpdated));
+
+            //attribute
+            $this->assertEquals($newAttributes['title'], $proofInstanceWasUpdated->title);
+
+        //bad attributes
+        $badAttributes = [
+            'wrong' => 'someTitle',
+        ];
+
+        //call update method on bad attributes
+        $updateResponseBadAttributes = $superCategoryService->update($idToUseForInstance, $badAttributes);
+
+        //call update method on bad id and good attributes
+        $updateResponseBadModelId = $superCategoryService->update('aaa', $newAttributes);
+
+        //assert error messages
+        $this->assertEquals('Invalid attributes sent to update method.', $updateResponseBadAttributes);
+        $this->assertEquals('Model not found.', $updateResponseBadModelId);
+
+        //cleanup
+        SuperCategory::destroy($idToUseForInstance);
     }
 
     public function test_superCategoryInternalService_destroy_method()
     {
+        //service instance
+        $superCategoryService = new SuperCategoryInternalService();
+
+        //create and store new superCategory instance
+        $attributes = [
+            'title' => 'superCategoryInternalServiceDestoryMethodTest',
+        ];
+
+        $storeResponse = $superCategoryService->store($attributes);
+        $idToUseForInstance = $storeResponse->id;
+
+        //assert its indeed in database
+        $proofInstanceIsInDB = SuperCategory::find($idToUseForInstance);
+
+            //type
+            $this->assertTrue($superCategoryService->isModelInstance($proofInstanceIsInDB));
+
+            //attribute
+            $this->assertEquals($attributes['title'], $proofInstanceIsInDB->title);
+
+        //call destroy method
+        $destroyResponse = $superCategoryService->destroy($idToUseForInstance);
+
+        //assert instance is no longer in database
+        $proofInstanceIsNOTInDB = SuperCategory::find($idToUseForInstance);
+
+            //null
+            $this->assertEquals(null, $proofInstanceIsNOTInDB);
+
+        //call destroy on bad id
+        $destroyResponseBadId = $superCategoryService->destroy('aaa');
+
+        //assert error message
+        $this->assertEquals('Model not found.', $destroyResponseBadId);
 
     }
 
     public function test_superCategoryInternalService_index_method()
     {
+        //service instance
+        $superCategoryService = new SuperCategoryInternalService();
 
+        //fake superCategory data
+        $superCategories = [];
+        foreach(range(1, 20) as $index)
+        {
+            array_push($superCategories,SuperCategory::create([
+                'title' => 'superCategoryNumber'. $index,
+            ]));
+        }
+        //pagination count
+        $paginationCount = 6;
+
+        //pagination class
+        $paginationClass = 'Illuminate\Pagination\Paginator';
+
+        //call index method
+        $indexResponse = $superCategoryService->index($paginationCount);
+
+        //assert response is instance of pagination class
+        $this->assertEquals(get_class($indexResponse), $paginationClass);
+
+        //assert amount of items matches pagination count
+        $this->assertEquals(count($indexResponse), $paginationCount);
+
+        //cleanup
+        foreach($superCategories as $superCategory)
+        {
+            SuperCategory::destroy($superCategory->id);
+        }
     }
+
+    public function test_superCategoryInternalService_uniqueDestroyLogic_method()
+    {}
+
 }
