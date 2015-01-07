@@ -365,7 +365,7 @@ class CategoryInternalServiceTest extends \TestCase {
     }
 
     /**
-     *Test destroy method returns an error message if bad id used. 
+     *Test destroy method returns an error message if bad id used.
      */
     public function test_categoryInternalService_destroy_method_returns_error_message_if_id_does_not_exist()
     {
