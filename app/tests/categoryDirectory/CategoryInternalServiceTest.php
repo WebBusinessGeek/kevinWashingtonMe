@@ -16,6 +16,9 @@ use Illuminate\Foundation\Testing\TestCase;
 
 class CategoryInternalServiceTest extends \TestCase {
 
+    /***********************************************************************************************************/
+    /*                                          Store method tests                                              */
+    /***********************************************************************************************************/
     /**
      *Test method returns new category instance if attributes are valid.
      *
@@ -102,9 +105,89 @@ class CategoryInternalServiceTest extends \TestCase {
 
 
 
+    /***********************************************************************************************************/
+    /*                                          Show method tests                                              */
+    /***********************************************************************************************************/
+
+
+    /**
+     *Test method returns correct class instance if id is valid.
+     */
+    public function test_categoryInternalService_show_method_returns_instance_of_correct_class_if_id_is_valid()
+    {
+        //service instance
+        $categoryService = new CategoryInternalService();
+
+        //goodStoreResponse
+        $storeResponse = $this->goodStoreResponse();
+
+        //call show method
+        $showResponse = $categoryService->show($storeResponse->id);
+
+        //assert correct class
+        $this->assertTrue($categoryService->isModelInstance($showResponse));
+
+        //cleanup
+        Category::destroy($storeResponse->id);
+    }
+
+
+    /**
+     *Test method returns correct category instance if id is valid.
+     */
+    public function test_categoryInternalService_show_method_returns_correct_instance_if_id_is_valid()
+    {
+
+        //goodStoreResponse
+        $storeResponse = $this->goodStoreResponse();
+
+        //call show method
+        $showResponse = $this->service->show($storeResponse->id);
+
+        //assert correct instance by asserting attributes
+        $this->assertEquals($storeResponse->title, $showResponse->title);
+
+        //cleanup
+        Category::destroy($storeResponse->id);
+
+    }
+
+    /**
+     *Test method returns error message if id is invalid.
+     */
+    public function test_categoryInternalService_show_method_returns_error_message_if_id_is_invalid()
+    {
+        //call show method on bad id
+        $showResponseBad = $this->service->show('aaa');
+
+        //assert error message
+        $this->assertEquals('Model not found.', $showResponseBad);
+
+    }
 
 
 
+
+
+    /***********************************************************************************************************/
+    /*                                          Update method tests                                              */
+    /***********************************************************************************************************/
+
+
+
+
+
+    /***********************************************************************************************************/
+    /*                                          Destroy method tests                                              */
+    /***********************************************************************************************************/
+
+
+
+
+
+    /***********************************************************************************************************/
+    /*                                          Test helper methods                                             */
+    /***********************************************************************************************************/
 
     public function goodStoreResponse()
     {
@@ -128,5 +211,17 @@ class CategoryInternalServiceTest extends \TestCase {
 
     }
 
+    /***********************************************************************************************************/
+    /*                                          Test helper properties                                            */
+    /***********************************************************************************************************/
+
+
+
+    public $service;
+
+    public function __construct()
+    {
+        $this->service = new CategoryInternalService();
+    }
 
 }
