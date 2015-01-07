@@ -174,7 +174,137 @@ class CategoryInternalServiceTest extends \TestCase {
     /***********************************************************************************************************/
 
 
+    /**
+     *Test update method returns instance of category class if attributes are correct.
+     */
+    public function test_categoryInternalService_update_method_returns_instance_of_correct_class_if_attributes_are_correct()
+    {
+        //service instance
+        $categoryService = new CategoryInternalService();
 
+        //goodStoreResponse
+        $storeResponse = $this->goodStoreResponse();
+
+        //new attributes and new id
+        $newAttributes = $this->returnGoodAttributes();
+
+        //call update method
+        $updateResponse = $categoryService->update($storeResponse->id, $newAttributes);
+
+        //assert instance of category class returned
+        $this->assertTrue($categoryService->isModelInstance($updateResponse));
+
+        //cleanup
+        Category::destroy($storeResponse->id);
+        SuperCategory::destroy($newAttributes['superCategory_id']);
+    }
+
+
+    /**
+     *Test update method returns update instance if attributes are correct.
+     */
+    public function test_categoryInternalService_update_method_returns_updated_instance_if_attributes_are_correct()
+    {
+        //service instance
+        $categoryService = new CategoryInternalService();
+
+        //goodStoreResponse
+        $storeResponse = $this->goodStoreResponse();
+        $idToUseForInstance = $storeResponse->id;
+        //new attributes and id
+        $newAttributes = $this->returnGoodAttributes();
+
+        //call update method
+        $updateResponse = $categoryService->update($idToUseForInstance, $newAttributes);
+
+        //assert instance attributes matches new attributes
+        foreach($newAttributes as $attributeName => $attributeValue)
+        {
+            $this->assertEquals($attributeValue, $updateResponse->$attributeName);
+        }
+
+        //cleanup
+        SuperCategory::destroy($newAttributes['superCategory_id']);
+        Category::destroy($idToUseForInstance);
+    }
+
+    /**
+     *Test update method saves changes to database.
+     */
+    public function test_categoryInternalService_update_method_saves_changes_in_database_if_attributes_are_correct()
+    {
+        //goodStoreResponse
+        $storeResponse = $this->goodStoreResponse();
+        $idToUseForInstance = $storeResponse->id;
+
+        //new attributes
+        $newAttributes = $this->returnGoodAttributes();
+
+        //call update method with new attributes
+        $updateResponse = $this->service->update($idToUseForInstance, $newAttributes);
+
+        //retrieve same instance from database
+        $fromDB = Category::find($idToUseForInstance);
+
+        //assert attributes match new attributes
+        foreach($newAttributes as $attributeName => $attributeValue)
+        {
+            $this->assertEquals($attributeValue, $fromDB->$attributeName);
+        }
+
+        //cleanup
+        SuperCategory::destroy($newAttributes['superCategory_id']);
+        Category::destroy($idToUseForInstance);
+    }
+
+    /**
+     *Test update method returns error message if attributes names are invalid.
+     */
+    public function test_categoryInternalService_update_method_returns_error_message_if_attributeNames_is_invalid()
+    {
+        //goodStoreResponse
+        $storeResponse = $this->goodStoreResponse();
+
+        //id for instance
+        $idToUseForInstance = $storeResponse->id;
+
+        //bad attributes - bad title name but good superCategoryId
+        $superCategory = SuperCategory::create(['title' => 'someTitle']);
+        $superCategoryId = $superCategory->id;
+        $newTitle = 'someTitle';
+
+        $newAttributes = [
+            'wrong' => $newTitle,
+            'superCategory_id' => $superCategoryId,
+        ];
+
+        //call update method
+        $updateResponse = $this->service->update($idToUseForInstance, $newAttributes);
+
+        //assert error message
+        $this->assertEquals('Invalid attributes sent to update method.', $updateResponse);
+
+        //cleanup - superCategory and category
+        SuperCategory::destroy($superCategoryId);
+        Category::destroy($idToUseForInstance);
+
+    }
+
+    /**
+     *Test update method returns error message if superCategory owner doesnt exist.
+     */
+    public function test_categoryInternalService_update_method_returns_error_message_if_superCategory_owner_doesnt_exist()
+    {
+
+    }
+
+    /**
+     *Test update method returns error message if bad id given.
+     */
+    public function test_categoryInternalService_update_method_returns_error_message_if_id_does_not_exist()
+    {
+
+    }
 
 
     /***********************************************************************************************************/
@@ -182,6 +312,15 @@ class CategoryInternalServiceTest extends \TestCase {
     /***********************************************************************************************************/
 
 
+    public function test_categoryInternalService_destroy_method_removes_instance_from_database_if_id_is_correct()
+    {
+
+    }
+
+    public function test_categoryInternalService_destroy_method_returns_error_message_if_id_does_not_exist()
+    {
+
+    }
 
 
 
@@ -189,6 +328,9 @@ class CategoryInternalServiceTest extends \TestCase {
     /*                                          Test helper methods                                             */
     /***********************************************************************************************************/
 
+    /**Calls store function for tests to reduce code duplication.
+     * @return \Illuminate\Database\Eloquent\Model|mixed
+     */
     public function goodStoreResponse()
     {
         //service instance
@@ -209,6 +351,22 @@ class CategoryInternalServiceTest extends \TestCase {
 
         return $storeResponse;
 
+    }
+
+    /**Returns good attributes for testing to prevent code duplication.
+     * @return array
+     */
+    public function returnGoodAttributes()
+    {
+        $newSuperCategoryOwner = SuperCategory::create(['title' => 'someTitle']);
+        $newTitle = 'newTitle';
+
+        $newAttributes = [
+            'title' => $newTitle,
+            'superCategory_id' => $newSuperCategoryOwner->id,
+        ];
+
+        return $newAttributes;
     }
 
     /***********************************************************************************************************/

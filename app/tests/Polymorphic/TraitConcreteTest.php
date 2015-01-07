@@ -249,12 +249,12 @@ class TraitConcreteTest extends \TestCase {
         ];
         foreach($configs as $config)
         {
-            $this->assertTrue(is_array($trait->getModelAttributeConfiguration($user->getSelfModelAttributes(), $config)));
+            $this->assertTrue(is_array($trait->getModelSpecificAttributeValues($user->getSelfModelAttributes(), $config)));
         }
 
         //assertFalse getModelAttributeConfiguration throws an exception when invalid config as used.
         $this->setExpectedException('InvalidArgumentException', 'Configuration values invalid');
-        $trait->getModelAttributeConfiguration($user->getSelfModelAttributes(), 'error');
+        $trait->getModelSpecificAttributeValues($user->getSelfModelAttributes(), 'error');
 
     }
 

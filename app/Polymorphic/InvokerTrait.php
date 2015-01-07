@@ -22,7 +22,7 @@ trait InvokerTrait {
      * @param $config
      * @return array
      */
-    public function getModelAttributeConfiguration($modelAttributes, $config)
+    public function getModelSpecificAttributeValues($modelAttributes, $config)
     {
         $configKeys = [
             'name', 'nullable', 'format', 'unique', 'enumValues', 'exists', 'identifier', 'key'

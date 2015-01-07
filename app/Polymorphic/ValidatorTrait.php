@@ -45,7 +45,7 @@ trait ValidatorTrait {
     public function modelNonNullableAttributesSet($arrayToCheck, $modelAttributes)
     {
         $falseCounter = 0;
-        $nullCheck =  $this->getModelAttributeConfiguration($modelAttributes, 'nullable');
+        $nullCheck =  $this->getModelSpecificAttributeValues($modelAttributes, 'nullable');
 
         foreach($arrayToCheck as $key => $value)
         {
@@ -198,14 +198,14 @@ trait ValidatorTrait {
     public function existsIsValid($attributes = array(), $modelAttributes = array())
     {
         $falseCounter = 0;
-        $existsCheck = $this->getModelAttributeConfiguration($modelAttributes, 'exists');
+        $existValuesForAttributesOnModel = $this->getModelSpecificAttributeValues($modelAttributes, 'exists');
 
         foreach($attributes as $key => $value)
         {
-            if($existsCheck[$key] != null)
+            if(isset($existValuesForAttributesOnModel[$key]) && $existValuesForAttributesOnModel[$key] != null)
             {
-                $potentialModel = $existsCheck[$key]::find($value);
-                if(!is_object($potentialModel) && '\\'. get_class($potentialModel) != $existsCheck[$key])
+                $potentialModel = $existValuesForAttributesOnModel[$key]::find($value);
+                if(!is_object($potentialModel) && '\\'. get_class($potentialModel) != $existValuesForAttributesOnModel[$key])
                 {
                     $falseCounter++;
                 }
@@ -225,14 +225,14 @@ trait ValidatorTrait {
     public function checkMajorFormatsAreValid($credentialsToCheck = array(), $modelAttributes = array())
     {
         $falseCounter = 0;
-        $formatValuesForAttributes = $this->getModelAttributeConfiguration($modelAttributes, 'format');
+        $formatValuesForAttributesOnModel = $this->getModelSpecificAttributeValues($modelAttributes, 'format');
         $blockFormatCheck = ['exists', 'string', 'image'];
 
         foreach($credentialsToCheck as $attributeName => $attributeValue)
         {
-            if(isset($formatValuesForAttributes[$attributeName]) && !in_array($formatValuesForAttributes[$attributeName], $blockFormatCheck))
+            if(isset($formatValuesForAttributesOnModel[$attributeName]) && !in_array($formatValuesForAttributesOnModel[$attributeName], $blockFormatCheck))
             {
-                $dynamicValidationMethodToCall = $formatValuesForAttributes[$attributeName] .'isValid';
+                $dynamicValidationMethodToCall = $formatValuesForAttributesOnModel[$attributeName] .'isValid';
                 ($this->$dynamicValidationMethodToCall($attributeValue)) ? : $falseCounter++;
             }
 
@@ -267,7 +267,7 @@ trait ValidatorTrait {
     public function avoidDuplicationOfUniqueData($credentials = array(), $modelAttributes = array(), $modelClassName)
     {
         $falseCounter = 0;
-        $uniqueCheck = $this->getModelAttributeConfiguration($modelAttributes, 'unique');
+        $uniqueCheck = $this->getModelSpecificAttributeValues($modelAttributes, 'unique');
 
         foreach($credentials as $key => $value)
         {
