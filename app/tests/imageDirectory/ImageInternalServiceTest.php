@@ -11,7 +11,7 @@ namespace tests\imageDirectory;
 
 use App\DomainLogic\ImageDirectory\Image;
 use App\DomainLogic\ImageDirectory\ImageInternalService;
-use App\Base\Framework\APILibrary\Polymorphic\TraitConcrete;
+use App\Base\Framework\APILibrary\Polymorphic\ConcreteTrait;
 use Illuminate\Foundation\Testing\TestCase;
 
 class ImageInternalServiceTest extends \TestCase {

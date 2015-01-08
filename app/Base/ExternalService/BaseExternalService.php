@@ -14,9 +14,9 @@ use App\Base\Framework\APILibrary\Polymorphic\AuthorizationTrait;
 use App\Base\Framework\APILibrary\Polymorphic\ResponderTrait;
 
 
-abstract class ExternalService {
+abstract class BaseExternalService {
 
-    use Framework\APILibrary\Polymorphic\ResponderTrait, \App\BAse\Framework\APILibrary\Polymorphic\AuthenticationTrait, Framework\APILibrary\Polymorphic\AuthorizationTrait;
+    use App\Base\Framework\TestSubjects\ResponderTrait, \App\BAse\Framework\APILibrary\Polymorphic\AuthenticationTrait, App\Base\Framework\TestSubjects\AuthorizationTrait;
 
     protected $model;
 

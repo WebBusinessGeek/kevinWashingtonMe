@@ -7,7 +7,7 @@
  */
 
 //use \Illuminate\Foundation\Testing\TestCase;
-use App\Base\Framework\APILibrary\Polymorphic\TraitConcrete;
+use App\Base\Framework\TestSubjects\ConcreteTrait as ConcreteTrait;
 use App\Models\User;
 
 class TraitConcreteTest extends \TestCase {
@@ -19,7 +19,7 @@ class TraitConcreteTest extends \TestCase {
     {
         //traitConcrete instance
 
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //array to match
         $arrayToMatch = [
@@ -123,7 +123,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_validatorTrait_modelNonNullableAttributesSet_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //array to match
         $arrayToMatch = [
@@ -220,7 +220,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_invokerTrait_getModelAttributeNames_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //User model instance and assert it has $modelAttribute property set
         $user = new User();
@@ -237,7 +237,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_invokerTrait_getModelAttributeConfiguration_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //User model instance and assert it has $modelAttribute property set
         $user = new User();
@@ -265,7 +265,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_validatorTrait_checkMinimumLengthMet()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //good strings to check
         $good1 = 'lengthof10';
@@ -291,7 +291,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_validatorTrait_checkMinimumIntegersMet()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //good strings to check
         $good1 = '1234Integers';
@@ -317,7 +317,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_validatorTrait_checkMinimumLettersMet()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //good strings to check
         $good1 = '1234abca';
@@ -343,7 +343,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_validatorTrait_ensureNoInvalidCharactersUsed()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //good strings to check
         $good1 = '1234ab293840298sdfkjgseoica';
@@ -372,7 +372,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_validatorTrait_passwordIsValid_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //good passwords to check
         $good1 = 'goodPassword1234';
@@ -399,7 +399,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_validatorTrait_emailIsValid_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //good emails to test
         $good1 = 'someEmail@email.com';
@@ -427,7 +427,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_validatorTrait_checkAllFormatsAreValid_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //model attributes mock array
         $modelAttributesMock = [
@@ -503,7 +503,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_validatorTrait_dataIsUnique_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //save new user
         $user = User::create([
@@ -538,7 +538,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_validatorTrait_avoidDuplicationOfUniqueData_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //save new user to database
         $user = User::create([
@@ -576,7 +576,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_repositoryTrait_createNewModel()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //instance to make test dynamic to location of class and avoid clashes later.
         $user = new User();
@@ -596,7 +596,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_invokerTrait_addAttributesToModel_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //attributes
         $attr = [
@@ -623,7 +623,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_repositoryTrait_storeEloquentModelInDatabase_method()
     {
         //trait concrete
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //create user with attributes
         $user = User::create([
@@ -651,7 +651,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_repositoryTrait_getEloquentModelFromDatabase_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //create user and store in database and store response in variable
         $attr =
@@ -689,7 +689,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_invokerTrait_addAttributesToExistingModel_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //create user and save in database and store in variable
         $userNameSpace = new User();
@@ -729,7 +729,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_repositoryTrait_deleteEloquentModelFromDatabase_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //create user and store in database, store response in variable
         $attr = [
@@ -907,7 +907,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_validatorTrait_ipAddressIsValid_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //good ipAddresses
         $good = [
@@ -947,7 +947,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_authenticationTrait_confirmLoginCredentials_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //create and store user
         $userId = User::create([
@@ -983,7 +983,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_authenticationTrait_secretHashVerify_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //create a secret hash
         $secret = 'authenticationTrait@secretHashVerifyMethodTest';
@@ -1004,7 +1004,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_authenticationTrait_createLoginExpirationDate_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //date with current time
         $currentTime = new DateTime();
@@ -1025,7 +1025,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_authenticationTrait_hashHashAbleAttributes_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //hash attributes to check for
         $hashAttributes = [ 'password', 'token'];
@@ -1068,7 +1068,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_validatorTrait_extensionIsValid_method()
     {
 //
-        $trait = new \App\Base\Framework\APILibrary\Polymorphic\TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //good mockUploadedImage with png extension
         $pngImage = $trait->createMockUploadedImage('png', 'validatorTraitPngIsValidMethodTest','uploads/original');
@@ -1095,7 +1095,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_validatorTrait_imageIsValid_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //good image file to check
         $imageFile = $trait->createMockUploadedImage('png', 'validatorTraitImageIsValidMethodTest1', 'uploads/testing');
@@ -1120,7 +1120,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_resourceHandlingTrait_resizeAndStoreImage_method()
     {
         //trait instance
-        $trait = new TraitConcrete();
+        $trait = new ConcreteTrait();
 
         //good mock uploaded image to resize and store its size
         $imageFile = $trait->createMockUploadedImage('png', 'resizeAndStoreImageMethodTest', 'uploads/testing');

@@ -20,7 +20,7 @@ use Symfony\Component\Routing\Exception\MissingMandatoryParametersException;
 
 abstract class BaseInternalService {
 
-    use ValidatorTrait, Framework\APILibrary\Polymorphic\ResponderTrait,  Framework\APILibrary\Polymorphic\RepositoryTrait, Framework\APILibrary\Polymorphic\ResourceHandlingTrait, AuthenticationTrait;
+    use ValidatorTrait, ResponderTrait, RepositoryTrait, ResourceHandlingTrait, AuthenticationTrait;
 
     public $model;
 

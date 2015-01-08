@@ -11,13 +11,13 @@ namespace App\Base;
 
 use Illuminate\Database\Eloquent\Model;
 
-class BaseModelConcrete extends Model {
+class ConcreteModel extends Model {
 
     protected $fillable = ['name', 'email', 'password', 'website'];
 
     protected $table = 'baseModelConcretes';
 
-    protected $singleOwnerClassName = '\App\Base\BaseModelConcreteOwner';
+    protected $singleOwnerClassName = '\App\Base\ConcreteModelOwner';
 
     protected $modelAttributes = [
 
@@ -120,7 +120,7 @@ class BaseModelConcrete extends Model {
 }
 
 
-class BaseModelConcreteOwner extends Model {
+class ConcreteModelOwner extends Model {
 
     protected $table = 'baseModelConcreteOwners';
 

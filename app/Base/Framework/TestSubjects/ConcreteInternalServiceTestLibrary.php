@@ -9,10 +9,10 @@
 namespace App\Base;
 
 
-class InternalServiceTestLibraryConcrete extends InternalServiceTestLibrary{
+class ConcreteInternalServiceTestLibrary extends InternalServiceTestLibrary{
 
     public function __construct()
     {
-        $this->service = new InternalServiceConcrete();
+        $this->service = new ConcreteInternalService();
     }
 }

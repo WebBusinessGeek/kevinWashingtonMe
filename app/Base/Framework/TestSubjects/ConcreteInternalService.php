@@ -9,11 +9,11 @@
 namespace App\Base;
 
 
-class InternalServiceConcrete extends BaseInternalService {
+class ConcreteInternalService extends BaseInternalService {
 
     public function __construct()
     {
-        $this->model = new BaseModelConcrete();
+        $this->model = new ConcreteModel();
     }
 
 }
