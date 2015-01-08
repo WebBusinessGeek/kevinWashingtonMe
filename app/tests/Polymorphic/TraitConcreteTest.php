@@ -7,7 +7,7 @@
  */
 
 //use \Illuminate\Foundation\Testing\TestCase;
-use App\Polymorphic\TraitConcrete;
+use App\Base\Framework\APILibrary\Polymorphic\TraitConcrete;
 use App\Models\User;
 
 class TraitConcreteTest extends \TestCase {
@@ -1068,7 +1068,7 @@ class TraitConcreteTest extends \TestCase {
     public function test_validatorTrait_extensionIsValid_method()
     {
 //
-        $trait = new \App\Polymorphic\TraitConcrete();
+        $trait = new \App\Base\Framework\APILibrary\Polymorphic\TraitConcrete();
 
         //good mockUploadedImage with png extension
         $pngImage = $trait->createMockUploadedImage('png', 'validatorTraitPngIsValidMethodTest','uploads/original');

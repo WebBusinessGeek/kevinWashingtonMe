@@ -6,7 +6,7 @@
  * Time: 10:50 AM
  */
 
-namespace App\Polymorphic;
+namespace App\Base\Framework\APILibrary\Polymorphic;
 
 
 trait AuthenticationTrait {

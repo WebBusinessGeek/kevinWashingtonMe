@@ -6,7 +6,7 @@
  * Time: 2:59 PM
  */
 
-namespace App\Polymorphic;
+namespace App\Base\Framework\APILibrary\Polymorphic;
 
 
 use Symfony\Component\HttpFoundation\File\UploadedFile;

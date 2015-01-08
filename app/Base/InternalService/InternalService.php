@@ -10,17 +10,17 @@ namespace App\Base;
 
 
 
-use App\Polymorphic\AuthenticationTrait;
-use App\Polymorphic\RepositoryTrait;
-use App\Polymorphic\ResourceHandlingTrait;
-use App\Polymorphic\ResponderTrait;
-use App\Polymorphic\ValidatorTrait;
+use App\Base\Framework\APILibrary\Polymorphic\AuthenticationTrait;
+use App\Base\Framework\APILibrary\Polymorphic\RepositoryTrait;
+use App\Base\Framework\APILibrary\Polymorphic\ResourceHandlingTrait;
+use App\Base\Framework\APILibrary\Polymorphic\ResponderTrait;
+use App\Base\Framework\APILibrary\Polymorphic\ValidatorTrait;
 use Illuminate\Database\Eloquent\Model;
 use Symfony\Component\Routing\Exception\MissingMandatoryParametersException;
 
 abstract class InternalService {
 
-    use ValidatorTrait, ResponderTrait,  RepositoryTrait, ResourceHandlingTrait, AuthenticationTrait;
+    use ValidatorTrait, Framework\APILibrary\Polymorphic\ResponderTrait,  Framework\APILibrary\Polymorphic\RepositoryTrait, Framework\APILibrary\Polymorphic\ResourceHandlingTrait, AuthenticationTrait;
 
     public $model;
 

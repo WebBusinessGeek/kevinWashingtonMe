@@ -9,14 +9,14 @@
 namespace App\Base;
 
 
-use App\Polymorphic\AuthenticationTrait;
-use App\Polymorphic\AuthorizationTrait;
-use App\Polymorphic\ResponderTrait;
+use App\BAse\Framework\APILibrary\Polymorphic\AuthenticationTrait;
+use App\Base\Framework\APILibrary\Polymorphic\AuthorizationTrait;
+use App\Base\Framework\APILibrary\Polymorphic\ResponderTrait;
 
 
 abstract class ExternalService {
 
-    use ResponderTrait, AuthenticationTrait, AuthorizationTrait;
+    use Framework\APILibrary\Polymorphic\ResponderTrait, \App\BAse\Framework\APILibrary\Polymorphic\AuthenticationTrait, Framework\APILibrary\Polymorphic\AuthorizationTrait;
 
     protected $model;
 

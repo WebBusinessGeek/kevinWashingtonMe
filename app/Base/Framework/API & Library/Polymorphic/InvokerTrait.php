@@ -6,9 +6,10 @@
  * Time: 10:50 AM
  */
 
-namespace App\Polymorphic;
+namespace App\Base\Framework\APILibrary\Polymorphic;
 
 
+use App\Base\Framework\APILibrary\Polymorphic\FactoryTrait;
 use Illuminate\Database\Eloquent\Model;
 use Symfony\Component\Process\Exception\InvalidArgumentException;
 

@@ -6,8 +6,10 @@
  * Time: 10:49 AM
  */
 
-namespace App\Polymorphic;
+namespace App\Base\Framework\APILibrary\Polymorphic;
 
+
+use App\Polymorphic\UploadedFile;
 
 trait FactoryTrait {
 

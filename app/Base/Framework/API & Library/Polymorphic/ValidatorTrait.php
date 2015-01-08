@@ -6,9 +6,10 @@
  * Time: 10:48 AM
  */
 
-namespace App\Polymorphic;
+namespace App\Base\Framework\APILibrary\Polymorphic;
 
 
+use App\Base\Framework\APILibrary\Polymorphic\InvokerTrait;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 trait ValidatorTrait {
