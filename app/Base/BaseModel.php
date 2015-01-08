@@ -29,6 +29,13 @@ class BaseModel {
 
     ];
 
+
+    protected $singleOwnerClassName;
+
+
+    protected $multiOwnerClassNames = [];
+
+
     protected $modelAttributes = [
 //		START AT ZERO (0)!!! => [
 //
@@ -118,6 +125,11 @@ class BaseModel {
     public function getName()
     {
         return $this->name;
+    }
+
+    public function getSingleOwnerClassName()
+    {
+        return $this->singleOwnerClassName;
     }
 
 

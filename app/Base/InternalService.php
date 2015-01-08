@@ -340,6 +340,10 @@ abstract class InternalService {
     }
 
 
+    public function getModelSingleOwnerClassName()
+    {
+        return $this->model->getSingleOwnerClassName();
+    }
 
 
 
