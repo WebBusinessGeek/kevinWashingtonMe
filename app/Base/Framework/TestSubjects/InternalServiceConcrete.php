@@ -13,7 +13,7 @@ class InternalServiceConcrete extends BaseInternalService {
 
     public function __construct()
     {
-        $this->model = new ModelConcrete();
+        $this->model = new BaseModelConcrete();
     }
 
 }

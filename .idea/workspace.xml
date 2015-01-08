@@ -24,18 +24,36 @@
     <favorites_list name="kevinWashingtonMe" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43165466" vertical-offset="0" max-vertical-offset="695">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/routes.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.32374102" vertical-offset="0" max-vertical-offset="695">
+                  <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="InternalServiceConcrete.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Base/Framework/TestSubjects/InternalServiceConcrete.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.35971224" vertical-offset="0" max-vertical-offset="695">
+                  <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -100,6 +118,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinWashingtonMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinWashingtonMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinWashingtonMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinWashingtonMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,7 +303,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3509142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3509142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -290,13 +348,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.2230215" vertical-offset="0" max-vertical-offset="26675">
-          <caret line="177" column="20" selection-start-line="177" selection-start-column="20" selection-end-line="177" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_01_02_223829_create_imageable_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5683453" vertical-offset="205" max-vertical-offset="1000">
@@ -626,14 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Base/Framework/TestSubjects/InternalServiceConcrete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35971224" vertical-offset="0" max-vertical-offset="695">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/Polymorphic/ValidatorTrait.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.467626" vertical-offset="0" max-vertical-offset="7375">
@@ -734,30 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Base/Framework/TestSubjects/BaseModelConcrete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21582733" vertical-offset="50" max-vertical-offset="3875">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <marker date="1420749605000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Base/InternalService/BaseInternalService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53956836" vertical-offset="0" max-vertical-offset="9175">
@@ -826,10 +845,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_01_08_205429_create_baseModelConcretes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71107787" vertical-offset="0" max-vertical-offset="1025">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <marker date="1420750542000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1420750542000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420750542000" expanded="true" signature="-1:-1" placeholder=" Run the migrations. ..." />
+            <marker date="1420750542000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420750542000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420750542000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420750542000" expanded="true" signature="-1:-1" placeholder=" Reverse the migrations. ..." />
+            <marker date="1420750542000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_01_08_205500_create_baseModelConcreteOwners_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6115108" vertical-offset="0" max-vertical-offset="950">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <marker date="1420750561000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1420750561000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420750561000" expanded="true" signature="-1:-1" placeholder=" Run the migrations. ..." />
+            <marker date="1420750561000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420750561000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420750561000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420750561000" expanded="true" signature="-1:-1" placeholder=" Reverse the migrations. ..." />
+            <marker date="1420750561000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43165466" vertical-offset="0" max-vertical-offset="695">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.32374102" vertical-offset="0" max-vertical-offset="695">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Base/Framework/TestSubjects/BaseModelConcrete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6115108" vertical-offset="0" max-vertical-offset="3875">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1420749605000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420749605000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Base/Framework/TestSubjects/InternalServiceConcrete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35971224" vertical-offset="0" max-vertical-offset="695">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
           <folding />
         </state>
       </provider>
