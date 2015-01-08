@@ -114,6 +114,29 @@ class ConcreteModel extends Model {
             ]
         ],
 
+        5 => [
+            'name' => 'owner_id',
+
+            'format' => 'exists',
+
+            'nullable' => false,
+
+            'unique' => false,
+
+            'exists' => '\App\Base\ConcreteModelOwner',
+
+            'identifier' => false,
+
+            'key' => false,
+
+
+            'enumValues' => [
+                'item1',
+                'item2',
+                'item3'
+            ]
+        ],
+
 
     ];
 

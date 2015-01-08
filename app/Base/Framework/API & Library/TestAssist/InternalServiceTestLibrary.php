@@ -172,7 +172,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     {
         $ownerClassName = $this->getSubjectModelSingleOwnerClassName();
 
-        return $ownerClassName::create();
+        return $ownerClassName::create([''])->id;
     }
 
     public function fakeGoodTextAttribute()

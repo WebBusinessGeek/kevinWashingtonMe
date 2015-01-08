@@ -19,6 +19,7 @@ class CreateBaseModelConcretesTable extends Migration {
 			$table->string('email');
 			$table->string('password');
 			$table->string('website');
+			$table->integer('owner_id');
 			$table->timestamps();
 		});
 	}
