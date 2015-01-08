@@ -9,11 +9,11 @@
 namespace App\DomainLogic\ImageDirectory;
 
 
-use App\Base\InternalService;
+use App\Base\BaseInternalService;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 
-class ImageInternalService extends InternalService{
+class ImageInternalService extends BaseInternalService{
 
     /**
      *Set up new image as model

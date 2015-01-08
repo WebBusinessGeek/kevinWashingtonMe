@@ -9,7 +9,7 @@
 namespace App\Base;
 
 
-class InternalServiceConcrete extends InternalService {
+class InternalServiceConcrete extends BaseInternalService {
 
     public function __construct()
     {

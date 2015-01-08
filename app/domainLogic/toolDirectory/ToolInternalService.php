@@ -9,10 +9,10 @@
 namespace App\DomainLogic\ToolDirectory;
 
 
-use App\Base\InternalService;
+use App\Base\BaseInternalService;
 use App\DomainLogic\TagDirectory\Tag;
 
-class ToolInternalService extends InternalService{
+class ToolInternalService extends BaseInternalService{
 
 
     public function __construct()

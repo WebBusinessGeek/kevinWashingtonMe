@@ -9,9 +9,9 @@
 namespace App\DomainLogic\CategoryDirectory;
 
 
-use App\Base\InternalService;
+use App\Base\BaseInternalService;
 
-class CategoryInternalService extends InternalService {
+class CategoryInternalService extends BaseInternalService {
 
     public function __construct()
     {

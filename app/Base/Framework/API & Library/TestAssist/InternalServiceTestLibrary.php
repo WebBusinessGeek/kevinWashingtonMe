@@ -21,18 +21,17 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     /***********************************************************************************************************/
 
 
+    /**Returns a modelInternalService@store method call response with good attributes.
+     * For use on models without an owner.
+     * For models with an owner use $this->returnStoreResponseWithGoodAttributesAndGoodOwnerId()
+     * @return mixed
+     */
     public function returnStoreResponseWithGoodAttributes()
     {
-        //get attributes off model
-
-        //fake data with valid format for each attribute
-
-        //push data to associative array with attributeNames as keys
-
-        //call service's store method using array
-
-        //return the response
+        return $this->callServiceStoreMethodWithValidAttributes();
     }
+
+
 
     public function returnStoreResponseWithGoodAttributesAndGoodOwnerId()
     {
@@ -125,16 +124,111 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     /*                                          Test Streamlining Helper Methods                                */
     /***********************************************************************************************************/
 
+    /***********************************************************************************************************/
+    /*                                          Low Level  Helper Methods                                       */
+    /***********************************************************************************************************/
 
-    public function createNewServiceSubjectModelInstance()
+
+    public function getSubjectModelAttributes()
     {
-        return $this->service->createNewModel($this->service->getModelClassName());
+        return $this->service->getModelAttributes();
     }
 
-    public function createNewOwnerInstanceForSubjectModel()
+
+    public function getSubjectModelAttributesFormat()
     {
-        return $this->service->createNewModel($this->service->getModelSingleOwnerClassName());
+        return $this->service->getModelSpecificAttributeValues($this->getSubjectModelAttributes(), 'format');
     }
+
+    public function getSubjectModelSingleOwnerClassName()
+    {
+        return $this->service->getModelSingleOwnerClassName();
+    }
+
+    /**************************************             Fakers           ***********************************************/
+
+
+    public function fakeGoodEmailAttribute()
+    {
+        return 'FakeGoodEmailAttribute@myFramework.com';
+    }
+
+    public function fakeGoodUrlAttribute()
+    {
+        return 'http://www.fakeURLFromMyFramework.com';
+    }
+
+    public function fakeGoodPasswordAttribute()
+    {
+        return 'testtest123456FromMyFramework';
+    }
+
+    public function fakeGoodStringAttribute()
+    {
+        return 'FakeGoodStringFromMyFrameWork';
+    }
+
+    public function fakeGoodExistsAttribute()
+    {
+        $ownerClassName = $this->getSubjectModelSingleOwnerClassName();
+
+        return $ownerClassName::create();
+    }
+
+    public function fakeGoodTextAttribute()
+    {
+        $text = 'FakeGoodTextFromMyFramework'.'<br/>'.'FakeGoodTextFromMyFramework'.'<br/>'.'FakeGoodTextFromMyFramework'.'<br/>';
+        return $text;
+    }
+
+
+    /***********************************************************************************************************/
+    /*                                          Mid Level  Helper Methods                                       */
+    /***********************************************************************************************************/
+
+
+
+    public function getGoodOrBadAttributesForSubjectModel($subjectModelAttributeFormats, $goodOrBadInLowerCase)
+    {
+        $attributesToReturn = [];
+        foreach($subjectModelAttributeFormats as $nameOfAttribute => $attributeFormat)
+        {
+            $runThisFakerFormatMethod = 'fake'.ucfirst($goodOrBadInLowerCase).ucfirst($attributeFormat).'Attribute';
+            $fakedAttribute = $this->$runThisFakerFormatMethod();
+            $attributesToReturn[$nameOfAttribute] = $fakedAttribute;
+        }
+
+        return $attributesToReturn;
+    }
+
+
+    public function getValidAttributesForSubjectModelAsArray()
+    {
+        $subjectModelAttributeFormats = $this->getSubjectModelAttributesFormat();
+
+        $validAttributes = $this->getGoodOrBadAttributesForSubjectModel($subjectModelAttributeFormats, 'good');
+
+        return $validAttributes;
+    }
+
+    /***********************************************************************************************************/
+    /*                                          High Level Helper Methods                                       */
+    /***********************************************************************************************************/
+
+    public function callServiceStoreMethod($attributes)
+    {
+        return $this->service->store($attributes);
+    }
+
+    public function callServiceStoreMethodWithValidAttributes()
+    {
+        $goodAttributesForStoreMethod = $this->getValidAttributesForSubjectModelAsArray();
+
+        return $this->callServiceStoreMethod($goodAttributesForStoreMethod);
+    }
+
+
+
 
 
 }

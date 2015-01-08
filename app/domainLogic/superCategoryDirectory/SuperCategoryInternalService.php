@@ -9,9 +9,9 @@
 namespace App\DomainLogic\SuperCategoryDirectory;
 
 
-use App\Base\InternalService;
+use App\Base\BaseInternalService;
 
-class SuperCategoryInternalService extends InternalService {
+class SuperCategoryInternalService extends BaseInternalService {
 
     public function __construct()
     {

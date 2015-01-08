@@ -154,6 +154,17 @@ trait ValidatorTrait {
         return (filter_var($emailToCheck, FILTER_VALIDATE_EMAIL))? true : false ;
     }
 
+
+    /**
+     * Returns true if url format is valid, otherwise false.
+     * @param $emailToCheck
+     * @return bool
+     */
+    public function urlIsValid($urlToCheck)
+    {
+        return (filter_var($urlToCheck, FILTER_VALIDATE_URL))? true : false;
+    }
+
     /**Returns true if uploaded file is valid, otherwise false.
      * @param UploadedFile $fileToCheck
      * @return bool

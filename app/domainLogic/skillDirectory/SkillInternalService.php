@@ -9,9 +9,9 @@
 namespace App\DomainLogic\SkillDirectory;
 
 
-use App\Base\InternalService;
+use App\Base\BaseInternalService;
 
-class SkillInternalService extends InternalService {
+class SkillInternalService extends BaseInternalService {
 
     public function __construct()
     {

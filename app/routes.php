@@ -1,5 +1,6 @@
 <?php
 
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -15,7 +16,9 @@ Route::get('/', function()
 {
     return View::make('hello');
 
-
-
+//
+//    $service = new \App\Base\InternalServiceTestLibraryConcrete();
+//    $response = $service->returnStoreResponseWithGoodAttributes();
+//    dd($response);
 
 });

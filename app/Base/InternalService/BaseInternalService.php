@@ -18,7 +18,7 @@ use App\Base\Framework\APILibrary\Polymorphic\ValidatorTrait;
 use Illuminate\Database\Eloquent\Model;
 use Symfony\Component\Routing\Exception\MissingMandatoryParametersException;
 
-abstract class InternalService {
+abstract class BaseInternalService {
 
     use ValidatorTrait, Framework\APILibrary\Polymorphic\ResponderTrait,  Framework\APILibrary\Polymorphic\RepositoryTrait, Framework\APILibrary\Polymorphic\ResourceHandlingTrait, AuthenticationTrait;
 
