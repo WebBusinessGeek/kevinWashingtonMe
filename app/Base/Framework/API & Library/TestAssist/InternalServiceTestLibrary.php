@@ -147,11 +147,29 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     }
 
 
-
+    /**Returns an array containing the original store response of subjectModel service with good attributes.
+     * Also contains update response using good attributes.
+     * For use with  models without an owner.
+     * For models with an owner use $this->returnUpdateResponseWithGoodIdAndGoodAttributesAndGoodOwnerIdBeforeAndAfterUpdate
+     * @return array
+     */
     public function returnUpdateResponseWithGoodIdAndGoodAttributesBeforeAndAfterUpdate()
     {
+        $originalSubjectModel = $this->callServiceStoreMethodWithValidAttributes();
 
+        $subjectModelId = $originalSubjectModel->id;
+
+        $newValidAttributes = $this->getFakeAttributesForSubjectModelAsArray('good');
+
+        $this->callServiceUpdateMethod($subjectModelId, $newValidAttributes);
+
+        $updatedSubjectModel = $this->callServiceShowMethod($subjectModelId);
+
+        return [ 'before' => $originalSubjectModel, 'after' => $updatedSubjectModel,];
     }
+
+
+
 
     public function returnUpdateResponseWithGoodIdAndGoodAttributesAndGoodOwnerIdBeforeAndAfterUpdate()
     {
@@ -264,22 +282,22 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
     public function fakeGoodEmailAttribute()
     {
-        return 'FakeGoodEmailAttribute@myFramework.com';
+        return 'FakeGoodEmailAttribute'.md5(rand(1209382, 102938102938109238)).'@myFramework.com';
     }
 
     public function fakeGoodUrlAttribute()
     {
-        return 'http://www.fakeURLFromMyFramework.com';
+        return 'http://www.fakeURLFromMyFramework'.md5(rand(1209382, 102938102938109238)).'.com';
     }
 
     public function fakeGoodPasswordAttribute()
     {
-        return 'testtest123456FromMyFramework';
+        return 'testtest'.md5(rand(1209382, 102938102938109238)).'FromMyFramework';
     }
 
     public function fakeGoodStringAttribute()
     {
-        return 'FakeGoodStringFromMyFrameWork';
+        return 'FakeGoodString'.md5(rand(1209382, 102938102938109238)).'FromMyFrameWork';
     }
 
     public function fakeGoodExistsAttribute()
@@ -291,7 +309,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
     public function fakeGoodTextAttribute()
     {
-        $text = 'FakeGoodTextFromMyFramework'.'<br/>'.'FakeGoodTextFromMyFramework'.'<br/>'.'FakeGoodTextFromMyFramework'.'<br/>';
+        $text = 'FakeGoodText'.md5(rand(1209382, 102938102938109238)).'FromMyFramework'.'<br/>'.'FakeGoodText'.md5(rand(1209382, 102938102938109238)).'FromMyFramework'.'<br/>'.'FakeGoodText'.md5(rand(1209382, 102938102938109238)).'FromMyFramework'.'<br/>';
         return $text;
     }
 
@@ -415,6 +433,10 @@ abstract class InternalServiceTestLibrary extends \TestCase{
         return $this->service->show($subjectModelId);
     }
 
+    public function callServiceUpdateMethod($modelId, $newAttributes = array())
+    {
+        return $this->service->update($modelId, $newAttributes);
+    }
 
 
 

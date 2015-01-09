@@ -14,15 +14,15 @@
 
 Route::get('/', function()
 {
-//    return View::make('hello');
+    return View::make('hello');
 
 
-    $service = new \App\Base\ConcreteInternalServiceTestLibrary();
+//    $service = new \App\Base\ConcreteInternalServiceTestLibrary();
+//
+//
+//   $response =  $service->returnUpdateResponseWithGoodIdAndGoodAttributesBeforeAndAfterUpdate();
+//      dd($response);
 
-
-   $response =  $service->returnShowResponseWithBadIdForSubjectModel();
-      dd($response);
-
-
+//    dd(md5(rand(1209382, 102938102938109238)));
 
 });
