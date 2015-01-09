@@ -165,9 +165,21 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     }
 
 
+    /**Returns an array of the subjectModel before and after the update method is called on the service, with good id and attributes.
+     * Returns before, after, and afterFromDB instances
+     * For use on models with an owner
+     * For models without an owner you should use $this->returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithoutOwner()
+     * @return array
+     */
     public function returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithOwner()
     {
+        $arrayOfOriginalAndUpdatedSubjectModelWithOwner = $this->returnUpdateResponseWithGoodIdAndGoodAttributesAndGoodOwnerIdBeforeAndAfterUpdate();
 
+        $subjectModelId = $arrayOfOriginalAndUpdatedSubjectModelWithOwner['after']->id;
+
+        $arrayOfOriginalAndUpdatedSubjectModelWithOwner['afterFromDB'] = $this->getSubjectModelFromDatabase($subjectModelId);
+
+        return $arrayOfOriginalAndUpdatedSubjectModelWithOwner;
     }
 
 

@@ -14,14 +14,14 @@
 
 Route::get('/', function()
 {
-    return View::make('hello');
+//    return View::make('hello');
 
 
-//    $service = new \App\Base\ConcreteInternalServiceTestLibrary();
-//
-//
-//   $response =  $service->returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithoutOwner();
-//      dd($response);
+    $service = new \App\Base\ConcreteInternalServiceTestLibrary();
+
+
+   $response =  $service->returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithOwner();
+      dd($response);
 
 
 });
