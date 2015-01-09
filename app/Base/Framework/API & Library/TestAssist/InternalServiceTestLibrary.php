@@ -105,13 +105,43 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     }
 
 
+    /**Returns show method response for subjectModel service using a good id.
+     * For use on models without an owner.
+     * For models with an owner use $this->returnShowResponseWithGoodIdForSubjectModelWithOwner()
+     * @return mixed
+     */
+    public function returnShowResponseWithGoodIdForSubjectModelWithoutOwner()
+    {
+        $storeResponse = $this->callServiceStoreMethodWithValidAttributes();
 
-    public function returnShowResponseWithGoodSubjectModelId()
+        $subjectModelId = $storeResponse->id;
+
+        return $this->callServiceShowMethod($subjectModelId);
+    }
+
+
+    /**Returns a show method response from subjectModel service using a good id for model with an owner.
+     * For use on models with an owner.
+     * For models without an owner use $this->returnShowResponseWithGoodIdForSubjectModelWithoutOwner()
+     * @return mixed
+     */
+    public function returnShowResponseWithGoodIdForSubjectModelWithOwner()
+    {
+        $storeResponse = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+
+        $subjectModelId = $storeResponse->id;
+
+        return $this->callServiceShowMethod($subjectModelId);
+    }
+
+
+
+    public function returnShowResponseWithBadIdForSubjectModelWithoutOwner()
     {
 
     }
 
-    public function returnShowResponseWithBadSubjectModelId()
+    public function returnShowResponseWithBadIdForSubjectModelWithOwner()
     {
 
     }
@@ -378,6 +408,10 @@ abstract class InternalServiceTestLibrary extends \TestCase{
         return $this->callServiceStoreMethod($invalidAttributes);
     }
 
+    public function callServiceShowMethod($subjectModelId)
+    {
+        return $this->service->show($subjectModelId);
+    }
 
 
 

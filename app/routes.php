@@ -16,11 +16,11 @@ Route::get('/', function()
 {
     return View::make('hello');
 
-//
+
 //    $service = new \App\Base\ConcreteInternalServiceTestLibrary();
 //
 //
-//   $response =  $service->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+//   $response =  $service->returnShowResponseWithGoodIdForSubjectModelWithOwner();
 //      dd($response);
 
 
