@@ -18,9 +18,9 @@ Route::get('/', function()
 
 
 //    $service = new \App\Base\ConcreteInternalServiceTestLibrary();
-
-
-//   $response =  $service->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+//
+//
+//   $response =  $service->returnStoreResponseWithGoodAttributes();
 //      dd($response);
 
 });
