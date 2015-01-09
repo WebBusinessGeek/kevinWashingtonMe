@@ -39,7 +39,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     public function returnStoreResponseWithGoodAttributesThenDestroyOwner()
     {
 
-        $validAttributes = $this->getFakeAttributesForSubjectModelAsArray('good');
+        $validAttributes = $this->getFakeGoodOrBadAttributesForSubjectModelAsArray('good');
 
         $storeResponse = $this->callServiceStoreMethod($validAttributes);
 
@@ -97,7 +97,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
      */
     public function returnStoreResponseWithGoodAttributeValuesButBadOwnerId()
     {
-        $goodAttributes = $this->getFakeAttributesForSubjectModelAsArray('good');
+        $goodAttributes = $this->getFakeGoodOrBadAttributesForSubjectModelAsArray('good');
 
         $goodAttributesWithBadOwnerId = $this->exchangeGoodOwnerIdWithBadId($goodAttributes);
 
@@ -159,7 +159,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
         $subjectModelId = $originalSubjectModel->id;
 
-        $newValidAttributes = $this->getFakeAttributesForSubjectModelAsArray('good');
+        $newValidAttributes = $this->getFakeGoodOrBadAttributesForSubjectModelAsArray('good');
 
         $this->callServiceUpdateMethod($subjectModelId, $newValidAttributes);
 
@@ -169,17 +169,30 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     }
 
 
-
-
+    /**Returns update response for subjectModel as an array with both the original subject model and updated model
+     * For use on models with an owner.
+     * For models without an owner use $this->returnUpdateResponseWithGoodIdAndGoodAttributesBeforeAndAfterUpdate()
+     * @return array
+     * @throws \Exception
+     */
     public function returnUpdateResponseWithGoodIdAndGoodAttributesAndGoodOwnerIdBeforeAndAfterUpdate()
     {
+        $originalSubjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
 
+        $subjectModelId = $originalSubjectModel->id;
+
+        $newValidAttributes = $this->getFakeGoodOrBadAttributesForSubjectModelAsArray('good');
+
+        $updatedSubjectModel = $this->callServiceUpdateMethod($subjectModelId, $newValidAttributes);
+
+        $this->deleteSubjectModelOwnerById($newValidAttributes[$this->getSubjectModelAttributeThatRepresentsOwner()]);
+
+        return ['before' => $originalSubjectModel, 'after' => $updatedSubjectModel];
     }
 
-    public function returnDatabaseInstanceAfterUpdateMethodCalled()
-    {
 
-    }
+
+
 
     public function returnUpdateResponseWithBadAttributeNames()
     {
@@ -383,7 +396,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
 
 
-    public function getFakeAttributesForSubjectModelAsArray($goodOrBadInLowerCase)
+    public function getFakeGoodOrBadAttributesForSubjectModelAsArray($goodOrBadInLowerCase)
     {
         $formatsForSubjectModelAttributes = $this->getSubjectModelAttributesFormat();
 
@@ -416,14 +429,14 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
     public function callServiceStoreMethodWithValidAttributes()
     {
-        $goodAttributesForStoreMethod = $this->getFakeAttributesForSubjectModelAsArray('good');
+        $goodAttributesForStoreMethod = $this->getFakeGoodOrBadAttributesForSubjectModelAsArray('good');
 
         return $this->callServiceStoreMethod($goodAttributesForStoreMethod);
     }
 
     public function callServiceStoreMethodWithBadAttributes()
     {
-        $invalidAttributes = $this->getFakeAttributesForSubjectModelAsArray('bad');
+        $invalidAttributes = $this->getFakeGoodOrBadAttributesForSubjectModelAsArray('bad');
 
         return $this->callServiceStoreMethod($invalidAttributes);
     }
