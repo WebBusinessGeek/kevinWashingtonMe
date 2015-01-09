@@ -147,51 +147,28 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     }
 
 
-    /**Returns an array containing the original store response of subjectModel service with good attributes.
-     * Also contains update response using good attributes.
-     * For use with  models without an owner.
-     * For models with an owner use $this->returnUpdateResponseWithGoodIdAndGoodAttributesAndGoodOwnerIdBeforeAndAfterUpdate
+    /**Returns an array of the subjectModel before and after update method called with good id and attributes.
+     * Returns before, after, and afterFromDB instances
+     * For use on models without an owner.
+     * For models with an owner you should use $this->returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithOwner()
      * @return array
      */
-    public function returnUpdateResponseWithGoodIdAndGoodAttributesBeforeAndAfterUpdate()
+    public function returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithoutOwner()
     {
-        $originalSubjectModel = $this->callServiceStoreMethodWithValidAttributes();
+        $arrayOfOriginalAndUpdatedSubjectModel = $this->returnUpdateResponseWithGoodIdAndGoodAttributesBeforeAndAfterUpdate();
 
-        $subjectModelId = $originalSubjectModel->id;
+        $subjectModelId = $arrayOfOriginalAndUpdatedSubjectModel['after']->id;
 
-        $newValidAttributes = $this->getFakeGoodOrBadAttributesForSubjectModelAsArray('good');
+        $arrayOfOriginalAndUpdatedSubjectModel['afterFromDB'] = $this->getSubjectModelFromDatabase($subjectModelId);
 
-        $this->callServiceUpdateMethod($subjectModelId, $newValidAttributes);
-
-        $updatedSubjectModel = $this->callServiceShowMethod($subjectModelId);
-
-        return [ 'before' => $originalSubjectModel, 'after' => $updatedSubjectModel,];
+        return $arrayOfOriginalAndUpdatedSubjectModel;
     }
 
 
-    /**Returns update response for subjectModel as an array with both the original subject model and updated model
-     * For use on models with an owner.
-     * For models without an owner use $this->returnUpdateResponseWithGoodIdAndGoodAttributesBeforeAndAfterUpdate()
-     * @return array
-     * @throws \Exception
-     */
-    public function returnUpdateResponseWithGoodIdAndGoodAttributesAndGoodOwnerIdBeforeAndAfterUpdate()
+    public function returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithOwner()
     {
-        $originalSubjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
 
-        $subjectModelId = $originalSubjectModel->id;
-
-        $newValidAttributes = $this->getFakeGoodOrBadAttributesForSubjectModelAsArray('good');
-
-        $updatedSubjectModel = $this->callServiceUpdateMethod($subjectModelId, $newValidAttributes);
-
-        $this->deleteSubjectModelOwnerById($newValidAttributes[$this->getSubjectModelAttributeThatRepresentsOwner()]);
-
-        return ['before' => $originalSubjectModel, 'after' => $updatedSubjectModel];
     }
-
-
-
 
 
     public function returnUpdateResponseWithBadAttributeNames()
@@ -421,6 +398,50 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     /***********************************************************************************************************/
     /*                                          High Level Helper Methods                                       */
     /***********************************************************************************************************/
+
+    /**Returns an array containing the original store response of subjectModel service with good attributes.
+     * Also contains update response using good attributes.
+     * For use with  models without an owner.
+     * For models with an owner use $this->returnUpdateResponseWithGoodIdAndGoodAttributesAndGoodOwnerIdBeforeAndAfterUpdate
+     * @return array
+     */
+    public function returnUpdateResponseWithGoodIdAndGoodAttributesBeforeAndAfterUpdate()
+    {
+        $originalSubjectModel = $this->callServiceStoreMethodWithValidAttributes();
+
+        $subjectModelId = $originalSubjectModel->id;
+
+        $newValidAttributes = $this->getFakeGoodOrBadAttributesForSubjectModelAsArray('good');
+
+        $this->callServiceUpdateMethod($subjectModelId, $newValidAttributes);
+
+        $updatedSubjectModel = $this->callServiceShowMethod($subjectModelId);
+
+        return [ 'before' => $originalSubjectModel, 'after' => $updatedSubjectModel,];
+    }
+
+
+    /**Returns update response for subjectModel as an array with both the original subject model and updated model
+     * For use on models with an owner.
+     * For models without an owner use $this->returnUpdateResponseWithGoodIdAndGoodAttributesBeforeAndAfterUpdate()
+     * @return array
+     * @throws \Exception
+     */
+    public function returnUpdateResponseWithGoodIdAndGoodAttributesAndGoodOwnerIdBeforeAndAfterUpdate()
+    {
+        $originalSubjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+
+        $subjectModelId = $originalSubjectModel->id;
+
+        $newValidAttributes = $this->getFakeGoodOrBadAttributesForSubjectModelAsArray('good');
+
+        $updatedSubjectModel = $this->callServiceUpdateMethod($subjectModelId, $newValidAttributes);
+
+        $this->deleteSubjectModelOwnerById($newValidAttributes[$this->getSubjectModelAttributeThatRepresentsOwner()]);
+
+        return ['before' => $originalSubjectModel, 'after' => $updatedSubjectModel];
+    }
+
 
     public function callServiceStoreMethod($attributes)
     {

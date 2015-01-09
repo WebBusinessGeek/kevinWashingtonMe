@@ -21,11 +21,6 @@ class ConcreteInternalServiceTestLibrary extends InternalServiceTestLibrary{
 
 
 
-    public function returnDatabaseInstanceAfterUpdateMethodCalled()
-    {
-
-    }
-
 
 
 
