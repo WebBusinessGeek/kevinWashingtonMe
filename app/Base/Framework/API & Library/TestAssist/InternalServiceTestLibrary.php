@@ -246,25 +246,37 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
 
 
-    public function returnUpdateResponseGroupWithBadSubjectModelId()
+    public function returnUpdateResponseGroupWithBadIdForSubjectModelWithoutOwner()
     {
 
     }
 
-    public function returnDatabaseInstanceAfterDestroyMethodCalled()
+    public function returnUpdateResponseGroupWithBadIdForSubjectModelWithOwner()
     {
 
     }
 
-    public function returnDestroyResponseWithBadSubjectModelId()
+    public function returnDestroyResponseGroupForSubjectModelWithoutOwner()
     {
 
     }
 
-    public function returnRelationshipsToModelAfterDestroyMethodCalled()
+    public function returnDestroyResponseGroupForSubjectModelWithOwner()
     {
 
     }
+
+    public function returnDestroyResponseGroupWithBadIdForSubjectModelWithoutOwner()
+    {
+
+    }
+
+    public function returnDestroyResponseGroupWithBadIdForSubjectModelWithOwner()
+    {
+
+    }
+
+   
 
     /***********************************************************************************************************/
     /*                                          Test Streamlining Helper Methods                                */
