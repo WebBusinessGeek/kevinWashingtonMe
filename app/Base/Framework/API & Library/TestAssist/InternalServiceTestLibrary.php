@@ -135,16 +135,18 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     }
 
 
-
-    public function returnShowResponseWithBadIdForSubjectModelWithoutOwner()
+    /**Returns response of show method on subjectModel service using a bad id.
+     * For use on any models. Both with and without an owner.
+     * @return mixed
+     */
+    public function returnShowResponseWithBadIdForSubjectModel()
     {
+        $badId = 'aaa';
 
+        return $this->callServiceShowMethod($badId);
     }
 
-    public function returnShowResponseWithBadIdForSubjectModelWithOwner()
-    {
 
-    }
 
     public function returnUpdateResponseWithGoodIdAndGoodAttributesBeforeAndAfterUpdate()
     {
