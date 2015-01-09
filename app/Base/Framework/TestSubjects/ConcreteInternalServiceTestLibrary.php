@@ -27,16 +27,6 @@ class ConcreteInternalServiceTestLibrary extends InternalServiceTestLibrary{
 
 
 
-    public function returnUpdateResponseWithBadOwnerId()
-    {
-
-    }
-
-
-
-
-
-
 
 
 
