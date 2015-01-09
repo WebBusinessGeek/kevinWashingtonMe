@@ -23,7 +23,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
     /**Returns a modelInternalService@store method call response with good attributes.
      * For use on models without an owner.
-     * For models with an owner use $this->returnStoreResponseWithGoodAttributesAndGoodOwnerId()
+     * For models with an owner use $this->returnStoreResponseWithGoodAttributesThenDestroyOwner()
      * @return mixed
      */
     public function returnStoreResponseWithGoodAttributes()
@@ -32,22 +32,25 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     }
 
 
-
-    public function returnStoreResponseWithGoodAttributesAndGoodOwnerId()
+    /**Returns a modelInternalService@store method call response with good attributes.
+     * For use on models with a single owner.
+     * @return mixed
+     */
+    public function returnStoreResponseWithGoodAttributesThenDestroyOwner()
     {
-        //get attributes off subject model
 
-        //fake data with valid format for each attribute
+        $validAttributes = $this->getValidAttributesForSubjectModelAsArray();
 
-        //create owner for the subject model
+        $storeResponse = $this->callServiceStoreMethod($validAttributes);
 
-        //push data to associative array - including the owner's id
+        $attributeThatRepresentsOwner = $this->getSubjectModelAttributeThatRepresentsOwner();
 
-        //call service's store method using array
+        $ownerId = $validAttributes[$attributeThatRepresentsOwner];
 
-        //delete the subject model's owner
+        $this->deleteSubjectModelOwnerById($ownerId);
 
-        //return the response from the store method
+        return $storeResponse;
+
     }
 
     public function returnDatabaseInstanceAfterStoreMethodCalled()
@@ -129,6 +132,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     /***********************************************************************************************************/
 
 
+
     public function getSubjectModelAttributes()
     {
         return $this->service->getModelAttributes();
@@ -145,6 +149,23 @@ abstract class InternalServiceTestLibrary extends \TestCase{
         return $this->service->getModelSingleOwnerClassName();
     }
 
+    public function getArrayKeysWhereValueIsNotNull($associativeArray)
+    {
+        $keysWithValueNotEqualToNull = [];
+        foreach($associativeArray as $attributeName => $attributeValue)
+        {
+            ($attributeValue == null) ? : array_push($keysWithValueNotEqualToNull, $attributeName);
+        }
+        return $keysWithValueNotEqualToNull;
+    }
+
+
+    public function deleteSubjectModelOwnerById($ownerId)
+    {
+        $ownerClassName = $this->getSubjectModelSingleOwnerClassName();
+
+        $ownerClassName::destroy($ownerId);
+    }
     /**************************************             Fakers           ***********************************************/
 
 
@@ -186,6 +207,21 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     /*                                          Mid Level  Helper Methods                                       */
     /***********************************************************************************************************/
 
+
+    public function getSubjectModelAttributeThatRepresentsOwner()
+    {
+
+        $existValuesOnSubjectModel = $this->service->getModelSpecificAttributeValues($this->getSubjectModelAttributes(), 'exists');
+
+        $attributesWithExistValueSet = $this->getArrayKeysWhereValueIsNotNull($existValuesOnSubjectModel);
+
+        if(count($attributesWithExistValueSet) > 1)
+        {
+            throw new \Exception('Subject Model has more than one owner according to attributes.');
+        }
+
+        return $attributesWithExistValueSet[0];
+    }
 
 
     public function getGoodOrBadAttributesForSubjectModel($subjectModelAttributeFormats, $goodOrBadInLowerCase)

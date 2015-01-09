@@ -14,13 +14,13 @@
 
 Route::get('/', function()
 {
-//    return View::make('hello');
+    return View::make('hello');
 
 
-    $service = new \App\Base\ConcreteInternalServiceTestLibrary();
+//    $service = new \App\Base\ConcreteInternalServiceTestLibrary();
 
 
-   $response =  $service->service->getModelSpecificAttributeValues($service->getSubjectModelAttributes(), 'exists');
-    dd($response);
+//   $response =  $service->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+//      dd($response);
 
 });

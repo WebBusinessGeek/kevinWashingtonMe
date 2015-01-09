@@ -9,6 +9,8 @@
 namespace App\Base;
 
 
+use SebastianBergmann\Exporter\Exception;
+
 class ConcreteInternalServiceTestLibrary extends InternalServiceTestLibrary{
 
     public function __construct()
@@ -17,10 +19,7 @@ class ConcreteInternalServiceTestLibrary extends InternalServiceTestLibrary{
     }
 
 
-    public function returnStoreResponseWithGoodAttributesThenDestroyOwner()
-    {
 
-    }
 
 
 
@@ -37,9 +36,11 @@ class ConcreteInternalServiceTestLibrary extends InternalServiceTestLibrary{
 
 
 
+
     /***********************************************************************************************************/
     /*                                          Low Level                                             */
     /***********************************************************************************************************/
+
 
 
 }
