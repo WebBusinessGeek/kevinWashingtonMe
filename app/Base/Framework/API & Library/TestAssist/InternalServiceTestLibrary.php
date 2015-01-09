@@ -39,7 +39,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     public function returnStoreResponseWithGoodAttributesThenDestroyOwner()
     {
 
-        $validAttributes = $this->getAttributesForSubjectModelAsArray('good');
+        $validAttributes = $this->getFakeAttributesForSubjectModelAsArray('good');
 
         $storeResponse = $this->callServiceStoreMethod($validAttributes);
 
@@ -82,26 +82,36 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
 
     /**Returns a store response of the subjectModel service with bad attributes. Should be an error message.
-     * For use with models with and without an owner.
+     * For use with any models with and without an owner.
      * @return mixed
      */
-    public function returnStoreResponseWithBadAttributeNames()
+    public function returnStoreResponseWithBadAttributeValues()
     {
         return $this->callServiceStoreMethodWithBadAttributes();
     }
 
 
-    public function returnStoreResponseWithBadOwnerId()
+    /**Returns a store response of the subjectModel service with Good attributes but a bad id for the owner.
+     * For use with models with an owner.
+     * @return mixed
+     */
+    public function returnStoreResponseWithGoodAttributeValuesButBadOwnerId()
+    {
+        $goodAttributes = $this->getFakeAttributesForSubjectModelAsArray('good');
+
+        $goodAttributesWithBadOwnerId = $this->exchangeGoodOwnerIdWithBadId($goodAttributes);
+
+        return $this->callServiceStoreMethod($goodAttributesWithBadOwnerId);
+    }
+
+
+
+    public function returnShowResponseWithGoodSubjectModelId()
     {
 
     }
 
-    public function returnShowResponseWithGoodId()
-    {
-
-    }
-
-    public function returnShowResponseWithBAdSubjectModelId()
+    public function returnShowResponseWithBadSubjectModelId()
     {
 
     }
@@ -183,6 +193,17 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
         return $subjectModelClassName::find($id);
     }
+
+    public function getSubjectModelExistValues()
+    {
+        return $this->getSubjectModelSpecificAttributeValues('exists');
+    }
+
+    public function getSubjectModelSpecificAttributeValues($value)
+    {
+        return $this->service->getModelSpecificAttributeValues($this->getSubjectModelAttributes(), $value);
+    }
+
 
     public function getSubjectModelSingleOwnerClassName()
     {
@@ -281,7 +302,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     public function getSubjectModelAttributeThatRepresentsOwner()
     {
 
-        $existValuesOnSubjectModel = $this->service->getModelSpecificAttributeValues($this->getSubjectModelAttributes(), 'exists');
+        $existValuesOnSubjectModel = $this->getSubjectModelExistValues();
 
         $attributesWithExistValueSet = $this->getArrayKeysWhereValueIsNotNull($existValuesOnSubjectModel);
 
@@ -294,13 +315,16 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     }
 
 
+
     public function getGoodOrBadAttributesForSubjectModel($subjectModelAttributeFormats, $goodOrBadInLowerCase)
     {
         $attributesToReturn = [];
         foreach($subjectModelAttributeFormats as $nameOfAttribute => $attributeFormat)
         {
-            $runThisFakerFormatMethod = 'fake'.ucfirst($goodOrBadInLowerCase).ucfirst($attributeFormat).'Attribute';
-            $fakedAttribute = $this->$runThisFakerFormatMethod();
+            $dynamicMethodToReturnFakeAttribute = 'fake'.ucfirst($goodOrBadInLowerCase).ucfirst($attributeFormat).'Attribute';
+
+            $fakedAttribute = $this->$dynamicMethodToReturnFakeAttribute();
+
             $attributesToReturn[$nameOfAttribute] = $fakedAttribute;
         }
 
@@ -309,13 +333,26 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
 
 
-    public function getAttributesForSubjectModelAsArray($goodOrBadInLowerCase)
+    public function getFakeAttributesForSubjectModelAsArray($goodOrBadInLowerCase)
     {
-        $subjectModelAttributeFormats = $this->getSubjectModelAttributesFormat();
+        $formatsForSubjectModelAttributes = $this->getSubjectModelAttributesFormat();
 
-        $attributes = $this->getGoodOrBadAttributesForSubjectModel($subjectModelAttributeFormats, $goodOrBadInLowerCase);
+        $attributes = $this->getGoodOrBadAttributesForSubjectModel($formatsForSubjectModelAttributes, $goodOrBadInLowerCase);
 
         return $attributes;
+    }
+
+    public function exchangeGoodOwnerIdWithBadId($attributesToChange)
+    {
+        $badId = 'aaa';
+
+        $attributeThatRepresentsOwner = $this->getSubjectModelAttributeThatRepresentsOwner();
+
+        $this->deleteSubjectModelOwnerById($attributesToChange[$attributeThatRepresentsOwner]);
+
+        $attributesToChange[$attributeThatRepresentsOwner] = $badId;
+
+        return $attributesToChange;
     }
 
     /***********************************************************************************************************/
@@ -329,14 +366,14 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
     public function callServiceStoreMethodWithValidAttributes()
     {
-        $goodAttributesForStoreMethod = $this->getAttributesForSubjectModelAsArray('good');
+        $goodAttributesForStoreMethod = $this->getFakeAttributesForSubjectModelAsArray('good');
 
         return $this->callServiceStoreMethod($goodAttributesForStoreMethod);
     }
 
     public function callServiceStoreMethodWithBadAttributes()
     {
-        $invalidAttributes = $this->getAttributesForSubjectModelAsArray('bad');
+        $invalidAttributes = $this->getFakeAttributesForSubjectModelAsArray('bad');
 
         return $this->callServiceStoreMethod($invalidAttributes);
     }
