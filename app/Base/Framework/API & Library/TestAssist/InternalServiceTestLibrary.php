@@ -183,7 +183,26 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     }
 
 
-    public function returnUpdateResponseWithBadAttributeNames()
+    /**Returns an array of the subjectModel before the update method was called, and the response of the update method when bad attributes are used.
+     *Returns before, and after instances
+     *For use on models without an owner
+     *For models with an owner you should use $this->returnUpdateResponseGroupWithBadAttributeNamesForSubjectModelWithOwner()
+     * @return array
+     */
+    public function returnUpdateResponseGroupWithBadAttributeNamesForSubjectModelWithoutOwner()
+    {
+        $originalSubjectModel = $this->callServiceStoreMethodWithValidAttributes();
+
+        $subjectModelId = $originalSubjectModel->id;
+
+        $badAttributes = $this->getFakeGoodOrBadAttributesForSubjectModelAsArray('bad');
+
+        $badUpdateCall = $this->callServiceUpdateMethod($subjectModelId,$badAttributes);
+
+        return ['before' => $originalSubjectModel, 'after' => $badUpdateCall];
+    }
+
+    public function returnUpdateResponseGroupWithBadAttributeNamesForSubjectModelWithOwner()
     {
 
     }
