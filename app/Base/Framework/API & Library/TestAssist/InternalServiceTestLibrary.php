@@ -99,7 +99,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     {
         $goodAttributes = $this->getFakeGoodOrBadAttributesForSubjectModelAsArray('good');
 
-        $goodAttributesWithBadOwnerId = $this->exchangeGoodOwnerIdWithBadId($goodAttributes);
+        $goodAttributesWithBadOwnerId = $this->exchangeGoodOwnerIdWithBadIdAndDestroyMockedOwner($goodAttributes);
 
         return $this->callServiceStoreMethod($goodAttributesWithBadOwnerId);
     }
@@ -237,7 +237,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
         $newValidAttributes = $this->getFakeGoodOrBadAttributesForSubjectModelAsArray('good');
 
-        $goodAttributesWithBadOwnerId = $this->exchangeGoodOwnerIdWithBadId($newValidAttributes);
+        $goodAttributesWithBadOwnerId = $this->exchangeGoodOwnerIdWithBadIdAndDestroyMockedOwner($newValidAttributes);
 
         $badUpdateCall = $this->callServiceUpdateMethod($subjectModelId, $goodAttributesWithBadOwnerId);
 
@@ -245,16 +245,49 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     }
 
 
-
+    /**Returns an array of the subjectModel before the update method was called, and the response of the update method when a bad id for the model is used.
+     *Returns before, and after instances
+     *For use on models without an owner
+     *For models with an owner you should use $this->returnUpdateResponseGroupWithBadIdForSubjectModelWithOwner()
+     * @return array
+     */
     public function returnUpdateResponseGroupWithBadIdForSubjectModelWithoutOwner()
     {
+        $originalModel = $this->callServiceStoreMethodWithValidAttributes();
 
+        $newValidAttributes = $this->getFakeGoodOrBadAttributesForSubjectModelAsArray('good');
+
+        $badIdForSubjectModel = $this->getBadIdForSubjectModel();
+
+        $badUpdateCall = $this->callServiceUpdateMethod($badIdForSubjectModel, $newValidAttributes);
+
+        return ['before' => $originalModel, 'after' => $badUpdateCall];
     }
 
+
+    /**Returns an array of the subjectModel before the update method was called, and the response of the update method with a bad id for the model.
+     * Returns before, and after instances.
+     * For use on models with an owner
+     * For models without an owner you should use $this->returnUpdateResponseGroupWithBadIdForSubjectModelWithoutOwner()
+     * @return array
+     */
     public function returnUpdateResponseGroupWithBadIdForSubjectModelWithOwner()
     {
+        $originalModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
 
+        $newValidAttributes = $this->getFakeGoodOrBadAttributesForSubjectModelAsArray('good');
+
+        $badIdForSubjectModel = $this->getBadIdForSubjectModel();
+
+        $badUpdateCall = $this->callServiceUpdateMethod($badIdForSubjectModel, $newValidAttributes);
+
+        $attributeThatRepresentsOwner = $this->getSubjectModelAttributeThatRepresentsOwner();
+
+        $this->deleteSubjectModelOwnerById($newValidAttributes[$attributeThatRepresentsOwner]);
+
+        return ['before' => $originalModel, 'after' => $badUpdateCall];
     }
+
 
     public function returnDestroyResponseGroupForSubjectModelWithoutOwner()
     {
@@ -276,7 +309,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
     }
 
-   
+
 
     /***********************************************************************************************************/
     /*                                          Test Streamlining Helper Methods                                */
@@ -319,6 +352,11 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     public function getSubjectModelSpecificAttributeValues($value)
     {
         return $this->service->getModelSpecificAttributeValues($this->getSubjectModelAttributes(), $value);
+    }
+
+    public function getBadIdForSubjectModel()
+    {
+        return 'aaa';
     }
 
 
@@ -459,7 +497,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
         return $attributes;
     }
 
-    public function exchangeGoodOwnerIdWithBadId($attributesToChange)
+    public function exchangeGoodOwnerIdWithBadIdAndDestroyMockedOwner($attributesToChange)
     {
         $badId = 'aaa';
 

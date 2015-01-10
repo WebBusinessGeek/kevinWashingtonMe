@@ -20,7 +20,7 @@ Route::get('/', function()
 //    $service = new \App\Base\ConcreteInternalServiceTestLibrary();
 //
 //
-//   $response =  $service->returnUpdateResponseGroupWithGoodAttributesButBadOwnerId();
+//   $response =  $service->returnUpdateResponseGroupWithBadIdForSubjectModelWithOwner();
 //      dd($response);
 
 
