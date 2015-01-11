@@ -289,10 +289,10 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     }
 
 
-    /**Returns an array of subjectModel, the response to a destroy call to the subjectModelId on the service class, and subjectModel instance after the destroy was made.
+    /**Returns an array of the subjectModel, the destroy call response, and the subjectModel instance from the database after the destroy call was made.
      * Returns before, afterFromDB, and call instances.
      * For use on models without an owner.
-     * For models with an owner you should use $this->returnDestroyResponseGroupForSubjectModelWithOwner
+     * For models with an owner you should use $this->returnDestroyResponseGroupForSubjectModelWithOwner()
      * @return array
      */
     public function returnDestroyResponseGroupForSubjectModelWithoutOwner()
@@ -308,9 +308,24 @@ abstract class InternalServiceTestLibrary extends \TestCase{
         return ['before' => $subjectModel, 'afterFromDB' => $subjectModelFromDBAfterDestroyCall, 'call' => $destroyCallResponse];
     }
 
+
+    /**Returns an array of the subjectModel, the destroy call response, and the subjectModel instance from the database after the destroy call was made.
+     * Returns before, afterFromDB, and call instances.
+     * For use on models with an owner.
+     * For models without an owner you should use $this->returnDestroyResponseGroupForSubjectModelWithoutOwner()
+     * @return array
+     */
     public function returnDestroyResponseGroupForSubjectModelWithOwner()
     {
+        $subjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
 
+        $subjectModelId = $subjectModel->id;
+
+        $destroyCallResponse = $this->callServiceDestroyMethod($subjectModelId);
+
+        $subjectModelFromDBAfterDestroyCall = $this->getSubjectModelFromDatabase($subjectModelId);
+
+        return ['before' => $subjectModel, 'afterFromDB' => $subjectModelFromDBAfterDestroyCall, 'call' =>  $destroyCallResponse];
     }
 
     public function returnDestroyResponseGroupWithBadIdForSubjectModelWithoutOwner()
