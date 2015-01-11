@@ -328,14 +328,48 @@ abstract class InternalServiceTestLibrary extends \TestCase{
         return ['before' => $subjectModel, 'afterFromDB' => $subjectModelFromDBAfterDestroyCall, 'call' =>  $destroyCallResponse];
     }
 
+
+    /**Returns an array of the subjectModel, the destroy method call with a bad id, and the database instance of the subject model after the call.
+     * Returns before, afterFromDB, and call instances
+     * For use with models without an owner.
+     * For models with an owner you should use $this->returnDestroyResponseGroupWithBAdIdForSubjectModelWithOwner()
+     * @return array
+     */
     public function returnDestroyResponseGroupWithBadIdForSubjectModelWithoutOwner()
     {
+        $subjectModel = $this->callServiceStoreMethodWithValidAttributes();
 
+        $subjectModelId = $subjectModel->id;
+
+        $badSubjectModelId = 'aaa';
+
+        $badDestroyCallResponse = $this->callServiceDestroyMethod($badSubjectModelId);
+
+        $subjectModelFromDBAfterBadDestroyCall = $this->getSubjectModelFromDatabase($subjectModelId);
+
+        return ['before' => $subjectModel, 'afterFromDB' => $subjectModelFromDBAfterBadDestroyCall, 'call' => $badDestroyCallResponse];
     }
 
+
+    /**Returns an array of the subjectModel, response from destroy method call with bad id, and model instance from database after the bad destroy call.
+     * Returns before, afterFromDB, and call instances.
+     * For use with models with an owner.
+     * For models without an owner you should use returnDestroyResponseGroupWithBadIdForSubjectModelWithoutOwner()
+     * @return array
+     */
     public function returnDestroyResponseGroupWithBadIdForSubjectModelWithOwner()
     {
+        $subjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
 
+        $goodSubjectModelId = $subjectModel->id;
+
+        $badSubjectModelId = 'aaa';
+
+        $badDestroyCallResponse = $this->callServiceDestroyMethod($badSubjectModelId);
+
+        $subjectModelFromDBAfterBadDestroyCall = $this->getSubjectModelFromDatabase($goodSubjectModelId);
+
+        return ['before' => $subjectModel, 'afterFromDB' => $subjectModelFromDBAfterBadDestroyCall, 'call' =>  $badDestroyCallResponse];
     }
 
 
