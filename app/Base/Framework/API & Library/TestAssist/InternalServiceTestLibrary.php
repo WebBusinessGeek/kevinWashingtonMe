@@ -289,9 +289,23 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     }
 
 
+    /**Returns an array of subjectModel, the response to a destroy call to the subjectModelId on the service class, and subjectModel instance after the destroy was made.
+     * Returns before, afterFromDB, and call instances.
+     * For use on models without an owner.
+     * For models with an owner you should use $this->returnDestroyResponseGroupForSubjectModelWithOwner
+     * @return array
+     */
     public function returnDestroyResponseGroupForSubjectModelWithoutOwner()
     {
+        $subjectModel = $this->callServiceStoreMethodWithValidAttributes();
 
+        $subjectModelId = $subjectModel->id;
+
+        $destroyCallResponse = $this->callServiceDestroyMethod($subjectModelId);
+
+        $subjectModelFromDBAfterDestroyCall = $this->getSubjectModelFromDatabase($subjectModelId);
+
+        return ['before' => $subjectModel, 'afterFromDB' => $subjectModelFromDBAfterDestroyCall, 'call' => $destroyCallResponse];
     }
 
     public function returnDestroyResponseGroupForSubjectModelWithOwner()
@@ -587,6 +601,11 @@ abstract class InternalServiceTestLibrary extends \TestCase{
         return $this->service->update($modelId, $newAttributes);
     }
 
+
+    public function callServiceDestroyMethod($modelId)
+    {
+        return $this->service->destroy($modelId);
+    }
 
 
 }
