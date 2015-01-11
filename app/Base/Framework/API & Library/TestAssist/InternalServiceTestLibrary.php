@@ -23,7 +23,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
     /**Returns a modelInternalService@store method call response with good attributes.
      * For use on models without an owner.
-     * For models with an owner use $this->returnStoreResponseWithGoodAttributesThenDestroyOwner()
+     * For models with an owner use $this->returnStoreResponseWithGoodAttributesThenDestroyOwner() or you will have unwanted dummy data in the owner's database table.
      * @return mixed
      */
     public function returnStoreResponseWithGoodAttributes()
@@ -56,7 +56,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
     /**Returns a database instance of the subjectModel after the store method was called.
      * For use on models without an owner.
-     * For models with an owner use $this->returnDatabaseInstanceAfterStoreMethodCalledThenDestroyOwner()
+     * For models with an owner use $this->returnDatabaseInstanceAfterStoreMethodCalledThenDestroyOwner() or you will have unwanted dummy data in the owner's database table.
      * @return mixed
      */
     public function returnDatabaseInstanceAfterStoreMethodCalled()
@@ -107,7 +107,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
     /**Returns show method response for subjectModel service using a good id.
      * For use on models without an owner.
-     * For models with an owner use $this->returnShowResponseWithGoodIdForSubjectModelWithOwner()
+     * For models with an owner use $this->returnShowResponseWithGoodIdForSubjectModelWithOwner() or you will have unwanted dummy data in the owner's database table.
      * @return mixed
      */
     public function returnShowResponseWithGoodIdForSubjectModelWithoutOwner()
@@ -150,7 +150,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     /**Returns an array of the subjectModel before and after update method called with good id and attributes.
      * Returns before, after, and afterFromDB instances
      * For use on models without an owner.
-     * For models with an owner you should use $this->returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithOwner()
+     * For models with an owner you should use $this->returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithOwner() or you will have unwanted dummy data in the owner's database table.
      * @return array
      */
     public function returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithoutOwner()
@@ -186,7 +186,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     /**Returns an array of the subjectModel before the update method was called, and the response of the update method when bad attributes are used.
      *Returns before, and after instances
      *For use on models without an owner
-     *For models with an owner you should use $this->returnUpdateResponseGroupWithBadAttributeNamesForSubjectModelWithOwner()
+     *For models with an owner you should use $this->returnUpdateResponseGroupWithBadAttributeNamesForSubjectModelWithOwner() or you will have unwanted dummy data in the owner's database table.
      * @return array
      */
     public function returnUpdateResponseGroupWithBadAttributeValuesForSubjectModelWithoutOwner()
@@ -248,7 +248,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     /**Returns an array of the subjectModel before the update method was called, and the response of the update method when a bad id for the model is used.
      *Returns before, and after instances
      *For use on models without an owner
-     *For models with an owner you should use $this->returnUpdateResponseGroupWithBadIdForSubjectModelWithOwner()
+     *For models with an owner you should use $this->returnUpdateResponseGroupWithBadIdForSubjectModelWithOwner() or you will have unwanted dummy data in the owner's database table.
      * @return array
      */
     public function returnUpdateResponseGroupWithBadIdForSubjectModelWithoutOwner()
@@ -292,7 +292,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     /**Returns an array of the subjectModel, the destroy call response, and the subjectModel instance from the database after the destroy call was made.
      * Returns before, afterFromDB, and call instances.
      * For use on models without an owner.
-     * For models with an owner you should use $this->returnDestroyResponseGroupForSubjectModelWithOwner()
+     * For models with an owner you should use $this->returnDestroyResponseGroupForSubjectModelWithOwner() or you will have unwanted dummy data in the owner's database table.
      * @return array
      */
     public function returnDestroyResponseGroupForSubjectModelWithoutOwner()
@@ -332,7 +332,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     /**Returns an array of the subjectModel, the destroy method call with a bad id, and the database instance of the subject model after the call.
      * Returns before, afterFromDB, and call instances
      * For use with models without an owner.
-     * For models with an owner you should use $this->returnDestroyResponseGroupWithBAdIdForSubjectModelWithOwner()
+     * For models with an owner you should use $this->returnDestroyResponseGroupWithBAdIdForSubjectModelWithOwner() or you will have unwanted dummy data in the owner's database table.
      * @return array
      */
     public function returnDestroyResponseGroupWithBadIdForSubjectModelWithoutOwner()
@@ -372,6 +372,42 @@ abstract class InternalServiceTestLibrary extends \TestCase{
         return ['before' => $subjectModel, 'afterFromDB' => $subjectModelFromDBAfterBadDestroyCall, 'call' =>  $badDestroyCallResponse];
     }
 
+
+    /**Returns response after making an index method call on subjectModel's service. Also creates and returns dummy subjectModel in case there are no seeds in database.
+     * Returns subjectModels, and call instances.
+     * For use on models without an owner.
+     * For models with an owner you should use returnIndexResponseGroupForSubjectModelWithOwner() or you will have unwanted dummy data in the owner's database table.
+     * @param $paginationCount
+     * @return array
+     */
+    public function returnIndexResponseGroupForSubjectModelWithoutOwner($paginationCount)
+    {
+        $amountOfSubjectModelsToCreate = 20;
+
+        $subjectModels = $this->createMultipleSubjectModelInstancesWithoutOwners($amountOfSubjectModelsToCreate);
+
+        $indexCallResponse = $this->callServiceIndexMethod($paginationCount);
+
+        return ['subjectModels' => $subjectModels, 'call' => $indexCallResponse];
+    }
+
+    /**Returns response after making an index method call on subjectModel's service. Also creates and returns dummy subjectModel in case there are no seeds in database.
+     * Returns subjectModels, and call instances.
+     * For use on models with an owner.
+     * For models without an owner you should use returnIndexResponseGroupForSubjectModelWithoutOwner() or you will cause errors.
+     * @param $paginationCount
+     * @return array
+     */
+    public function returnIndexResponseGroupForSubjectModelWithOwner($paginationCount)
+    {
+        $amountOfSubjectModelsToCreate = 20;
+
+        $subjectModels = $this->createMultipleSubjectModelInstancesWithOwners($amountOfSubjectModelsToCreate);
+
+        $indexCallResponse =  $this->callServiceIndexMethod($paginationCount);
+
+        return ['subjectModels' => $subjectModels, 'call' => $indexCallResponse];
+    }
 
 
     /***********************************************************************************************************/
@@ -532,6 +568,30 @@ abstract class InternalServiceTestLibrary extends \TestCase{
         return $attributesWithExistValueSet[0];
     }
 
+    public function createMultipleSubjectModelInstancesWithoutOwners($amountOfSubjectModels)
+    {
+        $subjectModels = [];
+
+        foreach(range(1, $amountOfSubjectModels) as $index)
+        {
+            $subjectModel = $this->callServiceStoreMethodWithValidAttributes();
+            array_push($subjectModels, $subjectModel);
+        }
+
+        return $subjectModels;
+    }
+
+    public function createMultipleSubjectModelInstancesWithOwners($amountOfSubjectModelsToCreate)
+    {
+        $subjectModels = [];
+
+        foreach(range(1, $amountOfSubjectModelsToCreate) as $index)
+        {
+            $subjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+            array_push($subjectModels, $subjectModel);
+        }
+        return $subjectModels;
+    }
 
 
     public function getGoodOrBadAttributesForSubjectModel($subjectModelAttributeFormats, $goodOrBadInLowerCase)
@@ -657,4 +717,8 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     }
 
 
+    public function callServiceIndexMethod($paginationCount)
+    {
+        return $this->service->index($paginationCount);
+    }
 }
