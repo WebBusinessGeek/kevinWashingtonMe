@@ -41,7 +41,7 @@ class BaseModel {
 //
 //			'name' => 'nameOfAttribute',
 //
-//			'format' => '(choose 1: email, url, password,
+//			'format' => '(choose 1: email, phoneNumber, url, password,
 //							 string, exists, enum, text, id, token, ipAddress, date)',
 //
 //			'nullable' => false,
@@ -131,6 +131,9 @@ class BaseModel {
     {
         return $this->singleOwnerClassName;
     }
+
+
+
 
 
 }

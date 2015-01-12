@@ -197,8 +197,15 @@ trait ValidatorTrait {
     }
 
 
-
-
+    /**Returns true if number to check is in valid format, otherwise returns false. 
+     * @param $numberToCheck
+     * @return bool
+     */
+    public function phoneNumberIsValid($numberToCheck)
+    {
+        $allowed = "/^(\d[\s-]?)?[\(\[\s-]{0,2}?\d{3}[\)\]\s-]{0,2}?\d{3}[\s-]?\d{4}$/i";
+        return(preg_match($allowed, $numberToCheck))? true : false;
+    }
 
 
     /**

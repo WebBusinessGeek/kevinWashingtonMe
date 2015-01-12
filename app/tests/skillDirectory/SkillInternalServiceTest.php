@@ -212,7 +212,7 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     /**
      *Test index method returns instances of the correct class.
      */
-    public function test_destroy_method_returns_correct_class_instances()
+    public function test_index_method_returns_correct_class_instances()
     {
         $indexResponseGroup = $this->returnIndexResponseGroupForSubjectModelWithOwner(6);
 
@@ -227,7 +227,7 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     /**
      *Test index method returns correct pagination count.
      */
-    public function test_destroy_method_returns_correct_quantity_of_pagination()
+    public function test_index_method_returns_correct_quantity_of_pagination()
     {
         $paginationCount = 6;
 
@@ -239,7 +239,7 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     }
 
     /***********************************************************************************************************/
-    /*                                          Test helper properties                                            */
+    /*                                          Test  properties                                               */
     /***********************************************************************************************************/
 
     public $service;

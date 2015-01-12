@@ -107,8 +107,8 @@ abstract class InternalServiceTestAssist extends InternalServiceTestLibrary {
     /*                                                  Index TestCases                                       */
     /***********************************************************************************************************/
 
-    abstract public function test_destroy_method_returns_correct_class_instances();
+    abstract public function test_index_method_returns_correct_class_instances();
 
-    abstract public function test_destroy_method_returns_correct_quantity_of_pagination();
+    abstract public function test_index_method_returns_correct_quantity_of_pagination();
 
   }

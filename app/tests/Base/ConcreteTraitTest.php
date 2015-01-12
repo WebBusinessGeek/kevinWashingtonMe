@@ -2,15 +2,15 @@
 /**
  * Created by PhpStorm.
  * User: MacBookEr
- * Date: 12/12/14
- * Time: 12:44 PM
+ * Date: 1/12/15
+ * Time: 5:56 PM
  */
 
-//use \Illuminate\Foundation\Testing\TestCase;
-use App\Base\Framework\TestSubjects\ConcreteTrait as ConcreteTrait;
-use App\Models\User;
+use \App\Base\Framework\TestSubjects\ConcreteTrait as ConcreteTrait;
+use \App\Models\User as User;
 
-class TraitConcreteTest extends \TestCase {
+class ConcreteTraitTest extends \TestCase {
+
 
     /**
      * Test if method returns true if passed in array keys are accepted model attributes, otherwise false.
@@ -123,23 +123,23 @@ class TraitConcreteTest extends \TestCase {
     public function test_validatorTrait_modelNonNullableAttributesSet_method()
     {
         //trait instance
-        $trait = new ConcreteTrait();
+        $trait = new \App\Base\Framework\TestSubjects\ConcreteTrait();
 
         //array to match
         $arrayToMatch = [
-           0 => [
-            'name' => 'needValue1',
+            0 => [
+                'name' => 'needValue1',
 
-			'format' => 'email',
+                'format' => 'email',
 
-			'nullable' => false,
+                'nullable' => false,
 
-			'unique' => true,
+                'unique' => true,
 
-			'enumValues' => [
+                'enumValues' => [
 
-            ]
-		],
+                ]
+            ],
             1 => [
                 'name' => 'needValue2',
 
@@ -223,7 +223,7 @@ class TraitConcreteTest extends \TestCase {
         $trait = new ConcreteTrait();
 
         //User model instance and assert it has $modelAttribute property set
-        $user = new User();
+        $user = new \App\Models\User();
         $this->assertTrue(is_array($user->getSelfModelAttributes()));
 
         //assert getModelAttributeNames returns an array
@@ -431,7 +431,7 @@ class TraitConcreteTest extends \TestCase {
 
         //model attributes mock array
         $modelAttributesMock = [
-                0 => [
+            0 => [
                 'name' => 'email',
 
                 'format' => 'email',
@@ -445,7 +445,7 @@ class TraitConcreteTest extends \TestCase {
                 ]
             ],
 
-                1 => [
+            1 => [
                 'name' => 'password',
 
                 'format' => 'password',
@@ -459,7 +459,7 @@ class TraitConcreteTest extends \TestCase {
                 ]
             ],
 
-	    ];
+        ];
         //good credentials associative array
         $good1 = [
             'email' => 'someEmail@email.com',
@@ -963,7 +963,7 @@ class TraitConcreteTest extends \TestCase {
         $userNameSpace = new User();
         //call confirmLoginCredentials on valid credentials and assert instance returned.
         $goodResponse = $trait->confirmLoginCredentials('testtest123456', 'authenticationTrait@confirmLoginCredentialsMethodTest.com',
-                                        'password', 'email', $userNameSpace->getClassName());
+            'password', 'email', $userNameSpace->getClassName());
 
         $this->assertTrue('\\'.get_class($goodResponse) == $userNameSpace->getClassName());
 
@@ -1139,21 +1139,21 @@ class TraitConcreteTest extends \TestCase {
         //CHANGE DIRECTORY OR TEST WILL FAIL DUE TO OVERWRITING ORIGINAL IMAGE!!
         $goodResponse = $trait->resizeAndStoreImage($imageFile, $newWidth, $newHeight, 'uploads/large');
 
-            //assert the short and full paths are returned
-            $this->assertTrue(is_array($goodResponse));
+        //assert the short and full paths are returned
+        $this->assertTrue(is_array($goodResponse));
 
-            //assert the image was indeed resized
-            $newSize = getimagesize($goodResponse['fullPath']);
-            $this->assertEquals($newWidth, $newSize[0]);
-            $this->assertEquals($newHeight, $newSize[1]);
+        //assert the image was indeed resized
+        $newSize = getimagesize($goodResponse['fullPath']);
+        $this->assertEquals($newWidth, $newSize[0]);
+        $this->assertEquals($newHeight, $newSize[1]);
 
-            //assert the original image is still in its original place and size
-            $confirmOldSize = getimagesize($imageFile->getPathName());
-            $confirmOldWidth = $confirmOldSize[0];
-            $confirmOldHeight = $confirmOldSize[1];
+        //assert the original image is still in its original place and size
+        $confirmOldSize = getimagesize($imageFile->getPathName());
+        $confirmOldWidth = $confirmOldSize[0];
+        $confirmOldHeight = $confirmOldSize[1];
 
-            $this->assertEquals($confirmOldHeight, $originalHeight);
-            $this->assertEquals($confirmOldWidth, $originalWidth);
+        $this->assertEquals($confirmOldHeight, $originalHeight);
+        $this->assertEquals($confirmOldWidth, $originalWidth);
 
 
         unlink($imageFile->getPathName());
@@ -1167,8 +1167,38 @@ class TraitConcreteTest extends \TestCase {
     }
 
 
+    public function test_phoneNumberIsValid_method()
+    {
+        $trait = new ConcreteTrait();
 
+        $goodNumbersToCheck = [
+            '215-240-4455',
+            '215-787-4455',
+            '555-555-5555',
+            '5555425555',
+            '555 555 5555',
+            '1(519) 555-4444',
+            '1 (519) 555-4422',
+            '1-555-555-5555',
 
+        ];
+
+        $badNumbersToCheck = [
+            '123',
+            '45604545',
+            '4545',
+        ];
+
+        foreach($goodNumbersToCheck as $goodNumber)
+        {
+            $this->assertTrue($trait->phoneNumberIsValid($goodNumber));
+        }
+
+        foreach($badNumbersToCheck as $badNumber)
+        {
+            $this->assertFalse($trait->phoneNumberIsValid($badNumber));
+        }
+    }
 
 
 

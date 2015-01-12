@@ -531,6 +531,11 @@ abstract class InternalServiceTestLibrary extends \TestCase{
         return $text;
     }
 
+    public function fakeGoodPhoneNumberAttribute()
+    {
+        return '215-334-5454';
+    }
+
     public function fakeBadEmailAttribute()
     {
         return 'FakeBadEmailAttribute';
@@ -561,6 +566,10 @@ abstract class InternalServiceTestLibrary extends \TestCase{
         return '';
     }
 
+    public function fakeBadPhoneNumberAttribute()
+    {
+        return '215-555933';
+    }
 
     /***********************************************************************************************************/
     /*                                          Mid Level  Helper Methods                                       */
