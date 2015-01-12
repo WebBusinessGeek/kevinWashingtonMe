@@ -178,14 +178,24 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     /*                                          Update method tests                                              */
     /***********************************************************************************************************/
 
+    /**
+     *Test destroy method removes the instance from the database.
+     */
     public function test_destroy_method_removes_instance_from_database_if_subjectModel_id_is_correct()
     {
-        // TODO: Implement test_destroy_method_removes_instance_from_database_if_subjectModel_id_is_correct() method.
+        $destroyResponseGroup = $this->returnDestroyResponseGroupForSubjectModelWithOwner();
+
+        $this->assertEquals(null, $destroyResponseGroup['afterFromDB']);
     }
 
+    /**
+     *Test destroy method returns an error message if bad id is used. 
+     */
     public function test_destroy_method_returns_error_message_if_subjectModel_id_does_not_exist()
     {
-        // TODO: Implement test_destroy_method_returns_error_message_if_subjectModel_id_does_not_exist() method.
+        $destroyResponseGroup = $this->returnDestroyResponseGroupWithBadIdForSubjectModelWithOwner();
+
+        $this->assertEquals('Model not found.', $destroyResponseGroup['call']);
     }
 
 
