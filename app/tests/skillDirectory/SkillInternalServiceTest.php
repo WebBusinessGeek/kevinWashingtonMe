@@ -129,16 +129,20 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
      */
     public function test_update_method_returns_updated_instance_if_subjectModel_id_and_attributes_are_correct()
     {
-        $updateMethodResponse = $this->returnUpdateResponseWithGoodIdAndGoodAttributesAndGoodOwnerIdBeforeAndAfterUpdate();
+        $updateResponseGroup = $this->returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithOwner();
 
-        $this->assertNotEquals($updateMethodResponse['before']->title, $updateMethodResponse['after']->title);
+        $this->assertNotEquals($updateResponseGroup['before']->title, $updateResponseGroup['after']->title);
 
-        $this->cleanUpAfterTesting($updateMethodResponse['before']);
+        $this->cleanUpAfterTesting($updateResponseGroup['before']);
     }
 
     public function test_update_method_saves_changes_in_database_if_subjectModel_id_and_attributes_are_correct()
     {
-        
+        $updateResponseGroup = $this->returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithOwner();
+
+        $this->assertNotEquals($updateResponseGroup['before']->title, $updateResponseGroup['afterFromDB']->title);
+
+        $this->cleanUpAfterTesting($updateResponseGroup['before']->id);
     }
 
     public function test_update_method_returns_error_message_if_attributes_are_invalid()
