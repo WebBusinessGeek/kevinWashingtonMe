@@ -71,19 +71,41 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     /*                                          Show method tests                                              */
     /***********************************************************************************************************/
 
+    /**
+     *Test show method returns an instance of the correct class.
+     */
     public function test_show_method_returns_instance_of_correct_class_if_subjectModel_id_exists()
     {
-        // TODO: Implement test_show_method_returns_instance_of_correct_class_if_subjectModel_id_exists() method.
+        $showMethodResponse = $this->returnShowResponseWithGoodIdForSubjectModelWithOwner();
+
+        $this->assertTrue($this->service->isModelInstance($showMethodResponse));
+
+        $subjectModelId = $showMethodResponse->id;
+        $className = $this->getSubjectModelClassName();
+        $className::destroy($subjectModelId);
     }
 
+
+    /**
+     *Test show method response is the correct instance.
+     */
     public function test_show_method_returns_correct_instance_if_subjectModel_id_exists()
     {
-        // TODO: Implement test_show_method_returns_correct_instance_if_subjectModel_id_exists() method.
+        // TODO: Implement  public function test_show_method_returns_correct_instance_if_subjectModel_id_exists()
+
     }
 
+
+    /**
+     *Test show method returns error message if id is invalid.
+     */
     public function test_show_method_returns_error_message_if_subjectModel_id_does_not_exist()
     {
-        // TODO: Implement test_show_method_returns_error_message_if_subjectModel_id_does_not_exist() method.
+        //get bad show response
+        $showResponseWithInvalidId = $this->returnShowResponseWithBadIdForSubjectModel();
+
+        //assert error message
+        $this->assertEquals('Model not found.', $showResponseWithInvalidId);
     }
 
     /***********************************************************************************************************/
