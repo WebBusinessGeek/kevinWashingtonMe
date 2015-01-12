@@ -9,6 +9,7 @@
 namespace App\Base;
 
 
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\TestCase;
 use Symfony\Component\Routing\Exception\MissingMandatoryParametersException;
 
@@ -23,6 +24,27 @@ abstract class InternalServiceTestAssist extends InternalServiceTestLibrary {
         if($this->service == null)
         {
             throw new MissingMandatoryParametersException('No service added to test\'s constructor! Add a service before running tests!');
+        }
+    }
+
+    /***********************************************************************************************************/
+    /*                                        *** Helper methods for Descendants ***                            */
+    /***********************************************************************************************************/
+
+
+
+    public function cleanUpSingleModelAfterTesting(Model $model)
+    {
+        $subjectModelId =  $model->id;
+        $className = $this->getSubjectModelClassName();
+        $className::destroy($subjectModelId);
+    }
+
+    public function cleanUpMultipleModelsAfterTesting($models = array())
+    {
+        foreach($models as $model)
+        {
+            $this->cleanUpSingleModelAfterTesting($model);
         }
     }
 
@@ -81,5 +103,12 @@ abstract class InternalServiceTestAssist extends InternalServiceTestLibrary {
 
 //    abstract public function test_update_method_deletes_relationships();
 
+    /***********************************************************************************************************/
+    /*                                                  Index TestCases                                       */
+    /***********************************************************************************************************/
+
+    abstract public function test_destroy_method_returns_correct_class_instances();
+
+    abstract public function test_destroy_method_returns_correct_quantity_of_pagination();
 
   }

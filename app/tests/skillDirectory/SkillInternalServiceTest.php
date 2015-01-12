@@ -76,7 +76,7 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
      */
     public function test_show_method_returns_instance_of_correct_class_if_subjectModel_id_exists()
     {
-        $showMethodResponse = $this->returnShowResponseWithGoodIdForSubjectModelWithOwner();
+        $showMethodResponse = $this->returnShowResponseGroupWithGoodIdForSubjectModelWithOwner()['show'];
 
         $this->assertTrue($this->service->isModelInstance($showMethodResponse));
 
@@ -91,8 +91,13 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
      */
     public function test_show_method_returns_correct_instance_if_subjectModel_id_exists()
     {
-        // TODO: Implement  public function test_show_method_returns_correct_instance_if_subjectModel_id_exists()
+        $showResponseGroup = $this->returnShowResponseGroupWithGoodIdForSubjectModelWithOwner();
 
+        $subjectModel = $showResponseGroup['store'];
+
+        $this->assertEquals($subjectModel, $showResponseGroup['show']);
+
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
 
@@ -117,11 +122,11 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
      */
     public function test_update_method_returns_correct_instance_if_subjectModel_id_and_attributes_are_correct()
     {
-        $updateMethodResponse = $this->returnUpdateResponseWithGoodIdAndGoodAttributesAndGoodOwnerIdBeforeAndAfterUpdate();
+        $updateMethodResponse = $this->returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithOwner();
 
         $this->assertTrue($this->service->isModelInstance($updateMethodResponse['after']));
 
-        $this->cleanUpAfterTesting($updateMethodResponse['before']);
+        $this->cleanUpSingleModelAfterTesting($updateMethodResponse['before']);
     }
 
     /**
@@ -133,7 +138,7 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
         $this->assertNotEquals($updateResponseGroup['before']->title, $updateResponseGroup['after']->title);
 
-        $this->cleanUpAfterTesting($updateResponseGroup['before']);
+        $this->cleanUpSingleModelAfterTesting($updateResponseGroup['before']);
     }
 
     /**
@@ -145,7 +150,7 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
         $this->assertNotEquals($updateResponseGroup['before']->title, $updateResponseGroup['afterFromDB']->title);
 
-        $this->cleanUpAfterTesting($updateResponseGroup['before']);
+        $this->cleanUpSingleModelAfterTesting($updateResponseGroup['before']);
     }
 
     /**
@@ -157,7 +162,7 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
         $this->assertEquals('Invalid attributes sent to update method.', $updateResponseGroupUsingInvalidAttributes['call']);
 
-        $this->cleanUpAfterTesting($updateResponseGroupUsingInvalidAttributes['before']);
+        $this->cleanUpSingleModelAfterTesting($updateResponseGroupUsingInvalidAttributes['before']);
     }
 
 
@@ -170,7 +175,7 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
         $this->assertEquals('Model not found.', $updateResponseGroupUsingInvalidId['call']);
 
-        $this->cleanUpAfterTesting($updateResponseGroupUsingInvalidId['before']);
+        $this->cleanUpSingleModelAfterTesting($updateResponseGroupUsingInvalidId['before']);
     }
 
 
@@ -189,15 +194,49 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     }
 
     /**
-     *Test destroy method returns an error message if bad id is used. 
+     *Test destroy method returns an error message if bad id is used.
      */
     public function test_destroy_method_returns_error_message_if_subjectModel_id_does_not_exist()
     {
         $destroyResponseGroup = $this->returnDestroyResponseGroupWithBadIdForSubjectModelWithOwner();
 
         $this->assertEquals('Model not found.', $destroyResponseGroup['call']);
+
+        $this->cleanUpSingleModelAfterTesting($destroyResponseGroup['before']);
     }
 
+
+    /***********************************************************************************************************/
+    /*                                                  Index Method Tests                                       */
+    /***********************************************************************************************************/
+    /**
+     *Test index method returns instances of the correct class.
+     */
+    public function test_destroy_method_returns_correct_class_instances()
+    {
+        $indexResponseGroup = $this->returnIndexResponseGroupForSubjectModelWithOwner(6);
+
+        $instanceToTest = $indexResponseGroup['call'][0];
+
+        $this->assertTrue($this->service->isModelInstance($instanceToTest));
+
+        $this->cleanUpMultipleModelsAfterTesting($indexResponseGroup['subjectModels']);
+    }
+
+
+    /**
+     *Test index method returns correct pagination count.
+     */
+    public function test_destroy_method_returns_correct_quantity_of_pagination()
+    {
+        $paginationCount = 6;
+
+        $indexResponseGroup = $this->returnIndexResponseGroupForSubjectModelWithOwner($paginationCount);
+
+        $this->assertEquals($paginationCount, count($indexResponseGroup['call']));
+
+        $this->cleanUpMultipleModelsAfterTesting($indexResponseGroup['subjectModels']);
+    }
 
     /***********************************************************************************************************/
     /*                                          Test helper properties                                            */

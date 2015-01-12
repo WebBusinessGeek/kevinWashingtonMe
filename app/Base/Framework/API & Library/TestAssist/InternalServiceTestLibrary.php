@@ -106,33 +106,41 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     }
 
 
-    /**Returns show method response for subjectModel service using a good id.
+    /**Returns show method response group for subjectModel service using a good id.
+     * Returns both the store method call and the show method call responses.
+     * Returns show, and store instances.
      * For use on models without an owner.
-     * For models with an owner use $this->returnShowResponseWithGoodIdForSubjectModelWithOwner() or you will have unwanted dummy data in the owner's database table.
+     * For models with an owner use $this->returnShowResponseGroupWithGoodIdForSubjectModelWithOwner() or you will have unwanted dummy data in the owner's database table.
      * @return mixed
      */
-    public function returnShowResponseWithGoodIdForSubjectModelWithoutOwner()
+    public function returnShowResponseGroupWithGoodIdForSubjectModelWithoutOwner()
     {
-        $storeResponse = $this->callServiceStoreMethodWithValidAttributes();
+        $subjectModel = $this->callServiceStoreMethodWithValidAttributes();
 
-        $subjectModelId = $storeResponse->id;
+        $subjectModelId = $subjectModel->id;
 
-        return $this->callServiceShowMethod($subjectModelId);
+        $showResponse = $this->callServiceShowMethod($subjectModelId);
+
+        return ['store' => $subjectModel, 'show' => $showResponse];
     }
 
 
-    /**Returns a show method response from subjectModel service using a good id for model with an owner.
+    /**Returns a show method response group for subjectModel service using a good id for model with an owner.
+     * Returns both the store method call and the show method call responses.
+     * Returns show, and store instances.
      * For use on models with an owner.
-     * For models without an owner use $this->returnShowResponseWithGoodIdForSubjectModelWithoutOwner()
+     * For models without an owner use $this->returnShowResponseGroupWithGoodIdForSubjectModelWithoutOwner()
      * @return mixed
      */
-    public function returnShowResponseWithGoodIdForSubjectModelWithOwner()
+    public function returnShowResponseGroupWithGoodIdForSubjectModelWithOwner()
     {
-        $storeResponse = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+        $subjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
 
-        $subjectModelId = $storeResponse->id;
+        $subjectModelId = $subjectModel->id;
 
-        return $this->callServiceShowMethod($subjectModelId);
+        $showResponse = $this->callServiceShowMethod($subjectModelId);
+
+        return ['store' => $subjectModel, 'show' => $showResponse];
     }
 
 
@@ -558,12 +566,6 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     /*                                          Mid Level  Helper Methods                                       */
     /***********************************************************************************************************/
 
-    public function cleanUpAfterTesting(Model $model)
-    {
-        $subjectModelId =  $model->id;
-        $className = $this->getSubjectModelClassName();
-        $className::destroy($subjectModelId);
-    }
 
 
     public function getSubjectModelAttributeThatRepresentsOwner()
