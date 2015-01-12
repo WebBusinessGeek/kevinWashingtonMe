@@ -9,6 +9,7 @@
 namespace App\Base;
 
 
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\TestCase;
 use Symfony\Component\Routing\Exception\MissingMandatoryParametersException;
 
@@ -556,6 +557,13 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     /***********************************************************************************************************/
     /*                                          Mid Level  Helper Methods                                       */
     /***********************************************************************************************************/
+
+    public function cleanUpAfterTesting(Model $model)
+    {
+        $subjectModelId =  $model->id;
+        $className = $this->getSubjectModelClassName();
+        $className::destroy($subjectModelId);
+    }
 
 
     public function getSubjectModelAttributeThatRepresentsOwner()

@@ -112,19 +112,33 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     /*                                          Update method tests                                              */
     /***********************************************************************************************************/
 
+    /**
+     *Test update method returns instance of correct class.
+     */
     public function test_update_method_returns_correct_instance_if_subjectModel_id_and_attributes_are_correct()
     {
-        // TODO: Implement test_update_method_returns_correct_instance_if_subjectModel_id_and_attributes_are_correct() method.
+        $updateMethodResponse = $this->returnUpdateResponseWithGoodIdAndGoodAttributesAndGoodOwnerIdBeforeAndAfterUpdate();
+
+        $this->assertTrue($this->service->isModelInstance($updateMethodResponse['after']));
+
+        $this->cleanUpAfterTesting($updateMethodResponse['before']);
     }
 
+    /**
+     *Test update method returns changes made to the instance.
+     */
     public function test_update_method_returns_updated_instance_if_subjectModel_id_and_attributes_are_correct()
     {
-        // TODO: Implement test_update_method_returns_updated_instance_if_subjectModel_id_and_attributes_are_correct() method.
+        $updateMethodResponse = $this->returnUpdateResponseWithGoodIdAndGoodAttributesAndGoodOwnerIdBeforeAndAfterUpdate();
+
+        $this->assertNotEquals($updateMethodResponse['before']->title, $updateMethodResponse['after']->title);
+
+        $this->cleanUpAfterTesting($updateMethodResponse['before']);
     }
 
     public function test_update_method_saves_changes_in_database_if_subjectModel_id_and_attributes_are_correct()
     {
-        // TODO: Implement test_update_method_saves_changes_in_database_if_subjectModel_id_and_attributes_are_correct() method.
+        
     }
 
     public function test_update_method_returns_error_message_if_attributes_are_invalid()
