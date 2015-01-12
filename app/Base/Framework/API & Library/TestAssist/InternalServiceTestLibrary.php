@@ -185,7 +185,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
 
     /**Returns an array of the subjectModel before the update method was called, and the response of the update method when bad attributes are used.
-     *Returns before, and after instances
+     *Returns before, and call instances
      *For use on models without an owner
      *For models with an owner you should use $this->returnUpdateResponseGroupWithBadAttributeNamesForSubjectModelWithOwner() or you will have unwanted dummy data in the owner's database table.
      * @return array
@@ -200,12 +200,12 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
         $badUpdateCall = $this->callServiceUpdateMethod($subjectModelId,$badAttributes);
 
-        return ['before' => $originalSubjectModel, 'after' => $badUpdateCall];
+        return ['before' => $originalSubjectModel, 'call' => $badUpdateCall];
     }
 
 
     /**Returns an array of the subjectModel before the update method was called, and the response of the update method with bad attributes.
-     * Returns before, and after instances.
+     * Returns before, and call instances.
      * For use on models with an owner
      * For models without an owner you should use $this->returnUpdateResponseGroupWithBadAttributeNamesForSubjectModelWithoutOwner()
      * @return array
@@ -220,12 +220,12 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
         $badUpdateCall = $this->callServiceUpdateMethod($subjectModelId, $badAttributes);
 
-        return ['before' => $originalSubjectModel, 'after' => $badUpdateCall];
+        return ['before' => $originalSubjectModel, 'call' => $badUpdateCall];
     }
 
 
     /**Returns an array of the subjectModel before the update method was called, and the response of the update method with good attributes, but a bad owner id.
-     * Returns before, and after instances.
+     * Returns before, and call instances.
      * For use on models with an owner.
      * No alternative available as models without an owner should not need this functionality.
      * @return array
@@ -242,12 +242,12 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
         $badUpdateCall = $this->callServiceUpdateMethod($subjectModelId, $goodAttributesWithBadOwnerId);
 
-        return ['before' => $originalSubjectModel, 'after' => $badUpdateCall];
+        return ['before' => $originalSubjectModel, 'call' => $badUpdateCall];
     }
 
 
     /**Returns an array of the subjectModel before the update method was called, and the response of the update method when a bad id for the model is used.
-     *Returns before, and after instances
+     *Returns before, and call instances
      *For use on models without an owner
      *For models with an owner you should use $this->returnUpdateResponseGroupWithBadIdForSubjectModelWithOwner() or you will have unwanted dummy data in the owner's database table.
      * @return array
@@ -262,12 +262,12 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
         $badUpdateCall = $this->callServiceUpdateMethod($badIdForSubjectModel, $newValidAttributes);
 
-        return ['before' => $originalModel, 'after' => $badUpdateCall];
+        return ['before' => $originalModel, 'call' => $badUpdateCall];
     }
 
 
     /**Returns an array of the subjectModel before the update method was called, and the response of the update method with a bad id for the model.
-     * Returns before, and after instances.
+     * Returns before, and call instances.
      * For use on models with an owner
      * For models without an owner you should use $this->returnUpdateResponseGroupWithBadIdForSubjectModelWithoutOwner()
      * @return array
@@ -286,7 +286,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
         $this->deleteSubjectModelOwnerById($newValidAttributes[$attributeThatRepresentsOwner]);
 
-        return ['before' => $originalModel, 'after' => $badUpdateCall];
+        return ['before' => $originalModel, 'call' => $badUpdateCall];
     }
 
 

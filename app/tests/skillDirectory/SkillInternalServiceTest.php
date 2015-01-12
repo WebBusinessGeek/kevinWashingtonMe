@@ -136,23 +136,41 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
         $this->cleanUpAfterTesting($updateResponseGroup['before']);
     }
 
+    /**
+     *Test update method also saves the changes to the database.
+     */
     public function test_update_method_saves_changes_in_database_if_subjectModel_id_and_attributes_are_correct()
     {
         $updateResponseGroup = $this->returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithOwner();
 
         $this->assertNotEquals($updateResponseGroup['before']->title, $updateResponseGroup['afterFromDB']->title);
 
-        $this->cleanUpAfterTesting($updateResponseGroup['before']->id);
+        $this->cleanUpAfterTesting($updateResponseGroup['before']);
     }
 
+    /**
+     *Test update method returns an error message if incorrect attributes are given.
+     */
     public function test_update_method_returns_error_message_if_attributes_are_invalid()
     {
-        // TODO: Implement test_update_method_returns_error_message_if_attributes_are_invalid() method.
+        $updateResponseGroupUsingInvalidAttributes = $this->returnUpdateResponseGroupWithBadAttributeValuesForSubjectModelWithOwner();
+
+        $this->assertEquals('Invalid attributes sent to update method.', $updateResponseGroupUsingInvalidAttributes['call']);
+
+        $this->cleanUpAfterTesting($updateResponseGroupUsingInvalidAttributes['before']);
     }
 
+
+    /**
+     *Test update method returns an error message if invalid id is given.
+     */
     public function test_update_method_returns_error_message_if_subjectModel_id_does_not_exist()
     {
-        // TODO: Implement test_update_method_returns_error_message_if_subjectModel_id_does_not_exist() method.
+        $updateResponseGroupUsingInvalidId = $this->returnUpdateResponseGroupWithBadIdForSubjectModelWithOwner();
+
+        $this->assertEquals('Model not found.', $updateResponseGroupUsingInvalidId['call']);
+
+        $this->cleanUpAfterTesting($updateResponseGroupUsingInvalidId['before']);
     }
 
 

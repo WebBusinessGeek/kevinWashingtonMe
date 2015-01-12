@@ -28,4 +28,14 @@ class SkillInternalService extends BaseInternalService {
         return $this->existsIsValid($credentialsOrAttributes, $modelAttributes);
     }
 
+    /**Hook into parent::update method and run unique validations for class.
+     * @param array $attributes
+     * @param array $modelAttributes
+     * @return array|bool
+     */
+    public function runUniqueValidationLogicAndReturnAttributes($attributes = array(), $modelAttributes = array())
+    {
+        return ($this->existsIsValid($attributes, $modelAttributes)) ? $attributes : false ;
+    }
+
 }
