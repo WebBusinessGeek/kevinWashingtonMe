@@ -197,7 +197,7 @@ trait ValidatorTrait {
     }
 
 
-    /**Returns true if number to check is in valid format, otherwise returns false. 
+    /**Returns true if number to check is in valid format, otherwise returns false.
      * @param $numberToCheck
      * @return bool
      */

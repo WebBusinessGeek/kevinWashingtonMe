@@ -24,24 +24,38 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
      */
     public function test_store_method_creates_correct_instance_if_attributes_are_correct()
     {
-//        //store response
-//        $storeResponse = $this->returnStoreResponseWithGoodAttributes();
-//
-//        //assert class
-//        $this->assertTrue($this->service->isModelInstance($storeResponse));
-//
-//        //cleanup
-//        $this->cleanUpSingleModelAfterTesting($storeResponse);
+        $storeResponse = $this->returnStoreResponseWithGoodAttributes();
+
+        $this->assertTrue($this->service->isModelInstance($storeResponse));
+
+        $this->cleanUpSingleModelAfterTesting($storeResponse);
     }
 
+    /**
+     *Test method stores instance in database
+     */
     public function test_store_method_saves_instance_in_database_if_attributes_are_correct()
     {
-        // TODO: Implement test_store_method_saves_instance_in_database_if_attributes_are_correct() method.
+        $databaseInstanceAfterStoreResponseCalled = $this->returnDatabaseInstanceAfterStoreMethodCalled();
+
+        //assert database instance from database is correct class
+        $this->assertTrue($this->service->isModelInstance($databaseInstanceAfterStoreResponseCalled));
+
+        //cleanup
+        $this->cleanUpSingleModelAfterTesting($databaseInstanceAfterStoreResponseCalled);
     }
 
+    /**
+     *Test store method returns error message if incorrect attributes used.
+     */
     public function test_store_method_returns_error_message_if_attributes_are_invalid()
     {
-        // TODO: Implement test_store_method_returns_error_message_if_attributes_are_invalid() method.
+        //get bad attribute call for store
+        $storeResponseUsingBadAttributes = $this->returnStoreResponseWithBadAttributeValues();
+
+        //assert error message
+        $this->assertEquals('Invalid attributes sent to store method.', $storeResponseUsingBadAttributes);
+        
     }
 
     /***********************************************************************************************************/
