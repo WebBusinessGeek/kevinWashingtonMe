@@ -341,7 +341,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
         $subjectModelId = $subjectModel->id;
 
-        $badSubjectModelId = 'aaa';
+        $badSubjectModelId = $this->getBadIdForSubjectModel();
 
         $badDestroyCallResponse = $this->callServiceDestroyMethod($badSubjectModelId);
 
@@ -363,7 +363,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
         $goodSubjectModelId = $subjectModel->id;
 
-        $badSubjectModelId = 'aaa';
+        $badSubjectModelId = $this->getBadIdForSubjectModel();
 
         $badDestroyCallResponse = $this->callServiceDestroyMethod($badSubjectModelId);
 
@@ -484,24 +484,29 @@ abstract class InternalServiceTestLibrary extends \TestCase{
     /**************************************             Fakers           ***********************************************/
 
 
+    public function generateRandomIntegers()
+    {
+        return md5(rand(1209382, 102938102938109238));
+    }
+
     public function fakeGoodEmailAttribute()
     {
-        return 'FakeGoodEmailAttribute'.md5(rand(1209382, 102938102938109238)).'@myFramework.com';
+        return 'FakeGoodEmailAttribute'.$this->generateRandomIntegers().'@myFramework.com';
     }
 
     public function fakeGoodUrlAttribute()
     {
-        return 'http://www.fakeURLFromMyFramework'.md5(rand(1209382, 102938102938109238)).'.com';
+        return 'http://www.fakeURLFromMyFramework'.$this->generateRandomIntegers().'.com';
     }
 
     public function fakeGoodPasswordAttribute()
     {
-        return 'testtest'.md5(rand(1209382, 102938102938109238)).'FromMyFramework';
+        return 'testtest'.$this->generateRandomIntegers().'FromMyFramework';
     }
 
     public function fakeGoodStringAttribute()
     {
-        return 'FakeGoodString'.md5(rand(1209382, 102938102938109238)).'FromMyFrameWork';
+        return 'FakeGoodString'.$this->generateRandomIntegers().'FromMyFrameWork';
     }
 
     public function fakeGoodExistsAttribute()
@@ -513,7 +518,7 @@ abstract class InternalServiceTestLibrary extends \TestCase{
 
     public function fakeGoodTextAttribute()
     {
-        $text = 'FakeGoodText'.md5(rand(1209382, 102938102938109238)).'FromMyFramework'.'<br/>'.'FakeGoodText'.md5(rand(1209382, 102938102938109238)).'FromMyFramework'.'<br/>'.'FakeGoodText'.md5(rand(1209382, 102938102938109238)).'FromMyFramework'.'<br/>';
+        $text = 'FakeGoodText'.$this->generateRandomIntegers().'FromMyFramework'.'<br/>'.'FakeGoodText'.md5(rand(1209382, 102938102938109238)).'FromMyFramework'.'<br/>'.'FakeGoodText'.md5(rand(1209382, 102938102938109238)).'FromMyFramework'.'<br/>';
         return $text;
     }
 

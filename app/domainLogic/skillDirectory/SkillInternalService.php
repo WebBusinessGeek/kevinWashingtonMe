@@ -18,5 +18,14 @@ class SkillInternalService extends BaseInternalService {
         $this->model = new Skill();
     }
 
+    /**Hook into parent::store method and run unique validations for class.
+     * @param array $credentialsOrAttributes
+     * @param array $modelAttributes
+     * @return bool
+     */
+    public function checkUniqueValidationLogicAndReturnBoolean($credentialsOrAttributes = array(), $modelAttributes = array())
+    {
+        return $this->existsIsValid($credentialsOrAttributes, $modelAttributes);
+    }
 
 }

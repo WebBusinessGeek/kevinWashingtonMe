@@ -17,6 +17,8 @@ class Skill extends Model {
 
     protected $table = 'skills';
 
+    protected $singleOwnerClassName = '\App\DomainLogic\CategoryDirectory\Category';
+
     protected $modelAttributes = [
         0 => [
 
