@@ -38,10 +38,8 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
     {
         $databaseInstanceAfterStoreResponseCalled = $this->returnDatabaseInstanceAfterStoreMethodCalled();
 
-        //assert database instance from database is correct class
         $this->assertTrue($this->service->isModelInstance($databaseInstanceAfterStoreResponseCalled));
 
-        //cleanup
         $this->cleanUpSingleModelAfterTesting($databaseInstanceAfterStoreResponseCalled);
     }
 
@@ -50,31 +48,57 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
      */
     public function test_store_method_returns_error_message_if_attributes_are_invalid()
     {
-        //get bad attribute call for store
         $storeResponseUsingBadAttributes = $this->returnStoreResponseWithBadAttributeValues();
 
-        //assert error message
         $this->assertEquals('Invalid attributes sent to store method.', $storeResponseUsingBadAttributes);
-        
+
     }
 
     /***********************************************************************************************************/
     /*                                        Show Method Tests                                         */
     /***********************************************************************************************************/
 
+    /**
+     *Test show method returns instance of correct class.
+     */
     public function test_show_method_returns_instance_of_correct_class_if_subjectModel_id_exists()
     {
-        // TODO: Implement test_show_method_returns_instance_of_correct_class_if_subjectModel_id_exists() method.
+        $showResponse = $this->returnShowResponseGroupWithGoodIdForSubjectModelWithoutOwner();
+
+        $subjectModelInstance = $showResponse['show'];
+
+        $this->assertTrue($this->service->isModelInstance($subjectModelInstance));
+
+        $this->cleanUpSingleModelAfterTesting($subjectModelInstance);
+
     }
 
+    /**
+     *Test show method returns the same instance that was stored.
+     */
     public function test_show_method_returns_correct_instance_if_subjectModel_id_exists()
     {
-        // TODO: Implement test_show_method_returns_correct_instance_if_subjectModel_id_exists() method.
+        $showAndStoreInstances = $this->returnShowResponseGroupWithGoodIdForSubjectModelWithoutOwner();
+
+        $storeInstance = $showAndStoreInstances['store'];
+
+        $showInstance = $showAndStoreInstances['show'];
+
+        $this->assertEquals($showInstance, $storeInstance);
+
+        $this->cleanUpSingleModelAfterTesting($storeInstance);
     }
 
+
+    /**
+     *Test method returns error message when bad id use.
+     */
     public function test_show_method_returns_error_message_if_subjectModel_id_does_not_exist()
     {
-        // TODO: Implement test_show_method_returns_error_message_if_subjectModel_id_does_not_exist() method.
+        $showResponseUsingBadId = $this->returnShowResponseWithBadIdForSubjectModel();
+
+        $this->assertEquals('Model not found.', $showResponseUsingBadId);
+
     }
 
 
