@@ -30,8 +30,8 @@
           <file leaf-file-name="InquiryInternalServiceTest.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/tests/inquiryDirectory/InquiryInternalServiceTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.07913669" vertical-offset="5280" max-vertical-offset="6075">
-                  <caret line="215" column="61" selection-start-line="215" selection-start-column="61" selection-end-line="215" selection-end-column="61" />
+                <state vertical-scroll-proportion="0.64028776" vertical-offset="5780" max-vertical-offset="6725">
+                  <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -44,7 +44,7 @@
           <file leaf-file-name="InternalServiceTestLibrary.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/InternalServiceTestLibrary.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="12.023022" vertical-offset="8194" max-vertical-offset="18650">
+                <state vertical-scroll-proportion="10.332375" vertical-offset="9369" max-vertical-offset="18650">
                   <caret line="669" column="20" selection-start-line="669" selection-start-column="20" selection-end-line="669" selection-end-column="20" />
                   <folding />
                 </state>
@@ -580,6 +580,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.79136693" vertical-offset="2125" max-vertical-offset="9025">
           <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -660,6 +661,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39568347" vertical-offset="4550" max-vertical-offset="7550">
           <caret line="199" column="84" selection-start-line="199" selection-start-column="84" selection-end-line="199" selection-end-column="84" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +675,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/InternalServiceTestLibrary.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="12.023022" vertical-offset="8194" max-vertical-offset="18650">
+        <state vertical-scroll-proportion="10.332375" vertical-offset="9369" max-vertical-offset="18650">
           <caret line="669" column="20" selection-start-line="669" selection-start-column="20" selection-end-line="669" selection-end-column="20" />
           <folding />
         </state>
@@ -681,8 +683,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/inquiryDirectory/InquiryInternalServiceTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.07913669" vertical-offset="5280" max-vertical-offset="6075">
-          <caret line="215" column="61" selection-start-line="215" selection-start-column="61" selection-end-line="215" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.64028776" vertical-offset="5780" max-vertical-offset="6725">
+          <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
           <folding />
         </state>
       </provider>

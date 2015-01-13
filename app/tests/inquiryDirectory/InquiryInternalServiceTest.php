@@ -198,6 +198,10 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
         $subjectModelFromDBAfterDestroyMethodCalled = $destroyMethodCall['afterFromDB'];
 
         $this->assertEquals(null, $subjectModelFromDBAfterDestroyMethodCalled);
+
+        $subjectModel = $destroyMethodCall['before'];
+
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
     /**
@@ -220,14 +224,36 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
     /*                                        Index Method Tests                                         */
     /***********************************************************************************************************/
 
+    /**
+     *Test index method returns correct class instance
+     */
     public function test_index_method_returns_correct_class_instances()
     {
-        // TODO: Implement test_index_method_returns_correct_class_instances() method.
+        $paginationCount = 6;
+
+        $indexResponse = $this->returnIndexResponseGroupForSubjectModelWithoutOwner($paginationCount);
+
+        $subjectModelToTest = $indexResponse['call'][0];
+
+        $this->assertTrue($this->service->isModelInstance($subjectModelToTest));
+
+        $this->cleanUpMultipleModelsAfterTesting($indexResponse['subjectModels']);
     }
 
+    /**
+     *Test index method returns correct quantity of paginated instances.
+     */
     public function test_index_method_returns_correct_quantity_of_pagination()
     {
-        // TODO: Implement test_index_method_returns_correct_quantity_of_pagination() method.
+        $paginationCount = 6;
+
+        $indexResponse = $this->returnIndexResponseGroupForSubjectModelWithoutOwner($paginationCount);
+
+        $instancesPerPageReturnedFromIndexMethod = count($indexResponse['call']);
+
+        $this->assertEquals($paginationCount, $instancesPerPageReturnedFromIndexMethod);
+
+        $this->cleanUpMultipleModelsAfterTesting($indexResponse['subjectModels']);
     }
 
 
