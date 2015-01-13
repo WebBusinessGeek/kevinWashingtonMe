@@ -252,11 +252,11 @@ class SuperCategoryInternalServiceTest extends \TestCase {
         $this->assertEquals(count($categoryModels), count($fromDB->categories));
 
 
-//        SuperCategory::destroy($subCategory->id);
-//        foreach($categoryModels as $category)
-//        {
-//            Category::destroy($category->id);
-//        }
+        SuperCategory::destroy($subCategory->id);
+        foreach($categoryModels as $category)
+        {
+            Category::destroy($category->id);
+        }
 
     }
 
