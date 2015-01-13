@@ -219,14 +219,41 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
     /***********************************************************************************************************/
 
 
+    /**
+     *Test index method returns instance of correct class.
+     */
     public function test_index_method_returns_correct_class_instances()
     {
-        // TODO: Implement test_index_method_returns_correct_class_instances() method.
+        $paginationCount = 6;
+
+        $indexMethodCallResponseGroup = $this->returnIndexResponseGroupForSubjectModelWithoutOwner($paginationCount);
+
+        $paginationResponse = $indexMethodCallResponseGroup['call'];
+
+        $this->assertTrue($this->service->isModelInstance($paginationResponse[0]));
+
+        $mockSubjectModels = $indexMethodCallResponseGroup['subjectModels'];
+
+        $this->cleanUpMultipleModelsAfterTesting($mockSubjectModels);
     }
 
+    /**
+     *Test index method returns correct quantity on pagination results
+     */
     public function test_index_method_returns_correct_quantity_of_pagination()
     {
-        // TODO: Implement test_index_method_returns_correct_quantity_of_pagination() method.
+        $paginationCount = 6;
+
+        $indexMethodResponseGroup = $this->returnIndexResponseGroupForSubjectModelWithoutOwner($paginationCount);
+
+        $paginationResponse = $indexMethodResponseGroup['call'];
+
+        $this->assertEquals($paginationCount, count($paginationResponse));
+
+        $mockSubjectModels = $indexMethodResponseGroup['subjectModels'];
+
+        $this->cleanUpMultipleModelsAfterTesting($mockSubjectModels);
+
     }
 
     /***********************************************************************************************************/
