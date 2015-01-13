@@ -186,14 +186,32 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
     /***********************************************************************************************************/
 
 
+    /**
+     *Test destroy method removes instance from database.
+     */
     public function test_destroy_method_removes_instance_from_database_if_subjectModel_id_is_correct()
     {
-        // TODO: Implement test_destroy_method_removes_instance_from_database_if_subjectModel_id_is_correct() method.
+        $storeAndDestroyCall = $this->returnDestroyResponseGroupForSubjectModelWithoutOwner();
+
+        $subjectModelFromDBAfterDelete = $storeAndDestroyCall['afterFromDB'];
+
+        $this->assertEquals(null, $subjectModelFromDBAfterDelete);
     }
 
+    /**
+     *Test destroy method returns error message if id is bad.
+     */
     public function test_destroy_method_returns_error_message_if_subjectModel_id_does_not_exist()
     {
-        // TODO: Implement test_destroy_method_returns_error_message_if_subjectModel_id_does_not_exist() method.
+        $storeAndBadDestroyCall = $this->returnDestroyResponseGroupWithBadIdForSubjectModelWithoutOwner();
+
+        $originalSubjectModel = $storeAndBadDestroyCall['before'];
+
+        $shouldBeErrorMessage = $storeAndBadDestroyCall['call'];
+
+        $this->assertEquals('Model not found.', $shouldBeErrorMessage);
+
+        $this->cleanUpSingleModelAfterTesting($originalSubjectModel);
     }
 
     /***********************************************************************************************************/
