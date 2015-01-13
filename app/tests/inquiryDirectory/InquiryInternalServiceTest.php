@@ -207,9 +207,13 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
     {
         $destroyMethodCallWithBadSubjectModelID = $this->returnDestroyResponseGroupWithBadIdForSubjectModelWithoutOwner();
 
+        $subjectModel = $destroyMethodCallWithBadSubjectModelID['before'];
+
         $errorMessage = $destroyMethodCallWithBadSubjectModelID['call'];
 
         $this->assertEquals('Model not found.', $errorMessage);
+
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
     /***********************************************************************************************************/
