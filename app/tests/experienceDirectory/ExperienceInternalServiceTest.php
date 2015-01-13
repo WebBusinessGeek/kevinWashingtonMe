@@ -104,29 +104,81 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
     /***********************************************************************************************************/
 
 
+    /**
+     *Test update method returns instance of correct class.
+     */
     public function test_update_method_returns_correct_instance_if_subjectModel_id_and_attributes_are_correct()
     {
-        // TODO: Implement test_update_method_returns_correct_instance_if_subjectModel_id_and_attributes_are_correct() method.
+        $updatedSubjectModel = $this->returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithoutOwner()['after'];
+
+        $this->assertTrue($this->service->isModelInstance($updatedSubjectModel));
+
+        $this->cleanUpSingleModelAfterTesting($updatedSubjectModel);
     }
 
+    /**
+     *Test update method returns an updated instance of subject model.
+     */
     public function test_update_method_returns_updated_instance_if_subjectModel_id_and_attributes_are_correct()
     {
-        // TODO: Implement test_update_method_returns_updated_instance_if_subjectModel_id_and_attributes_are_correct() method.
+        $storeAndUpdateResponse = $this->returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithoutOwner();
+
+        $originalSubjectModel = $storeAndUpdateResponse['before'];
+
+        $updatedSubjectModel = $storeAndUpdateResponse['after'];
+
+        $this->assertNotEquals($originalSubjectModel->name, $updatedSubjectModel->name);
+
+        $this->cleanUpSingleModelAfterTesting($updatedSubjectModel);
     }
 
+    /**
+     *Test update method saves new changes to database.
+     */
     public function test_update_method_saves_changes_in_database_if_subjectModel_id_and_attributes_are_correct()
     {
-        // TODO: Implement test_update_method_saves_changes_in_database_if_subjectModel_id_and_attributes_are_correct() method.
+        $storeAndUpdateResponse = $this->returnUpdateResponseGroupUsingGoodIdAndGoodAttributesForSubjectModelWithoutOwner();
+
+        $originalSubjectModel = $storeAndUpdateResponse['before'];
+
+        $updatedSubjectModelFromDB = $storeAndUpdateResponse['afterFromDB'];
+
+        $this->assertNotEquals($originalSubjectModel->name, $updatedSubjectModelFromDB->name);
+
+        $this->cleanUpSingleModelAfterTesting($updatedSubjectModelFromDB);
     }
 
+
+    /**
+     *Test update method returns error message if attributes are invalid.
+     */
     public function test_update_method_returns_error_message_if_attributes_are_invalid()
     {
-        // TODO: Implement test_update_method_returns_error_message_if_attributes_are_invalid() method.
+        $storeAndBadUpdateCall = $this->returnUpdateResponseGroupWithBadAttributeValuesForSubjectModelWithoutOwner();
+
+        $originalSubjectModel = $storeAndBadUpdateCall['before'];
+
+        $shouldBeErrorMessage = $storeAndBadUpdateCall['call'];
+
+        $this->assertEquals('Invalid attributes sent to update method.', $shouldBeErrorMessage);
+
+        $this->cleanUpSingleModelAfterTesting($originalSubjectModel);
     }
 
+    /**
+     *Test update method returns error messageif bad id used to get subjectModel.
+     */
     public function test_update_method_returns_error_message_if_subjectModel_id_does_not_exist()
     {
-        // TODO: Implement test_update_method_returns_error_message_if_subjectModel_id_does_not_exist() method.
+        $storeAndBadUpdateCall = $this->returnUpdateResponseGroupWithBadIdForSubjectModelWithoutOwner();
+
+        $originalSubjectModel = $storeAndBadUpdateCall['before'];
+
+        $shouldBeErrorMessage = $storeAndBadUpdateCall['call'];
+
+        $this->assertEquals('Model not found.', $shouldBeErrorMessage);
+
+        $this->cleanUpSingleModelAfterTesting($originalSubjectModel);
     }
 
     /***********************************************************************************************************/
