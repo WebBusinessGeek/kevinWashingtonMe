@@ -16,12 +16,13 @@ Route::get('/', function()
 {
     return View::make('hello');
 
-//
-//    $service = new \App\Base\ConcreteInternalServiceTestLibrary();
-//
-//
-//   $response =  $service->returnIndexResponseGroupForSubjectModelWithOwner(4);
-//      dd($response);
+
+//    dd(\App\DomainLogic\SkillDirectory\Skill::class);
+
+
+
+
+    //clean up category and all skills
 
 
 });

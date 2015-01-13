@@ -19,6 +19,11 @@ class Skill extends Model {
 
     protected $singleOwnerClassName = '\App\DomainLogic\CategoryDirectory\Category';
 
+    public function category()
+    {
+        return $this->belongsTo('Category');
+    }
+
     protected $modelAttributes = [
         0 => [
 

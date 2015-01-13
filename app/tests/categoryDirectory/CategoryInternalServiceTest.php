@@ -9,12 +9,15 @@
 namespace tests\categoryDirectory;
 
 
+use App\Base\InternalServiceTestAssist;
+use App\Base\InternalServiceTestLibrary;
 use App\DomainLogic\CategoryDirectory\Category;
 use App\DomainLogic\CategoryDirectory\CategoryInternalService;
+use App\DomainLogic\SkillDirectory\Skill;
 use App\DomainLogic\SuperCategoryDirectory\SuperCategory;
 use Illuminate\Foundation\Testing\TestCase;
 
-class CategoryInternalServiceTest extends \TestCase {
+class CategoryInternalServiceTest extends InternalServiceTestLibrary {
 
     /***********************************************************************************************************/
     /*                                          Store method tests                                              */
@@ -105,6 +108,42 @@ class CategoryInternalServiceTest extends \TestCase {
 
 
 
+    public function test_show_method_return_subjectModel_with_is_children()
+    {
+        //create category model
+        $category = \App\DomainLogic\CategoryDirectory\Category::create([
+            'title' => 'testCategory',
+        ]);
+
+        //create skill models
+        $skillsModels = [];
+        foreach(range(1,10) as $index)
+        {
+            array_push($skillsModels, \App\DomainLogic\SkillDirectory\Skill::create([
+                    'title' => 'skill'.$index,
+                    'category_id' => $category->id,
+                ])
+            );
+        }
+
+        //get model from db and assert skills are shown with it
+        $fromDB  = \App\DomainLogic\CategoryDirectory\Category::find($category->id);
+
+        $this->assertEquals(count($skillsModels), count($fromDB->skills));
+
+        //cleanup
+        $modelsToDelete = [
+            $category,
+        ];
+
+
+        Category::destroy($category->id);
+        foreach($skillsModels as $skill)
+        {
+            Skill::destroy($skill->id);
+        }
+
+    }
     /***********************************************************************************************************/
     /*                                          Show method tests                                              */
     /***********************************************************************************************************/
