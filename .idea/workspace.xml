@@ -28,8 +28,8 @@
       <file leaf-file-name="CategoryInternalServiceTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/tests/categoryDirectory/CategoryInternalServiceTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0" vertical-offset="2730" max-vertical-offset="11975">
-              <caret line="142" column="39" selection-start-line="142" selection-start-column="39" selection-end-line="142" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.60431653" vertical-offset="2730" max-vertical-offset="11800">
+              <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
               <folding>
                 <element signature="e#128#167#0#PHP" expanded="true" />
               </folding>
@@ -44,7 +44,6 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-42" />
     <option name="y" value="22" />
     <option name="width" value="1418" />
     <option name="height" value="744" />
@@ -72,6 +71,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,7 +208,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,15 +246,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -274,7 +273,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-42" y="22" width="1418" height="744" extended-state="0" />
+    <frame x="0" y="22" width="1418" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -283,19 +282,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27856135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27856135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -507,7 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5323741" vertical-offset="155" max-vertical-offset="2525">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.50359714" vertical-offset="0" max-vertical-offset="695">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -637,42 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="9.172662" vertical-offset="0" max-vertical-offset="6850">
           <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
-          <folding>
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="Test store method creates correct instances. ..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="Test store method stores correct instance in database. ..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="Test store method returns error message if attributes are invalid. ..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="Test show method returns instance of correct class. ..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="Test show method returns correct instance. ..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="Test show method returns error message if wrong id is used. ..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="Test update method returns instance of correct class. ..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="Test update method returns an updated instance of subject model. ..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="Test update method saves new changes to database. ..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="Test update method returns error message if attributes are invalid. ..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="Test update method returns error messageif bad id used to get subjectModel. ..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="Test destroy method removes instance from database. ..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="Test destroy method returns error message if id is bad. ..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="Test index method returns instance of correct class. ..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="Test index method returns correct quantity on pagination results ..." />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421169722000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,492 +649,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="25.611511" vertical-offset="3100" max-vertical-offset="78300">
           <caret line="857" column="20" selection-start-line="857" selection-start-column="20" selection-end-line="857" selection-end-column="20" />
-          <folding>
-            <marker date="1420468539000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The connection name for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The table associated with the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The primary key for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The number of models to return for pagination. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Indicates if the IDs are auto-incrementing. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Indicates if the model should be timestamped. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The model's attributes. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The model attribute's original state. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The loaded relationships for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The attributes that should be hidden for arrays. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The attributes that should be visible in arrays. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The accessors to append to the model's array form. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The attributes that are mass assignable. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The attributes that aren't mass assignable. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The attributes that should be mutated to dates. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The relationships that should be touched on save. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" User exposed observable events ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The relations to eager load on every query. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The class name to be used in polymorphic relations. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Indicates if the model exists. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Indicates whether attributes are snake cased on arrays. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The connection resolver instance. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The event dispatcher instance. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The array of booted models. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The array of global scopes on the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Indicates if all mass assignment is enabled. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The cache of the mutated attributes for each class. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The many to many relationship methods. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The name of the &quot;created at&quot; column. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The name of the &quot;updated at&quot; column. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Create a new Eloquent model instance. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Check if the model needs to be booted and if so, do it. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" The &quot;booting&quot; method of the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Boot all of the bootable traits on the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Register a new global scope on the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Determine if a model has a global scope. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get a global scope registered with the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the global scopes for this class instance. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Register an observer with the Model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Fill the model with an array of attributes. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the fillable attributes of a given array. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Create a new instance of the given model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Create a new model instance that is existing. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Create a collection of models from plain arrays. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Create a collection of models from a raw query. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Save a new model and return the instance. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the first record matching the attributes or create it. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the first record matching the attributes or instantiate it. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Create or update a record matching the attributes, and fill it with values. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the first model for the given attributes. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Begin querying the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Begin querying the model on a given connection. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Begin querying the model on the write connection. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get all of the models from the database. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Find a model by its primary key. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Find a model by its primary key or return new static. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Find a model by its primary key or throw an exception. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Eager load relations on the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Being querying a model with eager loading. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Define a one-to-one relationship. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Define a polymorphic one-to-one relationship. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Define an inverse one-to-one or many relationship. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Define a polymorphic, inverse one-to-one or many relationship. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Define a one-to-many relationship. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Define a has-many-through relationship. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Define a polymorphic one-to-many relationship. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Define a many-to-many relationship. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Define a polymorphic many-to-many relationship. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Define a polymorphic, inverse many-to-many relationship. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the relationship name of the belongs to many. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the joining table name for a many-to-many relation. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Destroy the models for the given IDs. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Delete the model from the database. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Force a hard delete on a soft deleted model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Perform the actual delete query on this model instance. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Register a saving model event with the dispatcher. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Register a saved model event with the dispatcher. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Register an updating model event with the dispatcher. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Register an updated model event with the dispatcher. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Register a creating model event with the dispatcher. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Register a created model event with the dispatcher. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Register a deleting model event with the dispatcher. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Register a deleted model event with the dispatcher. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Remove all of the event listeners for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Register a model event with the dispatcher. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the observable event names. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the observable event names. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Add an observable event name. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Remove an observable event name. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Increment a column's value by a given amount. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Decrement a column's value by a given amount. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Run the increment or decrement method on the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Increment the underlying attribute value and sync with original. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Update the model in the database. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Save the model and all of its relationships. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Save the model to the database. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Finish processing on a successful save operation. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Perform a model update operation. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Perform a model insert operation. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Insert the given attributes and set the ID on the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Touch the owning relations of the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Determine if the model touches a given relation. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Fire the given event for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the keys for a save update query. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the primary key value for a save query. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Update the model's update timestamp. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Update the creation and update timestamps. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the value of the &quot;created at&quot; attribute. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the value of the &quot;updated at&quot; attribute. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the name of the &quot;created at&quot; column. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the name of the &quot;updated at&quot; column. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get a fresh timestamp for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get a fresh timestamp for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get a new query builder for the model's table. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get a new query instance without a given scope. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get a new query builder that doesn't have any global scopes. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Apply all of the global scopes to an Eloquent builder. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Remove all of the global scopes from an Eloquent builder. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Create a new Eloquent query builder for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get a new query builder instance for the connection. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Create a new Eloquent Collection instance. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Create a new pivot model instance. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the table associated with the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the table associated with the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the value of the model's primary key. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the primary key for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the primary key for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the table qualified key name. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Determine if the model uses timestamps. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the polymorphic relationship columns. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the class name for polymorphic relations. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the number of models to return per page. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the number of models to return per page. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the default foreign key name for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the hidden attributes for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the hidden attributes for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the visible attributes for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the accessors to append to model arrays. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the fillable attributes for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the fillable attributes for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" get the guarded attributes for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the guarded attributes for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Disable all mass assignable restrictions. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Enable the mass assignment restrictions. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set &quot;unguard&quot; to a given state. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Determine if the given attribute may be mass assigned. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Determine if the given key is guarded. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Determine if the model is totally guarded. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Remove the table name from a given key. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the relationships that are touched on save. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the relationships that are touched on save. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the value indicating whether the IDs are incrementing. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set whether IDs are incrementing. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Convert the model instance to JSON. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Convert the object into something JSON serializable. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Convert the model instance to an array. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Convert the model's attributes to an array. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get an attribute array of all arrayable attributes. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get all of the appendable values that are arrayable. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the model's relationships in array form. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get an attribute array of all arrayable relations. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get an attribute array of all arrayable values. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get an attribute from the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get a plain attribute (not a relationship). ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get an attribute from the $attributes array. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get a relationship value from a method. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Determine if a get mutator exists for an attribute. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the value of an attribute using its mutator. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the value of an attribute using its mutator for array conversion. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set a given attribute on the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Determine if a set mutator exists for an attribute. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the attributes that should be converted to dates. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Convert a DateTime to a storable string. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Return a timestamp as DateTime object. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the format for database stored dates. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Clone the model into a new, non-existing instance. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get all of the current attributes on the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the array of model attributes. No checking is done. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the model's original attribute values. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Sync the original attributes with the current. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Sync a single original attribute with its current value. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Determine if the model or given attribute(s) have been modified. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the attributes that have been changed since last sync. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Determine if the new and old values for a given key are numerically equivalent. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get all the loaded relations for the instance. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get a specified relationship. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the specific relationship in the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the entire relations array on the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the database connection for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the current connection name for the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the connection associated with the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Resolve a connection instance. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the connection resolver instance. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the connection resolver instance. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Unset the connection resolver for models. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the event dispatcher instance. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the event dispatcher instance. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Unset the event dispatcher for models. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the mutated attributes for a given instance. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Dynamically retrieve attributes on the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Dynamically set attributes on the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Determine if the given attribute exists. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Get the value for a given offset. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Set the value for a given offset. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Unset the value for a given offset. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Determine if an attribute exists on the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Unset an attribute on the model. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Handle dynamic method calls into the method. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Handle dynamic static method calls into the method. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" Convert the model to its string representation. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder=" When a model is being unserialized, check if it needs to be booted. ..." />
-            <marker date="1420468539000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1181,20 +657,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="3175">
           <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-          <folding>
-            <marker date="1421172812000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1421172812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421172812000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421172812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421172812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421172812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421172812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421172812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421172812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421172812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421172812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421172812000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.79136693" vertical-offset="2675" max-vertical-offset="3475">
           <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1210,11 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.50359714" vertical-offset="0" max-vertical-offset="695">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1421174673000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1421174673000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421174673000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1222,24 +679,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53956836" vertical-offset="0" max-vertical-offset="2075">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1421174661000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1421174661000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1421174661000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421174661000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421174661000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421174661000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421174661000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421174661000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421174661000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/categoryDirectory/CategoryInternalServiceTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0" vertical-offset="2730" max-vertical-offset="11975">
-          <caret line="142" column="39" selection-start-line="142" selection-start-column="39" selection-end-line="142" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.60431653" vertical-offset="2730" max-vertical-offset="11800">
+          <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
           <folding>
             <element signature="e#128#167#0#PHP" expanded="true" />
           </folding>

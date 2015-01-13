@@ -110,33 +110,26 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
 
     public function test_show_method_return_subjectModel_with_is_children()
     {
-        //create category model
         $category = \App\DomainLogic\CategoryDirectory\Category::create([
             'title' => 'testCategory',
         ]);
 
-        //create skill models
         $skillsModels = [];
         foreach(range(1,10) as $index)
         {
-            array_push($skillsModels, \App\DomainLogic\SkillDirectory\Skill::create([
-                    'title' => 'skill'.$index,
-                    'category_id' => $category->id,
-                ])
-            );
+            $skill = \App\DomainLogic\SkillDirectory\Skill::create([
+                'title' => 'skill'.$index,
+                'category_id' => $category->id,
+            ]);
+
+            array_push($skillsModels, $skill);
         }
 
-        //get model from db and assert skills are shown with it
         $fromDB  = \App\DomainLogic\CategoryDirectory\Category::find($category->id);
 
         $this->assertEquals(count($skillsModels), count($fromDB->skills));
 
-        //cleanup
-        $modelsToDelete = [
-            $category,
-        ];
-
-
+        
         Category::destroy($category->id);
         foreach($skillsModels as $skill)
         {
