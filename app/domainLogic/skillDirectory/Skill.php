@@ -17,11 +17,18 @@ class Skill extends Model {
 
     protected $table = 'skills';
 
+    protected $with = ['tools', ];
+
     protected $singleOwnerClassName = '\App\DomainLogic\CategoryDirectory\Category';
 
     public function category()
     {
         return $this->belongsTo('Category');
+    }
+
+    public function tools()
+    {
+        return $this->hasMany('App\DomainLogic\ToolDirectory\Tool');
     }
 
     protected $modelAttributes = [

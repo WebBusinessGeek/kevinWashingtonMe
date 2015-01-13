@@ -17,6 +17,11 @@ class Tool extends Model {
 
     protected $table = 'tools';
 
+    public function skills()
+    {
+        return $this->belongsToMany('skills');
+    }
+
     protected $modelAttributes = [
         0 => [
 
