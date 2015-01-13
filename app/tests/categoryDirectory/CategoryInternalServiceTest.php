@@ -9,7 +9,6 @@
 namespace tests\categoryDirectory;
 
 
-use App\Base\InternalServiceTestAssist;
 use App\Base\InternalServiceTestLibrary;
 use App\DomainLogic\CategoryDirectory\Category;
 use App\DomainLogic\CategoryDirectory\CategoryInternalService;
@@ -107,36 +106,6 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
     }
 
 
-
-    public function test_show_method_return_subjectModel_with_is_children()
-    {
-        $category = \App\DomainLogic\CategoryDirectory\Category::create([
-            'title' => 'testCategory',
-        ]);
-
-        $skillsModels = [];
-        foreach(range(1,10) as $index)
-        {
-            $skill = \App\DomainLogic\SkillDirectory\Skill::create([
-                'title' => 'skill'.$index,
-                'category_id' => $category->id,
-            ]);
-
-            array_push($skillsModels, $skill);
-        }
-
-        $fromDB  = \App\DomainLogic\CategoryDirectory\Category::find($category->id);
-
-        $this->assertEquals(count($skillsModels), count($fromDB->skills));
-
-        
-        Category::destroy($category->id);
-        foreach($skillsModels as $skill)
-        {
-            Skill::destroy($skill->id);
-        }
-
-    }
     /***********************************************************************************************************/
     /*                                          Show method tests                                              */
     /***********************************************************************************************************/
@@ -200,6 +169,35 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
 
 
 
+    public function test_show_method_return_subjectModel_with_is_children()
+    {
+        $category = \App\DomainLogic\CategoryDirectory\Category::create([
+            'title' => 'testCategory',
+        ]);
+
+        $skillsModels = [];
+        foreach(range(1,10) as $index)
+        {
+            $skill = \App\DomainLogic\SkillDirectory\Skill::create([
+                'title' => 'skill'.$index,
+                'category_id' => $category->id,
+            ]);
+
+            array_push($skillsModels, $skill);
+        }
+
+        $fromDB  = \App\DomainLogic\CategoryDirectory\Category::find($category->id);
+
+        $this->assertEquals(count($skillsModels), count($fromDB->skills));
+
+
+        Category::destroy($category->id);
+        foreach($skillsModels as $skill)
+        {
+            Skill::destroy($skill->id);
+        }
+
+    }
 
     /***********************************************************************************************************/
     /*                                          Update method tests                                              */

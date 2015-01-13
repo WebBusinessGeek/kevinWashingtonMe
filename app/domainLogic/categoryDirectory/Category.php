@@ -18,7 +18,6 @@ class Category extends Model {
 
     protected $table = 'categories';
 
-//    protected $ownedClass = Skill::class;
 
     protected $singleOwnerClassName = '\App\Base\DomainLogic\SuperCategoryDirectory\SuperCategory';
 
@@ -27,6 +26,11 @@ class Category extends Model {
     public function skills()
     {
         return $this->hasMany('App\DomainLogic\SkillDirectory\Skill', 'category_id');
+    }
+
+    public function superCategory()
+    {
+        return $this->belongsTo('App\DomainLogic\SuperCategory\Directory\SuperCategory');
     }
 
     protected $modelAttributes = [

@@ -9,6 +9,7 @@
 namespace tests\superCategoryDirectory;
 
 
+use App\DomainLogic\CategoryDirectory\Category;
 use App\DomainLogic\SuperCategoryDirectory\SuperCategory;
 use App\DomainLogic\SuperCategoryDirectory\SuperCategoryInternalService;
 use Illuminate\Foundation\Testing\TestCase;
@@ -229,7 +230,34 @@ class SuperCategoryInternalServiceTest extends \TestCase {
         }
     }
 
-    public function test_superCategoryInternalService_uniqueDestroyLogic_method()
-    {}
+    public function test_show_method_return_subjectModel_with_is_children()
+    {
+        $subCategory = \App\DomainLogic\SuperCategoryDirectory\SuperCategory::create([
+            'title' => 'testSuperCategory',
+        ]);
+
+        $categoryModels = [];
+        foreach(range(1,10) as $index)
+        {
+            $category = \App\DomainLogic\CategoryDirectory\Category::create([
+                'title' => 'category'.$index,
+                'superCategory_id' => $subCategory->id,
+            ]);
+
+            array_push($categoryModels, $category);
+        }
+
+        $fromDB  = \App\DomainLogic\SuperCategoryDirectory\SuperCategory::find($subCategory->id);
+
+        $this->assertEquals(count($categoryModels), count($fromDB->categories));
+
+
+//        SuperCategory::destroy($subCategory->id);
+//        foreach($categoryModels as $category)
+//        {
+//            Category::destroy($category->id);
+//        }
+
+    }
 
 }

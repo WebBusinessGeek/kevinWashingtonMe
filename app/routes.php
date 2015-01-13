@@ -17,12 +17,4 @@ Route::get('/', function()
     return View::make('hello');
 
 
-//    dd(\App\DomainLogic\SkillDirectory\Skill::class);
-
-
-
-
-    //clean up category and all skills
-
-
 });

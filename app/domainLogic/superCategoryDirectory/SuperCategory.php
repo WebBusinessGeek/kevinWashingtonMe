@@ -18,6 +18,13 @@ class SuperCategory extends Model{
 
     protected $table = 'superCategories';
 
+    protected $with = 'categories';
+
+    public function categories()
+    {
+        return $this->hasMany('\App\DomainLogic\CategoryDirectory\Category', 'superCategory_id');
+    }
+
     protected $modelAttributes = [
         0 => [
 
