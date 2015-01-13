@@ -60,19 +60,42 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
     /*                                                  Show TestCases                                       */
     /***********************************************************************************************************/
 
+    /**
+     *Test show method returns instance of correct class.
+     */
     public function test_show_method_returns_instance_of_correct_class_if_subjectModel_id_exists()
     {
-        // TODO: Implement test_show_method_returns_instance_of_correct_class_if_subjectModel_id_exists() method.
+        $subjectModelFromShowMethod = $this->returnShowResponseGroupWithGoodIdForSubjectModelWithoutOwner()['show'];
+
+        $this->assertTrue($this->service->isModelInstance($subjectModelFromShowMethod));
+
+        $this->cleanUpSingleModelAfterTesting($subjectModelFromShowMethod);
     }
 
+
+    /**
+     *Test show method returns correct instance.
+     */
     public function test_show_method_returns_correct_instance_if_subjectModel_id_exists()
     {
-        // TODO: Implement test_show_method_returns_correct_instance_if_subjectModel_id_exists() method.
+        $storeAndShowResponse = $this->returnShowResponseGroupWithGoodIdForSubjectModelWithoutOwner();
+
+        $subjectModelFromStoreMethod = $storeAndShowResponse['store'];
+        $subjectModelFromShowMethod = $storeAndShowResponse['show'];
+
+        $this->assertEquals($subjectModelFromStoreMethod, $subjectModelFromShowMethod);
+
+        $this->cleanUpSingleModelAfterTesting($subjectModelFromShowMethod);
     }
 
+    /**
+     *Test show method returns error message if wrong id is used.
+     */
     public function test_show_method_returns_error_message_if_subjectModel_id_does_not_exist()
     {
-        // TODO: Implement test_show_method_returns_error_message_if_subjectModel_id_does_not_exist() method.
+        $shouldBeErrorMessage = $this->returnShowResponseWithBadIdForSubjectModel();
+
+        $this->assertEquals('Model not found.', $shouldBeErrorMessage);
     }
 
 
