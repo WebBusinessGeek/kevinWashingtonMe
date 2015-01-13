@@ -188,14 +188,28 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
     /*                                        Destroy Method Tests                                         */
     /***********************************************************************************************************/
 
+    /**
+     *Test destroy method removes instance from database.
+     */
     public function test_destroy_method_removes_instance_from_database_if_subjectModel_id_is_correct()
     {
-        // TODO: Implement test_destroy_method_removes_instance_from_database_if_subjectModel_id_is_correct() method.
+        $destroyMethodCall = $this->returnDestroyResponseGroupForSubjectModelWithoutOwner();
+
+        $subjectModelFromDBAfterDestroyMethodCalled = $destroyMethodCall['afterFromDB'];
+
+        $this->assertEquals(null, $subjectModelFromDBAfterDestroyMethodCalled);
     }
 
+    /**
+     *Test destroy method returns error message if bad id is used.
+     */
     public function test_destroy_method_returns_error_message_if_subjectModel_id_does_not_exist()
     {
-        // TODO: Implement test_destroy_method_returns_error_message_if_subjectModel_id_does_not_exist() method.
+        $destroyMethodCallWithBadSubjectModelID = $this->returnDestroyResponseGroupWithBadIdForSubjectModelWithoutOwner();
+
+        $errorMessage = $destroyMethodCallWithBadSubjectModelID['call'];
+
+        $this->assertEquals('Model not found.', $errorMessage);
     }
 
     /***********************************************************************************************************/
