@@ -36,7 +36,7 @@ abstract class InternalServiceTestAssist extends InternalServiceTestLibrary {
     public function cleanUpSingleModelAfterTesting(Model $model)
     {
         $subjectModelId =  $model->id;
-        $className = $this->getSubjectModelClassName();
+        $className = $model->getClassName();
         $className::destroy($subjectModelId);
     }
 

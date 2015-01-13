@@ -9,6 +9,7 @@
 namespace App\DomainLogic\SkillDirectory;
 
 
+use App\DomainLogic\ToolDirectory\Tool;
 use Illuminate\Database\Eloquent\Model;
 
 class Skill extends Model {
@@ -17,7 +18,9 @@ class Skill extends Model {
 
     protected $table = 'skills';
 
-    protected $with = ['tools', ];
+    protected $with = 'tools';
+
+    protected $relations = ['tools'];
 
     protected $singleOwnerClassName = '\App\DomainLogic\CategoryDirectory\Category';
 
@@ -28,7 +31,7 @@ class Skill extends Model {
 
     public function tools()
     {
-        return $this->hasMany('App\DomainLogic\ToolDirectory\Tool');
+        return $this->belongsToMany(Tool::class, 'skill_tool');
     }
 
     protected $modelAttributes = [

@@ -10,7 +10,9 @@ namespace tests\skillDirectory;
 
 
 use App\Base\InternalServiceTestAssist;
+use App\DomainLogic\SkillDirectory\Skill;
 use App\DomainLogic\SkillDirectory\SkillInternalService;
+use App\DomainLogic\ToolDirectory\Tool;
 use Illuminate\Foundation\Testing\TestCase;
 
 class SkillInternalServiceTest extends InternalServiceTestAssist{
@@ -95,7 +97,7 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
         $subjectModel = $showResponseGroup['store'];
 
-        $this->assertEquals($subjectModel, $showResponseGroup['show']);
+        $this->assertEquals($subjectModel->title, $showResponseGroup['show']->title);
 
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
@@ -113,6 +115,52 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
         $this->assertEquals('Model not found.', $showResponseWithInvalidId);
     }
 
+
+    public function test_show_method_returns_skills_with_tools()
+    {
+        $subjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+
+        $tools = [];
+        foreach(range(1,10) as $index)
+        {
+            $tool = Tool::create([
+                'title' => 'tool'.$index,
+            ]);
+            $subjectModel->tools()->attach($tool->id);
+            array_push($tools, $tool);
+        }
+
+        $skillFromDB = Skill::find($subjectModel->id);
+
+        $this->assertTrue(isset($skillFromDB->tools) && $skillFromDB->tools != null);
+
+        $this->cleanUpMultipleModelsAfterTesting($tools);
+        $this->cleanUpSingleModelAfterTesting($skillFromDB);
+    }
+
+
+    public function test_show_method_returns_skills_with_correct_amount_of_tools()
+    {
+        $subjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+
+        $tools = [];
+        foreach(range(1,10) as $index)
+        {
+            $tool = Tool::create([
+                'title' => 'tool'.$index,
+            ]);
+            $subjectModel->tools()->attach($tool->id);
+            array_push($tools, $tool);
+        }
+
+        $skillFromDB = Skill::find($subjectModel->id);
+
+        $this->assertEquals(count($tools), count($skillFromDB->tools));
+
+        $this->cleanUpMultipleModelsAfterTesting($tools);
+        $this->cleanUpSingleModelAfterTesting($skillFromDB);
+
+    }
     /***********************************************************************************************************/
     /*                                          Update method tests                                              */
     /***********************************************************************************************************/

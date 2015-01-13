@@ -14,7 +14,35 @@
 
 Route::get('/', function()
 {
-    return View::make('hello');
+//    return View::make('hello');
 
+
+    $subjectModel = \App\DomainLogic\SkillDirectory\Skill::create(
+        [
+            'title' => 'skill',
+        ]
+    );
+
+//    dd($subjectModel->id);
+
+    $tools = [];
+    foreach(range(1,10) as $index)
+    {
+        $tool = \App\DomainLogic\ToolDirectory\Tool::create([
+            'title' => 'tool'.$index,
+        ]);
+
+        $subjectModel->tools()->attach($tool->id);
+        array_push($tools, $tool);
+    }
+
+    $skillFromDB = \App\DomainLogic\SkillDirectory\Skill::find($subjectModel->id);
+
+//    foreach($skillFromDB->tools as $tool)
+//    {
+//        echo $tool->title.'<br/>';
+//    }
+
+    dd(count($skillFromDB->tools));
 
 });
