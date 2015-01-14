@@ -57,7 +57,7 @@ class SkillInternalService extends BaseInternalService {
         }
         if(isset($originalAttributes['image_id']))
         {
-            $skillModel->images()->attach($originalAttributes['image_id']);
+            $skillModel->images()->sync([$originalAttributes['image_id']]);
         }
     }
 }

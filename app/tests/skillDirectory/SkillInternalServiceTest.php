@@ -329,9 +329,50 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     }
 
 
-    public function test_no_more_than_one_image_can_be_added_during_update()
+    /**
+     *Test no more than one image can be added.
+     */
+    public function test_skill_can_have_no_more_than_one_image()
     {
+        //skill
 
+        //image
+
+        //newattributes contain image-Id
+
+        //call update method
+
+        //new image
+
+        //new attributes again containing new image->id
+
+        //call update method again
+
+        //assert image count matches $amountOfImagesSkillShouldHave
+
+        //cleanup Skill, Images, and Table
+    }
+
+
+    public function test_correct_image_is_synced_to_skill_model()
+    {
+        //skill
+
+        //image
+
+        //newattributes contain image-Id
+
+        //call update method
+
+        //new image
+
+        //new attributes again containing new image->id
+
+        //call update method again
+
+        //assert image->id matches the newImage->id
+
+        //cleanup Skill, Images, and Table
     }
 
     public function test_skill_is_shown_with_image()
