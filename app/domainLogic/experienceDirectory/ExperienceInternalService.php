@@ -18,4 +18,24 @@ class ExperienceInternalService extends BaseInternalService {
         $this->model = new Experience();
     }
 
+
+
+    public function runUniqueValidationLogicAndReturnAttributes($attributes = array (), $modelAttributes = array())
+    {
+        if(isset($attributes['image_id']))
+        {
+            unset($attributes['image_id']);
+        }
+        return $attributes;
+    }
+
+
+    public function runUniqueUpdateLogic($experienceModel, $validatedAttributes = array() , $originalAttributes = array())
+    {
+        if(isset($originalAttributes['image_id']))
+        {
+            $experienceModel->images()->sync([$originalAttributes['image_id']]);
+        }
+    }
+
 }

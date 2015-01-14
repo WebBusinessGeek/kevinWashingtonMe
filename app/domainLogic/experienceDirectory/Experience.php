@@ -17,6 +17,11 @@ class Experience extends Model {
 
     protected $table = 'experiences';
 
+    public function images()
+    {
+        return $this->morphToMany('\App\DomainLogic\ImageDirectory\Image', 'imageable');
+    }
+
     protected $modelAttributes = [
         0 => [
 

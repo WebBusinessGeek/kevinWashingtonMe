@@ -29,6 +29,11 @@ class Image extends Model {
         return $this->morphedByMany('\App\DomainLogic\ToolDirectory\Tool', 'imageable');
     }
 
+    public function experiences()
+    {
+        return $this->morphedByMany('\App\DomainLogic\ExperienceDirectory\Experience', 'imageable');
+    }
+
     protected $modelAttributes = [
 //		START AT ZERO (0)!!! => [
 //

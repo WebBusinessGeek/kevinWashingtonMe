@@ -10,7 +10,9 @@ namespace tests\experienceDirectory;
 
 
 use App\Base\InternalServiceTestAssist;
+use App\DomainLogic\ExperienceDirectory\Experience;
 use App\DomainLogic\ExperienceDirectory\ExperienceInternalService;
+use App\DomainLogic\ImageDirectory\Image;
 
 class ExperienceInternalServiceTest extends InternalServiceTestAssist {
 
@@ -255,6 +257,58 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
         $this->cleanUpMultipleModelsAfterTesting($mockSubjectModels);
 
     }
+
+
+
+    /***********************************************************************************************************/
+    /*                                                  Relationship rel test cases                             */
+    /***********************************************************************************************************/
+
+
+    /**
+     *Test update method attaches image to experience.
+     */
+    public function test_update_method_attaches_image_to_experience_model()
+    {
+        $originalSubjectModel = $this->returnStoreResponseWithGoodAttributes();
+        $subjectModelId = $originalSubjectModel->id;
+
+
+        $image = Image::create([
+            'name' => 'testUpdateMethodAttachesImageToExperienceModel',
+            'originalPath' => 'somePath/here',
+        ]);
+        $attributesToPassToUpdateMethod = [
+            'image_id' => $image->id,
+        ];
+        $this->callServiceUpdateMethod($subjectModelId, $attributesToPassToUpdateMethod);
+
+
+        $updatedSubjectModel = Experience::find($subjectModelId);
+        $amountOfImagesExperienceModelShouldHave = 1;
+        $this->assertEquals($amountOfImagesExperienceModelShouldHave, count($updatedSubjectModel->images));
+
+
+        $modelsToClean = [$originalSubjectModel, $image];
+        $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
+        $this->cleanDatabaseTable('imageables');
+    }
+
+
+    public function test_no_more_than_one_image_can_be_added_to_experience_model()
+    {
+
+    }
+
+    public function test_correct_image_is_synced_when_experience_model_has_been_previously_linked_to_multiple_images()
+    {
+
+    }
+
+
+
+
+
 
     /***********************************************************************************************************/
     /*                                                  Test Properties                                      */
