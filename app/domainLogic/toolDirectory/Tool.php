@@ -18,10 +18,9 @@ class Tool extends Model {
 
     protected $table = 'tools';
 
-
     public function skills()
     {
-        return $this->belongsToMany(Skill::class, 'skill_tool');
+        return $this->belongsToMany('\App\DomainLogic\SkillDirectory\Skill');
     }
 
     protected $modelAttributes = [

@@ -18,10 +18,6 @@ class Skill extends Model {
 
     protected $table = 'skills';
 
-    protected $with = 'tools';
-
-    protected $relations = ['tools'];
-
     protected $singleOwnerClassName = '\App\DomainLogic\CategoryDirectory\Category';
 
     public function category()
@@ -31,7 +27,7 @@ class Skill extends Model {
 
     public function tools()
     {
-        return $this->belongsToMany(Tool::class, 'skill_tool');
+        return $this->belongsToMany('\App\DomainLogic\ToolDirectory\Tool');
     }
 
     protected $modelAttributes = [

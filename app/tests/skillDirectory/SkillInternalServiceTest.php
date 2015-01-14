@@ -14,6 +14,7 @@ use App\DomainLogic\SkillDirectory\Skill;
 use App\DomainLogic\SkillDirectory\SkillInternalService;
 use App\DomainLogic\ToolDirectory\Tool;
 use Illuminate\Foundation\Testing\TestCase;
+use Illuminate\Support\Facades\DB;
 
 class SkillInternalServiceTest extends InternalServiceTestAssist{
 
@@ -116,28 +117,6 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     }
 
 
-    public function test_show_method_returns_skills_with_tools()
-    {
-        $subjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
-
-        $tools = [];
-        foreach(range(1,10) as $index)
-        {
-            $tool = Tool::create([
-                'title' => 'tool'.$index,
-            ]);
-            $subjectModel->tools()->attach($tool->id);
-            array_push($tools, $tool);
-        }
-
-        $skillFromDB = Skill::find($subjectModel->id);
-
-        $this->assertTrue(isset($skillFromDB->tools) && $skillFromDB->tools != null);
-
-        $this->cleanUpMultipleModelsAfterTesting($tools);
-        $this->cleanUpSingleModelAfterTesting($skillFromDB);
-    }
-
 
     public function test_show_method_returns_skills_with_correct_amount_of_tools()
     {
@@ -159,6 +138,7 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
         $this->cleanUpMultipleModelsAfterTesting($tools);
         $this->cleanUpSingleModelAfterTesting($skillFromDB);
+        DB::table('skill_tool')->truncate();
 
     }
     /***********************************************************************************************************/
@@ -227,6 +207,29 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     }
 
 
+    /**
+     *Test update method will attach a tool instance
+     */
+    public function test_update_method_will_attach_tool()
+    {
+        $originalSubjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+
+        $tool = Tool::create(['title' => 'toolwooly']);
+
+        $attributes = [
+            'tool_id' => $tool->id,
+        ];
+
+        $this->callServiceUpdateMethod($originalSubjectModel->id, $attributes);
+
+        $updatedSkill = Skill::find($originalSubjectModel->id);
+
+        $this->assertEquals(1, count($updatedSkill->tools));
+
+        $modelsToClean = [$originalSubjectModel, $tool];
+        $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
+        DB::table('skill_tool')->truncate();
+    }
     /***********************************************************************************************************/
     /*                                          Update method tests                                              */
     /***********************************************************************************************************/

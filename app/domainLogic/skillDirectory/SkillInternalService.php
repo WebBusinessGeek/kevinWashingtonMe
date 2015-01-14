@@ -35,7 +35,21 @@ class SkillInternalService extends BaseInternalService {
      */
     public function runUniqueValidationLogicAndReturnAttributes($attributes = array(), $modelAttributes = array())
     {
+        if(isset($attributes['tool_id']))
+        {
+            unset($attributes['tool_id']);
+        }
         return ($this->existsIsValid($attributes, $modelAttributes)) ? $attributes : false ;
     }
 
+
+
+
+    public function runUniqueUpdateLogic($skillModel, $validatedAttributes, $originalAttributes)
+    {
+        if(isset($originalAttributes['tool_id']))
+        {
+            $skillModel->tools()->attach($originalAttributes['tool_id']);
+        }
+    }
 }
