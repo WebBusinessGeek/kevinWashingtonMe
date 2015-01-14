@@ -433,7 +433,10 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     }
 
 
-    public function test_skill_can_own_more_than_one_tag_model_added_at_different_times()
+    /**
+     *Test skills can own more than one tag.
+     */
+    public function test_skill_can_own_more_than_one_tag()
     {
         $originalSubjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
         $subjectModelId = $originalSubjectModel->id;
@@ -446,13 +449,9 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
         $firstTagId = $firstTag->id;
         $attributesToPassToUpdateMethod = [
             'tag_id1' => $firstTagId,
-
-
         ];
         $this->callServiceUpdateMethod($subjectModelId, $attributesToPassToUpdateMethod);
 
-//        $updatedFirst = Skill::find($subjectModelId);
-//        $this->assertEquals($firstTag->title, $updatedFirst->tags[0]->title);
 
 
         $newTag = Tag::create([
@@ -464,7 +463,6 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
             'tag_id2' => $newTagId,
             'tag_id3' => null,
             'tag_id4' => null,
-
         ];
         $this->callServiceUpdateMethod($subjectModelId, $newAttributesToPassToUpdateMethod);
 
@@ -479,17 +477,46 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
         $modelsToClean = [$originalSubjectModel, $firstTag, $newTag];
         $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
         $this->cleanDatabaseTable('taggables');
-
     }
 
-    public function test_skill_cannot_own_more_than_ten_tags_model()
+
+    /**
+     *Test skills can own the same tag instance.
+     */
+    public function test_multiple_skills_can_own_the_same_tag_model_instance()
     {
+        $originalFirstSkillModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+        $firstSkillModelId = $originalFirstSkillModel->id;
 
-    }
 
-    public function test_multiple_skills_can_own_the_same_tag_model()
-    {
 
+        $tag =Tag::create([
+            'title' => 'testMultipleSkillsCanOwnTheSameTagModelInstance',
+        ]);
+        $attributesToPassToUpdateMethodForBothModels = [
+            'tag_id1' => $tag->id,
+        ];
+        $this->callServiceUpdateMethod($firstSkillModelId, $attributesToPassToUpdateMethodForBothModels);
+        $updatedFirstSkillModel = Skill::find($firstSkillModelId);
+
+
+
+        $originalSecondSkillModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+        $secondSkillModelId = $originalSecondSkillModel->id;
+
+
+
+        $this->callServiceUpdateMethod($secondSkillModelId, $attributesToPassToUpdateMethodForBothModels);
+        $updatedSecondSkillModel = Skill::find($secondSkillModelId);
+
+
+        $this->assertEquals($updatedFirstSkillModel->tags[0]->id, $updatedSecondSkillModel->tags[0]->id);
+
+
+
+        $modelsToClean = [$originalFirstSkillModel,$originalSecondSkillModel, $tag];
+        $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
+        $this->cleanDatabaseTable('taggables');
     }
 
     /***********************************************************************************************************/
