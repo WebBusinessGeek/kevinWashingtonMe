@@ -268,7 +268,40 @@ class ToolInternalServiceTest extends InternalServiceTestLibrary{
 
     public function test_tool_can_have_no_more_than_one_image()
     {
+        $originalSubjectModel = $this->returnStoreResponseWithGoodAttributes();
+        $subjectModelId = $originalSubjectModel->id;
 
+
+        $firstImage = Image::create([
+            'name' => 'testToolCanHaveNoMoreThanOneImage',
+            'originalPath' => 'somePath/here',
+        ]);
+        $attributesToPassToUpdateMethod = [
+            'image_id' => $firstImage->id,
+        ];
+        $this->callServiceUpdateMethod($subjectModelId, $attributesToPassToUpdateMethod);
+
+
+
+        $newImage = Image::create([
+            'name' => 'testToolCanHaveNoMoreThanOneImage2',
+            'originalpath' => 'someOtherPath/here',
+        ]);
+        $newAttributesToPassToUpdateMethod = [
+            'image_id' => $newImage->id,
+        ];
+        $this->callServiceUpdateMethod($subjectModelId, $newAttributesToPassToUpdateMethod);
+
+
+
+        $updatedSubjectModel = Tool::find($subjectModelId);
+        $amountOfImagesToolShouldHave = 1;
+        $this->assertEquals($amountOfImagesToolShouldHave, count($updatedSubjectModel->images));
+
+
+        $modelsToClean = [$originalSubjectModel, $firstImage, $newImage];
+        $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
+        $this->cleanDatabaseTable('imageables');
     }
 
     public function test_correct_image_is_synced_to_tool_model()

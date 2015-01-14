@@ -27,11 +27,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="SkillInternalService.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/domainLogic/skillDirectory/SkillInternalService.php">
+          <file leaf-file-name="ToolInternalServiceTest.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/tests/toolDirectory/ToolInternalServiceTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8230216" vertical-offset="853" max-vertical-offset="1575">
-                  <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.38848922" vertical-offset="6855" max-vertical-offset="7950">
+                  <caret line="295" column="0" selection-start-line="295" selection-start-column="0" selection-end-line="295" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -44,8 +44,8 @@
           <file leaf-file-name="ToolInternalService.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/domainLogic/toolDirectory/ToolInternalService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.74820143" vertical-offset="230" max-vertical-offset="1075">
-                  <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+                <state vertical-scroll-proportion="0.8561151" vertical-offset="230" max-vertical-offset="1075">
+                  <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -891,50 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/toolDirectory/ToolInternalServiceTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60431653" vertical-offset="5830" max-vertical-offset="7250">
-          <caret line="255" column="47" selection-start-line="255" selection-start-column="47" selection-end-line="255" selection-end-column="47" />
-          <folding>
-            <marker date="1421255749000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="Test method creates and returns a new tool instance if attributes are correct. ..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="Test method retrieves specified instance from database table if it exists. ..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="Test method updates a tool model instance if it exists and attributes are valid. Otherwise returns an error message ..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="Test method removes a tool model instance from database if it exists. Otherwise returns an error message. ..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="Test method returns an instance of paginator class with correct amount of items. ..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="Test update method will attach an image to the tool model. ..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421255749000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Base/InternalService/BaseInternalService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.82733816" vertical-offset="2225" max-vertical-offset="9025">
@@ -1005,16 +961,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/domainLogic/skillDirectory/SkillInternalService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8230216" vertical-offset="853" max-vertical-offset="1575">
-          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.7122302" vertical-offset="880" max-vertical-offset="1575">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <marker date="1421252425000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1421252425000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421252425000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421252425000" expanded="true" signature="-1:-1" placeholder=" @param array $credentialsOrAttributes ..." />
+            <marker date="1421252425000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421252425000" expanded="true" signature="-1:-1" placeholder=" @param array $attributes ..." />
+            <marker date="1421252425000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421252425000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421252425000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421252425000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421252425000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421252425000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/toolDirectory/ToolInternalServiceTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38848922" vertical-offset="6855" max-vertical-offset="7950">
+          <caret line="295" column="0" selection-start-line="295" selection-start-column="0" selection-end-line="295" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/domainLogic/toolDirectory/ToolInternalService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74820143" vertical-offset="230" max-vertical-offset="1075">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.8561151" vertical-offset="230" max-vertical-offset="1075">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
