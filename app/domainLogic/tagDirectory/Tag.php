@@ -17,6 +17,11 @@ class Tag extends Model
 
 	protected $table = 'tags';
 
+	public function skills()
+	{
+		return $this->morphedByMany('\App\DomainLogic\SkillDirectory\Skill', 'taggable');
+	}
+
     protected $modelAttributes = [
 		0 => [
 

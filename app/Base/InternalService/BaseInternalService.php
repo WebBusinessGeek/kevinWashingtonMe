@@ -173,7 +173,7 @@ abstract class BaseInternalService {
     /**HOOK : Allows descendant to HOOK into PARENT::UPDATE method for custom update logic.
      * @return string
      */
-    public function runUniqueUpdateLogic()
+    public function runUniqueUpdateLogic($potentialModel, $validatedAttributes = array(), $attributes = array())
     {
         return '';
     }

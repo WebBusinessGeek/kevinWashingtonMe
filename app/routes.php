@@ -15,42 +15,23 @@
 Route::get('/', function()
 {
     return View::make('hello');
-
 //
-//    $subjectModel = \App\DomainLogic\SkillDirectory\Skill::create(
-//        [
-//            'title' => 'skill',
-//        ]
-//    );
+//    $arry = [
+//        'test1' => 3,
+//        'test2' => 4,
+//        'test3' => null,
+//        'test4' => 5,
+//        'test5' => null,
+//    ];
 //
-////    dd($subjectModel->id);
-//
-//    $tools = [];
-//    foreach(range(1,10) as $index)
+//    $results = [];
+//    foreach(range(1,5) as $count)
 //    {
-//        $tool = \App\DomainLogic\ToolDirectory\Tool::create([
-//            'title' => 'tool'.$index,
-//        ]);
-//
-//        $subjectModel->tools()->attach($tool->id);
-//        array_push($tools, $tool);
+//        if($arry['test'.$count] != null )
+//        {
+//            array_push($results, $arry['test'.$count]);
+//        }
 //    }
 //
-//    $skillFromDB = \App\DomainLogic\SkillDirectory\Skill::find($subjectModel->id);
-//
-////    foreach($skillFromDB->tools as $tool)
-////    {
-////        echo $tool->title.'<br/>';
-////    }
-//
-////    dd(count($skillFromDB->tools));
-//
-//    $newTool = \App\DomainLogic\ToolDirectory\Tool::create(['title'=>'lastTool']);
-//
-//    $skillFromDB->tools()->attach($newTool->id);
-//    foreach($skillFromDB->tools as $tool)
-//    {
-//        echo $tool->title.'<br/>';
-
-
+//    dd($results);
 });

@@ -43,21 +43,41 @@ class SkillInternalService extends BaseInternalService {
         {
             unset($attributes['image_id']);
         }
+        foreach(range(1,10) as $tagCount)
+        {
+            if(array_key_exists('tag_id'.$tagCount,$attributes))
+            {
+                unset($attributes['tag_id'.$tagCount]);
+            }
+        }
         return ($this->existsIsValid($attributes, $modelAttributes)) ? $attributes : false ;
     }
 
 
 
 
-    public function runUniqueUpdateLogic($skillModel, $validatedAttributes, $originalAttributes)
+    public function runUniqueUpdateLogic($potentialModel, $validatedAttributes = array(), $attributes = array())
     {
-        if(isset($originalAttributes['tool_id']))
+        if(isset($attributes['tool_id']))
         {
-            $skillModel->tools()->attach($originalAttributes['tool_id']);
+            $potentialModel->tools()->attach($attributes['tool_id']);
         }
-        if(isset($originalAttributes['image_id']))
+        if(isset($attributes['image_id']))
         {
-            $skillModel->images()->sync([$originalAttributes['image_id']]);
+            $potentialModel->images()->sync([$attributes['image_id']]);
         }
+
+        $tagsToSync = [];
+        foreach(range(1,10) as $tagCount)
+        {
+            if(array_key_exists('tag_id'.$tagCount,$attributes) && $attributes['tag_id'.$tagCount] != null)
+            {
+               array_push($tagsToSync, $attributes['tag_id'.$tagCount]);
+            }
+        }
+        $potentialModel->tags()->sync($tagsToSync);
+
+
+
     }
 }

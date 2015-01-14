@@ -36,6 +36,10 @@ class Skill extends Model {
         return $this->morphToMany('\App\DomainLogic\ImageDirectory\Image', 'imageable');
     }
 
+    public function tags()
+    {
+        return $this->morphToMany('\App\DomainLogic\TagDirectory\Tag', 'taggable');
+    }
     protected $modelAttributes = [
         0 => [
 

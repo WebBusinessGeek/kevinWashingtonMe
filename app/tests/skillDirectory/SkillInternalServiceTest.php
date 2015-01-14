@@ -12,6 +12,7 @@ namespace tests\skillDirectory;
 use App\Base\InternalServiceTestAssist;
 use App\DomainLogic\SkillDirectory\Skill;
 use App\DomainLogic\SkillDirectory\SkillInternalService;
+use App\DomainLogic\TagDirectory\Tag;
 use App\DomainLogic\ToolDirectory\Tool;
 use Illuminate\Foundation\Testing\TestCase;
 use Illuminate\Support\Facades\DB;
@@ -403,7 +404,93 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     }
 
 
+    /**
+     *Test update method can add a tag to a skill model.
+     */
+    public function test_update_method_adds_tags_to_skill_model()
+    {
+        $originalSubjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+        $subjectModelId = $originalSubjectModel->id;
 
+
+        $tag = Tag::create([
+            'title' => 'testUpdateMethodAddsTagsToSkillModel',
+        ]);
+        $attributesToPassToUpdateMethod = [
+            'tag_id1' => $tag->id,
+        ];
+        $this->callServiceUpdateMethod($subjectModelId, $attributesToPassToUpdateMethod);
+
+
+        $updatedSubjectModel = Skill::find($subjectModelId);
+        $amountOfTagsSkillModelShouldHave = 1;
+        $this->assertEquals($amountOfTagsSkillModelShouldHave, count($updatedSubjectModel->tags));
+
+
+        $modelsToClean = [$originalSubjectModel, $tag];
+        $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
+        $this->cleanDatabaseTable('taggables');
+    }
+
+
+    public function test_skill_can_own_more_than_one_tag_model_added_at_different_times()
+    {
+        $originalSubjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+        $subjectModelId = $originalSubjectModel->id;
+
+
+
+        $firstTag = Tag::create([
+            'title' => 'testSkillCanOwnMoreThanOneTagModelAddedAtDifferentTimes',
+        ]);
+        $firstTagId = $firstTag->id;
+        $attributesToPassToUpdateMethod = [
+            'tag_id1' => $firstTagId,
+
+
+        ];
+        $this->callServiceUpdateMethod($subjectModelId, $attributesToPassToUpdateMethod);
+
+//        $updatedFirst = Skill::find($subjectModelId);
+//        $this->assertEquals($firstTag->title, $updatedFirst->tags[0]->title);
+
+
+        $newTag = Tag::create([
+            'title' => 'testSkillCanOwnMoreThanONeTagModelAddedAtDifferentTimes',
+        ]);
+        $newTagId = $newTag->id;
+        $newAttributesToPassToUpdateMethod = [
+            'tag_id1' => $firstTagId,
+            'tag_id2' => $newTagId,
+            'tag_id3' => null,
+            'tag_id4' => null,
+
+        ];
+        $this->callServiceUpdateMethod($subjectModelId, $newAttributesToPassToUpdateMethod);
+
+
+
+        $updatedSubjectModel = Skill::find($subjectModelId);
+        $amountOfTagsSkillModelShouldHave = 2;
+        $this->assertEquals($amountOfTagsSkillModelShouldHave, count($updatedSubjectModel->tags));
+
+
+
+        $modelsToClean = [$originalSubjectModel, $firstTag, $newTag];
+        $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
+        $this->cleanDatabaseTable('taggables');
+
+    }
+
+    public function test_skill_cannot_own_more_than_ten_tags_model()
+    {
+
+    }
+
+    public function test_multiple_skills_can_own_the_same_tag_model()
+    {
+
+    }
 
     /***********************************************************************************************************/
     /*                                          Test  properties                                               */
