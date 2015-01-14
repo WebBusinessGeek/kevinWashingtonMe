@@ -297,12 +297,79 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
 
     public function test_no_more_than_one_image_can_be_added_to_experience_model()
     {
+        $originalSubjectModel = $this->returnStoreResponseWithGoodAttributes();
+        $subjectModelId = $originalSubjectModel->id;
 
+
+        $firstImage = Image::create([
+            'name' => 'testNoMoreThanOneImageCanBeAddedToExperienceModel',
+            'originalPath' => 'somePath/here',
+        ]);
+        $attributesToPassToUpdateMethod = [
+            'image_id' => $firstImage->id,
+        ];
+        $this->callServiceUpdateMethod($subjectModelId, $attributesToPassToUpdateMethod);
+
+
+
+        $newImage = Image::create([
+            'name' => 'testNoMoreThanOneImageCanBeAddedToExperienceModel2',
+            'originalPath' => 'someOtherPath/here',
+        ]);
+        $newAttributesToPassToUpdateMethod = [
+            'image_id' => $newImage->id,
+        ];
+        $this->callServiceUpdateMethod($subjectModelId, $newAttributesToPassToUpdateMethod);
+
+
+
+        $updatedSubjectModel = Experience::find($subjectModelId);
+        $amountOfImagesExperienceModelShouldHave = 1;
+        $this->assertEquals($amountOfImagesExperienceModelShouldHave, count($updatedSubjectModel->images));
+
+
+        $modelsToClean = [$originalSubjectModel, $firstImage, $newImage];
+        $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
+        $this->cleanDatabaseTable('imageables');
     }
 
     public function test_correct_image_is_synced_when_experience_model_has_been_previously_linked_to_multiple_images()
     {
+        $originalSubjectModel = $this->returnStoreResponseWithGoodAttributes();
+        $subjectModelId = $originalSubjectModel->id;
 
+
+        $firstImage = Image::create([
+            'name' => 'testNoMoreThanOneImageCanBeAddedToExperienceModel',
+            'originalPath' => 'somePath/here',
+        ]);
+        $attributesToPassToUpdateMethod = [
+            'image_id' => $firstImage->id,
+        ];
+        $this->callServiceUpdateMethod($subjectModelId, $attributesToPassToUpdateMethod);
+
+
+
+        $newImage = Image::create([
+            'name' => 'testNoMoreThanOneImageCanBeAddedToExperienceModel2',
+            'originalPath' => 'someOtherPath/here',
+        ]);
+        $newAttributesToPassToUpdateMethod = [
+            'image_id' => $newImage->id,
+        ];
+        $this->callServiceUpdateMethod($subjectModelId, $newAttributesToPassToUpdateMethod);
+
+
+
+        $updatedSubjectModel = Experience::find($subjectModelId);
+        $idOfImageAttachedToExperienceModel = $newImage->id;
+        $this->assertEquals($idOfImageAttachedToExperienceModel, $updatedSubjectModel->images[0]->id);
+
+
+
+        $modelsToClean = [$originalSubjectModel, $firstImage, $newImage];
+        $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
+        $this->cleanDatabaseTable('imageables');
     }
 
 
