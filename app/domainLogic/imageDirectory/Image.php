@@ -19,6 +19,11 @@ class Image extends Model {
     protected $table = 'images';
 
 
+    public function skills()
+    {
+        return $this->morphedByMany('\App\DomainLogic\SkillDirectory\Skill', 'imageable');
+    }
+
     protected $modelAttributes = [
 //		START AT ZERO (0)!!! => [
 //

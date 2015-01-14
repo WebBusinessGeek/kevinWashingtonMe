@@ -12,7 +12,7 @@ class CreateImageableTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('imageable', function(Blueprint $table)
+		Schema::create('imageables', function(Blueprint $table)
 		{
 			$table->increments('id');
 			$table->integer('image_id');
@@ -29,7 +29,7 @@ class CreateImageableTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('imageable');
+		Schema::drop('imageables');
 	}
 
 }

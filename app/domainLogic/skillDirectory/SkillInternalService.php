@@ -39,6 +39,10 @@ class SkillInternalService extends BaseInternalService {
         {
             unset($attributes['tool_id']);
         }
+        if(isset($attributes['image_id']))
+        {
+            unset($attributes['image_id']);
+        }
         return ($this->existsIsValid($attributes, $modelAttributes)) ? $attributes : false ;
     }
 
@@ -50,6 +54,10 @@ class SkillInternalService extends BaseInternalService {
         if(isset($originalAttributes['tool_id']))
         {
             $skillModel->tools()->attach($originalAttributes['tool_id']);
+        }
+        if(isset($originalAttributes['image_id']))
+        {
+            $skillModel->images()->attach($originalAttributes['image_id']);
         }
     }
 }

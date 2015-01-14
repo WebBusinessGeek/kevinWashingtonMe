@@ -9,6 +9,7 @@
 namespace App\DomainLogic\SkillDirectory;
 
 
+use App\DomainLogic\ImageDirectory\Image;
 use App\DomainLogic\ToolDirectory\Tool;
 use Illuminate\Database\Eloquent\Model;
 
@@ -28,6 +29,11 @@ class Skill extends Model {
     public function tools()
     {
         return $this->belongsToMany('\App\DomainLogic\ToolDirectory\Tool');
+    }
+
+    public function images()
+    {
+        return $this->morphToMany('\App\DomainLogic\ImageDirectory\Image', 'imageable');
     }
 
     protected $modelAttributes = [

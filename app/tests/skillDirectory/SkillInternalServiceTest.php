@@ -15,6 +15,7 @@ use App\DomainLogic\SkillDirectory\SkillInternalService;
 use App\DomainLogic\ToolDirectory\Tool;
 use Illuminate\Foundation\Testing\TestCase;
 use Illuminate\Support\Facades\DB;
+use Intervention\Image\Facades\Image;
 
 class SkillInternalServiceTest extends InternalServiceTestAssist{
 
@@ -207,31 +208,9 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     }
 
 
-    /**
-     *Test update method will attach a tool instance
-     */
-    public function test_update_method_will_attach_tool()
-    {
-        $originalSubjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
 
-        $tool = Tool::create(['title' => 'toolwooly']);
-
-        $attributes = [
-            'tool_id' => $tool->id,
-        ];
-
-        $this->callServiceUpdateMethod($originalSubjectModel->id, $attributes);
-
-        $updatedSkill = Skill::find($originalSubjectModel->id);
-
-        $this->assertEquals(1, count($updatedSkill->tools));
-
-        $modelsToClean = [$originalSubjectModel, $tool];
-        $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
-        DB::table('skill_tool')->truncate();
-    }
     /***********************************************************************************************************/
-    /*                                          Update method tests                                              */
+    /*                                          Destroy method tests                                              */
     /***********************************************************************************************************/
 
     /**
@@ -288,6 +267,79 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
         $this->cleanUpMultipleModelsAfterTesting($indexResponseGroup['subjectModels']);
     }
+
+    /***********************************************************************************************************/
+    /*                                          Relationship REl. test cases                                               */
+    /***********************************************************************************************************/
+
+    /**
+     *Test update method will attach a tool instance
+     */
+    public function test_update_method_will_attach_tool()
+    {
+        $originalSubjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+
+        $tool = Tool::create(['title' => 'toolwooly']);
+
+        $attributes = [
+            'tool_id' => $tool->id,
+        ];
+
+        $this->callServiceUpdateMethod($originalSubjectModel->id, $attributes);
+
+        $updatedSkill = Skill::find($originalSubjectModel->id);
+
+        $this->assertEquals(1, count($updatedSkill->tools));
+
+        $modelsToClean = [$originalSubjectModel, $tool];
+        $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
+        DB::table('skill_tool')->truncate();
+    }
+
+
+    /**
+     *Test update method will attach an image if its present.
+     */
+    public function test_update_method_will_attach_image()
+    {
+        $originalSubjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+        $subjectModelId = $originalSubjectModel->id;
+
+
+        $image = \App\DomainLogic\ImageDirectory\Image::create([
+            'name' => 'testUpdateMethodWillAttachImage',
+            'originalPath' => 'someShortPath/here',
+        ]);
+        $newAttributes = [
+            'image_id' => $image->id,
+        ];
+
+
+        $this->callServiceUpdateMethod($subjectModelId, $newAttributes);
+        $updatedSubjectModel = Skill::find($subjectModelId);
+        $amountOfImagesSkillShouldHave = 1;
+
+
+        $this->assertEquals($amountOfImagesSkillShouldHave, count($updatedSubjectModel->images));
+
+
+        $modelsToClean = [$updatedSubjectModel, $image];
+        $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
+        DB::table('imageables')->truncate();
+    }
+
+
+    public function test_no_more_than_one_image_can_be_added_during_update()
+    {
+
+    }
+
+    public function test_skill_is_shown_with_image()
+    {
+
+    }
+
+
 
     /***********************************************************************************************************/
     /*                                          Test  properties                                               */
