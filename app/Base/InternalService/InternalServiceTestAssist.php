@@ -11,6 +11,7 @@ namespace App\Base;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\TestCase;
+use Illuminate\Support\Facades\DB;
 use Symfony\Component\Routing\Exception\MissingMandatoryParametersException;
 
 abstract class InternalServiceTestAssist extends InternalServiceTestLibrary {
@@ -46,6 +47,11 @@ abstract class InternalServiceTestAssist extends InternalServiceTestLibrary {
         {
             $this->cleanUpSingleModelAfterTesting($model);
         }
+    }
+
+    public function cleanDatabaseTable($tableName)
+    {
+        DB::table($tableName)->truncate();
     }
 
     /***********************************************************************************************************/
