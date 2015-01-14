@@ -28,31 +28,7 @@ abstract class InternalServiceTestAssist extends InternalServiceTestLibrary {
         }
     }
 
-    /***********************************************************************************************************/
-    /*                                        *** Helper methods for Descendants ***                            */
-    /***********************************************************************************************************/
 
-
-
-    public function cleanUpSingleModelAfterTesting(Model $model)
-    {
-        $subjectModelId =  $model->id;
-        $className = $model->getClassName();
-        $className::destroy($subjectModelId);
-    }
-
-    public function cleanUpMultipleModelsAfterTesting($models = array())
-    {
-        foreach($models as $model)
-        {
-            $this->cleanUpSingleModelAfterTesting($model);
-        }
-    }
-
-    public function cleanDatabaseTable($tableName)
-    {
-        DB::table($tableName)->truncate();
-    }
 
     /***********************************************************************************************************/
     /*                                     *** TestCase Enforcement on Descendants ***                             */

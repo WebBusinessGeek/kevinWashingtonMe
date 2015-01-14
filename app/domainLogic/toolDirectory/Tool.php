@@ -23,6 +23,11 @@ class Tool extends Model {
         return $this->belongsToMany('\App\DomainLogic\SkillDirectory\Skill');
     }
 
+    public function images()
+    {
+        return $this->morphToMany('\App\DomainLogic\ImageDirectory\Image', 'imageable');
+    }
+
     protected $modelAttributes = [
         0 => [
 

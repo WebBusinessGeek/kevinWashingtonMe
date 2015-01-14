@@ -22,5 +22,22 @@ class ToolInternalService extends BaseInternalService{
 
 
 
+    public function runUniqueValidationLogicAndReturnAttributes($attributes = array(), $modelAttributes = array())
+    {
+        if(isset($attributes['image_id']))
+        {
+            unset($attributes['image_id']);
+        }
+        return $attributes;
+    }
+
+
+    public function runUniqueUpdateLogic($toolModel, $validatedAttributes = array(), $originalAttributes = array())
+    {
+        if(isset($originalAttributes['image_id']))
+        {
+            $toolModel->images()->sync([$originalAttributes['image_id']]);
+        }
+    }
 
 }

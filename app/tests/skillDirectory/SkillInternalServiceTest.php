@@ -357,7 +357,7 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
         ];
         $this->callServiceUpdateMethod($subjectModelId, $newAttributes2);
 
-        
+
         $updatedSubjectModel = Skill::find($subjectModelId);
         $amountOfImagesSkillShouldHave = 1;
         $this->assertEquals($amountOfImagesSkillShouldHave, count($updatedSubjectModel->images));

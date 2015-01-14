@@ -9,11 +9,14 @@
 namespace tests\toolDirectory;
 
 
+use App\Base\InternalServiceTestAssist;
+use App\Base\InternalServiceTestLibrary;
+use App\DomainLogic\ImageDirectory\Image;
 use App\DomainLogic\ToolDirectory\Tool;
 use App\DomainLogic\ToolDirectory\ToolInternalService;
 use Illuminate\Foundation\Testing\TestCase;
 
-class ToolInternalServiceTest extends \TestCase{
+class ToolInternalServiceTest extends InternalServiceTestLibrary{
 
     /**
      *Test method creates and returns a new tool instance if attributes are correct.
@@ -223,5 +226,64 @@ class ToolInternalServiceTest extends \TestCase{
         {
             Tool::destroy($tool->id);
         }
+    }
+
+
+    /***********************************************************************************************************/
+    /*                                          Relationship rel test cases                                      */
+    /***********************************************************************************************************/
+
+
+    /**
+     *Test update method will attach an image to the tool model.
+     */
+    public function test_update_method_will_attach_image()
+    {
+        $originalSubjectModel = $this->returnStoreResponseWithGoodAttributes();
+        $subjectModelId = $originalSubjectModel->id;
+
+
+        $image = Image::create([
+            'name' => 'testUpdateMethodWillAttachImage',
+            'originalPath' => 'somePath/here',
+        ]);
+        $newAttributes = [
+            'image_id' => $image->id,
+        ];
+        $this->callServiceUpdateMethod($subjectModelId, $newAttributes);
+
+
+        $updatedSubjectModel = Tool::find($subjectModelId);
+        $amountOfImagesToolShouldHave = 1;
+        $this->assertEquals($amountOfImagesToolShouldHave, count($updatedSubjectModel->images));
+
+        $modelsToClean = [
+            $originalSubjectModel, $image
+        ];
+
+        $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
+        $this->cleanDatabaseTable('imageables');
+
+    }
+
+    public function test_tool_can_have_no_more_than_one_image()
+    {
+
+    }
+
+    public function test_correct_image_is_synced_to_tool_model()
+    {
+
+    }
+
+
+    /***********************************************************************************************************/
+    /*                                          Test Properties                                             */
+    /***********************************************************************************************************/
+
+
+    public function __construct()
+    {
+        $this->service = new ToolInternalService();
     }
 }
