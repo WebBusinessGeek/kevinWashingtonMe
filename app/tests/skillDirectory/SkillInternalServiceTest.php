@@ -334,45 +334,34 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
      */
     public function test_skill_can_have_no_more_than_one_image()
     {
-        //skill
         $originalSubjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
         $subjectModelId = $originalSubjectModel->id;
 
-        //image
+
         $firstImage = \App\DomainLogic\ImageDirectory\Image::create([
             'name' => 'testSkillCanHaveNoMoreThanOneImage',
             'originalPath' => 'somePath/here',
         ]);
-
-        //newattributes contain image-Id
         $newAttributes = [
             'image_id' => $firstImage->id,
         ];
-
-        //call update method
         $this->callServiceUpdateMethod($subjectModelId, $newAttributes);
 
-        //new image
+
         $newImage = \App\DomainLogic\ImageDirectory\Image::create([
             'name' => 'testSkillCanHaveNoMoreThanOneImage2',
             'originalPath' => 'someOtherPath/here',
         ]);
-
-        //new attributes again containing new image->id
         $newAttributes2 = [
             'image_id' => $newImage->id,
         ];
-
-        //call update method again
         $this->callServiceUpdateMethod($subjectModelId, $newAttributes2);
 
+        
         $updatedSubjectModel = Skill::find($subjectModelId);
-
-        //assert image count matches $amountOfImagesSkillShouldHave
         $amountOfImagesSkillShouldHave = 1;
         $this->assertEquals($amountOfImagesSkillShouldHave, count($updatedSubjectModel->images));
 
-        //cleanup Skill, Images, and Table
         $modelsToClean = [$originalSubjectModel, $firstImage, $newImage];
         $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
         $this->cleanDatabaseTable('imageables');
@@ -381,23 +370,36 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
     public function test_correct_image_is_synced_to_skill_model()
     {
-        //skill
+        $originalSubjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
+        $subjectModelId = $originalSubjectModel->id;
 
-        //image
+        $firstImage = \App\DomainLogic\ImageDirectory\Image::create([
+            'name' => 'testSkillCanHaveNoMoreThanOneImage',
+            'originalPath' => 'somePath/here',
+        ]);
+        $newAttributes = [
+            'image_id' => $firstImage->id,
+        ];
+        $this->callServiceUpdateMethod($subjectModelId, $newAttributes);
 
-        //newattributes contain image-Id
 
-        //call update method
+        $newImage = \App\DomainLogic\ImageDirectory\Image::create([
+            'name' => 'testSkillCanHaveNoMoreThanOneImage2',
+            'originalPath' => 'someOtherPath/here',
+        ]);
+        $newAttributes2 = [
+            'image_id' => $newImage->id,
+        ];
+        $this->callServiceUpdateMethod($subjectModelId, $newAttributes2);
 
-        //new image
 
-        //new attributes again containing new image->id
+        $updatedSubjectModel = Skill::find($subjectModelId);
+        $idThatImageShouldHave = $newImage->id;
+        $this->assertEquals($idThatImageShouldHave, $updatedSubjectModel->images[0]->id);
 
-        //call update method again
-
-        //assert image->id matches the newImage->id
-
-        //cleanup Skill, Images, and Table
+        $modelsToClean = [$originalSubjectModel, $firstImage, $newImage];
+        $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
+        $this->cleanDatabaseTable('imageables');
     }
 
 
