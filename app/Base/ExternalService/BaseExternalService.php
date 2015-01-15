@@ -14,9 +14,9 @@ use App\Base\Framework\APILibrary\Polymorphic\AuthorizationTrait;
 use App\Base\Framework\APILibrary\Polymorphic\ResponderTrait;
 
 
-abstract class BaseExternalService {
+abstract class BaseExternalService extends \BaseController {
 
-    use App\Base\Framework\TestSubjects\ResponderTrait, \App\BAse\Framework\APILibrary\Polymorphic\AuthenticationTrait, App\Base\Framework\TestSubjects\AuthorizationTrait;
+    use ResponderTrait, AuthenticationTrait, AuthorizationTrait;
 
     protected $model;
 
@@ -30,15 +30,41 @@ abstract class BaseExternalService {
 
     protected $successCreationCode = 201;
 
-    abstract public function index();
 
-    abstract public function store($credentialsOrAttributes = []);
+    public function __construct()
+    {
+        if($this->internalService == null)
+        {
+            throw new \Exception('Internal Service is not set on the controller! Please set the internal service!');
+        }
+    }
 
-    abstract public function show($data);
 
-    abstract public function update();
+   public function index($paginationCount)
+   {
 
-    abstract public function destroy();
+   }
+
+    public function store($credentialsOrAttributes = [])
+    {
+
+    }
+
+    public function show($id)
+    {
+
+    }
+
+    public function update($id, $attributes = array())
+    {
+
+    }
+
+    public function destroy($id)
+    {
+
+    }
+
 
     public function getInternalService()
     {
