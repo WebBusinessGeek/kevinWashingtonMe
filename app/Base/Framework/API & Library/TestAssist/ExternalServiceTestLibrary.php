@@ -9,11 +9,15 @@
 namespace App\Base;
 
 use Illuminate\Foundation\Testing\TestCase;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
 
 abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
 
     public $externalService;
+
+    public $loginRedirectUrl = 'http://localhost/login';
 
     public $paginationClass = 'Illuminate\Pagination\Paginator';
 
@@ -43,6 +47,12 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
 
 
 
+    public function assertRedirectedToLoginPage(RedirectResponse $response)
+    {
+        $this->assertEquals($this->loginRedirectUrl, $response->headers->get('Location'));
+
+    }
+
 
     public function getIndexRoute()
     {
@@ -55,9 +65,9 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     }
 
 
-    public function getShowRoute($parameters)
+    public function getShowRoute($routeParameter)
     {
-        return $this->getRoute($this->showRoute, $parameters );
+        return $this->getRoute($this->showRoute.'/'.$routeParameter);
     }
 
 
@@ -65,4 +75,6 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     {
        return (isset($parameters))? $this->call('GET', $route, $parameters): $this->call('GET', $route);
     }
+
+
 }

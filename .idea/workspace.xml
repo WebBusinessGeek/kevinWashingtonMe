@@ -24,18 +24,36 @@
     <favorites_list name="kevinWashingtonMe" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SuperCategoryControllerTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.676259" vertical-offset="3880" max-vertical-offset="4750">
-              <caret line="182" column="67" selection-start-line="182" selection-start-column="67" selection-end-line="182" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="SuperCategoryControllerTest.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.8505232" vertical-offset="1956" max-vertical-offset="2925">
+                  <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="ExternalServiceTestLibrary.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/ExternalServiceTestLibrary.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.35971224" vertical-offset="0" max-vertical-offset="1925">
+                  <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -282,15 +300,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -318,19 +336,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16226138" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16226138" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -650,13 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4172662" vertical-offset="19960" max-vertical-offset="31850">
-          <caret line="817" column="5" selection-start-line="817" selection-start-column="5" selection-end-line="817" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/filters.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68345326" vertical-offset="725" max-vertical-offset="2225">
@@ -699,32 +710,259 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7151079" vertical-offset="53" max-vertical-offset="800">
-          <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/ExternalServiceTestLibrary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8589928" vertical-offset="928" max-vertical-offset="1675">
-          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="0.6925287" vertical-offset="29968" max-vertical-offset="31850">
+          <caret line="1225" column="11" selection-start-line="1225" selection-start-column="11" selection-end-line="1225" selection-end-column="11" />
+          <folding>
+            <marker date="1420283564000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Response represents an HTTP response. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" @var \Symfony\Component\HttpFoundation\ResponseHeaderBag ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" @var string ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" @var string ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" @var int ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" @var string ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" @var string ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Status codes translation table. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Constructor. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Factory method for chainability. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Returns the Response as an HTTP string. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Clones the current Response instance. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Prepares the Response before it is sent to the client. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sends HTTP headers. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sends content for the current web response. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sends HTTP headers and content. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sets the response content. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Gets the current response content. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sets the HTTP protocol version (1.0 or 1.1). ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Gets the HTTP protocol version. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sets the response status code. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Retrieves the status code for the current web response. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sets the response charset. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Retrieves the response charset. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Returns true if the response is worth caching under any circumstance. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Returns true if the response is &quot;fresh&quot;. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Returns true if the response includes headers that can be used to validate ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Marks the response as &quot;private&quot;. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Marks the response as &quot;public&quot;. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Returns true if the response must be revalidated by caches. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Returns the Date header as a DateTime instance. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sets the Date header. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Returns the age of the response. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Marks the response stale by setting the Age header to be equal to the maximum age of the response. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Returns the value of the Expires header as a DateTime instance. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sets the Expires HTTP header with a DateTime instance. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Returns the number of seconds after the time specified in the response's Date ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sets the number of seconds after which the response should no longer be considered fresh. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sets the number of seconds after which the response should no longer be considered fresh by shared caches. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Returns the response's time-to-live in seconds. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sets the response's time-to-live for shared caches. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sets the response's time-to-live for private/client caches. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Returns the Last-Modified HTTP header as a DateTime instance. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sets the Last-Modified HTTP header with a DateTime instance. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Returns the literal value of the ETag HTTP header. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sets the ETag value. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sets the response's cache headers (validation and/or expiration). ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Modifies the response so that it conforms to the rules defined for a 304 status code. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Returns true if the response includes a Vary header. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Returns an array of header names given in the Vary header. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Sets the Vary header. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Determines if the Response validators (ETag, Last-Modified) match ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Is response invalid? ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Is response informative? ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Is response successful? ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Is the response a redirect? ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Is there a client error? ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Was there a server side error? ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Is the response OK? ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Is the response forbidden? ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Is the response a not found error? ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Is the response a redirect of some form? ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Is the response empty? ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Cleans or flushes output buffers up to target level. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder=" Checks if we need to remove Cache-Control for SSL encrypted downloads when using IE &lt; 9. ..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420283564000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/SuperCategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46043167" vertical-offset="1330" max-vertical-offset="2875">
-          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.68345326" vertical-offset="1300" max-vertical-offset="2900">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <marker date="1421364407000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
+            <marker date="1421364407000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5683453" vertical-offset="80" max-vertical-offset="900">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <marker date="1421364441000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1421364441000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421364441000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421364441000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421364441000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421364441000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421364441000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/ExternalServiceTestLibrary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35971224" vertical-offset="0" max-vertical-offset="1925">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.676259" vertical-offset="3880" max-vertical-offset="4750">
-          <caret line="182" column="67" selection-start-line="182" selection-start-column="67" selection-end-line="182" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.8505232" vertical-offset="1956" max-vertical-offset="2925">
+          <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
           <folding />
         </state>
       </provider>

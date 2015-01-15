@@ -66,6 +66,7 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 			$supercategory = $this->internalService->show($id);
 
 			return View::make('supercategory.show')->with('supercategory', $supercategory);
+
 		}
 		return Redirect::to('login')->with('message', 'you need to login first.');
 	}

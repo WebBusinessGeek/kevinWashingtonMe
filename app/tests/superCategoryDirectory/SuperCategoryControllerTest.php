@@ -10,6 +10,7 @@ namespace tests\superCategoryDirectory;
 
 use App\Base\ExternalServiceTestAssist;
 
+use App\DomainLogic\SuperCategoryDirectory\SuperCategory;
 use Illuminate\Support\Facades\View;
 
 
@@ -21,6 +22,8 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public $indexCollectionVariable = 'supercategories';
     public $createRoute = 'dashboard/supercategory/create';
     public $createView = 'supercategory.create';
+    public $showRoute = 'dashboard/supercategory';
+    public $showView = 'supercategory.show';
     public function __construct()
     {
         $this->externalService = new \SuperCategoryController();
@@ -37,9 +40,9 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public function test_index_method_route_redirects_if_user_is_not_authenticated()
     {
         $response = $this->getIndexRoute();
-        $this->assertRedirectedTo('login');
-//        $this->asser
-//        $this->assertTrue($response->isRedirect());
+
+        $this->assertRedirectedToLoginPage($response);
+
     }
     public function test_index_method_view_exists()
     {
@@ -64,8 +67,10 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public function test_create_method_route_redirects_if_user_is_not_authenticated()
     {
         $response = $this->getCreateRoute();
-        $this->assertTrue($response->isRedirect());
+
+        $this->assertRedirectedToLoginPage($response);
     }
+
     public function test_create_method_view_exists()
     {
         $this->assertTrue(View::exists($this->createView));
@@ -75,11 +80,34 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
     public function test_show_method_route_is_setup()
     {
-        
+        $this->simulateAuthenticatedUser();
+
+        $subjectModel = SuperCategory::create(['title' => 'testShowMethodRouteIsSetup']);
+
+        $parameterForShowRoute = $subjectModel->id;
+
+        $showRouteResponse = $this->getShowRoute($parameterForShowRoute);
+
+        $this->assertTrue($showRouteResponse->isOk());
+
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+
     }
     public function test_show_method_redirects_if_user_is_not_authenticated()
     {
+        $subjectModel = SuperCategory::create(['title' => 'testShowMethodRedirectsIfuserNotAuthenticated']);
+
+        $parameterForShowRoute = $subjectModel->id;
+
+        $showRouteResponse = $this->getShowRoute($parameterForShowRoute);
+
+        $this->assertRedirectedToLoginPage($showRouteResponse);
+
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+
     }
+
+    
     public function test_show_method_view_exists()
     {
     }
