@@ -19,6 +19,21 @@ class Skill extends Model {
 
     protected $table = 'skills';
 
+    protected $attributesToUnset = [
+        'tool_id',
+        'image_id',
+        'tag_id1',
+        'tag_id2',
+        'tag_id3',
+        'tag_id4',
+        'tag_id5',
+        'tag_id6',
+        'tag_id7',
+        'tag_id8',
+        'tag_id9',
+        'tag_id10',
+    ];
+
     protected $singleOwnerClassName = '\App\DomainLogic\CategoryDirectory\Category';
 
     public function category()

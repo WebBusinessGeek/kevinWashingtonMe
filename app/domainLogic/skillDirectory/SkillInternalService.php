@@ -35,21 +35,8 @@ class SkillInternalService extends BaseInternalService {
      */
     public function runUniqueValidationLogicAndReturnAttributes($attributes = array(), $modelAttributes = array())
     {
-        if(isset($attributes['tool_id']))
-        {
-            unset($attributes['tool_id']);
-        }
-        if(isset($attributes['image_id']))
-        {
-            unset($attributes['image_id']);
-        }
-        foreach(range(1,10) as $tagCount)
-        {
-            if(array_key_exists('tag_id'.$tagCount,$attributes))
-            {
-                unset($attributes['tag_id'.$tagCount]);
-            }
-        }
+        $attributes = $this->unsetMultipleKeysIfTheyExistInArray($this->getModelAttributesToUnset(), $attributes);
+
         return ($this->existsIsValid($attributes, $modelAttributes)) ? $attributes : false ;
     }
 

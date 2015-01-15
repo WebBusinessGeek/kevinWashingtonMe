@@ -18,6 +18,10 @@ class Tool extends Model {
 
     protected $table = 'tools';
 
+    protected $attributesToUnset = [
+        'image_id',
+    ];
+
     public function skills()
     {
         return $this->belongsToMany('\App\DomainLogic\SkillDirectory\Skill');

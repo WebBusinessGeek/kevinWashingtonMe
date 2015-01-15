@@ -24,11 +24,7 @@ class ToolInternalService extends BaseInternalService{
 
     public function runUniqueValidationLogicAndReturnAttributes($attributes = array(), $modelAttributes = array())
     {
-        if(isset($attributes['image_id']))
-        {
-            unset($attributes['image_id']);
-        }
-        return $attributes;
+        return $attributes = $this->unsetMultipleKeysIfTheyExistInArray($this->getModelAttributesToUnset(), $attributes);
     }
 
 

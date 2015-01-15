@@ -1201,5 +1201,70 @@ class ConcreteTraitTest extends \TestCase {
     }
 
 
+    /**
+     *Test method unsets a key in an array if it exists.
+     */
+    public function test_unsetKeyIfItExistsInArray_method()
+    {
+        $trait = new ConcreteTrait();
+
+        $arrayBeforeKeyIsUnset = [
+
+            'keepThisKey' => 'someValue',
+
+            'keyToUnset' => 'someValue',
+
+            'keepThisKey2' => 'someValue',
+
+            'keppThisKey3' => 'someValue',
+
+        ];
+
+        $arrayWithKeyUnset = $trait->unsetKeyIfItExistsInArray('keyToUnset', $arrayBeforeKeyIsUnset);
+
+        $this->assertArrayNotHasKey('keyToUnset', $arrayWithKeyUnset);
+
+
+    }
+
+
+
+    public function test_unsetKeysIfTheyExistInArray_method()
+    {
+        //trait instance
+        $trait = new ConcreteTrait();
+
+        $arrayWithKeysToUnset = [
+
+            'keepThisKey' => 'someValue',
+
+            'keyToUnset' => 'someValue',
+
+            'keepThisKey2' => 'someValue',
+
+            'keepThisKey3' => 'someValue',
+
+            'keyToUnset2' => 'someValue',
+
+            'keyToUnset3' => 'someValue',
+        ];
+
+        $keysToUnset = [
+
+            'keyToUnset',
+
+            'keyToUnset2',
+
+            'keyToUnset3'
+        ];
+
+        $arrayAfterKeysUnset = $trait->unsetMultipleKeysIfTheyExistInArray($keysToUnset, $arrayWithKeysToUnset);
+
+        foreach($keysToUnset as $key)
+        {
+            $this->assertArrayNotHasKey($key, $arrayAfterKeysUnset);
+        }
+    }
+
 
 }

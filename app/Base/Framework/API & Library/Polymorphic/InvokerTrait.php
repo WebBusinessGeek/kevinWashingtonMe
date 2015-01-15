@@ -94,4 +94,35 @@ trait InvokerTrait {
         return $model;
     }
 
+
+
+    /**Removes a key from an array if it exists.
+     * @param $key
+     * @param $array
+     * @return mixed
+     */
+    public function unsetKeyIfItExistsInArray($key, $array)
+    {
+        if(array_key_exists($key, $array))
+        {
+            unset($array[$key]);
+        }
+        return $array;
+    }
+
+    /**Removes an array of keys from an array if the key specified exists.
+     * @param array $keys
+     * @param $arrayToTest
+     * @return mixed
+     */
+    public function unsetMultipleKeysIfTheyExistInArray($keys = array(), $arrayToTest)
+    {
+        foreach($keys as $key)
+        {
+            $arrayToTest = $this->unsetKeyIfItExistsInArray($key, $arrayToTest);
+        }
+        return $arrayToTest;
+    }
+
+
 }

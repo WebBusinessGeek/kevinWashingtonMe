@@ -29,6 +29,7 @@ class BaseModel {
 
     ];
 
+    protected $attributesToUnset = [];
 
     protected $singleOwnerClassName;
 
@@ -133,7 +134,10 @@ class BaseModel {
     }
 
 
-
+    public function getAttributesToUnset()
+    {
+        return $this->attributesToUnset;
+    }
 
 
 }

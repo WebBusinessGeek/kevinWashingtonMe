@@ -17,6 +17,10 @@ class Experience extends Model {
 
     protected $table = 'experiences';
 
+    protected $attributesToUnset = [
+        'image_id',
+    ];
+
     public function images()
     {
         return $this->morphToMany('\App\DomainLogic\ImageDirectory\Image', 'imageable');
