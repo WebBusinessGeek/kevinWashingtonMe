@@ -1,5 +1,7 @@
 <?php
 
+use \Illuminate\Support\Facades\Auth as Auth;
+use \Illuminate\Support\Facades\Redirect as Redirect;
 class SuperCategoryController extends \App\Base\BaseExternalService {
 
 
@@ -14,7 +16,11 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 	 */
 	public function index()
 	{
-
+		if(Auth::check())
+		{
+			return 'authenticated';
+		}
+		return Redirect::to('login')->with('message', 'you need to login first.');
 	}
 
 
@@ -22,6 +28,7 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 	 * Show the form for creating a new resource.
 	 *
 	 * @return Response
+	 *
 	 */
 	public function create()
 	{

@@ -14,4 +14,6 @@ abstract class ExternalServiceTestLibrary extends \TestCase {
 
     public $externalService;
 
+    public $unauthenticatedRedirectionRoute = 'login';
+
 }

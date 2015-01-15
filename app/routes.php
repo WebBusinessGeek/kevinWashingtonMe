@@ -15,23 +15,12 @@
 Route::get('/', function()
 {
     return View::make('hello');
-//
-//    $arry = [
-//        'test1' => 3,
-//        'test2' => 4,
-//        'test3' => null,
-//        'test4' => 5,
-//        'test5' => null,
-//    ];
-//
-//    $results = [];
-//    foreach(range(1,5) as $count)
-//    {
-//        if($arry['test'.$count] != null )
-//        {
-//            array_push($results, $arry['test'.$count]);
-//        }
-//    }
-//
-//    dd($results);
+
 });
+
+Route::get('/login', function()
+{
+ return 'login page';
+});
+
+Route::get('dashboard/supercategory', 'SuperCategoryController@index');

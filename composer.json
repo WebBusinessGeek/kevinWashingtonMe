@@ -9,6 +9,9 @@
 		"phpunit/phpunit": "~4.1",
 		"intervention/image": "~2.0"
 	},
+	"require-dev": {
+	  "mockery/mockery": "0.9.*@dev"
+	},
 	"autoload": {
 		"classmap": [
 			"app/commands",

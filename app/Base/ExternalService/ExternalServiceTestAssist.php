@@ -9,6 +9,6 @@
 namespace App\Base;
 
 
-class ExternalServiceTestAssist {
+class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
 
 }
