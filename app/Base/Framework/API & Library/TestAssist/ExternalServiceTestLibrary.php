@@ -31,6 +31,11 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     public $createView;
 
 
+    public $showRoute;
+
+    public $showView;
+
+
     public function simulateAuthenticatedUser()
     {
         Auth::shouldReceive('check')->once()->andReturn(true);
@@ -49,8 +54,15 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
         return $this->getRoute($this->createRoute);
     }
 
-    public function getRoute($route)
+
+    public function getShowRoute($parameters)
     {
-       return $this->call('GET', $route);
+        return $this->getRoute($this->showRoute, $parameters );
+    }
+
+
+    public function getRoute($route, $parameters = null)
+    {
+       return (isset($parameters))? $this->call('GET', $route, $parameters): $this->call('GET', $route);
     }
 }
