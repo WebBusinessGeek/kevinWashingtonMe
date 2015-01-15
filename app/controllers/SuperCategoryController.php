@@ -34,7 +34,11 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 	 */
 	public function create()
 	{
-		//
+		if(Auth::check())
+		{
+			return View::make('supercategory.create');
+		}
+		return Redirect::to('login')->with('message', 'you need to login first.');
 	}
 
 

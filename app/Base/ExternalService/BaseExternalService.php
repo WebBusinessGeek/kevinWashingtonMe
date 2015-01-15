@@ -9,7 +9,7 @@
 namespace App\Base;
 
 
-use App\BAse\Framework\APILibrary\Polymorphic\AuthenticationTrait;
+use App\Base\Framework\APILibrary\Polymorphic\AuthenticationTrait;
 use App\Base\Framework\APILibrary\Polymorphic\AuthorizationTrait;
 use App\Base\Framework\APILibrary\Polymorphic\ResponderTrait;
 
@@ -39,31 +39,31 @@ abstract class BaseExternalService extends \BaseController {
         }
     }
 
-
-   public function index($paginationCount)
-   {
-
-   }
-
-    public function store($credentialsOrAttributes = [])
-    {
-
-    }
-
-    public function show($id)
-    {
-
-    }
-
-    public function update($id, $attributes = array())
-    {
-
-    }
-
-    public function destroy($id)
-    {
-
-    }
+//
+//   public function index($paginationCount)
+//   {
+//
+//   }
+//
+//    public function store($credentialsOrAttributes = [])
+//    {
+//
+//    }
+//
+//    public function show($id)
+//    {
+//
+//    }
+//
+//    public function update($id, $attributes = array())
+//    {
+//
+//    }
+//
+//    public function destroy($id)
+//    {
+//
+//    }
 
 
     public function getInternalService()

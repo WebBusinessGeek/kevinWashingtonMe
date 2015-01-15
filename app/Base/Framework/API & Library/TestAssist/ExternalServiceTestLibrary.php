@@ -26,6 +26,10 @@ abstract class ExternalServiceTestLibrary extends \TestCase {
     public $indexCollectionVariable;
 
 
+    public $createRoute;
+
+    public $createView;
+
 
     public function simulateAuthenticatedUser()
     {
@@ -38,6 +42,11 @@ abstract class ExternalServiceTestLibrary extends \TestCase {
     public function getIndexRoute()
     {
         return $this->getRoute($this->indexRoute);
+    }
+
+    public function getCreateRoute()
+    {
+        return $this->getRoute($this->createRoute);
     }
 
     public function getRoute($route)

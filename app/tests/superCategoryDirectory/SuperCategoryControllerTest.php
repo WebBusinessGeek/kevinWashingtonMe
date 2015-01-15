@@ -22,12 +22,20 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public $indexCollectionVariable = 'supercategories';
 
+    public $createRoute = 'dashboard/supercategory/create';
+
+    public $createView = 'supercategory.create';
+
+
     public function __construct()
     {
         $this->externalService = new \SuperCategoryController();
     }
 
 
+    /***********************************************************************************************************/
+    /*                                          Index method test cases                                               */
+    /***********************************************************************************************************/
 
 
     public function test_index_method_route_is_setup()
@@ -40,11 +48,14 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
 
-    public function test_index_method_route_redirects_if_user_is_not_authentication()
+    public function test_index_method_route_redirects_if_user_is_not_authenticated()
     {
         $response = $this->getIndexRoute();
 
-        $this->assertTrue($response->isRedirect());
+        $this->assertRedirectedTo('login');
+
+//        $this->asser
+//        $this->assertTrue($response->isRedirect());
     }
 
 
@@ -64,4 +75,38 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
         $this->assertEquals($this->paginationClass, get_class($view[$this->indexCollectionVariable]));
     }
+
+    /***********************************************************************************************************/
+    /*                                          Create method test cases                                              */
+    /***********************************************************************************************************/
+
+    public function test_create_method_route_is_setup()
+    {
+        $this->simulateAuthenticatedUser();
+
+        $response = $this->getCreateRoute();
+
+        $this->assertTrue($response->isOk());
+
+    }
+
+    public function test_create_method_route_redirects_if_user_is_not_authenticated()
+    {
+        $response = $this->getCreateRoute();
+
+        $this->assertTrue($response->isRedirect());
+    }
+
+    public function test_create_method_view_exists()
+    {
+        $this->assertTrue(View::exists($this->createView));
+    }
+
+    /***********************************************************************************************************/
+    /*                                          Edit method test cases                                              */
+    /***********************************************************************************************************/
+
+
+
+
 }

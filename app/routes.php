@@ -23,4 +23,12 @@ Route::get('/login', function()
  return 'login page';
 });
 
-Route::get('dashboard/supercategory', 'SuperCategoryController@index');
+
+Route::group(array('before' => 'auth'), function ()
+{
+
+    Route::get('dashboard/supercategory', 'SuperCategoryController@index');
+    Route::get('dashboard/supercategory/create', 'SuperCategoryController@create');
+
+});
+
