@@ -11,7 +11,7 @@ namespace App\Base;
 use Illuminate\Foundation\Testing\TestCase;
 use Illuminate\Support\Facades\Auth;
 
-abstract class ExternalServiceTestLibrary extends \TestCase {
+abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
 
     public $externalService;
 

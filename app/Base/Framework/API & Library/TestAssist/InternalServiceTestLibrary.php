@@ -14,7 +14,7 @@ use Illuminate\Foundation\Testing\TestCase;
 use Illuminate\Support\Facades\DB;
 use Symfony\Component\Routing\Exception\MissingMandatoryParametersException;
 
-abstract class InternalServiceTestLibrary extends \TestCase{
+abstract class InternalServiceTestLibrary extends MasterTestLibrary{
 
     public $service;
 
@@ -417,35 +417,6 @@ abstract class InternalServiceTestLibrary extends \TestCase{
         $indexCallResponse =  $this->callServiceIndexMethod($paginationCount);
 
         return ['subjectModels' => $subjectModels, 'call' => $indexCallResponse];
-    }
-
-
-
-    /***********************************************************************************************************/
-    /*                                        *** Helper methods for Descendants ***                            */
-    /***********************************************************************************************************/
-
-
-
-
-    public function cleanUpSingleModelAfterTesting(Model $model)
-    {
-        $subjectModelId =  $model->id;
-        $className = $model->getClassName();
-        $className::destroy($subjectModelId);
-    }
-
-    public function cleanUpMultipleModelsAfterTesting($models = array())
-    {
-        foreach($models as $model)
-        {
-            $this->cleanUpSingleModelAfterTesting($model);
-        }
-    }
-
-    public function cleanDatabaseTable($tableName)
-    {
-        DB::table($tableName)->truncate();
     }
 
 

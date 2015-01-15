@@ -103,9 +103,39 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /***********************************************************************************************************/
-    /*                                          Edit method test cases                                              */
+    /*                                          Show method test cases                                              */
     /***********************************************************************************************************/
 
+
+    public function test_show_method_route_is_setup()
+    {
+        $this->simulateAuthenticatedUser();
+
+        //supercategory instance for this test
+
+        //id to use
+
+        //response to show route with id
+
+        //assert response is ok
+
+        //cleanup
+    }
+
+    public function test_show_method_redirects_if_user_is_not_authenticated()
+    {
+
+    }
+
+    public function test_show_method_view_exists()
+    {
+
+    }
+
+    public function test_show_method_view_contains_variable_of_correct_class()
+    {
+
+    }
 
 
 
