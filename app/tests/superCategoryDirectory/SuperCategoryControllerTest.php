@@ -11,12 +11,16 @@ namespace tests\superCategoryDirectory;
 
 use App\Base\ExternalServiceTestAssist;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\View;
 
 class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
 
     public $indexRoute = 'dashboard/supercategory';
 
+    public $indexView = 'supercategory.index';
+
+    public $indexCollectionVariable = 'supercategories';
 
     public function __construct()
     {
@@ -28,22 +32,36 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_index_method_route_is_setup()
     {
-        Auth::shouldReceive('check')->once()->andReturn(true);
-        
-        $response = $this->call('GET', $this->indexRoute);
+        $this->simulateAuthenticatedUser();
+
+        $response = $this->getIndexRoute();
 
         $this->assertTrue($response->isOk());
     }
 
 
-    public function test_index_method_route_tests_for_authentication()
+    public function test_index_method_route_redirects_if_user_is_not_authentication()
     {
-        $response = $this->call('GET', $this->indexRoute);
+        $response = $this->getIndexRoute();
 
         $this->assertTrue($response->isRedirect());
     }
 
-    public function test_index_method_redirects_if_user_is_not_authenticated()
+
+    public function test_index_method_view_exists()
     {
+        $this->assertTrue(View::exists($this->indexView));
+    }
+
+
+    public function test_index_method_view_contains_paginated_variable_instance()
+    {
+        $this->simulateAuthenticatedUser();
+
+        $response = $this->getIndexRoute();
+
+        $view = $response->original;
+
+        $this->assertEquals($this->paginationClass, get_class($view[$this->indexCollectionVariable]));
     }
 }

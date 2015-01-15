@@ -18,7 +18,9 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 	{
 		if(Auth::check())
 		{
-			return 'authenticated';
+			$supercategories = $this->internalService->index(6);
+
+			return View::make('supercategory.index')->with('supercategories', $supercategories);
 		}
 		return Redirect::to('login')->with('message', 'you need to login first.');
 	}

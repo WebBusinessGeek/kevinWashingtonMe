@@ -9,11 +9,39 @@
 namespace App\Base;
 
 use Illuminate\Foundation\Testing\TestCase;
+use Illuminate\Support\Facades\Auth;
 
 abstract class ExternalServiceTestLibrary extends \TestCase {
 
     public $externalService;
 
+    public $paginationClass = 'Illuminate\Pagination\Paginator';
+
     public $unauthenticatedRedirectionRoute = 'login';
 
+    public $indexRoute;
+
+    public $indexView;
+
+    public $indexCollectionVariable;
+
+
+
+    public function simulateAuthenticatedUser()
+    {
+        Auth::shouldReceive('check')->once()->andReturn(true);
+    }
+
+
+
+
+    public function getIndexRoute()
+    {
+        return $this->getRoute($this->indexRoute);
+    }
+
+    public function getRoute($route)
+    {
+       return $this->call('GET', $route);
+    }
 }
