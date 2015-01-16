@@ -68,6 +68,18 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     }
 
 
+
+    public function assertLocationIsACreateRoute($location)
+    {
+        $this->assertEquals($this->removeFromRoute($this->createRoute, $location)[1], null);
+    }
+    public function removeFromRoute($delimiter, $route)
+    {
+        return explode($delimiter, $route);
+    }
+
+
+
     public function getIndexRoute()
     {
         return $this->getRoute($this->indexRoute);

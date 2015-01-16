@@ -273,7 +273,18 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_store_method_redirects_to_correct_route_on_error()
     {
+        $this->simulateAuthenticatedUser();
 
+        $attributes = [
+            'wrong' => 'testStoreMethodRedirectsToCorrectRouteOnError',
+            'title' => 'somethign'
+        ];
+
+        $storeRouteResponse = $this->call('POST', $this->storeRoute, $attributes);
+
+        $location = $storeRouteResponse->headers->get('Location');
+
+        $this->assertLocationIsACreateRoute($location);
     }
 
     public function test_store_method_view_has_error_message_on_error()
