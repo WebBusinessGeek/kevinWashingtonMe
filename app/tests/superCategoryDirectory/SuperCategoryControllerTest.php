@@ -388,7 +388,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
-    public function test_update_method_redirects_to_correct_error_message_on_bad_attributes_error()
+    public function test_update_method_redirects_with_correct_error_message_on_bad_attributes_error()
     {
         $this->simulateAuthenticatedUser();
 
@@ -410,6 +410,17 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_update_method_redirects_to_correct_route_on_bad_id_error()
     {
+        $this->simulateAuthenticatedUser();
+
+        $badId = $this->simulateBadIDForSubjectModel();
+
+        $attributes = $this->simulateAttributesForSubjectModel('good');
+
+        $updateRouteResponse = $this->putUpdateRoute($badId, $attributes);
+
+        $location = $this->getResponseLocation($updateRouteResponse);
+
+        $this->assertLocationIsAEditRoute($location);
 
     }
 
