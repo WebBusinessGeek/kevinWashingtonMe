@@ -390,6 +390,21 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_update_method_redirects_to_correct_error_message_on_bad_attributes_error()
     {
+        $this->simulateAuthenticatedUser();
+
+        $subjectModel = $this->createSubjectModelInstance();
+
+        $subjectModelId = $subjectModel->id;
+
+        $badAttributes = $this->simulateAttributesForSubjectModel('bad');
+
+        $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $badAttributes);
+
+        $errorMessage = $this->getViewErrorMessage($updateRouteResponse);
+
+        $this->assertEquals('Invalid attributes sent to update method.', $errorMessage);
+
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
 
     }
 
