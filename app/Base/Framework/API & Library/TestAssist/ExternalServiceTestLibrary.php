@@ -50,6 +50,7 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
 
 
     public $updateRoute;
+    public $updateAfterPutView;
 
     public function simulateAuthenticatedUser()
     {

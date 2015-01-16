@@ -31,6 +31,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public $storeRoute = 'dashboard/supercategory/';
     public $storeAfterPostView = 'supercategory.show';
     public $updateRoute = 'dashboard/supercategory';
+    public $updateAfterPutView = 'supercategory.show';
 
     public function __construct()
     {
@@ -327,7 +328,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_method_after_post_view_exists()
     {
-        
+        $this->assertViewExists($this->updateAfterPutView);
     }
 
     public function test_redirected_to_correct_route_on_success()
