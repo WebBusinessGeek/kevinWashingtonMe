@@ -53,7 +53,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
     public function test_index_method_view_exists()
     {
-        $this->assertTrue(View::exists($this->indexView));
+        $this->assertViewExists($this->indexView);
     }
     public function test_index_method_view_contains_paginated_variable_instance()
     {
@@ -80,7 +80,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_create_method_view_exists()
     {
-        $this->assertTrue(View::exists($this->createView));
+        $this->assertViewExists($this->createView);
     }
     /***********************************************************************************************************/
     /*                                          Show method test cases                                              */
@@ -116,7 +116,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_show_method_view_exists()
     {
-        $this->assertTrue(View::exists($this->showView));
+        $this->assertViewExists($this->showView);
     }
 
     public function test_show_method_view_contains_variable_of_correct_class()
@@ -191,7 +191,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_edit_method_view_exists()
     {
-        $this->assertTrue(View::exists($this->editView));
+        $this->assertViewExists($this->editView);
     }
 
     public function test_edit_method_view_contains_instance_of_correct_class()
@@ -249,7 +249,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_store_method_view_exists()
     {
-        $this->assertTrue(View::exists($this->storeView));
+        $this->assertViewExists($this->storeView);
     }
 
     public function test_store_method_redirects_to_correct_route_on_success()

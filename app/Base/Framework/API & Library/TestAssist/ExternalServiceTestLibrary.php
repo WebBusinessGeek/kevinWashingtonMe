@@ -12,6 +12,7 @@ use Illuminate\Foundation\Testing\TestCase;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\View;
 
 abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
 
@@ -59,6 +60,13 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
         $this->assertEquals($this->loginRedirectUrl, $response->headers->get('Location'));
 
     }
+
+
+    public function assertViewExists($viewName)
+    {
+        $this->assertTrue(View::exists($viewName));
+    }
+
 
     public function assertLocationIsAShowRoute($location)
     {
@@ -154,4 +162,6 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     {
         return $response->headers->get('Location');
     }
+
+
 }
