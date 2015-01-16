@@ -52,7 +52,6 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 	{
 		if(Auth::check())
 		{
-
 			$attributesToSend = Input::all();
 
 			$supercategory = $this->internalService->store($attributesToSend);

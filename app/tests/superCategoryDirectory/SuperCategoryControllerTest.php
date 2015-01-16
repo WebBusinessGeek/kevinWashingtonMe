@@ -277,7 +277,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
         $attributes = [
             'wrong' => 'testStoreMethodRedirectsToCorrectRouteOnError',
-            'title' => 'somethign'
+            'title' => 'something'
         ];
 
         $storeRouteResponse = $this->call('POST', $this->storeRoute, $attributes);
@@ -289,6 +289,18 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_store_method_view_has_error_message_on_error()
     {
+        $this->simulateAuthenticatedUser();
+
+        $attributes = [
+            'wrong' => 'testStoreMethodRedirectsToCorrectRouteOnError',
+            'title' => 'something'
+        ];
+
+        $storeRouteResponse = $this->call('POST', $this->storeRoute, $attributes);
+
+        $viewMessage = $storeRouteResponse->getSession()->get($this->errorMessageVariableName);
+
+        $this->assertEquals($this->storeExpectedErrorMessage, $viewMessage);
 
     }
 

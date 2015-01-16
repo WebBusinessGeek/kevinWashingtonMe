@@ -21,6 +21,8 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     public $paginationClass = 'Illuminate\Pagination\Paginator';
     public $instanceClass = '';
     public $unauthenticatedRedirectionRoute = 'login';
+    public $errorMessageVariableName = 'message';
+
 
 
     public $indexRoute;
@@ -40,6 +42,10 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     public $editView;
     public $editInstanceVariable;
     public $editRouteDelimeter = '{id}';
+
+    public $storeRoute;
+    public $storeView;
+    public $storeExpectedErrorMessage = 'Invalid attributes sent to store method.';
 
     public function simulateAuthenticatedUser()
     {
