@@ -439,6 +439,18 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->assertEquals('Model not found.', $errorMessage);
     }
 
+//    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!
+//    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!
+//    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!
+//    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!
+//    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!
+//    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!
+//    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!
+//    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!
+// TODO: !!!!****** REMEMBER TO CROSS REFERENCE YOUR CURRENT TEST CASES WITH THOSE IN YOUR NOTES *****!!!!!!
+    /***********************************************************************************************************/
+    /*                                          Destroy method test cases                                         */
+    /***********************************************************************************************************/
 
 
 
