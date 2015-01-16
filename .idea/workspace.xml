@@ -27,11 +27,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/routes.php">
+          <file leaf-file-name="SuperCategoryControllerTest.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4964029" vertical-offset="255" max-vertical-offset="950">
-                  <caret line="33" column="84" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="84" />
+                <state vertical-scroll-proportion="0.38848922" vertical-offset="4180" max-vertical-offset="5275">
+                  <caret line="186" column="61" selection-start-line="186" selection-start-column="61" selection-end-line="186" selection-end-column="61" />
                   <folding />
                 </state>
               </provider>
@@ -742,44 +742,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4964029" vertical-offset="3755" max-vertical-offset="5075">
-          <caret line="172" column="61" selection-start-line="172" selection-start-column="61" selection-end-line="172" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.676259" vertical-offset="255" max-vertical-offset="950">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <marker date="1421420865000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1421420865000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421420865000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421421036000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1421421036000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421421036000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421421036000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421421036000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421421036000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421421036000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4964029" vertical-offset="255" max-vertical-offset="950">
-          <caret line="33" column="84" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="84" />
+        <state vertical-scroll-proportion="0.38848922" vertical-offset="4180" max-vertical-offset="5275">
+          <caret line="186" column="61" selection-start-line="186" selection-start-column="61" selection-end-line="186" selection-end-column="61" />
           <folding />
         </state>
       </provider>

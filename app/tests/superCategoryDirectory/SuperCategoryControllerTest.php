@@ -176,7 +176,15 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_edit_method_redirects_to_login_if_user_is_not_authenticated()
     {
+        $subjectModel = SuperCategory::create(['title' => 'testEditMethodRedirectsToLoginIfUserIsNotAuth']);
 
+        $parameterToSendToEditRoute = $subjectModel->id;
+
+        $requestToEditRoute = $this->getEditRoute($parameterToSendToEditRoute);
+
+        $this->assertRedirectedToLoginPage($requestToEditRoute);
+
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
     public function test_edit_method_view_exists()
