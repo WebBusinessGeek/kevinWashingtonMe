@@ -48,6 +48,9 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     public $storeAfterPostView;
     public $storeExpectedErrorMessage = 'Invalid attributes sent to store method.';
 
+
+    public $updateRoute;
+
     public function simulateAuthenticatedUser()
     {
         Auth::shouldReceive('check')->once()->andReturn(true);
@@ -121,6 +124,16 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
         return $breakRoute[0] . $routeParameter . $breakRoute[1];
     }
 
+
+
+    public function putUpdateRoute($id, $attributes)
+    {
+        return $this->putRoute($this->updateRoute.'/'.$id, $attributes);
+    }
+    public function putRoute($route, $attributes)
+    {
+        return $this->call('PUT', $route, $attributes);
+    }
 
 
 

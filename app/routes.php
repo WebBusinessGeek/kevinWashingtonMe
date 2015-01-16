@@ -36,10 +36,9 @@ Route::group(array('before' => 'auth'), function ()
     Route::get('dashboard/supercategory/{id}', 'SuperCategoryController@show');
     Route::get('dashboard/supercategory/{id}/edit', 'SuperCategoryController@edit');
     Route::post('dashboard/supercategory', 'SuperCategoryController@store');
-
+    Route::put('dashboard/supercategory/{id}', 'SuperCategoryController@update');
 });
 
 
 Route::get('testing/supercategory', 'SuperCategoryController@store');
-
 

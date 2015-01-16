@@ -30,6 +30,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public $editInstanceVariable = 'supercategoryForEdit';
     public $storeRoute = 'dashboard/supercategory/';
     public $storeAfterPostView = 'supercategory.show';
+    public $updateRoute = 'dashboard/supercategory';
 
     public function __construct()
     {
@@ -295,7 +296,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->simulateAuthenticatedUser();
 
         $attributes = $this->simulateAttributesForSubjectModel('bad');
-        
+
         $storeRouteResponse = $this->postStoreRoute($attributes);
 
         $viewMessage = $this->getViewErrorMessage($storeRouteResponse);
@@ -311,12 +312,22 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_route_redirects_to_login_if_user_is_not_authenticated()
     {
+        $subjectModel = $this->createSubjectModelInstance();
 
+        $subjectModelId = $subjectModel->id;
+
+        $attributes = $this->simulateAttributesForSubjectModel('good');
+
+        $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $attributes);
+
+        $this->assertRedirectedToLoginPage($updateRouteResponse);
+
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
     public function test_method_after_post_view_exists()
     {
-
+        
     }
 
     public function test_redirected_to_correct_route_on_success()
