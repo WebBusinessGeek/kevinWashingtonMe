@@ -98,6 +98,18 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
 
 
 
+    public function assertLocationIsAEditRoute($location)
+    {
+        $this->assertTrue(!strpos($location, 'edit') === false);
+    }
+
+
+
+
+
+
+
+
     public function getIndexRoute()
     {
         return $this->getRoute($this->indexRoute);
