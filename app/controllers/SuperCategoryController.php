@@ -82,9 +82,9 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 	{
 		if(Auth::check())
 		{
-			$supercategoryToEdit = $this->internalService->show($id);
+			$supercategoryForEdit = $this->internalService->show($id);
 
-			return View::make('supercategory.edit')->with('supercategoryToEdit', $supercategoryToEdit);
+			return View::make('supercategory.edit')->with('supercategoryForEdit', $supercategoryForEdit);
 
 		}
 		return Redirect::to('login')->with('message', 'you need to login first.');
