@@ -52,8 +52,15 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 	{
 		if(Auth::check())
 		{
+			$attributesToSend = [
+				'title' => Input::get('title'),
+			];
 
-			return View::make('supercategory.create');
+			$supercategory = $this->internalService->store($attributesToSend);
+			$id = $supercategory->id;
+
+			return Redirect::to('dashboard/supercategory/'.$id)->with('supercategory', $supercategory);
+
 		}
 		return Redirect::to('login')->with('message', 'you need to login first.');
 	}

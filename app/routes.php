@@ -17,6 +17,7 @@ Route::get('/', function()
     return View::make('hello');
 
 
+
 });
 
 Route::get('/login', function()
@@ -35,5 +36,8 @@ Route::group(array('before' => 'auth'), function ()
     Route::post('dashboard/supercategory', 'SuperCategoryController@store');
 
 });
+
+
+Route::get('testing/supercategory', 'SuperCategoryController@store');
 
 

@@ -54,6 +54,19 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
 
     }
 
+    public function assertLocationIsAShowRoute($location)
+    {
+        $this->assertTrue($this->assertEndOfRouteIsAnInteger($location));
+    }
+    public function assertEndOfRouteIsAnInteger($location)
+    {
+        return is_numeric($this->getIdFromShowRoute($location));
+    }
+    public function getIdFromShowRoute($location)
+    {
+        return explode($this->showRoute.'/', $location)[1];
+    }
+
 
     public function getIndexRoute()
     {
