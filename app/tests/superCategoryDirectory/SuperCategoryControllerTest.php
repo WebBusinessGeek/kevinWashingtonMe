@@ -24,6 +24,8 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public $createView = 'supercategory.create';
     public $showRoute = 'dashboard/supercategory';
     public $showView = 'supercategory.show';
+    public $showInstanceVariable = 'supercategory';
+
     public function __construct()
     {
         $this->externalService = new \SuperCategoryController();
@@ -107,12 +109,48 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     }
 
-    
+
     public function test_show_method_view_exists()
     {
+        $this->assertTrue(View::exists($this->showView));
     }
+
     public function test_show_method_view_contains_variable_of_correct_class()
     {
+        $this->simulateAuthenticatedUser();
+
+        $subjectModel = SuperCategory::create([
+            'title' => 'testShowMethodViewContainsVariableOfCorrectClass',
+        ]);
+
+        $parameterForShowRoute = $subjectModel->id;
+
+        $showRouteResponse = $this->getShowRoute($parameterForShowRoute);
+
+        $view = $showRouteResponse->original;
+
+        $this->assertTrue($this->isSubjectModelInstance($view[$this->showInstanceVariable]));
+
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
+
+    public function test_show_method_view_returns_correct_instance()
+    {
+        $this->simulateAuthenticatedUser();
+
+        $subjectModel = SuperCategory::create([
+            'title' => 'testShowMethodViewContainsVariableOfCorrectClass',
+        ]);
+
+        $parameterForShowRoute = $subjectModel->id;
+
+        $showRouteResponse = $this->getShowRoute($parameterForShowRoute);
+
+        $view = $showRouteResponse->original;
+
+        $this->assertEquals($subjectModel->title, $view[$this->showInstanceVariable]->title);
+
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
 

@@ -88,6 +88,19 @@ abstract class BaseExternalService extends \BaseController {
 
 
 
+    public function isSubjectModelInstance($potentialModel)
+    {
+        return $this->internalService->isModelInstance($potentialModel);
+    }
 
+    public function getSubjectModelClassName()
+    {
+        return $this->internalService->getModelClassName();
+    }
+
+    public function getSubjectModelAttributes()
+    {
+        return $this->internalService->getModelAttributes();
+    }
 }
 

@@ -18,27 +18,23 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     public $externalService;
 
     public $loginRedirectUrl = 'http://localhost/login';
-
     public $paginationClass = 'Illuminate\Pagination\Paginator';
-
+    public $instanceClass = '';
     public $unauthenticatedRedirectionRoute = 'login';
 
+
     public $indexRoute;
-
     public $indexView;
-
     public $indexCollectionVariable;
 
 
     public $createRoute;
-
     public $createView;
 
 
     public $showRoute;
-
     public $showView;
-
+    public $showInstanceVariable;
 
     public function simulateAuthenticatedUser()
     {
@@ -76,5 +72,21 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
        return (isset($parameters))? $this->call('GET', $route, $parameters): $this->call('GET', $route);
     }
 
+
+
+    public function getSubjectModelClassName()
+    {
+        return $this->externalService->getSubjectModelClassName();
+    }
+
+    public function isSubjectModelInstance($potentialModel)
+    {
+        return $this->externalService->isSubjectModelInstance($potentialModel);
+    }
+
+    public function getSubjectModelAttributes()
+    {
+        return $this->externalService->getSubejctModelAttributes();
+    }
 
 }
