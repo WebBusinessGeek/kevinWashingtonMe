@@ -147,7 +147,7 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
 
     public function getSubjectModelAttributes()
     {
-        return $this->externalService->getSubejctModelAttributes();
+        return $this->externalService->getSubjectModelAttributes();
     }
 
 
@@ -164,9 +164,9 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     }
 
 
-    public function create()
-    {
 
-    }
+
+
+
 
 }

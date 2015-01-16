@@ -318,7 +318,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
 
     /***********************************************************************************************************/
-    /*                                          Update method test cases                                              */
+    /*                                          Update method test cases                                         */
     /***********************************************************************************************************/
 
     public function test_route_redirects_to_login_if_user_is_not_authenticated()

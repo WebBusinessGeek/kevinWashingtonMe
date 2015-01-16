@@ -24,18 +24,36 @@
     <favorites_list name="kevinWashingtonMe" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SuperCategoryControllerTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.1870503" vertical-offset="7605" max-vertical-offset="8875">
-              <caret line="168" column="5" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="MasterTestLibrary.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/MasterTestLibrary.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="3.0503597" vertical-offset="880" max-vertical-offset="3275">
+                  <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="InternalServiceTestLibrary.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/InternalServiceTestLibrary.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.35971224" vertical-offset="11950" max-vertical-offset="16700">
+                  <caret line="496" column="0" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -43,7 +61,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="956" />
+    <option name="width" value="1438" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -282,15 +300,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -309,7 +327,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="956" height="744" extended-state="0" />
+    <frame x="0" y="22" width="1438" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -324,13 +342,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -549,7 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21582733" vertical-offset="0" max-vertical-offset="695">
           <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,13 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/MasterTestLibrary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.352518" vertical-offset="555" max-vertical-offset="1250">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6925287" vertical-offset="29968" max-vertical-offset="31850">
@@ -683,31 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68345326" vertical-offset="1150" max-vertical-offset="3425">
           <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-          <folding>
-            <marker date="1421430583000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
-            <marker date="1421430583000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32374102" vertical-offset="6425" max-vertical-offset="15825">
           <caret line="269" column="4" selection-start-line="269" selection-start-column="4" selection-end-line="269" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -727,52 +711,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/InternalServiceTestLibrary.php">
+    <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.676259" vertical-offset="10780" max-vertical-offset="18725">
-          <caret line="458" column="12" selection-start-line="458" selection-start-column="12" selection-end-line="458" selection-end-column="12" />
-          <folding />
+        <state vertical-scroll-proportion="0.48203593" vertical-offset="8153" max-vertical-offset="8875">
+          <caret line="347" column="0" selection-start-line="347" selection-start-column="0" selection-end-line="347" selection-end-column="0" />
+          <folding>
+            <marker date="1421436452000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1421436452000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436452000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/ExternalServiceTestLibrary.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79136693" vertical-offset="600" max-vertical-offset="4200">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.43165466" vertical-offset="2250" max-vertical-offset="4200">
+          <caret line="111" column="23" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
           <folding>
-            <marker date="1421433800000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1421433800000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421433800000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1421436885000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421436885000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
+    <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/InternalServiceTestLibrary.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.1870503" vertical-offset="7605" max-vertical-offset="8875">
-          <caret line="168" column="5" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.35971224" vertical-offset="11950" max-vertical-offset="16700">
+          <caret line="496" column="0" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/MasterTestLibrary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.0503597" vertical-offset="880" max-vertical-offset="3275">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
           <folding />
         </state>
       </provider>
