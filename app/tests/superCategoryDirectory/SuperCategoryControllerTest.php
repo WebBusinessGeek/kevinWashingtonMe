@@ -241,7 +241,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
             'title' => 'testStoreMethodRedirectsToLoginPage',
         ];
 
-        $storeRouteResponse = $this->call('POST', $this->storeRoute, $attributes);
+        $storeRouteResponse = $this->postStoreRoute($attributes);
 
         $this->assertRedirectedToLoginPage($storeRouteResponse);
 
@@ -258,9 +258,9 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
         $attributes = ['title' => 'testStoreMethodRedirectsToCorrectRouteOnSuccess'];
 
-        $storeRouteResponse = $this->call('POST', $this->storeRoute, $attributes);
+        $storeRouteResponse = $this->postStoreRoute($attributes);
 
-        $location = $storeRouteResponse->headers->get('Location');
+        $location = $this->getResponseLocation($storeRouteResponse);
 
         $this->assertLocationIsAShowRoute($location);
 
@@ -280,9 +280,9 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
             'title' => 'something'
         ];
 
-        $storeRouteResponse = $this->call('POST', $this->storeRoute, $attributes);
+        $storeRouteResponse = $this->postStoreRoute($attributes);
 
-        $location = $storeRouteResponse->headers->get('Location');
+        $location = $this->getResponseLocation($storeRouteResponse);
 
         $this->assertLocationIsACreateRoute($location);
     }
@@ -296,9 +296,9 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
             'title' => 'something'
         ];
 
-        $storeRouteResponse = $this->call('POST', $this->storeRoute, $attributes);
+        $storeRouteResponse = $this->postStoreRoute($attributes);
 
-        $viewMessage = $storeRouteResponse->getSession()->get($this->errorMessageVariableName);
+        $viewMessage = $this->getViewErrorMessage($storeRouteResponse);
 
         $this->assertEquals($this->storeExpectedErrorMessage, $viewMessage);
 

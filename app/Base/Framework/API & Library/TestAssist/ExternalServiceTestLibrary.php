@@ -115,6 +115,18 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
 
 
 
+
+    public function postStoreRoute($attributes)
+    {
+        return $this->postRoute($this->storeRoute, $attributes);
+    }
+    public function postRoute($route, $attributes)
+    {
+        return $this->call('POST', $route, $attributes);
+    }
+
+
+
     public function getSubjectModelClassName()
     {
         return $this->externalService->getSubjectModelClassName();
@@ -130,4 +142,16 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
         return $this->externalService->getSubejctModelAttributes();
     }
 
+
+
+    public function getViewErrorMessage($response)
+    {
+       return $response->getSession()->get($this->errorMessageVariableName);
+    }
+
+
+    public function getResponseLocation($response)
+    {
+        return $response->headers->get('Location');
+    }
 }
