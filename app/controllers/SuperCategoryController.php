@@ -2,6 +2,7 @@
 
 use \Illuminate\Support\Facades\Auth as Auth;
 use \Illuminate\Support\Facades\Redirect as Redirect;
+use \Illuminate\Support\Facades\Input as Input;
 class SuperCategoryController extends \App\Base\BaseExternalService {
 
 
@@ -49,7 +50,12 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 	 */
 	public function store()
 	{
-		//
+		if(Auth::check())
+		{
+
+			return View::make('supercategory.create');
+		}
+		return Redirect::to('login')->with('message', 'you need to login first.');
 	}
 
 

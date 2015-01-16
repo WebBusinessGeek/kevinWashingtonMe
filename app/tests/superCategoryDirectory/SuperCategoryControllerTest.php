@@ -28,6 +28,8 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public $editRoute = 'dashboard/supercategory/{id}/edit';
     public $editView = 'supercategory.edit';
     public $editInstanceVariable = 'supercategoryForEdit';
+    public $storeRoute = 'dashboard/supercategory/';
+
 
     public function __construct()
     {
@@ -235,6 +237,13 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_store_method_redirects_login_if_user_is_not_authenticated()
     {
+        $attributes = [
+            'title' => 'testStoreMethodRedirectsToLoginPage',
+        ];
+
+        $storeRouteResponse = $this->call('POST', $this->storeRoute, $attributes);
+
+        $this->assertRedirectedToLoginPage($storeRouteResponse);
 
     }
 
@@ -255,7 +264,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_store_method_view_has_error_message_on_error()
     {
-        
+
     }
 
 
