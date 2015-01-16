@@ -211,7 +211,21 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_edit_method_view_contains_correct_subjectModel_instance()
     {
+        $this->simulateAuthenticatedUser();
 
+        $subjectModel = SuperCategory::create(['title' => 'testEditMethodViewContainsCorrectSubjectModelInstance']);
+
+        $parameterForEditRoute = $subjectModel->id;
+
+        $requestToEditRoute = $this->getEditRoute($parameterForEditRoute);
+
+        $view = $requestToEditRoute->original;
+
+        $viewSubjectModel = $view[$this->editInstanceVariable];
+
+        $this->assertEquals($subjectModel->title, $viewSubjectModel->title);
+
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
 
