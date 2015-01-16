@@ -426,7 +426,17 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_update_method_redirects_with_correct_error_message_on_bad_id_error()
     {
+        $this->simulateAuthenticatedUser();
 
+        $badId = $this->simulateBadIDForSubjectModel();
+
+        $attributes = $this->simulateAttributesForSubjectModel('good');
+
+        $updateRouteResponse = $this->putUpdateRoute($badId, $attributes);
+
+        $errorMessage = $this->getViewErrorMessage($updateRouteResponse);
+
+        $this->assertEquals('Model not found.', $errorMessage);
     }
 
 
