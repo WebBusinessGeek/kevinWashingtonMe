@@ -109,7 +109,6 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     }
 
-
     public function test_show_method_view_exists()
     {
         $this->assertTrue(View::exists($this->showView));
@@ -152,6 +151,41 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
+    /***********************************************************************************************************/
+    /*                                          Edit method test cases                                              */
+    /***********************************************************************************************************/
+
+    public function test_edit_method_route_is_setup()
+    {
+
+    }
+
+    public function test_edit_method_redirects_to_login_if_user_is_not_authenticated()
+    {
+
+    }
+
+    public function test_edit_method_view_exists()
+    {
+
+    }
+
+    public function test_edit_method_view_contains_instance_of_correct_class()
+    {
+
+    }
+
+    public function test_edit_method_view_contains_correct_subjectModel_instance()
+    {
+
+    }
+
+
+
+
+
+
+
 
 
 }
