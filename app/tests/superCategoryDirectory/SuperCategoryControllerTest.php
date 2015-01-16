@@ -29,7 +29,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public $editView = 'supercategory.edit';
     public $editInstanceVariable = 'supercategoryForEdit';
     public $storeRoute = 'dashboard/supercategory/';
-
+    public $storeView = 'supercategory.show';
 
     public function __construct()
     {
@@ -249,7 +249,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_store_method_view_exists()
     {
-
+        $this->assertTrue(View::exists($this->storeView));
     }
 
     public function test_store_method_redirects_to_correct_route_on_success()
