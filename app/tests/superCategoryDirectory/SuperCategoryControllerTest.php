@@ -189,7 +189,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_edit_method_view_exists()
     {
-
+        $this->assertTrue(View::exists($this->editView));
     }
 
     public function test_edit_method_view_contains_instance_of_correct_class()
