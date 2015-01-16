@@ -326,7 +326,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
-    public function test_method_after_post_view_exists()
+    public function test_update_method_after_put_view_exists()
     {
         $this->assertViewExists($this->updateAfterPutView);
     }
