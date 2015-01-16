@@ -274,7 +274,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
         $idForSubjectModel = $this->getIdFromShowRoute($location);
 
-        $subjectModel = SuperCategory::find($idForSubjectModel);
+        $subjectModel = $this->getSubjectModelFromDatabase($idForSubjectModel);
 
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }

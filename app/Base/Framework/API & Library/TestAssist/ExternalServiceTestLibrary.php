@@ -134,6 +134,26 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     }
 
 
+    public function getViewErrorMessage($response)
+    {
+       return $response->getSession()->get($this->errorMessageVariableName);
+    }
+
+
+
+
+    public function getResponseLocation($response)
+    {
+        return $response->headers->get('Location');
+    }
+
+
+
+
+
+
+
+
     public function getSubjectModelSingleOwnerClassName()
     {
         return $this->externalService->getSubjectModelSingleOwnerClassName();
@@ -155,19 +175,10 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     }
 
 
-
-    public function getViewErrorMessage($response)
+    public function getAttributeFormatsForSubjectModel()
     {
-       return $response->getSession()->get($this->errorMessageVariableName);
+        return $this->externalService->getAttributeFormatsForSubjectModel();
     }
-
-
-    public function getResponseLocation($response)
-    {
-        return $response->headers->get('Location');
-    }
-
-
 
 
     public function createSubjectModelInstance()
@@ -176,6 +187,38 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
         $subjectModel = $className::create([]);
         return $subjectModel;
     }
+
+    public function getSubjectModelFromDatabase($id)
+    {
+        $className = $this->getSubjectModelClassName();
+        $subjectModel = $className::find($id);
+        return $subjectModel;
+    }
+
+    public function simulateGoodAttributesForSubjectModel()
+    {
+        //get subject model attributes
+
+        //fake the attributes
+
+        //return an array with attribute keys and fake attribute values
+
+    }
+
+    public function simulateBadAttributesForSubjectModel()
+    {
+        //get subject model attributes
+
+        //fake bad attributes
+
+        //return an array with attribute keys and fake attribute values
+    }
+
+    public function simulateBadIDForSubjectModel()
+    {
+        return 'aaa';
+    }
+
 
 
 
