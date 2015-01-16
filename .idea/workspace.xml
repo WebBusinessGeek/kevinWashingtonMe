@@ -24,14 +24,14 @@
     <favorites_list name="kevinWashingtonMe" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5744089">
+    <splitter split-orientation="horizontal" split-proportion="0.47774687">
       <split-first>
         <leaf>
           <file leaf-file-name="SuperCategoryControllerTest.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5683453" vertical-offset="8055" max-vertical-offset="9225">
-                  <caret line="346" column="0" selection-start-line="346" selection-start-column="0" selection-end-line="346" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.92805755" vertical-offset="8480" max-vertical-offset="9600">
+                  <caret line="373" column="14" selection-start-line="373" selection-start-column="14" selection-end-line="373" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -41,11 +41,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="SuperCategoryController.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/controllers/SuperCategoryController.php">
+          <file leaf-file-name="ExternalServiceTestLibrary.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/ExternalServiceTestLibrary.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2086331" vertical-offset="2780" max-vertical-offset="3775">
-                  <caret line="119" column="65" selection-start-line="119" selection-start-column="65" selection-end-line="119" selection-end-column="65" />
+                <state vertical-scroll-proportion="3.1179857" vertical-offset="1583" max-vertical-offset="6825">
+                  <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -668,14 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2994012" vertical-offset="3750" max-vertical-offset="5150">
-          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/Polymorphic/InvokerTrait.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.63309354" vertical-offset="160" max-vertical-offset="3150">
@@ -760,57 +752,6 @@
             <marker date="1421444907000" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1421444907000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/ExternalServiceTestLibrary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7553957" vertical-offset="475" max-vertical-offset="5950">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <marker date="1421445218000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1421445218000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421445218000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/SuperCategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2086331" vertical-offset="2780" max-vertical-offset="3775">
-          <caret line="119" column="65" selection-start-line="119" selection-start-column="65" selection-end-line="119" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -986,10 +927,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2877698" vertical-offset="3750" max-vertical-offset="5150">
+          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding>
+            <marker date="1419281770000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" The request instance. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" The session store implementation. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Set a header on the Response. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Flash a piece of data to the session. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Add a cookie to the response. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Flash an array of input to the session. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Flash an array of input to the session. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Flash an array of input to the session. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Flash a container of errors to the session. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Parse the given errors into an appropriate value. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the request instance. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Set the request instance. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get the session store implementation. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Set the session store implementation. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Dynamically bind flash data in the session. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/SuperCategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5323741" vertical-offset="2805" max-vertical-offset="3775">
+          <caret line="129" column="12" selection-start-line="129" selection-start-column="12" selection-end-line="129" selection-end-column="12" />
+          <folding>
+            <marker date="1421448824000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
+            <marker date="1421448824000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/ExternalServiceTestLibrary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.1179857" vertical-offset="1583" max-vertical-offset="6825">
+          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5683453" vertical-offset="8055" max-vertical-offset="9225">
-          <caret line="346" column="0" selection-start-line="346" selection-start-column="0" selection-end-line="346" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.92805755" vertical-offset="8480" max-vertical-offset="9600">
+          <caret line="373" column="14" selection-start-line="373" selection-start-column="14" selection-end-line="373" selection-end-column="14" />
           <folding />
         </state>
       </provider>

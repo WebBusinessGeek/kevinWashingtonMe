@@ -124,7 +124,7 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 				return Redirect::to('dashboard/supercategory/'.$id)->with('supercategory', $supercategory);
 			}
 
-			return Redirect::to('dashboard/supercategory/create')->with('message', $supercategory);
+			return Redirect::to('dashboard/supercategory/'.$id.'/edit')->with('message', $supercategory);
 
 		}
 		return Redirect::to('login')->with('message', 'you need to login first.');

@@ -148,11 +148,46 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     }
 
 
-    public function getViewErrorMessage($response)
+    public function getViewErrorMessage($redirectResponse)
     {
-       return $response->getSession()->get($this->errorMessageVariableName);
+       return $redirectResponse->getSession()->get($this->errorMessageVariableName);
     }
 
+    public function getShowInstanceVariableFromRedirectResponse($redirectResponse)
+    {
+        return $redirectResponse->getSession()->get($this->showInstanceVariable);
+    }
+
+    public function getEditInstanceVariableFromRedirectResponse($redirectResponse)
+    {
+        return $redirectResponse->getSession()->get($this->showInstanceVariable);
+
+    }
+
+
+
+
+
+
+    public function getView($response)
+    {
+        return $response->original;
+    }
+
+    public function getIndexInstanceVariableFromView($view)
+    {
+        return $view[$this->indexCollectionVariable];
+    }
+
+    public function getShowInstanceVariableFromView($view)
+    {
+        return $view[$this->showInstanceVariable];
+    }
+
+    public function getEditInstanceVariableFromView($view)
+    {
+        return $view[$this->editInstanceVariable];
+    }
 
 
 

@@ -311,7 +311,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     /*                                          Update method test cases                                         */
     /***********************************************************************************************************/
 
-    public function test_route_redirects_to_login_if_user_is_not_authenticated()
+    public function test_update_method_route_redirects_to_login_if_user_is_not_authenticated()
     {
         $subjectModel = $this->createSubjectModelInstance();
 
@@ -331,7 +331,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->assertViewExists($this->updateAfterPutView);
     }
 
-    public function test_redirected_to_correct_route_on_success()
+    public function test_update_method_redirected_to_correct_route_on_success()
     {
         $this->simulateAuthenticatedUser();
 
@@ -350,17 +350,32 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
-    public function test_redirect_with_correct_instance_on_success()
+    public function test_update_method_redirects_with_correct_instance_on_success()
     {
+        $this->simulateAuthenticatedUser();
 
+        $subjectModel = $this->createSubjectModelInstance();
+
+        $subjectModelId = $subjectModel->id;
+
+        $attributes = $this->simulateAttributesForSubjectModel('good');
+
+        $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $attributes);
+
+        $instanceVariable = $this->getShowInstanceVariableFromRedirectResponse($updateRouteResponse);
+
+        $this->assertTrue($this->isSubjectModelInstance($instanceVariable));
+
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
-    public function test_redirected_to_correct_route_on_error()
+    public function test_update_method_redirects_to_correct_route_on_error()
     {
-
+        //auth
+        //assert location is a show route
     }
 
-    public function test_redirected_to_correct_error_message_if_error()
+    public function test_update_method_redirects_to_correct_error_message_if_error()
     {
 
     }
