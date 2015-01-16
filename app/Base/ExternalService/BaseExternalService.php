@@ -102,5 +102,10 @@ abstract class BaseExternalService extends \BaseController {
     {
         return $this->internalService->getModelAttributes();
     }
+
+    public function getSubjectModelSingleOwnerClassName()
+    {
+        return $this->internalService->getModelSingleOwnerClassName();
+    }
 }
 

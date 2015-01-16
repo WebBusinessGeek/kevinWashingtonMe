@@ -89,7 +89,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     {
         $this->simulateAuthenticatedUser();
 
-        $subjectModel = SuperCategory::create(['title' => 'testShowMethodRouteIsSetup']);
+        $subjectModel = $this->createSubjectModelInstance();
 
         $parameterForShowRoute = $subjectModel->id;
 
@@ -102,7 +102,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
     public function test_show_method_redirects_if_user_is_not_authenticated()
     {
-        $subjectModel = SuperCategory::create(['title' => 'testShowMethodRedirectsIfuserNotAuthenticated']);
+        $subjectModel = $this->createSubjectModelInstance();
 
         $parameterForShowRoute = $subjectModel->id;
 
@@ -123,9 +123,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     {
         $this->simulateAuthenticatedUser();
 
-        $subjectModel = SuperCategory::create([
-            'title' => 'testShowMethodViewContainsVariableOfCorrectClass',
-        ]);
+        $subjectModel = $this->createSubjectModelInstance();
 
         $parameterForShowRoute = $subjectModel->id;
 
@@ -142,9 +140,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     {
         $this->simulateAuthenticatedUser();
 
-        $subjectModel = SuperCategory::create([
-            'title' => 'testShowMethodViewContainsVariableOfCorrectClass',
-        ]);
+        $subjectModel = $this->createSubjectModelInstance();
 
         $parameterForShowRoute = $subjectModel->id;
 
@@ -176,7 +172,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     {
         $this->simulateAuthenticatedUser();
 
-        $subjectModel = SuperCategory::create(['title' => 'testEditMethodRoutesIsSetup']);
+        $subjectModel = $this->createSubjectModelInstance();
 
         $parameterToSendToEditRoute = $subjectModel->id;
 
@@ -190,7 +186,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_edit_method_redirects_to_login_if_user_is_not_authenticated()
     {
-        $subjectModel = SuperCategory::create(['title' => 'testEditMethodRedirectsToLoginIfUserIsNotAuth']);
+        $subjectModel = $this->createSubjectModelInstance();
 
         $parameterToSendToEditRoute = $subjectModel->id;
 
@@ -210,7 +206,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     {
         $this->simulateAuthenticatedUser();
 
-        $subjectModel = SuperCategory::create(['title' => 'testEditMethodViewContainsInstanceOfCorrectClass']);
+        $subjectModel = $this->createSubjectModelInstance();
 
         $parameterForEditRoute = $subjectModel->id;
 
@@ -227,7 +223,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     {
         $this->simulateAuthenticatedUser();
 
-        $subjectModel = SuperCategory::create(['title' => 'testEditMethodViewContainsCorrectSubjectModelInstance']);
+        $subjectModel = $this->createSubjectModelInstance();
 
         $parameterForEditRoute = $subjectModel->id;
 

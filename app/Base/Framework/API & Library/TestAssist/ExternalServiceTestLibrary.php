@@ -134,6 +134,10 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     }
 
 
+    public function getSubjectModelSingleOwnerClassName()
+    {
+        return $this->externalService->getSubjectModelSingleOwnerClassName();
+    }
 
     public function getSubjectModelClassName()
     {
@@ -166,6 +170,12 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
 
 
 
+    public function createSubjectModelInstance()
+    {
+        $className = $this->getSubjectModelClassName();
+        $subjectModel = $className::create([]);
+        return $subjectModel;
+    }
 
 
 
