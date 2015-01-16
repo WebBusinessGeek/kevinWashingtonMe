@@ -25,6 +25,9 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public $showRoute = 'dashboard/supercategory';
     public $showView = 'supercategory.show';
     public $showInstanceVariable = 'supercategory';
+    public $editRoute = 'dashboard/supercategory/{id}/edit';
+    public $editView = 'supercategory.edit';
+    public $editInstanceVariable = 'supercategoryForEdit';
 
     public function __construct()
     {
@@ -157,6 +160,17 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_edit_method_route_is_setup()
     {
+        $this->simulateAuthenticatedUser();
+
+        $subjectModel = SuperCategory::create(['title' => 'testEditMethodRoutesIsSetup']);
+
+        $parameterToSendToEditRoute = $subjectModel->id;
+
+        $requestToEditRoute = $this->getEditRoute($parameterToSendToEditRoute);
+
+        $this->assertTrue($requestToEditRoute->isOK());
+
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
 
     }
 
