@@ -333,7 +333,21 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_redirected_to_correct_route_on_success()
     {
+        $this->simulateAuthenticatedUser();
 
+        $subjectModel = $this->createSubjectModelInstance();
+
+        $subjectModelId = $subjectModel->id;
+
+        $attributes = $this->simulateAttributesForSubjectModel('good');
+
+        $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $attributes);
+
+        $location = $this->getResponseLocation($updateRouteResponse);
+
+        $this->assertLocationIsAShowRoute($location);
+
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
     public function test_redirect_with_correct_instance_on_success()

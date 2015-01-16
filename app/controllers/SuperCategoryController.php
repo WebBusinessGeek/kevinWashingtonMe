@@ -100,7 +100,6 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 			$supercategoryForEdit = $this->internalService->show($id);
 
 			return View::make('supercategory.edit')->with('supercategoryForEdit', $supercategoryForEdit);
-
 		}
 		return Redirect::to('login')->with('message', 'you need to login first.');
 	}
@@ -118,7 +117,7 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 		{
 			$attributesToSend = Input::all();
 
-			$supercategory = $this->internalService->store($attributesToSend);
+			$supercategory = $this->internalService->update($id, $attributesToSend);
 			if($this->isSubjectModelInstance($supercategory))
 			{
 				$id = $supercategory->id;
