@@ -18,7 +18,6 @@ Route::get('/', function()
 
 
 
-
 });
 
 Route::get('/login', function()

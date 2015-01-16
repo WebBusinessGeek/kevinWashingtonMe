@@ -195,24 +195,27 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
         return $subjectModel;
     }
 
-    public function simulateGoodAttributesForSubjectModel()
+    public function simulateAttributesForSubjectModel($goodOrBad)
     {
-        //get subject model attributes
+        $attributeFormatsOnSubjectModel = $this->getAttributeFormatsForSubjectModel();
 
-        //fake the attributes
+        $attributesToReturn = [];
+        foreach($attributeFormatsOnSubjectModel as $attributeName => $attributeFormat)
+        {
+            $fakedFormat = $this->fakeFormat($attributeFormat, $goodOrBad);
+            $attributesToReturn[$attributeName] = $fakedFormat;
 
-        //return an array with attribute keys and fake attribute values
-
+            ($goodOrBad != 'bad')?: $attributesToReturn['badAttributeName'] = 'bad';
+        }
+        return $attributesToReturn;
     }
 
-    public function simulateBadAttributesForSubjectModel()
+    public function fakeFormat($format, $goodOrBad)
     {
-        //get subject model attributes
-
-        //fake bad attributes
-
-        //return an array with attribute keys and fake attribute values
+        $dynamicMethodToCall = 'fake'.ucfirst($goodOrBad).ucfirst($format).'Attribute';
+        return $this->$dynamicMethodToCall();
     }
+
 
     public function simulateBadIDForSubjectModel()
     {

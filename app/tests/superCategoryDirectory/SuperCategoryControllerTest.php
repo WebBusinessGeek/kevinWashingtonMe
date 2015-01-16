@@ -245,9 +245,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_store_method_redirects_login_if_user_is_not_authenticated()
     {
-        $attributes = [
-            'title' => 'testStoreMethodRedirectsToLoginPage',
-        ];
+        $attributes = $this->simulateAttributesForSubjectModel('good');
 
         $storeRouteResponse = $this->postStoreRoute($attributes);
 
@@ -264,7 +262,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     {
         $this->simulateAuthenticatedUser();
 
-        $attributes = ['title' => 'testStoreMethodRedirectsToCorrectRouteOnSuccess'];
+        $attributes = $this->simulateAttributesForSubjectModel('good');
 
         $storeRouteResponse = $this->postStoreRoute($attributes);
 
@@ -283,10 +281,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     {
         $this->simulateAuthenticatedUser();
 
-        $attributes = [
-            'wrong' => 'testStoreMethodRedirectsToCorrectRouteOnError',
-            'title' => 'something'
-        ];
+        $attributes = $this->simulateAttributesForSubjectModel('bad');
 
         $storeRouteResponse = $this->postStoreRoute($attributes);
 
@@ -299,11 +294,8 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     {
         $this->simulateAuthenticatedUser();
 
-        $attributes = [
-            'wrong' => 'testStoreMethodRedirectsToCorrectRouteOnError',
-            'title' => 'something'
-        ];
-
+        $attributes = $this->simulateAttributesForSubjectModel('bad');
+        
         $storeRouteResponse = $this->postStoreRoute($attributes);
 
         $viewMessage = $this->getViewErrorMessage($storeRouteResponse);
