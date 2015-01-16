@@ -24,36 +24,18 @@
     <favorites_list name="kevinWashingtonMe" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="SuperCategoryControllerTest.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0647482" vertical-offset="5080" max-vertical-offset="5925">
-                  <caret line="213" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="SuperCategoryController.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/controllers/SuperCategoryController.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4964029" vertical-offset="1880" max-vertical-offset="3075">
-                  <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="SuperCategoryControllerTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8201439" vertical-offset="5655" max-vertical-offset="6600">
+              <caret line="257" column="8" selection-start-line="257" selection-start-column="8" selection-end-line="257" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -61,7 +43,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1438" />
+    <option name="width" value="615" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -327,7 +309,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1438" height="744" extended-state="0" />
+    <frame x="0" y="22" width="615" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -381,20 +363,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_01_02_223829_create_imageable_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78417265" vertical-offset="305" max-vertical-offset="1000">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/toolDirectory/ToolInternalServiceTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60431653" vertical-offset="7980" max-vertical-offset="8775">
-          <caret line="346" column="67" selection-start-line="346" selection-start-column="67" selection-end-line="346" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_01_14_191655_create_taggables_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6115108" vertical-offset="25" max-vertical-offset="1000">
@@ -752,16 +720,110 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/SuperCategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4964029" vertical-offset="1880" max-vertical-offset="3075">
-          <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.50359714" vertical-offset="0" max-vertical-offset="3075">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Exception/WhoopsDisplayer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7553957" vertical-offset="150" max-vertical-offset="1375">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <marker date="1419281770000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" The Whoops run instance. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Indicates if the application is in a console environment. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Create a new Whoops exception displayer. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Display the given exception to the user. ..." />
+            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Run.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68345326" vertical-offset="525" max-vertical-offset="9750">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" Whoops - php errors for cool kids ..." />
+            <marker date="1414314309000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" @var HandlerInterface[] ..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" Pushes a handler to the end of the stack ..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" Removes the last handler in the stack and returns it. ..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" Returns an array with all handlers, in the ..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" Clears all handlers in the handlerStack, including ..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" @param  Exception $exception ..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" Registers this instance as an error handler. ..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" Unregisters all handlers registered by this Whoops\Run instance ..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" Should Whoops allow Handlers to force the script to quit? ..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" Silence particular errors in particular files ..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" Should Whoops push output directly to the client? ..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" Handles an exception, ultimately generating a Whoops error ..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" Converts generic PHP errors to \ErrorException ..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" Special case to deal with Fatal errors and the like. ..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" In certain scenarios, like in shutdown handler, we can not throw exceptions ..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder=" Echo something to the browser ..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1414314309000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0647482" vertical-offset="5080" max-vertical-offset="5925">
-          <caret line="213" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8201439" vertical-offset="5655" max-vertical-offset="6600">
+          <caret line="257" column="8" selection-start-line="257" selection-start-column="8" selection-end-line="257" selection-end-column="8" />
           <folding />
         </state>
       </provider>

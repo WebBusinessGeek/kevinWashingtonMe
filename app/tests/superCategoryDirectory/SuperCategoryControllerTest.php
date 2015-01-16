@@ -228,8 +228,35 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
+    /***********************************************************************************************************/
+    /*                                          Store method test cases                                              */
+    /***********************************************************************************************************/
 
 
+    public function test_store_method_redirects_login_if_user_is_not_authenticated()
+    {
+
+    }
+
+    public function test_store_method_view_exists()
+    {
+
+    }
+
+    public function test_store_method_redirects_to_correct_route_on_success()
+    {
+
+    }
+
+    public function test_store_method_redirects_to_correct_route_on_error()
+    {
+
+    }
+
+    public function test_store_method_view_has_error_message_on_error()
+    {
+        
+    }
 
 
 
