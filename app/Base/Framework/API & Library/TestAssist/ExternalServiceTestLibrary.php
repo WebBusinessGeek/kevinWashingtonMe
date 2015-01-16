@@ -45,7 +45,7 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     public $editRouteDelimeter = '{id}';
 
     public $storeRoute;
-    public $storeView;
+    public $storeAfterPostView;
     public $storeExpectedErrorMessage = 'Invalid attributes sent to store method.';
 
     public function simulateAuthenticatedUser()
@@ -163,5 +163,10 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
         return $response->headers->get('Location');
     }
 
+
+    public function create()
+    {
+
+    }
 
 }

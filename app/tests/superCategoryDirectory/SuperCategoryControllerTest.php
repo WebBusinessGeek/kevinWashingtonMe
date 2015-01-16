@@ -29,7 +29,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public $editView = 'supercategory.edit';
     public $editInstanceVariable = 'supercategoryForEdit';
     public $storeRoute = 'dashboard/supercategory/';
-    public $storeView = 'supercategory.show';
+    public $storeAfterPostView = 'supercategory.show';
 
     public function __construct()
     {
@@ -156,6 +156,18 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
+
+
+    public function test_redirected_to_correct_route_if_bad_id_used()
+    {
+        //TODO: implement test case.
+    }
+
+    public function test_redirected_with_correct_error_message_on_error()
+    {
+        //TODO: implement test case.
+    }
+
     /***********************************************************************************************************/
     /*                                          Edit method test cases                                              */
     /***********************************************************************************************************/
@@ -247,9 +259,9 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     }
 
-    public function test_store_method_view_exists()
+    public function test_store_method_after_post_view_exists()
     {
-        $this->assertViewExists($this->storeView);
+        $this->assertViewExists($this->storeAfterPostView);
     }
 
     public function test_store_method_redirects_to_correct_route_on_success()
@@ -305,6 +317,39 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
 
+    /***********************************************************************************************************/
+    /*                                          Update method test cases                                              */
+    /***********************************************************************************************************/
+
+    public function test_route_redirects_to_login_if_user_is_not_authenticated()
+    {
+
+    }
+
+    public function test_method_after_post_view_exists()
+    {
+
+    }
+
+    public function test_redirected_to_correct_route_on_success()
+    {
+
+    }
+
+    public function test_redirect_with_correct_instance_on_success()
+    {
+
+    }
+
+    public function test_redirected_to_correct_route_on_error()
+    {
+
+    }
+
+    public function test_redirected_to_correct_error_message_if_error()
+    {
+
+    }
 
 
 
