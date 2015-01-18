@@ -46,7 +46,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $response = $this->getIndexRoute();
         $this->assertTrue($response->isOk());
     }
-    public function test_index_method_route_redirects_if_user_is_not_authenticated()
+    public function test_index_method_route_redirects_to_login_if_user_is_not_authenticated()
     {
         $response = $this->getIndexRoute();
 
@@ -73,90 +73,68 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $response = $this->getCreateRoute();
         $this->assertTrue($response->isOk());
     }
-    public function test_create_method_route_redirects_if_user_is_not_authenticated()
-    {
-        $response = $this->getCreateRoute();
-
-        $this->assertRedirectedToLoginPage($response);
-    }
-
     public function test_create_method_view_exists()
     {
         $this->assertViewExists($this->createView);
     }
+    public function test_create_method_route_redirects_to_login_if_user_is_not_authenticated()
+    {
+        $response = $this->getCreateRoute();
+        $this->assertRedirectedToLoginPage($response);
+    }
+
     /***********************************************************************************************************/
     /*                                          Show method test cases                                              */
     /***********************************************************************************************************/
     public function test_show_method_route_is_setup()
     {
         $this->simulateAuthenticatedUser();
-
         $subjectModel = $this->createSubjectModelInstance();
-
         $parameterForShowRoute = $subjectModel->id;
-
         $showRouteResponse = $this->getShowRoute($parameterForShowRoute);
-
         $this->assertTrue($showRouteResponse->isOk());
-
         $this->cleanUpSingleModelAfterTesting($subjectModel);
 
     }
-    public function test_show_method_redirects_if_user_is_not_authenticated()
-    {
-        $subjectModel = $this->createSubjectModelInstance();
-
-        $parameterForShowRoute = $subjectModel->id;
-
-        $showRouteResponse = $this->getShowRoute($parameterForShowRoute);
-
-        $this->assertRedirectedToLoginPage($showRouteResponse);
-
-        $this->cleanUpSingleModelAfterTesting($subjectModel);
-
-    }
-
     public function test_show_method_view_exists()
     {
         $this->assertViewExists($this->showView);
     }
 
-    public function test_show_method_view_contains_variable_of_correct_class()
+    public function test_show_method_redirects_to_login_if_user_is_not_authenticated()
+    {
+        $subjectModel = $this->createSubjectModelInstance();
+        $parameterForShowRoute = $subjectModel->id;
+        $showRouteResponse = $this->getShowRoute($parameterForShowRoute);
+        $this->assertRedirectedToLoginPage($showRouteResponse);
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
+
+
+    public function test_show_method_view_contains_variable_instance_of_correct_class()
     {
         $this->simulateAuthenticatedUser();
-
         $subjectModel = $this->createSubjectModelInstance();
-
         $parameterForShowRoute = $subjectModel->id;
-
         $showRouteResponse = $this->getShowRoute($parameterForShowRoute);
-
-        $view = $showRouteResponse->original;
-
+        $view = $this->getView($showRouteResponse);
         $this->assertTrue($this->isSubjectModelInstance($view[$this->showInstanceVariable]));
-
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
     public function test_show_method_view_returns_correct_instance()
     {
         $this->simulateAuthenticatedUser();
-
         $subjectModel = $this->createSubjectModelInstance();
-
         $parameterForShowRoute = $subjectModel->id;
-
         $showRouteResponse = $this->getShowRoute($parameterForShowRoute);
-
-        $view = $showRouteResponse->original;
-
+        $view = $this->getView($showRouteResponse);
         $this->assertEquals($subjectModel->title, $view[$this->showInstanceVariable]->title);
-
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
 
-    public function test_redirected_to_correct_route_if_bad_id_used()
+    public function test_redirected_to_index_route_if_bad_id_used()
     {
         //TODO: implement test case.
     }
@@ -173,70 +151,65 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public function test_edit_method_route_is_setup()
     {
         $this->simulateAuthenticatedUser();
-
         $subjectModel = $this->createSubjectModelInstance();
-
         $parameterToSendToEditRoute = $subjectModel->id;
-
         $requestToEditRoute = $this->getEditRoute($parameterToSendToEditRoute);
-
         $this->assertTrue($requestToEditRoute->isOK());
-
         $this->cleanUpSingleModelAfterTesting($subjectModel);
 
     }
-
-    public function test_edit_method_redirects_to_login_if_user_is_not_authenticated()
-    {
-        $subjectModel = $this->createSubjectModelInstance();
-
-        $parameterToSendToEditRoute = $subjectModel->id;
-
-        $requestToEditRoute = $this->getEditRoute($parameterToSendToEditRoute);
-
-        $this->assertRedirectedToLoginPage($requestToEditRoute);
-
-        $this->cleanUpSingleModelAfterTesting($subjectModel);
-    }
-
     public function test_edit_method_view_exists()
     {
         $this->assertViewExists($this->editView);
     }
 
+    public function test_edit_method_redirects_to_login_if_user_is_not_authenticated()
+    {
+        $subjectModel = $this->createSubjectModelInstance();
+        $parameterToSendToEditRoute = $subjectModel->id;
+        $requestToEditRoute = $this->getEditRoute($parameterToSendToEditRoute);
+        $this->assertRedirectedToLoginPage($requestToEditRoute);
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
+
+    public function test_edit_method_redirects_to_index_on_bad_id_error()
+    {
+        //TODO: IMPLEMENT test case!
+    }
+    public function test_edit_method_redirects_with_correct_error_message_on_bad_id_error()
+    {
+        //TODO: IMPLEMENT test case!
+    }
+
+    public function test_redirects_back_to_edit_route_on_bad_attribute_error()
+    {
+        //TODO: IMPLEMENT test case!
+    }
+    public function test_redirects_back_with_correct_error_message_on_bad_attribute_error()
+    {
+        //TODO: IMPLEMENT test case!
+    }
+
     public function test_edit_method_view_contains_instance_of_correct_class()
     {
         $this->simulateAuthenticatedUser();
-
         $subjectModel = $this->createSubjectModelInstance();
-
         $parameterForEditRoute = $subjectModel->id;
-
         $requestToEditRoute = $this->getEditRoute($parameterForEditRoute);
-
-        $view = $requestToEditRoute->original;
-
+        $view = $this->getView($requestToEditRoute);
         $this->assertTrue($this->isSubjectModelInstance($view[$this->editInstanceVariable]));
-
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
     public function test_edit_method_view_contains_correct_subjectModel_instance()
     {
         $this->simulateAuthenticatedUser();
-
         $subjectModel = $this->createSubjectModelInstance();
-
         $parameterForEditRoute = $subjectModel->id;
-
-        $requestToEditRoute = $this->getEditRoute($parameterForEditRoute);
-
-        $view = $requestToEditRoute->original;
-
+        $editRouteRequest = $this->getEditRoute($parameterForEditRoute);
+        $view = $this->getView($editRouteRequest);
         $viewSubjectModel = $view[$this->editInstanceVariable];
-
         $this->assertEquals($subjectModel->title, $viewSubjectModel->title);
-
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
@@ -245,14 +218,11 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
 
-    public function test_store_method_redirects_login_if_user_is_not_authenticated()
+    public function test_store_method_redirects_to_login_if_user_is_not_authenticated()
     {
         $attributes = $this->simulateAttributesForSubjectModel('good');
-
         $storeRouteResponse = $this->postStoreRoute($attributes);
-
         $this->assertRedirectedToLoginPage($storeRouteResponse);
-
     }
 
     public function test_store_method_after_post_view_exists()
@@ -263,47 +233,31 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public function test_store_method_redirects_to_correct_route_on_success()
     {
         $this->simulateAuthenticatedUser();
-
         $attributes = $this->simulateAttributesForSubjectModel('good');
-
         $storeRouteResponse = $this->postStoreRoute($attributes);
-
         $location = $this->getResponseLocation($storeRouteResponse);
-
         $this->assertLocationIsAShowRoute($location);
-
         $idForSubjectModel = $this->getIdFromShowRoute($location);
-
         $subjectModel = $this->getSubjectModelFromDatabase($idForSubjectModel);
-
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
-    public function test_store_method_redirects_to_correct_route_on_error()
+    public function test_store_method_redirects_to_create_route_on_error()
     {
         $this->simulateAuthenticatedUser();
-
         $attributes = $this->simulateAttributesForSubjectModel('bad');
-
         $storeRouteResponse = $this->postStoreRoute($attributes);
-
         $location = $this->getResponseLocation($storeRouteResponse);
-
         $this->assertLocationIsACreateRoute($location);
     }
 
-    public function test_store_method_view_has_error_message_on_error()
+    public function test_store_method_view_has_error_message_when_attributes_are_invalid()
     {
         $this->simulateAuthenticatedUser();
-
         $attributes = $this->simulateAttributesForSubjectModel('bad');
-
         $storeRouteResponse = $this->postStoreRoute($attributes);
-
         $viewMessage = $this->getViewErrorMessage($storeRouteResponse);
-
         $this->assertEquals($this->storeExpectedErrorMessage, $viewMessage);
-
     }
 
 
@@ -369,7 +323,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
-    public function test_update_method_redirects_to_correct_route_on_bad_attributes_error()
+    public function test_update_method_redirects_to_edit_route_on_bad_attributes_error()
     {
         $this->simulateAuthenticatedUser();
 
@@ -408,7 +362,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     }
 
-    public function test_update_method_redirects_to_correct_route_on_bad_id_error()
+    public function test_update_method_redirects_to_index_route_on_bad_id_error()
     {
         $this->simulateAuthenticatedUser();
 
@@ -421,6 +375,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $location = $this->getResponseLocation($updateRouteResponse);
 
         $this->assertLocationIsAEditRoute($location);
+        //TODO: REVISE ^ Assertion should be be to an index route!
 
     }
 
@@ -452,6 +407,40 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     /*                                          Destroy method test cases                                         */
     /***********************************************************************************************************/
 
+    public function test_route_redirects_login_if_user_is_not_authenticated()
+    {
+        //TODO: IMPLEMENT test case!
+    }
+
+    public function test_method_after_delete_view_exists()
+    {
+        //TODO: IMPLEMENT test case!
+    }
+
+    public function test_correct_instance_is_deleted()
+    {
+        //TODO: IMPLEMENT test case!
+    }
+
+    public function test_redirected_to_correct_route_on_success()
+    {
+        //TODO: IMPLEMENT test case!
+    }
+
+    public function test_redirected_with_correct_message_on_success()
+    {
+        //TODO: IMPLEMENT test case!
+    }
+
+    public function test_redirected_to_index_route_on_bad_id_error()
+    {
+        //TODO: IMPLEMENT test case!
+    }
+
+    public function test_redirected_with_correct_message_on_bad_id_error()
+    {
+        //TODO: IMPLEMENT test case!
+    }
 
 
 }
