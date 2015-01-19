@@ -174,8 +174,71 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $this->assertRedirectedToLoginPage($response);
     }
 
+    public function assert_show_method_route_is_setup()
+    {
+        $this->simulateAuthenticatedUser();
+        $subjectModel = $this->createSubjectModelInstance();
+        $idForShowRoute = $subjectModel->id;
+        $showRouteResponse = $this->getShowRoute($idForShowRoute);
+        $this->assertTrue($showRouteResponse->isOk());
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
 
+    public function assert_show_method_view_exists()
+    {
+        $this->assertViewExists($this->showView);
+    }
 
+    public function assert_show_method_redirects_to_login_if_user_is_not_authenticated()
+    {
+        $subjectModel = $this->createSubjectModelInstance();
+        $idForShowRoute = $subjectModel->id;
+        $showRoutResponse = $this->getShowRoute($idForShowRoute);
+        $this->assertRedirectedToLoginPage($showRoutResponse);
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
+
+    public function assert_show_method_view_contains_variable_instance_of_correct_class()
+    {
+        $this->simulateAuthenticatedUser();
+        $subjectModel = $this->createSubjectModelInstance();
+        $idForShowRoute = $subjectModel->id;
+        $showRouteResponse = $this->getShowRoute($idForShowRoute);
+        $view = $this->getView($showRouteResponse);
+        $variableInstanceFromView = $view[$this->showInstanceVariable];
+        $this->assertTrue($this->isSubjectModelInstance($variableInstanceFromView));
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
+
+    public function assert_show_method_view_returns_correct_instance()
+    {
+        $this->simulateAuthenticatedUser();
+        $subjectModel = $this->createSubjectModelInstance();
+        $idForShowRoute = $subjectModel->id;
+        $showRouteResponse = $this->getShowRoute($idForShowRoute);
+        $view = $this->getView($showRouteResponse);
+        $variableInstanceFromView = $view[$this->showInstanceVariable];
+        $this->assertEquals($subjectModel->id, $variableInstanceFromView->id);
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
+
+    public function assert_show_method_redirects_to_index_route_on_bad_id_error()
+    {
+        $this->simulateAuthenticatedUser();
+        $badId = $this->simulateBadIDForSubjectModel();
+        $showRouteResponse = $this->getShowRoute($badId);
+        $location = $this->getResponseLocation($showRouteResponse);
+        $this->assertLocationIsAIndexRoute($location);
+    }
+
+    public function assert_show_method_redirects_with_correct_error_message_on_bad_id_error()
+    {
+        $this->simulateAuthenticatedUser();
+        $badId = $this->simulateBadIDForSubjectModel();
+        $showRouteResponse = $this->getShowRoute($badId);
+        $viewErrorMessage = $this->getViewMessage($showRouteResponse);
+        $this->assertEquals($this->badIdExpectedErrorMessage, $viewErrorMessage);
+    }
 
 }
 

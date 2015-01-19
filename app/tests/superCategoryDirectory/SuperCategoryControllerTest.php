@@ -79,68 +79,38 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
     public function test_show_method_route_is_setup()
     {
-        $this->simulateAuthenticatedUser();
-        $subjectModel = $this->createSubjectModelInstance();
-        $parameterForShowRoute = $subjectModel->id;
-        $showRouteResponse = $this->getShowRoute($parameterForShowRoute);
-        $this->assertTrue($showRouteResponse->isOk());
-        $this->cleanUpSingleModelAfterTesting($subjectModel);
-
+        $this->assert_show_method_route_is_setup();
     }
     public function test_show_method_view_exists()
     {
-        $this->assertViewExists($this->showView);
+        $this->assert_show_method_view_exists();
     }
 
     public function test_show_method_redirects_to_login_if_user_is_not_authenticated()
     {
-        $subjectModel = $this->createSubjectModelInstance();
-        $parameterForShowRoute = $subjectModel->id;
-        $showRouteResponse = $this->getShowRoute($parameterForShowRoute);
-        $this->assertRedirectedToLoginPage($showRouteResponse);
-        $this->cleanUpSingleModelAfterTesting($subjectModel);
+      $this->assert_show_method_redirects_to_login_if_user_is_not_authenticated();
     }
 
 
     public function test_show_method_view_contains_variable_instance_of_correct_class()
     {
-        $this->simulateAuthenticatedUser();
-        $subjectModel = $this->createSubjectModelInstance();
-        $parameterForShowRoute = $subjectModel->id;
-        $showRouteResponse = $this->getShowRoute($parameterForShowRoute);
-        $view = $this->getView($showRouteResponse);
-        $this->assertTrue($this->isSubjectModelInstance($view[$this->showInstanceVariable]));
-        $this->cleanUpSingleModelAfterTesting($subjectModel);
+        $this->assert_show_method_view_contains_variable_instance_of_correct_class();
     }
 
     public function test_show_method_view_returns_correct_instance()
     {
-        $this->simulateAuthenticatedUser();
-        $subjectModel = $this->createSubjectModelInstance();
-        $parameterForShowRoute = $subjectModel->id;
-        $showRouteResponse = $this->getShowRoute($parameterForShowRoute);
-        $view = $this->getView($showRouteResponse);
-        $this->assertEquals($subjectModel->title, $view[$this->showInstanceVariable]->title);
-        $this->cleanUpSingleModelAfterTesting($subjectModel);
+        $this->assert_show_method_view_returns_correct_instance();
     }
 
 
     public function test_show_method_redirects_to_index_route_on_bad_id_error()
     {
-        $this->simulateAuthenticatedUser();
-        $badId = $this->simulateBadIDForSubjectModel();
-        $showRouteResponse = $this->getShowRoute($badId);
-        $location = $this->getResponseLocation($showRouteResponse);
-        $this->assertLocationIsAIndexRoute($location);
+       $this->assert_show_method_redirects_to_index_route_on_bad_id_error();
     }
 
     public function test_show_method_redirects_with_correct_error_message_on_bad_id_error()
     {
-        $this->simulateAuthenticatedUser();
-        $badId = $this->simulateBadIDForSubjectModel();
-        $showRouteResponse = $this->getShowRoute($badId);
-        $viewErrorMessage = $this->getViewMessage($showRouteResponse);
-        $this->assertEquals($this->badIdExpectedErrorMessage, $viewErrorMessage);
+       $this->assert_show_method_redirects_with_correct_error_message_on_bad_id_error();
     }
 
     /***********************************************************************************************************/
