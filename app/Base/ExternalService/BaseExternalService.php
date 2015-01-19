@@ -58,6 +58,9 @@ abstract class BaseExternalService extends \BaseController {
     public $editView;
     public $editInstanceVariable;
 
+    public $destroySuccessMessage = 'Resource deleted successfully.';
+
+
     public function __construct()
     {
         if($this->internalService == null)
@@ -78,9 +81,6 @@ abstract class BaseExternalService extends \BaseController {
        return $this->redirectToLogin();
    }
 
-
-
-
     public function create()
     {
         if(Auth::check())
@@ -89,9 +89,6 @@ abstract class BaseExternalService extends \BaseController {
         }
         return $this->redirectToLogin();
     }
-
-
-
 
     public function store()
     {
@@ -111,9 +108,6 @@ abstract class BaseExternalService extends \BaseController {
         return $this->redirectToLogin();
     }
 
-
-
-
     public function show($id)
     {
           if(Auth::check())
@@ -128,9 +122,6 @@ abstract class BaseExternalService extends \BaseController {
         return $this->redirectToLogin();
     }
 
-
-
-    
     public function edit($id)
     {
         if(Auth::check())
@@ -144,8 +135,6 @@ abstract class BaseExternalService extends \BaseController {
         }
         return $this->redirectToLogin();
     }
-
-
 
     public function update($id)
     {
@@ -168,18 +157,27 @@ abstract class BaseExternalService extends \BaseController {
         return $this->redirectToLogin();
     }
 
+    public function destroy($id)
+    {
+        if(Auth::check())
+        {
+            $checkIfInstanceExists = $this->internalService->show($id);
+            if($this->isSubjectModelInstance($checkIfInstanceExists))
+            {
+                $destroyResponse = $this->internalService->destroy($id);
+                if($destroyResponse)
+                {
+                    return Redirect::to($this->indexRoute)->with($this->messageVariableName, $this->destroySuccessMessage);
+                }
+            }
+            return Redirect::to($this->indexRoute)->with($this->messageVariableName, $checkIfInstanceExists);
+        }
+        return $this->redirectToLogin();
+    }
 
 
-//
-//    public function update($id, $attributes = array())
-//    {
-//
-//    }
-//
-//    public function destroy($id)
-//    {
-//
-//    }
+
+
 
 
     public function getInternalService()
