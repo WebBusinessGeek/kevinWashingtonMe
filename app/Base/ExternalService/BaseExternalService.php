@@ -12,6 +12,11 @@ namespace App\Base;
 use App\Base\Framework\APILibrary\Polymorphic\AuthenticationTrait;
 use App\Base\Framework\APILibrary\Polymorphic\AuthorizationTrait;
 use App\Base\Framework\APILibrary\Polymorphic\ResponderTrait;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\View;
+
+//use Illuminate\View\View;
 
 
 abstract class BaseExternalService extends \BaseController {
@@ -30,6 +35,15 @@ abstract class BaseExternalService extends \BaseController {
 
     protected $successCreationCode = 201;
 
+    public $loginView = 'login';
+    public $messageVariableName = 'message';
+    public $AuthenticationNeededMessage = 'You need to login first.';
+
+
+    public $indexView;
+    public $indexCollectionVariableName;
+
+
 
     public function __construct()
     {
@@ -39,12 +53,26 @@ abstract class BaseExternalService extends \BaseController {
         }
     }
 
-//
-//   public function index($paginationCount)
-//   {
-//
-//   }
-//
+
+   public function index($paginationCount = 6)
+   {
+       if(Auth::check())
+       {
+           $subjectModels = $this->internalService->index(6);
+
+           return View::make($this->indexView)->with($this->indexCollectionVariableName, $subjectModels);
+       }
+       return $this->redirectToLogin();
+   }
+
+    public function redirectToLogin()
+    {
+        return Redirect::to($this->loginView)->with($this->messageVariableName, $this->AuthenticationNeededMessage);
+    }
+
+
+
+
 //    public function store($credentialsOrAttributes = [])
 //    {
 //

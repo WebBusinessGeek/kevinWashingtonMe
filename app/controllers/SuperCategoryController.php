@@ -5,26 +5,17 @@ use \Illuminate\Support\Facades\Redirect as Redirect;
 use \Illuminate\Support\Facades\Input as Input;
 class SuperCategoryController extends \App\Base\BaseExternalService {
 
+	public $indexView ='supercategory.index';
+	public $indexCollectionVariableName = 'supercategories';
+
 
 	public function __construct()
 	{
 		$this->internalService = new \App\DomainLogic\SuperCategoryDirectory\SuperCategoryInternalService();
 	}
-	/**
-	 * Display a listing of the resource.
-	 *
-	 * @return Response
-	 */
-	public function index()
-	{
-		if(Auth::check())
-		{
-			$supercategories = $this->internalService->index(6);
 
-			return View::make('supercategory.index')->with('supercategories', $supercategories);
-		}
-		return Redirect::to('login')->with('message', 'you need to login first.');
-	}
+
+
 
 
 	/**
