@@ -268,15 +268,10 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public function test_update_method_route_redirects_to_login_if_user_is_not_authenticated()
     {
         $subjectModel = $this->createSubjectModelInstance();
-
         $subjectModelId = $subjectModel->id;
-
         $attributes = $this->simulateAttributesForSubjectModel('good');
-
         $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $attributes);
-
         $this->assertRedirectedToLoginPage($updateRouteResponse);
-
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
@@ -288,76 +283,48 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public function test_update_method_redirected_to_correct_route_on_success()
     {
         $this->simulateAuthenticatedUser();
-
         $subjectModel = $this->createSubjectModelInstance();
-
         $subjectModelId = $subjectModel->id;
-
         $attributes = $this->simulateAttributesForSubjectModel('good');
-
         $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $attributes);
-
         $location = $this->getResponseLocation($updateRouteResponse);
-
         $this->assertLocationIsAShowRoute($location);
-
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
     public function test_update_method_redirects_with_correct_instance_on_success()
     {
         $this->simulateAuthenticatedUser();
-
         $subjectModel = $this->createSubjectModelInstance();
-
         $subjectModelId = $subjectModel->id;
-
         $attributes = $this->simulateAttributesForSubjectModel('good');
-
         $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $attributes);
-
         $instanceVariable = $this->getShowInstanceVariableFromRedirectResponse($updateRouteResponse);
-
         $this->assertTrue($this->isSubjectModelInstance($instanceVariable));
-
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
     public function test_update_method_redirects_to_edit_route_on_bad_attributes_error()
     {
         $this->simulateAuthenticatedUser();
-
         $subjectModel = $this->createSubjectModelInstance();
-
         $subjectModelId = $subjectModel->id;
-
         $badAttributes = $this->simulateAttributesForSubjectModel('bad');
-
         $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $badAttributes);
-
         $location = $this->getResponseLocation($updateRouteResponse);
-
         $this->assertLocationIsAEditRoute($location);
-
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
     public function test_update_method_redirects_with_correct_error_message_on_bad_attributes_error()
     {
         $this->simulateAuthenticatedUser();
-
         $subjectModel = $this->createSubjectModelInstance();
-
         $subjectModelId = $subjectModel->id;
-
         $badAttributes = $this->simulateAttributesForSubjectModel('bad');
-
         $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $badAttributes);
-
         $errorMessage = $this->getViewErrorMessage($updateRouteResponse);
-
         $this->assertEquals('Invalid attributes sent to update method.', $errorMessage);
-
         $this->cleanUpSingleModelAfterTesting($subjectModel);
 
     }
@@ -365,15 +332,10 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public function test_update_method_redirects_to_index_route_on_bad_id_error()
     {
         $this->simulateAuthenticatedUser();
-
         $badId = $this->simulateBadIDForSubjectModel();
-
         $attributes = $this->simulateAttributesForSubjectModel('good');
-
         $updateRouteResponse = $this->putUpdateRoute($badId, $attributes);
-
         $location = $this->getResponseLocation($updateRouteResponse);
-
         $this->assertLocationIsAEditRoute($location);
         //TODO: REVISE ^ Assertion should be be to an index route!
 
@@ -382,15 +344,10 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public function test_update_method_redirects_with_correct_error_message_on_bad_id_error()
     {
         $this->simulateAuthenticatedUser();
-
         $badId = $this->simulateBadIDForSubjectModel();
-
         $attributes = $this->simulateAttributesForSubjectModel('good');
-
         $updateRouteResponse = $this->putUpdateRoute($badId, $attributes);
-
         $errorMessage = $this->getViewErrorMessage($updateRouteResponse);
-
         $this->assertEquals('Model not found.', $errorMessage);
     }
 
@@ -407,37 +364,37 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     /*                                          Destroy method test cases                                         */
     /***********************************************************************************************************/
 
-    public function test_route_redirects_login_if_user_is_not_authenticated()
+    public function test_destroy_method_route_redirects_to_login_if_user_is_not_authenticated()
     {
         //TODO: IMPLEMENT test case!
     }
 
-    public function test_method_after_delete_view_exists()
+    public function test_destroy_method_after_delete_view_exists()
     {
         //TODO: IMPLEMENT test case!
     }
 
-    public function test_correct_instance_is_deleted()
+    public function test_destroy_method_correct_instance_is_deleted()
     {
         //TODO: IMPLEMENT test case!
     }
 
-    public function test_redirected_to_correct_route_on_success()
+    public function test_destroy_method_redirects_to_correct_route_on_success()
     {
         //TODO: IMPLEMENT test case!
     }
 
-    public function test_redirected_with_correct_message_on_success()
+    public function test_destroy_method_redirects_with_correct_message_on_success()
     {
         //TODO: IMPLEMENT test case!
     }
 
-    public function test_redirected_to_index_route_on_bad_id_error()
+    public function test_destroy_method_redirects_to_index_route_on_bad_id_error()
     {
         //TODO: IMPLEMENT test case!
     }
 
-    public function test_redirected_with_correct_message_on_bad_id_error()
+    public function test_destroy_method_redirects_with_correct_message_on_bad_id_error()
     {
         //TODO: IMPLEMENT test case!
     }
