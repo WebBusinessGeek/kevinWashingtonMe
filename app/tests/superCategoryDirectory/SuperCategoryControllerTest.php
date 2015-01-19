@@ -32,6 +32,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public $storeAfterPostView = 'supercategory.show';
     public $updateRoute = 'dashboard/supercategory';
     public $updateAfterPutView = 'supercategory.show';
+    public $destroyRoute = 'dashboard/supercategory';
 
     public function __construct()
     {
@@ -364,7 +365,11 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_destroy_method_route_redirects_to_login_if_user_is_not_authenticated()
     {
-        //TODO: IMPLEMENT test case!
+        $subjectModel = $this->createSubjectModelInstance();
+        $subjectModelId = $subjectModel->id;
+        $destroyRouteResponse = $this->deleteDestroyRoute($subjectModelId);
+        $this->assertRedirectedToLoginPage($destroyRouteResponse);
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
     public function test_destroy_method_after_delete_view_exists()

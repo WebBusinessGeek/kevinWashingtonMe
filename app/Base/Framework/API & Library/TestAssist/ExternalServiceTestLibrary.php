@@ -53,6 +53,8 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     public $updateAfterPutView;
     public $updateExpectedErrorMessage = 'Invalid attributes sent to update method.';
 
+    public $destroyRoute;
+
     public function simulateAuthenticatedUser()
     {
         Auth::shouldReceive('check')->once()->andReturn(true);
@@ -125,23 +127,23 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     {
         return $this->getRoute($this->createRoute);
     }
-    public function getShowRoute($routeParameter)
+    public function getShowRoute($id)
     {
-        return $this->getRoute($this->showRoute.'/'.$routeParameter);
+        return $this->getRoute($this->showRoute.'/'.$id);
     }
-    public function getEditRoute($routeParameter)
+    public function getEditRoute($id)
     {
-        $editRoute = $this->createEditRoute($routeParameter);
+        $editRoute = $this->createEditRoute($id);
         return $this->getRoute($editRoute);
     }
     public function getRoute($route, $parameters = null)
     {
        return (isset($parameters))? $this->call('GET', $route, $parameters): $this->call('GET', $route);
     }
-    public function createEditRoute($routeParameter)
+    public function createEditRoute($id)
     {
         $breakRoute = explode($this->editRouteDelimeter, $this->editRoute);
-        return $breakRoute[0] . $routeParameter . $breakRoute[1];
+        return $breakRoute[0] . $id . $breakRoute[1];
     }
 
 
@@ -165,6 +167,18 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     {
         return $this->call('POST', $route, $attributes);
     }
+
+
+    public function deleteDestroyRoute($id)
+    {
+        $route = $this->destroyRoute.'/'.$id;
+        return $this->deleteRoute($route);
+    }
+    public function deleteRoute($route)
+    {
+        return $this->call('DELETE', $route);
+    }
+
 
 
     public function getViewErrorMessage($redirectResponse)

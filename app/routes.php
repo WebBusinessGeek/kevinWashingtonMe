@@ -16,13 +16,7 @@ Route::get('/', function()
 {
     return View::make('hello');
 
-//    $library = new \App\Base\ConcreteExternalServiceTestLibrary();
-//
-//    $delimiter = 'dashboard/supercategory';
-//
-//    $route = 'http://localhost/dashboard/supercategory';
-//
-//    dd($library->removeFromRoute($delimiter, $route));
+
 //
 
 });
@@ -44,8 +38,10 @@ Route::group(array('before' => 'auth'), function ()
     Route::get('dashboard/supercategory/{id}/edit', 'SuperCategoryController@edit');
     Route::post('dashboard/supercategory', 'SuperCategoryController@store');
     Route::put('dashboard/supercategory/{id}', 'SuperCategoryController@update');
+    Route::delete('dashboard/supercategory/{id}', 'SuperCategoryController@destroy');
 });
 
 
 Route::get('testing/supercategory', 'SuperCategoryController@store');
 
+Route::resource('testing', 'SuperCategoryController');
