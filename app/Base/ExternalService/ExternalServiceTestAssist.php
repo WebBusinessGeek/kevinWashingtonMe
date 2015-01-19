@@ -305,7 +305,52 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $this->assertEquals($subjectModel->id, $variableInstanceFromView->id);
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
+
+
+    public function assert_store_method_redirects_to_login_if_user_is_not_authenticated()
+    {
+        $attributes = $this->simulateAttributesForSubjectModel('good');
+        $storeRouteResponse = $this->postStoreRoute($attributes);
+        $this->assertRedirectedToLoginPage($storeRouteResponse);
+    }
+
+
+    public function assert_store_method_after_post_view_exists()
+    {
+        $this->assertViewExists($this->storeAfterPostView);
+    }
+
+    public function assert_store_method_redirects_to_correct_route_on_success()
+    {
+        $this->simulateAuthenticatedUser();
+        $attributes = $this->simulateAttributesForSubjectModel('good');
+        $storeRouteResponse = $this->postStoreRoute($attributes);
+        $location = $this->getResponseLocation($storeRouteResponse);
+        $this->assertLocationIsAShowRoute($location);
+        $idForSubjectModel = $this->getIdFromShowRoute($location);
+        $subjectModel = $this->getSubjectModelFromDatabase($idForSubjectModel);
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
+
+    public function assert_store_method_redirects_to_create_route_on_bad_attributes_error()
+    {
+        $this->simulateAuthenticatedUser();
+        $attributes = $this->simulateAttributesForSubjectModel('bad');
+        $storeRouteResponse = $this->postStoreRoute($attributes);
+        $location = $this->getResponseLocation($storeRouteResponse);
+        $this->assertLocationIsACreateRoute($location);
+    }
+
+    public function assert_store_method_view_has_correct_error_message_on_bad_attributes_error()
+    {
+        $this->simulateAuthenticatedUser();
+        $attributes = $this->simulateAttributesForSubjectModel('bad');
+        $storeRouteResponse = $this->postStoreRoute($attributes);
+        $viewMesage = $this->getViewMessage($storeRouteResponse);
+        $this->assertEquals($this->storeExpectedErrorMessage, $viewMesage);
+    }
 }
+
 
 
 
