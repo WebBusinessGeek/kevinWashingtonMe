@@ -375,13 +375,17 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_destroy_method_after_delete_view_exists()
     {
-        //TODO: IMPLEMENT test case!
         $this->assertViewExists($this->destroyAfterDeleteView);
     }
 
     public function test_destroy_method_correct_instance_is_deleted()
     {
-        //TODO: IMPLEMENT test case!
+        $this->simulateAuthenticatedUser();
+        $subjectModel = $this->createSubjectModelInstance();
+        $subjectModelId = $subjectModel->id;
+        $this->deleteDestroyRoute($subjectModelId);
+        $databaseCheck = $this->getSubjectModelFromDatabase($subjectModelId);
+        $this->assertEquals(null, $databaseCheck);
     }
 
     public function test_destroy_method_redirects_to_correct_route_on_success()

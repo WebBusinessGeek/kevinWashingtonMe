@@ -150,12 +150,12 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 	{
 		if(Auth::check())
 		{
-			$supercategoryForEdit = $this->internalService->show($id);
-			if($this->isSubjectModelInstance($supercategoryForEdit))
+			$response = $this->internalService->destroy($id);
+			if($response)
 			{
-				return View::make('supercategory.edit')->with('supercategoryForEdit', $supercategoryForEdit);
+				return View::make('supercategory.index')->with('message', 'Model deleted from database');
 			}
-			return Redirect::to('dashboard/supercategory')->with('message', $supercategoryForEdit);
+
 		}
 		return Redirect::to('login')->with('message', 'you need to login first.');
 
