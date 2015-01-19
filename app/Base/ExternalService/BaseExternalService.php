@@ -111,8 +111,6 @@ abstract class BaseExternalService extends \BaseController {
 
 
 
-
-
     public function show($id)
     {
           if(Auth::check())
@@ -129,6 +127,30 @@ abstract class BaseExternalService extends \BaseController {
 
 
 
+
+
+
+
+    public function update($id)
+    {
+        if(Auth::check())
+        {
+            $attributesToSend = Input::all();
+
+            $checkIfInstanceExists = $this->internalService->show($id);
+            if($this->isSubjectModelInstance($checkIfInstanceExists))
+            {
+                $subjectModel = $this->internalService->update($id, $attributesToSend);
+                if($this->isSubjectModelInstance($subjectModel))
+                {
+                    return Redirect::to($this->showRoute.'/'.$id)->with($this->showInstanceVariable, $subjectModel);
+                }
+                return Redirect::to($this->showRoute.'/'.$id.'/edit')->with($this->messageVariableName, $subjectModel);
+            }
+            return Redirect::to($this->indexRoute)->with($this->messageVariableName, $checkIfInstanceExists);
+        }
+        return $this->redirectToLogin();
+    }
 
 
 
