@@ -51,6 +51,10 @@ abstract class BaseExternalService extends \BaseController {
     public $createRoute;
     public $showInstanceVariable;
 
+
+    public $showView;
+    public $indexRoute;
+
     public function __construct()
     {
         if($this->internalService == null)
@@ -108,11 +112,26 @@ abstract class BaseExternalService extends \BaseController {
 
 
 
-//
-//    public function show($id)
-//    {
-//
-//    }
+
+    public function show($id)
+    {
+          if(Auth::check())
+          {
+              $subjectModel = $this->internalService->show($id);
+              if($this->isSubjectModelInstance($subjectModel))
+              {
+                  return View::make($this->showView)->with($this->showInstanceVariable, $subjectModel);
+              }
+              return Redirect::to($this->indexRoute)->with($this->messageVariableName, $subjectModel);
+          }
+        return $this->redirectToLogin();
+    }
+
+
+
+
+
+
 //
 //    public function update($id, $attributes = array())
 //    {

@@ -15,34 +15,15 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 
 	public $showInstanceVariable = 'supercategory';
 
+	public $showView = 'supercategory.show';
+	public $indexRoute = 'dashboard/supercategory/';
+
 	public function __construct()
 	{
 		$this->internalService = new \App\DomainLogic\SuperCategoryDirectory\SuperCategoryInternalService();
 	}
 
 
-
-
-
-	/**
-	 * Display the specified resource.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function show($id)
-	{
-		if(Auth::check())
-		{
-			$supercategory = $this->internalService->show($id);
-			if($this->isSubjectModelInstance($supercategory))
-			{
-				return View::make('supercategory.show')->with('supercategory', $supercategory);
-			}
-			return Redirect::to('dashboard/supercategory')->with('message', $supercategory);
-		}
-		return Redirect::to('login')->with('message', 'you need to login first.');
-	}
 
 
 	/**
