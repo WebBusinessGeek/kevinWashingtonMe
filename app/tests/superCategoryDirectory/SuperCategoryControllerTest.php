@@ -136,7 +136,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
 
-    public function test_show_method_redirects_to_index_route_if_bad_id_used()
+    public function test_show_method_redirects_to_index_route_on_bad_id_error()
     {
         $this->simulateAuthenticatedUser();
         $badId = $this->simulateBadIDForSubjectModel();
@@ -251,7 +251,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
-    public function test_store_method_redirects_to_create_route_on_error()
+    public function test_store_method_redirects_to_create_route_on_bad_attributes_error()
     {
         $this->simulateAuthenticatedUser();
         $attributes = $this->simulateAttributesForSubjectModel('bad');
@@ -260,7 +260,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->assertLocationIsACreateRoute($location);
     }
 
-    public function test_store_method_view_has_error_message_when_attributes_are_invalid()
+    public function test_store_method_view_has_correct_error_message_on_bad_attributes_error()
     {
         $this->simulateAuthenticatedUser();
         $attributes = $this->simulateAttributesForSubjectModel('bad');
@@ -289,7 +289,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->assertViewExists($this->updateAfterPutView);
     }
 
-    public function test_update_method_redirected_to_correct_route_on_success()
+    public function test_update_method_redirects_to_correct_route_on_success()
     {
         $this->simulateAuthenticatedUser();
         $subjectModel = $this->createSubjectModelInstance();

@@ -27,11 +27,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="SuperCategoryController.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/controllers/SuperCategoryController.php">
+          <file leaf-file-name="SuperCategoryControllerTest.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2877698" vertical-offset="0" max-vertical-offset="850">
-                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <state vertical-scroll-proportion="14.712231" vertical-offset="0" max-vertical-offset="10700">
+                  <caret line="417" column="5" selection-start-line="417" selection-start-column="5" selection-end-line="417" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -41,11 +41,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="BaseExternalService.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/Base/ExternalService/BaseExternalService.php">
+          <file leaf-file-name="ExternalServiceTestAssist.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Base/ExternalService/ExternalServiceTestAssist.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.92805755" vertical-offset="1530" max-vertical-offset="6950">
-                  <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+                <state vertical-scroll-proportion="3.8129497" vertical-offset="375" max-vertical-offset="3200">
+                  <caret line="126" column="71" selection-start-line="126" selection-start-column="71" selection-end-line="126" selection-end-column="71" />
                   <folding />
                 </state>
               </provider>
@@ -375,11 +375,6 @@
           <url>file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php</url>
           <line>2714</line>
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/ExternalServiceTestLibrary.php</url>
-          <line>99</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="9" />
     </breakpoint-manager>
@@ -537,13 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5755396" vertical-offset="100" max-vertical-offset="2525">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Base/ExternalService/ExternalServiceTestAssist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21582733" vertical-offset="0" max-vertical-offset="695">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -715,33 +703,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/ExternalServiceTestLibrary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50359714" vertical-offset="2000" max-vertical-offset="7675">
-          <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53956836" vertical-offset="2850" max-vertical-offset="10700">
-          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/SuperCategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2877698" vertical-offset="0" max-vertical-offset="850">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.64748204" vertical-offset="0" max-vertical-offset="850">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1421698901000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1421698901000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421698901000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Base/ExternalService/BaseExternalService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92805755" vertical-offset="1530" max-vertical-offset="6950">
-          <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.64748204" vertical-offset="525" max-vertical-offset="6950">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+          <folding>
+            <marker date="1421699050000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1421699050000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421699050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/ExternalServiceTestLibrary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.381295" vertical-offset="0" max-vertical-offset="7675">
+          <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
+          <folding>
+            <marker date="1421690392000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1421690392000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421690392000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="14.712231" vertical-offset="0" max-vertical-offset="10700">
+          <caret line="417" column="5" selection-start-line="417" selection-start-column="5" selection-end-line="417" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Base/ExternalService/ExternalServiceTestAssist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.8129497" vertical-offset="375" max-vertical-offset="3200">
+          <caret line="126" column="71" selection-start-line="126" selection-start-column="71" selection-end-line="126" selection-end-column="71" />
           <folding />
         </state>
       </provider>

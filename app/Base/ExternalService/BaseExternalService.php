@@ -96,7 +96,7 @@ abstract class BaseExternalService extends \BaseController {
 
 
 
-    
+
     public function create()
     {
         if(Auth::check())
