@@ -30,8 +30,8 @@
           <file leaf-file-name="SuperCategoryControllerTest.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5323741" vertical-offset="9830" max-vertical-offset="10600">
-                  <caret line="416" column="54" selection-start-line="416" selection-start-column="54" selection-end-line="416" selection-end-column="54" />
+                <state vertical-scroll-proportion="0.46043167" vertical-offset="10005" max-vertical-offset="10700">
+                  <caret line="421" column="43" selection-start-line="421" selection-start-column="43" selection-end-line="421" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -44,7 +44,7 @@
           <file leaf-file-name="SuperCategoryController.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/SuperCategoryController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4964029" vertical-offset="3430" max-vertical-offset="4375">
+                <state vertical-scroll-proportion="2.942446" vertical-offset="1730" max-vertical-offset="4375">
                   <caret line="153" column="70" selection-start-line="153" selection-start-column="70" selection-end-line="153" selection-end-column="70" />
                   <folding />
                 </state>
@@ -861,7 +861,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/SuperCategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4964029" vertical-offset="3430" max-vertical-offset="4375">
+        <state vertical-scroll-proportion="2.942446" vertical-offset="1730" max-vertical-offset="4375">
           <caret line="153" column="70" selection-start-line="153" selection-start-column="70" selection-end-line="153" selection-end-column="70" />
           <folding />
         </state>
@@ -869,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5323741" vertical-offset="9830" max-vertical-offset="10600">
-          <caret line="416" column="54" selection-start-line="416" selection-start-column="54" selection-end-line="416" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.46043167" vertical-offset="10005" max-vertical-offset="10700">
+          <caret line="421" column="43" selection-start-line="421" selection-start-column="43" selection-end-line="421" selection-end-column="43" />
           <folding />
         </state>
       </provider>

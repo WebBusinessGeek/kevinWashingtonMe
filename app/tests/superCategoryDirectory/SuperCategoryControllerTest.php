@@ -419,7 +419,11 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_destroy_method_redirects_with_correct_message_on_bad_id_error()
     {
-        //TODO: IMPLEMENT test case!
+        $this->simulateAuthenticatedUser();
+        $badId = $this->simulateBadIDForSubjectModel();
+        $destroyRouteResponse = $this->deleteDestroyRoute($badId);
+        $errorMessage = $this->getViewMessage($destroyRouteResponse);
+        $this->assertEquals($this->badIdExpectedErrorMessage, $errorMessage);
     }
 
 
