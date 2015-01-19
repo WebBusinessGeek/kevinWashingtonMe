@@ -324,7 +324,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $badAttributes = $this->simulateAttributesForSubjectModel('bad');
         $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $badAttributes);
         $errorMessage = $this->getViewErrorMessage($updateRouteResponse);
-        $this->assertEquals('Invalid attributes sent to update method.', $errorMessage);
+        $this->assertEquals($this->updateExpectedErrorMessage, $errorMessage);
         $this->cleanUpSingleModelAfterTesting($subjectModel);
 
     }
@@ -348,7 +348,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $attributes = $this->simulateAttributesForSubjectModel('good');
         $updateRouteResponse = $this->putUpdateRoute($badId, $attributes);
         $errorMessage = $this->getViewErrorMessage($updateRouteResponse);
-        $this->assertEquals('Model not found.', $errorMessage);
+        $this->assertEquals($this->badIdExpectedErrorMessage, $errorMessage);
     }
 
 //    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!

@@ -23,7 +23,7 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     public $instanceClass = '';
     public $unauthenticatedRedirectionRoute = 'login';
     public $errorMessageVariableName = 'message';
-
+    public $badIdExpectedErrorMessage = 'Model not found.';
 
 
     public $indexRoute;
@@ -51,6 +51,7 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
 
     public $updateRoute;
     public $updateAfterPutView;
+    public $updateExpectedErrorMessage = 'Invalid attributes sent to update method.';
 
     public function simulateAuthenticatedUser()
     {
