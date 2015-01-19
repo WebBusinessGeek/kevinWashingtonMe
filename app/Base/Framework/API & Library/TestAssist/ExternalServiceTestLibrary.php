@@ -22,8 +22,9 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     public $paginationClass = 'Illuminate\Pagination\Paginator';
     public $instanceClass = '';
     public $unauthenticatedRedirectionRoute = 'login';
-    public $errorMessageVariableName = 'message';
+    public $messageVariableName = 'message';
     public $badIdExpectedErrorMessage = 'Model not found.';
+    public $destroySuccessMessage = 'Resource deleted successfully.';
 
 
     public $indexRoute;
@@ -181,9 +182,9 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
 
 
 
-    public function getViewErrorMessage($redirectResponse)
+    public function getViewMessage($redirectResponse)
     {
-       return $redirectResponse->getSession()->get($this->errorMessageVariableName);
+       return $redirectResponse->getSession()->get($this->messageVariableName);
     }
 
     public function getShowInstanceVariableFromRedirectResponse($redirectResponse)

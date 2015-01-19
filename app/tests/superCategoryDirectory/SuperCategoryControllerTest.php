@@ -150,7 +150,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->simulateAuthenticatedUser();
         $badId = $this->simulateBadIDForSubjectModel();
         $showRouteResponse = $this->getShowRoute($badId);
-        $viewErrorMessage = $this->getViewErrorMessage($showRouteResponse);
+        $viewErrorMessage = $this->getViewMessage($showRouteResponse);
         $this->assertEquals($this->badIdExpectedErrorMessage, $viewErrorMessage);
     }
 
@@ -195,7 +195,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->simulateAuthenticatedUser();
         $badId = $this->simulateBadIDForSubjectModel();
         $editRouteResponse = $this->getEditRoute($badId);
-        $viewErrorMessage = $this->getViewErrorMessage($editRouteResponse);
+        $viewErrorMessage = $this->getViewMessage($editRouteResponse);
         $this->assertEquals($this->badIdExpectedErrorMessage, $viewErrorMessage);
     }
 
@@ -265,7 +265,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->simulateAuthenticatedUser();
         $attributes = $this->simulateAttributesForSubjectModel('bad');
         $storeRouteResponse = $this->postStoreRoute($attributes);
-        $viewMessage = $this->getViewErrorMessage($storeRouteResponse);
+        $viewMessage = $this->getViewMessage($storeRouteResponse);
         $this->assertEquals($this->storeExpectedErrorMessage, $viewMessage);
     }
 
@@ -332,7 +332,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $subjectModelId = $subjectModel->id;
         $badAttributes = $this->simulateAttributesForSubjectModel('bad');
         $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $badAttributes);
-        $errorMessage = $this->getViewErrorMessage($updateRouteResponse);
+        $errorMessage = $this->getViewMessage($updateRouteResponse);
         $this->assertEquals($this->updateExpectedErrorMessage, $errorMessage);
         $this->cleanUpSingleModelAfterTesting($subjectModel);
 
@@ -355,7 +355,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $badId = $this->simulateBadIDForSubjectModel();
         $attributes = $this->simulateAttributesForSubjectModel('good');
         $updateRouteResponse = $this->putUpdateRoute($badId, $attributes);
-        $errorMessage = $this->getViewErrorMessage($updateRouteResponse);
+        $errorMessage = $this->getViewMessage($updateRouteResponse);
         $this->assertEquals($this->badIdExpectedErrorMessage, $errorMessage);
     }
 
@@ -400,7 +400,12 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_destroy_method_redirects_with_correct_message_on_success()
     {
-        //TODO: IMPLEMENT test case!
+        $this->simulateAuthenticatedUser();
+        $subjectModel = $this->createSubjectModelInstance();
+        $subjectModelId = $subjectModel->id;
+        $destroyRouteResponse = $this->deleteDestroyRoute($subjectModelId);
+        $successMessage = $this->getViewMessage($destroyRouteResponse);
+        $this->assertEquals($this->destroySuccessMessage, $successMessage);
     }
 
     public function test_destroy_method_redirects_to_index_route_on_bad_id_error()
