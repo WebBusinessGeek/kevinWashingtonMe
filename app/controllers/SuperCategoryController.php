@@ -9,6 +9,12 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 	public $indexCollectionVariableName = 'supercategories';
 
 	public $createView = 'supercategory.create';
+
+	public $showRoute = 'dashboard/supercategory';
+	public $createRoute = 'dashboard/supercategory/create';
+
+	public $showInstanceVariable = 'supercategory';
+
 	public function __construct()
 	{
 		$this->internalService = new \App\DomainLogic\SuperCategoryDirectory\SuperCategoryInternalService();
@@ -16,29 +22,6 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 
 
 
-	/**
-	 * Store a newly created resource in storage.
-	 *
-	 * @return Response
-	 */
-	public function store()
-	{
-		if(Auth::check())
-		{
-			$attributesToSend = Input::all();
-
-			$supercategory = $this->internalService->store($attributesToSend);
-			if($this->isSubjectModelInstance($supercategory))
-			{
-				$id = $supercategory->id;
-				return Redirect::to('dashboard/supercategory/'.$id)->with('supercategory', $supercategory);
-			}
-
-			return Redirect::to('dashboard/supercategory/create')->with('message', $supercategory);
-
-		}
-		return Redirect::to('login')->with('message', 'you need to login first.');
-	}
 
 
 	/**

@@ -13,6 +13,7 @@ use App\Base\Framework\APILibrary\Polymorphic\AuthenticationTrait;
 use App\Base\Framework\APILibrary\Polymorphic\AuthorizationTrait;
 use App\Base\Framework\APILibrary\Polymorphic\ResponderTrait;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\View;
 
@@ -35,7 +36,7 @@ abstract class BaseExternalService extends \BaseController {
 
     protected $successCreationCode = 201;
 
-    public $loginView = 'login';
+    public $loginRoute = 'login';
     public $messageVariableName = 'message';
     public $AuthenticationNeededMessage = 'You need to login first.';
 
@@ -46,7 +47,9 @@ abstract class BaseExternalService extends \BaseController {
 
     public $createView;
 
-
+    public $showRoute;
+    public $createRoute;
+    public $showInstanceVariable;
 
     public function __construct()
     {
@@ -83,10 +86,28 @@ abstract class BaseExternalService extends \BaseController {
 
 
 
-//    public function store($credentialsOrAttributes = [])
-//    {
-//
-//    }
+    public function store()
+    {
+        if(Auth::check())
+        {
+            $attributesToSend = Input::all();
+
+            $subjectModel = $this->internalService->store($attributesToSend);
+
+            if($this->isSubjectModelInstance($subjectModel))
+            {
+                $id = $subjectModel->id;
+                return Redirect::to($this->showRoute.'/'.$id)->with($this->showInstanceVariable, $subjectModel);
+            }
+            return Redirect::to($this->createRoute)->with($this->messageVariableName, $subjectModel);
+        }
+        return $this->redirectToLogin();
+    }
+
+
+
+
+
 //
 //    public function show($id)
 //    {
@@ -129,7 +150,7 @@ abstract class BaseExternalService extends \BaseController {
 
     public function redirectToLogin()
     {
-        return Redirect::to($this->loginView)->with($this->messageVariableName, $this->AuthenticationNeededMessage);
+        return Redirect::to($this->loginRoute)->with($this->messageVariableName, $this->AuthenticationNeededMessage);
     }
 
     public function isSubjectModelInstance($potentialModel)
