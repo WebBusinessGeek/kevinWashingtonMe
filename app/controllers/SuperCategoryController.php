@@ -122,15 +122,18 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 		{
 			$attributesToSend = Input::all();
 
-			$supercategory = $this->internalService->update($id, $attributesToSend);
-			if($this->isSubjectModelInstance($supercategory))
+			$supercategoryIdCheck = $this->internalService->show($id);
+			if($this->isSubjectModelInstance($supercategoryIdCheck))
 			{
-				$id = $supercategory->id;
-				return Redirect::to('dashboard/supercategory/'.$id)->with('supercategory', $supercategory);
+				$supercategory = $this->internalService->update($id, $attributesToSend);
+				if($this->isSubjectModelInstance($supercategory))
+				{
+					return Redirect::to('dashboard/supercategory/'.$id)->with('supercategory', $supercategory);
+				}
+				return Redirect::to('dashboard/supercategory/'.$id.'/edit')->with('message', $supercategory);
+
 			}
-
-			return Redirect::to('dashboard/supercategory/'.$id.'/edit')->with('message', $supercategory);
-
+			return Redirect::to('dashboard/supercategory')->with('message', $supercategoryIdCheck);
 		}
 		return Redirect::to('login')->with('message', 'you need to login first.');
 	}

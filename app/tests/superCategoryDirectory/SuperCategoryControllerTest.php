@@ -197,15 +197,6 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->assertEquals($this->badIdExpectedErrorMessage, $viewErrorMessage);
     }
 
-    public function test_redirects_back_to_edit_route_on_bad_attribute_error()
-    {
-        //TODO: IMPLEMENT test case!
-    }
-    public function test_redirects_back_with_correct_error_message_on_bad_attribute_error()
-    {
-        //TODO: IMPLEMENT test case!
-    }
-
     public function test_edit_method_view_contains_instance_of_correct_class()
     {
         $this->simulateAuthenticatedUser();
@@ -352,8 +343,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $attributes = $this->simulateAttributesForSubjectModel('good');
         $updateRouteResponse = $this->putUpdateRoute($badId, $attributes);
         $location = $this->getResponseLocation($updateRouteResponse);
-        $this->assertLocationIsAEditRoute($location);
-        //TODO: REVISE ^ Assertion should be be to an index route!
+        $this->assertLocationIsAIndexRoute($location);
 
     }
 
@@ -367,15 +357,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->assertEquals($this->badIdExpectedErrorMessage, $errorMessage);
     }
 
-//    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!
-//    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!
-//    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!
-//    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!
-//    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!
-//    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!
-//    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!
-//    TODO: FIX YOUR DUMB MISTAKE WHERE YOU REDIRECT BACK TO THE EDIT PAGE ON BAD ID ERRORS!
-// TODO: !!!!****** REMEMBER TO CROSS REFERENCE YOUR CURRENT TEST CASES WITH THOSE IN YOUR NOTES *****!!!!!!
+
     /***********************************************************************************************************/
     /*                                          Destroy method test cases                                         */
     /***********************************************************************************************************/

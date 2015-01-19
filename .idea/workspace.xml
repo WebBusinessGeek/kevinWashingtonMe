@@ -24,18 +24,36 @@
     <favorites_list name="kevinWashingtonMe" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SuperCategoryControllerTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51246536" vertical-offset="4230" max-vertical-offset="10425">
-              <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="SuperCategoryControllerTest.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.4532374" vertical-offset="8135" max-vertical-offset="9975">
+                  <caret line="346" column="0" selection-start-line="346" selection-start-column="0" selection-end-line="346" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="SuperCategoryController.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/controllers/SuperCategoryController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.35971224" vertical-offset="3000" max-vertical-offset="3975">
+                  <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -664,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Base/InternalService/BaseInternalService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7194245" vertical-offset="2450" max-vertical-offset="9100">
-          <caret line="129" column="49" selection-start-line="129" selection-start-column="49" selection-end-line="129" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2877698" vertical-offset="3750" max-vertical-offset="5150">
@@ -717,18 +728,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Base/InternalService/BaseInternalService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4676259" vertical-offset="2025" max-vertical-offset="9100">
+          <caret line="105" column="59" selection-start-line="105" selection-start-column="59" selection-end-line="105" selection-end-column="59" />
+          <folding>
+            <marker date="1421441931000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1421441931000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="Ensures requirements are set on services and their models. ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" @param $paginationCount ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns an error message. ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" Otherwise returns error message. ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" Otherwise will return error message. ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" Allows children to 'hook into' parent::function by implementing their own uniqueDestroyLogic methods. ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" @param Model $model ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" @param array $attributes ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" @param array $attributes ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" @return string ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" @return string ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" @return string ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" @param array $attributes ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" @param $model ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" Returns $model's attributes as a multidimensional array. ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" Return $model's class name. ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" Returns true if all values and attributes are valid, otherwise false. ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" Returns true if passed in Model instance is an actual instance, otherwise false. ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" @param $potentialModel ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" @param $settingName ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" @param $settingName ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" @return mixed ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" @return mixed ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" @return mixed ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder=" @return mixed ..." />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421441931000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/SuperCategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13669065" vertical-offset="2255" max-vertical-offset="3900">
-          <caret line="96" column="7" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.35971224" vertical-offset="3000" max-vertical-offset="3975">
+          <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51246536" vertical-offset="4230" max-vertical-offset="10425">
-          <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4532374" vertical-offset="8135" max-vertical-offset="9975">
+          <caret line="346" column="0" selection-start-line="346" selection-start-column="0" selection-end-line="346" selection-end-column="0" />
           <folding />
         </state>
       </provider>
