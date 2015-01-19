@@ -44,6 +44,9 @@ abstract class BaseExternalService extends \BaseController {
     public $indexCollectionVariableName;
 
 
+    public $createView;
+
+
 
     public function __construct()
     {
@@ -58,16 +61,23 @@ abstract class BaseExternalService extends \BaseController {
    {
        if(Auth::check())
        {
-           $subjectModels = $this->internalService->index(6);
+           $subjectModels = $this->internalService->index($paginationCount);
 
            return View::make($this->indexView)->with($this->indexCollectionVariableName, $subjectModels);
        }
        return $this->redirectToLogin();
    }
 
-    public function redirectToLogin()
+
+
+
+    public function create()
     {
-        return Redirect::to($this->loginView)->with($this->messageVariableName, $this->AuthenticationNeededMessage);
+        if(Auth::check())
+        {
+            return View::make($this->createView);
+        }
+        return $this->redirectToLogin();
     }
 
 
@@ -115,6 +125,12 @@ abstract class BaseExternalService extends \BaseController {
     }
 
 
+
+
+    public function redirectToLogin()
+    {
+        return Redirect::to($this->loginView)->with($this->messageVariableName, $this->AuthenticationNeededMessage);
+    }
 
     public function isSubjectModelInstance($potentialModel)
     {

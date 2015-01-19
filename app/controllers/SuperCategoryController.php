@@ -8,30 +8,12 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 	public $indexView ='supercategory.index';
 	public $indexCollectionVariableName = 'supercategories';
 
-
+	public $createView = 'supercategory.create';
 	public function __construct()
 	{
 		$this->internalService = new \App\DomainLogic\SuperCategoryDirectory\SuperCategoryInternalService();
 	}
 
-
-
-
-
-	/**
-	 * Show the form for creating a new resource.
-	 *
-	 * @return Response
-	 *
-	 */
-	public function create()
-	{
-		if(Auth::check())
-		{
-			return View::make('supercategory.create');
-		}
-		return Redirect::to('login')->with('message', 'you need to login first.');
-	}
 
 
 	/**
