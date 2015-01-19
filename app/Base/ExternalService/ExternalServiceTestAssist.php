@@ -240,6 +240,71 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $this->assertEquals($this->badIdExpectedErrorMessage, $viewErrorMessage);
     }
 
+    public function assert_edit_method_route_is_setup()
+    {
+        $this->simulateAuthenticatedUser();
+        $subjectModel = $this->createSubjectModelInstance();
+        $idForEditRoute = $subjectModel->id;
+        $editRouteResponse = $this->getEditRoute($idForEditRoute);
+        $this->assertTrue($editRouteResponse->isOk());
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
+
+    public function assert_edit_method_view_exists()
+    {
+        $this->assertViewExists($this->editView);
+    }
+
+    public function assert_edit_method_redirects_to_login_if_user_is_not_authenticated()
+    {
+        $subjectModel = $this->createSubjectModelInstance();
+        $idForEditRoute = $subjectModel->id;
+        $editRouteResponse = $this->getEditRoute($idForEditRoute);
+        $this->assertRedirectedToLoginPage($editRouteResponse);
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
+
+    public function assert_edit_method_redirects_to_index_on_bad_id_error()
+    {
+        $this->simulateAuthenticatedUser();
+        $badId = $this->simulateBadIDForSubjectModel();
+        $editRouteResponse = $this->getEditRoute($badId);
+        $location = $this->getResponseLocation($editRouteResponse);
+        $this->assertLocationIsAIndexRoute($location);
+    }
+
+    public function assert_edit_method_redirects_with_correct_error_message_on_bad_id_error()
+    {
+        $this->simulateAuthenticatedUser();
+        $badId = $this->simulateBadIDForSubjectModel();
+        $editRouteResponse = $this->getEditRoute($badId);
+        $viewErrorMessage = $this->getViewMessage($editRouteResponse);
+        $this->assertEquals($this->badIdExpectedErrorMessage, $viewErrorMessage);
+    }
+
+    public function assert_edit_method_view_contains_instance_of_correct_class()
+    {
+        $this->simulateAuthenticatedUser();
+        $subjectModel = $this->createSubjectModelInstance();
+        $idForEditRoute = $subjectModel->id;
+        $editRouteResponse = $this->getEditRoute($idForEditRoute);
+        $view = $this->getView($editRouteResponse);
+        $variableInstanceFromView = $view[$this->editInstanceVariable];
+        $this->assertTrue($this->isSubjectModelInstance($variableInstanceFromView));
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
+
+    public function assert_edit_method_view_contains_correct_subjectModel_instance()
+    {
+        $this->simulateAuthenticatedUser();
+        $subjectModel = $this->createSubjectModelInstance();
+        $idForEditRoute = $subjectModel->id;
+        $editRouteResponse = $this->getEditRoute($idForEditRoute);
+        $view = $this->getView($editRouteResponse);
+        $variableInstanceFromView = $view[$this->editInstanceVariable];
+        $this->assertEquals($subjectModel->id, $variableInstanceFromView->id);
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
 }
 
 
