@@ -145,7 +145,11 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_show_method_redirects_with_correct_error_message_on_bad_id_error()
     {
-        //TODO: implement test case.
+        $this->simulateAuthenticatedUser();
+        $badId = $this->simulateBadIDForSubjectModel();
+        $showRouteResponse = $this->getShowRoute($badId);
+        $viewErrorMessage = $this->getViewErrorMessage($showRouteResponse);
+        $this->assertEquals($this->badIdExpectedErrorMessage, $viewErrorMessage);
     }
 
     /***********************************************************************************************************/
