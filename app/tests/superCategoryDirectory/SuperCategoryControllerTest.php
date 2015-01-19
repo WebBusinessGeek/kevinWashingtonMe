@@ -410,7 +410,11 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_destroy_method_redirects_to_index_route_on_bad_id_error()
     {
-        //TODO: IMPLEMENT test case!
+        $this->simulateAuthenticatedUser();
+        $badId = $this->simulateBadIDForSubjectModel();
+        $destroyRouteResponse = $this->deleteDestroyRoute($badId);
+        $location  = $this->getResponseLocation($destroyRouteResponse);
+        $this->assertLocationIsAIndexRoute($location);
     }
 
     public function test_destroy_method_redirects_with_correct_message_on_bad_id_error()

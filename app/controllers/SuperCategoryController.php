@@ -150,11 +150,17 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 	{
 		if(Auth::check())
 		{
-			$response = $this->internalService->destroy($id);
-			if($response)
+
+			$supercategoryIdCheck = $this->internalService->show($id);
+			if($this->isSubjectModelInstance($supercategoryIdCheck))
 			{
-				return Redirect::to('dashboard/supercategory')->with('message', 'Resource deleted successfully.');
+				$response = $this->internalService->destroy($id);
+				if($response)
+				{
+					return Redirect::to('dashboard/supercategory')->with('message', 'Resource deleted successfully.');
+				}
 			}
+			return Redirect::to('dashboard/supercategory')->with('message', $supercategoryIdCheck);
 
 		}
 		return Redirect::to('login')->with('message', 'you need to login first.');
