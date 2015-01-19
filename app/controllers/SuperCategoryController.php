@@ -153,7 +153,7 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 			$response = $this->internalService->destroy($id);
 			if($response)
 			{
-				return View::make('supercategory.index')->with('message', 'Model deleted from database');
+				return Redirect::to('dashboard/supercategory')->with('message', 'Model deleted from database');
 			}
 
 		}

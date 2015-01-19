@@ -388,9 +388,14 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->assertEquals(null, $databaseCheck);
     }
 
-    public function test_destroy_method_redirects_to_correct_route_on_success()
+    public function test_destroy_method_redirects_to_index_route_on_success()
     {
-        //TODO: IMPLEMENT test case!
+        $this->simulateAuthenticatedUser();
+        $subjectModel = $this->createSubjectModelInstance();
+        $subjectModelId = $subjectModel->id;
+        $destroyRouteResponse = $this->deleteDestroyRoute($subjectModelId);
+        $location = $this->getResponseLocation($destroyRouteResponse);
+        $this->assertLocationIsAIndexRoute($location);
     }
 
     public function test_destroy_method_redirects_with_correct_message_on_success()
