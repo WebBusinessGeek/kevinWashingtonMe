@@ -346,8 +346,8 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $this->simulateAuthenticatedUser();
         $attributes = $this->simulateAttributesForSubjectModel('bad');
         $storeRouteResponse = $this->postStoreRoute($attributes);
-        $viewMesage = $this->getViewMessage($storeRouteResponse);
-        $this->assertEquals($this->storeExpectedErrorMessage, $viewMesage);
+        $viewMessage = $this->getViewMessage($storeRouteResponse);
+        $this->assertEquals($this->storeExpectedErrorMessage, $viewMessage);
     }
 }
 
