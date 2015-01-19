@@ -44,45 +44,34 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
     public function test_index_method_route_is_setup()
     {
-        $this->simulateAuthenticatedUser();
-        $response = $this->getIndexRoute();
-        $this->assertTrue($response->isOk());
+       $this->assert_index_method_route_is_setup();
     }
     public function test_index_method_route_redirects_to_login_if_user_is_not_authenticated()
     {
-        $response = $this->getIndexRoute();
-
-        $this->assertRedirectedToLoginPage($response);
-
+        $this->assert_index_method_route_redirects_to_login_if_user_is_not_authenticated();
     }
     public function test_index_method_view_exists()
     {
-        $this->assertViewExists($this->indexView);
+        $this->assert_index_method_view_exists();
     }
     public function test_index_method_view_contains_paginated_variable_instance()
     {
-        $this->simulateAuthenticatedUser();
-        $response = $this->getIndexRoute();
-        $view = $response->original;
-        $this->assertEquals($this->paginationClass, get_class($view[$this->indexCollectionVariable]));
+        $this->assert_index_method_view_contains_paginated_variable_instance();
     }
     /***********************************************************************************************************/
     /*                                          Create method test cases                                              */
     /***********************************************************************************************************/
     public function test_create_method_route_is_setup()
     {
-        $this->simulateAuthenticatedUser();
-        $response = $this->getCreateRoute();
-        $this->assertTrue($response->isOk());
+        $this->assert_create_method_route_is_setup();
     }
     public function test_create_method_view_exists()
     {
-        $this->assertViewExists($this->createView);
+        $this->assert_create_method_view_exists();
     }
     public function test_create_method_route_redirects_to_login_if_user_is_not_authenticated()
     {
-        $response = $this->getCreateRoute();
-        $this->assertRedirectedToLoginPage($response);
+       $this->assert_create_method_route_redirects_to_login_if_user_is_not_authenticated();
     }
 
     /***********************************************************************************************************/

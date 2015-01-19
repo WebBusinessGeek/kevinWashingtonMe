@@ -125,4 +125,61 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     abstract public function test_destroy_method_redirects_to_index_route_on_bad_id_error();
 
     abstract public function test_destroy_method_redirects_with_correct_message_on_bad_id_error();
+
+
+
+
+
+    public function assert_index_method_route_is_setup()
+    {
+        $this->simulateAuthenticatedUser();
+        $response = $this->getIndexRoute();
+        $this->assertTrue($response->isOk());
+    }
+
+    public function assert_index_method_route_redirects_to_login_if_user_is_not_authenticated()
+    {
+        $response = $this->getIndexRoute();
+        $this->assertRedirectedToLoginPage($response);
+    }
+
+    public function assert_index_method_view_exists()
+    {
+        $this->assertViewExists($this->indexView);
+    }
+
+    public function assert_index_method_view_contains_paginated_variable_instance()
+    {
+        $this->simulateAuthenticatedUser();
+        $response = $this->getIndexRoute();
+        $view = $response->original;
+        $this->assertEquals($this->paginationClass, get_class($view[$this->indexCollectionVariable]));
+    }
+
+    public function assert_create_method_route_is_setup()
+    {
+        $this->simulateAuthenticatedUser();
+        $response = $this->getCreateRoute();
+        $this->assertTrue($response->isOk());
+    }
+
+    public function assert_create_method_view_exists()
+    {
+        $this->assertViewExists($this->createView);
+    }
+
+    public function assert_create_method_route_redirects_to_login_if_user_is_not_authenticated()
+    {
+        $response = $this->getCreateRoute();
+        $this->assertRedirectedToLoginPage($response);
+    }
+
+
+
+
 }
+
+
+
+
+
