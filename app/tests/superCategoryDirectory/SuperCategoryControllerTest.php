@@ -182,7 +182,11 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_edit_method_redirects_to_index_on_bad_id_error()
     {
-        //TODO: IMPLEMENT test case!
+        $this->simulateAuthenticatedUser();
+        $badId = $this->simulateBadIDForSubjectModel();
+        $editRouteResponse = $this->getEditRoute($badId);
+        $location = $this->getResponseLocation($editRouteResponse);
+        $this->assertLocationIsAIndexRoute($location);
     }
     public function test_edit_method_redirects_with_correct_error_message_on_bad_id_error()
     {
