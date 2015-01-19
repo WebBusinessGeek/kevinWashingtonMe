@@ -18,6 +18,9 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 	public $showView = 'supercategory.show';
 	public $indexRoute = 'dashboard/supercategory/';
 
+	public $editView = 'supercategory.edit';
+	public $editInstanceVariable = 'supercategoryForEdit';
+
 	public function __construct()
 	{
 		$this->internalService = new \App\DomainLogic\SuperCategoryDirectory\SuperCategoryInternalService();
@@ -26,28 +29,28 @@ class SuperCategoryController extends \App\Base\BaseExternalService {
 
 
 
-	/**
-	 * Show the form for editing the specified resource.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function edit($id)
-	{
-		if(Auth::check())
-		{
-			$supercategoryForEdit = $this->internalService->show($id);
-			if($this->isSubjectModelInstance($supercategoryForEdit))
-			{
-				return View::make('supercategory.edit')->with('supercategoryForEdit', $supercategoryForEdit);
-			}
-			return Redirect::to('dashboard/supercategory')->with('message', $supercategoryForEdit);
-		}
-		return Redirect::to('login')->with('message', 'you need to login first.');
-	}
-
-
+//	/**
+//	 * Show the form for editing the specified resource.
+//	 *
+//	 * @param  int  $id
+//	 * @return Response
+//	 */
+//	public function edit($id)
+//	{
+//		if(Auth::check())
+//		{
+//			$supercategoryForEdit = $this->internalService->show($id);
+//			if($this->isSubjectModelInstance($supercategoryForEdit))
+//			{
+//				return View::make('supercategory.edit')->with('supercategoryForEdit', $supercategoryForEdit);
+//			}
+//			return Redirect::to('dashboard/supercategory')->with('message', $supercategoryForEdit);
+//		}
+//		return Redirect::to('login')->with('message', 'you need to login first.');
+//	}
 //
+//
+////l
 
 
 

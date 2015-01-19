@@ -55,6 +55,9 @@ abstract class BaseExternalService extends \BaseController {
     public $showView;
     public $indexRoute;
 
+    public $editView;
+    public $editInstanceVariable;
+
     public function __construct()
     {
         if($this->internalService == null)
@@ -127,7 +130,20 @@ abstract class BaseExternalService extends \BaseController {
 
 
 
-
+    
+    public function edit($id)
+    {
+        if(Auth::check())
+        {
+            $subjectModelToEdit = $this->internalService->show($id);
+            if($this->isSubjectModelInstance($subjectModelToEdit))
+            {
+                return View::make($this->editView)->with($this->editInstanceVariable, $subjectModelToEdit);
+            }
+            return Redirect::to($this->indexRoute)->with($this->messageVariableName, $subjectModelToEdit);
+        }
+        return $this->redirectToLogin();
+    }
 
 
 
