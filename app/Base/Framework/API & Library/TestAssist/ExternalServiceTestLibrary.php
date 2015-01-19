@@ -92,6 +92,10 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     {
         $this->assertEquals($this->removeFromRoute($this->createRoute, $location)[1], null);
     }
+    public function assertLocationIsAIndexRoute($location)
+    {
+        $this->assertEquals($this->removeFromRoute($this->indexRoute, $location)[1], null);
+    }
     public function removeFromRoute($delimiter, $route)
     {
         return explode($delimiter, $route);
@@ -103,6 +107,8 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     {
         $this->assertTrue(!strpos($location, 'edit') === false);
     }
+
+
 
 
 

@@ -16,7 +16,14 @@ Route::get('/', function()
 {
     return View::make('hello');
 
-
+//    $library = new \App\Base\ConcreteExternalServiceTestLibrary();
+//
+//    $delimiter = 'dashboard/supercategory';
+//
+//    $route = 'http://localhost/dashboard/supercategory';
+//
+//    dd($library->removeFromRoute($delimiter, $route));
+//
 
 });
 
