@@ -61,11 +61,22 @@ abstract class BaseExternalService extends \BaseController {
     public $destroySuccessMessage = 'Resource deleted successfully.';
 
 
+    public $mandatoryProperties = ['indexView', 'indexCollectionVariableName', 'createView', 'showRoute', 'createRoute',
+    'showInstanceVariable', 'showView', 'indexRoute', 'editView', 'editInstanceVariable'];
+
     public function __construct()
     {
         if($this->internalService == null)
         {
             throw new \Exception('Internal Service is not set on the controller! Please set the internal service!');
+        }
+
+        foreach($this->mandatoryProperties as $mandatoryProperty)
+        {
+            if($this->$mandatoryProperty == null)
+            {
+                throw new \Exception($mandatoryProperty. 'not set on Controller. Please set the property!');
+            }
         }
     }
 
@@ -81,6 +92,11 @@ abstract class BaseExternalService extends \BaseController {
        return $this->redirectToLogin();
    }
 
+
+
+
+
+    
     public function create()
     {
         if(Auth::check())
@@ -89,6 +105,11 @@ abstract class BaseExternalService extends \BaseController {
         }
         return $this->redirectToLogin();
     }
+
+
+
+
+
 
     public function store()
     {
@@ -108,6 +129,12 @@ abstract class BaseExternalService extends \BaseController {
         return $this->redirectToLogin();
     }
 
+
+
+
+
+
+
     public function show($id)
     {
           if(Auth::check())
@@ -122,6 +149,12 @@ abstract class BaseExternalService extends \BaseController {
         return $this->redirectToLogin();
     }
 
+
+
+
+
+
+
     public function edit($id)
     {
         if(Auth::check())
@@ -135,6 +168,13 @@ abstract class BaseExternalService extends \BaseController {
         }
         return $this->redirectToLogin();
     }
+
+
+
+
+
+
+
 
     public function update($id)
     {
@@ -156,6 +196,13 @@ abstract class BaseExternalService extends \BaseController {
         }
         return $this->redirectToLogin();
     }
+
+
+
+
+
+
+
 
     public function destroy($id)
     {
