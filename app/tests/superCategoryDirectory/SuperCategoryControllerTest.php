@@ -33,6 +33,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public $updateRoute = 'dashboard/supercategory';
     public $updateAfterPutView = 'supercategory.show';
     public $destroyRoute = 'dashboard/supercategory';
+    public $destroyAfterDeleteView = 'supercategory.index';
 
     public function __construct()
     {
@@ -375,6 +376,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     public function test_destroy_method_after_delete_view_exists()
     {
         //TODO: IMPLEMENT test case!
+        $this->assertViewExists($this->destroyAfterDeleteView);
     }
 
     public function test_destroy_method_correct_instance_is_deleted()
