@@ -19,7 +19,7 @@ class Category extends Model {
     protected $table = 'categories';
 
 
-    protected $singleOwnerClassName = '\App\Base\DomainLogic\SuperCategoryDirectory\SuperCategory';
+    protected $singleOwnerClassName = '\App\DomainLogic\SuperCategoryDirectory\SuperCategory';
 
     protected $with = 'skills';
 
