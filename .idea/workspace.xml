@@ -24,36 +24,18 @@
     <favorites_list name="kevinWashingtonMe" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="SuperCategoryControllerTest.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.60431653" vertical-offset="5980" max-vertical-offset="6675">
-                  <caret line="264" column="86" selection-start-line="264" selection-start-column="86" selection-end-line="264" selection-end-column="86" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="ExternalServiceTestAssist.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/Base/ExternalService/ExternalServiceTestAssist.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.5395683" vertical-offset="11305" max-vertical-offset="12650">
-                  <caret line="500" column="0" selection-start-line="500" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5683453" vertical-offset="230" max-vertical-offset="925">
+              <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -87,6 +69,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -159,109 +142,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinWashingtonMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinWashingtonMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinWashingtonMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinWashingtonMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestSubjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinWashingtonMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinWashingtonMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="API &amp; Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestAssist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinWashingtonMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinWashingtonMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="API &amp; Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,16 +215,16 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16226138" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1620306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -696,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64316547" vertical-offset="353" max-vertical-offset="1075">
-          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/SuperCategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64748204" vertical-offset="0" max-vertical-offset="850">
@@ -721,67 +596,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.8633094" vertical-offset="0" max-vertical-offset="7700">
           <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
-          <folding>
-            <marker date="1421715462000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1421715462000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60431653" vertical-offset="5980" max-vertical-offset="6675">
-          <caret line="264" column="86" selection-start-line="264" selection-start-column="86" selection-end-line="264" selection-end-column="86" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Base/ExternalService/ExternalServiceTestAssist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5395683" vertical-offset="11305" max-vertical-offset="12650">
-          <caret line="500" column="0" selection-start-line="500" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.64748204" vertical-offset="200" max-vertical-offset="12650">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6115108" vertical-offset="0" max-vertical-offset="6675">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <marker date="1421715907000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1421715907000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715907000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5683453" vertical-offset="230" max-vertical-offset="925">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
           <folding />
         </state>
       </provider>

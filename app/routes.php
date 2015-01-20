@@ -29,16 +29,10 @@ Route::get('/login', function()
 });
 
 
-Route::group(array('before' => 'auth'), function ()
+Route::group(array('before' => 'auth', 'prefix' => 'dashboard'), function ()
 {
-
-    Route::get('dashboard/supercategory', 'SuperCategoryController@index');
-    Route::get('dashboard/supercategory/create', 'SuperCategoryController@create');
-    Route::get('dashboard/supercategory/{id}', 'SuperCategoryController@show');
-    Route::get('dashboard/supercategory/{id}/edit', 'SuperCategoryController@edit');
-    Route::post('dashboard/supercategory', 'SuperCategoryController@store');
-    Route::put('dashboard/supercategory/{id}', 'SuperCategoryController@update');
-    Route::delete('dashboard/supercategory/{id}', 'SuperCategoryController@destroy');
+    Route::resource('supercategory', 'SuperCategoryController');
+    Route::resource('tool', 'SuperCategoryController');
 });
 
 
