@@ -32,7 +32,7 @@ Route::get('/login', function()
 Route::group(array('before' => 'auth', 'prefix' => 'dashboard'), function ()
 {
     Route::resource('supercategory', 'SuperCategoryController');
-    Route::resource('tool', 'SuperCategoryController');
+    Route::resource('tool', 'ToolController');
 });
 
 

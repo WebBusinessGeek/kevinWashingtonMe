@@ -143,6 +143,7 @@ abstract class BaseExternalService extends \BaseController {
               if($this->isSubjectModelInstance($subjectModel))
               {
                   return View::make($this->showView)->with($this->showInstanceVariable, $subjectModel);
+//                  return Redirect::to($this->showRoute)->with($this->showInstanceVariable, $subjectModel);
               }
               return Redirect::to($this->indexRoute)->with($this->messageVariableName, $subjectModel);
           }
