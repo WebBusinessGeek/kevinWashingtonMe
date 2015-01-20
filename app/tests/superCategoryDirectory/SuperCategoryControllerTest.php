@@ -242,50 +242,27 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_destroy_method_correct_instance_is_deleted()
     {
-        $this->simulateAuthenticatedUser();
-        $subjectModel = $this->createSubjectModelInstance();
-        $subjectModelId = $subjectModel->id;
-        $this->DELETEDestroyRoute($subjectModelId);
-        $databaseCheck = $this->getSubjectModelFromDatabase($subjectModelId);
-        $this->assertEquals(null, $databaseCheck);
+        $this->assert_destroy_method_correct_instance_is_deleted();
     }
 
     public function test_destroy_method_redirects_to_index_route_on_success()
     {
-        $this->simulateAuthenticatedUser();
-        $subjectModel = $this->createSubjectModelInstance();
-        $subjectModelId = $subjectModel->id;
-        $destroyRouteResponse = $this->DELETEDestroyRoute($subjectModelId);
-        $location = $this->getResponseLocation($destroyRouteResponse);
-        $this->assertLocationIsAIndexRoute($location);
+        $this->assert_destroy_method_redirects_to_index_route_on_success();
     }
 
     public function test_destroy_method_redirects_with_correct_message_on_success()
     {
-        $this->simulateAuthenticatedUser();
-        $subjectModel = $this->createSubjectModelInstance();
-        $subjectModelId = $subjectModel->id;
-        $destroyRouteResponse = $this->DELETEDestroyRoute($subjectModelId);
-        $successMessage = $this->getViewMessage($destroyRouteResponse);
-        $this->assertEquals($this->destroySuccessMessage, $successMessage);
+        $this->assert_destroy_method_redirects_with_correct_message_on_success();
     }
 
     public function test_destroy_method_redirects_to_index_route_on_bad_id_error()
     {
-        $this->simulateAuthenticatedUser();
-        $badId = $this->simulateBadIDForSubjectModel();
-        $destroyRouteResponse = $this->DELETEDestroyRoute($badId);
-        $location  = $this->getResponseLocation($destroyRouteResponse);
-        $this->assertLocationIsAIndexRoute($location);
+        $this->assert_destroy_method_redirects_to_index_route_on_bad_id_error();
     }
 
     public function test_destroy_method_redirects_with_correct_message_on_bad_id_error()
     {
-        $this->simulateAuthenticatedUser();
-        $badId = $this->simulateBadIDForSubjectModel();
-        $destroyRouteResponse = $this->DELETEDestroyRoute($badId);
-        $errorMessage = $this->getViewMessage($destroyRouteResponse);
-        $this->assertEquals($this->badIdExpectedErrorMessage, $errorMessage);
+        $this->assert_destroy_method_redirects_with_correct_message_on_bad_id_error();
     }
 
 

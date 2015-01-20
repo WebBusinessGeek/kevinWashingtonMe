@@ -30,8 +30,8 @@
           <file leaf-file-name="SuperCategoryControllerTest.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.36690646" vertical-offset="6155" max-vertical-offset="7250">
-                  <caret line="244" column="7" selection-start-line="244" selection-start-column="7" selection-end-line="249" selection-end-column="50" />
+                <state vertical-scroll-proportion="0.60431653" vertical-offset="5980" max-vertical-offset="6675">
+                  <caret line="264" column="86" selection-start-line="264" selection-start-column="86" selection-end-line="264" selection-end-column="86" />
                   <folding />
                 </state>
               </provider>
@@ -41,11 +41,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="ExternalServiceTestLibrary.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/ExternalServiceTestLibrary.php">
+          <file leaf-file-name="ExternalServiceTestAssist.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Base/ExternalService/ExternalServiceTestAssist.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.0388489" vertical-offset="3353" max-vertical-offset="7700">
-                  <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+                <state vertical-scroll-proportion="1.5395683" vertical-offset="11305" max-vertical-offset="12650">
+                  <caret line="500" column="0" selection-start-line="500" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -717,21 +717,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
+    <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/ExternalServiceTestLibrary.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.36690646" vertical-offset="6155" max-vertical-offset="7250">
-          <caret line="244" column="7" selection-start-line="244" selection-start-column="7" selection-end-line="249" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Base/ExternalService/ExternalServiceTestAssist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7122302" vertical-offset="10805" max-vertical-offset="11700">
-          <caret line="457" column="50" selection-start-line="457" selection-start-column="50" selection-end-line="457" selection-end-column="50" />
+        <state vertical-scroll-proportion="5.8633094" vertical-offset="0" max-vertical-offset="7700">
+          <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
           <folding>
             <marker date="1421715462000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1421715462000" expanded="false" signature="-1:-1" placeholder="..." />
             <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1421715462000" expanded="true" signature="-1:-1" placeholder="{...}" />
@@ -773,10 +770,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Base/Framework/API &amp; Library/TestAssist/ExternalServiceTestLibrary.php">
+    <entry file="file://$PROJECT_DIR$/app/tests/superCategoryDirectory/SuperCategoryControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0388489" vertical-offset="3353" max-vertical-offset="7700">
-          <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.60431653" vertical-offset="5980" max-vertical-offset="6675">
+          <caret line="264" column="86" selection-start-line="264" selection-start-column="86" selection-end-line="264" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Base/ExternalService/ExternalServiceTestAssist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5395683" vertical-offset="11305" max-vertical-offset="12650">
+          <caret line="500" column="0" selection-start-line="500" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
           <folding />
         </state>
       </provider>

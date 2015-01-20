@@ -457,6 +457,44 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $databaseCheck = $this->getSubjectModelFromDatabase($subjectModelId);
         $this->assertEquals(null, $databaseCheck);
     }
+
+    public function assert_destroy_method_redirects_to_index_route_on_success()
+    {
+        $this->simulateAuthenticatedUser();
+        $subjectModel = $this->createSubjectModelInstance();
+        $subjectModelId = $subjectModel->id;
+        $destroyRouteResponse = $this->DELETEDestroyRoute($subjectModelId);
+        $location = $this->getResponseLocation($destroyRouteResponse);
+        $this->assertLocationIsAIndexRoute($location);
+    }
+
+    public function assert_destroy_method_redirects_with_correct_message_on_success()
+    {
+        $this->simulateAuthenticatedUser();
+        $subjectModel = $this->createSubjectModelInstance();
+        $subjectModelId = $subjectModel->id;
+        $destroyRouteResponse = $this->DELETEDestroyRoute($subjectModelId);
+        $successMessage = $this->getViewMessage($destroyRouteResponse);
+        $this->assertEquals($this->destroySuccessMessage, $successMessage);
+    }
+
+    public function assert_destroy_method_redirects_to_index_route_on_bad_id_error()
+    {
+        $this->simulateAuthenticatedUser();
+        $badId = $this->simulateBadIDForSubjectModel();
+        $destroyRouteResponse = $this->DELETEDestroyRoute($badId);
+        $location  = $this->getResponseLocation($destroyRouteResponse);
+        $this->assertLocationIsAIndexRoute($location);
+    }
+
+    public function assert_destroy_method_redirects_with_correct_message_on_bad_id_error()
+    {
+        $this->simulateAuthenticatedUser();
+        $badId = $this->simulateBadIDForSubjectModel();
+        $destroyRouteResponse = $this->DELETEDestroyRoute($badId);
+        $errorMessage = $this->getViewMessage($destroyRouteResponse);
+        $this->assertEquals($this->badIdExpectedErrorMessage, $errorMessage);
+    }
 }
 
 
