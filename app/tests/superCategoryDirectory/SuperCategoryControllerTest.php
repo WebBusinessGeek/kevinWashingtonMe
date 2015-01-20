@@ -232,11 +232,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_destroy_method_route_redirects_to_login_if_user_is_not_authenticated()
     {
-        $subjectModel = $this->createSubjectModelInstance();
-        $subjectModelId = $subjectModel->id;
-        $destroyRouteResponse = $this->deleteDestroyRoute($subjectModelId);
-        $this->assertRedirectedToLoginPage($destroyRouteResponse);
-        $this->cleanUpSingleModelAfterTesting($subjectModel);
+        $this->assert_destroy_method_route_redirects_to_login_if_user_is_not_authenticated();
     }
 
     public function test_destroy_method_after_delete_view_exists()

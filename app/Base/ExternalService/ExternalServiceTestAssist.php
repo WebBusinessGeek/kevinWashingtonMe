@@ -433,6 +433,15 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $errorMessage = $this->getViewMessage($updateRouteResponse);
         $this->assertEquals($this->badIdExpectedErrorMessage, $errorMessage);
     }
+
+    public function assert_destroy_method_route_redirects_to_login_if_user_is_not_authenticated()
+    {
+        $subjectModel = $this->createSubjectModelInstance();
+        $subjectModelId = $subjectModel->id;
+        $destroyRouteResponse = $this->deleteDestroyRoute($subjectModelId);
+        $this->assertRedirectedToLoginPage($destroyRouteResponse);
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
 }
 
 
