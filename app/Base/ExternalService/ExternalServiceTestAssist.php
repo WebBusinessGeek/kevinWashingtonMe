@@ -133,13 +133,13 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     public function assert_index_method_route_is_setup()
     {
         $this->simulateAuthenticatedUser();
-        $response = $this->getIndexRoute();
+        $response = $this->GETIndexRoute();
         $this->assertTrue($response->isOk());
     }
 
     public function assert_index_method_route_redirects_to_login_if_user_is_not_authenticated()
     {
-        $response = $this->getIndexRoute();
+        $response = $this->GETIndexRoute();
         $this->assertRedirectedToLoginPage($response);
     }
 
@@ -151,7 +151,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     public function assert_index_method_view_contains_paginated_variable_instance()
     {
         $this->simulateAuthenticatedUser();
-        $response = $this->getIndexRoute();
+        $response = $this->GETIndexRoute();
         $view = $response->original;
         $this->assertEquals($this->paginationClass, get_class($view[$this->indexCollectionVariable]));
     }
@@ -159,7 +159,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     public function assert_create_method_route_is_setup()
     {
         $this->simulateAuthenticatedUser();
-        $response = $this->getCreateRoute();
+        $response = $this->GETCreateRoute();
         $this->assertTrue($response->isOk());
     }
 
@@ -170,7 +170,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
 
     public function assert_create_method_route_redirects_to_login_if_user_is_not_authenticated()
     {
-        $response = $this->getCreateRoute();
+        $response = $this->GETCreateRoute();
         $this->assertRedirectedToLoginPage($response);
     }
 
@@ -179,7 +179,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $this->simulateAuthenticatedUser();
         $subjectModel = $this->createSubjectModelInstance();
         $idForShowRoute = $subjectModel->id;
-        $showRouteResponse = $this->getShowRoute($idForShowRoute);
+        $showRouteResponse = $this->GETShowRoute($idForShowRoute);
         $this->assertTrue($showRouteResponse->isOk());
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
@@ -193,7 +193,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     {
         $subjectModel = $this->createSubjectModelInstance();
         $idForShowRoute = $subjectModel->id;
-        $showRoutResponse = $this->getShowRoute($idForShowRoute);
+        $showRoutResponse = $this->GETShowRoute($idForShowRoute);
         $this->assertRedirectedToLoginPage($showRoutResponse);
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
@@ -203,7 +203,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $this->simulateAuthenticatedUser();
         $subjectModel = $this->createSubjectModelInstance();
         $idForShowRoute = $subjectModel->id;
-        $showRouteResponse = $this->getShowRoute($idForShowRoute);
+        $showRouteResponse = $this->GETShowRoute($idForShowRoute);
         $view = $this->getView($showRouteResponse);
         $variableInstanceFromView = $view[$this->showInstanceVariable];
         $this->assertTrue($this->isSubjectModelInstance($variableInstanceFromView));
@@ -215,7 +215,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $this->simulateAuthenticatedUser();
         $subjectModel = $this->createSubjectModelInstance();
         $idForShowRoute = $subjectModel->id;
-        $showRouteResponse = $this->getShowRoute($idForShowRoute);
+        $showRouteResponse = $this->GETShowRoute($idForShowRoute);
         $view = $this->getView($showRouteResponse);
         $variableInstanceFromView = $view[$this->showInstanceVariable];
         $this->assertEquals($subjectModel->id, $variableInstanceFromView->id);
@@ -226,7 +226,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     {
         $this->simulateAuthenticatedUser();
         $badId = $this->simulateBadIDForSubjectModel();
-        $showRouteResponse = $this->getShowRoute($badId);
+        $showRouteResponse = $this->GETShowRoute($badId);
         $location = $this->getResponseLocation($showRouteResponse);
         $this->assertLocationIsAIndexRoute($location);
     }
@@ -235,7 +235,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     {
         $this->simulateAuthenticatedUser();
         $badId = $this->simulateBadIDForSubjectModel();
-        $showRouteResponse = $this->getShowRoute($badId);
+        $showRouteResponse = $this->GETShowRoute($badId);
         $viewErrorMessage = $this->getViewMessage($showRouteResponse);
         $this->assertEquals($this->badIdExpectedErrorMessage, $viewErrorMessage);
     }
@@ -245,7 +245,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $this->simulateAuthenticatedUser();
         $subjectModel = $this->createSubjectModelInstance();
         $idForEditRoute = $subjectModel->id;
-        $editRouteResponse = $this->getEditRoute($idForEditRoute);
+        $editRouteResponse = $this->GETEditRoute($idForEditRoute);
         $this->assertTrue($editRouteResponse->isOk());
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
@@ -259,7 +259,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     {
         $subjectModel = $this->createSubjectModelInstance();
         $idForEditRoute = $subjectModel->id;
-        $editRouteResponse = $this->getEditRoute($idForEditRoute);
+        $editRouteResponse = $this->GETEditRoute($idForEditRoute);
         $this->assertRedirectedToLoginPage($editRouteResponse);
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
@@ -268,7 +268,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     {
         $this->simulateAuthenticatedUser();
         $badId = $this->simulateBadIDForSubjectModel();
-        $editRouteResponse = $this->getEditRoute($badId);
+        $editRouteResponse = $this->GETEditRoute($badId);
         $location = $this->getResponseLocation($editRouteResponse);
         $this->assertLocationIsAIndexRoute($location);
     }
@@ -277,7 +277,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     {
         $this->simulateAuthenticatedUser();
         $badId = $this->simulateBadIDForSubjectModel();
-        $editRouteResponse = $this->getEditRoute($badId);
+        $editRouteResponse = $this->GETEditRoute($badId);
         $viewErrorMessage = $this->getViewMessage($editRouteResponse);
         $this->assertEquals($this->badIdExpectedErrorMessage, $viewErrorMessage);
     }
@@ -287,7 +287,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $this->simulateAuthenticatedUser();
         $subjectModel = $this->createSubjectModelInstance();
         $idForEditRoute = $subjectModel->id;
-        $editRouteResponse = $this->getEditRoute($idForEditRoute);
+        $editRouteResponse = $this->GETEditRoute($idForEditRoute);
         $view = $this->getView($editRouteResponse);
         $variableInstanceFromView = $view[$this->editInstanceVariable];
         $this->assertTrue($this->isSubjectModelInstance($variableInstanceFromView));
@@ -299,7 +299,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $this->simulateAuthenticatedUser();
         $subjectModel = $this->createSubjectModelInstance();
         $idForEditRoute = $subjectModel->id;
-        $editRouteResponse = $this->getEditRoute($idForEditRoute);
+        $editRouteResponse = $this->GETEditRoute($idForEditRoute);
         $view = $this->getView($editRouteResponse);
         $variableInstanceFromView = $view[$this->editInstanceVariable];
         $this->assertEquals($subjectModel->id, $variableInstanceFromView->id);
@@ -310,7 +310,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     public function assert_store_method_redirects_to_login_if_user_is_not_authenticated()
     {
         $attributes = $this->simulateAttributesForSubjectModel('good');
-        $storeRouteResponse = $this->postStoreRoute($attributes);
+        $storeRouteResponse = $this->POSTStoreRoute($attributes);
         $this->assertRedirectedToLoginPage($storeRouteResponse);
     }
 
@@ -324,7 +324,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     {
         $this->simulateAuthenticatedUser();
         $attributes = $this->simulateAttributesForSubjectModel('good');
-        $storeRouteResponse = $this->postStoreRoute($attributes);
+        $storeRouteResponse = $this->POSTStoreRoute($attributes);
         $location = $this->getResponseLocation($storeRouteResponse);
         $this->assertLocationIsAShowRoute($location);
         $idForSubjectModel = $this->getIdFromShowRoute($location);
@@ -336,7 +336,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     {
         $this->simulateAuthenticatedUser();
         $attributes = $this->simulateAttributesForSubjectModel('bad');
-        $storeRouteResponse = $this->postStoreRoute($attributes);
+        $storeRouteResponse = $this->POSTStoreRoute($attributes);
         $location = $this->getResponseLocation($storeRouteResponse);
         $this->assertLocationIsACreateRoute($location);
     }
@@ -345,7 +345,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     {
         $this->simulateAuthenticatedUser();
         $attributes = $this->simulateAttributesForSubjectModel('bad');
-        $storeRouteResponse = $this->postStoreRoute($attributes);
+        $storeRouteResponse = $this->POSTStoreRoute($attributes);
         $viewMessage = $this->getViewMessage($storeRouteResponse);
         $this->assertEquals($this->badAttributesForStoreMessage, $viewMessage);
     }
@@ -355,7 +355,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $subjectModel = $this->createSubjectModelInstance();
         $subjectModelId = $subjectModel->id;
         $attributes = $this->simulateAttributesForSubjectModel('good');
-        $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $attributes);
+        $updateRouteResponse = $this->PUTUpdateRoute($subjectModelId, $attributes);
         $this->assertRedirectedToLoginPage($updateRouteResponse);
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
@@ -371,7 +371,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $subjectModel = $this->createSubjectModelInstance();
         $subjectModelId = $subjectModel->id;
         $attributes = $this->simulateAttributesForSubjectModel('good');
-        $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $attributes);
+        $updateRouteResponse = $this->PUTUpdateRoute($subjectModelId, $attributes);
         $location = $this->getResponseLocation($updateRouteResponse);
         $this->assertLocationIsAShowRoute($location);
         $this->cleanUpSingleModelAfterTesting($subjectModel);
@@ -383,7 +383,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $subjectModel = $this->createSubjectModelInstance();
         $subjectModelId = $subjectModel->id;
         $attributes = $this->simulateAttributesForSubjectModel('good');
-        $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $attributes);
+        $updateRouteResponse = $this->PUTUpdateRoute($subjectModelId, $attributes);
         $instanceVariable = $this->getShowInstanceVariableFromRedirectResponse($updateRouteResponse);
         $this->assertTrue($this->isSubjectModelInstance($instanceVariable));
         $this->cleanUpSingleModelAfterTesting($subjectModel);
@@ -396,7 +396,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $subjectModel = $this->createSubjectModelInstance();
         $subjectModelId = $subjectModel->id;
         $badAttributes = $this->simulateAttributesForSubjectModel('bad');
-        $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $badAttributes);
+        $updateRouteResponse = $this->PUTUpdateRoute($subjectModelId, $badAttributes);
         $location = $this->getResponseLocation($updateRouteResponse);
         $this->assertLocationIsAEditRoute($location);
         $this->cleanUpSingleModelAfterTesting($subjectModel);
@@ -408,7 +408,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $subjectModel = $this->createSubjectModelInstance();
         $subjectModelId = $subjectModel->id;
         $badAttributes = $this->simulateAttributesForSubjectModel('bad');
-        $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $badAttributes);
+        $updateRouteResponse = $this->PUTUpdateRoute($subjectModelId, $badAttributes);
         $errorMessage = $this->getViewMessage($updateRouteResponse);
         $this->assertEquals($this->badAttributesForUpdateMessage, $errorMessage);
         $this->cleanUpSingleModelAfterTesting($subjectModel);
@@ -419,7 +419,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $this->simulateAuthenticatedUser();
         $badId = $this->simulateBadIDForSubjectModel();
         $attributes = $this->simulateAttributesForSubjectModel('good');
-        $updateRouteResponse = $this->putUpdateRoute($badId, $attributes);
+        $updateRouteResponse = $this->PUTUpdateRoute($badId, $attributes);
         $location = $this->getResponseLocation($updateRouteResponse);
         $this->assertLocationIsAIndexRoute($location);
     }
@@ -429,7 +429,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $this->simulateAuthenticatedUser();
         $badId = $this->simulateBadIDForSubjectModel();
         $attributes = $this->simulateAttributesForSubjectModel('good');
-        $updateRouteResponse = $this->putUpdateRoute($badId, $attributes);
+        $updateRouteResponse = $this->PUTUpdateRoute($badId, $attributes);
         $errorMessage = $this->getViewMessage($updateRouteResponse);
         $this->assertEquals($this->badIdExpectedErrorMessage, $errorMessage);
     }
@@ -438,11 +438,27 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     {
         $subjectModel = $this->createSubjectModelInstance();
         $subjectModelId = $subjectModel->id;
-        $destroyRouteResponse = $this->deleteDestroyRoute($subjectModelId);
+        $destroyRouteResponse = $this->DELETEDestroyRoute($subjectModelId);
         $this->assertRedirectedToLoginPage($destroyRouteResponse);
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
+
+    public function assert_destroy_method_after_delete_view_exists()
+    {
+        $this->assertViewExists($this->destroyAfterDeleteView);
+    }
+
+    public function assert_destroy_method_correct_instance_is_deleted()
+    {
+        $this->simulateAuthenticatedUser();
+        $subjectModel = $this->createSubjectModelInstance();
+        $subjectModelId = $subjectModel->id;
+        $this->DELETEDestroyRoute($subjectModelId);
+        $databaseCheck = $this->getSubjectModelFromDatabase($subjectModelId);
+        $this->assertEquals(null, $databaseCheck);
+    }
 }
+
 
 
 

@@ -55,6 +55,7 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     public $badAttributesForUpdateMessage = 'Invalid attributes sent to update method.';
 
     public $destroyRoute;
+    public $destroyAfterDeleteView;
 
     public function simulateAuthenticatedUser()
     {
@@ -120,24 +121,24 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
 
 
 
-    public function getIndexRoute()
+    public function GETIndexRoute()
     {
-        return $this->getRoute($this->indexRoute);
+        return $this->GETRoute($this->indexRoute);
     }
-    public function getCreateRoute()
+    public function GETCreateRoute()
     {
-        return $this->getRoute($this->createRoute);
+        return $this->GETRoute($this->createRoute);
     }
-    public function getShowRoute($id)
+    public function GETShowRoute($id)
     {
-        return $this->getRoute($this->showRoute.'/'.$id);
+        return $this->GETRoute($this->showRoute.'/'.$id);
     }
-    public function getEditRoute($id)
+    public function GETEditRoute($id)
     {
         $editRoute = $this->createEditRoute($id);
-        return $this->getRoute($editRoute);
+        return $this->GETRoute($editRoute);
     }
-    public function getRoute($route, $parameters = null)
+    public function GETRoute($route, $parameters = null)
     {
        return (isset($parameters))? $this->call('GET', $route, $parameters): $this->call('GET', $route);
     }
@@ -149,33 +150,33 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
 
 
 
-    public function putUpdateRoute($id, $attributes)
+    public function PUTUpdateRoute($id, $attributes)
     {
-        return $this->putRoute($this->updateRoute.'/'.$id, $attributes);
+        return $this->PUTRoute($this->updateRoute.'/'.$id, $attributes);
     }
-    public function putRoute($route, $attributes)
+    public function PUTRoute($route, $attributes)
     {
         return $this->call('PUT', $route, $attributes);
     }
 
 
 
-    public function postStoreRoute($attributes)
+    public function POSTStoreRoute($attributes)
     {
-        return $this->postRoute($this->storeRoute, $attributes);
+        return $this->POSTRoute($this->storeRoute, $attributes);
     }
-    public function postRoute($route, $attributes)
+    public function POSTRoute($route, $attributes)
     {
         return $this->call('POST', $route, $attributes);
     }
 
 
-    public function deleteDestroyRoute($id)
+    public function DELETEDestroyRoute($id)
     {
         $route = $this->destroyRoute.'/'.$id;
-        return $this->deleteRoute($route);
+        return $this->DELETERoute($route);
     }
-    public function deleteRoute($route)
+    public function DELETERoute($route)
     {
         return $this->call('DELETE', $route);
     }

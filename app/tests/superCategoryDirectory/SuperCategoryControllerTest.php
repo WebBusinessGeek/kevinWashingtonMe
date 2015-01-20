@@ -237,7 +237,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
 
     public function test_destroy_method_after_delete_view_exists()
     {
-        $this->assertViewExists($this->destroyAfterDeleteView);
+        $this->assert_destroy_method_after_delete_view_exists();
     }
 
     public function test_destroy_method_correct_instance_is_deleted()
@@ -245,7 +245,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->simulateAuthenticatedUser();
         $subjectModel = $this->createSubjectModelInstance();
         $subjectModelId = $subjectModel->id;
-        $this->deleteDestroyRoute($subjectModelId);
+        $this->DELETEDestroyRoute($subjectModelId);
         $databaseCheck = $this->getSubjectModelFromDatabase($subjectModelId);
         $this->assertEquals(null, $databaseCheck);
     }
@@ -255,7 +255,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->simulateAuthenticatedUser();
         $subjectModel = $this->createSubjectModelInstance();
         $subjectModelId = $subjectModel->id;
-        $destroyRouteResponse = $this->deleteDestroyRoute($subjectModelId);
+        $destroyRouteResponse = $this->DELETEDestroyRoute($subjectModelId);
         $location = $this->getResponseLocation($destroyRouteResponse);
         $this->assertLocationIsAIndexRoute($location);
     }
@@ -265,7 +265,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->simulateAuthenticatedUser();
         $subjectModel = $this->createSubjectModelInstance();
         $subjectModelId = $subjectModel->id;
-        $destroyRouteResponse = $this->deleteDestroyRoute($subjectModelId);
+        $destroyRouteResponse = $this->DELETEDestroyRoute($subjectModelId);
         $successMessage = $this->getViewMessage($destroyRouteResponse);
         $this->assertEquals($this->destroySuccessMessage, $successMessage);
     }
@@ -274,7 +274,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     {
         $this->simulateAuthenticatedUser();
         $badId = $this->simulateBadIDForSubjectModel();
-        $destroyRouteResponse = $this->deleteDestroyRoute($badId);
+        $destroyRouteResponse = $this->DELETEDestroyRoute($badId);
         $location  = $this->getResponseLocation($destroyRouteResponse);
         $this->assertLocationIsAIndexRoute($location);
     }
@@ -283,7 +283,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     {
         $this->simulateAuthenticatedUser();
         $badId = $this->simulateBadIDForSubjectModel();
-        $destroyRouteResponse = $this->deleteDestroyRoute($badId);
+        $destroyRouteResponse = $this->DELETEDestroyRoute($badId);
         $errorMessage = $this->getViewMessage($destroyRouteResponse);
         $this->assertEquals($this->badIdExpectedErrorMessage, $errorMessage);
     }
