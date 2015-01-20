@@ -33,6 +33,7 @@ Route::group(array('before' => 'auth', 'prefix' => 'dashboard'), function ()
 {
     Route::resource('supercategory', 'SuperCategoryController');
     Route::resource('tool', 'ToolController');
+    Route::resource('tag', 'TagController');
 });
 
 
