@@ -47,12 +47,12 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
 
     public $storeRoute;
     public $storeAfterPostView;
-    public $storeExpectedErrorMessage = 'Invalid attributes sent to store method.';
+    public $badAttributesForStoreMessage = 'Invalid attributes sent to store method.';
 
 
     public $updateRoute;
     public $updateAfterPutView;
-    public $updateExpectedErrorMessage = 'Invalid attributes sent to update method.';
+    public $badAttributesForUpdateMessage = 'Invalid attributes sent to update method.';
 
     public $destroyRoute;
 

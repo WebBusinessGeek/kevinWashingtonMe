@@ -96,7 +96,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
 
     abstract public function test_update_method_after_put_view_exists();
 
-    abstract public function test_update_method_redirects_to_correct_route_on_success();
+    abstract public function test_update_method_redirects_to_show_route_on_success();
 
     abstract public function test_update_method_redirects_with_correct_instance_on_success();
 
@@ -347,7 +347,91 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $attributes = $this->simulateAttributesForSubjectModel('bad');
         $storeRouteResponse = $this->postStoreRoute($attributes);
         $viewMessage = $this->getViewMessage($storeRouteResponse);
-        $this->assertEquals($this->storeExpectedErrorMessage, $viewMessage);
+        $this->assertEquals($this->badAttributesForStoreMessage, $viewMessage);
+    }
+
+    public function assert_update_method_route_redirects_to_login_if_user_is_not_authenticated()
+    {
+        $subjectModel = $this->createSubjectModelInstance();
+        $subjectModelId = $subjectModel->id;
+        $attributes = $this->simulateAttributesForSubjectModel('good');
+        $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $attributes);
+        $this->assertRedirectedToLoginPage($updateRouteResponse);
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
+
+    public function assert_update_method_after_put_view_exists()
+    {
+        $this->assertViewExists($this->updateAfterPutView);
+    }
+
+    public function assert_update_method_redirects_to_show_route_on_success()
+    {
+        $this->simulateAuthenticatedUser();
+        $subjectModel = $this->createSubjectModelInstance();
+        $subjectModelId = $subjectModel->id;
+        $attributes = $this->simulateAttributesForSubjectModel('good');
+        $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $attributes);
+        $location = $this->getResponseLocation($updateRouteResponse);
+        $this->assertLocationIsAShowRoute($location);
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
+
+    public function assert_update_method_redirects_with_correct_instance_on_success()
+    {
+        $this->simulateAuthenticatedUser();
+        $subjectModel = $this->createSubjectModelInstance();
+        $subjectModelId = $subjectModel->id;
+        $attributes = $this->simulateAttributesForSubjectModel('good');
+        $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $attributes);
+        $instanceVariable = $this->getShowInstanceVariableFromRedirectResponse($updateRouteResponse);
+        $this->assertTrue($this->isSubjectModelInstance($instanceVariable));
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
+
+
+    public function assert_update_method_redirects_to_edit_route_on_bad_attributes_error()
+    {
+        $this->simulateAuthenticatedUser();
+        $subjectModel = $this->createSubjectModelInstance();
+        $subjectModelId = $subjectModel->id;
+        $badAttributes = $this->simulateAttributesForSubjectModel('bad');
+        $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $badAttributes);
+        $location = $this->getResponseLocation($updateRouteResponse);
+        $this->assertLocationIsAEditRoute($location);
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
+
+    public function assert_update_method_redirects_with_correct_error_message_on_bad_attributes_error()
+    {
+        $this->simulateAuthenticatedUser();
+        $subjectModel = $this->createSubjectModelInstance();
+        $subjectModelId = $subjectModel->id;
+        $badAttributes = $this->simulateAttributesForSubjectModel('bad');
+        $updateRouteResponse = $this->putUpdateRoute($subjectModelId, $badAttributes);
+        $errorMessage = $this->getViewMessage($updateRouteResponse);
+        $this->assertEquals($this->badAttributesForUpdateMessage, $errorMessage);
+        $this->cleanUpSingleModelAfterTesting($subjectModel);
+    }
+
+    public function assert_update_method_redirects_to_index_route_on_bad_id_error()
+    {
+        $this->simulateAuthenticatedUser();
+        $badId = $this->simulateBadIDForSubjectModel();
+        $attributes = $this->simulateAttributesForSubjectModel('good');
+        $updateRouteResponse = $this->putUpdateRoute($badId, $attributes);
+        $location = $this->getResponseLocation($updateRouteResponse);
+        $this->assertLocationIsAIndexRoute($location);
+    }
+
+    public function assert_update_method_redirects_with_correct_error_message_on_bad_id_error()
+    {
+        $this->simulateAuthenticatedUser();
+        $badId = $this->simulateBadIDForSubjectModel();
+        $attributes = $this->simulateAttributesForSubjectModel('good');
+        $updateRouteResponse = $this->putUpdateRoute($badId, $attributes);
+        $errorMessage = $this->getViewMessage($updateRouteResponse);
+        $this->assertEquals($this->badIdExpectedErrorMessage, $errorMessage);
     }
 }
 
