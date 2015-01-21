@@ -245,7 +245,7 @@ trait ValidatorTrait {
     {
         $falseCounter = 0;
         $formatValuesForAttributesOnModel = $this->getModelSpecificAttributeValues($modelAttributes, 'format');
-        $blockFormatCheck = ['exists', 'string', 'image','text'];
+        $blockFormatCheck = ['exists', 'string', 'image','text','path'];
 
         foreach($credentialsToCheck as $attributeName => $attributeValue)
         {

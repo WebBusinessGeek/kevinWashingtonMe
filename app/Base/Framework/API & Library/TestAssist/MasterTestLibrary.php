@@ -16,6 +16,14 @@ use Illuminate\Support\Facades\DB;
 class MasterTestLibrary extends \TestCase {
 
 
+    public $imageTestingDirectories =[
+
+        'uploads/large',
+        'uploads/medium',
+        'uploads/original',
+        'uploads/small',
+        'uploads/testing'
+    ];
 
 
     /***********************************************************************************************************/
@@ -46,6 +54,25 @@ class MasterTestLibrary extends \TestCase {
     }
 
 
+    public function clean_files_from_all_directories($paths)
+    {
+        foreach($paths as $path)
+        {
+            $this->clean_files_from_directory(public_path().'/'.$path);
+        }
+    }
+
+
+    public function clean_files_from_directory($path)
+    {
+        $files = glob($path.'/*');
+
+        foreach($files as $file)
+        {
+            if(is_file($file))
+                unlink($file);
+        }
+    }
 
 
     /**************************************             Fakers           ***********************************************/
@@ -94,6 +121,33 @@ class MasterTestLibrary extends \TestCase {
         return '215-334-5454';
     }
 
+    public function fakeGoodImageAttribute($extension = 'png')
+    {
+        $filename = $this->generateRandomIntegers();
+        $storageDirectory = public_path(). '/'. 'uploads/testing'.'/';
+        $extensionMethod = 'image'.$extension;
+
+        $image =imagecreate(300, 300);
+        imagecolorallocate($image, 0, 0, 255 );
+        $extensionMethod($image, public_path().'/'. $filename . '.' . $extension);
+        rename(public_path().'/'. $filename . '.' . $extension, $storageDirectory . $filename . '.' . $extension);
+
+        $file = new \Symfony\Component\HttpFoundation\File\UploadedFile(
+            $storageDirectory . $filename . '.' . $extension,
+            $filename . '.' . $extension,
+            'image/'. $extension,
+            filesize($storageDirectory . $filename . '.' . $extension)
+        );
+
+
+        return $file;
+    }
+
+    public function fakeGoodPathAttribute()
+    {
+        return 'somePath/here';
+    }
+
     public function fakeBadEmailAttribute()
     {
         return 'FakeBadEmailAttribute';
@@ -128,6 +182,18 @@ class MasterTestLibrary extends \TestCase {
     {
         return '215-555933';
     }
+
+    public function fakeBadImageAttribute($extension = 'png')
+    {
+        return '';
+    }
+
+    public function fakeBadPathAttribute()
+    {
+        return '';
+    }
+
+
 
 
 

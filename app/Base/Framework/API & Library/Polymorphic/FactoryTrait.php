@@ -86,7 +86,6 @@ trait FactoryTrait {
             filesize($storageDirectory . $filename . '.' . $ext)
         );
 
-//        imagedestroy($image);
 
         return $file;
     }

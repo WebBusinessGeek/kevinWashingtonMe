@@ -39,6 +39,7 @@ Route::group(array('before' => 'auth', 'prefix' => 'dashboard'), function ()
     Route::resource('skill', 'SkillController');
     Route::resource('experience', 'ExperienceController');
     Route::resource('inquiry', 'InquiryController');
+    Route::resource('image', 'ImageController');
 });
 
 
