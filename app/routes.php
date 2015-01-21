@@ -12,15 +12,6 @@
 |
 */
 
-Route::get('/', function()
-{
-    return View::make('hello');
-
-
-
-
-
-});
 
 Route::get('/login', function()
 {
@@ -40,6 +31,16 @@ Route::group(array('before' => 'auth', 'prefix' => 'dashboard'), function ()
     Route::resource('experience', 'ExperienceController');
     Route::resource('inquiry', 'InquiryController');
     Route::resource('image', 'ImageController');
+});
+
+
+Route::group(array(),function()
+{
+    Route::get('/', 'PublicPagesController@home');
+    Route::get('/skills', 'PublicPagesController@skills');
+    Route::get('/experiences', 'PublicPagesController@experiences');
+    Route::get('/connect', 'PublicPagesController@connect');
+    Route::post('/connect', 'PublicPagesController@inquiryCreate');
 });
 
 
