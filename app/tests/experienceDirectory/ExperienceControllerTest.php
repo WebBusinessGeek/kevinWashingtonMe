@@ -3,37 +3,37 @@
  * Created by PhpStorm.
  * User: MacBookEr
  * Date: 1/20/15
- * Time: 12:59 PM
+ * Time: 8:21 PM
  */
 
-namespace tests\categoryDirectory;
+namespace tests\experienceDirectory;
 
 
 use App\Base\ExternalServiceTestAssist;
 
-class CategoryControllerTest extends ExternalServiceTestAssist {
+class ExperienceControllerTest extends ExternalServiceTestAssist {
 
-    public $indexRoute = 'dashboard/category';
-    public $indexView = 'category.index';
-    public $indexCollectionVariable = 'categories';
-    public $createRoute = 'dashboard/category/create';
-    public $createView = 'category.create';
-    public $showRoute = 'dashboard/category';
-    public $showView = 'category.show';
-    public $showInstanceVariable = 'category';
-    public $editRoute = 'dashboard/category/{id}/edit';
-    public $editView = 'category.edit';
-    public $editInstanceVariable = 'categoryForEdit';
-    public $storeRoute = 'dashboard/category/';
-    public $storeAfterPostView = 'category.show';
-    public $updateRoute = 'dashboard/category';
-    public $updateAfterPutView = 'category.show';
-    public $destroyRoute = 'dashboard/category';
-    public $destroyAfterDeleteView = 'category.index';
+    public $indexRoute = 'dashboard/experience';
+    public $indexView = 'experience.index';
+    public $indexCollectionVariable = 'experiences';
+    public $createRoute = 'dashboard/experience/create';
+    public $createView = 'experience.create';
+    public $showRoute = 'dashboard/experience';
+    public $showView = 'experience.show';
+    public $showInstanceVariable = 'experience';
+    public $editRoute = 'dashboard/experience/{id}/edit';
+    public $editView = 'experience.edit';
+    public $editInstanceVariable = 'experienceForEdit';
+    public $storeRoute = 'dashboard/experience/';
+    public $storeAfterPostView = 'experience.show';
+    public $updateRoute = 'dashboard/experience';
+    public $updateAfterPutView = 'experience.show';
+    public $destroyRoute = 'dashboard/experience';
+    public $destroyAfterDeleteView = 'experience.index';
 
     public function __construct()
     {
-        $this->externalService = new \CategoryController();
+        $this->externalService = new \ExperienceController();
     }
     /***********************************************************************************************************/
     /*                                          Index method test cases                                               */
@@ -41,8 +41,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerIndexTests
+     * @group experienceControllerTests
+     * @group experienceControllerIndexTests
      */
     public function test_index_method_route_is_setup()
     {
@@ -51,8 +51,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerIndexTests
+     * @group experienceControllerTests
+     * @group experienceControllerIndexTests
      */
     public function test_index_method_route_redirects_to_login_if_user_is_not_authenticated()
     {
@@ -60,8 +60,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerIndexTests
+     * @group experienceControllerTests
+     * @group experienceControllerIndexTests
      */
     public function test_index_method_view_exists()
     {
@@ -70,8 +70,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerIndexTests
+     * @group experienceControllerTests
+     * @group experienceControllerIndexTests
      */
     public function test_index_method_view_contains_paginated_variable_instance()
     {
@@ -83,8 +83,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerCreateTests
+     * @group experienceControllerTests
+     * @group experienceControllerCreateTests
      */
     public function test_create_method_route_is_setup()
     {
@@ -93,8 +93,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerCreateTests
+     * @group experienceControllerTests
+     * @group experienceControllerCreateTests
      */
     public function test_create_method_view_exists()
     {
@@ -103,8 +103,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerCreateTests
+     * @group experienceControllerTests
+     * @group experienceControllerCreateTests
      */
     public function test_create_method_route_redirects_to_login_if_user_is_not_authenticated()
     {
@@ -117,8 +117,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerShowTests
+     * @group experienceControllerTests
+     * @group experienceControllerShowTests
      */
     public function test_show_method_route_is_setup()
     {
@@ -127,8 +127,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerShowTests
+     * @group experienceControllerTests
+     * @group experienceControllerShowTests
      */
     public function test_show_method_view_exists()
     {
@@ -137,8 +137,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerShowTests
+     * @group experienceControllerTests
+     * @group experienceControllerShowTests
      */
     public function test_show_method_redirects_to_login_if_user_is_not_authenticated()
     {
@@ -147,8 +147,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerShowTests
+     * @group experienceControllerTests
+     * @group experienceControllerShowTests
      */
     public function test_show_method_view_contains_variable_instance_of_correct_class()
     {
@@ -157,8 +157,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerShowTests
+     * @group experienceControllerTests
+     * @group experienceControllerShowTests
      */
     public function test_show_method_view_returns_correct_instance()
     {
@@ -167,8 +167,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerShowTests
+     * @group experienceControllerTests
+     * @group experienceControllerShowTests
      */
     public function test_show_method_redirects_to_index_route_on_bad_id_error()
     {
@@ -177,8 +177,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerShowTests
+     * @group experienceControllerTests
+     * @group experienceControllerShowTests
      */
     public function test_show_method_redirects_with_correct_error_message_on_bad_id_error()
     {
@@ -191,8 +191,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerEditTests
+     * @group experienceControllerTests
+     * @group experienceControllerEditTests
      */
     public function test_edit_method_route_is_setup()
     {
@@ -201,8 +201,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerEditTests
+     * @group experienceControllerTests
+     * @group experienceControllerEditTests
      */
     public function test_edit_method_view_exists()
     {
@@ -211,8 +211,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerEditTests
+     * @group experienceControllerTests
+     * @group experienceControllerEditTests
      */
     public function test_edit_method_redirects_to_login_if_user_is_not_authenticated()
     {
@@ -221,8 +221,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerEditTests
+     * @group experienceControllerTests
+     * @group experienceControllerEditTests
      */
     public function test_edit_method_redirects_to_index_on_bad_id_error()
     {
@@ -231,8 +231,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerEditTests
+     * @group experienceControllerTests
+     * @group experienceControllerEditTests
      */
     public function test_edit_method_redirects_with_correct_error_message_on_bad_id_error()
     {
@@ -241,8 +241,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerEditTests
+     * @group experienceControllerTests
+     * @group experienceControllerEditTests
      */
     public function test_edit_method_view_contains_instance_of_correct_class()
     {
@@ -251,8 +251,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerEditTests
+     * @group experienceControllerTests
+     * @group experienceControllerEditTests
      */
     public function test_edit_method_view_contains_correct_subjectModel_instance()
     {
@@ -265,8 +265,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerStoreTests
+     * @group experienceControllerTests
+     * @group experienceControllerStoreTests
      */
     public function test_store_method_redirects_to_login_if_user_is_not_authenticated()
     {
@@ -275,8 +275,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerStoreTests
+     * @group experienceControllerTests
+     * @group experienceControllerStoreTests
      */
     public function test_store_method_after_post_view_exists()
     {
@@ -285,8 +285,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerStoreTests
+     * @group experienceControllerTests
+     * @group experienceControllerStoreTests
      */
     public function test_store_method_redirects_to_correct_route_on_success()
     {
@@ -295,8 +295,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerStoreTests
+     * @group experienceControllerTests
+     * @group experienceControllerStoreTests
      */
     public function test_store_method_redirects_to_create_route_on_bad_attributes_error()
     {
@@ -305,8 +305,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerStoreTests
+     * @group experienceControllerTests
+     * @group experienceControllerStoreTests
      */
     public function test_store_method_view_has_correct_error_message_on_bad_attributes_error()
     {
@@ -320,8 +320,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerUpdateTests
+     * @group experienceControllerTests
+     * @group experienceControllerUpdateTests
      */
     public function test_update_method_route_redirects_to_login_if_user_is_not_authenticated()
     {
@@ -330,8 +330,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerUpdateTests
+     * @group experienceControllerTests
+     * @group experienceControllerUpdateTests
      */
     public function test_update_method_after_put_view_exists()
     {
@@ -340,8 +340,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerUpdateTests
+     * @group experienceControllerTests
+     * @group experienceControllerUpdateTests
      */
     public function test_update_method_redirects_to_show_route_on_success()
     {
@@ -350,8 +350,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerUpdateTests
+     * @group experienceControllerTests
+     * @group experienceControllerUpdateTests
      */
     public function test_update_method_redirects_with_correct_instance_on_success()
     {
@@ -360,8 +360,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerUpdateTests
+     * @group experienceControllerTests
+     * @group experienceControllerUpdateTests
      */
     public function test_update_method_redirects_to_edit_route_on_bad_attributes_error()
     {
@@ -370,8 +370,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerUpdateTests
+     * @group experienceControllerTests
+     * @group experienceControllerUpdateTests
      */
     public function test_update_method_redirects_with_correct_error_message_on_bad_attributes_error()
     {
@@ -380,8 +380,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerUpdateTests
+     * @group experienceControllerTests
+     * @group experienceControllerUpdateTests
      */
     public function test_update_method_redirects_to_index_route_on_bad_id_error()
     {
@@ -390,8 +390,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerUpdateTests
+     * @group experienceControllerTests
+     * @group experienceControllerUpdateTests
      */
     public function test_update_method_redirects_with_correct_error_message_on_bad_id_error()
     {
@@ -405,8 +405,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerDestroyTests
+     * @group experienceControllerTests
+     * @group experienceControllerDestroyTests
      */
     public function test_destroy_method_route_redirects_to_login_if_user_is_not_authenticated()
     {
@@ -415,8 +415,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerDestroyTests
+     * @group experienceControllerTests
+     * @group experienceControllerDestroyTests
      */
     public function test_destroy_method_after_delete_view_exists()
     {
@@ -425,8 +425,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerDestroyTests
+     * @group experienceControllerTests
+     * @group experienceControllerDestroyTests
      */
     public function test_destroy_method_correct_instance_is_deleted()
     {
@@ -435,8 +435,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerDestroyTests
+     * @group experienceControllerTests
+     * @group experienceControllerDestroyTests
      */
     public function test_destroy_method_redirects_to_index_route_on_success()
     {
@@ -445,8 +445,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerDestroyTests
+     * @group experienceControllerTests
+     * @group experienceControllerDestroyTests
      */
     public function test_destroy_method_redirects_with_correct_message_on_success()
     {
@@ -455,8 +455,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerDestroyTests
+     * @group experienceControllerTests
+     * @group experienceControllerDestroyTests
      */
     public function test_destroy_method_redirects_to_index_route_on_bad_id_error()
     {
@@ -465,8 +465,8 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
 
     /**
      * @group controllerTests
-     * @group categoryControllerTests
-     * @group categoryControllerDestroyTests
+     * @group experienceControllerTests
+     * @group experienceControllerDestroyTests
      */
     public function test_destroy_method_redirects_with_correct_message_on_bad_id_error()
     {

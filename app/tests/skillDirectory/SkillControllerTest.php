@@ -365,7 +365,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
      */
     public function test_update_method_redirects_to_edit_route_on_bad_attributes_error()
     {
-//        $this->assert_update_method_redirects_to_edit_route_on_bad_attributes_error();
+        $this->assert_update_method_redirects_to_edit_route_on_bad_attributes_error();
     }
 
     /**
@@ -375,7 +375,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
      */
     public function test_update_method_redirects_with_correct_error_message_on_bad_attributes_error()
     {
-//        $this->assert_update_method_redirects_with_correct_error_message_on_bad_attributes_error();
+        $this->assert_update_method_redirects_with_correct_error_message_on_bad_attributes_error();
     }
 
     /**
@@ -385,7 +385,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
      */
     public function test_update_method_redirects_to_index_route_on_bad_id_error()
     {
-//        $this->assert_update_method_redirects_to_index_route_on_bad_id_error();
+        $this->assert_update_method_redirects_to_index_route_on_bad_id_error();
     }
 
     /**
@@ -395,7 +395,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
      */
     public function test_update_method_redirects_with_correct_error_message_on_bad_id_error()
     {
-//        $this->assert_update_method_redirects_with_correct_error_message_on_bad_id_error();
+        $this->assert_update_method_redirects_with_correct_error_message_on_bad_id_error();
     }
 
 
