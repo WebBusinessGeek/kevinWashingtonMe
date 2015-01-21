@@ -309,7 +309,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
 
     public function assert_store_method_redirects_to_login_if_user_is_not_authenticated()
     {
-        $attributes = $this->simulateAttributesForSubjectModel('good');
+        $attributes = $this->simulateAttributesForSubjectModel('bad');
         $storeRouteResponse = $this->POSTStoreRoute($attributes);
         $this->assertRedirectedToLoginPage($storeRouteResponse);
     }
@@ -329,6 +329,10 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $this->assertLocationIsAShowRoute($location);
         $idForSubjectModel = $this->getIdFromShowRoute($location);
         $subjectModel = $this->getSubjectModelFromDatabase($idForSubjectModel);
+        if($this->subjectModelHasOwner())
+        {
+            $this->destroySubjectModelOwner($subjectModel);
+        }
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
@@ -357,6 +361,13 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $attributes = $this->simulateAttributesForSubjectModel('good');
         $updateRouteResponse = $this->PUTUpdateRoute($subjectModelId, $attributes);
         $this->assertRedirectedToLoginPage($updateRouteResponse);
+
+        if($this->subjectModelHasOwner())
+        {
+            $attributeThatRepresentsOwner = $this->getAttributeThatRepresentsOwner();
+            $subjectModel->$attributeThatRepresentsOwner = $attributes[$attributeThatRepresentsOwner];
+            $this->destroySubjectModelOwner($subjectModel);
+        }
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
@@ -374,6 +385,11 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $updateRouteResponse = $this->PUTUpdateRoute($subjectModelId, $attributes);
         $location = $this->getResponseLocation($updateRouteResponse);
         $this->assertLocationIsAShowRoute($location);
+        $subjectModelFromDB = $this->getSubjectModelFromDatabase($subjectModelId);
+        if($this->subjectModelHasOwner())
+        {
+            $this->destroySubjectModelOwner($subjectModelFromDB);
+        }
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
@@ -386,6 +402,11 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
         $updateRouteResponse = $this->PUTUpdateRoute($subjectModelId, $attributes);
         $instanceVariable = $this->getShowInstanceVariableFromRedirectResponse($updateRouteResponse);
         $this->assertTrue($this->isSubjectModelInstance($instanceVariable));
+        $subjectModelFromDB = $this->getSubjectModelFromDatabase($subjectModelId);
+        if($this->subjectModelHasOwner())
+        {
+            $this->destroySubjectModelOwner($subjectModelFromDB);
+        }
         $this->cleanUpSingleModelAfterTesting($subjectModel);
     }
 
@@ -418,7 +439,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     {
         $this->simulateAuthenticatedUser();
         $badId = $this->simulateBadIDForSubjectModel();
-        $attributes = $this->simulateAttributesForSubjectModel('good');
+        $attributes = $this->simulateAttributesForSubjectModel('bad');
         $updateRouteResponse = $this->PUTUpdateRoute($badId, $attributes);
         $location = $this->getResponseLocation($updateRouteResponse);
         $this->assertLocationIsAIndexRoute($location);
@@ -428,7 +449,7 @@ abstract class ExternalServiceTestAssist extends ExternalServiceTestLibrary {
     {
         $this->simulateAuthenticatedUser();
         $badId = $this->simulateBadIDForSubjectModel();
-        $attributes = $this->simulateAttributesForSubjectModel('good');
+        $attributes = $this->simulateAttributesForSubjectModel('bad');
         $updateRouteResponse = $this->PUTUpdateRoute($badId, $attributes);
         $errorMessage = $this->getViewMessage($updateRouteResponse);
         $this->assertEquals($this->badIdExpectedErrorMessage, $errorMessage);

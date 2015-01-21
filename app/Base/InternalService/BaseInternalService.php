@@ -352,6 +352,10 @@ abstract class BaseInternalService {
     }
 
 
+    public function getExistValuesForModel()
+    {
+        return $this->getModelSpecificAttributeValues($this->getModelAttributes(), 'exists');
+    }
 
 
 

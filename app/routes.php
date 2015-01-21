@@ -14,8 +14,11 @@
 
 Route::get('/', function()
 {
-    return View::make('hello');
+//    return View::make('hello');
 
+    $library = new \App\Base\ConcreteExternalServiceTestLibrary();
+
+    dd($library->getAttributeThatRepresentsOwner());
 
 //
 

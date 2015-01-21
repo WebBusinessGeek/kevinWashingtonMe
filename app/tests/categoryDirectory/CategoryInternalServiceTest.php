@@ -21,6 +21,7 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
     /***********************************************************************************************************/
     /*                                          Store method tests                                              */
     /***********************************************************************************************************/
+
     /**
      *Test method returns new category instance if attributes are valid.
      *

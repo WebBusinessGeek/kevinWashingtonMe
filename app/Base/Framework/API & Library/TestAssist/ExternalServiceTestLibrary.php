@@ -294,6 +294,54 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
         return $attributesToReturn;
     }
 
+    public function subjectModelHasOwner()
+    {
+        $existValues = $this->getExistValuesForSubjectModel();
+
+        $counter = 0;
+
+        foreach($existValues as $checkIfExistsIsSet)
+        {
+            if($checkIfExistsIsSet != null)
+            {
+                $counter++;
+            }
+        }
+        return($counter > 0)? true :false;
+    }
+
+    public function getExistValuesForSubjectModel()
+    {
+        return $this->externalService->getExistValuesForSubjectModel();
+    }
+
+    public function destroySubjectModelOwner($subjectModel)
+    {
+        $ownerAttributeName = $this->getAttributeThatRepresentsOwner();
+        $ownerId = $subjectModel->$ownerAttributeName;
+        $ownerClassName = $this->getSubjectModelSingleOwnerClassName();
+        $ownerClassName::destroy($ownerId);
+    }
+
+    public function getAttributeThatRepresentsOwner()
+    {
+        $existValues = $this->getExistValuesForSubjectModel();
+        $arrayToReturn = [];
+
+        foreach($existValues as $attributeName => $checkIfExistIsSet)
+        {
+            if($checkIfExistIsSet != null)
+            {
+                array_push($arrayToReturn, $attributeName);
+            }
+        }
+        if(count($arrayToReturn) >= 2)
+        {
+            throw new \Exception('Subject model has more than one owner');
+        }
+        return $arrayToReturn[0];
+    }
+
     public function fakeFormat($format, $goodOrBad)
     {
         $dynamicMethodToCall = 'fake'.ucfirst($goodOrBad).ucfirst($format).'Attribute';

@@ -280,5 +280,11 @@ abstract class BaseExternalService extends \BaseController {
     {
         return $this->internalService->getModelSpecificAttributeValues($this->getSubjectModelAttributes(),'format');
     }
+
+    public function getExistValuesForSubjectModel()
+    {
+        return $this->internalService->getExistValuesForModel();
+    }
 }
+
 
