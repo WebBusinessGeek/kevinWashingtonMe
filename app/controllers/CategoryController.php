@@ -1,7 +1,6 @@
 <?php
 
-class CategoryController  extends \App\Base\BaseExternalService
-{
+class CategoryController  extends \App\Base\BaseExternalService {
 
 	public $showRoute = 'dashboard/category';
 	public $createRoute = 'dashboard/category/create';

@@ -14,13 +14,11 @@
 
 Route::get('/', function()
 {
-//    return View::make('hello');
+    return View::make('hello');
 
-    $library = new \App\Base\ConcreteExternalServiceTestLibrary();
 
-    dd($library->getAttributeThatRepresentsOwner());
 
-//
+
 
 });
 
@@ -38,6 +36,7 @@ Route::group(array('before' => 'auth', 'prefix' => 'dashboard'), function ()
     Route::resource('tool', 'ToolController');
     Route::resource('tag', 'TagController');
     Route::resource('category', 'CategoryController');
+    Route::resource('skill', 'SkillController');
 });
 
 
