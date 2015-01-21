@@ -22,6 +22,12 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceStoreTests
+     * @group internalServiceTests
+     *
+     *
      *Test store method creates correct instances.
      */
     public function test_store_method_creates_correct_instance_if_attributes_are_correct()
@@ -35,6 +41,11 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test store method stores correct instance in database.
      */
     public function test_store_method_saves_instance_in_database_if_attributes_are_correct()
@@ -48,6 +59,11 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
 
 
     /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test store method returns error message if attributes are invalid.
      */
     public function test_store_method_returns_error_message_if_attributes_are_invalid()
@@ -63,6 +79,11 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceShowTests
+     * @group internalServiceTests
+     *
      *Test show method returns instance of correct class.
      */
     public function test_show_method_returns_instance_of_correct_class_if_subjectModel_id_exists()
@@ -76,6 +97,11 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
 
 
     /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceShowTests
+     * @group internalServiceTests
+     *
      *Test show method returns correct instance.
      */
     public function test_show_method_returns_correct_instance_if_subjectModel_id_exists()
@@ -91,6 +117,11 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceShowTests
+     * @group internalServiceTests
+     *
      *Test show method returns error message if wrong id is used.
      */
     public function test_show_method_returns_error_message_if_subjectModel_id_does_not_exist()
@@ -107,6 +138,11 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
 
 
     /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns instance of correct class.
      */
     public function test_update_method_returns_correct_instance_if_subjectModel_id_and_attributes_are_correct()
@@ -119,6 +155,11 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns an updated instance of subject model.
      */
     public function test_update_method_returns_updated_instance_if_subjectModel_id_and_attributes_are_correct()
@@ -135,6 +176,11 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method saves new changes to database.
      */
     public function test_update_method_saves_changes_in_database_if_subjectModel_id_and_attributes_are_correct()
@@ -152,6 +198,11 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
 
 
     /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns error message if attributes are invalid.
      */
     public function test_update_method_returns_error_message_if_attributes_are_invalid()
@@ -168,6 +219,11 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns error messageif bad id used to get subjectModel.
      */
     public function test_update_method_returns_error_message_if_subjectModel_id_does_not_exist()
@@ -189,6 +245,11 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
 
 
     /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceDestroyTests
+     * @group internalServiceTests
+     *
      *Test destroy method removes instance from database.
      */
     public function test_destroy_method_removes_instance_from_database_if_subjectModel_id_is_correct()
@@ -201,6 +262,11 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceDestroyTests
+     * @group internalServiceTests
+     *
      *Test destroy method returns error message if id is bad.
      */
     public function test_destroy_method_returns_error_message_if_subjectModel_id_does_not_exist()
@@ -222,6 +288,11 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
 
 
     /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceIndexTests
+     * @group internalServiceTests
+     *
      *Test index method returns instance of correct class.
      */
     public function test_index_method_returns_correct_class_instances()
@@ -240,6 +311,11 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceIndexTests
+     * @group internalServiceTests
+     *
      *Test index method returns correct quantity on pagination results
      */
     public function test_index_method_returns_correct_quantity_of_pagination()
@@ -266,6 +342,12 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
 
 
     /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceRelationshipTests
+     * @group internalServiceTests
+     * @group internalServiceRelationshipTests
+     *
      *Test update method attaches image to experience.
      */
     public function test_update_method_attaches_image_to_experience_model()
@@ -295,6 +377,13 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
     }
 
 
+    /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceRelationshipTests
+     * @group internalServiceTests
+     * @group internalServiceRelationshipTests
+     */
     public function test_no_more_than_one_image_can_be_added_to_experience_model()
     {
         $originalSubjectModel = $this->returnStoreResponseWithGoodAttributes();
@@ -333,6 +422,13 @@ class ExperienceInternalServiceTest extends InternalServiceTestAssist {
         $this->cleanDatabaseTable('imageables');
     }
 
+    /**
+     * @group experienceGlobalTests
+     * @group experienceInternalServiceTests
+     * @group experienceInternalServiceRelationshipTests
+     * @group internalServiceTests
+     * @group internalServiceRelationshipTests
+     */
     public function test_correct_image_is_synced_when_experience_model_has_been_previously_linked_to_multiple_images()
     {
         $originalSubjectModel = $this->returnStoreResponseWithGoodAttributes();

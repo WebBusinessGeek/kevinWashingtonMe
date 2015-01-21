@@ -20,6 +20,12 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
 
 
     /**
+     *
+     * @group inquiryGlobalTests
+     * @group inquiryInternalServiceTests
+     * @group inquiryInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test method creates instance of the correct class.
      */
     public function test_store_method_creates_correct_instance_if_attributes_are_correct()
@@ -32,6 +38,11 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
+     * @group inquiryInternalServiceTests
+     * @group inquiryInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test method stores instance in database
      */
     public function test_store_method_saves_instance_in_database_if_attributes_are_correct()
@@ -44,6 +55,11 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
+     * @group inquiryInternalServiceTests
+     * @group inquiryInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test store method returns error message if incorrect attributes used.
      */
     public function test_store_method_returns_error_message_if_attributes_are_invalid()
@@ -59,6 +75,11 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group inquiryGlobalTests
+     * @group inquiryInternalServiceTests
+     * @group inquiryInternalServiceShowTests
+     * @group internalServiceTests
+     *
      *Test show method returns instance of correct class.
      */
     public function test_show_method_returns_instance_of_correct_class_if_subjectModel_id_exists()
@@ -74,6 +95,11 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
+     * @group inquiryInternalServiceTests
+     * @group inquiryInternalServiceShowTests
+     * @group internalServiceTests
+     *
      *Test show method returns the same instance that was stored.
      */
     public function test_show_method_returns_correct_instance_if_subjectModel_id_exists()
@@ -91,6 +117,11 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
 
 
     /**
+     * @group inquiryGlobalTests
+     * @group inquiryInternalServiceTests
+     * @group inquiryInternalServiceShowTests
+     * @group internalServiceTests
+     *
      *Test method returns error message when bad id use.
      */
     public function test_show_method_returns_error_message_if_subjectModel_id_does_not_exist()
@@ -108,6 +139,11 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
 
 
     /**
+     * @group inquiryGlobalTests
+     * @group inquiryInternalServiceTests
+     * @group inquiryInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns correct class instance
      */
     public function test_update_method_returns_correct_instance_if_subjectModel_id_and_attributes_are_correct()
@@ -123,6 +159,11 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
+     * @group inquiryInternalServiceTests
+     * @group inquiryInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns an updated instance.
      */
     public function test_update_method_returns_updated_instance_if_subjectModel_id_and_attributes_are_correct()
@@ -140,6 +181,11 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
 
 
     /**
+     * @group inquiryGlobalTests
+     * @group inquiryInternalServiceTests
+     * @group inquiryInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method saves changes in database.
      */
     public function test_update_method_saves_changes_in_database_if_subjectModel_id_and_attributes_are_correct()
@@ -157,6 +203,11 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
+     * @group inquiryInternalServiceTests
+     * @group inquiryInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns error message if attributes used are invalid.
      */
     public function test_update_method_returns_error_message_if_attributes_are_invalid()
@@ -169,6 +220,11 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
+     * @group inquiryInternalServiceTests
+     * @group inquiryInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns error message if bad id is used.
      */
     public function test_update_method_returns_error_message_if_subjectModel_id_does_not_exist()
@@ -189,6 +245,11 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group inquiryGlobalTests
+     * @group inquiryInternalServiceTests
+     * @group inquiryInternalServiceDestroyTests
+     * @group internalServiceTests
+     *
      *Test destroy method removes instance from database.
      */
     public function test_destroy_method_removes_instance_from_database_if_subjectModel_id_is_correct()
@@ -205,6 +266,11 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
+     * @group inquiryInternalServiceTests
+     * @group inquiryInternalServiceDestroyTests
+     * @group internalServiceTests
+     *
      *Test destroy method returns error message if bad id is used.
      */
     public function test_destroy_method_returns_error_message_if_subjectModel_id_does_not_exist()
@@ -225,6 +291,11 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group inquiryGlobalTests
+     * @group inquiryInternalServiceTests
+     * @group inquiryInternalServiceIndexTests
+     * @group internalServiceTests
+     *
      *Test index method returns correct class instance
      */
     public function test_index_method_returns_correct_class_instances()
@@ -241,6 +312,11 @@ class InquiryInternalServiceTest extends InternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
+     * @group inquiryInternalServiceTests
+     * @group inquiryInternalServiceIndexTests
+     * @group internalServiceTests
+     *
      *Test index method returns correct quantity of paginated instances.
      */
     public function test_index_method_returns_correct_quantity_of_pagination()

@@ -40,6 +40,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -49,6 +50,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -57,6 +59,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
         $this->assert_index_method_route_redirects_to_login_if_user_is_not_authenticated();
     }
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -66,6 +69,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -78,6 +82,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -87,6 +92,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -96,6 +102,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -109,6 +116,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -118,6 +126,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -127,6 +136,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -136,6 +146,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -145,6 +156,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -154,6 +166,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -163,6 +176,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -176,6 +190,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -185,6 +200,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -194,6 +210,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -203,6 +220,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -212,6 +230,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -221,6 +240,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -230,6 +250,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -243,6 +264,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -252,6 +274,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -261,6 +284,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -270,6 +294,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -279,6 +304,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -293,6 +319,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -302,6 +329,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -311,6 +339,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -320,6 +349,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -329,6 +359,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -338,6 +369,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -347,6 +379,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -356,6 +389,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -370,6 +404,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -379,6 +414,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -388,6 +424,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -397,6 +434,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -406,6 +444,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -415,6 +454,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */
@@ -424,6 +464,7 @@ class ToolControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group toolGlobalTests
      * @group controllerTests
      * @group toolControllerTests
      */

@@ -17,6 +17,10 @@ use Illuminate\Foundation\Testing\TestCase;
 class ImageInternalServiceTest extends \TestCase {
 
     /**
+     * @group imageInternalServiceTests
+     * @group imageInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test method stores a new image resource
      */
     public function test_imageInternalService_store_method()
@@ -58,6 +62,10 @@ class ImageInternalServiceTest extends \TestCase {
 
 
     /**
+     * @group imageInternalServiceTests
+     * @group imageInternalServiceShowTests
+     * @group internalServiceTests
+     *
      *Test method returns specified instance from database, otherwise error message.
      */
     public function test_imageInternalService_show_method()
@@ -94,6 +102,10 @@ class ImageInternalServiceTest extends \TestCase {
     }
 
     /**
+     * @group imageInternalServiceTests
+     * @group imageInternalServiceDestroyTests
+     * @group internalServiceTests
+     *
      *Test method removes model instance from database if it exists, otherwise should throw error message.
      */
     public function test_imageInternalService_destroy_method()

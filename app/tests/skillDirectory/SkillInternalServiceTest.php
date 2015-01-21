@@ -27,6 +27,11 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test store method returns an instance of the correct class.
      */
     public function test_store_method_creates_correct_instance_if_attributes_are_correct()
@@ -45,6 +50,11 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test store method stores the instance in the database.
      */
     public function test_store_method_saves_instance_in_database_if_attributes_are_correct()
@@ -62,6 +72,11 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test store method returns error message message if attributes are invalid.
      */
     public function test_store_method_returns_error_message_if_attributes_are_invalid()
@@ -77,6 +92,11 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     /***********************************************************************************************************/
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceShowTests
+     * @group internalServiceTests
+     *
      *Test show method returns an instance of the correct class.
      */
     public function test_show_method_returns_instance_of_correct_class_if_subjectModel_id_exists()
@@ -92,6 +112,11 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceShowTests
+     * @group internalServiceTests
+     *
      *Test show method response is the correct instance.
      */
     public function test_show_method_returns_correct_instance_if_subjectModel_id_exists()
@@ -107,6 +132,11 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceShowTests
+     * @group internalServiceTests
+     *
      *Test show method returns error message if id is invalid.
      */
     public function test_show_method_returns_error_message_if_subjectModel_id_does_not_exist()
@@ -120,6 +150,16 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
 
 
+    /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceShowTests
+     * @group skillInternalServiceRelationshipTests
+     * @group internalServiceTests
+     * @group internalServiceRelationshipTests
+     *
+     *Test show method returns error message if id is invalid.
+     */
     public function test_show_method_returns_skills_with_correct_amount_of_tools()
     {
         $subjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
@@ -148,6 +188,11 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     /***********************************************************************************************************/
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns instance of correct class.
      */
     public function test_update_method_returns_correct_instance_if_subjectModel_id_and_attributes_are_correct()
@@ -160,6 +205,11 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     }
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns changes made to the instance.
      */
     public function test_update_method_returns_updated_instance_if_subjectModel_id_and_attributes_are_correct()
@@ -172,6 +222,11 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     }
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method also saves the changes to the database.
      */
     public function test_update_method_saves_changes_in_database_if_subjectModel_id_and_attributes_are_correct()
@@ -184,6 +239,11 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     }
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns an error message if incorrect attributes are given.
      */
     public function test_update_method_returns_error_message_if_attributes_are_invalid()
@@ -197,6 +257,11 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns an error message if invalid id is given.
      */
     public function test_update_method_returns_error_message_if_subjectModel_id_does_not_exist()
@@ -215,6 +280,11 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     /***********************************************************************************************************/
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceDestroyTests
+     * @group internalServiceTests
+     *
      *Test destroy method removes the instance from the database.
      */
     public function test_destroy_method_removes_instance_from_database_if_subjectModel_id_is_correct()
@@ -225,6 +295,11 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     }
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceDestroyTests
+     * @group internalServiceTests
+     *
      *Test destroy method returns an error message if bad id is used.
      */
     public function test_destroy_method_returns_error_message_if_subjectModel_id_does_not_exist()
@@ -241,6 +316,11 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     /*                                                  Index Method Tests                                       */
     /***********************************************************************************************************/
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceIndexTests
+     * @group internalServiceTests
+     *
      *Test index method returns instances of the correct class.
      */
     public function test_index_method_returns_correct_class_instances()
@@ -256,6 +336,11 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceIndexTests
+     * @group internalServiceTests
+     *
      *Test index method returns correct pagination count.
      */
     public function test_index_method_returns_correct_quantity_of_pagination()
@@ -274,6 +359,12 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     /***********************************************************************************************************/
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceRelationshipTests
+     * @group internalServiceTests
+     * @group internalServiceRelationshipTests
+     *
      *Test update method will attach a tool instance
      */
     public function test_update_method_will_attach_tool()
@@ -299,6 +390,12 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceRelationshipTests
+     * @group internalServiceTests
+     * @group internalServiceRelationshipTests
+     *
      *Test update method will attach an image if its present.
      */
     public function test_update_method_will_attach_image()
@@ -331,6 +428,12 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceRelationshipTests
+     * @group internalServiceTests
+     * @group internalServiceRelationshipTests
+     *
      *Test no more than one image can be added.
      */
     public function test_skill_can_have_no_more_than_one_image()
@@ -369,6 +472,13 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
     }
 
 
+    /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceRelationshipTests
+     * @group internalServiceTests
+     * @group internalServiceRelationshipTests
+     */
     public function test_correct_image_is_synced_to_skill_model()
     {
         $originalSubjectModel = $this->returnStoreResponseWithGoodAttributesThenDestroyOwner();
@@ -405,6 +515,12 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceRelationshipTests
+     * @group internalServiceTests
+     * @group internalServiceRelationshipTests
+     *
      *Test update method can add a tag to a skill model.
      */
     public function test_update_method_adds_tags_to_skill_model()
@@ -434,6 +550,12 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceRelationshipTests
+     * @group internalServiceTests
+     * @group internalServiceRelationshipTests
+     *
      *Test skills can own more than one tag.
      */
     public function test_skill_can_own_more_than_one_tag()
@@ -481,6 +603,12 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
 
     /**
+     * @group skillGlobalTests
+     * @group skillInternalServiceTests
+     * @group skillInternalServiceRelationshipTests
+     * @group internalServiceTests
+     * @group internalServiceRelationshipTests
+     *
      *Test skills can own the same tag instance.
      */
     public function test_multiple_skills_can_own_the_same_tag_model_instance()

@@ -40,6 +40,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -49,6 +50,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -57,6 +59,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
         $this->assert_index_method_route_redirects_to_login_if_user_is_not_authenticated();
     }
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -66,6 +69,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -78,6 +82,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -87,6 +92,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -96,6 +102,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -109,6 +116,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -118,6 +126,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -127,6 +136,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -136,6 +146,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -145,6 +156,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -154,6 +166,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -163,6 +176,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -176,6 +190,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -185,6 +200,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -194,6 +210,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -203,6 +220,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -212,6 +230,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -221,6 +240,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -230,6 +250,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -243,6 +264,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -252,6 +274,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -261,6 +284,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -270,6 +294,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -279,6 +304,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -293,6 +319,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -302,6 +329,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -311,6 +339,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -320,6 +349,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -329,6 +359,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -338,6 +369,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -347,6 +379,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -356,6 +389,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -370,6 +404,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -379,6 +414,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -388,6 +424,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -397,6 +434,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -406,6 +444,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -415,6 +454,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */
@@ -424,6 +464,7 @@ class TagControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group tagGlobalTests
      * @group controllerTests
      * @group tagControllerTests
      */

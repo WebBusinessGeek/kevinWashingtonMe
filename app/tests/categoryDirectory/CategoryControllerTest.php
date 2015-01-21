@@ -40,6 +40,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerIndexTests
@@ -50,6 +51,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerIndexTests
@@ -59,6 +61,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
         $this->assert_index_method_route_redirects_to_login_if_user_is_not_authenticated();
     }
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerIndexTests
@@ -69,6 +72,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerIndexTests
@@ -82,6 +86,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerCreateTests
@@ -92,6 +97,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerCreateTests
@@ -102,6 +108,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerCreateTests
@@ -116,6 +123,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerShowTests
@@ -126,6 +134,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerShowTests
@@ -136,6 +145,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerShowTests
@@ -146,6 +156,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerShowTests
@@ -156,6 +167,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerShowTests
@@ -166,6 +178,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerShowTests
@@ -176,6 +189,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerShowTests
@@ -190,6 +204,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerEditTests
@@ -200,6 +215,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerEditTests
@@ -210,6 +226,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerEditTests
@@ -220,6 +237,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerEditTests
@@ -230,6 +248,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerEditTests
@@ -240,6 +259,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerEditTests
@@ -250,6 +270,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerEditTests
@@ -264,6 +285,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerStoreTests
@@ -274,6 +296,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerStoreTests
@@ -284,6 +307,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerStoreTests
@@ -294,6 +318,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerStoreTests
@@ -304,6 +329,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerStoreTests
@@ -319,6 +345,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerUpdateTests
@@ -329,6 +356,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerUpdateTests
@@ -339,6 +367,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerUpdateTests
@@ -349,6 +378,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerUpdateTests
@@ -359,6 +389,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerUpdateTests
@@ -369,6 +400,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerUpdateTests
@@ -379,6 +411,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerUpdateTests
@@ -389,6 +422,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerUpdateTests
@@ -404,6 +438,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerDestroyTests
@@ -414,6 +449,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerDestroyTests
@@ -424,6 +460,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerDestroyTests
@@ -434,6 +471,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerDestroyTests
@@ -444,6 +482,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerDestroyTests
@@ -454,6 +493,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerDestroyTests
@@ -464,6 +504,7 @@ class CategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group categoryGlobalTests
      * @group controllerTests
      * @group categoryControllerTests
      * @group categoryControllerDestroyTests

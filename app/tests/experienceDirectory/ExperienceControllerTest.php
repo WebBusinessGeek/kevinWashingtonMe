@@ -40,6 +40,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerIndexTests
@@ -50,6 +51,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerIndexTests
@@ -59,6 +61,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
         $this->assert_index_method_route_redirects_to_login_if_user_is_not_authenticated();
     }
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerIndexTests
@@ -69,6 +72,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerIndexTests
@@ -82,6 +86,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerCreateTests
@@ -92,6 +97,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerCreateTests
@@ -102,6 +108,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerCreateTests
@@ -116,6 +123,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerShowTests
@@ -126,6 +134,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerShowTests
@@ -136,6 +145,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerShowTests
@@ -146,6 +156,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerShowTests
@@ -156,6 +167,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerShowTests
@@ -166,6 +178,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerShowTests
@@ -176,6 +189,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerShowTests
@@ -190,6 +204,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerEditTests
@@ -200,6 +215,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerEditTests
@@ -210,6 +226,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerEditTests
@@ -220,6 +237,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerEditTests
@@ -230,6 +248,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerEditTests
@@ -240,6 +259,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerEditTests
@@ -250,6 +270,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerEditTests
@@ -264,6 +285,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerStoreTests
@@ -274,6 +296,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerStoreTests
@@ -284,6 +307,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerStoreTests
@@ -294,6 +318,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerStoreTests
@@ -304,6 +329,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerStoreTests
@@ -319,6 +345,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerUpdateTests
@@ -329,6 +356,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerUpdateTests
@@ -339,6 +367,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerUpdateTests
@@ -349,6 +378,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerUpdateTests
@@ -359,6 +389,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerUpdateTests
@@ -369,6 +400,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerUpdateTests
@@ -379,6 +411,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerUpdateTests
@@ -389,6 +422,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerUpdateTests
@@ -404,6 +438,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerDestroyTests
@@ -414,6 +449,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerDestroyTests
@@ -424,6 +460,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerDestroyTests
@@ -434,6 +471,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerDestroyTests
@@ -444,6 +482,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerDestroyTests
@@ -454,6 +493,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerDestroyTests
@@ -464,6 +504,7 @@ class ExperienceControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group experienceGlobalTests
      * @group controllerTests
      * @group experienceControllerTests
      * @group experienceControllerDestroyTests

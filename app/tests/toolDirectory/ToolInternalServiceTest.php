@@ -19,6 +19,11 @@ use Illuminate\Foundation\Testing\TestCase;
 class ToolInternalServiceTest extends InternalServiceTestLibrary{
 
     /**
+     * @group toolGlobalTests
+     * @group toolInternalServiceTests
+     * @group toolInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test method creates and returns a new tool instance if attributes are correct.
      *Otherwise should return an error message.
      */
@@ -59,6 +64,11 @@ class ToolInternalServiceTest extends InternalServiceTestLibrary{
     }
 
     /**
+     * @group toolGlobalTests
+     * @group toolInternalServiceTests
+     * @group toolInternalServiceShowTests
+     * @group internalServiceTests
+     *
      *Test method retrieves specified instance from database table if it exists.
      * Otherwise should return error message.
      */
@@ -104,6 +114,11 @@ class ToolInternalServiceTest extends InternalServiceTestLibrary{
     }
 
     /**
+     * @group toolGlobalTests
+     * @group toolInternalServiceTests
+     * @group toolInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test method updates a tool model instance if it exists and attributes are valid. Otherwise returns an error message
      */
     public function test_toolInternalService_update_method()
@@ -155,6 +170,11 @@ class ToolInternalServiceTest extends InternalServiceTestLibrary{
     }
 
     /**
+     * @group toolGlobalTests
+     * @group toolInternalServiceTests
+     * @group toolInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test method removes a tool model instance from database if it exists. Otherwise returns an error message.
      */
     public function test_toolInternalService_destroy_method()
@@ -191,6 +211,11 @@ class ToolInternalServiceTest extends InternalServiceTestLibrary{
     }
 
     /**
+     * @group toolGlobalTests
+     * @group toolInternalServiceTests
+     * @group toolInternalServiceIndexTests
+     * @group internalServiceTests
+     *
      *Test method returns an instance of paginator class with correct amount of items.
      */
     public function test_toolInternalService_index_method()
@@ -235,6 +260,12 @@ class ToolInternalServiceTest extends InternalServiceTestLibrary{
 
 
     /**
+     * @group toolGlobalTests
+     * @group toolInternalServiceTests
+     * @group toolInternalServiceRelationshipTests
+     * @group internalServiceTests
+     * @group internalServiceRelationshipTests
+     *
      *Test update method will attach an image to the tool model.
      */
     public function test_update_method_will_attach_image()
@@ -266,6 +297,15 @@ class ToolInternalServiceTest extends InternalServiceTestLibrary{
 
     }
 
+    /**
+     * @group toolGlobalTests
+     * @group toolInternalServiceTests
+     * @group toolInternalServiceRelationshipTests
+     * @group internalServiceTests
+     * @group internalServiceRelationshipTests
+     *
+     *Test update method will attach an image to the tool model.
+     */
     public function test_tool_can_have_no_more_than_one_image()
     {
         $originalSubjectModel = $this->returnStoreResponseWithGoodAttributes();
@@ -304,6 +344,15 @@ class ToolInternalServiceTest extends InternalServiceTestLibrary{
         $this->cleanDatabaseTable('imageables');
     }
 
+    /**
+     * @group toolGlobalTests
+     * @group toolInternalServiceTests
+     * @group toolInternalServiceRelationshipTests
+     * @group internalServiceTests
+     * @group internalServiceRelationshipTests
+     *
+     *Test update method will attach an image to the tool model.
+     */
     public function test_correct_image_is_synced_to_tool_model()
     {
         $originalSubjectModel = $this->returnStoreResponseWithGoodAttributes();

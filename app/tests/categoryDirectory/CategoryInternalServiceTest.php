@@ -23,6 +23,12 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
     /***********************************************************************************************************/
 
     /**
+     *
+     * @group categoryGlobalTests
+     * @group categoryInternalServiceTests
+     * @group categoryInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test method returns new category instance if attributes are valid.
      *
      */
@@ -40,6 +46,11 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
     }
 
     /**
+     * @group categoryGlobalTests
+     * @group categoryInternalServiceTests
+     * @group categoryInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test method saves new category instance in database if attributes are valid.
      */
     public function test_categoryInternalService_store_method_saves_new_category_in_database_if_attributes_are_correct()
@@ -60,6 +71,11 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
 
 
     /**
+     * @group categoryGlobalTests
+     * @group categoryInternalServiceTests
+     * @group categoryInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test method returns error message if superCategory referenced doesn't exist.
      */
     public function test_categoryInternalService_store_method_returns_error_message_if_superCategory_doesnt_exist()
@@ -82,6 +98,11 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
 
 
     /**
+     * @group categoryGlobalTests
+     * @group categoryInternalServiceTests
+     * @group categoryInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test method returns error message if attributenames passed to store method are invalid.
      */
     public function test_categoryInternalService_store_method_returns_error_message_if_attributeNames_are_invalid()
@@ -113,6 +134,11 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
 
 
     /**
+     * @group categoryGlobalTests
+     * @group categoryInternalServiceTests
+     * @group categoryInternalServiceShowTests
+     * @group internalServiceTests
+     *
      *Test method returns correct class instance if id is valid.
      */
     public function test_categoryInternalService_show_method_returns_instance_of_correct_class_if_id_is_valid()
@@ -135,6 +161,11 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
 
 
     /**
+     * @group categoryGlobalTests
+     * @group categoryInternalServiceTests
+     * @group categoryInternalServiceShowTests
+     * @group internalServiceTests
+     *
      *Test method returns correct category instance if id is valid.
      */
     public function test_categoryInternalService_show_method_returns_correct_instance_if_id_is_valid()
@@ -155,6 +186,11 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
     }
 
     /**
+     * @group categoryGlobalTests
+     * @group categoryInternalServiceTests
+     * @group categoryInternalServiceShowTests
+     * @group internalServiceTests
+     *
      *Test method returns error message if id is invalid.
      */
     public function test_categoryInternalService_show_method_returns_error_message_if_id_is_invalid()
@@ -170,6 +206,12 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
 
 
 
+    /**
+     * @group categoryGlobalTests
+     * @group categoryInternalServiceTests
+     * @group categoryInternalServiceShowTests
+     * @group internalServiceTests
+     */
     public function test_show_method_return_subjectModel_with_is_children()
     {
         $category = \App\DomainLogic\CategoryDirectory\Category::create([
@@ -206,6 +248,11 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
 
 
     /**
+     * @group categoryGlobalTests
+     * @group categoryInternalServiceTests
+     * @group categoryInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns instance of category class if attributes are correct.
      */
     public function test_categoryInternalService_update_method_returns_instance_of_correct_class_if_attributes_are_correct()
@@ -232,6 +279,11 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
 
 
     /**
+     * @group categoryGlobalTests
+     * @group categoryInternalServiceTests
+     * @group categoryInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns update instance if attributes are correct.
      */
     public function test_categoryInternalService_update_method_returns_updated_instance_if_attributes_are_correct()
@@ -260,6 +312,11 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
     }
 
     /**
+     * @group categoryGlobalTests
+     * @group categoryInternalServiceTests
+     * @group categoryInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method saves changes to database.
      */
     public function test_categoryInternalService_update_method_saves_changes_in_database_if_attributes_are_correct()
@@ -289,6 +346,11 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
     }
 
     /**
+     * @group categoryGlobalTests
+     * @group categoryInternalServiceTests
+     * @group categoryInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns error message if attributes names are invalid.
      */
     public function test_categoryInternalService_update_method_returns_error_message_if_attributeNames_is_invalid()
@@ -322,6 +384,11 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
     }
 
     /**
+     * @group categoryGlobalTests
+     * @group categoryInternalServiceTests
+     * @group categoryInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns error message if superCategory owner doesnt exist.
      */
     public function test_categoryInternalService_update_method_returns_error_message_if_superCategory_owner_doesnt_exist()
@@ -350,6 +417,11 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
     }
 
     /**
+     * @group categoryGlobalTests
+     * @group categoryInternalServiceTests
+     * @group categoryInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test update method returns error message if bad id given.
      */
     public function test_categoryInternalService_update_method_returns_error_message_if_id_does_not_exist()
@@ -374,6 +446,11 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
 
 
     /**
+     * @group categoryGlobalTests
+     * @group categoryInternalServiceTests
+     * @group categoryInternalServiceDestroyTests
+     * @group internalServiceTests
+     *
      *Test destroy method removes instance from database if id is correct.
      */
     public function test_categoryInternalService_destroy_method_removes_instance_from_database_if_id_is_correct()
@@ -396,6 +473,11 @@ class CategoryInternalServiceTest extends InternalServiceTestLibrary {
     }
 
     /**
+     * @group categoryGlobalTests
+     * @group categoryInternalServiceTests
+     * @group categoryInternalServiceDestroyTests
+     * @group internalServiceTests
+     *
      *Test destroy method returns an error message if bad id used.
      */
     public function test_categoryInternalService_destroy_method_returns_error_message_if_id_does_not_exist()

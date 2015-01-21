@@ -17,6 +17,11 @@ use Illuminate\Foundation\Testing\TestCase;
 class SuperCategoryInternalServiceTest extends \TestCase {
 
     /**
+     * @group superCategoryGlobalTests
+     * @group superCategoryInternalServiceTests
+     * @group superCategoryInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test method creates and stores a new superCategory model instance in database if attributes passed are valid.
      * Otherwise will should return an error message.
      */
@@ -58,6 +63,11 @@ class SuperCategoryInternalServiceTest extends \TestCase {
 
 
     /**
+     * @group superCategoryGlobalTests
+     * @group superCategoryInternalServiceTests
+     * @group superCategoryInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test method retrieves specified superCategory instance if it exists, otherwise should return error message.
      */
     public function test_superCategoryInternalService_show_method()
@@ -96,6 +106,11 @@ class SuperCategoryInternalServiceTest extends \TestCase {
 
 
     /**
+     * @group superCategoryGlobalTests
+     * @group superCategoryInternalServiceTests
+     * @group superCategoryInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test method updates a superCategory model instance if it exists and the attributes are valid.
      * Otherwise should return an error message.
      */
@@ -156,6 +171,12 @@ class SuperCategoryInternalServiceTest extends \TestCase {
         SuperCategory::destroy($idToUseForInstance);
     }
 
+    /**
+     * @group superCategoryGlobalTests
+     * @group superCategoryInternalServiceTests
+     * @group superCategoryInternalServiceDestroyTests
+     * @group internalServiceTests
+     */
     public function test_superCategoryInternalService_destroy_method()
     {
         //service instance
@@ -195,6 +216,12 @@ class SuperCategoryInternalServiceTest extends \TestCase {
 
     }
 
+    /**
+     * @group superCategoryGlobalTests
+     * @group superCategoryInternalServiceTests
+     * @group superCategoryInternalServiceIndexTests
+     * @group internalServiceTests
+     */
     public function test_superCategoryInternalService_index_method()
     {
         //service instance
@@ -230,6 +257,13 @@ class SuperCategoryInternalServiceTest extends \TestCase {
         }
     }
 
+    /**
+     * @group superCategoryGlobalTests
+     * @group superCategoryInternalServiceTests
+     * @group superCategoryInternalServiceRelationshipTests
+     * @group internalServiceTests
+     * @group internalServiceRelationshipTests
+     */
     public function test_show_method_return_subjectModel_with_is_children()
     {
         $subCategory = \App\DomainLogic\SuperCategoryDirectory\SuperCategory::create([

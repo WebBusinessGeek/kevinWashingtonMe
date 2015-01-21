@@ -40,6 +40,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerIndexTests
@@ -50,6 +51,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerIndexTests
@@ -59,6 +61,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
         $this->assert_index_method_route_redirects_to_login_if_user_is_not_authenticated();
     }
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerIndexTests
@@ -69,6 +72,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerIndexTests
@@ -82,6 +86,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerCreateTests
@@ -92,6 +97,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerCreateTests
@@ -102,6 +108,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerCreateTests
@@ -116,6 +123,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerShowTests
@@ -126,6 +134,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerShowTests
@@ -136,6 +145,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerShowTests
@@ -146,6 +156,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerShowTests
@@ -156,6 +167,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerShowTests
@@ -166,6 +178,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerShowTests
@@ -176,6 +189,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerShowTests
@@ -190,6 +204,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerEditTests
@@ -200,6 +215,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerEditTests
@@ -210,6 +226,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerEditTests
@@ -220,6 +237,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerEditTests
@@ -230,6 +248,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerEditTests
@@ -240,6 +259,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerEditTests
@@ -250,6 +270,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerEditTests
@@ -264,6 +285,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerStoreTests
@@ -274,6 +296,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerStoreTests
@@ -284,6 +307,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerStoreTests
@@ -294,6 +318,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerStoreTests
@@ -304,6 +329,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerStoreTests
@@ -319,6 +345,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerUpdateTests
@@ -329,6 +356,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerUpdateTests
@@ -339,6 +367,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerUpdateTests
@@ -349,6 +378,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerUpdateTests
@@ -359,6 +389,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerUpdateTests
@@ -369,6 +400,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerUpdateTests
@@ -379,6 +411,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerUpdateTests
@@ -389,6 +422,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerUpdateTests
@@ -404,6 +438,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerDestroyTests
@@ -414,6 +449,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerDestroyTests
@@ -424,6 +460,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerDestroyTests
@@ -434,6 +471,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerDestroyTests
@@ -444,6 +482,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerDestroyTests
@@ -454,6 +493,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerDestroyTests
@@ -464,6 +504,7 @@ class SkillControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group skillGlobalTests
      * @group controllerTests
      * @group skillControllerTests
      * @group skillControllerDestroyTests

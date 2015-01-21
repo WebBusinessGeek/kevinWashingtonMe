@@ -44,6 +44,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -53,6 +54,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -61,6 +63,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
         $this->assert_index_method_route_redirects_to_login_if_user_is_not_authenticated();
     }
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -70,6 +73,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -82,6 +86,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -91,6 +96,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -100,6 +106,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -113,6 +120,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -122,6 +130,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -131,6 +140,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -140,6 +150,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -149,6 +160,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -158,6 +170,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -167,6 +180,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -180,6 +194,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -189,6 +204,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -198,6 +214,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -207,6 +224,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -216,6 +234,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -225,6 +244,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -234,6 +254,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -247,6 +268,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -256,6 +278,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -265,6 +288,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -274,6 +298,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -283,6 +308,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -297,6 +323,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -306,6 +333,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -315,6 +343,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -324,6 +353,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -333,6 +363,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -342,6 +373,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -351,6 +383,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -360,6 +393,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -374,6 +408,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -383,6 +418,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -392,6 +428,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -401,6 +438,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -410,6 +448,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -419,6 +458,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */
@@ -428,6 +468,7 @@ class SuperCategoryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group superCategoryGlobalTests
      * @group controllerTests
      * @group superCategoryControllerTests
      */

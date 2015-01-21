@@ -40,6 +40,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerIndexTests
@@ -50,6 +51,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerIndexTests
@@ -59,6 +61,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
         $this->assert_index_method_route_redirects_to_login_if_user_is_not_authenticated();
     }
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerIndexTests
@@ -69,6 +72,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerIndexTests
@@ -82,6 +86,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerCreateTests
@@ -92,6 +97,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerCreateTests
@@ -102,6 +108,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerCreateTests
@@ -116,6 +123,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerShowTests
@@ -126,6 +134,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerShowTests
@@ -136,6 +145,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerShowTests
@@ -146,6 +156,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerShowTests
@@ -156,6 +167,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerShowTests
@@ -166,6 +178,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerShowTests
@@ -176,6 +189,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerShowTests
@@ -190,6 +204,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerEditTests
@@ -200,6 +215,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerEditTests
@@ -210,6 +226,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerEditTests
@@ -220,6 +237,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerEditTests
@@ -230,6 +248,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerEditTests
@@ -240,6 +259,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerEditTests
@@ -250,6 +270,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerEditTests
@@ -264,6 +285,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerStoreTests
@@ -274,6 +296,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerStoreTests
@@ -284,6 +307,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerStoreTests
@@ -294,6 +318,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerStoreTests
@@ -304,6 +329,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerStoreTests
@@ -319,6 +345,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerUpdateTests
@@ -329,6 +356,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerUpdateTests
@@ -339,6 +367,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerUpdateTests
@@ -349,6 +378,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerUpdateTests
@@ -359,6 +389,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerUpdateTests
@@ -369,6 +400,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerUpdateTests
@@ -379,6 +411,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerUpdateTests
@@ -389,6 +422,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerUpdateTests
@@ -404,6 +438,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     /***********************************************************************************************************/
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerDestroyTests
@@ -414,6 +449,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerDestroyTests
@@ -424,6 +460,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerDestroyTests
@@ -434,6 +471,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerDestroyTests
@@ -444,6 +482,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerDestroyTests
@@ -454,6 +493,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerDestroyTests
@@ -464,6 +504,7 @@ class InquiryControllerTest extends ExternalServiceTestAssist {
     }
 
     /**
+     * @group inquiryGlobalTests
      * @group controllerTests
      * @group inquiryControllerTests
      * @group inquiryControllerDestroyTests

@@ -17,6 +17,11 @@ use Illuminate\Support\Facades\Paginator;
 class TagInternalServiceTest extends \TestCase{
 
     /**
+     * @group tagGlobalTests
+     * @group tagInternalServiceTests
+     * @group tagInternalServiceStoreTests
+     * @group internalServiceTests
+     *
      *Test method returns a new resource instance from database if attributes are correct.
      * Otherwise should return an error message.
      */
@@ -51,6 +56,11 @@ class TagInternalServiceTest extends \TestCase{
 
 
     /**
+     * @group tagGlobalTests
+     * @group tagInternalServiceTests
+     * @group tagInternalServiceShowTests
+     * @group internalServiceTests
+     *
      *Test method returns specified tag instance if it exists, otherwise returns an error message. 
      */
     public function test_tagInternalService_show_method()
@@ -82,6 +92,11 @@ class TagInternalServiceTest extends \TestCase{
 
 
     /**
+     * @group tagGlobalTests
+     * @group tagInternalServiceTests
+     * @group tagInternalServiceDestroyTests
+     * @group internalServiceTests
+     *
      *Test method destroys specified instance if it exists, otherwise returns an error message.
      */
     public function test_tagInternalService_destroy_method()
@@ -117,6 +132,11 @@ class TagInternalServiceTest extends \TestCase{
 
 
     /**
+     * @group tagGlobalTests
+     * @group tagInternalServiceTests
+     * @group tagInternalServiceUpdateTests
+     * @group internalServiceTests
+     *
      *Test method returns an updated model instance if attributes passed are valid.
      * Otherwise should throw error message
      */
@@ -165,6 +185,11 @@ class TagInternalServiceTest extends \TestCase{
     }
 
     /**
+     * @group tagGlobalTests
+     * @group tagInternalServiceTests
+     * @group tagInternalServiceIndexTests
+     * @group internalServiceTests
+     *
      *Test method returns a paginator class instance with correct number of items.
      */
     public function test_tagInternalService_index_method()
