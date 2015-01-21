@@ -38,6 +38,7 @@ Route::group(array('before' => 'auth', 'prefix' => 'dashboard'), function ()
     Route::resource('category', 'CategoryController');
     Route::resource('skill', 'SkillController');
     Route::resource('experience', 'ExperienceController');
+    Route::resource('inquiry', 'InquiryController');
 });
 
 
