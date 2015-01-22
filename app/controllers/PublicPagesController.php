@@ -22,7 +22,10 @@ class PublicPagesController extends \BaseController {
 
 		foreach($tags as $tag)
 		{
-			$tag->skills;
+			foreach($tag->skills as $skill)
+			{
+				$skill->images;
+			}
 		}
 		$log = \Illuminate\Support\Facades\DB::getQueryLog();
 
