@@ -159,10 +159,7 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     {
         return $this->POSTRoute($this->storeRoute, $attributes);
     }
-    public function POSTRoute($route, $attributes)
-    {
-        return $this->call('POST', $route, $attributes);
-    }
+
 
 
     public function DELETEDestroyRoute($id)

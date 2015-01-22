@@ -81,6 +81,15 @@ class MasterTestLibrary extends \TestCase {
         return (isset($parameters))? $this->call('GET', $route, $parameters): $this->call('GET', $route);
     }
 
+    public function POSTRoute($route, $attributes)
+    {
+        return $this->call('POST', $route, $attributes);
+    }
+
+    public function getResponseLocation($response)
+    {
+        return $response->headers->get('Location');
+    }
 
     public function assertViewExists($viewName)
     {
