@@ -36,20 +36,18 @@ Route::group(array('before' => 'auth', 'prefix' => 'dashboard'), function ()
 
 Route::group(array(),function()
 {
-    Route::get('/', 'PublicPagesController@home');
-    Route::get('/skills', 'PublicPagesController@skills');
-    Route::get('/experiences', 'PublicPagesController@experiences');
-    Route::get('/connect', 'PublicPagesController@connect');
-    Route::post('/connect', 'PublicPagesController@inquiryCreate');
+    Route::get('/', 'PublicPagesController@viewHome');
+    Route::get('/skills', 'PublicPagesController@viewSkills');
+    Route::get('/experiences', 'PublicPagesController@viewExperiences');
+    Route::get('/connect', 'PublicPagesController@viewConnect');
 });
 
-Route::group(array('prefix' => 'ajax'),function()
+Route::group(array('prefix' => 'api.v1'),function()
 {
-    Route::get('/', 'PublicPagesController@ajaxHome');
-    Route::get('/skills', 'PublicPagesController@skills');
-    Route::get('/experiences', 'PublicPagesController@experiences');
-    Route::get('/connect', 'PublicPagesController@connect');
-    Route::post('/connect', 'PublicPagesController@inquiryCreate');
+    Route::get('/', 'PublicPagesController@getDataHome');
+    Route::get('/skills', 'PublicPagesController@getDataSkills');
+    Route::get('/experiences', 'PublicPagesController@getDataExperiences');
+    Route::post('/connect', 'PublicPagesController@postDataConnect');
 });
 
 
