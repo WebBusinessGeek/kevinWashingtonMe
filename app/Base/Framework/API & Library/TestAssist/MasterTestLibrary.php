@@ -12,6 +12,7 @@ namespace App\Base;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\TestCase;
 use Illuminate\Support\Facades\DB;
+use Illuminate\View\View;
 
 class MasterTestLibrary extends \TestCase {
 
@@ -81,6 +82,15 @@ class MasterTestLibrary extends \TestCase {
     }
 
 
+    public function assertViewExists($viewName)
+    {
+        $this->assertTrue(\Illuminate\Support\Facades\View::exists($viewName));
+    }
+
+    public function getView($response)
+    {
+        return $response->original;
+    }
 
     /**************************************             Fakers           ***********************************************/
 
@@ -199,7 +209,6 @@ class MasterTestLibrary extends \TestCase {
     {
         return '';
     }
-
 
 
 

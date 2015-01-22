@@ -12,6 +12,7 @@
 |
 */
 
+
 //public pages
 Route::group(array(),function()
 {

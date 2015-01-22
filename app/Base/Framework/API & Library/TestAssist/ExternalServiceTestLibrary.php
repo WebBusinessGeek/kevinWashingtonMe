@@ -71,10 +71,7 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
     }
 
 
-    public function assertViewExists($viewName)
-    {
-        $this->assertTrue(View::exists($viewName));
-    }
+
 
 
     public function assertLocationIsAShowRoute($location)
@@ -201,10 +198,7 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
 
 
 
-    public function getView($response)
-    {
-        return $response->original;
-    }
+
 
     public function getIndexInstanceVariableFromView($view)
     {
