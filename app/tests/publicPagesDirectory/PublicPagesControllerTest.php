@@ -289,9 +289,13 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      * @group publicPagesControllerExperiencesTests
      * @group publicPagesGetDataTests
      */
-    public function test_getDataExperiences_entities_needed_for_view_are_returned()
+    public function test_getDataExperiences_experiences_needed_for_view_are_returned()
     {
-
+        $response = $this->GETRoute('/api.v1/experiences');
+        $view = $this->getView($response);
+        $experienceModels = $view['experiences'];
+        $experienceModel = $experienceModels[0];
+        $this->assertEquals('\App\DomainLogic\ExperienceDirectory\Experience', $experienceModel->getClassName());
     }
 
     /**
@@ -299,20 +303,17 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      * @group publicPagesControllerExperiencesTests
      * @group publicPagesGetDataTests
      */
-    public function test_getDataExperiences_entities_are_accessible()
+    public function test_getDataExperiences_experience_image_relationships_are_accessible()
     {
-
+        $response = $this->GETRoute('/api.v1/experiences');
+        $view = $this->getView($response);
+        $experienceModels = $view['experiences'];
+        $experienceModel = $experienceModels[0];
+        $imageModel = $experienceModel['images'][0];
+        $this->assertEquals('\App\DomainLogic\ImageDirectory\Image', $imageModel->getClassName());
     }
 
-    /**
-     * @group publicPagesControllerTests
-     * @group publicPagesControllerExperiencesTests
-     * @group publicPagesGetDataTests
-     */
-    public function test_getDataExperiences_entity_relationships_are_accessible()
-    {
 
-    }
 
 
 

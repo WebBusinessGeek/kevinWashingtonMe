@@ -45,8 +45,13 @@ class PublicPagesController extends \BaseController {
 		$tags = Tag::all();
 		foreach($tags as $tag)
 		{
-			$tag->skills;
+			foreach($tag->skills as $skill)
+			{
+				$skill->images;
+			}
 		}
+
+
 		$supercategories = SuperCategory::with('categories.skills')->get();
 
 		$log = \Illuminate\Support\Facades\DB::getQueryLog();
@@ -64,7 +69,13 @@ class PublicPagesController extends \BaseController {
 	}
 	public function getDataExperiences()
 	{
-		$experiences = \App\DomainLogic\ExperienceDirectory\Experience::with('image')->get();
+//		$experiences = \App\DomainLogic\ExperienceDirectory\Experience::with('images')->get();
+
+		$experiences = \App\DomainLogic\ExperienceDirectory\Experience::all();
+		foreach($experiences as $experience)
+		{
+			$experience->images;
+		}
 
 		$log = \Illuminate\Support\Facades\DB::getQueryLog();
 
