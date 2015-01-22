@@ -115,9 +115,11 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      * @group publicPagesControllerHomeTests
      * @group publicPagesGetDataTests
      */
-    public function test_getDataHome_entities_needed_for_view_are_returned()
+    public function test_getDataHome_tags_needed_for_view_are_returned()
     {
-
+        $response = $this->GETRoute('/api.v1/');
+        $view = $this->getView($response);
+        $this->assertEquals('App\DomainLogic\TagDirectory\Tag', get_class($view['tags'][0]));
     }
 
     /**
@@ -127,7 +129,10 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      */
     public function test_getDataHome_entities_are_accessible()
     {
-
+        $response = $this->GETRoute('/api.v1/');
+        $view = $this->getView($response);
+        $tagModel = $view['tags'][0];
+        $this->assertEquals('\App\DomainLogic\TagDirectory\Tag', $tagModel->getClassName());
     }
 
     /**
@@ -137,7 +142,10 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      */
     public function test_getDataHome_entity_relationships_are_accessible()
     {
-
+        $response = $this->GETRoute('/api.v1/');
+        $view = $this->getView($response);
+        $skillModel = $view['tags'][0]['skills'][0];
+        $this->assertEquals('\App\DomainLogic\SkillDirectory\Skill', $skillModel->getClassName());
     }
 
     /**
