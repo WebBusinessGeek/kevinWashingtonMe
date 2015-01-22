@@ -43,6 +43,9 @@ class DatabaseSeeder extends Seeder {
 		$this->call('ImageablesTableSeeder');
 		$this->command->info('Imageables Table Seeded!');
 
+		$this->call('TaggableTableSeeder');
+		$this->command->info('Taggable Table Seeded!');
+
 
 	}
 
