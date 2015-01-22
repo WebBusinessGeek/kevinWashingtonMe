@@ -43,6 +43,15 @@ Route::group(array(),function()
     Route::post('/connect', 'PublicPagesController@inquiryCreate');
 });
 
+Route::group(array('prefix' => 'ajax'),function()
+{
+    Route::get('/', 'PublicPagesController@ajaxHome');
+    Route::get('/skills', 'PublicPagesController@skills');
+    Route::get('/experiences', 'PublicPagesController@experiences');
+    Route::get('/connect', 'PublicPagesController@connect');
+    Route::post('/connect', 'PublicPagesController@inquiryCreate');
+});
+
 
 Route::get('testing/supercategory', 'SuperCategoryController@store');
 

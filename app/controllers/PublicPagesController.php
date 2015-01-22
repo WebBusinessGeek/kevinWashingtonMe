@@ -10,6 +10,11 @@ class PublicPagesController extends \BaseController {
 	}
 	public function home()
 	{
+		return View::make('publicPages.home');
+	}
+
+	public function ajaxHome()
+	{
 		$tags = \App\DomainLogic\TagDirectory\Tag::with('skills')->get();
 		return $tags;
 	}
@@ -18,26 +23,34 @@ class PublicPagesController extends \BaseController {
 	{
 		$tags = Tag::with('skills')->get();
 		$supercategories = SuperCategory::with('categories.skills')->get();
-		return ['tags' => $tags , 'supercategories' => $supercategories];
+
+		return View::make('publicPages.skill')->with(['tags' => $tags , 'supercategories' => $supercategories]) ;
 	}
 
 	public function experiences()
 	{
 
-		//need experiences->images
 		$experiences = \App\DomainLogic\ExperienceDirectory\Experience::with('image')->get();
-		return $experiences;
+
+		return View::make('publicPages.experience')->with('experiences', $experiences);
+
 	}
 
 	public function connect()
 	{
-		return 'connect View';
+		return View::make('publicPages.connect');
 	}
 
 	public function inquiryCreate()
 	{
 		$attributes = \Illuminate\Support\Facades\Input::all();
-		return $this->inquiryService->store($attributes);
+		$potentialInquiry =  $this->inquiryService->store($attributes);
+
+		if($this->inquiryService->isModelInstance($potentialInquiry))
+		{
+			return \Illuminate\Support\Facades\Redirect::to('/connect/success')->with('message', 'I will plan to reach out to you shortly.');
+		}
+		return \Illuminate\Support\Facades\Redirect::to('/connect')->with('message', $potentialInquiry);
 	}
 
 }
