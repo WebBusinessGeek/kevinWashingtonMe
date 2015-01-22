@@ -30,8 +30,8 @@
           <file leaf-file-name="PublicPagesControllerTest.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/tests/publicPagesDirectory/PublicPagesControllerTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4760479" vertical-offset="5407" max-vertical-offset="7900">
-                  <caret line="234" column="31" selection-start-line="234" selection-start-column="31" selection-end-line="234" selection-end-column="31" />
+                <state vertical-scroll-proportion="0.43862274" vertical-offset="6232" max-vertical-offset="8700">
+                  <caret line="266" column="4" selection-start-line="266" selection-start-column="4" selection-end-line="266" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -44,7 +44,7 @@
           <file leaf-file-name="PublicPagesController.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/PublicPagesController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6115108" vertical-offset="800" max-vertical-offset="2425">
+                <state vertical-scroll-proportion="0.7194245" vertical-offset="725" max-vertical-offset="2425">
                   <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
                   <folding />
                 </state>
@@ -849,7 +849,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/PublicPagesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6115108" vertical-offset="800" max-vertical-offset="2425">
+        <state vertical-scroll-proportion="0.7194245" vertical-offset="725" max-vertical-offset="2425">
           <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding />
         </state>
@@ -857,8 +857,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/publicPagesDirectory/PublicPagesControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4760479" vertical-offset="5407" max-vertical-offset="7900">
-          <caret line="234" column="31" selection-start-line="234" selection-start-column="31" selection-end-line="234" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.43862274" vertical-offset="6232" max-vertical-offset="8700">
+          <caret line="266" column="4" selection-start-line="266" selection-start-column="4" selection-end-line="266" selection-end-column="4" />
           <folding />
         </state>
       </provider>

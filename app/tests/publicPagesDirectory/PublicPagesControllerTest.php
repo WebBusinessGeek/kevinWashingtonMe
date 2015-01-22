@@ -198,6 +198,21 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      * @group publicPagesControllerSkillsTests
      * @group publicPagesGetDataTests
      */
+    public function test_getDataSkills_tag_skill__image_relationships_are_accessible()
+    {
+        $response = $this->GETRoute('/api.v1/skills');
+        $view = $this->getView($response);
+        $tagModels = $view['tags'];
+        $skillsFromFirstTag = $tagModels[0]['skills'];
+        $skillModel = $skillsFromFirstTag[0];
+
+    }
+
+    /**
+     * @group publicPagesControllerTests
+     * @group publicPagesControllerSkillsTests
+     * @group publicPagesGetDataTests
+     */
     public function test_getDataSkills_superCategory_category_relationships_are_accessible()
     {
         $response = $this->GETRoute('/api.v1/skills');
@@ -233,6 +248,23 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
         //with the 'superCategory_id' property equal to 1. &&
         //also that there is a instance in the skills table with the 'category_id' property equal
         //to $categoryModel->id
+    }
+
+    /**
+     * @group publicPagesControllerTests
+     * @group publicPagesControllerSkillsTests
+     * @group publicPagesGetDataTests
+     */
+    public function test_getDataSkills_superCategory_category_skill__image_relationships_are_accessible()
+    {
+        $response = $this->GETRoute('/api.v1/skills');
+        $view = $this->getView($response);
+        $superCategoryModels = $view['supercategories'];
+        $categoriesFromFirstSuperCategory = $superCategoryModels[0]['categories'];
+        $categoryModel = $categoriesFromFirstSuperCategory[0];
+        $skillsFromCategoryModel = $categoryModel['skills'];
+        $skillModel = $skillsFromCategoryModel[0];
+    
     }
 
     /**
