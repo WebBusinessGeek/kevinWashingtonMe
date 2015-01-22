@@ -643,8 +643,8 @@ class SkillInternalServiceTest extends InternalServiceTestAssist{
 
 
         $modelsToClean = [$originalFirstSkillModel,$originalSecondSkillModel, $tag];
-        $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
-        $this->cleanDatabaseTable('taggables');
+//        $this->cleanUpMultipleModelsAfterTesting($modelsToClean);
+//        $this->cleanDatabaseTable('taggables');
     }
 
     /***********************************************************************************************************/

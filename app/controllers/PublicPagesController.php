@@ -15,16 +15,33 @@ class PublicPagesController extends \BaseController {
 
 	public function ajaxHome()
 	{
-		$tags = \App\DomainLogic\TagDirectory\Tag::with('skills')->get();
+//		$tags = Tag::with('skills')->get();
+//		return $tags;
+		$tags = Tag::all();
+
+		$result = [];
+		$array = [];
+		foreach($tags as $tag)
+		{
+				$skills = $tag->skills;
+				array_push($array, $skills);
+//
+		}
+//		return ['tags' => $tags, 'skills' => $skills];
 		return $tags;
+//		return 'hello';
 	}
+
+
+
 
 	public function skills()
 	{
 		$tags = Tag::with('skills')->get();
 		$supercategories = SuperCategory::with('categories.skills')->get();
 
-		return View::make('publicPages.skill')->with(['tags' => $tags , 'supercategories' => $supercategories]) ;
+		return ['tags' => $tags , 'supercategories' => $supercategories];
+//		return View::make('publicPages.skill')->with(['tags' => $tags , 'supercategories' => $supercategories]) ;
 	}
 
 	public function experiences()

@@ -19,7 +19,7 @@ class Tag extends Model
 
 	public function skills()
 	{
-		return $this->morphedByMany('\App\DomainLogic\SkillDirectory\Skill', 'taggable');
+		return $this->morphedByMany('App\DomainLogic\SkillDirectory\Skill', 'taggable');
 	}
 
     protected $modelAttributes = [

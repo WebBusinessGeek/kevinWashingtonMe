@@ -53,7 +53,7 @@ class Skill extends Model {
 
     public function tags()
     {
-        return $this->morphToMany('\App\DomainLogic\TagDirectory\Tag', 'taggable');
+        return $this->morphToMany('App\DomainLogic\TagDirectory\Tag', 'taggable');
     }
     protected $modelAttributes = [
         0 => [
