@@ -127,7 +127,7 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      * @group publicPagesControllerHomeTests
      * @group publicPagesGetDataTests
      */
-    public function test_getDataHome_entities_are_accessible()
+    public function test_getDataHome_tags_are_accessible()
     {
         $response = $this->GETRoute('/api.v1/');
         $view = $this->getView($response);
@@ -140,7 +140,7 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      * @group publicPagesControllerHomeTests
      * @group publicPagesGetDataTests
      */
-    public function test_getDataHome_entity_relationships_are_accessible()
+    public function test_getDataHome_tag_skill_relationships_are_accessible()
     {
         $response = $this->GETRoute('/api.v1/');
         $view = $this->getView($response);
