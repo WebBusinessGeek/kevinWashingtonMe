@@ -12,15 +12,34 @@
 |
 */
 
-
-Route::get('/login', function()
+//public pages
+Route::group(array(),function()
 {
- return 'login page';
-
-
+    Route::get('/', 'PublicPagesController@viewHome');
+    Route::get('/skills', 'PublicPagesController@viewSkills');
+    Route::get('/experiences', 'PublicPagesController@viewExperiences');
+    Route::get('/connect', 'PublicPagesController@viewConnect');
 });
 
+//routes for angularjs/ajax calls
+Route::group(array('prefix' => 'api.v1'),function()
+{
+    Route::get('/', 'PublicPagesController@getDataHome');
+    Route::get('/skills', 'PublicPagesController@getDataSkills');
+    Route::get('/experiences', 'PublicPagesController@getDataExperiences');
+    Route::post('/connect', 'PublicPagesController@postDataConnect');
+});
 
+//auth related routes
+Route::group(array(), function()
+{
+    Route::get('/login', function()
+    {
+        return 'login page';
+    });
+});
+
+//private dashboard routes
 Route::group(array('before' => 'auth', 'prefix' => 'dashboard'), function ()
 {
     Route::resource('supercategory', 'SuperCategoryController');
@@ -34,23 +53,5 @@ Route::group(array('before' => 'auth', 'prefix' => 'dashboard'), function ()
 });
 
 
-Route::group(array(),function()
-{
-    Route::get('/', 'PublicPagesController@viewHome');
-    Route::get('/skills', 'PublicPagesController@viewSkills');
-    Route::get('/experiences', 'PublicPagesController@viewExperiences');
-    Route::get('/connect', 'PublicPagesController@viewConnect');
-});
-
-Route::group(array('prefix' => 'api.v1'),function()
-{
-    Route::get('/', 'PublicPagesController@getDataHome');
-    Route::get('/skills', 'PublicPagesController@getDataSkills');
-    Route::get('/experiences', 'PublicPagesController@getDataExperiences');
-    Route::post('/connect', 'PublicPagesController@postDataConnect');
-});
 
 
-Route::get('testing/supercategory', 'SuperCategoryController@store');
-
-Route::resource('testing', 'SuperCategoryController');
