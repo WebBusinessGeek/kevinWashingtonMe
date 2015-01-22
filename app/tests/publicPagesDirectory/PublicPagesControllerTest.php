@@ -153,9 +153,12 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      * @group publicPagesControllerSkillsTests
      * @group publicPagesGetDataTests
      */
-    public function test_getDataSkills_entities_needed_for_view_are_returned()
+    public function test_getDataSkills_tags_needed_for_view_are_returned()
     {
-
+        $response = $this->GETRoute('/api.v1/skills');
+        $view = $this->getView($response);
+        $tagModels = $view['tags'];
+        $this->assertEquals('App\DomainLogic\TagDirectory\Tag', get_class($tagModels[0]));
     }
 
     /**
@@ -163,9 +166,31 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      * @group publicPagesControllerSkillsTests
      * @group publicPagesGetDataTests
      */
-    public function test_getDataSkills_entities_are_accessible()
+    public function test_getDataSkills_supercategories_needed_for_view_are_returned()
     {
+        $response = $this->GETRoute('/api.v1/skills');
+        $view = $this->getView($response);
+        $superCategoryModels = $view['supercategories'];
+        $this->assertEquals('App\DomainLogic\SuperCategoryDirectory\SuperCategory', get_class($superCategoryModels[0]));
+    }
 
+
+    /**
+     * @group publicPagesControllerTests
+     * @group publicPagesControllerSkillsTests
+     * @group publicPagesGetDataTests
+     */
+    public function test_getDataSkills_tag_skill_relationships_are_accessible()
+    {
+        $response = $this->GETRoute('/api.v1/skills');
+        $view = $this->getView($response);
+        $tagModels = $view['tags'];
+        $skillsFromFirstTag = $tagModels[0]['skills'];
+        $skillModel = $skillsFromFirstTag[0];
+        $this->assertEquals('\App\DomainLogic\SkillDirectory\Skill', $skillModel->getClassName());
+        //if test causes error: ErrorException: Undefined offset: 0 ..
+        //you simply need to ensure the taggables table contains a record
+        //with tag_id equal to 1 and the taggable type equal to the Skill class.
     }
 
     /**
@@ -173,9 +198,41 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      * @group publicPagesControllerSkillsTests
      * @group publicPagesGetDataTests
      */
-    public function test_getDataSkills_entity_relationships_are_accessible()
+    public function test_getDataSkills_superCategory_category_relationships_are_accessible()
     {
+        $response = $this->GETRoute('/api.v1/skills');
+        $view = $this->getView($response);
+        $superCategoryModels = $view['supercategories'];
+        $categoriesFromFirstSuperCategory = $superCategoryModels[0]['categories'];
+        $categoryModel = $categoriesFromFirstSuperCategory[0];
+        $this->assertEquals('\App\DomainLogic\CategoryDirectory\Category', $categoryModel->getClassName());
+        //if test causes error: ErrorException: Undefined offset: 0 ..
+        //you simply need to ensure the categories table contains an instance
+        //with the 'superCategory_id' property equal to 1.
 
+    }
+
+
+    /**
+     * @group publicPagesControllerTests
+     * @group publicPagesControllerSkillsTests
+     * @group publicPagesGetDataTests
+     */
+    public function test_getDataSkills_superCategory_category_skill_relationships_are_accessible()
+    {
+        $response = $this->GETRoute('/api.v1/skills');
+        $view = $this->getView($response);
+        $superCategoryModels = $view['supercategories'];
+        $categoriesFromFirstSuperCategory = $superCategoryModels[0]['categories'];
+        $categoryModel = $categoriesFromFirstSuperCategory[0];
+        $skillsFromCategoryModel = $categoryModel['skills'];
+        $skillModel = $skillsFromCategoryModel[0];
+        $this->assertEquals('\App\DomainLogic\SkillDirectory\Skill', $skillModel->getClassName());
+        //if test causes error: ErrorException: Undefined offset: 0 ..
+        //you simply need to ensure the categories table contains an instance
+        //with the 'superCategory_id' property equal to 1. &&
+        //also that there is a instance in the skills table with the 'category_id' property equal
+        //to $categoryModel->id
     }
 
     /**
