@@ -219,9 +219,9 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
         $tagModels = $view['tags'];
         $skillsFromFirstTag = $tagModels[0]['skills'];
         $skillModel = $skillsFromFirstTag[0];
-        $imageModel = $skillModel['images'];
+        $imageModel = $skillModel['images'][0];
+        $this->assertEquals('\App\DomainLogic\ImageDirectory\Image', $imageModel->getClassName());
 
-//        TODO: IMPLEMENT!
     }
 
     /**
@@ -271,7 +271,7 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      * @group publicPagesControllerSkillsTests
      * @group publicPagesGetDataTests
      */
-    public function test_getDataSkills_superCategory_category_skill__image_relationships_are_accessible()
+    public function test_getDataSkills_superCategory_category_skill_image_relationships_are_accessible()
     {
         $response = $this->GETRoute('/api.v1/skills');
         $view = $this->getView($response);
@@ -280,8 +280,8 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
         $categoryModel = $categoriesFromFirstSuperCategory[0];
         $skillsFromCategoryModel = $categoryModel['skills'];
         $skillModel = $skillsFromCategoryModel[0];
-
-        //        TODO: IMPLEMENT!
+        $imageModel = $skillModel['images'][0];
+        $this->assertEquals('\App\DomainLogic\ImageDirectory\Image', $imageModel->getClassName());
     }
 
     /**
