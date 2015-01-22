@@ -24,6 +24,18 @@ class DatabaseSeeder extends Seeder {
 
 		$this->call('CategoryTableSeeder');
 		$this->command->info('Category Table Seeded!');
+
+		$this->call('ImageTableSeeder');
+		$this->command->info('Image Table Seeded!');
+	
+		$this->call('ToolTableSeeder');
+		$this->command->info('Tool Table Seeded!');
+
+		$this->call('ExperienceTableSeeder');
+		$this->command->info('Experience Table Seeded!');
+
+		$this->call('InquiryTableSeeder');
+		$this->command->info('Inquiry Table Seeded!');
 	}
 
 
