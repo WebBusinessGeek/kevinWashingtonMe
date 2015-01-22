@@ -26,7 +26,8 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      */
     public function test_viewHome_route_is_setup()
     {
-
+        $response = $this->GETRoute('/');
+        $this->assertResponseOk();
     }
 
     /**
@@ -36,7 +37,8 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      */
     public function test_viewSkills_route_is_setup()
     {
-
+        $response = $this->GETRoute('/skills');
+        $this->assertResponseOk();
     }
 
     /**
@@ -46,7 +48,8 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      */
     public function test_viewExperiences_route_is_setup()
     {
-
+        $response = $this->GETRoute('/experiences');
+        $this->assertResponseOk();
     }
 
     /**
@@ -56,7 +59,8 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      */
     public function test_viewConnect_route_is_setup()
     {
-
+        $response = $this->GETRoute('/connect');
+        $this->assertResponseOk();
     }
 
     /**
@@ -66,7 +70,7 @@ class PublicPagesControllerTest extends \App\Base\MasterTestLibrary {
      */
     public function test_viewHome_view_exists()
     {
-
+        
     }
 
     /**

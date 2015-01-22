@@ -75,6 +75,13 @@ class MasterTestLibrary extends \TestCase {
     }
 
 
+    public function GETRoute($route, $parameters = null)
+    {
+        return (isset($parameters))? $this->call('GET', $route, $parameters): $this->call('GET', $route);
+    }
+
+
+
     /**************************************             Fakers           ***********************************************/
 
 

@@ -138,10 +138,7 @@ abstract class ExternalServiceTestLibrary extends MasterTestLibrary {
         $editRoute = $this->createEditRoute($id);
         return $this->GETRoute($editRoute);
     }
-    public function GETRoute($route, $parameters = null)
-    {
-       return (isset($parameters))? $this->call('GET', $route, $parameters): $this->call('GET', $route);
-    }
+
     public function createEditRoute($id)
     {
         $breakRoute = explode($this->editRouteDelimeter, $this->editRoute);
