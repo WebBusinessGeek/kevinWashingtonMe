@@ -19,7 +19,7 @@ class InquiryTableSeeder extends \Illuminate\Database\Seeder {
         {
 
             \App\DomainLogic\InquiryDirectory\Inquiry::create([
-                'name' => $faker->word,
+                'name' => $faker->name,
                 'body' => $faker->text(),
                 'contactMethod' => $contactMethods[rand(0, 2)],
                 'email' => $faker->email,

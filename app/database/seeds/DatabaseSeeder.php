@@ -39,7 +39,13 @@ class DatabaseSeeder extends Seeder {
 
 		$this->call('SkillToolTableSeeder');
 		$this->command->info('SkillTool Table Seeded!');
+
+		$this->call('ImageablesTableSeeder');
+		$this->command->info('Imageables Table Seeded!');
+
+
 	}
+
 
 
 }
