@@ -2,7 +2,10 @@
 
 use \App\DomainLogic\TagDirectory\Tag as Tag;
 use \App\DomainLogic\SuperCategoryDirectory\SuperCategory as SuperCategory;
+use \Illuminate\Support\Facades\Cache as Cache;
 class PublicPagesController extends \BaseController {
+
+	protected $cacheLimit = 120;
 
 	public function __construct()
 	{
@@ -18,18 +21,26 @@ class PublicPagesController extends \BaseController {
 	}
 	public function getDataHome()
 	{
-		$tags = Tag::all();
-
-		foreach($tags as $tag)
+		if(!Cache::has('getDataHome'))
 		{
-			foreach($tag->skills as $skill)
-			{
-				$skill->images;
-			}
-		}
-		$log = \Illuminate\Support\Facades\DB::getQueryLog();
+			$tags = Tag::all();
 
-		return ['tags' => $tags, 'log' => $log];
+			foreach($tags as $tag)
+			{
+				foreach($tag->skills as $skill)
+				{
+					$skill->images;
+				}
+			}
+			$log = \Illuminate\Support\Facades\DB::getQueryLog();
+
+			$forCache = ['tags' => $tags, 'log' => $log];
+
+			Cache::put('getDataHome', $forCache, $this->cacheLimit);
+			return $forCache;
+		}
+
+		return Cache::get('getDataHome');
 
 	}
 
@@ -42,20 +53,27 @@ class PublicPagesController extends \BaseController {
 	}
 	public function getDataSkills()
 	{
-		$tags = Tag::all();
-		foreach($tags as $tag)
+		if(!Cache::has('getDataSkills'))
 		{
-			foreach($tag->skills as $skill)
+			$tags = Tag::all();
+			foreach($tags as $tag)
 			{
-				$skill->images;
+				foreach($tag->skills as $skill)
+				{
+					$skill->images;
+				}
 			}
+
+
+			$supercategories = SuperCategory::with('categories.skills')->get();
+
+			$log = \Illuminate\Support\Facades\DB::getQueryLog();
+			$forCache = ['tags' => $tags , 'supercategories' => $supercategories, 'log' => $log];
+
+			Cache::put('getDataSkills', $forCache, $this->cacheLimit);
+			return $forCache;
 		}
-
-
-		$supercategories = SuperCategory::with('categories.skills')->get();
-
-		$log = \Illuminate\Support\Facades\DB::getQueryLog();
-		return ['tags' => $tags , 'supercategories' => $supercategories, 'log' => $log];
+		return Cache::get('getDataSkills');
 	}
 
 
@@ -69,17 +87,24 @@ class PublicPagesController extends \BaseController {
 	}
 	public function getDataExperiences()
 	{
-//		$experiences = \App\DomainLogic\ExperienceDirectory\Experience::with('images')->get();
 
-		$experiences = \App\DomainLogic\ExperienceDirectory\Experience::all();
-		foreach($experiences as $experience)
+		if(!Cache::has('getDataExperiences'))
 		{
-			$experience->images;
+			$experiences = \App\DomainLogic\ExperienceDirectory\Experience::all();
+			foreach($experiences as $experience)
+			{
+				$experience->images;
+			}
+
+			$log = \Illuminate\Support\Facades\DB::getQueryLog();
+
+			$forCache = ['experiences' => $experiences, 'log' => $log];
+
+			Cache::put('getDataExperiences', $forCache, $this->cacheLimit);
+
+			return $forCache;
 		}
-
-		$log = \Illuminate\Support\Facades\DB::getQueryLog();
-
-		return ['experiences' => $experiences, 'log' => $log];
+		return Cache::get('getDataExperiences');
 	}
 
 

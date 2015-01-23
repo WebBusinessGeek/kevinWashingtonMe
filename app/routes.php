@@ -12,6 +12,13 @@
 |
 */
 
+//route for misc testing
+Route::get('test', function()
+{
+    return \Illuminate\Support\Facades\Cache::get('getDataExperiences');
+});
+
+
 
 //public pages
 Route::group(array(),function()
