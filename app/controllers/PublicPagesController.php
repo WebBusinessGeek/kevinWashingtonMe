@@ -6,6 +6,8 @@ use \Illuminate\Support\Facades\Cache as Cache;
 class PublicPagesController extends \BaseController {
 
 
+	public $layout = 'publicPages.wrapper';
+
 	public function __construct()
 	{
 		$this->inquiryService = new \App\DomainLogic\InquiryDirectory\InquiryInternalService();
@@ -20,7 +22,8 @@ class PublicPagesController extends \BaseController {
 
 	public function viewHome()
 	{
-		return View::make('publicPages.home');
+		$view = View::make('publicPages.home');
+		$this->layout->content = $view->render();
 	}
 	public function getDataHome()
 	{
@@ -52,7 +55,8 @@ class PublicPagesController extends \BaseController {
 
 	public function viewSkills()
 	{
-		return View::make('publicPages.skill');
+		$view = View::make('publicPages.skill');
+		$this->layout->content = $view->render();
 	}
 	public function getDataSkills()
 	{
@@ -83,10 +87,8 @@ class PublicPagesController extends \BaseController {
 
 	public function viewExperiences()
 	{
-
-		return View::make('publicPages.experience');
-
-
+		$view = View::make('publicPages.experience');
+		$this->layout->content = $view->render();
 	}
 	public function getDataExperiences()
 	{
@@ -115,7 +117,8 @@ class PublicPagesController extends \BaseController {
 
 	public function viewConnect()
 	{
-		return View::make('publicPages.connect');
+		$view = View::make('publicPages.connect');
+		$this->layout->content = $view->render();
 	}
 
 	public function postDataConnect()
