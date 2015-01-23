@@ -26,6 +26,9 @@
     <script src="angular-bootstrap/angular-route.min.js"></script>
     <script src="app/app.js"></script>
     <script src="app/home.js"></script>
+    <script src="app/skill.js"></script>
+    <script src="app/experience.js"></script>
+    <script src="app/connect.js"></script>
 
 
 </body>

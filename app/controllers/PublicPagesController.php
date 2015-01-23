@@ -8,17 +8,21 @@ class PublicPagesController extends \BaseController {
 
 	public $layout = 'publicPages.wrapper';
 
+
 	public function __construct()
 	{
 		$this->inquiryService = new \App\DomainLogic\InquiryDirectory\InquiryInternalService();
 	}
-
 
 	public function getCacheLimit($days = 5)
 	{
 		return \Carbon\Carbon::now()->adddays($days);
 	}
 
+
+	/***********************************************************************************************************/
+	/*                                          Home page                           		                    */
+	/***********************************************************************************************************/
 
 	public function viewHome()
 	{
@@ -50,6 +54,10 @@ class PublicPagesController extends \BaseController {
 
 	}
 
+
+	/***********************************************************************************************************/
+	/*                                          Skills page                           		                    */
+	/***********************************************************************************************************/
 
 
 
@@ -85,6 +93,10 @@ class PublicPagesController extends \BaseController {
 
 
 
+	/***********************************************************************************************************/
+	/*                                          Experience page                           		                    */
+	/***********************************************************************************************************/
+
 	public function viewExperiences()
 	{
 		$view = View::make('publicPages.experience');
@@ -112,6 +124,10 @@ class PublicPagesController extends \BaseController {
 		return Cache::get('getDataExperiences');
 	}
 
+
+	/***********************************************************************************************************/
+	/*                                          Connect page                           		                    */
+	/***********************************************************************************************************/
 
 
 
