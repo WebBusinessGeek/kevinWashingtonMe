@@ -15,7 +15,9 @@
 //route for misc testing
 Route::get('test', function()
 {
-    return \Illuminate\Support\Facades\Cache::get('getDataExperiences');
+    return \Illuminate\Support\Facades\Cache::get('getDataHome');
+
+
 });
 
 

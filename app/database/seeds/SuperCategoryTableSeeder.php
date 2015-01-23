@@ -19,7 +19,7 @@ class SuperCategoryTableSeeder extends \Illuminate\Database\Seeder {
         {
 
             \App\DomainLogic\SuperCategoryDirectory\SuperCategory::create([
-                'title' => $faker->word(),
+                'title' => 'SuperCategory'.$faker->word(),
             ]);
         }
     }

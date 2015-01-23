@@ -18,7 +18,7 @@ class TagTableSeeder  extends \Illuminate\Database\Seeder{
         {
 
             \App\DomainLogic\TagDirectory\Tag::create([
-                'title' => $faker->word(),
+                'title' => 'Tag'.$faker->word(),
             ]);
         }
     }

@@ -18,7 +18,7 @@ class CategoryTableSeeder extends \Illuminate\Database\Seeder {
         {
 
            \App\DomainLogic\CategoryDirectory\Category::create([
-                'title' => $faker->word(),
+                'title' => 'Category'.$faker->word(),
                'superCategory_id' => rand(1, 15),
             ]);
         }

@@ -18,7 +18,7 @@ class ExperienceTableSeeder extends \Illuminate\Database\Seeder {
         {
 
             \App\DomainLogic\ExperienceDirectory\Experience::create([
-                'name' => $faker->word,
+                'name' => 'Experience'.$faker->word,
                 'url' => $faker->url,
                 'highlights' => $faker->text(),
                 'rolesResponsibilities' => $faker->text(),

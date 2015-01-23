@@ -5,7 +5,6 @@ use \App\DomainLogic\SuperCategoryDirectory\SuperCategory as SuperCategory;
 use \Illuminate\Support\Facades\Cache as Cache;
 class PublicPagesController extends \BaseController {
 
-	protected $cacheLimit = 120;
 
 	public function __construct()
 	{
@@ -13,6 +12,10 @@ class PublicPagesController extends \BaseController {
 	}
 
 
+	public function getCacheLimit($days = 5)
+	{
+		return \Carbon\Carbon::now()->adddays($days);
+	}
 
 
 	public function viewHome()
@@ -36,7 +39,7 @@ class PublicPagesController extends \BaseController {
 
 			$forCache = ['tags' => $tags, 'log' => $log];
 
-			Cache::put('getDataHome', $forCache, $this->cacheLimit);
+			Cache::put('getDataHome', $forCache, $this->getCacheLimit());
 			return $forCache;
 		}
 
@@ -70,7 +73,7 @@ class PublicPagesController extends \BaseController {
 			$log = \Illuminate\Support\Facades\DB::getQueryLog();
 			$forCache = ['tags' => $tags , 'supercategories' => $supercategories, 'log' => $log];
 
-			Cache::put('getDataSkills', $forCache, $this->cacheLimit);
+			Cache::put('getDataSkills', $forCache, $this->getCacheLimit());
 			return $forCache;
 		}
 		return Cache::get('getDataSkills');
@@ -100,7 +103,7 @@ class PublicPagesController extends \BaseController {
 
 			$forCache = ['experiences' => $experiences, 'log' => $log];
 
-			Cache::put('getDataExperiences', $forCache, $this->cacheLimit);
+			Cache::put('getDataExperiences', $forCache, $this->getCacheLimit());
 
 			return $forCache;
 		}

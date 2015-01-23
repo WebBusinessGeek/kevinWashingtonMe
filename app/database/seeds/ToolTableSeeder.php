@@ -18,7 +18,7 @@ class ToolTableSeeder  extends \Illuminate\Database\Seeder {
         {
 
             \App\DomainLogic\ToolDirectory\Tool::create([
-                'title' => $faker->word(),
+                'title' => 'Tool'.$faker->word(),
 
             ]);
         }

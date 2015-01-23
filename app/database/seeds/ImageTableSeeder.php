@@ -18,7 +18,7 @@ class ImageTableSeeder extends \Illuminate\Database\Seeder {
         {
 
             App\DomainLogic\ImageDirectory\Image::create([
-                'name' => $faker->word,
+                'name' => 'Image'.$faker->word,
                 'originalPath' => $faker->word.'/'.$faker->word,
                 'smallPath' => $faker->word.'/'.$faker->word,
                 'mediumPath' => $faker->word.'/'.$faker->word,

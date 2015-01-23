@@ -20,7 +20,7 @@ class SkillTableSeeder extends \Illuminate\Database\Seeder {
         {
 
             \App\DomainLogic\SkillDirectory\Skill::create([
-                'title' => $faker->word(),
+                'title' => 'Skill'.$faker->word(),
                 'category_id' => rand(1, 15),
                 'article' => $faker->sentence(),
                 'definition' => $faker->sentence(),
