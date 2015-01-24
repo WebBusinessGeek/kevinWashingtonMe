@@ -23,11 +23,26 @@
 
     <div id="contactFormInputs" class="col-md-5 well">
         <form class="form-horizontal">
+
+
             <div class="form-group">
-                <label for="inputEmail3" class="col-sm-5 control-label">Help me understand how I could help your business objectives.</label>
-                <div class="col-sm-5">
-                    <textarea class="form-control" rows="3"></textarea>
-                </div>
+                <label for="body" >Help me understand your business objectives, and how I can help:</label>
+                    <textarea name="body" class="form-control" rows="10" cols="30"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="name" class="text-center">Enter your name: </label>
+                <input type="text" class="form-control input-lg" name="name" id="name" placeholder="Name">
+
+            </div>
+
+            <div>
+                
+<!--                contactMethod-->
+            </div>
+
+            <div>
+<!--                email or phone or skype-->
             </div>
 <!--        inputs form-->
     </div>
