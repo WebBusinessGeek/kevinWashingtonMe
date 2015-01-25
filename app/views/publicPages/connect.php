@@ -36,24 +36,47 @@
 
             </div>
 
-            <div>
-                
-<!--                contactMethod-->
+            <div class="form-group">
+                <label for="contactMethod" class="text-center">Preferred Contact Method: </label>
+                <select class="form-control input-lg">
+                    <option>Email</option>
+                    <option>Phone</option>
+                </select>
             </div>
 
-            <div>
-<!--                email or phone or skype-->
+
+<!--            ONe of the below groups should be hidden based on previous input value-->
+            <div class="form-group">
+                <label for="email" class="text-center">Enter your email: </label>
+                <input type="text" class="form-control input-lg" name="email" id="email" placeholder="Email...">
+
             </div>
+            <div class="form-group">
+                <label for="phone" class="text-center">Enter your phone: </label>
+                <input type="text" class="form-control input-lg" name="phone" id="phone" placeholder="Phone...">
+
+            </div>
+
+
 <!--        inputs form-->
-    </div>
+</div>
     <div id="contactFormPreview" class="col-md-6 col-sm-offset-1 well">
-        <p>Preview TextPreview TextPreview TextPreview TextPreview Text
-            Preview TextPreview TextPreview TextPreview TextPreview TextPreview Text
-            Preview TextPreview TextPreview TextPreview TextPreview TextPreview Text
-            Preview TextPreview TextPreview TextPreview TextPreview Text
-            Preview TextPreview TextPreview TextPreview TextPreview Text
-            Preview TextPreview TextPreview TextPreview Text</p>
+        <p>This will be preview text....This will be preview text....This will be preview text....
+            This will be preview text....This will be preview text....This will be preview text....
+            This will be preview text....This will be preview text....This will be preview text....
+            This will be preview text....This will be preview text....This will be preview text....
+            This will be preview text....This will be preview text....This will be preview text....
+            This will be preview text....This will be preview text....This will be preview text....
+            This will be preview text....This will be preview text....This will be preview text....
+            This will be preview text....This will be preview text....This will be preview text....
+            This will be preview text....This will be preview text....This will be preview text....
+        </p>
+        <div>
+            <button class="btn btn-primary btn-lg center-block">Send my inquiry!</button>
+        </div>
     </div>
+
+
 </div>
 
 
