@@ -80,16 +80,32 @@
 </div>
 
 
-<div>
-<!--    email section-->
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+<div class="col-md-6 well col-sm-offset-4 text-center">
+    <h4>Email Me</h4>
+    <img src="http://placehold.it/200x150">
+    <p>Please include your name, business objectives,
+        and other other information you think important for us to be effective working together.</p>
 </div>
 
 
-<div>
-<!--    skype section-->
+<div class="col-md-6 well col-sm-offset-4 text-center">
+    <h4>Add Me on Skype</h4>
+    <img src="http://placehold.it/200x150">
+    <p>In your add message - Please include your name, business objectives,
+        and other other information you think would be important.</p>
 </div>
 
 
-<div>
-<!--    phone section-->
+<div class="col-md-6 well col-sm-offset-4 text-center">
+    <h4>Leave me a message @ 215-744-7444</h4>
+    <img src="http://placehold.it/200x150">
+    <p>In your message - Please include your name, business objectives,
+        and other other information you think would be important.</p>
 </div>
