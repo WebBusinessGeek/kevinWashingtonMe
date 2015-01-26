@@ -106,7 +106,7 @@
         -->
 
         <br/><br/>
-        <div id="resultsShow" class="text-center" ng-show="showing">
+        <div id="resultsShow" class="text-center" ng-if="showing">
 
             <div class="row col-md-offset-1">
                 <div id="showDefinition" class="col-md-4 well">
