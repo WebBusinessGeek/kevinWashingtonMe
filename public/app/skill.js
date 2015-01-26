@@ -10,4 +10,15 @@ angular.module('app')
             });
 
 
+        $scope.showing = null;
+
+        $scope.show = function(item)
+        {
+            $scope.showing = item;
+        };
+
+        $scope.stopShow = function()
+        {
+            $scope.showing = null;
+        }
     }]);

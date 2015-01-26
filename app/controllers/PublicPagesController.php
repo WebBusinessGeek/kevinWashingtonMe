@@ -76,6 +76,7 @@ class PublicPagesController extends \BaseController {
 				foreach($tag->skills as $skill)
 				{
 					$skill->images;
+					$skill->tools;
 				}
 			}
 

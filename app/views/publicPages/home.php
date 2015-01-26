@@ -30,7 +30,7 @@
 
         <br/>
 
-        <div style="max-height: 500px; overflow: auto;" ng-show="query">
+        <div style="max-height: 500px; overflow: auto;" ng-if="query">
              <div class="row col-sm-offset-1" ng-repeat="tag in filtered = (tags.tags |filter:query)">
                 <h3>{{tag.title}} related skills</h3>
                 <div class="col-sm-11 well" ng-repeat="skill in tag.skills">

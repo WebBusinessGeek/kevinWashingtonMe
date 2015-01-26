@@ -64,4 +64,11 @@ Route::group(array('before' => 'auth', 'prefix' => 'dashboard'), function ()
 
 
 
+Route::get('/forget', function()
+{
+    Cache::forget('getDataHome');
+    Cache::forget('getDataSkills');
+    Cache::forget('getDataExperiences');
+});
+
 
