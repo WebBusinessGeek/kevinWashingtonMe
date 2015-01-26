@@ -36,6 +36,7 @@
             Start your search. Type in the search box or click a category.
     </div>
 
+
     <div id="resultsSection" class="col-lg-7 col-lg-offset-1 well" ng-if="tagQuery || selectedCategory">
         <!--
 ************************************    TAG QUERY INDEX SECTION ***************************************
@@ -50,7 +51,7 @@
                             <div class="col-sm-offset-1" ng-if="($index + 1) == 1 || (($index +1) -1) % 3 == 0 ">
                                 <div class="col-md-3 well">
                                 {{skill.title}}
-                                    <img src="http://placehold.it/120/90">
+                                    <img src="http://placehold.it/120x90">
                                     <p>Some text about the skill. Some text about the skill.
                                         Some text about the skill.</p>
                                     <button class="btn btn-primary" ng-click="show(skill)">See Skill</button>
@@ -59,7 +60,7 @@
 
                             <div class="col-md-3 well col-md-offset-1" ng-if="(($index+1) -1) % 3 != 0">
                                 {{skill.title}}
-                                <img src="http://placehold.it/120/90">
+                                <img src="http://placehold.it/120x90">
                                 <p>Some text about the skill. Some text about the skill.
                                     Some text about the skill.</p>
                                 <button class="btn btn-primary" ng-click="show(skill)">See Skill</button>
@@ -72,7 +73,7 @@
         <!--
         ************************************    SELECTED CATEGORY SECTION ***************************************
                 -->
-        <div id="categoryResultsIndex" class="text-center" ng-if="selectedCategory" >
+        <div id="categoryResultsIndex" class="text-center" ng-if="selectedCategory && tagQuery == null" >
             <div ng-hide="showing">
                 <h3>{{selectedCategory.title}}</h3>
                 <div class="row">
@@ -81,7 +82,7 @@
                         <div class="col-sm-offset-1" ng-if="($index + 1) == 1 || (($index +1) -1) % 3 == 0 ">
                             <div class="col-md-3 well">
                                 {{skill.title}}
-                                <img src="http://placehold.it/120/90">
+                                <img src="http://placehold.it/120x90">
                                 <p>Some text about the skill. Some text about the skill.
                                     Some text about the skill.</p>
                                 <button class="btn btn-primary" ng-click="show(skill)">See Skill</button>
@@ -90,7 +91,7 @@
 
                         <div class="col-md-3 well col-md-offset-1" ng-if="(($index+1) -1) % 3 != 0">
                             {{skill.title}}
-                            <img src="http://placehold.it/120/90">
+                            <img src="http://placehold.it/120x90">
                             <p>Some text about the skill. Some text about the skill.
                                 Some text about the skill.</p>
                             <button class="btn btn-primary" ng-click="show(skill)">See Skill</button>

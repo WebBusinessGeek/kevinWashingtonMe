@@ -14,13 +14,16 @@ angular.module('app')
         {
             $scope.selectedCategory = null;
         }
-        $scope.showing = null;
 
+
+
+
+        $scope.showing = null;
         $scope.show = function(item)
         {
             $scope.showing = item;
-        };
 
+        };
         $scope.stopShow = function()
         {
             $scope.showing = null;
@@ -30,16 +33,17 @@ angular.module('app')
 
 
         $scope.selectedCategory = null;
-
         $scope.categorySelect = function(item)
         {
             $scope.selectedCategory = item;
             $scope.tagQuery = null;
-            console.log(item);
+            $scope.stopShow();
         };
-
         $scope.categoryDeSelect = function()
         {
            $scope.selectedCategory = null;
-        }
+        };
+
+
+
     }]);
