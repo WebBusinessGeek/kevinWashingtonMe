@@ -19,7 +19,14 @@
 
 
 
-<div id="experienceShow" ng-if="showing != null">
+<div id="experienceShow" ng-if="showing">
+
+    <div class="row">
+        <div class="col-md-4">
+            <a ng-click="stopShow()">Back</a>
+
+        </div>
+    </div>
 
     <div class="row text-center">
         <div id="companyClientInfo" class="col-md-4 well">

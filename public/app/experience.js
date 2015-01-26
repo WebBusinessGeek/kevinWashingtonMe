@@ -13,6 +13,10 @@ angular.module('app')
         $scope.show = function(item)
         {
             $scope.showing = item;
+        };
+        $scope.stopShow = function()
+        {
+            $scope.showing = null;
         }
 
     }]);
