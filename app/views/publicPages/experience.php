@@ -1,35 +1,25 @@
-<div id="experienceIndex" class="text-center">
-    <div id="experienceIndexText">
-        <h1>Some recent projects I have been apart of.</h1>
-    </div><br/>
-    <div id="experienceIndexResults" class="row col-sm-offset-1">
-        <div class="col-sm-5 well ">
-            <h4>Title</h4>
-            <img src="http://placehold.it/200x150">
-            <p>Chupa chups unerdwear.com liquorice tiramisu marshmallow marzipan jelly. Danish soufflé I love sweet tiramisu I love.</p>
-            <button class="btn btn-success">See more</button>
+<div id="experienceIndex" class="text-center" ng-controller="experienceController">
+
+    <div ng-hide="showing">
+        <div id="experienceIndexText">
+            <h1>Some recent projects I have been apart of.</h1>
+        </div><br/>
+
+        <div id="experienceIndexResults" class="row col-sm-offset-1">
+            <div class="col-sm-4 col-md-offset-1 well" ng-repeat="experience in experiences | limitTo:2">
+                <h4>{{experience.name}}</h4>
+                <img src="http://placehold.it/200x150">
+                <p>Chupa chups unerdwear.com liquorice tiramisu marshmallow marzipan jelly. Danish soufflé I love sweet tiramisu I love.</p>
+                <button class="btn btn-success" ng-click="show(experience)">See more</button>
+            </div>
         </div>
-
-
-        <div class="col-sm-5 col-lg-offset-1 well">
-            <h4>Title</h4>
-            <img src="http://placehold.it/200x150">
-            <p>Chupa chups unerdwear.com liquorice tiramisu marshmallow marzipan jelly. Danish soufflé I love sweet tiramisu I love.</p>
-            <button class="btn btn-success">See more</button>
-        </div>
-
 
     </div>
-</div>
 
 
-<br/>
-<br/>
-<br/>
-<br/>
 
 
-<div id="experienceShow">
+<div id="experienceShow" ng-if="showing != null">
 
     <div class="row text-center">
         <div id="companyClientInfo" class="col-md-4 well">
@@ -41,7 +31,7 @@
         </div>
 
         <div id="highlights" class="col-md-7 col-sm-offset-1 well">
-            <h4>Highlights</h4>
+            <h4>Highlights working with {{showing.name}}</h4>
             <ul>
                 <li>Chupa chups unerdwear.com liquorice tiramisu marshmallow marzipan jelly.</li>
                 <li>Chupa chups unerdwear.com liquorice tiramisu marshmallow marzipan jelly.</li>
@@ -150,4 +140,6 @@
             </div>
         </div>
     </div>
+</div>
+
 </div>
