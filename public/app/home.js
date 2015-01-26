@@ -1,28 +1,13 @@
 
 angular.module('app')
 
-.controller('someController', ['$scope', '$http', function($scope, $http)
+.controller('homeController', ['$scope', '$http', function($scope, $http)
 {
+    $scope.tags = [];
 
-    $scope.tags = {
-        'tag':{
-            'title' : 'someTitle1'
-        },
-        'tag2':{
-            'title' : 'someTitle2'
-        },
-        'tag3':{
-            'title' : 'someTitle3'
-        }
-    };
-
-    $scope.tagsFromCall = '';
-
-    $scope.tagsAjax = $http.get('/ajax/').
-    success(function(data)
-        {
-            $scope.tagsFromCall = data;
-            console.log($scope.tagsFromCall);
+    $http.get('/api.v1/')
+        .success(function(data){
+            $scope.tags = data;
+            console.log($scope.tags);
         });
-
 }]);

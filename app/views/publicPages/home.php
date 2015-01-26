@@ -1,7 +1,7 @@
 
 
 
-    <div class="text-center">
+    <div class="text-center" ng-controller="homeController">
 
         <div id="searchBarGroup">
             <div id="searchBarText">
@@ -27,37 +27,28 @@
             </div>
         </div>
 
-
         <br/>
 
-        <div class="row col-sm-offset-1">
+        <div style="max-height: 500px; overflow: auto;" >
 
-
-            <div class="col-sm-3 well ">
-                <h4>Title</h4>
-                <img src="http://placehold.it/200x150">
-                <p>Chupa chups unerdwear.com liquorice tiramisu marshmallow marzipan jelly. Danish soufflé I love sweet tiramisu I love.</p>
-                <button class="btn btn-success">See more</button>
+             <div class="row col-sm-offset-1" ng-repeat="tag in tags.tags">
+                <h3>{{tag.title}} related skills</h3>
+                <div class="col-sm-11 well" ng-repeat="skill in tag.skills">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h4>{{skill.title}} from {{tag.title}}</h4>
+                            <img src="http://placehold.it/120x90">
+                        </div>
+                        <div class="col-sm-6"><br/><br/>
+                            <p>Chupa chups unerdwear.com liquorice tiramisu marshmallow marzipan jelly. Danish soufflé I love sweet tiramisu I love.</p>
+                            <button class="btn btn-success">See more</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-
-            <div class="col-sm-3 col-lg-offset-1 well">
-                <h4>Title</h4>
-                <img src="http://placehold.it/200x150">
-                <p>Chupa chups unerdwear.com liquorice tiramisu marshmallow marzipan jelly. Danish soufflé I love sweet tiramisu I love.</p>
-                <button class="btn btn-success">See more</button>
-            </div>
-
-
-            <div class="col-sm-3 col-lg-offset-1  well">
-                <h4>Title</h4>
-                <img src="http://placehold.it/200x150">
-                <p>Chupa chups unerdwear.com liquorice tiramisu marshmallow marzipan jelly. Danish soufflé I love sweet tiramisu I love.</p>
-                <button class="btn btn-success">See more</button>
-            </div>
-
 
         </div>
+        
         <button class="btn btn-lg btn-primary pull-right">More skills</button>
     </div>
 
