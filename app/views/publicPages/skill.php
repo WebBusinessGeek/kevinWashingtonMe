@@ -47,90 +47,34 @@
     <div id="tagResultsSection" class="col-lg-7 col-lg-offset-1 well">
         <div id="tagResultsIndex" class="text-center">
 
-<!--            offset row-->
+            <div ng-repeat="tag in tags">
+                <h3>{{tag.title}}</h3>
+                <div class="row">
+                    <div ng-repeat="skill in tag.skills">
 
-<!--            col-md-3 well for first item-->
-<!--            col-md-3 col-sm-offset-1 well for second and third item-->
-<!--            new row if three items are reached-->
+                            <div class="col-sm-offset-1" ng-if="($index + 1) == 1 || (($index +1) -1) % 3 == 0 ">
+                                <div class="col-md-3 well">
+                                {{skill.title}}
+                                    <img src="http://placehold.it/120/90">
+                                    <p>Some text about the skill. Some text about the skill.
+                                        Some text about the skill.</p>
+                                    <button class="btn btn-primary">See Skill</button>
+                                </div>
+                            </div>
 
+                            <div class="col-md-3 well col-md-offset-1" ng-if="(($index+1) -1) % 3 != 0">
+                                {{skill.title}}
+                                <img src="http://placehold.it/120/90">
+                                <p>Some text about the skill. Some text about the skill.
+                                    Some text about the skill.</p>
+                                <button class="btn btn-primary">See Skill</button>
 
-
-
-
-    <div ng-repeat="tag in tags">
-        <h3>{{tag.title}}</h3>
-        <div ng-repeat="skill in tag.skills">
-
-            <div class="row col-sm-offset-1" ng-if="($index + 1) == 1 || (($index +1) -1) % 3 == 0 ">
-                <div class="col-md-3 well">
-                {{skill.title}} 1st or AFTER 3rd.
+                            </div>
+                    </div>
                 </div>
-            </div ng-if="$last ||($index +1) % 3 == 0">
-
-            <div class="col-md-3 well col-md-offset-1" ng-if="($index +1) - 1 % 3 != 0">
-                {{skill.title}} not the 1st.
             </div>
-            </div ng-if="$last ||($index +1) % 3 == 0">
-        </div>
-    </div>
 
 
-
-
-<!---->
-<!---->
-<!---->
-<!--<!---->
-<!--            <div class="row col-sm-offset-1">-->
-<!--                <div class="col-md-3 well">-->
-<!--<!--                    should be before first item-->
-<!--                    <h4>Title</h4>-->
-<!--                    <img src="http://placehold.it/100x120">-->
-<!--                    <p>Chupa chups unerdwear.com liquorice tiramisu marshmallow marzipan jelly.</p>-->
-<!--                    <button class="btn btn-success">See more</button>-->
-<!--                </div>-->
-<!---->
-<!--                <div  class="col-md-3 col-md-offset-1 well">-->
-<!---->
-<!--                    <h4>Title</h4>-->
-<!--                    <img src="http://placehold.it/100x120">-->
-<!--                    <p>Chupa chups unerdwear.com liquorice tiramisu marshmallow marzipan jelly.</p>-->
-<!--                    <button class="btn btn-success">See more</button>-->
-<!---->
-<!--                </div>-->
-<!---->
-<!--                <div  class="col-md-3 col-sm-offset-1 well">-->
-<!--                    <h4>Title</h4>-->
-<!--                    <img src="http://placehold.it/100x120">-->
-<!--                    <p>Chupa chups unerdwear.com liquorice tiramisu marshmallow marzipan jelly.</p>-->
-<!--                    <button class="btn btn-success">See more</button>-->
-<!--                </div>-->
-<!---->
-<!--            </div>-->
-
-<!---->
-<!---->
-<!--            <div class="row col-sm-offset-1">-->
-<!--                <div class="col-md-3 well">-->
-<!--                    <h4>Title</h4>-->
-<!--                    <img src="http://placehold.it/100x120">-->
-<!--                    <p>Chupa chups unerdwear.com liquorice tiramisu marshmallow marzipan jelly.</p>-->
-<!--                    <button class="btn btn-success">See more</button>-->
-<!--                </div>-->
-<!--                <div  class="col-md-3 col-sm-offset-1 well">-->
-<!--                    <h4>Title</h4>-->
-<!--                    <img src="http://placehold.it/100x120">-->
-<!--                    <p>Chupa chups unerdwear.com liquorice tiramisu marshmallow marzipan jelly.</p>-->
-<!--                    <button class="btn btn-success">See more</button>-->
-<!--                </div>-->
-<!--                <div  class="col-md-3 col-sm-offset-1 well">-->
-<!--                    <h4>Title</h4>-->
-<!--                    <img src="http://placehold.it/100x120">-->
-<!--                    <p>Chupa chups unerdwear.com liquorice tiramisu marshmallow marzipan jelly.</p>-->
-<!--                    <button class="btn btn-success">See more</button>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
 
 <!--        <br/><br/>-->
 <!--        <div id="tagResultsShow" class="text-center row">-->
