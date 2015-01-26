@@ -8,17 +8,18 @@
                 <h1>Do I have the skills your looking for?</h1>
             </div>
             <div id="searchBar">
-                <input type="text" class="form-control input-lg">
+                <input type="text" ng-model="query" class="form-control input-lg">
+
             </div>
         </div>
 
 
         <br/>
-        <div id="CTAGroup">
+        <div id="CTAGroup" ng-hide="query">
             <div id="CTA">
-                <button class="btn btn-primary btn-lg">
+                <a href="/connect" class="btn btn-primary btn-lg">
                     Work with me.
-                </button>
+                </a>
             </div>
             <div id="subCTA">
                 <a href="#">
@@ -29,9 +30,8 @@
 
         <br/>
 
-        <div style="max-height: 500px; overflow: auto;" >
-
-             <div class="row col-sm-offset-1" ng-repeat="tag in tags.tags">
+        <div style="max-height: 500px; overflow: auto;" ng-show="query">
+             <div class="row col-sm-offset-1" ng-repeat="tag in filtered = (tags.tags |filter:query)">
                 <h3>{{tag.title}} related skills</h3>
                 <div class="col-sm-11 well" ng-repeat="skill in tag.skills">
                     <div class="row">
@@ -46,10 +46,14 @@
                     </div>
                 </div>
             </div>
-
         </div>
-        
-        <button class="btn btn-lg btn-primary pull-right">More skills</button>
+        <div ng-show="filtered.length < 1">
+            <h4>Sorry no results. Try my <a href="/skills">Skills Directory.</a></h4>
+        </div>
+
+
+
+        <a href="/skills" class="btn btn-lg btn-primary pull-right">More skills</a>
     </div>
 
 
