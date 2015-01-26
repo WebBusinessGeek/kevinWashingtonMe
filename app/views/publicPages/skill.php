@@ -22,31 +22,26 @@
                 <h4>Browse by Category</h4>
             </div>
             <br/>
-            <div>
-                <h5>Parent Category</h5>
-                    <p>Category</p>
-                    <p>Category</p>
-                    <p>Category</p>
-                    <p>Category</p>
-                <h5>Parent Category</h5>
-                    <p>Category</p>
-                    <p>Category</p>
-                    <p>Category</p>
-                    <p>Category</p>
-                <h5>Parent Category</h5>
-                    <p>Category</p>
-                    <p>Category</p>
-                    <p>Category</p>
-                    <p>Category</p>
+            <div ng-repeat="supercategory in supercategories">
+                <h5>{{supercategory.title}}</h5>
+                    <div ng-repeat="category in supercategory.categories">
+                    <a ng-click="categorySelect(category)">{{category.title}}</a>
+                    </div>
             </div>
         </div>
 
     </div>
 
+    <div id="resultsSection" class="col-lg-7 col-lg-offset-1 well" ng-if="!tagQuery && !selectedCategory">
+            Start your search. Type in the search box or click a category.
+    </div>
 
-    <div id="tagResultsSection" class="col-lg-7 col-lg-offset-1 well" ng-if="tagQuery">
-        <div id="tagResultsIndex" class="text-center" >
+    <div id="resultsSection" class="col-lg-7 col-lg-offset-1 well" ng-if="tagQuery || selectedCategory">
+        <!--
+************************************    TAG QUERY INDEX SECTION ***************************************
+        -->
 
+        <div id="tagResultsIndex" class="text-center" ng-if="tagQuery" >
             <div ng-repeat="tag in tags | filter:tagQuery" ng-hide="showing">
                 <h3>{{tag.title}}</h3>
                 <div class="row">
@@ -73,8 +68,42 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <!--
+        ************************************    SELECTED CATEGORY SECTION ***************************************
+                -->
+        <div id="categoryResultsIndex" class="text-center" ng-if="selectedCategory" >
+            <div ng-hide="showing">
+                <h3>{{selectedCategory.title}}</h3>
+                <div class="row">
+                    <div ng-repeat="skill in selectedCategory.skills">
 
+                        <div class="col-sm-offset-1" ng-if="($index + 1) == 1 || (($index +1) -1) % 3 == 0 ">
+                            <div class="col-md-3 well">
+                                {{skill.title}}
+                                <img src="http://placehold.it/120/90">
+                                <p>Some text about the skill. Some text about the skill.
+                                    Some text about the skill.</p>
+                                <button class="btn btn-primary" ng-click="show(skill)">See Skill</button>
+                            </div>
+                        </div>
 
+                        <div class="col-md-3 well col-md-offset-1" ng-if="(($index+1) -1) % 3 != 0">
+                            {{skill.title}}
+                            <img src="http://placehold.it/120/90">
+                            <p>Some text about the skill. Some text about the skill.
+                                Some text about the skill.</p>
+                            <button class="btn btn-primary" ng-click="show(skill)">See Skill</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--
+************************************    SKILLS SHOW SECTION ***************************************
+        -->
 
         <br/><br/>
         <div id="resultsShow" class="text-center" ng-show="showing">

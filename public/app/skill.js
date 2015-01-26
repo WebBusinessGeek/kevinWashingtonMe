@@ -10,6 +10,10 @@ angular.module('app')
             });
 
 
+        if($scope.tagQuery != null)
+        {
+            $scope.selectedCategory = null;
+        }
         $scope.showing = null;
 
         $scope.show = function(item)
@@ -20,5 +24,22 @@ angular.module('app')
         $scope.stopShow = function()
         {
             $scope.showing = null;
+        };
+
+
+
+
+        $scope.selectedCategory = null;
+
+        $scope.categorySelect = function(item)
+        {
+            $scope.selectedCategory = item;
+            $scope.tagQuery = null;
+            console.log(item);
+        };
+
+        $scope.categoryDeSelect = function()
+        {
+           $scope.selectedCategory = null;
         }
     }]);
