@@ -1,9 +1,8 @@
 
 angular.module('app')
 
-.controller('homeController', ['$scope', '$http', '$filter', function($scope, $http, $filter)
+.controller('homeController', ['$scope', '$http', function($scope, $http)
 {
-    $scope.tags = [];
 
     $http.get('/api.v1/')
         .success(function(data){
