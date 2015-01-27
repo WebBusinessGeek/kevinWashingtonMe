@@ -145,9 +145,11 @@ class PublicPagesController extends \BaseController {
 
 		if($this->inquiryService->isModelInstance($potentialInquiry))
 		{
-			return \Illuminate\Support\Facades\Redirect::to('/connect')->with('message', 'I will plan to reach out to you shortly.');
+//			return \Illuminate\Support\Facades\Redirect::to('/connect')->with('message', 'I will plan to reach out to you shortly.');
+			return 'I will plan to reach out to you shortly';
 		}
-		return \Illuminate\Support\Facades\Redirect::to('/connect')->with('message', $potentialInquiry);
+//		return \Illuminate\Support\Facades\Redirect::to('/connect')->with('message', $potentialInquiry);
+		return $potentialInquiry;
 	}
 
 

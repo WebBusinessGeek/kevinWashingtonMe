@@ -1,9 +1,11 @@
 <div ng-controller="connectController">
+    <div ng-show="message">
+        {{message}}
+    </div>
     <div id="contactNav" class="col-md-3 well">
         <div id="contactNavHeader">
             <h4>4 Easy Ways to Connect</h4>
         </div>
-
         <div id="contactNavList">
             <ol>
                 <li><a ng-click="show('form')">Simple Contact Form</a></li>
