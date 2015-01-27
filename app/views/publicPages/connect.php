@@ -81,32 +81,30 @@
     </div>
 
 
-    <br/>
-    <br/>
-    <br/>
-    <br/>
 
 
-
-    <div class="col-md-6 well col-sm-offset-4 text-center" ng-if="showing == 'email'">
+    <div class="col-md-6 well col-sm-offset-1 text-center" ng-if="showing == 'email'">
         <h4>Email Me</h4>
         <img src="http://placehold.it/200x150">
+        <h5>inquiry@kevinwashington.me</h5>
         <p>Please include your name, business objectives,
             and other other information you think important for us to be effective working together.</p>
     </div>
 
 
-    <div class="col-md-6 well col-sm-offset-4 text-center" ng-if="showing == 'skype'">
+    <div class="col-md-6 well col-sm-offset-1 text-center" ng-if="showing == 'skype'">
         <h4>Add Me on Skype</h4>
         <img src="http://placehold.it/200x150">
+        <h5>@webbusinessdeveloper</h5>
         <p>In your add message - Please include your name, business objectives,
             and other other information you think would be important.</p>
     </div>
 
 
-    <div class="col-md-6 well col-sm-offset-4 text-center" ng-if="showing == 'voiceMail'">
-        <h4>Leave me a message @ 215-744-7444</h4>
+    <div class="col-md-6 well col-sm-offset-1 text-center" ng-if="showing == 'voiceMail'">
+        <h4>Leave me a message</h4>
         <img src="http://placehold.it/200x150">
+        <h5>@215-744-7444</h5>
         <p>In your message - Please include your name, business objectives,
             and other other information you think would be important.</p>
     </div>
