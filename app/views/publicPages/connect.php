@@ -39,7 +39,7 @@
 
                 <div class="form-group">
                     <label for="contactMethod" ng-model="inquiryContactMethod" class="text-center">Preferred Contact Method: </label>
-                    <select class="form-control input-lg">
+                    <select ng-model="inquiryContactMethod" class="form-control input-lg">
                         <option>Email</option>
                         <option>Phone</option>
                     </select>
@@ -47,12 +47,12 @@
 
 
     <!--            ONe of the below groups should be hidden based on previous input value-->
-                <div class="form-group">
+                <div class="form-group" ng-show="inquiryContactMethod == 'Email'">
                     <label for="email" class="text-center">Enter your email: </label>
-                    <input type="text" ng-model="inquiryEmail" class="form-control input-lg" name="email" id="email" placeholder="Email...">
+                    <input type="email" ng-model="inquiryEmail" class="form-control input-lg" name="email" id="email" placeholder="Email...">
 
                 </div>
-                <div class="form-group">
+                <div class="form-group" ng-show="inquiryContactMethod == 'Phone'">
                     <label for="phone" class="text-center">Enter your phone: </label>
                     <input type="text" ng-model="inquiryPhone"  class="form-control input-lg" name="phone" id="phone" placeholder="Phone...">
 
@@ -63,10 +63,38 @@
     </div>
         <div id="contactFormPreview" class="col-md-6 col-sm-offset-1" >
             <div  style="min-height: 500px;">
-                <h3 ng-if="!inquiryBody">Preview your message here.</h3>
-                <p>{{inquiryBody}}</p>
+
+                <h3 ng-hide="(inquiryBody || inquiryName || inquiryContactMethod)">Preview your message here.</h3>
+
                 <div>
-                    <button class="btn btn-primary btn-lg center-block" ng-if="inquiryBody">Send my inquiry!</button>
+                    <h4 ng-show="inquiryBody">My Message: </h4>
+                    <p>{{inquiryBody}}</p>
+                </div>
+
+                <div>
+                    <h4 ng-show="inquiryName">My Name: </h4>
+                    <p>{{inquiryName}}</p>
+                </div>
+
+                <div>
+                    <h4 ng-show="inquiryContactMethod">Reach Me By: </h4>
+                    <p>{{inquiryContactMethod}}</p>
+                </div>
+
+                <div>
+                    <h4 ng-show="inquiryEmail">My Email: </h4>
+                    <p>{{inquiryEmail}}</p>
+                </div>
+
+                <div>
+                    <h4 ng-show="inquiryPhone">My Phone Number: </h4>
+                    <p>{{inquiryPhone}}</p>
+                </div>
+
+
+
+                <div ng-if="(inquiryBody && inquiryName && inquiryContactMethod) && (inquiryEmail || inquiryPhone)">
+                    <button class="btn btn-primary btn-lg center-block" ng-if="inquiryBody" ng-click="newInquiry(inquiryBody, inquiryName, inquiryContactMethod, inquiryEmail, inquiryPhone)">Send my inquiry!</button>
                 </div>
             </div>
         </div>

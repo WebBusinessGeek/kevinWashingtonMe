@@ -8,5 +8,13 @@ angular.module('app')
         $scope.show = function(item)
         {
             $scope.showing = item;
+        };
+
+        $scope.newInquiry = function(body, name, contactMethod, email, phone)
+        {
+            console.log(body + name + contactMethod + email + phone);
         }
     }]);
+
+
+
