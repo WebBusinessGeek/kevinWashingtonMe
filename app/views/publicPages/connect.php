@@ -1,7 +1,8 @@
 <div ng-controller="connectController">
-    <div ng-show="message">
+    <div ng-show="message" class="alert alert-info">
         {{message}}
     </div>
+
     <div id="contactNav" class="col-md-3 well">
         <div id="contactNavHeader">
             <h4>4 Easy Ways to Connect</h4>

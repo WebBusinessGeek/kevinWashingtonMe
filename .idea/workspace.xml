@@ -27,11 +27,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.55069447">
       <split-first>
         <leaf>
-          <file leaf-file-name="PublicPagesControllerTest.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/tests/publicPagesDirectory/PublicPagesControllerTest.php">
+          <file leaf-file-name="connect.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/publicPages/connect.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.60431653" vertical-offset="7480" max-vertical-offset="9200">
-                  <caret line="321" column="47" selection-start-line="321" selection-start-column="47" selection-end-line="321" selection-end-column="47" />
+                <state vertical-scroll-proportion="-0.6115108" vertical-offset="450" max-vertical-offset="3525">
+                  <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -41,11 +41,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="PublicPagesController.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/controllers/PublicPagesController.php">
+          <file leaf-file-name="connect.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/app/connect.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.3597122" vertical-offset="2780" max-vertical-offset="4100">
-                  <caret line="151" column="32" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
+                <state vertical-scroll-proportion="0.83102494" vertical-offset="150" max-vertical-offset="1100">
+                  <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -685,74 +685,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/connect.php">
+    <entry file="file://$PROJECT_DIR$/app/tests/publicPagesDirectory/PublicPagesControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.107913665" vertical-offset="0" max-vertical-offset="3500">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.2086331" vertical-offset="7455" max-vertical-offset="9200">
+          <caret line="309" column="22" selection-start-line="309" selection-start-column="22" selection-end-line="309" selection-end-column="22" />
           <folding>
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422377956000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/connect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27700832" vertical-offset="100" max-vertical-offset="1100">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <marker date="1422377674000" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1422377674000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1422377674000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1422377674000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1422377674000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1422377674000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1422377674000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder=" @group publicPagesControllerTests ..." />
+            <marker date="1422378533000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/PublicPagesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3597122" vertical-offset="2780" max-vertical-offset="4100">
-          <caret line="151" column="32" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.42446044" vertical-offset="3280" max-vertical-offset="4100">
+          <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
+          <folding>
+            <marker date="1422378226000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422378226000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/connect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83102494" vertical-offset="150" max-vertical-offset="1100">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/publicPagesDirectory/PublicPagesControllerTest.php">
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/connect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60431653" vertical-offset="7480" max-vertical-offset="9200">
-          <caret line="321" column="47" selection-start-line="321" selection-start-column="47" selection-end-line="321" selection-end-column="47" />
+        <state vertical-scroll-proportion="-0.6115108" vertical-offset="450" max-vertical-offset="3525">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
           <folding />
         </state>
       </provider>

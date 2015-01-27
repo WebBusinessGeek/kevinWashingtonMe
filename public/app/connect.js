@@ -25,7 +25,7 @@ angular.module('app')
                     $scope.message = data;
                 }).
                 error(function (data, status, headers, config) {
-                    $scope.message = data;
+                    $scope.error = data;
                 });
 
         };
