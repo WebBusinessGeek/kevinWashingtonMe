@@ -54,15 +54,27 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => '127.0.0.1',
+			'host'      => '107.170.46.92',
 			'database'  => 'kevinWashingtonMe',
-			'username'  => 'homestead',
-			'password'  => 'secret',
+			'username'  => 'forge',
+			'password'  => '3aOaGM2GCYtHNnGpfrsr',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
-			'port' 		=> '33060'
+//			'port' 		=> '33060'
 		),
+
+//		'mysql' => array(
+//			'driver'    => 'mysql',
+//			'host'      => '127.0.0.1',
+//			'database'  => 'kevinWashingtonMe',
+//			'username'  => 'homestead',
+//			'password'  => 'secret',
+//			'charset'   => 'utf8',
+//			'collation' => 'utf8_unicode_ci',
+//			'prefix'    => '',
+//			'port' 		=> '33060'
+//		),
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
