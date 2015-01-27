@@ -1,6 +1,4 @@
 
-
-
     <div class="text-center" ng-controller="homeController">
 
         <div id="searchBarGroup">
@@ -46,10 +44,12 @@
                     </div>
                 </div>
             </div>
+            <div ng-if="filtered.length < 1">
+                <h4>Sorry no results. Try my <a href="/skills">Skills Directory.</a></h4>
+            </div>
         </div>
-        <div ng-show="filtered.length < 1">
-            <h4>Sorry no results. Try my <a href="/skills">Skills Directory.</a></h4>
-        </div>
+
+
 
 
 
