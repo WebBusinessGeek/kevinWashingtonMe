@@ -28,17 +28,17 @@
 
                 <div class="form-group">
                     <label for="body" >Help me understand your business objectives, and how I can help:</label>
-                        <textarea name="body" class="form-control" rows="10" cols="30"></textarea>
+                        <textarea name="body" ng-model="inquiryBody" class="form-control" rows="10" cols="30"></textarea>
                 </div>
 
                 <div class="form-group">
                     <label for="name" class="text-center">Enter your name: </label>
-                    <input type="text" class="form-control input-lg" name="name" id="name" placeholder="Name">
+                    <input type="text" ng-model="inquiryName"  class="form-control input-lg" name="name" id="name" placeholder="Name">
 
                 </div>
 
                 <div class="form-group">
-                    <label for="contactMethod" class="text-center">Preferred Contact Method: </label>
+                    <label for="contactMethod" ng-model="inquiryContactMethod" class="text-center">Preferred Contact Method: </label>
                     <select class="form-control input-lg">
                         <option>Email</option>
                         <option>Phone</option>
@@ -49,31 +49,25 @@
     <!--            ONe of the below groups should be hidden based on previous input value-->
                 <div class="form-group">
                     <label for="email" class="text-center">Enter your email: </label>
-                    <input type="text" class="form-control input-lg" name="email" id="email" placeholder="Email...">
+                    <input type="text" ng-model="inquiryEmail" class="form-control input-lg" name="email" id="email" placeholder="Email...">
 
                 </div>
                 <div class="form-group">
                     <label for="phone" class="text-center">Enter your phone: </label>
-                    <input type="text" class="form-control input-lg" name="phone" id="phone" placeholder="Phone...">
+                    <input type="text" ng-model="inquiryPhone"  class="form-control input-lg" name="phone" id="phone" placeholder="Phone...">
 
                 </div>
 
 
     <!--        inputs form-->
     </div>
-        <div id="contactFormPreview" class="col-md-6 col-sm-offset-1 well">
-            <p>This will be preview text....This will be preview text....This will be preview text....
-                This will be preview text....This will be preview text....This will be preview text....
-                This will be preview text....This will be preview text....This will be preview text....
-                This will be preview text....This will be preview text....This will be preview text....
-                This will be preview text....This will be preview text....This will be preview text....
-                This will be preview text....This will be preview text....This will be preview text....
-                This will be preview text....This will be preview text....This will be preview text....
-                This will be preview text....This will be preview text....This will be preview text....
-                This will be preview text....This will be preview text....This will be preview text....
-            </p>
-            <div>
-                <button class="btn btn-primary btn-lg center-block">Send my inquiry!</button>
+        <div id="contactFormPreview" class="col-md-6 col-sm-offset-1" >
+            <div  style="min-height: 500px;">
+                <h3 ng-if="!inquiryBody">Preview your message here.</h3>
+                <p>{{inquiryBody}}</p>
+                <div>
+                    <button class="btn btn-primary btn-lg center-block" ng-if="inquiryBody">Send my inquiry!</button>
+                </div>
             </div>
         </div>
 
