@@ -35,7 +35,12 @@
     </div>
 </nav>
 
+<?php
 
+$env =  \Illuminate\Support\Facades\App::environment();
+
+?>
+?>
 <br/>
 <br/>
 <br/><br/>
@@ -47,6 +52,7 @@
     if(isset($content))
     {
         echo $content;
+        echo $env;
     }
 ?>
 
