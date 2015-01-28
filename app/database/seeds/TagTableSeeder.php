@@ -9,16 +9,21 @@
 use Faker\Factory as Faker;
 class TagTableSeeder  extends \Illuminate\Database\Seeder{
 
+    protected $tagTitles = [
+        'Research','Development','Project Management','Coding','Tech','Code','Strategy','Architecture',
+        'Software','Marketing','SEO','Search Engine Optimization','Email Marketing','Guerilla Marketing',
+        'Management','Optimization','Auditing','Link Building','Traffic','Lead Gen','Lead Generation',
+        'Content Marketing','Content','Advertising','Keyword','Landing Page','Experiment','LPO','Sales',
+        'Personal','Personality','Traits','Design','Analytics','Data', 'CRO'
+    ];
     public function run()
     {
         \Illuminate\Support\Facades\DB::table('tags')->truncate();
 
-        $faker = Faker::create();
-        foreach(range(1, 15) as $index)
+        foreach($this->tagTitles as $title)
         {
-
             \App\DomainLogic\TagDirectory\Tag::create([
-                'title' => 'Tag'.$faker->word(),
+                'title' => $title,
             ]);
         }
     }
