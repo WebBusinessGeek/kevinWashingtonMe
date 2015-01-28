@@ -9,9 +9,10 @@
 namespace App\DomainLogic\TagDirectory;
 
 
+use App\Base\BaseModel;
 use Illuminate\Database\Eloquent\Model;
 
-class Tag extends Model
+class Tag extends BaseModel
 {
 	protected $fillable = ['title'];
 
