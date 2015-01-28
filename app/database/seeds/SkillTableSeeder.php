@@ -50,6 +50,48 @@ class SkillTableSeeder extends \Illuminate\Database\Seeder {
 
         8 => [
             'Paid Advertising Campaign Strategy','Paid Advertising Campaign Audit','Paid Advertising Campaign Optimization'
+        ],
+
+        9 => [
+            'A/B Testing','Experiment Development','Experiment Management','Data Informed Decision Making','Conversion Optimization'
+        ],
+
+        10 => [
+            'Landing Page Development','Landing Page Promotion','Landing Page Strategy'
+        ],
+
+        11 => [
+            'Product Demonstrations','Presentations','Value Building','Needs Assessments','Solution Based Selling','Follow Up',
+            'Objection Handling','Effective Questioning'
+        ],
+
+        12 => [
+            'Revenue Segmentation','Budget Development','Disciplined Spending'
+        ],
+
+        13 => [
+            'Recruiting','Team Development','Team Structure','Team Accountability','Delegation','Leading Over Managing Mentality',
+            'Remote Management'
+        ],
+
+        14 => [
+            'Process Need Identification','Process Development','Process Optimization','Process Elimination'
+        ],
+
+        15 => [
+            'Objective Identification','Objective Based Project Management','Objective Achievement Strategy'
+        ],
+
+        16 => [
+            'Listening','Curiosity','Communication Skills','Conflict Resolution','Team Buy-In'
+        ],
+
+        17 => [
+            'Process Quantification','Success Tracking','Critical Thinking','Data Informed Decision Making','Report Development'
+        ],
+
+        18 => [
+            'Creative Thinking','Owner Mentality','Problem Solving','Research','Empathy','Integrity','Organization'
         ]
     ];
     public function run()
