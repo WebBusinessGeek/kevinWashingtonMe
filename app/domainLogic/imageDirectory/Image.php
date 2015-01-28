@@ -9,9 +9,10 @@
 namespace App\DomainLogic\ImageDirectory;
 
 
+use App\Base\BaseModel;
 use Illuminate\Database\Eloquent\Model;
 
-class Image extends Model {
+class Image extends BaseModel {
 
     protected $fillable = ['name' , 'mediumPath', 'smallPath', 'largePath', 'originalPath', 'mediumLongPath', 'smallLongPath', 'largeLongPath', 'originalLongPath'];
 

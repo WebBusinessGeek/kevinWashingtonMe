@@ -9,10 +9,11 @@
 namespace App\DomainLogic\CategoryDirectory;
 
 
+use App\Base\BaseModel;
 use App\DomainLogic\SkillDirectory\Skill;
 use Illuminate\Database\Eloquent\Model;
 
-class Category extends Model {
+class Category extends BaseModel {
 
     protected $fillable = ['title', 'superCategory_id'];
 

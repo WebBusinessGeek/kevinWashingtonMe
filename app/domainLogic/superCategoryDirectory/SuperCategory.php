@@ -9,9 +9,10 @@
 namespace App\DomainLogic\SuperCategoryDirectory;
 
 
+use App\Base\BaseModel;
 use Illuminate\Database\Eloquent\Model;
 
-class SuperCategory extends Model{
+class SuperCategory extends BaseModel{
 
 
     protected $fillable = ['title'];

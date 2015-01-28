@@ -9,9 +9,10 @@
 namespace App\DomainLogic\InquiryDirectory;
 
 
+use App\Base\BaseModel;
 use Illuminate\Database\Eloquent\Model;
 
-class Inquiry extends Model {
+class Inquiry extends BaseModel {
 
     protected $fillable = ['name', 'body', 'contactMethod', 'email', 'phone'];
 

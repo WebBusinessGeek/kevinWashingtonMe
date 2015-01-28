@@ -9,11 +9,12 @@
 namespace App\DomainLogic\SkillDirectory;
 
 
+use App\Base\BaseModel;
 use App\DomainLogic\ImageDirectory\Image;
 use App\DomainLogic\ToolDirectory\Tool;
 use Illuminate\Database\Eloquent\Model;
 
-class Skill extends Model {
+class Skill extends BaseModel {
 
     protected $fillable = ['title', 'category_id', 'article', 'definition'];
 

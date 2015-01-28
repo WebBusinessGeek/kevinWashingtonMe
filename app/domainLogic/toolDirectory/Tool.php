@@ -9,10 +9,11 @@
 namespace App\DomainLogic\ToolDirectory;
 
 
+use App\Base\BaseModel;
 use App\DomainLogic\SkillDirectory\Skill;
 use Illuminate\Database\Eloquent\Model;
 
-class Tool extends Model {
+class Tool extends BaseModel {
 
     protected $fillable = ['title'];
 

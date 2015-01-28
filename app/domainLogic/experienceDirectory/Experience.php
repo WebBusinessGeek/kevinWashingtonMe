@@ -9,9 +9,10 @@
 namespace App\DomainLogic\ExperienceDirectory;
 
 
+use App\Base\BaseModel;
 use Illuminate\Database\Eloquent\Model;
 
-class Experience extends Model {
+class Experience extends BaseModel {
 
     protected $fillable = ['name', 'url', 'highlights', 'rolesResponsibilities', 'interview'];
 
