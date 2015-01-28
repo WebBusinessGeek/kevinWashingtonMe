@@ -98,16 +98,23 @@ class SkillTableSeeder extends \Illuminate\Database\Seeder {
     {
         \Illuminate\Support\Facades\DB::table('skills')->truncate();
 
-        $faker = Faker::create();
-        foreach(range(1, 15) as $index)
-        {
 
-            \App\DomainLogic\SkillDirectory\Skill::create([
-                'title' => 'Skill'.$faker->word(),
-                'category_id' => rand(1, 15),
-                'article' => $faker->sentence(),
-                'definition' => $faker->sentence(),
-            ]);
+        foreach($this->categoryCount as $id)
+        {
+            foreach($this->skillTitleGroups[$id] as $title)
+            {
+                \App\DomainLogic\SkillDirectory\Skill::create([
+                    'title' => $title,
+                    'category_id' => $id,
+                    'article' => 'This will be a short article to show my knowledge of the subject '.$title.
+                                    '. This will be a short article to show my knowledge of the subject '.$title.
+                                    '. This will be a short article to show my knowledge of the subject '.$title.
+                                    '. This will be a short article to show my knowledge of the subject '.$title.
+                                    '. This will be a short article to show my knowledge of the subject '.$title,
+                    'definition' => 'This will be a short definition about '.$title.' which I have not written yet.',
+                ]);
+            }
+
         }
     }
 }
