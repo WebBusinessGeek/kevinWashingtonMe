@@ -56,5 +56,12 @@
         <a href="/skills" class="btn btn-lg btn-primary pull-right">More skills</a>
     </div>
 
+<?php
 
+    $tag = \App\DomainLogic\TagDirectory\Tag::create([
+        'title' => 'sometiel'
+    ]);
+    echo $tag;
+
+    ?>
 
