@@ -9,17 +9,43 @@
 use Faker\Factory as Faker;
 class CategoryTableSeeder extends \Illuminate\Database\Seeder {
 
+    protected $supercategoryCount = [
+        1,2,3,4,5
+    ];
+    protected $categoryTitleGroups = [
+
+        1 => [
+            'Research','Strategy & Planning','Construction'
+        ],
+
+        2 => [
+            'Email Marketing','Link Building for Traffic','Content Marketing','Search Engine Optimization','Paid Advertising'
+        ],
+
+        3 => [
+            'Visitor Behavior Optimization','Landing Page Marketing','Sales'
+        ],
+
+        4 => [
+            'Revenue Growth', 'Team', 'Processes', 'Objectives'
+        ],
+
+        5 => [
+            'Interpersonal','Data/Analytic','Personal'
+        ]
+    ];
     public function run()
     {
         \Illuminate\Support\Facades\DB::table('categories')->truncate();
 
-        $faker = Faker::create();
-        foreach(range(1, 15) as $index)
+
+        foreach($this->supercategoryCount as $id)
         {
+            foreach($this->categoryTitleGroups[$id] as $categoryTitle)
 
            \App\DomainLogic\CategoryDirectory\Category::create([
-                'title' => 'Category'.$faker->word(),
-               'superCategory_id' => rand(1, 15),
+                'title' => $categoryTitle,
+               'superCategory_id' => $id,
             ]);
         }
     }

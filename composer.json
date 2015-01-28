@@ -22,8 +22,7 @@
 			"app/database/seeds",
 			"app/tests/TestCase.php",
 			"app/domainLogic",
-			"app/Base",
-			"vendor/laravel/framework/src/Illuminate/Database"
+			"app/Base"
 
 		]
 	},

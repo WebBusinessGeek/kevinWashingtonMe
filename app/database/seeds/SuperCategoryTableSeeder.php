@@ -9,17 +9,19 @@ use Faker\Factory as Faker;
 
 class SuperCategoryTableSeeder extends \Illuminate\Database\Seeder {
 
+    protected $supercategoryTitles = [
+        'Product','Traffic','Customer Acquisition','Management','Foundational'
+    ];
 
     public function run()
     {
         \Illuminate\Support\Facades\DB::table('superCategories')->truncate();
 
-        $faker = Faker::create();
-        foreach(range(1, 15) as $index)
+        foreach($this->supercategoryTitles as $title)
         {
 
             \App\DomainLogic\SuperCategoryDirectory\SuperCategory::create([
-                'title' => 'SuperCategory'.$faker->word(),
+                'title' => $title,
             ]);
         }
     }

@@ -15,8 +15,6 @@
 //route for misc testing
 Route::get('test', function()
 {
-    return \Illuminate\Support\Facades\Cache::get('getDataHome');
-
 
 });
 
