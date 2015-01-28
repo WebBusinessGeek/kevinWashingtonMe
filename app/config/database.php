@@ -12,6 +12,7 @@ $env = $app->detectEnvironment(array(
 
 //$env = \Illuminate\Support\Facades\App::environment();
 
+
 if($env == 'production')
 {
 	$host = '107.170.46.92';
