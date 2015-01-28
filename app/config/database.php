@@ -1,7 +1,16 @@
 <?php
 
+$app = new Illuminate\Foundation\Application;
 
-$env = \Illuminate\Support\Facades\App::environment();
+$env = $app->detectEnvironment(array(
+
+	'local' => array('homestead'),
+	'localMachine' => array('Kevs-MacBook-Air.local'),
+	'production' => array('KevWashingtonme'),
+
+));
+
+//$env = \Illuminate\Support\Facades\App::environment();
 
 if($env == 'production')
 {
