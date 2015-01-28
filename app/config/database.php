@@ -1,5 +1,34 @@
 <?php
 
+
+$env = \Illuminate\Support\Facades\App::environment();
+
+if($env == 'production')
+{
+	$host = '107.170.46.92';
+	$username = 'forge';
+	$password = '3aOaGM2GCYtHNnGpfrsr';
+	$port = null;
+
+}
+elseif($env == 'localMachine')
+{
+	$host = '127.0.0.1';
+	$username = 'homestead';
+	$password = 'secret';
+	$port = '33060';
+}
+else
+{
+	$host = 'localhost';
+	$username = 'homestead';
+	$password = 'secret';
+	$port = '33060';
+}
+
+
+
+
 return array(
 
 	/*
@@ -54,19 +83,19 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => '107.170.46.92',
+			'host'      =>  $host,
 			'database'  => 'kevinWashingtonMe',
-			'username'  => 'forge',
-			'password'  => '3aOaGM2GCYtHNnGpfrsr',
+			'username'  => $username,
+			'password'  => $password,
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
-//			'port' 		=> '33060'
+			'port' 		=> $port
 		),
 
 //		'mysql' => array(
 //			'driver'    => 'mysql',
-//			'host'      => '127.0.0.1',
+//			'host'      => 'localhost',
 //			'database'  => 'kevinWashingtonMe',
 //			'username'  => 'homestead',
 //			'password'  => 'secret',
@@ -135,3 +164,5 @@ return array(
 	),
 
 );
+
+
