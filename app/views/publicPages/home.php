@@ -39,7 +39,7 @@
                         </div>
                         <div class="col-sm-6"><br/><br/>
                             <p>Chupa chups unerdwear.com liquorice tiramisu marshmallow marzipan jelly. Danish soufflé I love sweet tiramisu I love.</p>
-                            <button class="btn btn-success">See more</button>
+                            <a href="/skills" class="btn btn-success">See more</a href=/skills>
                         </div>
                     </div>
                 </div>
