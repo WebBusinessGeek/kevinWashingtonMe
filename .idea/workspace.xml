@@ -30,8 +30,8 @@
           <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/home.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.78417265" vertical-offset="1080" max-vertical-offset="1825">
-                  <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+                <state vertical-scroll-proportion="0.7122302" vertical-offset="1080" max-vertical-offset="1825">
+                  <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -1807,8 +1807,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78417265" vertical-offset="1080" max-vertical-offset="1825">
-          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.7122302" vertical-offset="1080" max-vertical-offset="1825">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
           <folding />
         </state>
       </provider>

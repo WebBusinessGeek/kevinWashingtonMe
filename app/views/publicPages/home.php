@@ -61,7 +61,7 @@
     $tag = \App\DomainLogic\TagDirectory\Tag::create([
         'title' => 'sometiel'
     ]);
-    echo $tag;
+    echo $tag->getClassName();
 
     ?>
 
