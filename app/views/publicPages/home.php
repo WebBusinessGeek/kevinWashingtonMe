@@ -16,7 +16,7 @@
         <div id="CTAGroup" ng-hide="query">
             <div id="CTA">
                 <a href="/connect" class="btn btn-primary btn-lg">
-                    Work with me.
+                    Work with me
                 </a>
             </div>
             <div id="subCTA">
