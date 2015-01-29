@@ -91,7 +91,8 @@ class SkillTableSeeder extends \Illuminate\Database\Seeder {
         ],
 
         18 => [
-            'Creative Thinking','Owner Mentality','Problem Solving','Research','Empathy','Integrity','Organization'
+            'Creative Thinking','Owner Mentality','Problem Solving','Research','Empathy','Integrity','Organization',
+            'Learning','Competency Over Confidence Mentality','Persuasive Writing','Patience','Always Be Optimizing Mentality'
         ]
     ];
     public function run()
