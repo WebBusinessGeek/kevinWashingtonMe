@@ -45,7 +45,8 @@ class SkillTableSeeder extends \Illuminate\Database\Seeder {
         ],
 
         7 => [
-            'Keyword Research','OnSite Markup Optimization','Niche Blog Development','Keyword Selection','SERP Competition Research', 'Vendor Qualification'
+            'Keyword Research','OnSite Markup Optimization','Niche Blog Development','Keyword Selection','SERP Competition Research',
+            'SEO Vendor Qualification'
         ],
 
         8 => [
@@ -92,7 +93,8 @@ class SkillTableSeeder extends \Illuminate\Database\Seeder {
 
         18 => [
             'Creative Thinking','Owner Mentality','Problem Solving','Research','Empathy','Integrity','Organization',
-            'Learning','Competency Over Confidence Mentality','Persuasive Writing','Patience','Always Be Optimizing Mentality'
+            'Learning','Competency Over Confidence Mentality','Persuasive Writing','Patience','Always Be Optimizing Mentality',
+            'Reverse Engineering'
         ]
     ];
     public function run()

@@ -28,8 +28,8 @@
       <file leaf-file-name="TaggableTableSeeder.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/database/seeds/TaggableTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2245509" vertical-offset="0" max-vertical-offset="1475">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8201439" vertical-offset="655" max-vertical-offset="2350">
+              <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -43,7 +43,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="24" />
-    <option name="width" value="947" />
+    <option name="width" value="1288" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -232,15 +232,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -259,7 +259,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="947" height="744" extended-state="0" />
+    <frame x="0" y="24" width="1288" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -274,13 +274,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -653,58 +653,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6115108" vertical-offset="0" max-vertical-offset="750">
           <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <marker date="1422489564000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1422489564000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422489564000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422489564000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1422489564000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1422489564000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422489564000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/SkillTableSeeder.php">
+    <entry file="file://$PROJECT_DIR$/app/domainLogic/tagDirectory/Tag.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6978416" vertical-offset="2225" max-vertical-offset="3025">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <marker date="1422492727000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422492727000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.53956836" vertical-offset="175" max-vertical-offset="1375">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/TagTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2877698" vertical-offset="50" max-vertical-offset="775">
-          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.79136693" vertical-offset="50" max-vertical-offset="775">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <marker date="1422494275000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
             <marker date="1422494275000" expanded="true" signature="-1:-1" placeholder="..." />
@@ -717,18 +680,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/domainLogic/tagDirectory/Tag.php">
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/SkillTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53956836" vertical-offset="175" max-vertical-offset="1375">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="1.4748201" vertical-offset="50" max-vertical-offset="3075">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding>
+            <marker date="1422540373000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422540373000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/TaggableTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2245509" vertical-offset="0" max-vertical-offset="1475">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8201439" vertical-offset="655" max-vertical-offset="2350">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
           <folding />
         </state>
       </provider>
