@@ -10,11 +10,12 @@ use Faker\Factory as Faker;
 class TagTableSeeder  extends \Illuminate\Database\Seeder{
 
     protected $tagTitles = [
-        'Research','Development','Project Management','Coding','Tech','Code','Strategy','Architecture',
-        'Software','Marketing','SEO','Search Engine Optimization','Email Marketing','Guerilla Marketing',
-        'Management','Optimization','Auditing','Link Building','Traffic','Lead Gen','Lead Generation',
-        'Content Marketing','Content','Advertising','Keyword','Landing Page','Experiment','LPO','Sales',
-        'Personal','Personality','Traits','Design','Analytics','Data', 'CRO'
+        'Research','Development','Project Management','Coding','Tech','Code','Strategy',
+        'Software','Marketing','SEO','Search Engine Optimization','Email Marketing',
+        'Management','Link Building','Traffic','Lead Generation', 'Content Marketing',
+        'Advertising', 'Keyword','Landing Page','Conversion Rate Optimization','Sales',
+        'Personal','Agile','Scrum','Creative','Design','Personality','LPO','Traits','Data',
+        'Analytics','CRO','Guerilla Marketing','Optimization'
     ];
     public function run()
     {

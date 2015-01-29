@@ -28,8 +28,8 @@
       <file leaf-file-name="SkillTableSeeder.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/database/seeds/SkillTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53956836" vertical-offset="1850" max-vertical-offset="3025">
-              <caret line="94" column="125" selection-start-line="94" selection-start-column="125" selection-end-line="94" selection-end-column="125" />
+            <state vertical-scroll-proportion="-2.4460433" vertical-offset="2050" max-vertical-offset="3025">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -43,7 +43,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="24" />
-    <option name="width" value="1042" />
+    <option name="width" value="947" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -259,7 +259,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1042" height="744" extended-state="0" />
+    <frame x="0" y="24" width="947" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -550,13 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/domainLogic/tagDirectory/Tag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35971224" vertical-offset="25" max-vertical-offset="1400">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/domainLogic/imageDirectory/Image.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2877698" vertical-offset="25" max-vertical-offset="7025">
@@ -686,18 +679,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/domainLogic/tagDirectory/Tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7194245" vertical-offset="50" max-vertical-offset="1375">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <marker date="1422478727000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1422478727000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1422478727000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422478727000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422478727000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422478727000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422478727000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/TagTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46330935" vertical-offset="53" max-vertical-offset="750">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding />
+        <state vertical-scroll-proportion="0.35971224" vertical-offset="0" max-vertical-offset="775">
+          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+          <folding>
+            <marker date="1422494275000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1422494275000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422494275000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422494275000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422494275000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422494275000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422494275000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/SkillTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53956836" vertical-offset="1850" max-vertical-offset="3025">
-          <caret line="94" column="125" selection-start-line="94" selection-start-column="125" selection-end-line="94" selection-end-column="125" />
+        <state vertical-scroll-proportion="-2.4460433" vertical-offset="2050" max-vertical-offset="3025">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding />
         </state>
       </provider>

@@ -49,7 +49,7 @@ class SkillTableSeeder extends \Illuminate\Database\Seeder {
         ],
 
         8 => [
-            'Paid Advertising Campaign Strategy','Paid Advertising Campaign Audit','Paid Advertising Campaign Optimization'
+            'Paid Advertising Strategy','Paid Advertising Campaign Audit','Paid Advertising Campaign Optimization'
         ],
 
         9 => [
