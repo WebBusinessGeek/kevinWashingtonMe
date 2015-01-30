@@ -21,7 +21,7 @@ class SkillTableSeeder extends \Illuminate\Database\Seeder {
 
         2=> [
             'UML Modeling','App Entity Identification','Software Architecture','Branding','Revenue Generation Strategy',
-            'Beach Head Market Selection','Beach Head Market Penetration Tactics','Follow On Market Selection','Marketing Strategy'
+            'Beach Head Market Selection','Beach Head Market Penetration','Follow On Market Selection','Marketing Strategy'
         ],
 
         3 => [
