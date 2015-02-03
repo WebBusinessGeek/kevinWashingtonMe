@@ -26,7 +26,7 @@
                 <h5>{{supercategory.title}}</h5>
                     <div>
                         <span ng-repeat="category in supercategory.categories">
-                            <img src="http://placehold.it/55x65"  ng-click="categorySelect(category)"> &nbsp;
+                            <img src="http://placehold.it/55x55"  ng-click="categorySelect(category)"> &nbsp;
                         </span>
                     </div>
             </div>

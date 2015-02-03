@@ -10,33 +10,73 @@
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap-theme.css" rel="stylesheet">
 
+    <style>
+        .navbar-custom {
+            background-color:#fff;
+            color:#414141;
+            border-radius:0;
+            min-height: 65px;
+            padding-top: 10px;
+
+        }
+
+        .navbar-custom .navbar-nav > li > a {
+            color: #414141;
+            padding-left:20px;
+            padding-right:20px;
+
+        }
+        .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+            color: #414141;
+            background-color:transparent;
+        }
+
+        .navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+            text-decoration: none;
+            background-color: #f2f2f2;
+        }
+
+        .navbar-custom .navbar-brand {
+            color:#414141;
+            margin-left: 70px;
+        }
+        .navbar-custom .navbar-toggle {
+            background-color:#eeeeee;
+        }
+        .navbar-custom .icon-bar {
+            background-color:#f2f2f2;
+        }
+
+        .navbar-right{
+            padding-right: 60px;
+        }
+    </style>
 
 </head>
 <body>
-
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">KevinWashington.Me</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="/skills">Skills</a></li>
-                <li><a href="/experiences">Experiences</a></li>
-                <li><a href="/connect">Connect</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
+<nav class="navbar navbar-custom navbar-static-top">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">KW</a>
     </div>
+    <div class="collapse navbar-collapse">
+
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="/skills">Skills</a></li>
+            <li><a href="/experiences">Experiences</a></li>
+            <li><a href="/connect">Connect</a></li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
 </nav>
 
 
-?>
+
 <br/>
 <br/>
 <br/><br/>
