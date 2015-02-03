@@ -24,8 +24,10 @@
             <br/>
             <div ng-repeat="supercategory in supercategories">
                 <h5>{{supercategory.title}}</h5>
-                    <div ng-repeat="category in supercategory.categories">
-                    <a ng-click="categorySelect(category)">{{category.title}}</a>
+                    <div>
+                        <span ng-repeat="category in supercategory.categories">
+                            <img src="http://placehold.it/55x65"  ng-click="categorySelect(category)"> &nbsp;
+                        </span>
                     </div>
             </div>
         </div>
@@ -33,7 +35,7 @@
     </div>
 
     <div id="resultsSection" class="col-lg-7 col-lg-offset-1 well" ng-if="!tagQuery && !selectedCategory">
-            Start your search. Type in the search box or click a category.
+            Start your search. Type in the search box or click a category.....
     </div>
 
 
