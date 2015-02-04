@@ -32,7 +32,6 @@ Route::group(array(),function()
 //routes for angularjs/ajax calls
 Route::group(array('prefix' => 'api.v1'),function()
 {
-    Route::get('/', 'PublicPagesController@getDataHome');
     Route::get('/skills', 'PublicPagesController@getDataSkills');
     Route::get('/experiences', 'PublicPagesController@getDataExperiences');
     Route::post('/connect', 'PublicPagesController@postDataConnect');

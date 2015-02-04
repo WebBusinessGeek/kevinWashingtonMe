@@ -26,34 +26,9 @@ class PublicPagesController extends \BaseController {
 
 	public function viewHome()
 	{
-		$view = View::make('publicPages.home');
-		$this->layout->content = $view->render();
+		$view = View::make('publicPages.cover');
+		return $view;
 	}
-	public function getDataHome()
-	{
-		if(!Cache::has('getDataHome'))
-		{
-			$tags = Tag::all();
-
-			foreach($tags as $tag)
-			{
-				foreach($tag->skills as $skill)
-				{
-					$skill->images;
-				}
-			}
-			$log = \Illuminate\Support\Facades\DB::getQueryLog();
-
-			$forCache = ['tags' => $tags, 'log' => $log];
-
-			Cache::put('getDataHome', $forCache, $this->getCacheLimit());
-			return $forCache;
-		}
-
-		return Cache::get('getDataHome');
-
-	}
-
 
 	/***********************************************************************************************************/
 	/*                                          Skills page                           		                    */

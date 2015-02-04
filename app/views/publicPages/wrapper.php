@@ -10,6 +10,7 @@
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap-theme.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Roboto:100' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
 
@@ -21,13 +22,13 @@
         });
     </script>
     <style>
-        /*nav bar styling*/
+
         .navbar-custom {
             background-color:#fff;
             color:#414141;
             border-radius:0;
             min-height: 65px;
-            padding-top: 10px;
+            padding-top: 15px;
 
         }
 
@@ -64,43 +65,45 @@
         /* end nav bar styling*/
 
 
-
-
-
+        .headline {
+            font-family: 'Arvo', serif;
+            font-size:  64px;
+            text-shadow: 1px 1px #000;
+        }
+        .subheadline {
+            font-family: 'Roboto', sans-serif;
+            font-size: 34px;
+            text-shadow: 1px 1px #000;
+        }
 
         .video-section .pattern-overlay {
             background-color: rgba(71, 71, 71, 0.59);
             padding: 110px 0 32px;
-            min-height: 625px;
+            min-height: 710px;
             /* Incase of overlay problems just increase the min-height*/
         }
-        .video-section h1, .video-section h3{
-            text-align:center;
+
+        .video-section .buttonBar{
+            display:none;
+        }
+        .player {
+            font-size: 1px;
+        }
+
+        .video-section h1{
             color:#fff;
         }
-        .video-section h1{
-            font-size:110px;
-            font-family: 'Buenard', serif;
-            font-weight:bold;
-            text-transform: uppercase;
-            margin: 40px auto 0px;
-            text-shadow: 1px 1px 1px #000;
-            -webkit-text-shadow: 1px 1px 1px #000;
-            -moz-text-shadow: 1px 1px 1px #000;
+        .video-section p{
+            color:#fff;
         }
-        .video-section h3{
-            font-size: 25px;
-            font-weight:lighter;
-            margin: 0px auto 15px;
-        }
-        /*.video-section .buttonBar{display:none;}*/
-        .player {font-size: 1px;}
+
+
 
     </style>
 
 </head>
 <body>
-<nav class="navbar navbar-custom navbar-static-top">
+<!--<nav class="navbar navbar-custom">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -118,23 +121,26 @@
             <li><a href="/experiences">Experiences</a></li>
             <li><a href="/connect">Connect</a></li>
         </ul>
-    </div><!-- /.navbar-collapse -->
+    </div>
+
 </nav>
 
 
+-->
 
 
-
-<div class="content-section video-section">
+<div class="content-section video-section text-center">
 
     <div class="pattern-overlay">
-        <br/><br/>
+
         <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=YzZpFczU-m0',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Full Width Video</h1>
-                    <h3>Enjoy Adding Full Screen Videos to your Page Sections</h3>
+                    <br/><br/>
+                   <h1 class="headline">Hello, I'm Kevin.</h1>
+                       <p class="subheadline">I create products, develop strategies, and optimize processes.</p>
+
                 </div>
             </div>
         </div>
@@ -147,21 +153,21 @@
 
 
 
-<br/>
-<br/>
-<br/><br/>
+<!--<br/>-->
+<!--<br/>-->
+<!--<br/><br/>-->
 
-
-<div class="container">
-
+<!---->
+<!--<div class="container">-->
+<!---->
 <?php
-    if(isset($content))
-    {
-        echo $content;
-    }
-?>
-
-</div>
+//    if(isset($content))
+//    {
+//        echo $content;
+//    }
+//?>
+<!---->
+<!--</div>-->
 
 
     <script src="angular-bootstrap/angular.min.js"></script>
