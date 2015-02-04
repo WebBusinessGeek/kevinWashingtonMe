@@ -23,45 +23,45 @@
     </script>
     <style>
 
-        .navbar-custom {
-            background-color:#fff;
-            color:#414141;
-            border-radius:0;
-            min-height: 65px;
-            padding-top: 15px;
+        /*.navbar-custom {*/
+            /*background-color:#fff;*/
+            /*color:#414141;*/
+            /*border-radius:0;*/
+            /*min-height: 65px;*/
+            /*padding-top: 15px;*/
 
-        }
+        /*}*/
 
-        .navbar-custom .navbar-nav > li > a {
-            color: #414141;
-            padding-left:20px;
-            padding-right:20px;
+        /*.navbar-custom .navbar-nav > li > a {*/
+            /*color: #414141;*/
+            /*padding-left:20px;*/
+            /*padding-right:20px;*/
 
-        }
-        .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
-            color: #414141;
-            background-color:transparent;
-        }
+        /*}*/
+        /*.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {*/
+            /*color: #414141;*/
+            /*background-color:transparent;*/
+        /*}*/
 
-        .navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
-            text-decoration: none;
-            background-color: #f2f2f2;
-        }
+        /*.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {*/
+            /*text-decoration: none;*/
+            /*background-color: #f2f2f2;*/
+        /*}*/
 
-        .navbar-custom .navbar-brand {
-            color:#414141;
-            margin-left: 70px;
-        }
-        .navbar-custom .navbar-toggle {
-            background-color:#eeeeee;
-        }
-        .navbar-custom .icon-bar {
-            background-color:#f2f2f2;
-        }
+        /*.navbar-custom .navbar-brand {*/
+            /*color:#414141;*/
+            /*margin-left: 70px;*/
+        /*}*/
+        /*.navbar-custom .navbar-toggle {*/
+            /*background-color:#eeeeee;*/
+        /*}*/
+        /*.navbar-custom .icon-bar {*/
+            /*background-color:#f2f2f2;*/
+        /*}*/
 
-        .navbar-right{
-            padding-right: 60px;
-        }
+        /*.navbar-right{*/
+            /*padding-right: 60px;*/
+        /*}*/
         /* end nav bar styling*/
 
 

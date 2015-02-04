@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>KevinWashingtonMe</title>
 
-    <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap.css" rel="stylesheet">
-    <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap.min.css" rel="stylesheet">
+
     <link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Roboto:100' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -98,6 +99,33 @@
             top:10px;
             left:25px;
         }
+
+
+
+        .icon-bar{
+            background-color: #fff;
+
+        }
+
+        .navbar-fixed-top {
+           padding-top: 35px;
+            padding-right: 80px;
+        }
+
+        .navLinks {
+            color: #fff;
+            font-family: 'Arvo', serif;
+            font-size: 20px;
+            margin-right: 20px;
+        }
+
+        .navLinks:hover {
+            color: #000;
+        }
+
+        .navbar-brand:hover {
+            color: #000;
+        }
     </style>
 
 </head>
@@ -109,7 +137,28 @@
     <div class="pattern-overlay">
 
         <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=YzZpFczU-m0',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
-        <img class="brandImage" src="/angular-bootstrap/kevtesticon_05.png">
+
+        <nav class="navbar navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">
+                    <img class="brandImage" src="/angular-bootstrap/kevtesticon_05.png">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="navLinks" href="/skills">Skills</a></li>
+                    <li><a class="navLinks" href="/experiences">Experiences</a></li>
+                    <li><a class="navLinks" href="/connect">Connect</a></li>
+                </ul>
+            </div>
+        </nav>
         <div class="container">
 
             <div class="row">
@@ -132,6 +181,7 @@
 
 
 
+<script src="/angular-bootstrap/bootstrap-twit/js/bootstrap.min.js"></script>
 
 </body>
 </html>
