@@ -28,18 +28,54 @@
         .headline {
             font-family: 'Arvo', serif;
             font-size:  64px;
-            /*text-shadow: 1px 1px #000;*/
         }
         .subheadline {
             font-family: 'Roboto', sans-serif;
             font-size: 34px;
-            /*text-shadow: 1px 1px #000;*/
+        }
+
+        .btn-huge-cta {
+
+            min-height: 60px;
+            min-width: 205px;
+            padding-top: 15px;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .cta-image {
+            margin-left:30px;
+            margin-top:20px;
+        }
+
+
+        .element-to-move {
+            -webkit-animation: myfirst 1s; /* Chrome, Safari, Opera */
+            animation: myfirst 1s;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            -webkit-animation-direction: alternate;
+        }
+
+        /* Chrome, Safari, Opera */
+        @-webkit-keyframes myfirst {
+            from {margin-top: 10px;}
+            to {margin-top: 30px;}
+        }
+
+        /* Standard syntax */
+        @keyframes myfirst {
+            from {margin-top: 10px;}
+            to {margin-top: 30px;}
         }
 
         .video-section .pattern-overlay {
             background-color: rgba(71, 71, 71, 0.59);
             padding: 110px 0 32px;
-            min-height: 710px;
+            min-height: 715px;
             /* Incase of overlay problems just increase the min-height*/
         }
 
@@ -73,7 +109,10 @@
                     <br/><br/>
                     <h1 class="headline">hello, I'm kevin.</h1>
                     <p class="subheadline">I create products, develop strategies, and optimize processes.</p>
-                    <button class="btn btn-warning btn-lg"> &nbsp; &nbsp; Skills I use to do it &nbsp; &nbsp;</button>
+                    <a href="/skills" class="btn btn-warning btn-huge-cta ">Skills I use to do it</a>
+                    <div class="cta-image element-to-move">
+                        <img src="/angular-bootstrap/arrow_03.png">
+                    </div>
                 </div>
             </div>
         </div>

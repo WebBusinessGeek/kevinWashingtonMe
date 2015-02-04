@@ -157,17 +157,17 @@
 <!--<br/>-->
 <!--<br/><br/>-->
 
-<!---->
-<!--<div class="container">-->
-<!---->
+
+<div class="container">
+
 <?php
-//    if(isset($content))
-//    {
-//        echo $content;
-//    }
-//?>
-<!---->
-<!--</div>-->
+    if(isset($content))
+    {
+        echo $content;
+    }
+?>
+
+</div>
 
 
     <script src="angular-bootstrap/angular.min.js"></script>
