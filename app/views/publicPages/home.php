@@ -1,5 +1,8 @@
 
-    <div class="text-center" ng-controller="homeController">
+
+
+
+<div class="text-center" ng-controller="homeController">
 
         <div id="searchBarGroup">
             <div id="searchBarText">

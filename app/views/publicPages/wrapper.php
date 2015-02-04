@@ -9,8 +9,19 @@
 
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap-theme.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
 
+    <script>
+        $(document).ready(function () {
+
+            $(".player").mb_YTPlayer();
+
+        });
+    </script>
     <style>
+        /*nav bar styling*/
         .navbar-custom {
             background-color:#fff;
             color:#414141;
@@ -50,6 +61,41 @@
         .navbar-right{
             padding-right: 60px;
         }
+        /* end nav bar styling*/
+
+
+
+
+
+
+        .video-section .pattern-overlay {
+            background-color: rgba(71, 71, 71, 0.59);
+            padding: 110px 0 32px;
+            min-height: 625px;
+            /* Incase of overlay problems just increase the min-height*/
+        }
+        .video-section h1, .video-section h3{
+            text-align:center;
+            color:#fff;
+        }
+        .video-section h1{
+            font-size:110px;
+            font-family: 'Buenard', serif;
+            font-weight:bold;
+            text-transform: uppercase;
+            margin: 40px auto 0px;
+            text-shadow: 1px 1px 1px #000;
+            -webkit-text-shadow: 1px 1px 1px #000;
+            -moz-text-shadow: 1px 1px 1px #000;
+        }
+        .video-section h3{
+            font-size: 25px;
+            font-weight:lighter;
+            margin: 0px auto 15px;
+        }
+        /*.video-section .buttonBar{display:none;}*/
+        .player {font-size: 1px;}
+
     </style>
 
 </head>
@@ -77,6 +123,30 @@
 
 
 
+
+
+<div class="content-section video-section">
+
+    <div class="pattern-overlay">
+        <br/><br/>
+        <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=YzZpFczU-m0',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Full Width Video</h1>
+                    <h3>Enjoy Adding Full Screen Videos to your Page Sections</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Video Section Ends Here-->
+
+
+
+
+
+
 <br/>
 <br/>
 <br/><br/>
@@ -101,6 +171,8 @@
     <script src="app/skill.js"></script>
     <script src="app/experience.js"></script>
     <script src="app/connect.js"></script>
+
+
 
 
 </body>
