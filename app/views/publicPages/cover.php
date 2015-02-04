@@ -22,6 +22,9 @@
         });
     </script>
     <style>
+        body{
+            background-image: url('http://placehold.it/1400x700');
+        }
         .headline {
             font-family: 'Arvo', serif;
             font-size:  64px;
@@ -70,7 +73,7 @@
                     <br/><br/>
                     <h1 class="headline">hello, I'm kevin.</h1>
                     <p class="subheadline">I create products, develop strategies, and optimize processes.</p>
-                    <button class="btn btn-warning btn-lg"> &nbsp; &nbsp; More &nbsp; &nbsp;</button>
+                    <button class="btn btn-warning btn-lg"> &nbsp; &nbsp; Skills I use to do it &nbsp; &nbsp;</button>
                 </div>
             </div>
         </div>
