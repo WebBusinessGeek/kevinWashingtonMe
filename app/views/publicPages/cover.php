@@ -128,9 +128,11 @@
             color: #000;
         }
 
+
         .navbar-collapse {
-            margin-left:120px;
+            margin-left:100px;
         }
+
 
     </style>
 
