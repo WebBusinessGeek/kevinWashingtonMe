@@ -127,6 +127,11 @@
         .navbar-brand:hover {
             color: #000;
         }
+
+        .navbar-collapse {
+            margin-left:120px;
+        }
+
     </style>
 
 </head>
