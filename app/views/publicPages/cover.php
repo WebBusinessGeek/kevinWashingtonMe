@@ -97,7 +97,7 @@
         .brandImage{
             position:absolute;
             top:10px;
-            left:25px;
+            left:45px;
         }
 
 
@@ -110,7 +110,7 @@
         .navbar-static-top {
             margin-top: -100px;
            padding-top: 35px;
-            padding-right: 80px;
+            padding-right: 50px;
         }
 
         .navLinks {
@@ -124,9 +124,7 @@
             color: #000;
         }
 
-        .navbar-brand:hover {
-            color: #000;
-        }
+
 
 
         .navbar-collapse {
@@ -155,7 +153,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/">
-                    <img class="brandImage" src="/angular-bootstrap/kevtesticon_05.png">
+                    <img class="brandImage" src="/angular-bootstrap/keviconRevised_03.png">
                 </a>
             </div>
 
