@@ -117,7 +117,7 @@
             color: #fff;
             font-family: 'Arvo', serif;
             font-size: 20px;
-            margin-right: 20px;
+            margin-right: 30px;
         }
 
         .navLinks:hover {
