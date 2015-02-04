@@ -107,7 +107,8 @@
 
         }
 
-        .navbar-fixed-top {
+        .navbar-static-top {
+            margin-top: -100px;
            padding-top: 35px;
             padding-right: 80px;
         }
@@ -138,7 +139,7 @@
 
         <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=YzZpFczU-m0',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
 
-        <nav class="navbar navbar-fixed-top">
+        <nav class="navbar navbar-static-top">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -163,7 +164,7 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <br/><br/>
+                    <br/><br/><br/><br/>
                     <h1 class="headline">hello, I'm kevin.</h1>
                     <p class="subheadline">I create products, develop strategies, and optimize processes.</p>
                     <a href="/skills" class="btn btn-warning btn-huge-cta ">Skills I use to do it</a>
