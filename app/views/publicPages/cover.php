@@ -68,9 +68,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <br/><br/>
-                    <h1 class="headline">Hello, I'm Kevin.</h1>
+                    <h1 class="headline">hello, I'm kevin.</h1>
                     <p class="subheadline">I create products, develop strategies, and optimize processes.</p>
-
+                    <button class="btn btn-warning btn-lg"> &nbsp; &nbsp; More &nbsp; &nbsp;</button>
                 </div>
             </div>
         </div>
