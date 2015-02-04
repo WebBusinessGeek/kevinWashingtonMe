@@ -92,6 +92,12 @@
         .video-section p{
             color:#fff;
         }
+
+        .brandImage{
+            position:absolute;
+            top:10px;
+            left:25px;
+        }
     </style>
 
 </head>
@@ -103,7 +109,9 @@
     <div class="pattern-overlay">
 
         <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=YzZpFczU-m0',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
+        <img class="brandImage" src="/angular-bootstrap/kevtesticon_05.png">
         <div class="container">
+
             <div class="row">
                 <div class="col-lg-12">
                     <br/><br/>
