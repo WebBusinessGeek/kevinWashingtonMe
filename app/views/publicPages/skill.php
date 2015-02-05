@@ -1,7 +1,7 @@
 <div ng-controller="skillController">
-    <div id="mainSearchGroup" class="well col-lg-4 text-center">
+    <div id="mainSearchGroup" class="row text-center">
 
-        <div id="tagSearchGroup">
+        <div id="tagSearchGroup" class="col-lg-6">
 
             <div id="tagSearchText">
                 <h4>Know what skills your looking for?</h4>
@@ -12,34 +12,31 @@
         </div>
 
 
-        <div>
-            <h5>Or...</h5>
-        </div>
-
-    <br/>
-        <div id="categorySearchGroup">
+        <div id="categorySearchGroup" class="col-lg-6">
             <div id="categorySearchHeading">
                 <h4>Browse by Category</h4>
             </div>
             <br/>
-            <div ng-repeat="supercategory in supercategories">
+            <!--<div ng-repeat="supercategory in supercategories">
                 <h5>{{supercategory.title}}</h5>
                     <div>
                         <span ng-repeat="category in supercategory.categories">
                             <img src="http://placehold.it/55x55"  ng-click="categorySelect(category)"> &nbsp;
                         </span>
                     </div>
-            </div>
+            </div>-->
         </div>
 
     </div>
 
-    <div id="resultsSection" class="col-lg-7 col-lg-offset-1 well" ng-if="!tagQuery && !selectedCategory">
+    <br/><br/><br/>
+
+    <div id="resultsSection" class="col-lg-10 col-lg-offset-1  well" ng-if="!tagQuery && !selectedCategory">
             Start your search. Type in the search box or click a category.....
     </div>
 
 
-    <div id="resultsSection" class="col-lg-7 col-lg-offset-1 well" ng-if="tagQuery || selectedCategory">
+    <div id="resultsSection" class="col-lg-10 col-lg-offset-1 well" ng-if="tagQuery || selectedCategory">
         <!--
 ************************************    TAG QUERY INDEX SECTION ***************************************
         -->
