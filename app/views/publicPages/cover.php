@@ -67,7 +67,7 @@
 
         .brandImage{
             position:absolute;
-            top:10px;
+            top:18px;
             left:45px;
         }
 
@@ -154,7 +154,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/">
-                    <img class="brandImage" src="/angular-bootstrap/keviconRevised_03.png">
+                    <img class="brandImage" src="/angular-bootstrap/KWIconSmall.png">
                 </a>
             </div>
             <div class="collapse navbar-collapse">
