@@ -9,23 +9,11 @@
 
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap.min.css" rel="stylesheet">
-
     <link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Roboto:100' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
 
-    <script>
-        $(document).ready(function () {
-
-            $(".player").mb_YTPlayer();
-
-        });
-    </script>
     <style>
-        body{
-            background-image: url('http://placehold.it/1400x700');
-        }
         .headline {
             font-family: 'Arvo', serif;
             font-size:  64px;
@@ -73,33 +61,11 @@
             to {margin-top: 30px;}
         }
 
-        .video-section .pattern-overlay {
-            background-color: rgba(71, 71, 71, 0.59);
-            padding: 110px 0 32px;
-            min-height: 715px;
-            /* Incase of overlay problems just increase the min-height*/
-        }
-
-        .video-section .buttonBar{
-            display:none;
-        }
-        .player {
-            font-size: 1px;
-        }
-
-        .video-section h1{
-            color:#fff;
-        }
-        .video-section p{
-            color:#fff;
-        }
-
         .brandImage{
             position:absolute;
             top:10px;
             left:45px;
         }
-
 
 
         .icon-bar{
@@ -125,11 +91,41 @@
         }
 
 
-
-
         .navbar-collapse {
             margin-left:100px;
         }
+
+        #video-bg {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            width: auto;
+            min-width: 100%;
+            height: auto;
+            min-height: 100%;
+            z-index: -100;
+            background: transparent url('http://placehold.it/1500x900/000000/ffffff') no-repeat;
+            background-size: cover;
+        }
+
+       .video-section h1{
+           color:#fff;
+       }
+       .video-section p{
+           color:#fff;
+       }
+
+
+
+        .video-section .pattern-overlay {
+            background-color: rgba(71, 71, 71, 0.59);
+            padding: 110px 0 32px;
+            min-height: 715px;
+        }
+
+
+
+
 
 
     </style>
@@ -138,11 +134,13 @@
 <body>
 
 
+<video autoplay loop muted poster="vid-first-frame.jpg" id="video-bg">
+    <source src="/angular-bootstrap/samplevid.mp4" type="video/mp4">
+</video>
+
+
 <div class="content-section video-section text-center">
-
     <div class="pattern-overlay">
-
-        <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=YzZpFczU-m0',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
 
         <nav class="navbar navbar-static-top">
             <div class="navbar-header">
@@ -165,6 +163,8 @@
                 </ul>
             </div>
         </nav>
+
+
         <div class="container">
 
             <div class="row">
@@ -181,11 +181,6 @@
         </div>
     </div>
 </div>
-<!--Video Section Ends Here-->
-
-
-
-
 
 <script src="/angular-bootstrap/bootstrap-twit/js/bootstrap.min.js"></script>
 
