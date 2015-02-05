@@ -39,7 +39,7 @@
         }
 
         .cta-image {
-            margin-left:45px;
+            margin-left:35px;
             margin-top:20px;
         }
 
