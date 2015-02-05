@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>KevinWashingtonMe</title>
+    <title>Kevin Washington | Developing Products & Gaining Traction. </title>
 
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap.min.css" rel="stylesheet">
@@ -17,8 +17,8 @@
 
     <style>
         body{
-            background: transparent url('http://lorempixel.com/1300/800/business/');
-            background-size: cover;
+            background: transparent url('http://lorempixel.com/1500/800/business/');
+            /*background-size: cover;*/
         }
 
         .headline {
@@ -110,7 +110,6 @@
             height: auto;
             min-height: 100%;
             z-index: -100;
-
         }
 
 

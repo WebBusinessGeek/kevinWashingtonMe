@@ -28,8 +28,8 @@
       <file leaf-file-name="cover.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/publicPages/cover.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2877698" vertical-offset="50" max-vertical-offset="4900">
-              <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+            <state vertical-scroll-proportion="0.1438849" vertical-offset="75" max-vertical-offset="4875">
+              <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -597,8 +597,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/cover.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2877698" vertical-offset="50" max-vertical-offset="4900">
-          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+        <state vertical-scroll-proportion="0.1438849" vertical-offset="75" max-vertical-offset="4875">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
           <folding />
         </state>
       </provider>
