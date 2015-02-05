@@ -9,8 +9,8 @@
 
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="/angular-bootstrap/kwFavIconGrey.ico" type="image/x-icon">
-    <link rel="icon" href="/angular-bootstrap/kwFavIconGrey.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/kwFavIcon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/kwFavIcon.ico" type="image/x-icon">
     <link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Roboto:100' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -140,7 +140,7 @@
 
 
 <video autoplay loop muted poster="vid-first-frame.jpg" id="video-bg">
-    <source src="/angular-bootstrap/samplevid.mp4" type="video/mp4">
+    <source src="/assets/samplevid.mp4" type="video/mp4">
 </video>
 
 
@@ -156,7 +156,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/">
-                    <img class="brandImage" src="/angular-bootstrap/KWIconSmall.png">
+                    <img class="brandImage" src="/assets/kwIconWhite.png">
                 </a>
             </div>
             <div class="collapse navbar-collapse">
@@ -176,7 +176,7 @@
                     <p class="subheadline">I create products, develop strategies, and optimize processes.</p>
                     <a href="/skills" class="btn btn-warning btn-huge-cta ">Skills I use to do it</a>
                     <div>
-                        <img class="cta-image element-to-move" src="/angular-bootstrap/arrow_03.png">
+                        <img class="cta-image element-to-move" src="/assets/ctaArrow.png">
                     </div>
                 </div>
             </div>
