@@ -108,7 +108,7 @@
         }
 
         body{
-            background: transparent url('http://placehold.it/1300x700/000000/ffffff');
+            background: transparent url('http://lorempixel.com/1300/800/business/');
             background-size: cover;
         }
 
