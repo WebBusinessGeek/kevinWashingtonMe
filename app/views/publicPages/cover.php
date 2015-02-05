@@ -18,7 +18,7 @@
             background: transparent url('http://lorempixel.com/1300/800/business/');
             background-size: cover;
         }
-        
+
         .headline {
             font-family: 'Arvo', serif;
             font-size:  64px;
@@ -120,8 +120,6 @@
            color:#fff;
        }
 
-
-
         .video-section .pattern-overlay {
             background-color: rgba(71, 71, 71, 0.59);
             padding: 110px 0 32px;
@@ -159,7 +157,6 @@
                     <img class="brandImage" src="/angular-bootstrap/keviconRevised_03.png">
                 </a>
             </div>
-
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="navLinks" href="/skills">Skills</a></li>
@@ -169,9 +166,7 @@
             </div>
         </nav>
 
-
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-12">
                     <br/><br/><br/><br/>
@@ -184,6 +179,7 @@
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 
