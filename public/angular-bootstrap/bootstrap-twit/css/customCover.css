@@ -117,6 +117,9 @@ body{
     color: #000;
 }
 
+.navLinks:active {
+    color: #000;
+}
 
 .navbar-collapse {
     margin-left:100px;

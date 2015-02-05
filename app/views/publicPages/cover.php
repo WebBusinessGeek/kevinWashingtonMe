@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="/assets/kwFavIcon.ico" type="image/x-icon">
     <link rel="icon" href="/assets/kwFavIcon.ico" type="image/x-icon">
 
-    
+
     <link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Roboto:100' rel='stylesheet' type='text/css'>
 
