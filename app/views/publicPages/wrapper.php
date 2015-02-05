@@ -15,6 +15,7 @@
 
     <link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Roboto:100' rel='stylesheet' type='text/css'>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
     <style>
@@ -24,6 +25,10 @@
             position:absolute;
             top:22px;
             left:50px;
+        }
+
+        .icon-bar{
+            background-color: #666666;
         }
         .navbar-static-top {
             margin-top: -10px;
@@ -42,7 +47,14 @@
             color: #000;
         }
         /* End - NavBar Content */
+
+        .carousel-inner .active.left { left: -33%; }
+        .carousel-inner .next        { left:  33%; }
+        .carousel-inner .prev        { left: -33%; }
+        .carousel-control.left,.carousel-control.right {background-image:none;}
     </style>
+
+
 </head>
 
 <body>
@@ -99,7 +111,28 @@
     <script src="app/connect.js"></script>
 
 
+<script src="/angular-bootstrap/bootstrap-twit/js/bootstrap.min.js"></script>
 
+<script type="text/javascript">
+    $('#myCarousel').carousel({
+        interval: 2500
+    });
+
+    $('.carousel .item').each(function(){
+        var next = $(this).next();
+        if (!next.length) {
+            next = $(this).siblings(':first');
+        }
+        next.children(':first-child').clone().appendTo($(this));
+
+        if (next.next().length>0) {
+            next.next().children(':first-child').clone().appendTo($(this));
+        }
+        else {
+            $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+        }
+    });
+</script>
 
 </body>
 </html>
