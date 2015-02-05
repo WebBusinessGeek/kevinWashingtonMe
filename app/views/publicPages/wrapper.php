@@ -10,6 +10,9 @@
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap-theme.css" rel="stylesheet">
 
+    <link rel="shortcut icon" href="/assets/kwFavIcon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/kwFavIcon.ico" type="image/x-icon">
+
     <link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Roboto:100' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
