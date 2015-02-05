@@ -24,7 +24,6 @@
         }
 
         .btn-huge-cta {
-
             min-height: 60px;
             min-width: 205px;
             padding-top: 15px;
@@ -177,8 +176,8 @@
                     <h1 class="headline">hello, I'm kevin.</h1>
                     <p class="subheadline">I create products, develop strategies, and optimize processes.</p>
                     <a href="/skills" class="btn btn-warning btn-huge-cta ">Skills I use to do it</a>
-                    <div class="cta-image element-to-move">
-                        <img src="/angular-bootstrap/arrow_03.png">
+                    <div>
+                        <img class="cta-image element-to-move" src="/angular-bootstrap/arrow_03.png">
                     </div>
                 </div>
             </div>
