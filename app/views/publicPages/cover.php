@@ -14,6 +14,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
     <style>
+        body{
+            background: transparent url('http://lorempixel.com/1300/800/business/');
+            background-size: cover;
+        }
+        
         .headline {
             font-family: 'Arvo', serif;
             font-size:  64px;
@@ -106,10 +111,7 @@
 
         }
 
-        body{
-            background: transparent url('http://lorempixel.com/1300/800/business/');
-            background-size: cover;
-        }
+
 
        .video-section h1{
            color:#fff;
