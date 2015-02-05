@@ -104,7 +104,7 @@
             height: auto;
             min-height: 100%;
             z-index: -100;
-            background: transparent url('http://placehold.it/1500x900/000000/ffffff') no-repeat;
+            background: transparent url('http://placehold.it/1300x800/000000/ffffff') no-repeat;
             background-size: cover;
         }
 
