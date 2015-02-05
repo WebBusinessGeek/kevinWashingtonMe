@@ -39,7 +39,7 @@
         }
 
         .cta-image {
-            margin-left:30px;
+            margin-left:45px;
             margin-top:20px;
         }
 
@@ -67,8 +67,8 @@
 
         .brandImage{
             position:absolute;
-            top:18px;
-            left:45px;
+            top:22px;
+            left:50px;
         }
 
 
