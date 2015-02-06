@@ -30,8 +30,8 @@
           <file leaf-file-name="skill.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/skill.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.18712574" vertical-offset="1175" max-vertical-offset="4200">
-                  <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.50359714" vertical-offset="650" max-vertical-offset="4175">
+                  <caret line="40" column="160" selection-start-line="40" selection-start-column="160" selection-end-line="40" selection-end-column="160" />
                   <folding />
                 </state>
               </provider>
@@ -41,11 +41,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="skill.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/app/skill.js">
+          <file leaf-file-name="wrapper.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.68836564" vertical-offset="703" max-vertical-offset="1425">
-                  <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+                <state vertical-scroll-proportion="0.43165466" vertical-offset="1100" max-vertical-offset="3875">
+                  <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -244,15 +244,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -286,13 +286,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -392,13 +392,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.9263005" vertical-offset="2025" max-vertical-offset="63050">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -657,25 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68345326" vertical-offset="1250" max-vertical-offset="3600">
           <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
-          <folding>
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423181560000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,24 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43165466" vertical-offset="0" max-vertical-offset="2425">
           <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Indicates if APCu is supported. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Create a new APC wrapper instance. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Get an item from the cache. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Store an item in the cache. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Increment the value of an item in the cache. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Decrement the value of an item in the cache. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Remove an item from the cache. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder=" Remove all items from the cache. ..." />
-            <marker date="1419281770000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,55 +671,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10387812" vertical-offset="0" max-vertical-offset="722">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5683453" vertical-offset="2480" max-vertical-offset="3650">
-          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding>
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="{&quot;interval&quot;: 100...}" />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1423185206000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/skill.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.18712574" vertical-offset="1175" max-vertical-offset="4200">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/app/skill.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68836564" vertical-offset="703" max-vertical-offset="1425">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        <state vertical-scroll-proportion="1.3850416" vertical-offset="0" max-vertical-offset="1425">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <marker date="1423186261000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1423186261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423186261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423186261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423186261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423186261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423186261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423186261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43165466" vertical-offset="1100" max-vertical-offset="3875">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/skill.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50359714" vertical-offset="650" max-vertical-offset="4175">
+          <caret line="40" column="160" selection-start-line="40" selection-start-column="160" selection-end-line="40" selection-end-column="160" />
           <folding />
         </state>
       </provider>

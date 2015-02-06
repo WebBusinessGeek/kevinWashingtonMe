@@ -34,11 +34,15 @@
     <div id="resultsSection" class="col-lg-12" ng-if="!tagQuery && !selectedCategory">
 
         <div >
-            <div class="carousel slide" id="myCarousel">
-                <div class="carousel-inner">
+            <div class="carousel slide col-lg-12" id="myCarousel">
+                <div class="carousel-inner ">
 
-                    <div ng-repeat="category in categories" class="item" ng-class="{'active': $first , 'next': $index == 1">
-                        <div class="col-md-4"><a href="#"><img src="http://placehold.it/500/bbbbbb/" class="img-responsive">{{category.title}}</a></div>
+                    <div class="item active">
+                        <div class="col-md-4 col-lg-offset-4"><a href="#"><img src="http://placehold.it/500/bbbbbb/" class="img-responsive">Need something here.</a></div>
+                    </div>
+
+                    <div ng-repeat="category in categories" class="item">
+                        <div class="col-md-4 col-lg-offset-4"><a href="#"><img src="http://placehold.it/500/bbbbbb/" class="img-responsive">{{category.title}}</a></div>
                     </div>
 
                 </div>
@@ -49,12 +53,7 @@
         </div>
 
     </div>
-    <br/><br/><br/><br/><br/><hr/>
-    <div>
-        <ul>
-            <li ng-repeat="category in categories">{{category.title}}</li>
-        </ul>
-    </div>
+
 
     <div id="resultsSection" class="col-lg-10 col-lg-offset-1 well" ng-if="tagQuery || selectedCategory">
         <!--
