@@ -14,7 +14,7 @@
 
         <div id="categorySearchGroup" class="col-lg-6">
             <div id="categorySearchHeading">
-                <h4>Browse by Category</h4>
+                <h4>Browse by Categorys</h4>
             </div>
 
 
