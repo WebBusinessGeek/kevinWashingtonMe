@@ -7,6 +7,7 @@ angular.module('app')
             .success(function(data){
                 $scope.tags = data.tags;
                 $scope.supercategories = data.supercategories;
+                $scope.categories = data.categories;
             });
 
 
@@ -45,5 +46,6 @@ angular.module('app')
         };
 
 
+      
 
     }]);

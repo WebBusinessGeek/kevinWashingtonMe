@@ -48,10 +48,14 @@
         }
         /* End - NavBar Content */
 
+
         .carousel-inner .active.left { left: -33%; }
         .carousel-inner .next        { left:  33%; }
         .carousel-inner .prev        { left: -33%; }
-        .carousel-control.left,.carousel-control.right {background-image:none;}
+        .carousel-control.left,.carousel-control.right {
+            background-image:none;
+            color:red;
+        }
     </style>
 
 
@@ -112,10 +116,9 @@
 
 
 <script src="/angular-bootstrap/bootstrap-twit/js/bootstrap.min.js"></script>
-
 <script type="text/javascript">
     $('#myCarousel').carousel({
-        interval: 2500
+        interval: 100
     });
 
     $('.carousel .item').each(function(){

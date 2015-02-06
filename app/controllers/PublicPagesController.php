@@ -3,6 +3,7 @@
 use \App\DomainLogic\TagDirectory\Tag as Tag;
 use \App\DomainLogic\SuperCategoryDirectory\SuperCategory as SuperCategory;
 use \Illuminate\Support\Facades\Cache as Cache;
+use \App\DomainLogic\CategoryDirectory\Category as Category;
 class PublicPagesController extends \BaseController {
 
 
@@ -58,8 +59,10 @@ class PublicPagesController extends \BaseController {
 
 			$supercategories = SuperCategory::with('categories.skills')->get();
 
+			$categories = Category::with('skills')->get();
+
 			$log = \Illuminate\Support\Facades\DB::getQueryLog();
-			$forCache = ['tags' => $tags , 'supercategories' => $supercategories, 'log' => $log];
+			$forCache = ['tags' => $tags , 'supercategories' => $supercategories, 'categories' => $categories  ,'log' => $log];
 
 			Cache::put('getDataSkills', $forCache, $this->getCacheLimit());
 			return $forCache;
