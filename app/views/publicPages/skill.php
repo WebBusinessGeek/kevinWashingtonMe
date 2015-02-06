@@ -18,8 +18,17 @@
             </div>
 
 
+            <nav>
+                <div class="dropdown toggle">
+                    <input id="t1" type="checkbox" checked>
+                    <label for="t1">Toggle Menu</label>
+                    <ul>
+                        <li ng-repeat="supercategory in supercategories"><a>{{supercategory.title}}</a></li>
 
-
+                    </ul>
+                </div>
+            </nav>
+            
 
 
 
@@ -52,7 +61,7 @@
                 <div class="carousel-inner ">
 
                     <div class="item active">
-                        <div class="col-md-4 col-lg-offset-4"><a href="#"><img src="http://placehold.it/500/bbbbbb/" class="img-responsive">Need something here.</a></div>
+                        <div class="col-md-4 col-lg-offset-4"><a href="#"><img src="http://placehold.it/800/bbbbbb/" class="img-responsive">Need something here.</a></div>
                     </div>
 
                     <div ng-repeat="category in categories" class="item">
