@@ -18,6 +18,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
+
     <style>
         /* NavBar Content */
 
@@ -108,6 +109,8 @@
 </div>
 
 
+
+
     <script src="angular-bootstrap/angular.min.js"></script>
     <script src="angular-bootstrap/angular-route.min.js"></script>
     <script src="app/app.js"></script>
@@ -116,8 +119,6 @@
     <script src="app/experience.js"></script>
     <script src="app/connect.js"></script>
 
-
-<script src="/angular-bootstrap/bootstrap-twit/js/bootstrap.min.js"></script>
 <script type="text/javascript">
     $( document ).ready(function() {
         $('#myCarousel').carousel({
@@ -138,11 +139,15 @@
                 $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
             }
         });
-    })
+    });
 
-
+/*fix*/
 
 </script>
+
+<script src="/angular-bootstrap/bootstrap-twit/js/bootstrap.min.js"></script>
+
+
 
 </body>
 </html>
