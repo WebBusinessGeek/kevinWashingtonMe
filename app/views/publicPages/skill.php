@@ -12,40 +12,47 @@
         </div>
 
 
+
+
         <div id="categorySearchGroup" class="col-lg-6">
             <div id="categorySearchHeading">
                 <h4>Browse by Categorys</h4>
             </div>
 
+            <div>
+                Current Super: <b>{{supercategorySetTo.title}}</b>
+                current category:<b> {{categorySetTo.title}}</b>
+                current skill: <b>{{skillSetTo.title}}</b>
+                <button class="btn btn-primary" ng-click="clearSupercategory()">see another category</button>
+            </div>
+            <!--
+            *********************************** SuperCategory ICON Section **********************************************/
+            -->
+            <div class="col-lg-2" ng-if="!supercategorySetTo" ng-repeat="supercategory in supercategories"  ng-mouseenter="hover(supercategory)" ng-mouseleave="clearHover()" ng-click="setSupercategory(supercategory)">
+                <span class="ngMessage" ng-if="hovered == supercategory">{{supercategory.title}}</span>
+                <img src="http://placehold.it/50/">
+                {{supercategory.title}}
+            </div>
 
-            <nav>
-                <div class="dropdown toggle">
-                    <input id="t1" type="checkbox" checked>
-                    <label for="t1">Toggle Menu</label>
-                    <ul>
-                        <li ng-repeat="supercategory in supercategories"><a>{{supercategory.title}}</a></li>
 
-                    </ul>
+            <div ng-repeat="supercategory in supercategories" ng-if="!categorySetTo">
+                <div class="col-lg-2" ng-repeat="category in supercategory.categories" ng-if="supercategorySetTo == supercategory" ng-click="setCategory(category)"  ng-mouseenter="hover(category)" ng-mouseleave="clearHover()">
+                    <span  class="ngMessage" ng-if="hovered == category">{{category.title}}</span>
+                    <img src="http://placehold.it/50/">
+                    {{category.title}}
                 </div>
-            </nav>
-            
+            </div>
 
-
-
-
-
-
-
-
-            <br/>
-            <!--<div ng-repeat="supercategory in supercategories">
-                <h5>{{supercategory.title}}</h5>
-                    <div>
-                        <span ng-repeat="category in supercategory.categories">
-                            <img src="http://placehold.it/55x55"  ng-click="categorySelect(category)"> &nbsp;
-                        </span>
+            <div ng-repeat="supercategory in supercategories">
+                <div ng-repeat="category in supercategory.categories">
+                    <div class="col-lg-2" ng-repeat="skill in category.skills" ng-if="categorySetTo == category" ng-click="setSkill(skill)">
+                        <span  class="ngMessage" ng-if="hovered == skill">{{skill.title}}</span>
+                        <img src="http://placehold.it/50/">
+                        {{skill.title}}
                     </div>
-            </div>-->
+                </div>
+            </div>
+
         </div>
 
     </div>

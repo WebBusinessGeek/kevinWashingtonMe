@@ -48,4 +48,46 @@ angular.module('app')
 
 
 
+        $scope.hover = function(item)
+        {
+            $scope.hovered = item;
+        };
+
+        $scope.clearHover = function()
+        {
+            $scope.hovered = null;
+        };
+
+        $scope.setSupercategory = function(item)
+        {
+            $scope.supercategorySetTo = item;
+        };
+
+        $scope.clearSupercategory = function()
+        {
+            $scope.supercategorySetTo = null;
+            $scope.categorySetTo = null;
+            $scope.skillSetTo = null;
+        };
+
+        $scope.setCategory = function(item)
+        {
+            $scope.categorySetTo = item;
+        };
+        $scope.clearCategory = function()
+        {
+            $scope.categorySetTo = null;
+            $scope.skillSetTo = null;
+        };
+
+        $scope.setSkill = function(item)
+        {
+            $scope.skillSetTo = item;
+        };
+        $scope.clearSkill = function()
+        {
+            $scope.skillSetTo = null;
+        }
+
+
     }]);
