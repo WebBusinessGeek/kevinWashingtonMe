@@ -49,17 +49,15 @@
         /* End - NavBar Content */
 
 
-        /*.carousel-inner .active.left { left: -33%; }*/
-        /*.carousel-inner .next        { left:  33%; }*/
-        /*.carousel-inner .prev        { left: -33%; }*/
-
-        .carousel-inner{
-
-        }
+        /*category carousel styling */
         .carousel-control.left,.carousel-control.right {
             background-image:none;
             color:red;
         }
+
+        /*end category carousel styling*/
+
+
     </style>
 
 
@@ -140,7 +138,7 @@
                 $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
             }
         });
-    });
+    })
 
 
 

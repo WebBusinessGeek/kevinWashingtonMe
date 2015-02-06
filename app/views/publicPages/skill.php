@@ -16,6 +16,18 @@
             <div id="categorySearchHeading">
                 <h4>Browse by Category</h4>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
             <br/>
             <!--<div ng-repeat="supercategory in supercategories">
                 <h5>{{supercategory.title}}</h5>
@@ -30,8 +42,10 @@
     </div>
 
     <br/><br/><br/>
-
-    <div id="resultsSection" class="col-lg-12" ng-if="!tagQuery && !selectedCategory">
+<!--
+******************************************CAROUSEL SECTION *************************************************************
+-->
+    <div id="carouselSection" class="col-lg-12" ng-if="!tagQuery && !selectedCategory">
 
         <div >
             <div class="carousel slide col-lg-12" id="myCarousel">
@@ -54,6 +68,9 @@
 
     </div>
 
+<!--
+******************************************/END CAROUSEL SECTION *************************************************************
+-->
 
     <div id="resultsSection" class="col-lg-10 col-lg-offset-1 well" ng-if="tagQuery || selectedCategory">
         <!--
