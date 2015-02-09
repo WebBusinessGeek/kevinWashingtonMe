@@ -61,6 +61,7 @@ angular.module('app')
         $scope.setSupercategory = function(item)
         {
             $scope.supercategorySetTo = item;
+            $scope.textQuery = null;
         };
 
         $scope.clearSupercategory = function()
@@ -73,6 +74,7 @@ angular.module('app')
         $scope.setCategory = function(item)
         {
             $scope.categorySetTo = item;
+            $scope.textQuery = null;
         };
         $scope.clearCategory = function()
         {
@@ -83,6 +85,7 @@ angular.module('app')
         $scope.setSkill = function(item)
         {
             $scope.skillSetTo = item;
+            $scope.textQuery = null;
         };
         $scope.clearSkill = function()
         {
