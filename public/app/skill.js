@@ -10,44 +10,6 @@ angular.module('app')
                 $scope.skills = data.skills;
             });
 
-
-        if($scope.tagQuery != null)
-        {
-            $scope.selectedCategory = null;
-        }
-
-
-
-
-        $scope.showing = null;
-        $scope.show = function(item)
-        {
-            $scope.showing = item;
-
-        };
-        $scope.stopShow = function()
-        {
-            $scope.showing = null;
-        };
-
-
-
-
-        $scope.selectedCategory = null;
-        $scope.categorySelect = function(item)
-        {
-            $scope.selectedCategory = item;
-            $scope.tagQuery = null;
-            $scope.stopShow();
-        };
-        $scope.categoryDeSelect = function()
-        {
-           $scope.selectedCategory = null;
-        };
-
-
-
-
         $scope.hover = function(item)
         {
             $scope.hovered = item;

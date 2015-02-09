@@ -24,12 +24,12 @@
 
         .brandImage{
             position:absolute;
-            top:22px;
+            top:13px;
             left:50px;
         }
 
         .icon-bar{
-            background-color: #666666;
+            background-color: #fff;
         }
         .navbar-static-top {
             margin-top: -10px;
@@ -37,11 +37,20 @@
             padding-right: 40px;
         }
 
+
+        .navbar-toggle {
+            margin-top: 0px;
+        }
+
+        .navbar-static-top {
+            background: #44464a;
+        }
         .navLinks {
-            color: #666666;
+            color: #fff;
             font-family: 'Arvo', serif;
             font-size: 20px;
             margin-right: 30px;
+            margin-top: -10px;
         }
 
         .navLinks:hover {
@@ -50,6 +59,9 @@
         /* End - NavBar Content */
 
 
+        body {
+            background: #f6f6f6;
+        }
 
 
 
@@ -95,7 +107,7 @@
             <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="/">
-            <img class="brandImage" src="/assets/kwIconGrey.png">
+            <img class="brandImage" src="/assets/kwIconWhite.png">
         </a>
     </div>
     <div class="collapse navbar-collapse">
