@@ -46,6 +46,7 @@
               *********************************** Category ICON Section **********************************************/
             -->
 
+            <h4 ng-if="supercategorySetTo && !categorySetTo">Let's narrow my <a class="btn btn-primary" ng-click="clearSupercategory()">{{supercategorySetTo.title}}</a> skills down a bit.</h4>
             <div ng-repeat="supercategory in supercategories" ng-if="!categorySetTo">
                 <div class="col-lg-2" ng-repeat="category in supercategory.categories" ng-if="supercategorySetTo == supercategory" ng-click="setCategory(category)"  ng-mouseenter="hover(category)" ng-mouseleave="clearHover()">
                     <span  class="ngMessage" ng-if="hovered == category">{{category.title}}</span>
@@ -91,7 +92,7 @@
 
         <div class="row" ng-if="categorySetTo">
             <br/><br/><br/>
-            <h4> <em>{{categorySetTo.skills.length}}</em> skills that match <em>{{categorySetTo.title}}</em></h4>
+            <h4> <em>{{categorySetTo.skills.length}}</em> skills in <a class="btn btn-primary" ng-click="clearCategory()">{{categorySetTo.title}}</a></h4>
             <div class="skillIndex" ng-if="categorySetTo">
                 <div class="col-md-4 col-lg-offset-3" ng-repeat="skill in categorySetTo.skills"  ng-click="setSkill(skill)">
                     <span  class="ngMessage" ng-if="hovered == skill">{{skill.title}}</span>
@@ -121,7 +122,7 @@
                         <div class="col-md-4 col-lg-offset-4"><a href="#"><img src="http://placehold.it/800/bbbbbb/" class="img-responsive">Need something here.</a></div>
                     </div>
 
-                    <div ng-repeat="category in categories" class="item" ng-click="setCategory(category)">
+                    <div ng-repeat="category in categories" class="item" ng-click="carouselSetCategory(category)">
                         <div class="col-md-4 col-lg-offset-4"><a href="#"><img src="http://placehold.it/500/bbbbbb/" class="img-responsive">{{category.title}}</a></div>
                     </div>
 

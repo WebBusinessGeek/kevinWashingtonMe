@@ -60,6 +60,7 @@ angular.module('app')
 
         $scope.setSupercategory = function(item)
         {
+            $scope.clearSupercategory();
             $scope.supercategorySetTo = item;
             $scope.textQuery = null;
         };
@@ -90,7 +91,13 @@ angular.module('app')
         $scope.clearSkill = function()
         {
             $scope.skillSetTo = null;
-        }
+        };
 
+
+        $scope.carouselSetCategory = function(item)
+        {
+            $scope.clearSupercategory();
+            $scope.setCategory(item);
+        }
 
     }]);
