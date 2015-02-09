@@ -5,9 +5,9 @@ angular.module('app')
     {
         $http.get('/api.v1/skills')
             .success(function(data){
-                $scope.tags = data.tags;
                 $scope.supercategories = data.supercategories;
                 $scope.categories = data.categories;
+                $scope.skills = data.skills;
             });
 
 

@@ -4,6 +4,7 @@ use \App\DomainLogic\TagDirectory\Tag as Tag;
 use \App\DomainLogic\SuperCategoryDirectory\SuperCategory as SuperCategory;
 use \Illuminate\Support\Facades\Cache as Cache;
 use \App\DomainLogic\CategoryDirectory\Category as Category;
+use \App\DomainLogic\SkillDirectory\Skill as Skill;
 class PublicPagesController extends \BaseController {
 
 
@@ -46,18 +47,6 @@ class PublicPagesController extends \BaseController {
 	{
 		if(!Cache::has('getDataSkills'))
 		{
-			$tags = Tag::all();
-			foreach($tags as $tag)
-			{
-				foreach($tag->skills as $skill)
-				{
-					$skill->images;
-					$skill->tools;
-				}
-			}
-
-
-
 
 			$supercategories = SuperCategory::with('categories.skills')->get();
 
@@ -73,9 +62,6 @@ class PublicPagesController extends \BaseController {
 			}
 
 
-
-
-
 			$categories = Category::with('skills')->get();
 
 			foreach($categories as $category)
@@ -86,8 +72,17 @@ class PublicPagesController extends \BaseController {
 				}
 			}
 
+
+			$skills = Skill::all();
+			foreach($skills as $skill)
+			{
+				$skill->tools;
+				$skill->tags;
+			}
+
+
 			$log = \Illuminate\Support\Facades\DB::getQueryLog();
-			$forCache = ['tags' => $tags , 'supercategories' => $supercategories, 'categories' => $categories  ,'log' => $log];
+			$forCache = [ 'supercategories' => $supercategories, 'categories' => $categories , 'skills' => $skills, 'log' => $log];
 
 			Cache::put('getDataSkills', $forCache, $this->getCacheLimit());
 			return $forCache;
