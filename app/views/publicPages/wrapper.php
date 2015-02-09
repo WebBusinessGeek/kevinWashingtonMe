@@ -20,6 +20,29 @@
 
 
     <style>
+
+        body {
+            background: #f6f6f6;
+            color: #555555;
+
+        }
+
+
+        h1,h2,h3,h4,h5,h6 {
+            font-family: 'Arvo', serif;
+        }
+
+        .header {
+            font-family: 'Arvo', serif;
+            margin-top: -10px;
+
+        }
+        .subheader {
+            font-family: 'Roboto', sans-serif;
+            margin-top: -20px;
+            margin-bottom: 30px;
+        }
+
         /* NavBar Content */
 
         .brandImage{
@@ -59,10 +82,24 @@
         /* End - NavBar Content */
 
 
-        body {
-            background: #f6f6f6;
+
+
+        /* text search styling*/
+        #textSearch {
+            background: #dadada;
         }
 
+        #directorySearch {
+            background: #dadada;
+        }
+
+        #myCarousel{
+            background: #dadada;
+
+        }
+
+
+        /* End - text search styling*/
 
 
 
@@ -76,11 +113,6 @@
         /*end category carousel styling*/
 
 
-
-
-
-
-
         /*skill index styling*/
 
         .skillIndex {
@@ -88,6 +120,8 @@
             overflow: auto;
         }
         /*skill index styling*/
+
+
 
 
     </style>
