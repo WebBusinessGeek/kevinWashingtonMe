@@ -68,14 +68,13 @@
     <div class="row" ng-if="categorySetTo">
         <br/><br/><br/>
         <h4> <em>{{categorySetTo.skills.length}}</em> skills that match <em>{{categorySetTo.title}}</em></h4>
-        <div id="directoryModuleSkillIndex" class="skillIndex" ng-repeat="supercategory in supercategories">
-            <div ng-repeat="category in supercategory.categories">
-                <div class="col-md-4 col-lg-offset-3" ng-repeat="skill in category.skills" ng-if="categorySetTo == category"  ng-click="setSkill(skill)">
+       <div id="skillIndex" class="skillIndex" ng-if="categorySetTo">
+                <div class="col-md-4 col-lg-offset-3" ng-repeat="skill in categorySetTo.skills"  ng-click="setSkill(skill)">
                     <span  class="ngMessage" ng-if="hovered == skill">{{skill.title}}</span>
                     <img src="http://placehold.it/450x250/">
                     <p>{{skill.title}}</p>
+                    <p>{{skill.tools.length}} tools</p>
                 </div>
-            </div>
         </div>
     </div>
 
@@ -101,7 +100,7 @@
                         <div class="col-md-4 col-lg-offset-4"><a href="#"><img src="http://placehold.it/800/bbbbbb/" class="img-responsive">Need something here.</a></div>
                     </div>
 
-                    <div ng-repeat="category in categories" class="item">
+                    <div ng-repeat="category in categories" class="item" ng-click="setCategory(category)">
                         <div class="col-md-4 col-lg-offset-4"><a href="#"><img src="http://placehold.it/500/bbbbbb/" class="img-responsive">{{category.title}}</a></div>
                     </div>
 

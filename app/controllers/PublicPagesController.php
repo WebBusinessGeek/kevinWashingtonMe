@@ -57,9 +57,34 @@ class PublicPagesController extends \BaseController {
 			}
 
 
+
+
 			$supercategories = SuperCategory::with('categories.skills')->get();
 
+			foreach($supercategories as $supercategory)
+			{
+				foreach($supercategory->categories as $category)
+				{
+					foreach($category->skills as $skills)
+					{
+						$skills->tools;
+					}
+				}
+			}
+
+
+
+
+
 			$categories = Category::with('skills')->get();
+
+			foreach($categories as $category)
+			{
+				foreach($category->skills as $skill)
+				{
+					$skill->tools;
+				}
+			}
 
 			$log = \Illuminate\Support\Facades\DB::getQueryLog();
 			$forCache = ['tags' => $tags , 'supercategories' => $supercategories, 'categories' => $categories  ,'log' => $log];
