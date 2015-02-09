@@ -12,9 +12,11 @@
         </div>
 
 
+<!--
+******************************************DIRECTORY MODULE SECTION********************************************
+-->
 
-
-        <div id="categorySearchGroup" class="col-lg-6">
+        <div id="DirectoryModule" class="col-lg-6">
             <div id="categorySearchHeading">
                 <h4>Browse by Categorys</h4>
             </div>
@@ -34,6 +36,9 @@
                 {{supercategory.title}}
             </div>
 
+        <!--
+          *********************************** Category ICON Section **********************************************/
+          -->
 
             <div ng-repeat="supercategory in supercategories" ng-if="!categorySetTo">
                 <div class="col-lg-2" ng-repeat="category in supercategory.categories" ng-if="supercategorySetTo == supercategory" ng-click="setCategory(category)"  ng-mouseenter="hover(category)" ng-mouseleave="clearHover()">
@@ -43,25 +48,49 @@
                 </div>
             </div>
 
-            <div ng-repeat="supercategory in supercategories">
-                <div ng-repeat="category in supercategory.categories">
-                    <div class="col-lg-2" ng-repeat="skill in category.skills" ng-if="categorySetTo == category" ng-click="setSkill(skill)">
-                        <span  class="ngMessage" ng-if="hovered == skill">{{skill.title}}</span>
-                        <img src="http://placehold.it/50/">
-                        {{skill.title}}
-                    </div>
-                </div>
-            </div>
+
+
+
+
 
         </div>
 
+<!--
+****************************************** END DIRECTORY MODULE SECTION********************************************
+-->
     </div>
 
+
+    <!--
+         *********************************** DIRECTORY SKILL INDEX Section **********************************************/
+         -->
+
+    <div class="row" ng-if="categorySetTo">
+        <br/><br/><br/><br/>
+        <div id="directoryModuleSkillIndex" class="skillIndex" ng-repeat="supercategory in supercategories">
+            <div ng-repeat="category in supercategory.categories">
+                <div class="col-md-4 col-lg-offset-4" ng-repeat="skill in category.skills" ng-if="categorySetTo == category"  ng-click="setSkill(skill)">
+                    <span  class="ngMessage" ng-if="hovered == skill">{{skill.title}}</span>
+                    <img src="http://placehold.it/200/">
+                    <p>{{skill.title}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <br/><br/><br/>
+
+
+
+
+
+
 <!--
 ******************************************CAROUSEL SECTION *************************************************************
 -->
-    <div id="carouselSection" class="col-lg-12" ng-if="!tagQuery && !selectedCategory">
+    <div id="carouselModule" class="col-lg-12" ng-if="!tagQuery && !selectedCategory && !categorySetTo">
 
         <div >
             <div class="carousel slide col-lg-12" id="myCarousel">

@@ -50,6 +50,11 @@
         /* End - NavBar Content */
 
 
+
+
+
+
+
         /*category carousel styling */
         .carousel-control.left,.carousel-control.right {
             background-image:none;
@@ -59,6 +64,18 @@
         /*end category carousel styling*/
 
 
+
+
+
+
+
+        /*skill index styling*/
+
+        .skillIndex {
+            max-height: 420px;
+            overflow: auto;
+        }
+        /*skill index styling*/
 
 
     </style>
