@@ -66,12 +66,13 @@
          -->
 
     <div class="row" ng-if="categorySetTo">
-        <br/><br/><br/><br/>
+        <br/><br/><br/>
+        <h4> <em>{{categorySetTo.skills.length}}</em> skills that match <em>{{categorySetTo.title}}</em></h4>
         <div id="directoryModuleSkillIndex" class="skillIndex" ng-repeat="supercategory in supercategories">
             <div ng-repeat="category in supercategory.categories">
-                <div class="col-md-4 col-lg-offset-4" ng-repeat="skill in category.skills" ng-if="categorySetTo == category"  ng-click="setSkill(skill)">
+                <div class="col-md-4 col-lg-offset-3" ng-repeat="skill in category.skills" ng-if="categorySetTo == category"  ng-click="setSkill(skill)">
                     <span  class="ngMessage" ng-if="hovered == skill">{{skill.title}}</span>
-                    <img src="http://placehold.it/200/">
+                    <img src="http://placehold.it/450x250/">
                     <p>{{skill.title}}</p>
                 </div>
             </div>
