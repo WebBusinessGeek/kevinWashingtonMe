@@ -111,14 +111,15 @@
                             <img src="http://placehold.it/150x150/">
                         </div>
                         <div class="col-md-7 col-md-offset-2">
-                            <p class="propertyName  skillIndexHeading" ng-class="{'skillIndexHeadingLong':skill.title.length > 21}">{{skill.title}}</p>
+                            <p class="propertyName  skillIndexHeading" ng-class="{'skillIndexHeadingL':skill.title.length > 20, 'skillIndexHeadingXL':skill.title.length >= 24, 'skillIndexHeadingXXL': skill.title.length >= 28}">{{skill.title}}</p>
+                        {{skill.title.length}}
                         </div>
-                        <div class="col-md-6 col-md-offset-2">
+                        <div class="col-md-7 col-md-offset-2">
                             <p class="propertyName">Related tools I'm familiar with: <span class="propertyValue">{{skill.tools.length}}</span></p>
                             <a class="btn btn-primary btn-text-btn pull-right">View tools</a>
                         </div>
-                        <div class="col-md-6 col-md-offset-2">
-                            <p class="propertyName">Thinking out loud: <span class="propertyValue">{{skill.article | limitTo:75}}. . .</span></p>
+                        <div class="col-md-7 col-md-offset-2">
+                            <p class="propertyName">Thinking out loud: <span class="propertyValue">{{skill.article | limitTo:92}}. . .</span></p>
                             <a class="btn btn-primary btn-text-btn pull-right">View more</a>
                         </div>
                     </div>

@@ -156,19 +156,33 @@
         }
 
         .skillIndexItem {
-            height: 250px;
+            height: 280px;
             width: 500px;
             background: #fff;
             margin-bottom: 30px;
             padding-top: 30px;
         }
 
+        .skillIndexItemL {
+            height: 300px;
+        }
+
         .skillIndexHeading {
             font-size: 24px;
         }
-        .skillIndexHeadingLong {
-            font-size: 19px;
+        .skillIndexHeadingL {
+            font-size: 20px;
         }
+
+        .skillIndexHeadingXL {
+            font-size: 18px;
+        }
+
+        .skillIndexHeadingXXL {
+            font-size: 16px;
+        }
+
+
 
         /* END - results section styling*/
 
