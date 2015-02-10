@@ -100,14 +100,28 @@
         -->
 
         <div class="row" ng-if="categorySetTo">
-            <br/><br/><br/>
-            <h4> <em>{{categorySetTo.skills.length}}</em> skills in <a class="btn btn-primary btn-text-btn btn-lg" ng-click="clearCategory()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>{{categorySetTo.title}}</a></h4>
+            <br/><br/>
+            <div class="col-md-4">
+                <h4> <em>{{categorySetTo.skills.length}}</em> skills in <a class="btn btn-primary btn-text-btn btn-lg" ng-click="clearCategory()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>{{categorySetTo.title}}</a></h4>
+            </div>
             <div class="skillIndex" ng-if="categorySetTo">
-                <div class="col-md-4 col-lg-offset-3" ng-repeat="skill in categorySetTo.skills"  ng-click="setSkill(skill)">
-                    <span  class="ngMessage" ng-if="hovered == skill">{{skill.title}}</span>
-                    <img src="http://placehold.it/450x250/">
-                    <p>{{skill.title}}</p>
-                    <p>{{skill.tools.length}} tools</p>
+                <div class="col-md-4 skillIndexItem" ng-repeat="skill in categorySetTo.skills"  ng-click="setSkill(skill)">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="http://placehold.it/150x150/">
+                        </div>
+                        <div class="col-md-7 col-md-offset-2">
+                            <p class="propertyName skillIndexHeading">{{skill.title}}</p>
+                        </div>
+                        <div class="col-md-6 col-md-offset-2">
+                            <p class="propertyName">Related tools I'm famliar with: <span class="propertyValue">{{skill.tools.length}}</span></p>
+                            <a class="btn btn-primary btn-text-btn pull-right">View tools</a>
+                        </div>
+                        <div class="col-md-6 col-md-offset-2">
+                            <p class="propertyName">Thinking out loud: <span class="propertyValue">{{skill.article | limitTo:75}}. . .</span></p>
+                            <a class="btn btn-primary btn-text-btn pull-right">View more</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

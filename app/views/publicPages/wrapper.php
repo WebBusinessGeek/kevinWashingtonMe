@@ -155,6 +155,18 @@
             border-top: thin solid #CECECE;
         }
 
+        .skillIndexItem {
+            height: 250px;
+            width: 500px;
+            background: #fff;
+            margin-bottom: 30px;
+            padding-top: 30px;
+        }
+
+        .skillIndexHeading {
+            font-size: 24px;
+        }
+
         /* END - results section styling*/
 
         /*category carousel styling */
