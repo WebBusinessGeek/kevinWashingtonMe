@@ -30,8 +30,8 @@
           <file leaf-file-name="skill.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/skill.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.15107913" vertical-offset="2680" max-vertical-offset="5025">
-                  <caret line="103" column="22" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+                <state vertical-scroll-proportion="0.4964029" vertical-offset="2655" max-vertical-offset="5350">
+                  <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="35" />
                   <folding />
                 </state>
               </provider>
@@ -44,8 +44,8 @@
           <file leaf-file-name="wrapper.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.74820143" vertical-offset="3680" max-vertical-offset="7775">
-                  <caret line="168" column="27" selection-start-line="168" selection-start-column="27" selection-end-line="168" selection-end-column="27" />
+                <state vertical-scroll-proportion="0.5683453" vertical-offset="3580" max-vertical-offset="7775">
+                  <caret line="159" column="27" selection-start-line="159" selection-start-column="27" selection-end-line="159" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -699,18 +699,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/skill.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74820143" vertical-offset="3680" max-vertical-offset="7775">
-          <caret line="168" column="27" selection-start-line="168" selection-start-column="27" selection-end-line="168" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.4964029" vertical-offset="2655" max-vertical-offset="5350">
+          <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/skill.php">
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.15107913" vertical-offset="2680" max-vertical-offset="5025">
-          <caret line="103" column="22" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.5683453" vertical-offset="3580" max-vertical-offset="7775">
+          <caret line="159" column="27" selection-start-line="159" selection-start-column="27" selection-end-line="159" selection-end-column="27" />
           <folding />
         </state>
       </provider>

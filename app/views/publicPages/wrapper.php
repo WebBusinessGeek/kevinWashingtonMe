@@ -153,7 +153,15 @@
         #resultsSection {
             margin-top: 60px;
             border-top: thin solid #CECECE;
+
         }
+
+        .skillIndex {
+            max-height: 680px;
+            overflow: auto;
+        }
+
+
 
         .skillIndexItem {
             height: 280px;
@@ -199,14 +207,6 @@
 
         /*end category carousel styling*/
 
-
-        /*skill index styling*/
-
-        .skillIndex {
-            max-height: 420px;
-            overflow: auto;
-        }
-        /*skill index styling*/
 
 
 
