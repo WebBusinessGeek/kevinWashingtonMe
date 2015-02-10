@@ -54,6 +54,10 @@
             top: -2px;
             left: -5px;
         }
+
+        .form-control {
+            font-family: 'Roboto', sans-serif;
+        }
         .form-control:focus{
             border: solid 4px #555555;
 

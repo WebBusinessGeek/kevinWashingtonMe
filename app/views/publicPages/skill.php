@@ -80,7 +80,7 @@
 
         <div class="row" ng-if="textQuery">
             <br/><br/><br/>
-            <h4> <em>{{filteredSkills.length}}</em> Skills related to <em>{{textQuery}}</em></h4>
+            <h4> <em>{{filteredSkills.length}}</em> Skills related to <em>'{{textQuery}}'</em></h4>
             <div class="skillIndex">
                 <div class="col-md-4 col-lg-offset-3" ng-repeat="skill in filteredSkills = (skills |filter:textQuery)"  ng-click="setSkill(skill)">
                     <span  class="ngMessage" ng-if="hovered == skill">{{skill.title}}</span>
