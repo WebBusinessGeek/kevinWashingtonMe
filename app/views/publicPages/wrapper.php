@@ -41,6 +41,10 @@
             font-family: 'Arvo', serif;
         }
 
+        .propertyName {
+            font-family: 'Arvo', serif;
+
+        }
         .header {
             font-family: 'Arvo', serif;
             margin-top: -10px;

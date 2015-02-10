@@ -141,9 +141,10 @@
 
                     <div ng-repeat="category in categories" class="item" ng-click="carouselSetCategory(category)">
                         <div class="col-md-6 col-lg-offset-3">
+                            <b class="propertyName">Category: </b> {{category.title}} /
+                            <b class="propertyName">Skills in category: </b> {{category.skills.length}}
+
                             <a href="#">
-                                {{category.title}}
-                                {{category.skills.length}} skills
                                 <img src="http://placehold.it/500/bbbbbb/" class="img-responsive">
                             </a>
                         </div>
