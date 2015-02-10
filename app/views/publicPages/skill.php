@@ -111,10 +111,10 @@
                             <img src="http://placehold.it/150x150/">
                         </div>
                         <div class="col-md-7 col-md-offset-2">
-                            <p class="propertyName skillIndexHeading">{{skill.title}}</p>
+                            <p class="propertyName  skillIndexHeading" ng-class="{'skillIndexHeadingLong':skill.title.length > 21}">{{skill.title}}</p>
                         </div>
                         <div class="col-md-6 col-md-offset-2">
-                            <p class="propertyName">Related tools I'm famliar with: <span class="propertyValue">{{skill.tools.length}}</span></p>
+                            <p class="propertyName">Related tools I'm familiar with: <span class="propertyValue">{{skill.tools.length}}</span></p>
                             <a class="btn btn-primary btn-text-btn pull-right">View tools</a>
                         </div>
                         <div class="col-md-6 col-md-offset-2">

@@ -166,6 +166,9 @@
         .skillIndexHeading {
             font-size: 24px;
         }
+        .skillIndexHeadingLong {
+            font-size: 19px;
+        }
 
         /* END - results section styling*/
 
