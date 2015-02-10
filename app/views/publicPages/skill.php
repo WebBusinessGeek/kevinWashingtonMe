@@ -1,8 +1,8 @@
 
 <div ng-controller="skillController">
 
-    <h1 class="text-center header">3 pain-free ways to review my skills!</h1><br/>
-    <h4 class="text-center subheader">Search skills with text. Browse the directory. Or click a category in the carousel. </h4>
+    <h1 class="text-center header">3 quick ways to review my skills.</h1><br/>
+    <h4 class="text-center subheader">Search skills with text. Browse the directory. Or click a category in the carousel below. </h4>
 
 
     <div id="textSearchAndDirectorySearchGroup" class="row text-center">
@@ -72,7 +72,7 @@
 
 
 
-    <div id="resultsSection">
+    <div id="resultsSection" ng-if="textQuery || categorySetTo">
         <!--
         *********************************** TEXT SEARCH RESULTS Section **********************************************/
         -->

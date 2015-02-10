@@ -98,16 +98,23 @@
         }
 
         #myCarousel{
-            background: #dadada;
+            /*background: #dadada;*/
             padding-top: 40px;
 
-        }
 
+        }
 
         /* End - search module styling*/
 
 
+        /*results section styling*/
 
+        #resultsSection {
+            margin-top: 60px;
+            border-top: thin solid #CECECE;
+        }
+
+        /* END - results section styling*/
 
         /*category carousel styling */
         .carousel-control.left,.carousel-control.right {
