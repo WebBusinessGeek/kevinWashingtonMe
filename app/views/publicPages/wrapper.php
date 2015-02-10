@@ -25,6 +25,7 @@
             background: #f6f6f6;
             color: #555555;
 
+
         }
 
 
@@ -32,6 +33,27 @@
             font-family: 'Arvo', serif;
         }
 
+        .btn-text-btn {
+            background: #bbbbbb;
+            color: #555555;
+            border: none;
+            border-radius: 0px;
+            padding-right: 15px;
+        }
+
+        .btn-text-btn:hover {
+            background: #44464a;
+        }
+
+        .btn-text-btn:active {
+            background: #44464a;
+        }
+
+        .btn-text-btn > .glyphicon {
+            position:relative;
+            top: -2px;
+            left: -5px;
+        }
         .form-control:focus{
             border: solid 4px #555555;
 
