@@ -161,8 +161,13 @@
             background: #fff;
             margin-bottom: 30px;
             padding-top: 30px;
+
         }
 
+        .skillIndexItem:hover {
+            background: #dadada;
+            cursor: pointer;
+        }
 
         .skillIndexHeading {
             font-size: 24px;
