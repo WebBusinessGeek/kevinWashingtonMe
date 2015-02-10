@@ -35,7 +35,10 @@
         .form-control:focus{
             border: solid 4px #555555;
 
+        }
 
+        .helpText {
+            font-family: 'Arvo', serif;
         }
 
         .header {
@@ -93,13 +96,13 @@
         /* search module styling*/
         #textSearch {
             background: #dadada;
-            height: 150px;
+            height: 180px;
             padding-top: 20px;
         }
 
         #directorySearch {
             background: #dadada;
-            height: 150px;
+            height: 180px;
             padding-top: 20px;
         }
 

@@ -35,7 +35,7 @@
         ******************************************DIRECTORY MODULE SECTION********************************************
         -->
         <div id="directorySearch" class="col-lg-4 text-center">
-            <div id="categorySearchHeading">
+            <div id="categorySearchHeading" ng-if="!supercategorySetTo">
                 <h4>Skills Directory</h4>
             </div>
 
@@ -54,12 +54,13 @@
               *********************************** Category ICON Section **********************************************/
             -->
 
-            <h4 ng-if="supercategorySetTo && !categorySetTo">Let's narrow my <a class="btn btn-primary" ng-click="clearSupercategory()">{{supercategorySetTo.title}}</a> skills down a bit.</h4>
-            <div ng-repeat="supercategory in supercategories" ng-if="!categorySetTo">
+            <p class="helpText" ng-if="supercategorySetTo && !categorySetTo">Now let's narrow <a class="btn btn-primary" ng-click="clearSupercategory()">{{supercategorySetTo.title}}</a> skills down a bit...</p>
+            <p class="helpText" ng-if="supercategorySetTo && categorySetTo">Currently viewing <a class="btn btn-primary" ng-click="clearCategory()">{{categorySetTo.title}}</a> skills below.</p>
+
+            <div ng-repeat="supercategory in supercategories">
                 <div class="col-lg-2" ng-repeat="category in supercategory.categories" ng-if="supercategorySetTo == supercategory" ng-click="setCategory(category)"  ng-mouseenter="hover(category)" ng-mouseleave="clearHover()">
                     <span  class="ngMessage" ng-if="hovered == category">{{category.title}}</span>
-                    <img src="http://placehold.it/50/">
-                    {{category.title}}
+                    <img src="http://placehold.it/50/ffffff">
                 </div>
             </div>
 
