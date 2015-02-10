@@ -17,7 +17,7 @@
         <div id="textSearch" class="col-lg-4">
 
             <div id="textSearchText">
-                <h4>Search for specific skills.</h4>
+                <h4>Search a specific skill.</h4>
             </div>
             <div id="textSearchBar">
                 <input type="text" ng-model="textQuery" ng-keypress="clearSupercategory()" class="form-control input-lg" placeholder="Start typing...">
@@ -129,7 +129,7 @@
             <div class="carousel slide col-lg-10 " id="myCarousel">
 
                 <div id="carouselModuleText" class="text-center">
-                    <h4>Pick a category.</h4>
+                    <h4>Pick a Category.</h4>
                 </div>
 
                 <div class="carousel-inner ">
@@ -139,7 +139,13 @@
                     </div>
 
                     <div ng-repeat="category in categories" class="item" ng-click="carouselSetCategory(category)">
-                        <div class="col-md-6 col-lg-offset-3"><a href="#"><img src="http://placehold.it/500/bbbbbb/" class="img-responsive">{{category.title}}</a></div>
+                        <div class="col-md-6 col-lg-offset-3">
+                            <a href="#">
+                                {{category.title}}
+                                {{category.skills.length}} skills
+                                <img src="http://placehold.it/500/bbbbbb/" class="img-responsive">
+                            </a>
+                        </div>
                     </div>
 
                 </div>

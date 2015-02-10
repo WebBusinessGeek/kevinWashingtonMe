@@ -32,6 +32,12 @@
             font-family: 'Arvo', serif;
         }
 
+        .form-control:focus{
+            border: solid 4px #555555;
+
+
+        }
+
         .header {
             font-family: 'Arvo', serif;
             margin-top: -10px;
