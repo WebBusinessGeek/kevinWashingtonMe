@@ -141,8 +141,8 @@
 
                     <div ng-repeat="category in categories" class="item" ng-click="carouselSetCategory(category)">
                         <div class="col-md-6 col-lg-offset-3">
-                            <b class="propertyName">Category: </b> {{category.title}} /
-                            <b class="propertyName">Skills in category: </b> {{category.skills.length}}
+                            <span class="propertyName">Category: </span> <span class="propertyValue">{{category.title}}</span> |
+                            <span class="propertyName">Skills in category: </span> <span class="propertyValue">{{category.skills.length}}</span>
 
                             <a href="#">
                                 <img src="http://placehold.it/500/bbbbbb/" class="img-responsive">
@@ -152,8 +152,8 @@
 
                 </div>
 
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
 

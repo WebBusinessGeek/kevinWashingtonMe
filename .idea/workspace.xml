@@ -30,8 +30,8 @@
           <file leaf-file-name="skill.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/skill.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.42446044" vertical-offset="1755" max-vertical-offset="4325">
-                  <caret line="82" column="89" selection-start-line="82" selection-start-column="89" selection-end-line="82" selection-end-column="89" />
+                <state vertical-scroll-proportion="0.5323741" vertical-offset="3205" max-vertical-offset="4325">
+                  <caret line="143" column="128" selection-start-line="143" selection-start-column="128" selection-end-line="143" selection-end-column="128" />
                   <folding />
                 </state>
               </provider>
@@ -44,8 +44,8 @@
           <file leaf-file-name="wrapper.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.46043167" vertical-offset="1130" max-vertical-offset="6875">
-                  <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+                <state vertical-scroll-proportion="0.79136693" vertical-offset="1275" max-vertical-offset="7000">
+                  <caret line="73" column="46" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
                   <folding />
                 </state>
               </provider>
@@ -353,20 +353,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/app/experience.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5193906" vertical-offset="0" max-vertical-offset="722">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/experience.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39568347" vertical-offset="525" max-vertical-offset="3925">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41551247" vertical-offset="0" max-vertical-offset="722">
@@ -700,16 +686,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46043167" vertical-offset="1130" max-vertical-offset="6875">
-          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.79136693" vertical-offset="1275" max-vertical-offset="7000">
+          <caret line="73" column="46" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.88642657" vertical-offset="3810" max-vertical-offset="10025">
+          <caret line="178" column="16" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
+          <folding>
+            <marker date="1414063796000" expanded="true" signature="-1:-1" placeholder="{ ... }" />
+            <marker date="1414063796000" expanded="true" signature="-1:-1" placeholder="{ ... }" />
+            <marker date="1414063796000" expanded="true" signature="-1:-1" placeholder="{ ... }" />
+            <marker date="1414063796000" expanded="true" signature="-1:-1" placeholder="{ ... }" />
+            <marker date="1414063796000" expanded="true" signature="-1:-1" placeholder="{ ... }" />
+            <marker date="1414063796000" expanded="true" signature="-1:-1" placeholder="{ ... }" />
+            <marker date="1414063796000" expanded="true" signature="-1:-1" placeholder="{ ... }" />
+            <marker date="1414063796000" expanded="true" signature="-1:-1" placeholder="{ ... }" />
+            <marker date="1414063796000" expanded="true" signature="-1:-1" placeholder="{ ... }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domainLogic/skillDirectory/SkillInternalService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1750">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1421336251000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1421336251000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421336251000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421336251000" expanded="true" signature="-1:-1" placeholder=" @param array $credentialsOrAttributes ..." />
+            <marker date="1421336251000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421336251000" expanded="true" signature="-1:-1" placeholder=" @param array $attributes ..." />
+            <marker date="1421336251000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421336251000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421336251000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421336251000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421336251000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421336251000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/skill.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42446044" vertical-offset="1755" max-vertical-offset="4325">
-          <caret line="82" column="89" selection-start-line="82" selection-start-column="89" selection-end-line="82" selection-end-column="89" />
+        <state vertical-scroll-proportion="0.5323741" vertical-offset="3205" max-vertical-offset="4325">
+          <caret line="143" column="128" selection-start-line="143" selection-start-column="128" selection-end-line="143" selection-end-column="128" />
           <folding />
         </state>
       </provider>

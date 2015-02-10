@@ -69,7 +69,9 @@
 
         .propertyName {
             font-family: 'Arvo', serif;
-
+        }
+        .propertyValue {
+            font-family: 'Roboto', sans-serif;
         }
         .header {
             font-family: 'Arvo', serif;
@@ -158,7 +160,10 @@
         /*category carousel styling */
         .carousel-control.left,.carousel-control.right {
             background-image:none;
-            color:red;
+            margin-top: 250px;
+            background: #dadada;
+            height: 100px;
+            color:#555555;
         }
 
         /*end category carousel styling*/
