@@ -163,9 +163,6 @@
             padding-top: 30px;
         }
 
-        .skillIndexItemL {
-            height: 300px;
-        }
 
         .skillIndexHeading {
             font-size: 24px;
