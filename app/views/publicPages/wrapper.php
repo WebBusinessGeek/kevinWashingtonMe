@@ -84,22 +84,27 @@
 
 
 
-        /* text search styling*/
+        /* search module styling*/
         #textSearch {
             background: #dadada;
+            height: 150px;
+            padding-top: 20px;
         }
 
         #directorySearch {
             background: #dadada;
+            height: 150px;
+            padding-top: 20px;
         }
 
         #myCarousel{
             background: #dadada;
+            padding-top: 40px;
 
         }
 
 
-        /* End - text search styling*/
+        /* End - search module styling*/
 
 
 

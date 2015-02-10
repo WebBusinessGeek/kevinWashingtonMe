@@ -1,16 +1,20 @@
 
 <div ng-controller="skillController">
 
-    <h1 class="text-center header">3 quick ways to review my skills.</h1><br/>
+    <h1 class="text-center header">3 pain-free ways to review my skills!</h1><br/>
     <h4 class="text-center subheader">Search skills with text. Browse the directory. Or click a category in the carousel. </h4>
 
 
     <div id="textSearchAndDirectorySearchGroup" class="row text-center">
 
+        <div class="col-lg-1">
+
+        </div>
+
         <!--
         ******************************************TEXT SEARCH MODULE SECTION********************************************
         -->
-        <div id="textSearch" class="col-lg-5">
+        <div id="textSearch" class="col-lg-4">
 
             <div id="textSearchText">
                 <h4>Search for specific skills.</h4>
@@ -18,7 +22,7 @@
             <div id="textSearchBar">
                 <input type="text" ng-model="textQuery" ng-keypress="clearSupercategory()" class="form-control input-lg" placeholder="Start typing...">
             </div>
-            <br/><br/><br/>
+
         </div>
         <!--
         ******************************************End TEXT SEARCH MODULE SECTION********************************************
@@ -30,17 +34,11 @@
         <!--
         ******************************************DIRECTORY MODULE SECTION********************************************
         -->
-        <div id="directorySearch" class="col-lg-5 text-center">
+        <div id="directorySearch" class="col-lg-4 text-center">
             <div id="categorySearchHeading">
                 <h4>Skills Directory</h4>
             </div>
 
-         <!--   <div>
-                Current Super: <b>{{supercategorySetTo.title}}</b>
-                current category:<b> {{categorySetTo.title}}</b>
-                current skill: <b>{{skillSetTo.title}}</b>
-                <button class="btn btn-primary" ng-click="clearSupercategory()">see another category</button>
-            </div>-->
             <!--
             *********************************** SuperCategory ICON Section **********************************************/
             -->
@@ -64,7 +62,7 @@
                     {{category.title}}
                 </div>
             </div>
-            <br/><br/><br/><br/><br/>
+
 
         </div>
         <!--
@@ -122,18 +120,26 @@
     <!--
     ******************************************CAROUSEL SEARCH SECTION *************************************************************
     -->
-    <div id="carouselModule" class="col-lg-12" ng-if="!textQuery && !selectedCategory && !categorySetTo">
 
+    <div id="carouselModule" class="col-lg-12" ng-if="!textQuery && !selectedCategory && !categorySetTo">
+        <div class="col-lg-1">
+
+        </div>
         <div>
-            <div class="carousel slide col-lg-12" id="myCarousel">
+            <div class="carousel slide col-lg-10 " id="myCarousel">
+
+                <div id="carouselModuleText" class="text-center">
+                    <h4>Pick a category.</h4>
+                </div>
+
                 <div class="carousel-inner ">
-                    <br/><br/>
+
                     <div class="item active">
-                        <div class="col-md-4 col-lg-offset-4"><a href="#"><img src="http://placehold.it/800/bbbbbb/" class="img-responsive">Need something here.</a></div>
+                        <div class="col-md-6 col-lg-offset-3"><a href="#"><img src="http://placehold.it/800/bbbbbb/" class="img-responsive">Need something here.</a></div>
                     </div>
 
                     <div ng-repeat="category in categories" class="item" ng-click="carouselSetCategory(category)">
-                        <div class="col-md-4 col-lg-offset-4"><a href="#"><img src="http://placehold.it/500/bbbbbb/" class="img-responsive">{{category.title}}</a></div>
+                        <div class="col-md-6 col-lg-offset-3"><a href="#"><img src="http://placehold.it/500/bbbbbb/" class="img-responsive">{{category.title}}</a></div>
                     </div>
 
                 </div>
