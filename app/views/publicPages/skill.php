@@ -5,9 +5,9 @@
     <h4 class="text-center subheader">Search skills with text. Browse the directory. Or click a category in the carousel below. </h4>
 
 
-    <img id="moduleHelper1" src="/assets/moduleHelper1.png">
-    <img id="moduleHelper2" src="/assets/moduleHelper2.png">
-    <img id="moduleHelper3" src="/assets/moduleHelper3.png">
+    <img ng-if="!textQuery" id="moduleHelper1" src="/assets/moduleHelper1.png">
+    <img ng-if="!supercategorySetTo" id="moduleHelper2" src="/assets/moduleHelper2.png">
+    <img ng-if="!categorySetTo && !textQuery" id="moduleHelper3" src="/assets/moduleHelper3.png">
 
     <div id="textSearchAndDirectorySearchGroup" class="row text-center">
 
