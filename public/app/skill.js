@@ -48,7 +48,7 @@ angular.module('app')
         $scope.setSkill = function(item)
         {
             $scope.skillSetTo = item;
-            $scope.textQuery = null;
+           
         };
         $scope.clearSkill = function()
         {

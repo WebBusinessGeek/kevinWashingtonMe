@@ -203,12 +203,12 @@
         <br/><br/>
         <div class="row">
 
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <h4><span>Currently viewing</span> <a class="btn btn-primary btn-text-btn btn-lg" ng-click="clearSkill()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>{{skillSetTo.title}}</a></h4>
             </div>
 
-            <div id="skillArticleSection" class="col-md-4 skillArticle">
-                
+            <div id="skillArticleSection" class="col-md-6 skillArticle">
+
                 <div id="skillArticle" class="text-center">
                     <h4>{{skillSetTo.title}}</h4>
                     <img src="http://placehold.it/80/#555555">
