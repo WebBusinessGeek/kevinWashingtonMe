@@ -156,6 +156,12 @@
 
         }
 
+        #skillShowSection{
+
+            border-top: thin solid #CECECE;
+
+        }
+
         .skillIndex {
             max-height: 680px;
             overflow: auto;
@@ -192,6 +198,17 @@
             font-size: 16px;
         }
 
+        #skillToolsSection{
+            background: #dadada;
+        }
+
+        .skillTool {
+            height: 150px;
+            /*width: 200px;*/
+            background: #fff;
+            padding-top:10px;
+            margin-bottom: 20px;
+        }
 
 
         /* END - results section styling*/

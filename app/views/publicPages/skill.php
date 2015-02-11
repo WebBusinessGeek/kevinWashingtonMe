@@ -73,7 +73,7 @@
 
 
 
-    <div id="resultsSection" ng-if="textQuery || categorySetTo">
+    <div id="resultsSection" ng-if="(textQuery || categorySetTo) && !skillSetTo">
         <!--
         *********************************** TEXT SEARCH RESULTS Section **********************************************/
         -->
@@ -198,6 +198,30 @@
    -->
 
     <div id="skillShowSection" class="col-lg-12" ng-if="skillSetTo">
+
+
+        <br/><br/>
+        <div class="row">
+            <div class="col-md-4">
+                <h4><span>Currently viewing</span> <a class="btn btn-primary btn-text-btn btn-lg" ng-click="clearSkill()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>{{skillSetTo.title}}</a></h4>
+            </div>
+
+            <div id="skillToolsSection" class="col-md-3">
+                <div class="skillShowHeading">
+                    {{skillSetTo.title}} related tools I have used.
+                </div>
+                <div class="skillTool text-center" ng-repeat="tool in skillSetTo.tools">
+                    <h4 class="skillToolHeading">{{tool.title}}</h4>
+                    <img src="http://placehold.it/80/#555555"
+                </div>
+            </div>
+
+            <div class="col-md-4 skillArticle">
+                {{skillSetTo.article}}
+            </div>
+
+        </div>
+
 
     </div>
 
