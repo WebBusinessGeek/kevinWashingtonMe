@@ -93,6 +93,25 @@
             font-size: 16px;
         }
 
+
+        #moduleHelper1 {
+            position: absolute;
+            top: 220px;
+            left: 60px;
+        }
+
+        #moduleHelper2 {
+            position: absolute;
+            top: 220px;
+            right: 60px;
+        }
+
+        #moduleHelper3 {
+            position: absolute;
+            top: 550px;
+            right: 300px;
+        }
+
         /* NavBar Content */
 
         .brandImage{

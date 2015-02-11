@@ -5,6 +5,10 @@
     <h4 class="text-center subheader">Search skills with text. Browse the directory. Or click a category in the carousel below. </h4>
 
 
+    <img id="moduleHelper1" src="/assets/moduleHelper1.png">
+    <img id="moduleHelper2" src="/assets/moduleHelper2.png">
+    <img id="moduleHelper3" src="/assets/moduleHelper3.png">
+
     <div id="textSearchAndDirectorySearchGroup" class="row text-center">
 
         <div class="col-lg-1">
