@@ -63,6 +63,11 @@
 
         }
 
+        .input-super {
+            height: 55px;
+            font-size: 22px;
+        }
+
         .helpText {
             font-family: 'Arvo', serif;
         }

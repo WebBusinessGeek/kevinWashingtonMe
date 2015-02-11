@@ -20,7 +20,7 @@
                 <h4>Search a specific skill.</h4>
             </div>
             <div id="textSearchBar">
-                <input type="text" ng-model="textQuery" ng-keypress="clearSupercategory()" class="form-control input-lg" placeholder="Start typing...">
+                <input type="text" ng-model="textQuery" ng-keypress="clearSupercategory()" class="form-control input-lg input-super" placeholder="Start typing...">
             </div>
 
         </div>
