@@ -83,6 +83,10 @@
             margin-top: -20px;
             margin-bottom: 30px;
         }
+        .bodyText {
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+        }
 
         /* NavBar Content */
 
@@ -198,16 +202,27 @@
             font-size: 16px;
         }
 
+        .skillShowHeading {
+            font-family: 'Arvo', serif;
+            font-size: 16px;
+        }
         #skillToolsSection{
-            background: #dadada;
+            max-height: 500px;
+            overflow: auto;
+            padding-top: 5px;
         }
 
         .skillTool {
             height: 150px;
-            /*width: 200px;*/
             background: #fff;
             padding-top:10px;
             margin-bottom: 20px;
+        }
+
+        #skillArticle {
+            background: #fff;
+            padding: 10px 10px 10px 10px;
+
         }
 
 

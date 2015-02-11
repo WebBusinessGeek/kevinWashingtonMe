@@ -58,7 +58,7 @@
             <p class="helpText" ng-if="supercategorySetTo && categorySetTo">Currently viewing <a class="btn btn-primary btn-text-btn" ng-click="clearCategory()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>{{categorySetTo.title}}</a> skills below.</p>
 
             <div ng-repeat="supercategory in supercategories">
-                <div class="col-lg-2" ng-repeat="category in supercategory.categories" ng-if="supercategorySetTo == supercategory" ng-click="setCategory(category)"  ng-mouseenter="hover(category)" ng-mouseleave="clearHover()">
+                <div class="col-lg-2" ng-repeat="category in supercategory.categories" ng-if="supercategorySetTo == supercategory" ng-click="directorySetCategory(category)"  ng-mouseenter="hover(category)" ng-mouseleave="clearHover()">
                     <span  class="ngMessage" ng-if="hovered == category">{{category.title}}</span>
                     <img src="http://placehold.it/50/ffffff">
                 </div>
@@ -197,28 +197,39 @@
    ******************************************SKILL SHOW SECTION *************************************************************
    -->
 
-    <div id="skillShowSection" class="col-lg-12" ng-if="skillSetTo">
+    <div id="skillShowSection" ng-if="skillSetTo">
 
 
         <br/><br/>
         <div class="row">
+
             <div class="col-md-4">
                 <h4><span>Currently viewing</span> <a class="btn btn-primary btn-text-btn btn-lg" ng-click="clearSkill()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>{{skillSetTo.title}}</a></h4>
             </div>
 
-            <div id="skillToolsSection" class="col-md-3">
-                <div class="skillShowHeading">
-                    {{skillSetTo.title}} related tools I have used.
-                </div>
-                <div class="skillTool text-center" ng-repeat="tool in skillSetTo.tools">
-                    <h4 class="skillToolHeading">{{tool.title}}</h4>
-                    <img src="http://placehold.it/80/#555555"
+            <div id="skillArticleSection" class="col-md-4 skillArticle">
+                
+                <div id="skillArticle" class="text-center">
+                    <h4>{{skillSetTo.title}}</h4>
+                    <img src="http://placehold.it/80/#555555">
+                    <p class="bodyText">{{skillSetTo.article}}</p>
                 </div>
             </div>
 
-            <div class="col-md-4 skillArticle">
-                {{skillSetTo.article}}
+            <div class="col-md-3">
+                <div class="skillShowHeading text-center">
+                    Tools I have used for {{skillSetTo.title}}.
+                </div>
+
+                <div id="skillToolsSection">
+                    <div class="skillTool text-center" ng-repeat="tool in skillSetTo.tools">
+                        <h4 class="skillToolHeading">{{tool.title}}</h4>
+                        <img src="http://placehold.it/80/#555555"
+                    </div>
+                </div>
             </div>
+
+
 
         </div>
 

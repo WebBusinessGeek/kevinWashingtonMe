@@ -60,6 +60,12 @@ angular.module('app')
         {
             $scope.clearSupercategory();
             $scope.setCategory(item);
+        };
+
+        $scope.directorySetCategory = function(item)
+        {
+            $scope.clearCategory();
+            $scope.setCategory(item);
         }
 
     }]);
