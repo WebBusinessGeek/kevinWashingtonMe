@@ -218,7 +218,7 @@
 
             <div class="col-md-3">
                 <div class="skillShowHeading text-center">
-                    Tools I have used for {{skillSetTo.title}}.
+                   {{skillSetTo.tools.length}} tools I have used for {{skillSetTo.title}}.
                 </div>
 
                 <div id="skillToolsSection">
