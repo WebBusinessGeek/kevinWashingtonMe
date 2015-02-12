@@ -66,6 +66,14 @@ angular.module('app')
         {
             $scope.clearCategory();
             $scope.setCategory(item);
-        }
+        };
+
+        $scope.getImageNameFromTitle = function(title)
+        {
+            lowerCaseTheTitle = title.toLowerCase();
+            replaceSpacesWithUnderscore = lowerCaseTheTitle.replace(" ",'_');
+            return replaceSpacesWithUnderscore;
+        };
+
 
     }]);

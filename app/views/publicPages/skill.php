@@ -51,7 +51,7 @@
             </div>
             <div class="col-lg-2 text-center" ng-if="!supercategorySetTo" ng-repeat="supercategory in supercategories"  ng-mouseenter="hover(supercategory)" ng-mouseleave="clearHover()" ng-click="setSupercategory(supercategory)">
                 <span class="ngMessage" ng-if="hovered == supercategory">{{supercategory.title}}</span>
-                <img src="http://placehold.it/50/ffffff">
+                <img ng-src="/assets/icons/KWICON{{getImageNameFromTitle(supercategory.title)}}.png">
             </div>
 
             <!--
