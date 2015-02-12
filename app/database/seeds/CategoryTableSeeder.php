@@ -15,7 +15,7 @@ class CategoryTableSeeder extends \Illuminate\Database\Seeder {
     protected $categoryTitleGroups = [
 
         1 => [
-            'Research','Strategy & Planning','Construction'
+            'Product Research','Strategy & Planning','Design & Development'
         ],
 
         2 => [
@@ -27,11 +27,11 @@ class CategoryTableSeeder extends \Illuminate\Database\Seeder {
         ],
 
         4 => [
-            'Revenue Growth', 'Team', 'Processes', 'Objectives'
+            'Revenue Growth', 'Team Management', 'Process Management', 'Objective Management'
         ],
 
         5 => [
-            'Interpersonal','Data/Analytic','Personal'
+            'Interpersonal','Data & Analytic','Personal'
         ]
     ];
     public function run()
