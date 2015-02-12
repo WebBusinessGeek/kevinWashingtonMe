@@ -71,7 +71,7 @@ angular.module('app')
         $scope.getImageNameFromTitle = function(title)
         {
             lowerCaseTheTitle = title.toLowerCase();
-            replaceSpacesWithUnderscore = lowerCaseTheTitle.replace(" ",'_');
+            replaceSpacesWithUnderscore = lowerCaseTheTitle.split(' ').join('_');
             return replaceSpacesWithUnderscore;
         };
 

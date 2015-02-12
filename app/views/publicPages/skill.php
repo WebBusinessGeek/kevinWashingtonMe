@@ -64,8 +64,7 @@
             <div ng-repeat="supercategory in supercategories">
                 <div class="col-lg-2" ng-repeat="category in supercategory.categories" ng-if="supercategorySetTo == supercategory" ng-click="directorySetCategory(category)"  ng-mouseenter="hover(category)" ng-mouseleave="clearHover()">
                     <span  class="ngMessage" ng-if="hovered == category">{{category.title}}</span>
-                    <img src="http://placehold.it/50/ffffff">
-                    <img ng-src="/assets/categoryIcons/5050/KWICON{{getImageNameTitle(category.title)}}.png">
+                    <img ng-src="/assets/categoryIcons/5050/KWICON{{getImageNameFromTitle(category.title)}}.png">
                 </div>
             </div>
 
@@ -93,6 +92,7 @@
                     <div class="row">
                         <div class="col-md-2">
                             <img src="http://placehold.it/150x150/">
+                            <img ng-src="/assets/categoryIcons/150150/KWICON{{getImageNameFromTitle(category.title)}}.png">
                         </div>
                         <div class="col-md-7 col-md-offset-2">
                             <p class="propertyName  skillIndexHeading" ng-class="{'skillIndexHeadingL':skill.title.length > 20, 'skillIndexHeadingXL':skill.title.length >= 24, 'skillIndexHeadingXXL': skill.title.length >= 28}">{{skill.title}}</p>
@@ -127,7 +127,7 @@
                 <div class="col-md-4 skillIndexItem" ng-repeat="skill in categorySetTo.skills"  ng-click="setSkill(skill)">
                     <div class="row">
                         <div class="col-md-2">
-                            <img src="http://placehold.it/150x150/">
+                            <img ng-src="/assets/categoryIcons/150150/KWICON{{getImageNameFromTitle(categorySetTo.title)}}.png">
                         </div>
                         <div class="col-md-7 col-md-offset-2">
                             <p class="propertyName  skillIndexHeading" ng-class="{'skillIndexHeadingL':skill.title.length > 20, 'skillIndexHeadingXL':skill.title.length >= 24, 'skillIndexHeadingXXL': skill.title.length >= 28}">{{skill.title}}</p>
@@ -216,7 +216,7 @@
 
                 <div id="skillArticle" class="text-center">
                     <h4>{{skillSetTo.title}}</h4>
-                    <img src="http://placehold.it/80/#555555">
+                    <img ng-src="/assets/categoryIcons/8080/KWICON{{getImageNameFromTitle(category.title)}}.png">
                     <p class="bodyText">{{skillSetTo.article}}</p>
                 </div>
             </div>
@@ -229,7 +229,7 @@
                 <div id="skillToolsSection">
                     <div class="skillTool text-center" ng-repeat="tool in skillSetTo.tools">
                         <h4 class="skillToolHeading">{{tool.title}}</h4>
-                        <img src="http://placehold.it/80/#555555"
+                        <img src="http://placehold.it/80/#555555">
                     </div>
                 </div>
             </div>
