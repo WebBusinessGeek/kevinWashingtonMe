@@ -91,8 +91,7 @@
                 <div class="col-md-4 skillIndexItem"  ng-repeat="skill in filteredSkills = (skills |filter:textQuery)" ng-click="setSkill(skill)">
                     <div class="row">
                         <div class="col-md-2">
-                            <img src="http://placehold.it/150x150/">
-                            <img ng-src="/assets/categoryIcons/150150/KWICON{{getImageNameFromTitle(category.title)}}.png">
+                            <img ng-src="/assets/categoryIcons/150150/KWICON{{getImageNameFromTitle(skill.category.title)}}.png">
                         </div>
                         <div class="col-md-7 col-md-offset-2">
                             <p class="propertyName  skillIndexHeading" ng-class="{'skillIndexHeadingL':skill.title.length > 20, 'skillIndexHeadingXL':skill.title.length >= 24, 'skillIndexHeadingXXL': skill.title.length >= 28}">{{skill.title}}</p>
@@ -216,7 +215,7 @@
 
                 <div id="skillArticle" class="text-center">
                     <h4>{{skillSetTo.title}}</h4>
-                    <img ng-src="/assets/categoryIcons/8080/KWICON{{getImageNameFromTitle(category.title)}}.png">
+                    <img ng-src="/assets/categoryIcons/8080/KWICON{{getImageNameFromTitle(skillSetTo.category.title)}}.png">
                     <p class="bodyText">{{skillSetTo.article}}</p>
                 </div>
             </div>

@@ -39,7 +39,7 @@ class Skill extends BaseModel {
 
     public function category()
     {
-        return $this->belongsTo('Category');
+        return $this->belongsTo('\App\DomainLogic\CategoryDirectory\Category');
     }
 
     public function tools()

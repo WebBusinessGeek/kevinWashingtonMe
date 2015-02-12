@@ -57,6 +57,7 @@ class PublicPagesController extends \BaseController {
 					foreach($category->skills as $skills)
 					{
 						$skills->tools;
+						$skills->category;
 
 					}
 				}
@@ -70,6 +71,7 @@ class PublicPagesController extends \BaseController {
 				foreach($category->skills as $skill)
 				{
 					$skill->tools;
+					$skill->category;
 
 				}
 			}
@@ -80,6 +82,7 @@ class PublicPagesController extends \BaseController {
 			{
 				$skill->tools;
 				$skill->tags;
+				$skill->category;
 
 			}
 
