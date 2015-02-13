@@ -23,17 +23,6 @@
   <component name="FavoritesManager">
     <favorites_list name="kevinWashingtonMe" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="KWICONemail_marketing.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/assets/categoryIcons/8080/KWICONemail_marketing.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
@@ -268,9 +257,9 @@
       <recent name="$PROJECT_DIR$/public/angular-bootstrap" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/assets/categoryIcons/5050" />
-      <recent name="$PROJECT_DIR$/public/assets/categoryIcons/8080" />
       <recent name="$PROJECT_DIR$/public/assets/categoryIcons/150150" />
+      <recent name="$PROJECT_DIR$/public/assets/categoryIcons/8080" />
+      <recent name="$PROJECT_DIR$/public/assets/categoryIcons/5050" />
       <recent name="$PROJECT_DIR$/public/assets" />
       <recent name="$PROJECT_DIR$/public/assets/icons" />
     </key>
@@ -385,13 +374,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32374102" vertical-offset="0" max-vertical-offset="1850">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0748503" vertical-offset="0" max-vertical-offset="4600">
