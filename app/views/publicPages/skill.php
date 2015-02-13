@@ -177,7 +177,7 @@
                             <span class="propertyName">Skills in category: </span> <span class="propertyValue">{{category.skills.length}}</span>
 
                             <a href="#">
-                                <img src="http://placehold.it/500/bbbbbb/" class="img-responsive">
+                                <img ng-src="/assets/categoryCarouselImages/KWIMAGE{{getImageNameFromTitle(category.title)}}.png" class="img-responsive">
                             </a>
                         </div>
                     </div>
