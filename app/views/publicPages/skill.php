@@ -42,7 +42,7 @@
         <div id="directorySearch" class="col-sm-12 col-md-12 col-lg-4 text-center">
             <div id="categorySearchHeading" ng-if="!supercategorySetTo">
                 <h4>Skills Directory</h4>
-                <p class="helpText2">(Start by clicking icons)</p>
+                <p class="helpText2">(Start by clicking icons.)</p>
             </div>
 
             <!--
