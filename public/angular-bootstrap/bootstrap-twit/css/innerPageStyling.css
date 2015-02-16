@@ -1,0 +1,54 @@
+body {
+    background: #f6f6f6;
+    color: #555555;
+
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Arvo', serif;
+}
+
+
+
+/* NavBar Content */
+
+.brandImage{
+    position:absolute;
+    top:13px;
+    left:50px;
+}
+
+.icon-bar{
+    background-color: #fff;
+}
+.navbar-static-top {
+    margin-top: -10px;
+    padding-top:35px;
+    padding-right: 40px;
+}
+
+
+.navbar-toggle {
+    margin-top: 0px;
+}
+
+.navbar-static-top {
+    background: #44464a;
+}
+.navLinks {
+    color: #fff;
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-top: -10px;
+}
+
+.navLinks:hover {
+    color: #000;
+}
+
+.navbar-collapse{
+    margin-left:80px;
+}
+/* End - NavBar Content */

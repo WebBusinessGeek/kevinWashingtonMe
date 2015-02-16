@@ -1,0 +1,234 @@
+.btn-text-btn {
+    background: #bbbbbb;
+    color: #555555;
+    border: none;
+    border-radius: 0px;
+    padding-right: 15px;
+}
+
+.btn-text-btn:hover {
+    background: #44464a;
+}
+
+.btn-text-btn:active {
+    background: #44464a;
+}
+
+.btn-text-btn > .glyphicon {
+    position:relative;
+    top: -2px;
+    left: -5px;
+}
+
+.hoverMessage {
+}
+
+
+.form-control {
+    font-family: 'Roboto', sans-serif;
+}
+.form-control:focus{
+    border: solid 4px #555555;
+
+}
+
+.input-super {
+    height: 55px;
+    font-size: 22px;
+}
+
+.helpText {
+    font-family: 'Arvo', serif;
+}
+
+.helpText2 {
+    margin-top: -5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.propertyName {
+    font-family: 'Arvo', serif;
+}
+.propertyValue {
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    font-family: 'Arvo', serif;
+    margin-top: -10px;
+
+}
+.subheader {
+    font-family: 'Roboto', sans-serif;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.bodyText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+#moduleHelper1 {
+    position: absolute;
+    top: 220px;
+    left: 60px;
+}
+
+#moduleHelper2 {
+    position: absolute;
+    top: 220px;
+    right: 60px;
+}
+
+#moduleHelper3 {
+    position: absolute;
+    top: 550px;
+    right: 300px;
+}
+
+
+
+
+
+/* search module styling*/
+#textSearch {
+    background: #dadada;
+    height: 180px;
+    padding-top: 20px;
+}
+
+#directorySearch {
+    background: #dadada;
+    height: 180px;
+    padding-top: 20px;
+}
+
+#myCarousel{
+    /*background: #dadada;*/
+    padding-top: 40px;
+
+
+}
+
+/* End - search module styling*/
+
+
+/*results section styling*/
+
+#resultsSection {
+    margin-top: 60px;
+    border-top: thin solid #CECECE;
+
+}
+
+#skillShowSection{
+
+    border-top: thin solid #CECECE;
+
+}
+
+.skillIndex {
+    max-height: 680px;
+    overflow: auto;
+}
+
+
+
+.skillIndexItem {
+    height: 280px;
+    width: 500px;
+    background: #fff;
+    margin-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.skillIndexItem:hover {
+    background: #dadada;
+    cursor: pointer;
+}
+
+.skillIndexHeading {
+    font-size: 24px;
+}
+.skillIndexHeadingL {
+    font-size: 20px;
+}
+
+.skillIndexHeadingXL {
+    font-size: 18px;
+}
+
+.skillIndexHeadingXXL {
+    font-size: 16px;
+}
+
+.skillShowHeading {
+    font-family: 'Arvo', serif;
+    font-size: 16px;
+}
+#skillToolsSection{
+    max-height: 500px;
+    overflow: auto;
+    padding-top: 5px;
+}
+
+.skillTool {
+    height: 150px;
+    background: #fff;
+    padding-top:10px;
+    margin-bottom: 20px;
+}
+
+#skillArticle {
+    background: #fff;
+    padding: 10px 10px 10px 10px;
+
+}
+
+
+/* END - results section styling*/
+
+/*category carousel styling */
+.carousel-control.left,.carousel-control.right {
+    background-image:none;
+    margin-top: 250px;
+    background: #dadada;
+    height: 100px;
+    color:#555555;
+}
+
+/*end category carousel styling*/
+
+.moduleHelperAlert {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bolder;
+    display: none;
+    color: red;
+}
+
+
+@media screen and (max-width: 1400px)
+{
+    .moduleHelpers {
+        visibility: hidden;
+    }
+    .moduleHelperAlert {
+        display: block;
+    }
+
+    .bolder {
+        font-size:20px;
+        font-style: italic;
+        font-weight:bolder;
+    }
+
+}
+
+
+@media screen and (max-width: 770px)
+{
+    #directorySearch {min-height: 350px;}
+}
+
