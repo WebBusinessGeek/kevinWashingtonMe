@@ -60,7 +60,7 @@
               *********************************** Category ICON Section **********************************************/
             -->
 
-            <p class="helpText" ng-if="supercategorySetTo && !categorySetTo">Now let's narrow <a class="btn btn-primary btn-text-btn" ng-click="clearSupercategory()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>{{supercategorySetTo.title}}</a> skills down a bit...</p>
+            <p class="helpText" ng-if="supercategorySetTo && !categorySetTo">Now let's narrow my <a class="btn btn-primary btn-text-btn" ng-click="clearSupercategory()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>{{supercategorySetTo.title}}</a> skills down a bit...</p>
             <p class="helpText" ng-if="supercategorySetTo && categorySetTo">Currently viewing <a class="btn btn-primary btn-text-btn" ng-click="clearCategory()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>{{categorySetTo.title}}</a> skills below.</p>
 
             <div ng-repeat="supercategory in supercategories">
