@@ -25,7 +25,7 @@
 
 
 <video autoplay loop muted poster="vid-first-frame.jpg" id="video-bg">
-    <source src="/assets/samplevid.mp4" type="video/mp4">
+    <source src="/assets/kevinwashingtonmevideo.mp4" type="video/mp4">
 </video>
 
 
