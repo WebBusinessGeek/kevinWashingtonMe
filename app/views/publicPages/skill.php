@@ -6,9 +6,9 @@
     <br/>
 
 
-    <img ng-if="!textQuery" id="moduleHelper1" src="/assets/moduleHelper1.png">
-    <img ng-if="!supercategorySetTo" id="moduleHelper2" src="/assets/moduleHelper2.png">
-    <img ng-if="!categorySetTo && !textQuery" id="moduleHelper3" src="/assets/moduleHelper3.png">
+    <img ng-if="!textQuery" id="moduleHelper1" class="moduleHelpers" src="/assets/moduleHelper1.png">
+    <img ng-if="!supercategorySetTo" id="moduleHelper2" class="moduleHelpers" src="/assets/moduleHelper2.png">
+    <img ng-if="!categorySetTo && !textQuery" id="moduleHelper3" class="moduleHelpers" src="/assets/moduleHelper3.png">
 
     <div id="textSearchAndDirectorySearchGroup" class="row text-center">
 
@@ -33,7 +33,7 @@
         ******************************************End TEXT SEARCH MODULE SECTION********************************************
         -->
 
-        <div class="col-sm-12 col-md-12 col-lg-2">
+        <div class="col-sm-12 col-md-1 col-lg-2">
 
         </div>
         <!--

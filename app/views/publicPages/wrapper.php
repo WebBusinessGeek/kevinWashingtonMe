@@ -266,6 +266,12 @@
         /*end category carousel styling*/
 
 
+        @media screen and (max-width: 1400px)
+        {
+            .moduleHelpers {
+                visibility: hidden;
+            }
+        }
         @media screen and (max-width: 770px)
         {
             #directorySearch {min-height: 340px;}
