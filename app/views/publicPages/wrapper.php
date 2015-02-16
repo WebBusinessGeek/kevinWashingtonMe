@@ -34,7 +34,7 @@
         }
 
         .navbar-collapse{
-            margin-left:100px;
+            margin-left:80px;
         }
 
         .btn-text-btn {
