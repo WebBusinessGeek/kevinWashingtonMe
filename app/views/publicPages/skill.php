@@ -19,7 +19,7 @@
         <!--
         ******************************************TEXT SEARCH MODULE SECTION********************************************
         -->
-        <div id="textSearch" class="col-lg-4">
+        <div id="textSearch" class="col-sm-12 col-md-12 col-lg-4">
 
             <div id="textSearchText">
                 <h4>Search a specific skill.</h4>
@@ -33,13 +33,13 @@
         ******************************************End TEXT SEARCH MODULE SECTION********************************************
         -->
 
-        <div class="col-lg-2">
+        <div class="col-sm-12 col-md-12 col-lg-2">
 
         </div>
         <!--
         ******************************************DIRECTORY MODULE SECTION********************************************
         -->
-        <div id="directorySearch" class="col-lg-4 text-center">
+        <div id="directorySearch" class="col-sm-12 col-md-12 col-lg-4 text-center">
             <div id="categorySearchHeading" ng-if="!supercategorySetTo">
                 <h4>Skills Directory</h4>
             </div>
@@ -47,10 +47,10 @@
             <!--
             *********************************** SuperCategory ICON Section **********************************************/
             -->
-            <div class="col-lg-1">
+            <div class="col-sm-1 col-md-1 col-lg-1">
 
             </div>
-            <div class="col-lg-2 text-center" ng-if="!supercategorySetTo" ng-repeat="supercategory in supercategories"  ng-mouseenter="hover(supercategory)" ng-mouseleave="clearHover()" ng-click="setSupercategory(supercategory)">
+            <div class="col-sm-2 col-md-2 col-lg-2 text-center" ng-if="!supercategorySetTo" ng-repeat="supercategory in supercategories"  ng-mouseenter="hover(supercategory)" ng-mouseleave="clearHover()" ng-click="setSupercategory(supercategory)">
                 <span class="ngMessage" ng-if="hovered == supercategory">{{supercategory.title}}</span>
                 <img ng-src="/assets/supercategoryIcons/KWICON{{getImageNameFromTitle(supercategory.title)}}.png">
             </div>
@@ -63,7 +63,7 @@
             <p class="helpText" ng-if="supercategorySetTo && categorySetTo">Currently viewing <a class="btn btn-primary btn-text-btn" ng-click="clearCategory()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>{{categorySetTo.title}}</a> skills below.</p>
 
             <div ng-repeat="supercategory in supercategories">
-                <div class="col-lg-2" ng-repeat="category in supercategory.categories" ng-if="supercategorySetTo == supercategory" ng-click="directorySetCategory(category)"  ng-mouseenter="hover(category)" ng-mouseleave="clearHover()">
+                <div class="col-sm-2 col-md-2 col-lg-2" ng-repeat="category in supercategory.categories" ng-if="supercategorySetTo == supercategory" ng-click="directorySetCategory(category)"  ng-mouseenter="hover(category)" ng-mouseleave="clearHover()">
                     <span  class="ngMessage" ng-if="hovered == category">{{category.title}}</span>
                     <img ng-src="/assets/categoryIcons/5050/KWICON{{getImageNameFromTitle(category.title)}}.png">
                 </div>
@@ -155,12 +155,12 @@
     ******************************************CAROUSEL SEARCH SECTION *************************************************************
     -->
 
-    <div id="carouselModule" class="col-lg-12" ng-if="!textQuery && !selectedCategory && !categorySetTo">
+    <div id="carouselModule" class="col-sm-12 col-md-12 col-lg-12" ng-if="!textQuery && !selectedCategory && !categorySetTo">
         <div class="col-lg-1">
 
         </div>
         <div>
-            <div class="carousel slide col-lg-10 " id="myCarousel">
+            <div class="carousel slide col-sm-12 col-md-12 col-lg-10 " id="myCarousel">
 
                 <div id="carouselModuleText" class="text-center">
                     <h4>Pick a Category.</h4>

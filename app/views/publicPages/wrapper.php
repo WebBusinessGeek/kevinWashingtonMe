@@ -264,6 +264,10 @@
         /*end category carousel styling*/
 
 
+        @media screen and (max-width: 770px)
+        {
+            #directorySearch {min-height: 340px;}
+        }
 
 
 
