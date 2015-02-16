@@ -265,13 +265,33 @@
 
         /*end category carousel styling*/
 
+        .moduleHelperAlert {
+            font-style: italic;
+            font-size: 20px;
+            font-weight: bolder;
+            display: none;
+            color: red;
+        }
+
 
         @media screen and (max-width: 1400px)
         {
             .moduleHelpers {
                 visibility: hidden;
             }
+            .moduleHelperAlert {
+                display: block;
+            }
+
+            .bolder {
+                font-size:20px;
+                font-style: italic;
+                font-weight:bolder;
+            }
+
         }
+
+
         @media screen and (max-width: 770px)
         {
             #directorySearch {min-height: 340px;}

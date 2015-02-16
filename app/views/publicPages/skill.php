@@ -2,7 +2,7 @@
 <div ng-controller="skillController">
 
     <h1 class="text-center header">Review my skills in 3 quick ways below.</h1><br/>
-    <h4 class="text-center subheader">Search for specific skills in the search bar, click the icons in skills directory, or choose a category in the slider below. Your choice! </h4>
+    <h4 class="text-center subheader"><b class="moduleHelperAlert">How to use this page:</b> Search for specific skills in the <b class="bolder">search bar</b>, click the icons in <b class="bolder">skills directory</b>, or choose a category in the <b class="bolder">slider</b> below. </h4>
     <br/>
 
 
