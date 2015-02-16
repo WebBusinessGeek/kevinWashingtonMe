@@ -33,6 +33,10 @@
             font-family: 'Arvo', serif;
         }
 
+        .navbar-collapse{
+            margin-left:100px;
+        }
+
         .btn-text-btn {
             background: #bbbbbb;
             color: #555555;

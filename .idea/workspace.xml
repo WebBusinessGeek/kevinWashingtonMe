@@ -27,11 +27,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="cover.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/views/publicPages/cover.php">
+          <file leaf-file-name="wrapper.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.7625899" vertical-offset="625" max-vertical-offset="2025">
-                  <caret line="74" column="7" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
+                <state vertical-scroll-proportion="0.68345326" vertical-offset="425" max-vertical-offset="10200">
+                  <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -41,11 +41,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="wrapper.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
+          <file leaf-file-name="customCover.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customCover.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.25179857" vertical-offset="7675" max-vertical-offset="10100">
-                  <caret line="314" column="48" selection-start-line="314" selection-start-column="48" selection-end-line="314" selection-end-column="48" />
+                <state vertical-scroll-proportion="-1.0775623" vertical-offset="2603" max-vertical-offset="3325">
+                  <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -526,13 +526,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customCover.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5498615" vertical-offset="1428" max-vertical-offset="3325">
-          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/domainLogic/superCategoryDirectory/SuperCategory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2877698" vertical-offset="0" max-vertical-offset="1425">
@@ -715,18 +708,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customCover.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0775623" vertical-offset="2603" max-vertical-offset="3325">
+          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/cover.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7625899" vertical-offset="625" max-vertical-offset="2025">
-          <caret line="74" column="7" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
-          <folding />
+        <state vertical-scroll-proportion="0.5755396" vertical-offset="675" max-vertical-offset="2025">
+          <caret line="43" column="68" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
+          <folding>
+            <marker date="1424106630000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424106630000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424106630000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424106630000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424106630000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424106630000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424106630000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424106630000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424106630000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424106630000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424106630000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424106630000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424106630000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424106630000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424106630000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424106630000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25179857" vertical-offset="7675" max-vertical-offset="10100">
-          <caret line="314" column="48" selection-start-line="314" selection-start-column="48" selection-end-line="314" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.68345326" vertical-offset="425" max-vertical-offset="10200">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
           <folding />
         </state>
       </provider>
