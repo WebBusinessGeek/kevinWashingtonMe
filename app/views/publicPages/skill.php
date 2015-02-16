@@ -51,8 +51,8 @@
 
             </div>
             <div class="col-sm-2 col-md-2 col-lg-2 text-center" ng-if="!supercategorySetTo" ng-repeat="supercategory in supercategories"  ng-mouseenter="hover(supercategory)" ng-mouseleave="clearHover()" ng-click="setSupercategory(supercategory)">
-                <span class="ngMessage" ng-if="hovered == supercategory">{{supercategory.title}}</span>
                 <img ng-src="/assets/supercategoryIcons/KWICON{{getImageNameFromTitle(supercategory.title)}}.png">
+                <span class="hoverMessage" ng-if="hovered == supercategory">{{supercategory.title}}</span>
             </div>
 
             <!--
@@ -64,8 +64,8 @@
 
             <div ng-repeat="supercategory in supercategories">
                 <div class="col-sm-2 col-md-2 col-lg-2" ng-repeat="category in supercategory.categories" ng-if="supercategorySetTo == supercategory" ng-click="directorySetCategory(category)"  ng-mouseenter="hover(category)" ng-mouseleave="clearHover()">
-                    <span  class="ngMessage" ng-if="hovered == category">{{category.title}}</span>
                     <img ng-src="/assets/categoryIcons/5050/KWICON{{getImageNameFromTitle(category.title)}}.png">
+                    <span  class="hoverMessage" ng-if="hovered == category">{{category.title}}</span>
                 </div>
             </div>
 

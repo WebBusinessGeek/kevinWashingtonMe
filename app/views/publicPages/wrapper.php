@@ -49,6 +49,8 @@
             background: #44464a;
         }
 
+        .hoverMessage {
+        }
         .btn-text-btn > .glyphicon {
             position:relative;
             top: -2px;
