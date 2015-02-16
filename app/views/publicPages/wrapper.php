@@ -74,6 +74,11 @@
             font-family: 'Arvo', serif;
         }
 
+        .helpText2 {
+            margin-top: -5px;
+            font-family: 'Roboto', sans-serif;
+        }
+
         .propertyName {
             font-family: 'Arvo', serif;
         }
@@ -294,7 +299,7 @@
 
         @media screen and (max-width: 770px)
         {
-            #directorySearch {min-height: 340px;}
+            #directorySearch {min-height: 350px;}
         }
 
 

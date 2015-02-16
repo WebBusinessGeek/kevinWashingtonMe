@@ -30,8 +30,8 @@
           <file leaf-file-name="skill.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/skill.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.1497006" vertical-offset="0" max-vertical-offset="6350">
-                  <caret line="4" column="158" selection-start-line="4" selection-start-column="158" selection-end-line="4" selection-end-column="158" />
+                <state vertical-scroll-proportion="0.74850297" vertical-offset="600" max-vertical-offset="6375">
+                  <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
                   <folding />
                 </state>
               </provider>
@@ -44,8 +44,8 @@
           <file leaf-file-name="wrapper.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.92805755" vertical-offset="6580" max-vertical-offset="9975">
-                  <caret line="289" column="13" selection-start-line="289" selection-start-column="13" selection-end-line="289" selection-end-column="13" />
+                <state vertical-scroll-proportion="0.50359714" vertical-offset="7175" max-vertical-offset="10100">
+                  <caret line="301" column="44" selection-start-line="301" selection-start-column="44" selection-end-line="301" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -668,16 +668,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/skill.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1497006" vertical-offset="0" max-vertical-offset="6350">
-          <caret line="4" column="158" selection-start-line="4" selection-start-column="158" selection-end-line="4" selection-end-column="158" />
+        <state vertical-scroll-proportion="0.74850297" vertical-offset="600" max-vertical-offset="6375">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92805755" vertical-offset="6580" max-vertical-offset="9975">
-          <caret line="289" column="13" selection-start-line="289" selection-start-column="13" selection-end-line="289" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.50359714" vertical-offset="7175" max-vertical-offset="10100">
+          <caret line="301" column="44" selection-start-line="301" selection-start-column="44" selection-end-line="301" selection-end-column="44" />
           <folding />
         </state>
       </provider>
