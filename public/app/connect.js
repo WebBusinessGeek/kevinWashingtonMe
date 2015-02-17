@@ -31,6 +31,9 @@ angular.module('app')
         };
 
 
+        $scope.helperMessage = 'Please give me as much information about the purpose of your contact as possible. ' +
+        'I look forward to hearing from you.'
+
 
     }]);
 

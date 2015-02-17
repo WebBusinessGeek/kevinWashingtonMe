@@ -23,6 +23,21 @@
 
 
 
+    <style>
+        .backgroundNeeded {
+            background: #dadada;
+        }
+
+        .contactSection {
+            margin-top:20px;
+            background: #dadada;
+        }
+
+        #contactForm {
+            margin-top: 20px;
+            background: #dadada;
+        }
+    </style>
 
 </head>
 
