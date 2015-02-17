@@ -30,12 +30,12 @@
 
         .contactSection {
             margin-top:20px;
-            background: #dadada;
+            background: #fff;
         }
 
         #contactForm {
-            margin-top: 20px;
-            background: #dadada;
+            margin-top: 30px;
+            background: #fff;
         }
     </style>
 

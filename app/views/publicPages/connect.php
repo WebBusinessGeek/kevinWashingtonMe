@@ -8,24 +8,24 @@
             <h1 class="text-center">4 Easy Ways to Connect</h1>
         </div>
         <div class="row text-center" id="contactNavList">
-                <div class="col-sm-1 col-md-1 col-lg-1"></div>
-                <div class="contactImage col-sm-2 col-md-2 col-lg-2"><a ng-click="show('form')"><img src="http://placehold.it/150/fff/000/"></a></div>
-                <div class="col-sm-1 col-md-1 col-lg-1"></div>
-                <div class="contactImage col-sm-2 col-md-2 col-lg-2"><a ng-click="show('email')"><img src="http://placehold.it/150/fff/000/"></a></div>
-                <div class="col-sm-1 col-md-1 col-lg-1"></div>
-                <div class="contactImage col-sm-2 col-md-2 col-lg-2"><a ng-click="show('skype')"><img src="http://placehold.it/150/fff/000/"></a></div>
-                <div class="col-sm-1 col-md-1 col-lg-1"></div>
-                <div class="contactImage col-sm-2 col-md-2 col-lg-2"><a ng-click="show('voiceMail')"><img src="http://placehold.it/150/fff/000/"></a></div>
+
+                <div class="contactImage col-sm-3 col-md-3 col-lg-3"><a ng-click="show('form')"><img src="http://placehold.it/150/fff/000/"></a></div>
+
+                <div class="contactImage col-sm-3 col-md-3 col-lg-3"><a ng-click="show('email')"><img src="http://placehold.it/150/fff/000/"></a></div>
+
+                <div class="contactImage col-sm-3 col-md-3 col-lg-3"><a ng-click="show('skype')"><img src="http://placehold.it/150/fff/000/"></a></div>
+
+                <div class="contactImage col-sm-3 col-md-3 col-lg-3"><a ng-click="show('voiceMail')"><img src="http://placehold.it/150/fff/000/"></a></div>
 
         </div>
 
     </div>
 
 
-    <div id="contactForm" class="col-sm-12 col-md-12 col-lg-12 well" ng-if="showing == 'form'">
+    <div id="contactForm" class="col-sm-12 col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1" ng-if="showing == 'form'">
         <div id="contactFormHeader" class="text-center">
-            <h4>Simple Contact Form</h4>
-            <p>A quick way to get in touch with me. When happy with your message just hit send.</p>
+            <h4>Inquiry Form</h4>
+            <p class="bodyText">A quick way to get in touch with me. When happy with your message just hit send.</p>
         </div>
 
         <div id="contactFormInputs" class="col-md-5 well">
@@ -111,26 +111,26 @@
 
 
 
-    <div class="col-md-6 contactSection col-sm-offset-1 text-center" ng-if="showing == 'email'">
+    <div class="col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3  contactSection text-center" ng-if="showing == 'email'">
         <h4>Email Me</h4>
         <img src="http://placehold.it/200x150">
-        <h5>inquiry@kevinwashington.me</h5>
-        <p>{{helperMessage}}</p>
+        <h5>hello@kevinwashington.me</h5>
+        <p class="bodyText">{{helperMessage}}</p>
     </div>
 
 
-    <div class="col-md-6 contactSection col-sm-offset-1 text-center" ng-if="showing == 'skype'">
+    <div class="col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 contactSection text-center" ng-if="showing == 'skype'">
         <h4>Add Me on Skype</h4>
         <img src="http://placehold.it/200x150">
-        <h5>@webbusinessdeveloper</h5>
-        <p class="reminder">{{helperMessage}}</p>
+        <h5>@web_business_developer</h5>
+        <p class="bodyText">{{helperMessage}}</p>
     </div>
 
 
-    <div class="col-md-6 contactSection col-sm-offset-1 text-center" ng-if="showing == 'voiceMail'">
+    <div class="col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 contactSection text-center" ng-if="showing == 'voiceMail'">
         <h4>Leave me a message</h4>
         <img src="http://placehold.it/200x150">
-        <h5>@215-744-7444</h5>
-        <p>{{helperMessage}}</p>
+        <h5>(609)-416-1077</h5>
+        <p class="bodyText">{{helperMessage}}</p>
     </div>
 </div>
