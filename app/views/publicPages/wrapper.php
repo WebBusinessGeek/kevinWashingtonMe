@@ -35,7 +35,16 @@
 
         #contactForm {
             margin-top: 30px;
+            background: #dadada;
+        }
+
+        #contactFormInputs {
             background: #fff;
+        }
+
+        #contactFormPreview {
+            background: #fff;
+            max-height: 485px;
         }
     </style>
 

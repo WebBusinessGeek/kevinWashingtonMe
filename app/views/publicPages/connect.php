@@ -1,7 +1,5 @@
 <div ng-controller="connectController">
-    <div ng-show="message" class="alert alert-info">
-        {{message}}
-    </div>
+
 
     <div id="contactNav" >
         <div class="row" id="contactNavHeader">
@@ -28,8 +26,12 @@
             <p class="bodyText">A quick way to get in touch with me. When happy with your message just hit send.</p>
         </div>
 
+        <div ng-show="message" class="alert alert-info">
+            {{message}} <a ng-click="refresh()">Dismiss</a>
+        </div>
+
         <div id="contactFormInputs" class="col-md-5 well">
-            <form class="form-horizontal">
+            <form class="form-horizontal" name="inquiryForm">
 
 
                 <div class="form-group">
@@ -70,7 +72,7 @@
         <div id="contactFormPreview" class="col-md-6 col-sm-offset-1" >
             <div  style="min-height: 500px;">
 
-                <h3 ng-hide="(inquiryBody || inquiryName || inquiryContactMethod)">Preview your message here.</h3>
+                <h3 class="text-center" ng-hide="(inquiryBody || inquiryName || inquiryContactMethod)">Preview your message here.</h3>
 
                 <div>
                     <h4 ng-show="inquiryBody">My Message: </h4>

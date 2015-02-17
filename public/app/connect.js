@@ -10,6 +10,7 @@ angular.module('app')
             $scope.showing = item;
         };
 
+
         $scope.newInquiry = function(body, name, contactMethod, email, phone) {
 
             var data = {
@@ -19,6 +20,8 @@ angular.module('app')
                 email : email,
                 phone : phone
             };
+
+
 
             $http.post('/api.v1/connect', data).
                 success(function (data, status, headers, config) {
