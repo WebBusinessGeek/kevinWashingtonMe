@@ -30,23 +30,23 @@
             {{message}} <a ng-click="refresh()">Dismiss</a>
         </div>
 
-        <div id="contactFormInputs" class="col-md-5 well">
+        <div id="contactFormInputs" class="col-md-5">
             <form class="form-horizontal" name="inquiryForm">
 
 
                 <div class="form-group">
                     <label for="body" >Help me understand your business objectives, and how I can help:</label>
-                        <textarea name="body" ng-model="inquiryBody" class="form-control" rows="10" cols="30"></textarea>
+                        <textarea name="body" ng-model="inquiryBody" placeholder="{{inquiryBodyPlaceholder}}" class="form-control" rows="10" cols="30"></textarea>
                 </div>
 
                 <div class="form-group">
-                    <label for="name" class="text-center">Enter your name: </label>
-                    <input type="text" ng-model="inquiryName"  class="form-control input-lg" name="name" id="name" placeholder="Name">
+                    <label for="name" class="text-center">Enter your full name: </label>
+                    <input type="text" ng-model="inquiryName"  class="form-control input-lg" name="name" id="name" placeholder="example - Carl Winslow">
 
                 </div>
 
                 <div class="form-group">
-                    <label for="contactMethod" ng-model="inquiryContactMethod" class="text-center">Preferred Contact Method: </label>
+                    <label for="contactMethod" ng-model="inquiryContactMethod" class="text-center">Preferred Contact Method: (select one) </label>
                     <select ng-model="inquiryContactMethod" class="form-control input-lg">
                         <option>Email</option>
                         <option>Phone</option>
@@ -57,12 +57,12 @@
     <!--            ONe of the below groups should be hidden based on previous input value-->
                 <div class="form-group" ng-show="inquiryContactMethod == 'Email'">
                     <label for="email" class="text-center">Enter your email: </label>
-                    <input type="email" ng-model="inquiryEmail" class="form-control input-lg" name="email" id="email" placeholder="Email...">
+                    <input type="email" ng-model="inquiryEmail" class="form-control input-lg" name="email" id="email" placeholder="example - carl@familyMatters.com">
 
                 </div>
                 <div class="form-group" ng-show="inquiryContactMethod == 'Phone'">
                     <label for="phone" class="text-center">Enter your phone: </label>
-                    <input type="text" ng-model="inquiryPhone"  class="form-control input-lg" name="phone" id="phone" placeholder="Phone...">
+                    <input type="text" ng-model="inquiryPhone"  class="form-control input-lg" name="phone" id="phone" placeholder="example - 215-445-0004">
 
                 </div>
 
@@ -73,6 +73,11 @@
             <div  style="min-height: 500px;">
 
                 <h3 class="text-center" ng-hide="(inquiryBody || inquiryName || inquiryContactMethod)">Preview your message here.</h3>
+
+                <div class="text-center" ng-show="(inquiryBody || inquiryName || inquiryContactMethod)">
+                    <h3>Message Preview</h3>
+                    <h4 class="subText">Fill out all info in order to submit the form.</h4>
+                </div>
 
                 <div>
                     <h4 ng-show="inquiryBody">My Message: </h4>
@@ -102,7 +107,7 @@
 
 
                 <div ng-if="(inquiryBody && inquiryName && inquiryContactMethod) && (inquiryEmail || inquiryPhone)">
-                    <button class="btn btn-primary btn-lg center-block" ng-if="inquiryBody" ng-click="newInquiry(inquiryBody, inquiryName, inquiryContactMethod, inquiryEmail, inquiryPhone)">Send my inquiry!</button>
+                    <button class="btn btn-warning btn-lg center-block" ng-if="inquiryBody" ng-click="newInquiry(inquiryBody, inquiryName, inquiryContactMethod, inquiryEmail, inquiryPhone)">Send my inquiry!</button>
                 </div>
             </div>
         </div>

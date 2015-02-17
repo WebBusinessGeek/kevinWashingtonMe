@@ -38,13 +38,24 @@
             background: #dadada;
         }
 
+        #contactFormHeader {
+            border-bottom-style: dotted;
+            border-bottom-width: 1px;
+            border-bottom-color: #44464a;
+            margin-bottom: 15px;
+        }
+
         #contactFormInputs {
-            background: #fff;
+            font-family: 'Roboto', sans-serif;
         }
 
         #contactFormPreview {
             background: #fff;
-            max-height: 485px;
+            max-height: 430px;
+        }
+
+        .subText {
+            font-family: 'Roboto', sans-serif;
         }
     </style>
 
