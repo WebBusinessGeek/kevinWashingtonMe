@@ -24,7 +24,7 @@
         <div id="contactFormHeader" class="text-center">
             <h4>Inquiry Form</h4>
 <!--            <p class="bodyText">A quick way to get in touch with me. When happy with your message just hit send.</p>-->
-            <img src="http://placehold.it/128x128">
+            <img src="/assets/connectIcons/KWICONinquirySmall.png">
 
         </div>
 
@@ -122,7 +122,7 @@
 
     <div class="col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3  contactSection text-center" ng-if="showing == 'email'">
         <h4>Email me</h4>
-        <img src="http://placehold.it/128x128">
+        <img src="/assets/connectIcons/KWICONemailSmall.png">
         <h5>hello@kevinwashington.me</h5>
         <p class="bodyText">{{helperMessage}}</p>
     </div>
@@ -130,7 +130,7 @@
 
     <div class="col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 contactSection text-center" ng-if="showing == 'skype'">
         <h4>Add me on Skype</h4>
-        <img src="http://placehold.it/128x128">
+        <img src="/assets/connectIcons/KWICONskypeSmall.png">
         <h5>@web_business_developer</h5>
         <p class="bodyText">{{helperMessage}}</p>
     </div>
@@ -138,7 +138,7 @@
 
     <div class="col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 contactSection text-center" ng-if="showing == 'voiceMail'">
         <h4>Leave me a Message</h4>
-        <img src="http://placehold.it/128x128">
+        <img src="/assets/connectIcons/KWICONphoneSmall.png">
         <h5>(609) 416-1077</h5>
         <p class="bodyText">{{helperMessage}}</p>
     </div>
