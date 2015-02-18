@@ -46,6 +46,7 @@
             border-bottom-style: dotted;
             border-bottom-width: 1px;
             border-bottom-color: #44464a;
+            padding-bottom: 15px;
             margin-bottom: 15px;
         }
 
@@ -60,12 +61,17 @@
         #contactFormPreview {
             background: #fff;
             max-height: 410px;
-            border: dotted 1px #000;
+            border: dotted 1px #44464a;
             font-family: 'roboto', sans-serif;
         }
 
         .subText {
             font-family: 'Roboto', sans-serif;
+        }
+
+        label {
+            font-family: 'arvo', serif;
+            font-size: 13px;
         }
     </style>
 
