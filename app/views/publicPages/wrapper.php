@@ -39,7 +39,7 @@
 
         #contactForm {
             margin-top: 30px;
-            background: #dadada;
+            background: #fff;
         }
 
         #contactFormHeader {
@@ -51,11 +51,17 @@
 
         #contactFormInputs {
             font-family: 'Roboto', sans-serif;
+            /*border-right-style: dotted;*/
+            /*border-right-width: 1px;*/
+            /*border-right-color: #44464a;*/
+            padding-right: 30px;
         }
 
         #contactFormPreview {
             background: #fff;
-            max-height: 430px;
+            max-height: 410px;
+            border: dotted 1px #000;
+            font-family: 'roboto', sans-serif;
         }
 
         .subText {
