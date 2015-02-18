@@ -41,11 +41,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="customSkill.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customSkill.css">
+          <file leaf-file-name="skill.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/app/skill.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.86149585" vertical-offset="4628" max-vertical-offset="6025">
-                  <caret line="210" column="0" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.31163436" vertical-offset="0" max-vertical-offset="2250">
+                  <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -706,30 +706,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/skill.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31163436" vertical-offset="0" max-vertical-offset="2250">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <marker date="1424286856000" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1424286856000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424286856000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424286856000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424286856000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424286856000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424286856000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424286856000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424286856000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424286856000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424286856000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424286856000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424286856000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424286856000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424286856000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64748204" vertical-offset="0" max-vertical-offset="4725">
@@ -782,8 +758,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customSkill.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86149585" vertical-offset="4628" max-vertical-offset="6025">
-          <caret line="210" column="0" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23822714" vertical-offset="1803" max-vertical-offset="6025">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+          <folding>
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424287147000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/skill.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31163436" vertical-offset="0" max-vertical-offset="2250">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
