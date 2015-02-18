@@ -7,7 +7,7 @@ angular.module('app')
 
         $timeout(function() {
             $scope.loading = false;
-        }, 3500);
+        }, 4000);
         $http.get('/api.v1/skills')
             .success(function(data){
                 $scope.supercategories = data.supercategories;
