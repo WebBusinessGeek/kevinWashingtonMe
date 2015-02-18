@@ -1,8 +1,13 @@
 
 angular.module('app')
 
-    .controller('skillController', ['$scope', '$http', function($scope, $http)
+    .controller('skillController', ['$scope', '$http', '$timeout', function($scope, $http, $timeout)
     {
+        $scope.loading = true;
+
+        $timeout(function() {
+            $scope.loading = false;
+        }, 3000);
         $http.get('/api.v1/skills')
             .success(function(data){
                 $scope.supercategories = data.supercategories;

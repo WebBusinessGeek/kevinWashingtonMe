@@ -1,6 +1,10 @@
 
 <div ng-controller="skillController">
 
+    <img ng-if="loading" src="assets/loading.gif">
+
+
+    <div ng-if="!loading">
     <h1 class="text-center header">Review my skills in 3 quick ways below.</h1><br/>
     <h4 class="text-center subheader"><b class="moduleHelperAlert">How to review my skills:</b> Search for specific skills in the <b class="bolder">search bar</b>, click the icons in <b class="bolder">skills directory</b>, or choose a category in the <b class="bolder">slider</b> below. </h4>
     <br/>
@@ -224,7 +228,7 @@
 
             <div class="col-md-3">
                 <div class="skillShowHeading text-center">
-                   {{skillSetTo.tools.length}} tools I have used for {{skillSetTo.title}}.
+                    {{skillSetTo.tools.length}} tools I have used for {{skillSetTo.title}}.
                 </div>
 
                 <div id="skillToolsSection">
@@ -245,5 +249,7 @@
     <!--
     ******************************************/END SKILL SHOW SECTION *************************************************************
     -->
+    </div>
+
 
 </div>
