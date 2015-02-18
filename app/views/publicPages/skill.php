@@ -176,7 +176,8 @@
                 <div class="carousel-inner ">
 
                     <div class="item active">
-                        <div class="col-md-6 col-lg-offset-3"><a href="#"><img src="http://placehold.it/800/bbbbbb/" class="img-responsive">Need something here.</a></div>
+                        <div class="col-md-6 col-lg-offset-3">
+                            <a href="#"><img src="/assets/categoryCarouselImages/KWIMAGEdirection.png" class="img-responsive"></a></div>
                     </div>
 
                     <div ng-repeat="category in categories" class="item" ng-click="carouselSetCategory(category)">
