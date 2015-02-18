@@ -1,7 +1,9 @@
 
 <div ng-controller="skillController">
 
-    <img ng-if="loading" src="assets/loading.gif">
+    <div class="col-sm-12 col-md-12 col-lg-12 text-center" ng-if="loading" >
+        <img class="loader" src="assets/loading.gif">
+    </div>
 
 
     <div ng-if="!loading">
