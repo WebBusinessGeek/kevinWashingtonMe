@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" ng-app="app">
 <head>
@@ -77,10 +76,8 @@
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
     ga('create', 'UA-59821417-1', 'auto');
     ga('send', 'pageview');
-
 </script>
 
 <a title="Web Statistics" href="http://clicky.com/100818102"><img alt="Web Statistics" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>

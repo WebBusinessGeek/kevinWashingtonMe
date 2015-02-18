@@ -1,7 +1,9 @@
-
 body{
-    background: transparent url('http://lorempixel.com/1500/800/business/');
-    /*background-size: cover;*/
+    background: transparent url('/assets/KWIMAGEbackgroundImage.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* Video content styling */
