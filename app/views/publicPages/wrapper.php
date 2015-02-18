@@ -28,6 +28,10 @@
             background: #dadada;
         }
 
+        .contactImage:hover {
+            cursor: pointer;
+        }
+
         .contactSection {
             margin-top:20px;
             background: #fff;

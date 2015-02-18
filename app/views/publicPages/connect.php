@@ -7,13 +7,13 @@
         </div>
         <div class="row text-center" id="contactNavList">
 
-                <div class="contactImage col-sm-3 col-md-3 col-lg-3"><a ng-click="show('form')"><img src="http://placehold.it/150/fff/000/"></a></div>
+                <div class="contactImage col-sm-3 col-md-3 col-lg-3"><a ng-click="show('form')"><img src="/assets/connectIcons/KWICONinquiry.png"></a></div>
 
-                <div class="contactImage col-sm-3 col-md-3 col-lg-3"><a ng-click="show('email')"><img src="http://placehold.it/150/fff/000/"></a></div>
+                <div class="contactImage col-sm-3 col-md-3 col-lg-3"><a ng-click="show('email')"><img src="/assets/connectIcons/KWICONemail.png"></a></div>
 
-                <div class="contactImage col-sm-3 col-md-3 col-lg-3"><a ng-click="show('skype')"><img src="http://placehold.it/150/fff/000/"></a></div>
+                <div class="contactImage col-sm-3 col-md-3 col-lg-3"><a ng-click="show('skype')"><img src="/assets/connectIcons/KWICONskype.png"></a></div>
 
-                <div class="contactImage col-sm-3 col-md-3 col-lg-3"><a ng-click="show('voiceMail')"><img src="http://placehold.it/150/fff/000/"></a></div>
+                <div class="contactImage col-sm-3 col-md-3 col-lg-3"><a ng-click="show('voiceMail')"><img src="/assets/connectIcons/KWICONphone.png"></a></div>
 
         </div>
 
