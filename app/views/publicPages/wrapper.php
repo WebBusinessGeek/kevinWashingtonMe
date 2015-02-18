@@ -73,6 +73,10 @@
             font-family: 'arvo', serif;
             font-size: 13px;
         }
+
+        .imageContainer:hover {
+            background:#dadada;
+        }
     </style>
 
 </head>
