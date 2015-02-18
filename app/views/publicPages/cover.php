@@ -80,7 +80,6 @@
     ga('send', 'pageview');
 </script>
 
-<a title="Web Statistics" href="http://clicky.com/100818102"><img alt="Web Statistics" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
 <script src="//static.getclicky.com/js" type="text/javascript"></script>
 <script type="text/javascript">try{ clicky.init(100818102); }catch(e){}</script>
 
