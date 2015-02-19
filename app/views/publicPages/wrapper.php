@@ -43,25 +43,22 @@
         }
 
         #contactFormHeader {
-            border-bottom-style: dotted;
+            border-bottom-style: solid;
             border-bottom-width: 1px;
-            border-bottom-color: #44464a;
+            border-bottom-color: #dadada;
             padding-bottom: 15px;
             margin-bottom: 15px;
         }
 
         #contactFormInputs {
             font-family: 'Roboto', sans-serif;
-            /*border-right-style: dotted;*/
-            /*border-right-width: 1px;*/
-            /*border-right-color: #44464a;*/
             padding-right: 30px;
         }
 
         #contactFormPreview {
             background: #fff;
             max-height: 410px;
-            border: dotted 1px #44464a;
+            border: solid 1px #dadada;
             font-family: 'roboto', sans-serif;
         }
 
