@@ -145,38 +145,11 @@
     <script src="app/skill.js"></script>
     <script src="app/experience.js"></script>
     <script src="app/connect.js"></script>
+    <script src="app/skillJquery.js"></script>
+    <script src="/angular-bootstrap/bootstrap-twit/js/bootstrap.min.js"></script>
 
-<script type="text/javascript">
-    $( document ).ready(function() {
 
-        //start timeout function
-        setTimeout(function()
-        {
-            $('#myCarousel').carousel({
-                interval: 2500
-            });
-
-            $('.carousel .item').each(function(){
-                var next = $(this).next();
-                if (!next.length) {
-                    next = $(this).siblings(':first');
-                }
-                next.children(':first-child').clone().appendTo($(this));
-
-                if (next.next().length>0) {
-                    next.next().children(':first-child').clone().appendTo($(this));
-                }
-                else {
-                    $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-                }
-            });
-        }, 4200);
-
-    });
-
-/*fix*/
-
-</script>
+<!-- Analytic scripts -->
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -185,14 +158,10 @@
 
     ga('create', 'UA-59821417-1', 'auto');
     ga('send', 'pageview');
-
 </script>
-
-<script src="/angular-bootstrap/bootstrap-twit/js/bootstrap.min.js"></script>
-
-
 <script src="//static.getclicky.com/js" type="text/javascript"></script>
 <script type="text/javascript">try{ clicky.init(100818102); }catch(e){}</script>
+<!-- /Analytic scripts -->
 
 </body>
 </html>
