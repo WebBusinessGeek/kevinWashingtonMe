@@ -28,8 +28,8 @@
       <file leaf-file-name="skill.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/publicPages/skill.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8230216" vertical-offset="5478" max-vertical-offset="6675">
-              <caret line="242" column="64" selection-start-line="242" selection-start-column="64" selection-end-line="242" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.8561151" vertical-offset="5230" max-vertical-offset="6775">
+              <caret line="233" column="146" selection-start-line="233" selection-start-column="146" selection-end-line="233" selection-end-column="149" />
               <folding />
             </state>
           </provider>
@@ -658,8 +658,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/skill.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8230216" vertical-offset="5478" max-vertical-offset="6675">
-          <caret line="242" column="64" selection-start-line="242" selection-start-column="64" selection-end-line="242" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.8561151" vertical-offset="5230" max-vertical-offset="6775">
+          <caret line="233" column="146" selection-start-line="233" selection-start-column="146" selection-end-line="233" selection-end-column="149" />
           <folding />
         </state>
       </provider>

@@ -147,8 +147,10 @@
                                 <a class="btn btn-primary btn-text-btn pull-right">View tools</a>
                             </div>
                             <div class="col-md-7 col-md-offset-2">
-                                <p class="propertyName">Thinking out loud: <span class="propertyValue">{{skill.article | limitTo:92}}. . .</span></p>
-                                <a class="btn btn-primary btn-text-btn pull-right">View more</a>
+                                <div ng-if="skill.article.length > 1">
+                                    <p class="propertyName">Thinking out loud: <span class="propertyValue">{{skill.article | limitTo:92}}. . .</span></p>
+                                    <a class="btn btn-primary btn-text-btn pull-right">View more</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -228,7 +230,9 @@
                     <div id="skillArticle" class="text-center">
                         <h4>{{skillSetTo.title}}</h4>
                         <img ng-src="/assets/categoryIcons/8080/KWICON{{getImageNameFromTitle(skillSetTo.category.title)}}.png">
-                        <p class="bodyText">{{skillSetTo.article}}</p>
+                        <p ng-if='skillSetTo.article.length > 1' class="bodyText">{{skillSetTo.article}}</p>
+                        <p ng-if='skillSetTo.article.length < 1' class="bodyText">Haven't been inspired to think out loud on {{skillSetTo.title}} yet. Please check back another time.</p>
+
                     </div>
                 </div>
 
