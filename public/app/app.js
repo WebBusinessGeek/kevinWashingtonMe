@@ -1,5 +1,6 @@
 
-var app = angular.module('app',  []);
+var app = angular.module('app', []);
+
 
 app.directive('tooltip', function()
 {

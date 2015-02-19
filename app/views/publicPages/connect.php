@@ -7,13 +7,13 @@
         </div>
         <div class="row text-center" id="contactNavList">
 
-                <div class="imageContainer col-sm-3 col-md-3 col-lg-3"><a ng-click="show('form')"><img class="contactImage" src="/assets/connectIcons/KWICONinquiry.png"></a></div>
+                <div class="imageContainer col-sm-3 col-md-3 col-lg-3" ng-class="{'activeImage': showing == 'form' }"><a ng-click="show('form')"><img class="contactImage" src="/assets/connectIcons/KWICONinquiry.png"></a></div>
 
-                <div class="imageContainer col-sm-3 col-md-3 col-lg-3"><a ng-click="show('email')"><img class="contactImage" src="/assets/connectIcons/KWICONemail.png"></a></div>
+                <div class="imageContainer col-sm-3 col-md-3 col-lg-3" ng-class="{'activeImage': showing == 'email' }"><a ng-click="show('email')"><img class="contactImage" src="/assets/connectIcons/KWICONemail.png"></a></div>
 
-                <div class="imageContainer col-sm-3 col-md-3 col-lg-3"><a ng-click="show('skype')"><img class="contactImage" src="/assets/connectIcons/KWICONskype.png"></a></div>
+                <div class="imageContainer col-sm-3 col-md-3 col-lg-3" ng-class="{'activeImage': showing == 'skype' }"><a ng-click="show('skype')"><img class="contactImage" src="/assets/connectIcons/KWICONskype.png"></a></div>
 
-                <div class="imageContainer col-sm-3 col-md-3 col-lg-3"><a ng-click="show('voiceMail')"><img class="contactImage" src="/assets/connectIcons/KWICONphone.png"></a></div>
+                <div class="imageContainer col-sm-3 col-md-3 col-lg-3" ng-class="{'activeImage': showing == 'voiceMail' }"><a ng-click="show('voiceMail')"><img class="contactImage" src="/assets/connectIcons/KWICONphone.png"></a></div>
 
         </div>
 

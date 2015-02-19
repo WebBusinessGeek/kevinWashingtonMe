@@ -78,6 +78,14 @@
             background:#dadada;
         }
 
+        .activeImage {
+            background:#808387;
+        }
+
+        .activeImage:hover {
+            background:#808387;
+        }
+
     </style>
 
 </head>
@@ -116,6 +124,7 @@
 
 
 <div class="container">
+
 
 <?php
     if(isset($content))
