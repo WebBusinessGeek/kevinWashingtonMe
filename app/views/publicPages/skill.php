@@ -75,7 +75,7 @@
 
                 <div ng-repeat="supercategory in supercategories">
                     <div class="col-sm-2 col-md-2 col-lg-2" ng-repeat="category in supercategory.categories" ng-if="supercategorySetTo == supercategory" ng-click="directorySetCategory(category)">
-                        <img tooltip title="{{category.title}}" data-toggle="tooltip" ng-src="/assets/categoryIcons/5050/KWICON{{getImageNameFromTitle(category.title)}}.png">
+                        <img tooltip title="{{category.title}}" data-toggle="tooltip" ng-src="/assets/categoryIcons/5050/KWICON{{getImageNameFromTitle(category.title)}}.png"  ng-class="{'activeIcon': categorySetTo == category}">
                     </div>
                 </div>
 

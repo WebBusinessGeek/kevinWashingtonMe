@@ -15,15 +15,7 @@ angular.module('app')
                 $scope.skills = data.skills;
             });
 
-        $scope.hover = function(item)
-        {
-            $scope.hovered = item;
-        };
 
-        $scope.clearHover = function()
-        {
-            $scope.hovered = null;
-        };
 
         $scope.setSupercategory = function(item)
         {

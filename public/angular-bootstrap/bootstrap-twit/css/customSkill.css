@@ -39,6 +39,7 @@
 
 .helpText {
     font-family: 'Arvo', serif;
+   
 }
 
 .helpText2 {
@@ -208,6 +209,12 @@
     color: red;
 }
 
+
+.activeIcon {
+    padding: 2px;
+    border-radius: 10px;
+    background:#44464a;
+}
 
 
 @media screen and (max-width: 1400px)
