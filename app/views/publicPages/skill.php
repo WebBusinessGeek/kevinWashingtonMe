@@ -240,7 +240,7 @@
                     <div id="skillToolsSection">
                         <div class="skillTool text-center" ng-repeat="tool in skillSetTo.tools">
                             <h4 class="skillToolHeading">{{tool.title}}</h4>
-                            <img src="http://placehold.it/80/#555555">
+                            <img src="/assets/KWICONdefaultTool.png">
                         </div>
                     </div>
                 </div>
