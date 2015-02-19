@@ -4,8 +4,8 @@
 
 
     <div class="col-sm-12 col-md-12 col-lg-12 text-center" ng-if="loading" >
-        <img class="loader" src="/assets/preloader.gif"><img class="loader" src="/assets/preloader.gif"><img class="loader" src="/assets/preloader.gif">
-        <img class="loader" src="/assets/preloader.gif"><img class="loader" src="/assets/preloader.gif">
+        <img class="loader" src="/assets/preLoader.gif"><img class="loader" src="/assets/preLoader.gif"><img class="loader" src="/assets/preLoader.gif">
+        <img class="loader" src="/assets/preLoader.gif"><img class="loader" src="/assets/preLoader.gif">
     </div>
 
 
