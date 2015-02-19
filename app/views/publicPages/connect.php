@@ -28,7 +28,7 @@
 
         </div>
 
-        <div ng-show="message" class="alert alert-info">
+        <div ng-show="message" class="alert alert-warning">
             {{message}} <a href="/">Dismiss</a>
         </div>
 
