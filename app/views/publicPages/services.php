@@ -88,7 +88,12 @@
 
     <!--service section-->
     <div ng-if="revealServices" class="row text-center">
-        <p>Services section</p>
+        <div ng-if="servicesSetTo == 'product'">
+            <p>product services section</p>
+        </div>
+        <div ng-if="servicesSetTo == 'customers'">
+             <p>customer services section</p>
+        </div>
     </div>
 
 </div>
