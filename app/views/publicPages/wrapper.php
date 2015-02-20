@@ -88,6 +88,28 @@
             background: #000;
         }
 
+        .triangle {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 6.9px 4px 0 4px;
+            border-color: #ffffff transparent transparent transparent;
+        }
+
+        #skillsTriangle{
+            position:relative;
+            left: 30px;
+        }
+
+        #experiencesTriangle{
+            position:relative;
+            left: 60px;
+        }
+
+        #connectTriangle{
+            position: relative;
+            left: 45px;
+        }
     </style>
 
 </head>
@@ -109,9 +131,9 @@
     </div>
     <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-            <li><a class="navLinks" href="/skills">Skills </a></li>
-            <li><a class="navLinks" href="/experiences">Experiences</a></li>
-            <li><a class="navLinks" href="/connect">Connect</a></li>
+            <li><a class="navLinks" href="/skills"><span id="skillsTriangle" ng-show="currentUrl == 'skills'" class="triangle"></span>Skills</a></li>
+            <li><a class="navLinks" href="/experiences"><span id="experiencesTriangle" ng-show="currentUrl == 'experiences'" class="triangle"></span>Experiences</a></li>
+            <li><a class="navLinks" href="/connect"><span id="connectTriangle" ng-show="currentUrl == 'connect'" class="triangle"></span>Connect</a></li>
         </ul>
     </div>
 </nav>
@@ -127,7 +149,7 @@
 
 <div class="container">
 
-currentUrl = {{currentUrl}}
+
 <?php
     if(isset($content))
     {
