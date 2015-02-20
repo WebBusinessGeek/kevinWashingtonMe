@@ -22,7 +22,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 
-
     <style>
         .backgroundNeeded {
             background: #dadada;
@@ -84,32 +83,31 @@
         }
 
         .activeNavLink {
-
-            background: #000;
+            text-decoration: underline;
         }
 
-        .triangle {
-            width: 0;
-            height: 0;
-            border-style: solid;
-            border-width: 6.9px 4px 0 4px;
-            border-color: #ffffff transparent transparent transparent;
-        }
+        /*.triangle {*/
+            /*width: 0;*/
+            /*height: 0;*/
+            /*border-style: solid;*/
+            /*border-width: 6.9px 4px 0 4px;*/
+            /*border-color: #ffffff transparent transparent transparent;*/
+        /*}*/
 
-        #skillsTriangle{
-            position:relative;
-            left: 30px;
-        }
+        /*#skillsTriangle{*/
+            /*position:relative;*/
+            /*left: 30px;*/
+        /*}*/
 
-        #experiencesTriangle{
-            position:relative;
-            left: 60px;
-        }
+        /*#experiencesTriangle{*/
+            /*position:relative;*/
+            /*left: 60px;*/
+        /*}*/
 
-        #connectTriangle{
-            position: relative;
-            left: 45px;
-        }
+        /*#connectTriangle{*/
+            /*position: relative;*/
+            /*left: 45px;*/
+        /*}*/
     </style>
 
 </head>
@@ -131,9 +129,9 @@
     </div>
     <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-            <li><a class="navLinks" href="/skills"><span id="skillsTriangle" ng-if="currentUrl == 'skills'" class="triangle"></span>Skills</a></li>
-            <li><a class="navLinks" href="/experiences"><span id="experiencesTriangle" ng-if="currentUrl == 'experiences'" class="triangle"></span>Experiences</a></li>
-            <li><a class="navLinks" href="/connect"><span id="connectTriangle" ng-if="currentUrl == 'connect'" class="triangle"></span>Connect</a></li>
+            <li><a ng-class="{'activeNavLink': currentUrl== 'skills'}" class="navLinks" href="/skills">Skills</a></li>
+            <li><a ng-class="{'activeNavLink': currentUrl== 'experiences'}" class="navLinks" href="/experiences">Experiences</a></li>
+            <li><a ng-class="{'activeNavLink': currentUrl== 'connect'}" class="navLinks" href="/connect">Connect</a></li>
         </ul>
     </div>
 </nav>
