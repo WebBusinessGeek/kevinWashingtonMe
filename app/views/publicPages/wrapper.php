@@ -83,6 +83,11 @@
             background:#808387;
         }
 
+        .activeNavLink {
+
+            background: #000;
+        }
+
     </style>
 
 </head>
@@ -104,7 +109,7 @@
     </div>
     <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-            <li><a class="navLinks" href="/skills">Skills</a></li>
+            <li><a class="navLinks" href="/skills">Skills </a></li>
             <li><a class="navLinks" href="/experiences">Experiences</a></li>
             <li><a class="navLinks" href="/connect">Connect</a></li>
         </ul>
@@ -122,7 +127,7 @@
 
 <div class="container">
 
-
+currentUrl = {{currentUrl}}
 <?php
     if(isset($content))
     {

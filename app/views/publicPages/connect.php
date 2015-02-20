@@ -22,7 +22,7 @@
 
     <div id="contactForm" class="col-sm-12 col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1" ng-if="showing == 'form'">
         <div id="contactFormHeader" class="text-center">
-            <h4>Inquiry Form</h4>
+            <h4>Fill out this short Form</h4>
 <!--            <p class="bodyText">A quick way to get in touch with me. When happy with your message just hit send.</p>-->
             <img src="/assets/connectIcons/KWICONinquirySmall.png">
 
@@ -121,7 +121,7 @@
 
 
     <div class="col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3  contactSection text-center" ng-if="showing == 'email'">
-        <h4>Email me</h4>
+        <h4>Send me an Email</h4>
         <img src="/assets/connectIcons/KWICONemailSmall.png">
         <h5>hello@kevinwashington.me</h5>
         <p class="bodyText">{{helperMessage}}</p>

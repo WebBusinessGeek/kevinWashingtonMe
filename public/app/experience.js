@@ -2,6 +2,8 @@
 angular.module('app')
     .controller('experienceController',['$scope', '$http',function($scope, $http)
     {
+        $scope.$parent.currentUrl = 'experiences';
+
         $http.get('/api.v1/experiences')
             .success(function(data){
                 $scope.experiences = data.experiences;

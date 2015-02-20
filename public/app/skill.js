@@ -3,6 +3,8 @@ angular.module('app')
 
     .controller('skillController', ['$scope', '$http', '$timeout', function($scope, $http, $timeout)
     {
+        $scope.$parent.currentUrl = 'skills';
+
         $scope.loading = true;
 
         $timeout(function() {

@@ -2,6 +2,7 @@
 angular.module('app')
     .controller('connectController',['$scope', '$http', function($scope, $http)
     {
+        $scope.$parent.currentUrl = 'connect';
 
         $scope.showing = 'form';
 
