@@ -86,6 +86,19 @@
             text-decoration: underline;
         }
 
+        .navLinks:link{
+            color:#000;
+        }
+        .navLinks:active{
+            color:#000;
+        }
+        .navLinks:visited{
+            color:#fff;
+        }
+        .navLinks:hover{
+            color:#000;
+        }
+
         /*.triangle {*/
             /*width: 0;*/
             /*height: 0;*/
