@@ -57,8 +57,8 @@
                 <div class="col-lg-12">
                     <br/><br/><br/><br/>
                     <h1 class="headline">hello, I'm kevin.</h1>
-                    <p class="subheadline">I'm a Web developer & Customer acquisition specialist.</p>
-<!--                    <p class="subheadline">I help businesses build products & acquire customers.</p>-->
+<!--                    <p class="subheadline">I'm a Web developer & Customer acquisition specialist.</p>-->
+                    <p class="subheadline">I help businesses create innovative products & generate traction.</p>
 
 
 <!--                    <a href="/skills" class="btn btn-warning btn-huge-cta ">Review my skills</a>-->
