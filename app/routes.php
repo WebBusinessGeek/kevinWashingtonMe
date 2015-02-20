@@ -27,6 +27,9 @@ Route::group(array(),function()
     Route::get('/skills', 'PublicPagesController@viewSkills');
     Route::get('/experiences', 'PublicPagesController@viewExperiences');
     Route::get('/connect', 'PublicPagesController@viewConnect');
+    Route::get('/services', 'PublicPagesController@viewServices');
+
+
 });
 
 //routes for angularjs/ajax calls

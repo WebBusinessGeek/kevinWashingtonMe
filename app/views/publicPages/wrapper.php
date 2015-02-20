@@ -143,7 +143,8 @@
     <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
             <li><a ng-class="{'activeNavLink': currentUrl== 'skills'}" class="navLinks" href="/skills">Skills</a></li>
-            <li><a ng-class="{'activeNavLink': currentUrl== 'experiences'}" class="navLinks" href="/experiences">Experiences</a></li>
+            <li><a ng-class="{'activeNavLink': currentUrl== 'services'}" class="navLinks" href="/services">Services</a></li>
+<!--            <li><a ng-class="{'activeNavLink': currentUrl== 'experiences'}" class="navLinks" href="/experiences">Experiences</a></li>-->
             <li><a ng-class="{'activeNavLink': currentUrl== 'connect'}" class="navLinks" href="/connect">Connect</a></li>
         </ul>
     </div>
@@ -180,6 +181,7 @@
     <script src="app/skill.js"></script>
     <script src="app/experience.js"></script>
     <script src="app/connect.js"></script>
+    <script src="app/services.js"></script>
     <script src="app/skillJquery.js"></script>
     <script src="/angular-bootstrap/bootstrap-twit/js/bootstrap.min.js"></script>
 

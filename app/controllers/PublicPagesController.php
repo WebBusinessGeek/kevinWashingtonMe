@@ -159,6 +159,16 @@ class PublicPagesController extends \BaseController {
 
 
 
+	/***********************************************************************************************************/
+	/*                                          Services page                           		                    */
+	/***********************************************************************************************************/
+
+
+	public function viewServices()
+	{
+		$view = View::make('publicPages.services');
+		$this->layout->content = $view->render();
+	}
 }
 
 

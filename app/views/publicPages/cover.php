@@ -46,7 +46,8 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="navLinks" href="/skills">Skills</a></li>
-                    <li><a class="navLinks" href="/experiences">Experiences</a></li>
+                    <li><a class="navLinks" href="/services">Services</a></li>
+<!--                    <li><a class="navLinks" href="/experiences">Experiences</a></li>-->
                     <li><a class="navLinks" href="/connect">Connect</a></li>
                 </ul>
             </div>
@@ -57,22 +58,9 @@
                 <div class="col-lg-12">
                     <br/><br/><br/><br/>
                     <h1 class="headline">hello, I'm kevin.</h1>
-<!--                    <p class="subheadline">I'm a Web developer & Customer acquisition specialist.</p>-->
-<!--                    <p class="subheadline">I help businesses create innovative products & grow their user base.</p>-->
-                    <p class="subheadline">I create innovative products, generate initial traction & grow user bases.</p>
 
-                    <!--                    <p class="subheadline">I help businesses create innovative products & gain traction.</p>-->
-<!--                    <p class="subheadline">I help businesses create innovative products & generate traction.</p>-->
-<!--                    <p class="subheadline">I help businesses create innovative products & acquire users.</p>-->
-<!--                    <p class="subheadline">I help businesses create innovative products & win users.</p>-->
-<!--                    <p class="subheadline">I help businesses create innovative products & acquire customers.</p>-->
-<!--                    <p class="subheadline">I help businesses create innovative products & win customers.</p>-->
-
-
-
-
-
-
+                    <p class="subheadline">I collaborate to create innovative products and grow user bases.</p>
+                    
                     <!--                    <a href="/skills" class="btn btn-warning btn-huge-cta ">Let's Work Together</a>-->
 
                 </div>
