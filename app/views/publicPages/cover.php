@@ -59,7 +59,7 @@
                     <h1 class="headline">hello, I'm kevin.</h1>
 <!--                    <p class="subheadline">I'm a Web developer & Customer acquisition specialist.</p>-->
 <!--                    <p class="subheadline">I help businesses create innovative products & grow their user base.</p>-->
-                    <p class="subheadline">I create innovative products, generate initial traction, & grow user bases.</p>
+                    <p class="subheadline">I create innovative products, generate initial traction & grow user bases.</p>
 
                     <!--                    <p class="subheadline">I help businesses create innovative products & gain traction.</p>-->
 <!--                    <p class="subheadline">I help businesses create innovative products & generate traction.</p>-->
