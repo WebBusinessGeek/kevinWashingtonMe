@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kevin Washington | Developing Products & Gaining Traction. </title>
+    <title>Kevin Washington | Web Developer & Customer Acquisition Specialist. </title>
 
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap.min.css" rel="stylesheet">
@@ -57,11 +57,15 @@
                 <div class="col-lg-12">
                     <br/><br/><br/><br/>
                     <h1 class="headline">hello, I'm kevin.</h1>
-                    <p class="subheadline">I create products, develop strategies, and optimize processes.</p>
-                    <a href="/skills" class="btn btn-warning btn-huge-cta ">Skills I use to do it</a>
-                    <div>
-                        <img class="cta-image element-to-move" src="/assets/ctaArrow.png">
-                    </div>
+                    <p class="subheadline">I'm a Web developer & Customer acquisition specialist.</p>
+<!--                    <p class="subheadline">I help businesses build products & acquire customers.</p>-->
+
+
+<!--                    <a href="/skills" class="btn btn-warning btn-huge-cta ">Review my skills</a>-->
+
+<!--                    <div>-->
+<!--                        <img class="cta-image element-to-move" src="/assets/ctaArrow.png">-->
+<!--                    </div>-->
                 </div>
             </div>
         </div>
