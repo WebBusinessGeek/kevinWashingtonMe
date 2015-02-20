@@ -5,12 +5,12 @@
         <div class="col-lg-2"></div>
 
         <div class="col-sm-12 col-md-12 col-lg-4">
-            <button class="btn btn-warning btn-lg" ng-click="showServices('product')">+ Building my Product</button>
+            <button class="btn btn-warning btn-lg" ng-click="setServices('product')">+ Building my Product</button>
         </div>
         <div class="col-sm-12 col-md-1 col-lg-2"></div>
 
         <div class="col-sm-12 col-md-12 col-lg-4">
-            <button class="btn btn-warning btn-lg" ng-click="showServices('customers')">+ Getting more Customers</button>
+            <button class="btn btn-warning btn-lg" ng-click="setServices('customers')">+ Getting more Customers</button>
         </div>
 
     </div>
@@ -26,7 +26,7 @@
 
 
     <!--question section -->
-    <div ng-if="revealQuestions" class="row text-center">
+    <div ng-if="revealQuestions && !revealServices" class="row text-center">
        <!--product questions-->
         <div ng-if="servicesSetTo == 'product'">
             <div ng-if="!answered">
@@ -62,6 +62,26 @@
                 <p>customer question 3</p>
                 <button class="btn btn-warning btn-lg" ng-click="answerYes(3)">answer question 3 yes</button>
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(3)">answer question 3 no</button>
+            </div>
+        </div>
+
+        <!--results to questions-->
+        <div ng-if="answered == 3">
+            <div ng-if="yesCounter == 0">
+                <p>This will be a warning message that we may be incompatible.</p>
+                <button class="btn btn-warning btn-lg" ng-click="showServices()">See services anyway</button>
+            </div>
+            <div ng-if="yesCounter == 1">
+                <p>This will be a message that we are a bit different but thats ok.</p>
+                <button class="btn btn-warning btn-lg" ng-click="showServices()">View services</button>
+            </div>
+            <div ng-if="yesCounter == 2">
+                <p>This will be a message that we could be a good team</p>
+                <button class="btn btn-warning btn-lg" ng-click="showServices()">Check out my services</button>
+            </div>
+            <div ng-if="yesCounter == 3">
+                <p>This will be a message that we should work really well together.</p>
+                <button class="btn btn-warning btn-lg" ng-click="showServices()">Look forward to working with you</button>
             </div>
         </div>
     </div>

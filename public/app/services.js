@@ -6,7 +6,10 @@ angular.module('app')
 
         $scope.servicesSetTo = '';
 
-        $scope.showServices = function(value)
+        $scope.yesCounter = 0;
+        $scope.noCounter = 0;
+
+        $scope.setServices = function(value)
         {
             $scope.servicesSetTo = value;
         };
@@ -33,6 +36,10 @@ angular.module('app')
             $scope.noCounter++;
         };
 
+        $scope.showServices = function()
+        {
+            $scope.revealServices = true;
+        }
 
 
 
