@@ -39,8 +39,12 @@ angular.module('app')
         $scope.showServices = function()
         {
             $scope.revealServices = true;
-        }
+        };
 
+        $scope.walkOut = function()
+        {
+            $scope.walk = true;
+        }
 
 
     }]);

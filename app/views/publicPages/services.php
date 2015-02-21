@@ -87,12 +87,42 @@
     </div>
 
     <!--service section-->
-    <div ng-if="revealServices" class="row text-center">
-        <div ng-if="servicesSetTo == 'product'">
-            <p>product services section</p>
+    <div ng-if="revealServices && !walk">
+        <div class="row text-center">
+            <div ng-if="servicesSetTo == 'product'">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <p>Consulting/Coaching service - product</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <p>Full Management - product</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <p>Collaborative/Custom - product</p>
+                </div>
+            </div>
+            <div ng-if="servicesSetTo == 'customers'">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <p>Consulting/Coaching service - customer</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <p>Full Management - customer</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <p>Collaborative/Custom - customer</p>
+                </div>
+            </div>
         </div>
-        <div ng-if="servicesSetTo == 'customers'">
-             <p>customer services section</p>
+        <!--services cta section-->
+       <div class="row text-center">
+           <a href="/connect" class="btn btn-warning btn-lg">Let's talk more</a>
+           <a ng-click="walkOut()">No thanks, I don't need these services.</a>
+       </div>
+
+    </div>
+
+    <div ng-if="walk">
+        <div class="row text-center">
+            <p>Walk out section</p>
         </div>
     </div>
 
