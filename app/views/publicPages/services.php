@@ -122,7 +122,18 @@
 
     <div ng-if="walk">
         <div class="row text-center">
-            <p>Walk out section</p>
+            <div>
+                <h4>Hey, Wait!</h4>
+                <p>Sorry we couldn’t work together, I wish you luck anyway. Before you leave could let me know anyone you know who <em>would</em> benefit from these services? Or maybe someone you know who would be interested in free coding or marketing training, <em>yourself included</em>.</p>
+            </div>
+            <div>
+                <p>
+                    1.
+                    <input class="form-control input-lg" type="text">
+                    <input class="form-control input-lg" type="text">
+                </p>
+            </div>
+
         </div>
     </div>
 

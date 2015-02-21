@@ -59,7 +59,7 @@
                     <br/><br/><br/><br/>
                     <h1 class="headline">hello, I'm kevin.</h1>
 
-                    <p class="subheadline">I collaborate to create innovative products and grow user bases.</p>
+                    <p class="subheadline">I enjoy creating innovative products and growing customer bases.</p>
 
                     <!--                    <a href="/skills" class="btn btn-warning btn-huge-cta ">Let's Work Together</a>-->
 
