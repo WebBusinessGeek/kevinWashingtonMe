@@ -13,7 +13,7 @@
     <div ng-show="!loading">
 
         <h1 class="text-center header">Review my skills in 3 quick ways below.</h1><br/>
-        <h4 class="text-center subheader"><b class="moduleHelperAlert">How to review my skills:</b> Search for specific skills in the <b class="bolder">search bar</b>, click the icons in <b class="bolder">skills directory</b>, or choose a category in the <b class="bolder">slider</b> below. </h4>
+        <h4 class="text-center subheader"><b class="moduleHelperAlert">How to review my skills:</b> Search for specific skills in the <b class="bolder">Skill Finder</b>, click the icons in <b class="bolder">Skill Directory</b>, or choose a category in the <b class="bolder">Skill Slider</b> below. </h4>
         <br/>
 
 
@@ -33,7 +33,7 @@
             <div id="textSearch" class="col-sm-12 col-md-12 col-lg-4">
 
                 <div id="textSearchText">
-                    <h4>Search a specific skill.</h4>
+                    <h4>Skill Finder</h4>
                 </div>
                 <div id="textSearchBar">
                     <input type="text" ng-model="textQuery" ng-keypress="clearSupercategory()" class="form-control input-lg input-super" placeholder="Start typing...">
@@ -52,8 +52,8 @@
             -->
             <div id="directorySearch" class="col-sm-12 col-md-12 col-lg-4 text-center">
                 <div id="categorySearchHeading" ng-if="!supercategorySetTo">
-                    <h4>Skills Directory</h4>
-                    <p class="helpText2">(Start by clicking icons.)</p>
+                    <h4>Skill Directory</h4>
+                    <p class="helpText2">(Start by clicking icons)</p>
                 </div>
 
                 <!--
@@ -175,7 +175,9 @@
                 <div class="carousel slide col-sm-12 col-md-12 col-lg-10 " id="myCarousel">
 
                     <div id="carouselModuleText" class="text-center">
-                        <h4>Pick a Category.</h4>
+                        <h4>Skill Slider</h4>
+                        <p class="helpText2">(Pick a category)</p>
+
                     </div>
 
                     <div class="carousel-inner ">

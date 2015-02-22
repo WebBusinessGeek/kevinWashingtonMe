@@ -27,11 +27,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="customCover.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customCover.css">
+          <file leaf-file-name="skill.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/publicPages/skill.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.10387812" vertical-offset="900" max-vertical-offset="3350">
-                  <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.39568347" vertical-offset="675" max-vertical-offset="6825">
+                  <caret line="38" column="151" selection-start-line="38" selection-start-column="151" selection-end-line="38" selection-end-column="151" />
                   <folding />
                 </state>
               </provider>
@@ -645,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/skill.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11227545" vertical-offset="1150" max-vertical-offset="6775">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7576177" vertical-offset="653" max-vertical-offset="1475">
@@ -704,18 +697,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customCover.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10387812" vertical-offset="900" max-vertical-offset="3350">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/cover.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5498615" vertical-offset="1203" max-vertical-offset="2275">
           <caret line="64" column="126" selection-start-line="64" selection-start-column="126" selection-end-line="64" selection-end-column="126" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customCover.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58864266" vertical-offset="900" max-vertical-offset="3350">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424613479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/skill.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39568347" vertical-offset="675" max-vertical-offset="6825">
+          <caret line="38" column="151" selection-start-line="38" selection-start-column="151" selection-end-line="38" selection-end-column="151" />
           <folding />
         </state>
       </provider>
