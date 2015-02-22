@@ -59,14 +59,13 @@
                     <br/><br/><br/><br/>
                     <h1 class="headline">hello, I'm kevin.</h1>
 
-                    <p class="subheadline">I enjoy creating innovative products and growing customer bases.</p>
+<!--                    <p class="subheadline">I enjoy creating innovative products and growing customer bases.</p>-->
+                    <p class="subheadline">I help businesses create innovative products and grow their customer base.</p>
 
                     <!--                    <a href="/skills" class="btn btn-warning btn-huge-cta ">Let's Work Together</a>-->
-
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 
@@ -83,6 +82,5 @@
 
 <script src="//static.getclicky.com/js" type="text/javascript"></script>
 <script type="text/javascript">try{ clicky.init(100818102); }catch(e){}</script>
-
 </body>
 </html>
