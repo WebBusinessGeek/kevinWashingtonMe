@@ -13,7 +13,7 @@
     <div ng-show="!loading">
 
         <h1 class="text-center header">Choose 1 of 3 ways to review my skills below.</h1><br/>
-        <h4 class="text-center subheader"> Search for specific skills in the <b class="bolder">Skill Finder</b>, click around in the <b class="bolder">Skill Directory</b>, or choose a category from the <b class="bolder">Skill Slider</b> below. </h4>
+        <h4 class="text-center subheader"> Search for specific skills in the <b class="bolder">Skill Finder</b>, click around in the <b class="bolder">Skill Directory</b>, or choose a category from the <b class="bolder">Skill Slider</b>. </h4>
         <br/>
 
 

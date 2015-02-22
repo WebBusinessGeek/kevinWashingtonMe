@@ -44,8 +44,12 @@ angular.module('app')
         $scope.walkOut = function()
         {
             $scope.walk = true;
-        }
+        };
 
+        $scope.quoteRequest = function()
+        {
+            $scope.quoteRequested = true;
+        };
 
     }]);
 

@@ -19,7 +19,7 @@
 
     <!--pre-question/services section-->
     <div ng-if="servicesSetTo && !revealQuestions && !revealServices" class="row text-center">
-        <p class="subheader">Before seeing my services, do you mind if I make sure we would be a good fit? I have found that when collaborating, the chemistry in teams can be just as important as the talent of each individual. If its alright with you can I gauge how compatible we are with 3 really quick questions?</p>
+        <p class="subheader">Before seeing my services, do you mind if I make sure we would be a good fit? I have found that when collaborating, the chemistry in teams can be just as important as the talent of each individual. If its alright with you can I get an idea of how compatible we are with 3 really quick questions?</p>
         <button class="btn btn-warning btn-lg" ng-click="yesQuestions()">Sure, why not</button> <a ng-click="noQuestions()">No thanks, just show me your services.</a>
     </div>
 
@@ -87,7 +87,7 @@
     </div>
 
     <!--service section-->
-    <div ng-if="revealServices && !walk">
+    <div ng-if="revealServices && !walk && !quoteRequested">
         <div class="row text-center">
             <div ng-if="servicesSetTo == 'product'">
                 <div class="col-sm-4 col-md-4 col-lg-4">
@@ -114,12 +114,21 @@
         </div>
         <!--services cta section-->
        <div class="row text-center">
-           <a href="/connect" class="btn btn-warning btn-lg">Let's talk more</a>
+           <h4>See something you Like?</h4>
+           <a class="btn btn-warning btn-lg" ng-click="quoteRequest()">Get a Quote!</a>
+           <br/>
            <a ng-click="walkOut()">No thanks, I don't need these services.</a>
        </div>
-
     </div>
 
+    <!--quote requested section-->
+    <div ng-if="quoteRequested">
+        <div class="row text-center">
+            show Form for quote
+        </div>
+    </div>
+
+    <!--walk section-->
     <div ng-if="walk">
         <div class="row text-center">
             <div>
