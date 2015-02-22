@@ -12,8 +12,8 @@
 
     <div ng-show="!loading">
 
-        <h1 class="text-center header">Review my skills in 3 quick ways below.</h1><br/>
-        <h4 class="text-center subheader"><b class="moduleHelperAlert">How to review my skills:</b> Search for specific skills in the <b class="bolder">Skill Finder</b>, click the icons in <b class="bolder">Skill Directory</b>, or choose a category in the <b class="bolder">Skill Slider</b> below. </h4>
+        <h1 class="text-center header">Choose 1 of 3 ways to review my skills below.</h1><br/>
+        <h4 class="text-center subheader"> Search for specific skills in the <b class="bolder">Skill Finder</b>, click around in the <b class="bolder">Skill Directory</b>, or choose a category from the <b class="bolder">Skill Slider</b> below. </h4>
         <br/>
 
 
