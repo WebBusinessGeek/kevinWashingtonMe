@@ -4,7 +4,7 @@ angular.module('app')
     {
         $scope.$parent.currentUrl = 'connect';
 
-        $scope.showing = 'form';
+        $scope.showing = 'email';
 
         $scope.show = function(item)
         {
