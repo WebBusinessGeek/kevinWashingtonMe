@@ -140,13 +140,13 @@
         </div>
         <div class="row">
             <div class="col-sm-8 col-md-8 col-lg-8 text-center">
-                <p>What's the difference?</p>
+                <a>What's the difference?</a >
             </div>
         </div>
         <!--services cta section-->
        <div class="row text-center">
            <h4>See something you Like?</h4>
-           <a class="btn btn-warning btn-lg" ng-click="quoteRequest()">Get a Quote!</a>
+           <a class="btn btn-warning btn-lg" ng-click="quoteRequest()">Get a quick Quote!</a>
            <br/>
            <a ng-click="walkOut()">No thanks, I don't need these services.</a>
        </div>
@@ -196,7 +196,7 @@
             </div>
         </div>
         <div class="row text-center">
-            <a class="btn btn-warning btn-lg" ng-click="quoteRequest()">Get a Quote!</a>
+            <a class="btn btn-warning btn-lg" ng-click="quoteRequest()">Get a quick Quote!</a>
             <br/>
             <a ng-click="walkOut()">No thanks</a>
         </div>
