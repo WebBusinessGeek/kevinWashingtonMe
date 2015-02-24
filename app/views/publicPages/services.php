@@ -119,6 +119,56 @@
            <br/>
            <a ng-click="walkOut()">No thanks, I don't need these services.</a>
        </div>
+
+        <!--faq section for services-->
+        <div id="FAQsection">
+            <div class="row text-center">
+                <div>
+                    FAQ Headline
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div>
+                        <h5>Question?</h5>
+                        <p>Answers to the question. Answers to the question. Answer to the question</p>
+                    </div>
+                    <div>
+                        <h5>Question?</h5>
+                        <p>Answers to the question. Answers to the question. Answer to the question</p>
+                    </div>
+                    <div>
+                        <h5>Question?</h5>
+                        <p>Answers to the question. Answers to the question. Answer to the question</p>
+                    </div>
+                    <div>
+                        <h5>Question?</h5>
+                        <p>Answers to the question. Answers to the question. Answer to the question</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div>
+                        <h5>Question?</h5>
+                        <p>Answers to the question. Answers to the question. Answer to the question</p>
+                    </div>
+                    <div>
+                        <h5>Question?</h5>
+                        <p>Answers to the question. Answers to the question. Answer to the question</p>
+                    </div>
+                    <div>
+                        <h5>Question?</h5>
+                        <p>Answers to the question. Answers to the question. Answer to the question</p>
+                    </div>
+                    <div>
+                        <h5>Question?</h5>
+                        <p>Answers to the question. Answers to the question. Answer to the question</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <a class="btn btn-warning btn-lg" ng-click="quoteRequest()">Get a Quote!</a>
+            <br/>
+            <a ng-click="walkOut()">No thanks, I don't need these services.</a>
+        </div>
     </div>
 
     <!--quote requested section-->
