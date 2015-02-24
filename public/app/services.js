@@ -9,6 +9,8 @@ angular.module('app')
         $scope.yesCounter = 0;
         $scope.noCounter = 0;
 
+        $scope.range = 12500;
+
         $scope.setServices = function(value)
         {
             $scope.servicesSetTo = value;

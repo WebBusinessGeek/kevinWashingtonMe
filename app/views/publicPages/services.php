@@ -88,6 +88,8 @@
 
     <!--service section-->
     <div ng-if="revealServices && !walk && !quoteRequested">
+
+        <!--service amenities-->
         <div class="row text-center">
             <div ng-if="servicesSetTo == 'product'">
                 <div class="col-sm-4 col-md-4 col-lg-4">
@@ -96,9 +98,9 @@
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <p>Full Management - product</p>
                 </div>
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <!--<div class="col-sm-4 col-md-4 col-lg-4">
                     <p>Collaborative/Custom - product</p>
-                </div>
+                </div>-->
             </div>
             <div ng-if="servicesSetTo == 'customers'">
                 <div class="col-sm-4 col-md-4 col-lg-4">
@@ -130,14 +132,19 @@
                         <li>Follow On Strategy</li>
                         <li>Training</li>
                         <li>General Collaboration</li>
+                        <li>Team Management</li>
+                        <li>Implementation & Execution</li>
                         <li>No Long Term Commitments</li>
                     </ul>
                 </div>
-                <div class="col-sm-4 col-md-4 col-lg-4">
-                    <p>Collaborative/Custom - customer</p>
-                </div>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <p>Collaborative/Custom - customer</p>
+                <p>Already have some ideas on how you want to work with me? I'm willing to listen.</p>
             </div>
         </div>
+
+        <!--what's the difference?-->
         <div class="row">
             <div class="col-sm-8 col-md-8 col-lg-8 text-center">
                 <a>What's the difference?</a >
@@ -205,7 +212,66 @@
     <!--quote requested section-->
     <div ng-if="quoteRequested">
         <div class="row text-center">
-            show Form for quote
+            <div>
+                <label for="serviceOfInterest">What are you primarily interested in?</label>
+                <select name="serviceOfInterest" class="form-control">
+                    <option>Select one</option>
+                    <option value="customers">Getting more customers.</option>
+                    <option value="product">Building a product.</option>
+                </select>
+            </div>
+
+            <div>
+               <label for="objectives">What are some of your business objectives? </label>
+               <textarea name="objectives" placeholder="some info here" class="form-control" rows="10" cols="30"></textarea>
+            </div>
+
+            <div>
+                <label for="maxBudget">What is the most your are willing to spend on a monthly basis to achieve these objectives?</label>
+                <input  type="range" name="maxBudget" min="100" max="25000" step="100" ng-model="range">
+                ${{range}}/monthly.
+            </div>
+
+            <div>
+                <label for="teamSize">Team size:</label>
+                <select name="teamSize" class="form-control">
+                    <option value="1">Just me</option>
+                    <option value="5">5 or less</option>
+                    <option value="10">10 or less</option>
+                    <option value="20">20 or less</option>
+                    <option value="30">30 or less</option>
+                    <option value="40">more than 30</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="url">URL (if you already have a product/service)</label>
+                <input type="text" name="url" class="form-control" placeholder="example: http://myproduct.com">
+            </div>
+
+            <div>
+                <label for="name">Full Name (of person who will be receiving the quote.)</label>
+                <input type="text" name="name" class="form-control" placeholder="example: Carl Winslow">
+            </div>
+
+            <div>
+                <label for="email">Email (of person who will be receiving the quote.)</label>
+                <input type="email" name="email" class="form-control" placeholder="example: carl@familyMatters.com">
+            </div>
+
+            <div>
+                <label for="phone">Phone (of person who will be receiving the quote.)</label>
+                <input type="text" name="phone" class="form-control" placeholder="example: 610-555-4545">
+            </div>
+
+            <div>
+                <label for="quoteFormat">How should I send your quote for review?</label>
+                <select name="quoteFormat" class="form-control">
+                    <option>Select one</option>
+                    <option value="email">Via email</option>
+                    <option value="phone">Via phone</option>
+                </select>
+            </div>
         </div>
     </div>
 
@@ -214,7 +280,7 @@
         <div class="row text-center">
             <div>
                 <h4>Hey, Wait!</h4>
-                <p>Sorry we couldn’t work together, I wish you luck anyway. Before you leave could let me know anyone you know who <em>would</em> benefit from these services? Or maybe someone you know who would be interested in free coding or marketing training, <em>yourself included</em>.</p>
+                <p>Really sorry we won't work together, I wish you luck anyway. Before you leave could let me know anyone you know who <em>would</em> benefit from these services? Or maybe someone you know who would be interested in free coding or marketing training, <em>yourself included</em>. Thanks!</p>
             </div>
             <div>
                 <p>
