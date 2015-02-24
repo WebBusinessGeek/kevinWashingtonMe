@@ -87,40 +87,18 @@
         }
 
         .navLinks:link{
-            color:#000;
+            color:#fff;
         }
         .navLinks:active{
-            color:#000;
+            color:#fff;
         }
         .navLinks:visited{
             color:#fff;
         }
         .navLinks:hover{
-            color:#000;
+            color:#fff;
         }
 
-        /*.triangle {*/
-            /*width: 0;*/
-            /*height: 0;*/
-            /*border-style: solid;*/
-            /*border-width: 6.9px 4px 0 4px;*/
-            /*border-color: #ffffff transparent transparent transparent;*/
-        /*}*/
-
-        /*#skillsTriangle{*/
-            /*position:relative;*/
-            /*left: 30px;*/
-        /*}*/
-
-        /*#experiencesTriangle{*/
-            /*position:relative;*/
-            /*left: 60px;*/
-        /*}*/
-
-        /*#connectTriangle{*/
-            /*position: relative;*/
-            /*left: 45px;*/
-        /*}*/
     </style>
 
 </head>
