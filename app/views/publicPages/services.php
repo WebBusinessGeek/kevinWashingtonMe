@@ -103,13 +103,44 @@
             <div ng-if="servicesSetTo == 'customers'">
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <p>Consulting/Coaching service - customer</p>
+                    <ul class="text-left">
+                        <li>Essential Research</li>
+                        <li>Analytics and Performance</li>
+                        <li>Objectives</li>
+                        <li>Achievement Strategy & Tactics</li>
+                        <li>Project Management</li>
+                        <li>Success Tracking / Report Development</li>
+                        <li>Conversion Rate & Process Optimization</li>
+                        <li>Follow On Strategy</li>
+                        <li>Training</li>
+                        <li>General Collaboration</li>
+                        <li>No Long Term Commitments</li>
+                    </ul>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <p>Full Management - customer</p>
+                    <ul class="text-left">
+                        <li>Essential Research</li>
+                        <li>Analytics and Performance</li>
+                        <li>Objectives</li>
+                        <li>Achievement Strategy & Tactics</li>
+                        <li>Project Management</li>
+                        <li>Success Tracking / Report Development</li>
+                        <li>Conversion Rate & Process Optimization</li>
+                        <li>Follow On Strategy</li>
+                        <li>Training</li>
+                        <li>General Collaboration</li>
+                        <li>No Long Term Commitments</li>
+                    </ul>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <p>Collaborative/Custom - customer</p>
                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 col-md-8 col-lg-8 text-center">
+                <p>What's the difference?</p>
             </div>
         </div>
         <!--services cta section-->
@@ -167,7 +198,7 @@
         <div class="row text-center">
             <a class="btn btn-warning btn-lg" ng-click="quoteRequest()">Get a Quote!</a>
             <br/>
-            <a ng-click="walkOut()">No thanks, I don't need these services.</a>
+            <a ng-click="walkOut()">No thanks</a>
         </div>
     </div>
 
