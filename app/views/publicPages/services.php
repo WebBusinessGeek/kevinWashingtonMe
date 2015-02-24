@@ -227,8 +227,8 @@
             </div>
 
             <div>
-                <label for="maxBudget">What is the most your are willing to spend on a monthly basis to achieve these objectives?</label>
-                <input  type="range" name="maxBudget" min="100" max="25000" step="100" ng-model="range">
+                <label for="maxBudget">What is the most your are willing to spend monthly to achieve these objectives?</label>
+                <input  type="range" name="maxBudget" value="100" min="100" max="25000" step="100" ng-model="range">
                 ${{range}}/monthly.
             </div>
 
