@@ -317,66 +317,86 @@
     <!--quote requested section-->
     <div ng-if="quoteRequested">
         <div class="row text-center">
-            <div>
-                <label for="serviceOfInterest">What are you primarily interested in?</label>
-                <select name="serviceOfInterest" class="form-control">
-                    <option>Select one</option>
-                    <option value="customers">Getting more customers.</option>
-                    <option value="product">Building a product.</option>
-                </select>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <div>
+                    <label for="serviceOfInterest">What are you primarily interested in?</label>
+                    <select name="serviceOfInterest" ng-model="serviceOfInterest" class="form-control">
+                        <option>Select one</option>
+                        <option value="customers">Getting more customers.</option>
+                        <option value="product">Building a product.</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="objectives">What are some of your business objectives? </label>
+                    <textarea name="objectives"  ng-model="objectives" placeholder="some info here" class="form-control" rows="10" cols="30"></textarea>
+                </div>
+
+                <div>
+                    <label for="maxBudget">What is the most your are willing to spend monthly to achieve these objectives?</label>
+                    <input  type="range" name="maxBudget" value="100" min="100" max="25000" step="100" ng-model="range">
+                    ${{range}}/monthly.
+                </div>
+
+                <div>
+                    <label for="teamSize">Team size:</label>
+                    <select name="teamSize" ng-model="teamSize" class="form-control">
+                        <option value="1">Just me</option>
+                        <option value="5">5 or less</option>
+                        <option value="10">10 or less</option>
+                        <option value="20">20 or less</option>
+                        <option value="30">30 or less</option>
+                        <option value="40">more than 30</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="url">URL (if you already have a product/service)</label>
+                    <input type="text" name="url" ng-model="url" class="form-control" placeholder="example: http://myproduct.com">
+                </div>
+
+                <div>
+                    <label for="name">Full Name (of person who will be receiving the quote.)</label>
+                    <input type="text" name="name" ng-model="name" class="form-control" placeholder="example: Carl Winslow">
+                </div>
+
+                <div>
+                    <label for="email">Email (of person who will be receiving the quote.)</label>
+                    <input type="email" name="email" ng-model="email" class="form-control" placeholder="example: carl@familyMatters.com">
+                </div>
+
+                <div>
+                    <label for="phone">Phone (of person who will be receiving the quote.)</label>
+                    <input type="text" name="phone" ng-model="phone" class="form-control" placeholder="example: 610-555-4545">
+                </div>
+
+                <div>
+                    <label for="quoteFormat">How should I send your quote for review?</label>
+                    <select name="quoteFormat" ng-model="quoteFormat" class="form-control">
+                        <option>Select one</option>
+                        <option value="email">Via email</option>
+                        <option value="phone">Via phone</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <div>
+                    preview section
+                    {{serviceOfInterest}}
+                    {{objectives}}
+                    {{teamSize}}
+                    {{url}}
+                    {{name}}
+                    {{email}}
+                    {{phone}}
+                    {{quoteFormat}}
+
+                    <div ng-if="serviceOfInterest && objectives && teamSize && name && email && phone && quoteFormat">
+                        <button class="btn btn-lg btn-warning">Submit</button>
+                    </div>
+                </div>
             </div>
 
-            <div>
-               <label for="objectives">What are some of your business objectives? </label>
-               <textarea name="objectives" placeholder="some info here" class="form-control" rows="10" cols="30"></textarea>
-            </div>
-
-            <div>
-                <label for="maxBudget">What is the most your are willing to spend monthly to achieve these objectives?</label>
-                <input  type="range" name="maxBudget" value="100" min="100" max="25000" step="100" ng-model="range">
-                ${{range}}/monthly.
-            </div>
-
-            <div>
-                <label for="teamSize">Team size:</label>
-                <select name="teamSize" class="form-control">
-                    <option value="1">Just me</option>
-                    <option value="5">5 or less</option>
-                    <option value="10">10 or less</option>
-                    <option value="20">20 or less</option>
-                    <option value="30">30 or less</option>
-                    <option value="40">more than 30</option>
-                </select>
-            </div>
-
-            <div>
-                <label for="url">URL (if you already have a product/service)</label>
-                <input type="text" name="url" class="form-control" placeholder="example: http://myproduct.com">
-            </div>
-
-            <div>
-                <label for="name">Full Name (of person who will be receiving the quote.)</label>
-                <input type="text" name="name" class="form-control" placeholder="example: Carl Winslow">
-            </div>
-
-            <div>
-                <label for="email">Email (of person who will be receiving the quote.)</label>
-                <input type="email" name="email" class="form-control" placeholder="example: carl@familyMatters.com">
-            </div>
-
-            <div>
-                <label for="phone">Phone (of person who will be receiving the quote.)</label>
-                <input type="text" name="phone" class="form-control" placeholder="example: 610-555-4545">
-            </div>
-
-            <div>
-                <label for="quoteFormat">How should I send your quote for review?</label>
-                <select name="quoteFormat" class="form-control">
-                    <option>Select one</option>
-                    <option value="email">Via email</option>
-                    <option value="phone">Via phone</option>
-                </select>
-            </div>
         </div>
     </div>
 

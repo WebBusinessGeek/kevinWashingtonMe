@@ -28,8 +28,8 @@
       <file leaf-file-name="services.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/publicPages/services.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13669065" vertical-offset="7705" max-vertical-offset="10600">
-              <caret line="312" column="35" selection-start-line="312" selection-start-column="35" selection-end-line="312" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.74820143" vertical-offset="9305" max-vertical-offset="11100">
+              <caret line="393" column="116" selection-start-line="393" selection-start-column="116" selection-end-line="393" selection-end-column="116" />
               <folding />
             </state>
           </provider>
@@ -666,8 +666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13669065" vertical-offset="7705" max-vertical-offset="10600">
-          <caret line="312" column="35" selection-start-line="312" selection-start-column="35" selection-end-line="312" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.74820143" vertical-offset="9305" max-vertical-offset="11100">
+          <caret line="393" column="116" selection-start-line="393" selection-start-column="116" selection-end-line="393" selection-end-column="116" />
           <folding />
         </state>
       </provider>
