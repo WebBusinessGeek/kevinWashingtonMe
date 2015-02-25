@@ -322,8 +322,8 @@
                     <label for="serviceOfInterest">What are you primarily interested in?</label>
                     <select name="serviceOfInterest" ng-model="serviceOfInterest" class="form-control">
                         <option>Select one</option>
-                        <option value="customers">Getting more customers.</option>
-                        <option value="product">Building a product.</option>
+                        <option value="Getting more customers">Getting more customers.</option>
+                        <option value="Building a product">Building a product.</option>
                     </select>
                 </div>
 
@@ -341,12 +341,12 @@
                 <div>
                     <label for="teamSize">Team size:</label>
                     <select name="teamSize" ng-model="teamSize" class="form-control">
-                        <option value="1">Just me</option>
-                        <option value="5">5 or less</option>
-                        <option value="10">10 or less</option>
-                        <option value="20">20 or less</option>
-                        <option value="30">30 or less</option>
-                        <option value="40">more than 30</option>
+                        <option value="Just me">Just me</option>
+                        <option value="5 or less">5 or less</option>
+                        <option value="10 or less">10 or less</option>
+                        <option value="20 or less">20 or less</option>
+                        <option value="30 or less">30 or less</option>
+                        <option value="30+">more than 30</option>
                     </select>
                 </div>
 
@@ -381,15 +381,57 @@
             </div>
             <div class="col-sm-6 col-md-6 col-lg-6">
                 <div>
-                    preview section
-                    {{serviceOfInterest}}
-                    {{objectives}}
-                    {{teamSize}}
-                    {{url}}
-                    {{name}}
-                    {{email}}
-                    {{phone}}
-                    {{quoteFormat}}
+                    <div ng-hide="(serviceOfInterest || objectives || teamSize || url || name || email || phone ||quoteFormat)">
+                        <h4>Preview your quote request here.</h4>
+                    </div>
+
+                    <div ng-if="(serviceOfInterest || objectives || teamSize || url || name || email || phone ||quoteFormat)">
+                        <h3>Quote request preview</h3>
+                        <h4 class="subText">Please fill out all info in order to submit the form.</h4>
+                    </div>
+
+                    <div class="text-left">
+                        <div ng-if="serviceOfInterest">
+                            <h4>I'm interested in:</h4>
+                            <p>{{serviceOfInterest}}</p>
+                        </div>
+
+                        <div ng-if="objectives">
+                            <h4>My objectives:</h4>
+                            <p>{{objectives}}</p>
+                        </div>
+
+                        <div ng-if="teamSize">
+                            <h4>My team size:</h4>
+                            <p>{{teamSize}}</p>
+                        </div>
+
+                        <div ng-if="url">
+                            <h4>My product/service url:</h4>
+                            <p>{{url}}</p>
+                        </div>
+
+                        <div ng-if="name">
+                            <h4>Requester name:</h4>
+                            <p>{{name}}</p>
+                        </div>
+
+                        <div ng-if="email">
+                            <h4>Requester email:</h4>
+                            <p>{{email}}</p>
+                        </div>
+
+                        <div ng-if="phone">
+                            <h4>Requester phone:</h4>
+                            <p>{{phone}}</p>
+                        </div>
+
+                        <div ng-if="quoteFormat">
+                            <h4>Send me my quote via:</h4>
+                            <p>{{quoteFormat}}</p>
+                        </div>
+                    </div>
+
 
                     <div ng-if="serviceOfInterest && objectives && teamSize && name && email && phone && quoteFormat">
                         <button class="btn btn-lg btn-warning">Submit</button>
