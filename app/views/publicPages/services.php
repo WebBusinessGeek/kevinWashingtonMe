@@ -192,37 +192,53 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
                     <div>
-                        <h5>Question?</h5>
+                        <h5>Why should I work with you?</h5>
                         <p>Answers to the question. Answers to the question. Answer to the question</p>
                     </div>
                     <div>
-                        <h5>Question?</h5>
-                        <p>Answers to the question. Answers to the question. Answer to the question</p>
+                        <h5>What's the difference between consulting and full management?</h5>
+                        <p ng-if="servicesSetTo == 'customers'">Answer if customers was selected</p>
+                        <p ng-if="servicesSetTo == 'product'">Answers if product was selected</p>
                     </div>
-                    <div>
-                        <h5>Question?</h5>
-                        <p>Answers to the question. Answers to the question. Answer to the question</p>
+
+                    <!--customer services specific questions-->
+                    <div ng-if="servicesSetTo == 'customers'">
+                        <div>
+                            <h5>What results have you achieved for other clients?</h5>
+                            <p>Answers to the question. Answers to the question. Answer to the question</p>
+                        </div>
+                        <div>
+                            <h5>How much experience do you have in customer acquisition?</h5>
+                            <p>Answers to the question. Answers to the question. Answer to the question</p>
+                        </div>
                     </div>
-                    <div>
-                        <h5>Question?</h5>
-                        <p>Answers to the question. Answers to the question. Answer to the question</p>
+                    <!--product development services specific questions-->
+                    <div ng-if="servicesSetTo == 'product'">
+                        <div>
+                            <h5>What types of businesses have you helped develop?</h5>
+                            <p>Answers to the question. Answers to the question. Answer to the question</p>
+                        </div>
+                        <div>
+                            <h5>How much experience do you have in business development?</h5>
+                            <p>Answers to the question. Answers to the question. Answer to the question</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
                     <div>
-                        <h5>Question?</h5>
+                        <h5>Do you work with new businesses?</h5>
                         <p>Answers to the question. Answers to the question. Answer to the question</p>
                     </div>
                     <div>
-                        <h5>Question?</h5>
+                        <h5>Do you offer short term options?</h5>
                         <p>Answers to the question. Answers to the question. Answer to the question</p>
                     </div>
                     <div>
-                        <h5>Question?</h5>
+                        <h5>What form of payment do you accept?</h5>
                         <p>Answers to the question. Answers to the question. Answer to the question</p>
                     </div>
                     <div>
-                        <h5>Question?</h5>
+                        <h5>Do you accept escrow style payments (i.e Elance, or Odesk)?</h5>
                         <p>Answers to the question. Answers to the question. Answer to the question</p>
                     </div>
                 </div>
