@@ -466,8 +466,11 @@
                     </select>
                 </div>
             </div>
+            <div id="lastReferral">
+            </div>
+
             <div class="row">
-                <button class="btn btn-lg btn-warning pull-left">Add another person</button>
+                <button class="btn btn-lg btn-warning pull-left" ng-click="addReferral()">Add another person</button>
             </div>
             <div class="row">
                 <button class="btn btn-lg btn-warning pull-right">Done</button>
