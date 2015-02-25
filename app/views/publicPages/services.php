@@ -93,7 +93,8 @@
         <div class="row text-center">
             <div ng-if="servicesSetTo == 'product'">
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                    <p>Consulting/Coaching service - product</p>
+                    <h4>InnovationPlus</h4>
+                    <p>A cutting-edge product management solution for creators.</p>
                     <ul class="text-left">
                         <li>Beach head Market Research</li>
                         <li>Base Traction Strategy</li>
@@ -108,7 +109,8 @@
                     </ul>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                    <p>Full Management - product</p>
+                    <h4>PrototypePlus</h4>
+                    <p>A unique product to market solution for new ventures.</p>
                     <ul class="text-left">
                         <li>Beach head Market Research</li>
                         <li>Base Traction Strategy</li>
@@ -130,7 +132,8 @@
             </div>
             <div ng-if="servicesSetTo == 'customers'">
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                    <p>Consulting/Coaching service - customer</p>
+                    <h4>StrategyPlus</h4>
+                    <p>A practical marketing solution for engaged owners.</p>
                     <ul class="text-left">
                         <li>Essential Research</li>
                         <li>Analytics and Performance</li>
@@ -146,7 +149,8 @@
                     </ul>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                    <p>Full Management - customer</p>
+                    <h4>GrowthPlus</h4>
+                    <p>A complete customer acquisition solution for new and growing businesses.</p>
                     <ul class="text-left">
                         <li>Essential Research</li>
                         <li>Analytics and Performance</li>
@@ -165,8 +169,9 @@
                 </div>
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4">
-                <p>Collaborative/Custom - customer</p>
+                <h4>Collaborative/Custom</h4>
                 <p>Already have some ideas on how you want to work with me? I'm willing to listen.</p>
+                <p><a href="/connect">Connect with me</a> and let's talk about it.</p>
             </div>
         </div>
 
@@ -191,29 +196,52 @@
                     FAQ Headline
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div>
-                        <h5>Why should I work with you?</h5>
-                        <p>Answers to the question. Answers to the question. Answer to the question</p>
-                    </div>
-                    <div>
-                        <h5>What's the difference between consulting and full management?</h5>
-                        <p ng-if="servicesSetTo == 'customers'">Answer if customers was selected</p>
-                        <p ng-if="servicesSetTo == 'product'">Answers if product was selected</p>
-                    </div>
 
                     <!--customer services specific questions-->
                     <div ng-if="servicesSetTo == 'customers'">
                         <div>
+                            <h5>Why should I work with you?</h5>
+                            <p>
+                                If you are either new to marketing online, or are having difficulty getting your business to the next level then getting intimate guidance from a credible source may prove invaluable.
+                                I stand by this whether that source is me or someone else.
+                                However to answer your question of 'why me?', there are two main reasons why I don't think your in bad company working with me.
+                                Experience & Results.
+                                I have so far accumulated almost 9 years of customer acquisition experience - 6 years of business-to-consumer overlapping 4 years of business-to-business.
+                                And the <a href="#">notable & verifiable results</a> I have achieved while gaining this experience should help build some confidence.
+                            </p>
+                        </div>
+                        <div>
+                            <h5>What's the difference between the StrategyPlus and GrowthPlus Plans?</h5>
+                            <p>
+                                While both plans include many of the same services, the difference lies in the execution.
+                                In the GrowthPlus plan the majority of the execution will be by me, while in the StrategyPlus I will be serving the role of a guide and mentor allowing the owner to build new skills and improve as a product marketer.
+                                In either plan the objectives, strategy, and tactics will always be what's most important for the business.
+                            </p>
+                        </div>
+                        <div>
                             <h5>What results have you achieved for other clients?</h5>
-                            <p>Answers to the question. Answers to the question. Answer to the question</p>
+                            <p>Some pretty good ones. Here <a href="#">take a look.</a></p>
                         </div>
                         <div>
                             <h5>How much experience do you have in customer acquisition?</h5>
-                            <p>Answers to the question. Answers to the question. Answer to the question</p>
+                            <p>
+                                So far I have almost 9 years experience of prospecting (i.e researching ideal customers, generating leads, building traffic, etc.),
+                                identifying needs (i.e needs assessments, effective questioning, etc.),
+                                sales presentations (i.e sales meetings, product demonstrations, landing pages, etc.),
+                                and closing deals. 
+                            </p>
                         </div>
                     </div>
                     <!--product development services specific questions-->
                     <div ng-if="servicesSetTo == 'product'">
+                        <div>
+                            <h5>Why should I work with you?</h5>
+                            <p></p>
+                        </div>
+                        <div>
+                            <h5>What's the difference between product consulting plan and product full management?</h5>
+                            <p>Answer if product was selected</p>
+                        </div>
                         <div>
                             <h5>What types of businesses have you helped develop?</h5>
                             <p>Answers to the question. Answers to the question. Answer to the question</p>
