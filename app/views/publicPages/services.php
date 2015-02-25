@@ -94,9 +94,35 @@
             <div ng-if="servicesSetTo == 'product'">
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <p>Consulting/Coaching service - product</p>
+                    <ul class="text-left">
+                        <li>Beach head Market Research</li>
+                        <li>Base Traction Strategy</li>
+                        <li>Customer Research</li>
+                        <li>Product Strategy</li>
+                        <li>Product Development</li>
+                        <li>Alpha/Beta Viability & Testing</li>
+                        <li>Product launch</li>
+                        <li>Growth</li>
+                        <li>Training</li>
+                        <li>No Long Term Commitments</li>
+                    </ul>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <p>Full Management - product</p>
+                    <ul class="text-left">
+                        <li>Beach head Market Research</li>
+                        <li>Base Traction Strategy</li>
+                        <li>Customer Research</li>
+                        <li>Product Strategy</li>
+                        <li>Product Development</li>
+                        <li>Alpha/Beta Viability & Testing</li>
+                        <li>Product launch</li>
+                        <li>Growth</li>
+                        <li>Training</li>
+                        <li>Team management</li>
+                        <li>Professional Level Coding & Design</li>
+                        <li>No Long Term Commitments</li>
+                    </ul>
                 </div>
                 <!--<div class="col-sm-4 col-md-4 col-lg-4">
                     <p>Collaborative/Custom - product</p>
