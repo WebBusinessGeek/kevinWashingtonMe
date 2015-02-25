@@ -278,20 +278,31 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
                     <div>
-                        <h5>Do you work with new businesses?</h5>
-                        <p>Answers to the question. Answers to the question. Answer to the question</p>
+                        <h5>How much do you charge?</h5>
+                        <p>
+                            I offer plans that fit into the budgets of new businesses with little cash-flow,
+                            and plans that have been adequate for businesses with significant revenue.
+                            If you are interested in working with me you could <a href="#">connect with me</a>,
+                            or you could get a quick quote <a ng-click="quoteRequest()">here</a>.
+                        </p>
                     </div>
                     <div>
                         <h5>Do you offer short term options?</h5>
-                        <p>Answers to the question. Answers to the question. Answer to the question</p>
+                        <p>
+                            All my plans are currently month-to-month.
+                            There are no long-term contracts or agreements.
+                        </p>
                     </div>
                     <div>
                         <h5>What form of payment do you accept?</h5>
-                        <p>Answers to the question. Answers to the question. Answer to the question</p>
+                        <p>Currently I can accept Visa, MasterCard, American Express, JCB, Discover, and Diners Club.</p>
                     </div>
                     <div>
                         <h5>Do you accept escrow style payments (i.e Elance, or Odesk)?</h5>
-                        <p>Answers to the question. Answers to the question. Answer to the question</p>
+                        <p>
+                            In special cases I can make accommodations, however additional fees will be applied to cover
+                            all processing fees.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -299,7 +310,7 @@
         <div class="row text-center">
             <a class="btn btn-warning btn-lg" ng-click="quoteRequest()">Get a quick Quote!</a>
             <br/>
-            <a ng-click="walkOut()">No thanks</a>
+            <a href="#">Back to top</a>
         </div>
     </div>
 
