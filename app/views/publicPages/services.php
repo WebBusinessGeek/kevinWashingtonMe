@@ -371,17 +371,33 @@
 
     <!--walk section-->
     <div ng-if="walk">
-        <div class="row text-center">
-            <div>
+        <div class="text-center">
+            <div class="row">
                 <h4>Hey, Wait!</h4>
                 <p>Really sorry we won't work together, I wish you luck anyway. Before you leave could let me know anyone you know who <em>would</em> benefit from these services? Or maybe someone you know who would be interested in free coding or marketing training, <em>yourself included</em>. Thanks!</p>
             </div>
-            <div>
-                <p>
-                    1.
-                    <input class="form-control input-lg" type="text">
-                    <input class="form-control input-lg" type="text">
-                </p>
+            <div class="row">
+               <div class="col-sm-4 col-md-4 col-lg-4">
+                   <input type="text" name="name" class="form-control" placeholder="example: Carl Winslow">
+               </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <input type="email" name="email" class="form-control" placeholder="example: carl@familyMatters.com">
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <select class="form-control">
+                        <option>Select one</option>
+                        <option value="productDev">Product development services.</option>
+                        <option value="customerAcq">Customer acquisition services.</option>
+                        <option value="marketingTraining">Free marketing training.</option>
+                        <option value="codingTraining">Free coding training.</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <button class="btn btn-lg btn-warning pull-left">Add another person</button>
+            </div>
+            <div class="row">
+                <button class="btn btn-lg btn-warning pull-right">Done</button>
             </div>
 
         </div>
