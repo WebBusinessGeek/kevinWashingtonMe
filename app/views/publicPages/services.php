@@ -104,6 +104,7 @@
                         <li>Alpha/Beta Viability & Testing</li>
                         <li>Product launch</li>
                         <li>Growth</li>
+                        <li>General Collaboration</li>
                         <li>Training</li>
                         <li>No Long Term Commitments</li>
                     </ul>
@@ -120,6 +121,7 @@
                         <li>Alpha/Beta Viability & Testing</li>
                         <li>Product launch</li>
                         <li>Growth</li>
+                        <li>General Collaboration</li>
                         <li>Training</li>
                         <li>Team management</li>
                         <li>Professional Level Coding & Design</li>
@@ -228,7 +230,7 @@
                                 So far I have almost 9 years experience of prospecting (i.e researching ideal customers, generating leads, building traffic, etc.),
                                 identifying needs (i.e needs assessments, effective questioning, etc.),
                                 sales presentations (i.e sales meetings, product demonstrations, landing pages, etc.),
-                                and closing deals. 
+                                and converting leads into paying customers.
                             </p>
                         </div>
                     </div>
@@ -236,19 +238,41 @@
                     <div ng-if="servicesSetTo == 'product'">
                         <div>
                             <h5>Why should I work with you?</h5>
-                            <p></p>
+                            <p>
+                                If you are new to creating web products, or have little experience implementing the processes needed to ensure you don't waste resources then I would strongly suggest working with someone who does.
+                                More to the point of why that person should be me can be summed up in two words -
+                                Experience & Passion.
+                                With over 4 years experience in developing businesses that range from physical locations to SaaS products,
+                                I have an intimate knowledge of not only of precautions to take to increase the chances of success, but also the pitfalls to avoid to reduce the chances of failure.
+                                In addition to experience,
+                                I have the passion for product development that's needed in the moments you have ideas or thoughts that need to be talked out with someone you trust.
+                            </p>
                         </div>
                         <div>
-                            <h5>What's the difference between product consulting plan and product full management?</h5>
-                            <p>Answer if product was selected</p>
+                            <h5>What's the difference between the InnovationPlus and PrototypePlus plans?</h5>
+                            <p>
+                                While each plan includes many of the same services the difference is primarily in the implementation.
+                                In the PrototypePlus plan most of the implementation (i.e research, coding, designing, etc.) will be handled by me.
+                                However collaborators on the InnovationPlus plan will get hands-on experience with many of these processes.
+                                Both plans are designed to result in a viable and innovative product with clear paths for traction and growth.
+                            </p>
                         </div>
                         <div>
                             <h5>What types of businesses have you helped develop?</h5>
-                            <p>Answers to the question. Answers to the question. Answer to the question</p>
+                            <p>
+                                I have helped developed services that required physical locations in industries that
+                                include the Consumer services & Professional Services sectors.
+                                I have also developed web based businesses for services that have included a job search engine, online based education, and micro sites.
+                            </p>
                         </div>
                         <div>
                             <h5>How much experience do you have in business development?</h5>
-                            <p>Answers to the question. Answers to the question. Answer to the question</p>
+                            <p>
+                                So far I have 4 years experience conducting essential research (i.e market research, competitor research, customer research),
+                                developing product strategy (i.e value proposition, revenue generation strategy, branding, etc.),
+                                construction products and services (i.e location selection, leasing, designing, web development, etc.),
+                                and launching.
+                            </p>
                         </div>
                     </div>
                 </div>
