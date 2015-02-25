@@ -374,8 +374,8 @@
                     <label for="quoteFormat">How should I send your quote for review?</label>
                     <select name="quoteFormat" ng-model="quoteFormat" class="form-control">
                         <option>Select one</option>
-                        <option value="email">Via email</option>
-                        <option value="phone">Via phone</option>
+                        <option value="Email">Via email</option>
+                        <option value="Phone">Via phone</option>
                     </select>
                 </div>
             </div>
@@ -434,7 +434,7 @@
 
 
                     <div ng-if="serviceOfInterest && objectives && teamSize && name && email && phone && quoteFormat">
-                        <button class="btn btn-lg btn-warning">Submit</button>
+                        <button class="btn btn-lg btn-warning" ng-click="sendQuote(serviceOfInterest,objectives,teamSize,name,email,phone,quoteFormat,range,url)">Send my quote</button>
                     </div>
                 </div>
             </div>
@@ -447,7 +447,7 @@
         <div class="text-center">
             <div class="row">
                 <h4>Hey, Wait!</h4>
-                <p>Really sorry we won't work together, I wish you luck anyway. Before you leave could let me know anyone you know who <em>would</em> benefit from these services? Or maybe someone you know who would be interested in free coding or marketing training, <em>yourself included</em>. Thanks!</p>
+                <p>Really sorry we won't work together, I wish you luck anyway. Before you leave could tell me about anyone you know who <em>would</em> benefit from these services? Or maybe someone you know who would be interested in free coding or marketing training, <em>yourself included</em>. Thanks!</p>
             </div>
             <div class="row">
                <div class="col-sm-4 col-md-4 col-lg-4">
