@@ -557,13 +557,23 @@
                 </div>
             </div>
 
+            <div ng-show="refferal6">
+                {{referral0 = [name0, email0, interest0]}}
+                {{referral1 = [name1, email1, interest1]}}
+                {{referral2 = [name2, email2, interest2]}}
+                {{referral3 = [name3, email3, interest3]}}
+                {{referral4 = [name4, email4, interest4]}}
+                {{referral5 = [name5, email5, interest5]}}
+            </div>
+
             <div class="row" ng-if="referralCounter < 5">
                 <button class="btn btn-lg btn-warning pull-left" ng-click="addReferral(referralCounter)">Add another person</button>
             </div>
 
             <div class="row">
-                <button class="btn btn-lg btn-warning pull-right" ng-click="sendReferrals(name0, name1, name2, name3, name4)">Done</button>
+                <button class="btn btn-lg btn-warning pull-right" ng-click="sendReferrals(referral0,referral1,referral2,referral3,referral4,referral5)">Done</button>
             </div>
+
 
 
 

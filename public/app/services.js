@@ -90,10 +90,59 @@ angular.module('app')
 
         };
 
-        $scope.sendReferrals = function(name0, name1, name2, name3, name4)
+
+
+        $scope.sendReferrals = function(referral0, referral1, referral2, referral3, referral4, referral5)
         {
-            console.log(name0 + name1 + name2 + name3 + name4);
-        }
+            referrals = [
+                referral0,referral1,referral2,referral3,referral4,referral5
+            ];
+
+            var reviewedReferrals = $scope.removeUnsetArrayElements(referrals);
+
+            for(var counter2 = 0; counter2 < reviewedReferrals.length; counter2++ )
+            {
+                request = $scope.sendInquiryPostRequestFromWalkOutForm(reviewedReferrals[counter2]);
+            }
+        };
+
+        $scope.removeUnsetArrayElements = function(array)
+        {
+            for(var counter1 = 0; counter1 < array.length; counter1++)
+            {
+                if(array[counter1][0] == null || array[counter1][1] == null)
+                {
+                    array.splice(counter1);
+                }
+            }
+            return array;
+        };
+
+        $scope.sendInquiryPostRequestFromWalkOutForm = function(arrayOfAttributes)
+        {
+            var data = {
+                name : arrayOfAttributes[0],
+                body : 'from walk out form, im this person may be interested in: ' + arrayOfAttributes[2],
+                contactMethod : 'Email',
+                email : arrayOfAttributes[1],
+                phone : '215-222-0000'
+            };
+
+
+            $http.post('/api.v1/connect', data).
+                success(function(data, status, headers, config) {
+                    //$scope.message = data;
+                    console.log(data);
+                }).
+                error(function (data, status, headers, config){
+                    $scope.error = data;
+                })
+
+        };
+
+
+
+
     }]);
 
 
