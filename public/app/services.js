@@ -58,8 +58,6 @@ angular.module('app')
         $scope.addReferral = function(counter)
         {
             $scope.referralCounter++;
-            var myEl = angular.element(document.querySelector( '#lastReferral'));
-            myEl.prepend("<div class='row'> <div class='col-sm-4 col-md-4 col-lg-4'> <input type='text' ng-model='name" +$scope.referralCounter+ "' class='form-control' placeholder='example: Carl Winslow'> </div> <div class='col-sm-4 col-md-4 col-lg-4'> <input type='email' ng-model='email"+ $scope.referralCounter +"' class='form-control' placeholder='example: carl@familyMatters.com'> </div> <div class='col-sm-4 col-md-4 col-lg-4'> <select class='form-control' ng-model='interest"+ $scope.referralCounter +"'> <option>Select one</option> <option value='productDev'>Product development services.</option> <option value='customerAcq'>Customer acquisition services.</option> <option value='marketingTraining'>Free marketing training.</option> <option value='codingTraining'>Free coding training.</option> </select> </div> </div>");
         };
 
 
@@ -90,6 +88,11 @@ angular.module('app')
                     $scope.error = data;
                 })
 
+        };
+
+        $scope.sendReferrals = function(name0, name1, name2, name3, name4)
+        {
+            console.log(name0 + name1 + name2 + name3 + name4);
         }
     }]);
 

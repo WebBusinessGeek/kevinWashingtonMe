@@ -466,16 +466,108 @@
                     </select>
                 </div>
             </div>
-            <div id="lastReferral">
+
+            <div class="row" ng-show="referralCounter > 0">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <input type="text" ng-model="name1" class="form-control" placeholder="example: Carl Winslow">
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <input type="email" ng-model="email1" class="form-control" placeholder="example: carl@familyMatters.com">
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <select class="form-control" ng-model="interest1">
+                        <option>Select one</option>
+                        <option value="productDev">Product development services.</option>
+                        <option value="customerAcq">Customer acquisition services.</option>
+                        <option value="marketingTraining">Free marketing training.</option>
+                        <option value="codingTraining">Free coding training.</option>
+                    </select>
+                </div>
             </div>
 
-            <div class="row" ng-if="referralCounter < 8">
+            <div class="row" ng-show="referralCounter > 1">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <input type="text" ng-model="name2" class="form-control" placeholder="example: Carl Winslow">
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <input type="email" ng-model="email2" class="form-control" placeholder="example: carl@familyMatters.com">
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <select class="form-control" ng-model="interest2">
+                        <option>Select one</option>
+                        <option value="productDev">Product development services.</option>
+                        <option value="customerAcq">Customer acquisition services.</option>
+                        <option value="marketingTraining">Free marketing training.</option>
+                        <option value="codingTraining">Free coding training.</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row" ng-show="referralCounter > 2">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <input type="text" ng-model="name3" class="form-control" placeholder="example: Carl Winslow">
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <input type="email" ng-model="email3" class="form-control" placeholder="example: carl@familyMatters.com">
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <select class="form-control" ng-model="interest3">
+                        <option>Select one</option>
+                        <option value="productDev">Product development services.</option>
+                        <option value="customerAcq">Customer acquisition services.</option>
+                        <option value="marketingTraining">Free marketing training.</option>
+                        <option value="codingTraining">Free coding training.</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row" ng-show="referralCounter > 3">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <input type="text" ng-model="name4" class="form-control" placeholder="example: Carl Winslow">
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <input type="email" ng-model="email4" class="form-control" placeholder="example: carl@familyMatters.com">
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <select class="form-control" ng-model="interest4">
+                        <option>Select one</option>
+                        <option value="productDev">Product development services.</option>
+                        <option value="customerAcq">Customer acquisition services.</option>
+                        <option value="marketingTraining">Free marketing training.</option>
+                        <option value="codingTraining">Free coding training.</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row" ng-show="referralCounter > 4">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <input type="text" ng-model="name5" class="form-control" placeholder="example: Carl Winslow">
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <input type="email" ng-model="email5" class="form-control" placeholder="example: carl@familyMatters.com">
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <select class="form-control" ng-model="interest5">
+                        <option>Select one</option>
+                        <option value="productDev">Product development services.</option>
+                        <option value="customerAcq">Customer acquisition services.</option>
+                        <option value="marketingTraining">Free marketing training.</option>
+                        <option value="codingTraining">Free coding training.</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row" ng-if="referralCounter < 5">
                 <button class="btn btn-lg btn-warning pull-left" ng-click="addReferral(referralCounter)">Add another person</button>
             </div>
+
             <div class="row">
-                <button class="btn btn-lg btn-warning pull-right">Done</button>
+                <button class="btn btn-lg btn-warning pull-right" ng-click="sendReferrals(name0, name1, name2, name3, name4)">Done</button>
             </div>
-            {{referralCounter}}
+
+
+
+
         </div>
     </div>
 
