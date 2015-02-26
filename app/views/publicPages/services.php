@@ -316,7 +316,7 @@
 
     <!--quote requested section-->
     <div ng-if="quoteRequested">
-        <div class="row text-center">
+        <div ng-if="!quoteRequestSubmitted" class="row text-center">
             <div class="col-sm-6 col-md-6 col-lg-6">
                 <div>
                     <label for="serviceOfInterest">What are you primarily interested in?</label>
@@ -440,11 +440,14 @@
             </div>
 
         </div>
+        <div ng-if="quoteRequestSubmitted">
+            Quote submitted!
+        </div>
     </div>
 
     <!--walk section-->
     <div ng-if="walk">
-        <div class="text-center">
+        <div ng-if="!referralsSubmitted" class="text-center">
             <div class="row">
                 <h4>Hey, Wait!</h4>
                 <p>Really sorry we won't work together, I wish you luck anyway. Before you leave could tell me about anyone you know who <em>would</em> benefit from these services? Or maybe someone you know who would be interested in free coding or marketing training, <em>yourself included</em>. Thanks!</p>
@@ -578,6 +581,9 @@
 
 
 
+        </div>
+        <div ng-if="referralsSubmitted">
+            referrals submitted!
         </div>
     </div>
 

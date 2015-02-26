@@ -13,6 +13,9 @@ angular.module('app')
 
         $scope.referralCounter = 0;
 
+        $scope.referralsSubmitted = false;
+        $scope.quoteRequestSubmitted = false;
+
         $scope.setServices = function(value)
         {
             $scope.servicesSetTo = value;
@@ -81,12 +84,13 @@ angular.module('app')
 
             $http.post('/api.v1/connect', data).
                 success(function(data, status, headers, config) {
-                    //$scope.message = data;
-                    console.log(data);
+                    $scope.message = data;
             }).
                 error(function (data, status, headers, config){
                     $scope.error = data;
-                })
+                });
+
+            $scope.quoteRequestSubmitted = true;
 
         };
 
@@ -128,15 +132,15 @@ angular.module('app')
                 phone : '215-222-0000'
             };
 
-
             $http.post('/api.v1/connect', data).
                 success(function(data, status, headers, config) {
-                    //$scope.message = data;
-                    console.log(data);
+                    $scope.message = data;
                 }).
                 error(function (data, status, headers, config){
                     $scope.error = data;
-                })
+                });
+
+            $scope.referralsSubmitted = true;
 
         };
 
