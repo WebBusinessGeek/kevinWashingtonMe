@@ -441,7 +441,8 @@
 
         </div>
         <div ng-if="quoteRequestSubmitted">
-            Quote submitted!
+            <h2>Thank you! I will plan to reach out to you shortly.</h2>
+            <a href="/">Go back home</a>
         </div>
     </div>
 
@@ -583,7 +584,8 @@
 
         </div>
         <div ng-if="referralsSubmitted">
-            referrals submitted!
+            <h2>Thank you again! Good luck achieving your business objectives.</h2>
+            <a href="/">Go back home</a>
         </div>
     </div>
 
