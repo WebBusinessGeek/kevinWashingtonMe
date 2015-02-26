@@ -30,17 +30,30 @@
        <!--product questions-->
         <div ng-if="servicesSetTo == 'product'">
             <div ng-if="!answered">
-                <p>product question 1</p>
+                <p>
+                    Beach Head Market Selection is the process in which a venture identifies and selects the market that gives it the highest probability of success.
+                    In actuality, picking the correct market can be the difference between success and failure.
+                    For example, going too niche could give a venture great conversions but low quantity, and selecting a market that's too big or crowded could lead to the venture being overwhelmed.
+                    Weighing the strengths of those involved in the venture, determining the total market size, and understanding the customers intimately are a few of the essential todo’s before having enough information to tackle this process effectively.
+                </p>
                 <button class="btn btn-warning btn-lg" ng-click="answerYes(1)">answer question 1 yes</button>
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(1)">answer question 1 no</button>
             </div>
             <div ng-if="answered == 1">
-                <p>product question 2</p>
+                <p>
+                    A Revenue Generation Strategy is simply the way a business captures the value (or makes money) from the value a product creates for a customer.
+                    As the primary objective of most businesses is to generate and maintain a significant amount of sales, this process deserves a lot of attention, innovation, and testing.
+                    Identifying the primary captures points in a product’s usage cycle, being empathetic of the customer, and looking for unique competitive advantages are all helpful when working to develop an effective and unique revenue generation model.
+                </p>
                 <button class="btn btn-warning btn-lg" ng-click="answerYes(2)">answer question 2 yes</button>
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(2)">answer question 2 no</button>
             </div>
             <div ng-if="answered == 2">
-                <p>product question 3</p>
+                <p>
+                    It is my belief that Branding is about perception, and if done well that perception should not only effect the conscious decision making of potential customers, but also the subconscious thought processes that invoke trust and credibility.
+                    In many ways a company’s brand can take on an identity of itself and can be manifested as massive customer loyalty or captivating marketing materials.
+                    While branding is one of the many concepts I would love to research and understand more, the core component I do understand is that the value of doing it well reaches far beyond simply converting customers and spans into building followings. Which in my opinion can be argued to be much more valuable.
+                </p>
                 <button class="btn btn-warning btn-lg" ng-click="answerYes(3)">answer question 3 yes</button>
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(3)">answer question 3 no</button>
             </div>
@@ -48,18 +61,34 @@
         <!--customer questions-->
         <div ng-if="servicesSetTo == 'customers'">
             <div ng-if="!answered">
-                <p>customer question 1</p>
+                <p>
+                    Marketing strategy is less about developing low level checklists and more about marrying the low-level abilities to high-level business objectives.
+                    It is about asking the right questions, and drawing logical and analytical conclusions.
+                    Instead of researching the right keywords, asking oneself if SEO is even the most profitable medium to interact with customers in the first place.
+                    Or instead of writing guest posts, asking if that time would have been better spent running sales training or mystery shopping the sales team.
+                    Strategy in my opinion cannot just be short term tactics but must also fit cohesively into an overarching plan for marketing success.
+                </p>
                 <button class="btn btn-warning btn-lg" ng-click="answerYes(1)">answer question 1 yes</button>
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(1)">answer question 1 no</button>
 
             </div>
             <div ng-if="answered == 1">
-                <p>customer question 2</p>
+                <p>
+                    It is my belief that Branding is about perception, and if done well that perception should not only effect the conscious decision making of potential customers, but also the subconscious thought processes that invoke trust and credibility.
+                    In many ways a company’s brand can take on an identity of itself and can be manifested as massive customer loyalty or captivating marketing materials.
+                    While branding is one of the many concepts I would love to research and understand more, the core component I do understand is that the value of doing it well reaches far beyond simply converting customers and spans into building followings.
+                    Which in my opinion can be argued to be much more valuable.
+                </p>
                 <button class="btn btn-warning btn-lg" ng-click="answerYes(2)">answer question 2 yes</button>
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(2)">answer question 2 no</button>
             </div>
             <div ng-if="answered == 2">
-                <p>customer question 3</p>
+                <p>
+                    Customer Research is the attempt to deeply understand the current or potential users of a given product.
+                    While it is summed up quite swiftly, the advantages of conducting proper customer research span into many areas of a venture.
+                    These applications include staging as a ‘cheat sheet’ for lead generation strategists attempting to locate their target market, while also acting as a blueprint of true pain points leading to more accurate product development.
+                    Conducting adequate customer research should keep a venture customer driven and could lead to identifying unmet needs, innovative marketing strategies, and more efficient decision making.
+                </p>
                 <button class="btn btn-warning btn-lg" ng-click="answerYes(3)">answer question 3 yes</button>
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(3)">answer question 3 no</button>
             </div>
