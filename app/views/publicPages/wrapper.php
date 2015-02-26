@@ -96,7 +96,7 @@
             color:#fff;
         }
         .navLinks:hover{
-            color:#fff;
+            color:#000;
         }
 
     </style>
