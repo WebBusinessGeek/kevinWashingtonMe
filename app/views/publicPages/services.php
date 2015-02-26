@@ -451,13 +451,13 @@
             </div>
             <div class="row">
                <div class="col-sm-4 col-md-4 col-lg-4">
-                   <input type="text" name="name" class="form-control" placeholder="example: Carl Winslow">
+                   <input type="text" ng-model="name0" class="form-control" placeholder="example: Carl Winslow">
                </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                    <input type="email" name="email" class="form-control" placeholder="example: carl@familyMatters.com">
+                    <input type="email" ng-model="email0" class="form-control" placeholder="example: carl@familyMatters.com">
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                    <select class="form-control">
+                    <select class="form-control" ng-model="interest0">
                         <option>Select one</option>
                         <option value="productDev">Product development services.</option>
                         <option value="customerAcq">Customer acquisition services.</option>
@@ -469,13 +469,13 @@
             <div id="lastReferral">
             </div>
 
-            <div class="row">
-                <button class="btn btn-lg btn-warning pull-left" ng-click="addReferral()">Add another person</button>
+            <div class="row" ng-if="referralCounter < 8">
+                <button class="btn btn-lg btn-warning pull-left" ng-click="addReferral(referralCounter)">Add another person</button>
             </div>
             <div class="row">
                 <button class="btn btn-lg btn-warning pull-right">Done</button>
             </div>
-
+            {{referralCounter}}
         </div>
     </div>
 
