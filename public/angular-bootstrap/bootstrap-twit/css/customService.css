@@ -37,3 +37,14 @@
 #quizRequestSubTitle{
     margin-top: 0px;
 }
+
+.quizQuestion {
+    background: #fff;
+    min-height:360px;
+    padding-top:40px;
+}
+
+.quizQuestion > p {
+    font-family: 'Roboto', sans-serif;
+}
+

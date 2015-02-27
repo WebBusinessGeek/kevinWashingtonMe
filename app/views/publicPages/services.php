@@ -30,7 +30,7 @@
             <img src="http://placehold.it/150/">
             <p class="">
                 I have found that when collaborating, the chemistry in teams can be just as important as the talent of each individual.
-                If its alright with you - can I get an idea of how compatible we could be with 3 really quick questions?
+                Before seeing my services - can I get an idea of how compatible we could be with 3 really quick questions?
             </p>
             <button class="btn btn-warning btn-lg" ng-click="yesQuestions()">Sure, why not</button>
             <br/>
@@ -43,9 +43,11 @@
 
     <!--question section -->
     <div ng-if="revealQuestions && !revealServices" class="row text-center">
-       <!--product questions-->
+        <div class="col-sm-2 col-md-3 col-lg-3"></div>
+        <!--product questions-->
         <div ng-if="servicesSetTo == 'product'">
-            <div ng-if="!answered">
+            <div ng-if="!answered" class="col-sm-8 col-md-6 col-lg-6 quizQuestion">
+                <h4>Do you agree?</h4>
                 <p>
                     Beach Head Market Selection is the process in which a venture identifies and selects the market that gives it the highest probability of success.
                     In actuality, picking the correct market can be the difference between success and failure.
@@ -55,7 +57,8 @@
                 <button class="btn btn-warning btn-lg" ng-click="answerYes(1)">answer question 1 yes</button>
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(1)">answer question 1 no</button>
             </div>
-            <div ng-if="answered == 1">
+            <div ng-if="answered == 1" class="col-sm-8 col-md-6 col-lg-6 quizQuestion">
+                <h4>Do you agree?</h4>
                 <p>
                     A Revenue Generation Strategy is simply the way a business captures the value (or makes money) from the value a product creates for a customer.
                     As the primary objective of most businesses is to generate and maintain a significant amount of sales, this process deserves a lot of attention, innovation, and testing.
@@ -64,7 +67,8 @@
                 <button class="btn btn-warning btn-lg" ng-click="answerYes(2)">answer question 2 yes</button>
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(2)">answer question 2 no</button>
             </div>
-            <div ng-if="answered == 2">
+            <div ng-if="answered == 2" class="col-sm-8 col-md-6 col-lg-6 quizQuestion">
+                <h4>Do you agree?</h4>
                 <p>
                     It is my belief that Branding is about perception, and if done well that perception should not only effect the conscious decision making of potential customers, but also the subconscious thought processes that invoke trust and credibility.
                     In many ways a company’s brand can take on an identity of itself and can be manifested as massive customer loyalty or captivating marketing materials.
@@ -76,7 +80,8 @@
         </div>
         <!--customer questions-->
         <div ng-if="servicesSetTo == 'customers'">
-            <div ng-if="!answered">
+            <div ng-if="!answered" class="col-sm-8 col-md-6 col-lg-6 quizQuestion">
+                <h4>Do you agree?</h4>
                 <p>
                     Marketing strategy is less about developing low level checklists and more about marrying the low-level abilities to high-level business objectives.
                     It is about asking the right questions, and drawing logical and analytical conclusions.
@@ -88,7 +93,8 @@
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(1)">answer question 1 no</button>
 
             </div>
-            <div ng-if="answered == 1">
+            <div ng-if="answered == 1" class="col-sm-8 col-md-6 col-lg-6 quizQuestion">
+                <h4>Do you agree?</h4>
                 <p>
                     It is my belief that Branding is about perception, and if done well that perception should not only effect the conscious decision making of potential customers, but also the subconscious thought processes that invoke trust and credibility.
                     In many ways a company’s brand can take on an identity of itself and can be manifested as massive customer loyalty or captivating marketing materials.
@@ -98,7 +104,8 @@
                 <button class="btn btn-warning btn-lg" ng-click="answerYes(2)">answer question 2 yes</button>
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(2)">answer question 2 no</button>
             </div>
-            <div ng-if="answered == 2">
+            <div ng-if="answered == 2" class="col-sm-8 col-md-6 col-lg-6 quizQuestion">
+                <h4>Do you agree?</h4>
                 <p>
                     Customer Research is the attempt to deeply understand the current or potential users of a given product.
                     While it is summed up quite swiftly, the advantages of conducting proper customer research span into many areas of a venture.
