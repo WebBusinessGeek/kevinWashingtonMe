@@ -30,8 +30,8 @@
           <file leaf-file-name="services.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/services.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2086331" vertical-offset="3280" max-vertical-offset="16575">
-                  <caret line="137" column="39" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="39" />
+                <state vertical-scroll-proportion="0.676259" vertical-offset="3230" max-vertical-offset="16675">
+                  <caret line="148" column="124" selection-start-line="148" selection-start-column="124" selection-end-line="148" selection-end-column="124" />
                   <folding />
                 </state>
               </provider>
@@ -734,14 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2086331" vertical-offset="3280" max-vertical-offset="16575">
-          <caret line="137" column="39" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customService.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24238227" vertical-offset="0" max-vertical-offset="1500">
@@ -754,6 +746,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17985612" vertical-offset="0" max-vertical-offset="3750">
           <caret line="5" column="87" selection-start-line="5" selection-start-column="87" selection-end-line="5" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.676259" vertical-offset="3230" max-vertical-offset="16675">
+          <caret line="148" column="124" selection-start-line="148" selection-start-column="124" selection-end-line="148" selection-end-column="124" />
           <folding />
         </state>
       </provider>

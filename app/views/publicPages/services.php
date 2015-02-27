@@ -135,16 +135,20 @@
                     <span ng-if="servicesSetTo == 'product'">product development.</span>
                     <span ng-if="servicesSetTo == 'customers'">customer acquisition.</span>
                     While a bit of constrasting in thought processes are good, I would like to caution you in working with me
-                    as these viewpoints are core components of the frameworks I have developed over the years.
+                    as these viewpoints are core components of the
+                    <span ng-if="servicesSetTo == 'product'">product-to-market</span>
+                    <span ng-if="servicesSetTo == 'customers'">lead generation and conversion</span>
+                    frameworks I have developed over the years.
                 </p>
                 <button class="btn btn-warning btn-lg" ng-click="showServices()">View services</button>
             </div>
-            <div ng-if="yesCounter == 2">
-                <p>This will be a message that we could be a good team</p>
-                <button class="btn btn-warning btn-lg" ng-click="showServices()">Check out my services</button>
-            </div>
-            <div ng-if="yesCounter == 3">
-                <p>This will be a message that we should work really well together.</p>
+            <div ng-if="yesCounter == 2 || yesCounter == 3">
+                <p>
+                    From your answers it seems that we agree on many of the core components that help shape
+                    <span ng-if="servicesSetTo == 'product'">a successful product development process.</span>
+                    <span ng-if="servicesSetTo == 'customers'">the strategy needed to be effective generating new customers.</span>
+                    Hopefully you find one of the plans I offer fitting and we can work together soon!
+                </p>
                 <button class="btn btn-warning btn-lg" ng-click="showServices()">Look forward to working with you</button>
             </div>
         </div>
