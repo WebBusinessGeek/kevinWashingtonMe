@@ -181,19 +181,18 @@
                     <h4>InnovationPlus</h4>
                     <p class="planSubTitle">A cutting-edge product management solution for creators.</p>
                     <img src="http://placehold.it/80/"/>
-                    <ul class="text-left">
-                        <li>Beach head Market Research</li>
-                        <li>Base Traction Strategy</li>
-                        <li>Customer Research</li>
-                        <li>Product Strategy</li>
-                        <li>Product Development</li>
-                        <li>Alpha/Beta Viability & Testing</li>
-                        <li>Product launch</li>
-                        <li>Growth</li>
-                        <li>General Collaboration</li>
-                        <li>Training</li>
-                        <li>No Long Term Commitments</li>
-                    </ul>
+
+                        <p>Beach head Market Research</p>
+                        <p>Base Traction Strategy</p>
+                        <p>Customer Research</p>
+                        <p>Product Strategy</p>
+                        <p>Product Development</p>
+                        <p>Alpha/Beta Viability & Testing</p>
+                        <p>Product launch</p>
+                        <p>Growth</p>
+                        <p>General Collaboration</p>
+                        <p>Training</p>
+                        <p>No Long Term Commitments</p>
                 </div>
                 <div class="col-sm-12 col-md-1 col-lg-2"></div>
 
@@ -201,21 +200,20 @@
                     <h4>PrototypePlus</h4>
                     <p class="planSubTitle">A unique product to market solution for new ventures.</p>
                     <img src="http://placehold.it/80/"/>
-                    <ul class="text-left">
-                        <li>Beach head Market Research</li>
-                        <li>Base Traction Strategy</li>
-                        <li>Customer Research</li>
-                        <li>Product Strategy</li>
-                        <li>Product Development</li>
-                        <li>Alpha/Beta Viability & Testing</li>
-                        <li>Product launch</li>
-                        <li>Growth</li>
-                        <li>General Collaboration</li>
-                        <li>Training</li>
-                        <li>Team management</li>
-                        <li>Professional Level Coding & Design</li>
-                        <li>No Long Term Commitments</li>
-                    </ul>
+
+                        <p>Beach head Market Research</p>
+                        <p>Base Traction Strategy</p>
+                        <p>Customer Research</p>
+                        <p>Product Strategy</p>
+                        <p>Product Development</p>
+                        <p>Alpha/Beta Viability & Testing</p>
+                        <p>Product launch</p>
+                        <p>Growth</p>
+                        <p>General Collaboration</p>
+                        <p>Training</p>
+                        <p>Team management</p>
+                        <p>Professional Level Coding & Design</p>
+                        <p>No Long Term Commitments</p>
                 </div>
                 <!--<div class="col-sm-4 col-md-4 col-lg-4">
                     <p>Collaborative/Custom - product</p>
@@ -226,40 +224,47 @@
                     <h4>StrategyPlus</h4>
                     <p class="planSubTitle">A practical marketing solution for engaged owners.</p>
                     <img src="http://placehold.it/80/"/>
-                    <ul class="text-left">
-                        <li>Essential Research</li>
-                        <li>Analytics and Performance</li>
-                        <li>Objectives</li>
-                        <li>Achievement Strategy & Tactics</li>
-                        <li>Project Management</li>
-                        <li>Success Tracking / Report Development</li>
-                        <li>Conversion Rate & Process Optimization</li>
-                        <li>Follow On Strategy</li>
-                        <li>Training</li>
-                        <li>General Collaboration</li>
-                        <li>No Long Term Commitments</li>
-                    </ul>
+
+                        <p>Essential Research</p>
+                        <p>Analytics and Performance</p>
+                        <p>Objectives</p>
+                        <p>Achievement Strategy & Tactics</p>
+                        <p>Project Management</p>
+                        <p>Success Tracking / Report Development</p>
+                        <p>Conversion Rate & Process Optimization</p>
+                        <p>Follow On Strategy</p>
+                        <p>Training</p>
+                        <p>General Collaboration</p>
+                        <p>No Long Term Commitments</p>
                 </div>
                 <div class="col-sm-12 col-md-1 col-lg-2"></div>
                 <div class="col-sm-12 col-md-12 col-lg-4 servicePlanLarge">
-                    <h4>GrowthPlus</h4>
-                    <p class="planSubTitle">A complete customer acquisition solution for new and growing businesses.</p>
-                    <img src="http://placehold.it/80/"/>
-                    <ul class="text-left">
-                        <li>Essential Research</li>
-                        <li>Analytics and Performance</li>
-                        <li>Objectives</li>
-                        <li>Achievement Strategy & Tactics</li>
-                        <li>Project Management</li>
-                        <li>Success Tracking / Report Development</li>
-                        <li>Conversion Rate & Process Optimization</li>
-                        <li>Follow On Strategy</li>
-                        <li>Training</li>
-                        <li>General Collaboration</li>
-                        <li>Team Management</li>
-                        <li>Implementation & Execution</li>
-                        <li>No Long Term Commitments</li>
-                    </ul>
+                    <div class="planHeader">
+                        <h4>GrowthPlus</h4>
+                    </div>
+                    <div class="planSubHeader">
+                        <p class="planSubTitle">A complete customer acquisition solution for new and growing businesses.</p>
+                    </div>
+                    <div ng-hide="largeAmenitiesVisible" class="planImage" ng-mouseenter="showLargeAmenities()">
+                        <img src="http://placehold.it/256/"/>
+                        <p>Hover over me to see amenties</p>
+                    </div>
+                    <div ng-hide="!largeAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideLargeAmenities()">
+                        <p>Essential Research</p>
+                        <p>Analytics and Performance</p>
+                        <p>Objectives</p>
+                        <p>Achievement Strategy & Tactics</p>
+                        <p>Project Management</p>
+                        <p>Success Tracking / Report Development</p>
+                        <p>Conversion Rate & Process Optimization</p>
+                        <p>Follow On Strategy</p>
+                        <p>Training</p>
+                        <p>General Collaboration</p>
+                        <p>Team Management</p>
+                        <p>Implementation & Execution</p>
+                        <p>No Long Term Commitments</p>
+                    </div>
+
                 </div>
             </div>
             <!--<div class="col-sm-1 col-md-1 col-lg-1"></div>

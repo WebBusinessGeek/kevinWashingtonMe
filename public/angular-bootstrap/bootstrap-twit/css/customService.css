@@ -27,6 +27,8 @@
 #quizRequest > p {
     font-family: 'Roboto', sans-serif;
     margin-top: 40px;
+    line-height: 160%;
+
 }
 
 #quizRequest > img {
@@ -50,6 +52,7 @@
 
 .quizQuestion > p {
     font-family: 'Roboto', sans-serif;
+    line-height: 160%;
 }
 
 .quizAnswer {
@@ -60,10 +63,11 @@
 
 .quizAnswer > p {
     font-family: 'Roboto', sans-serif;
+    line-height: 160%;
 }
 
 .servicePlanSmall {
-    background: #fff;
+    /*background: #fff;*/
 }
 
 .servicePlanSmall > p {
@@ -71,7 +75,7 @@
 }
 
 .servicePlanLarge {
-    background: #fff;
+    /*background: #fff;*/
 }
 
 .servicePlanLarge > p {
@@ -84,4 +88,44 @@
 
 #collaborativePlan {
     background: #fff;
+}
+
+.planHeader {
+    background: #44464a;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.planSubHeader {
+    padding-top: 10px;
+    background: #dadada;
+    color: #44464a;
+    min-height: 60px;
+}
+
+.planSubHeader > p {
+    font-family: 'Arvo', serif;
+}
+
+.planImage {
+    background: #fff;
+    padding-top: 25px;
+    margin-top:-10px;
+    margin-bottom: 10px;
+    min-height: 320px;
+    /*display: none;*/
+}
+
+.planAmenities {
+    background: #fff;
+}
+
+.planAmenities > p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+    min-height: 40px;
+    border-top: 1px solid #dadada;
+    font-family: 'Roboto', sans-serif;
 }

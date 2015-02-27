@@ -16,6 +16,9 @@ angular.module('app')
         $scope.referralsSubmitted = false;
         $scope.quoteRequestSubmitted = false;
 
+        $scope.largeAmenitiesVisible = false;
+
+
         $scope.setServices = function(value)
         {
             $scope.servicesSetTo = value;
@@ -145,6 +148,15 @@ angular.module('app')
         };
 
 
+        $scope.showLargeAmenities = function()
+        {
+            $scope.largeAmenitiesVisible = true;
+        };
+
+        $scope.hideLargeAmenities = function()
+        {
+            $scope.largeAmenitiesVisible = false;
+        };
 
 
     }]);
