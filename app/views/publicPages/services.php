@@ -120,11 +120,23 @@
         <!--results to questions-->
         <div ng-if="answered == 3">
             <div ng-if="yesCounter == 0">
-                <p>This will be a warning message that we may be incompatible.</p>
+                <p>
+                    While I am a strong believer that diversity in thinking is needed to learn, grow and develop as a team...
+                    It seems we do not agree on many foundational components that are building blocks of
+                    <span ng-if="servicesSetTo == 'product'">successful product development.</span>
+                    <span ng-if="servicesSetTo == 'customers'"> a successful customer acquisition strategy.</span>
+                    I would like to caution you in moving forward with me as many of these incompatibilities could become obstacles in the future.
+                </p>
                 <button class="btn btn-warning btn-lg" ng-click="showServices()">See services anyway</button>
             </div>
             <div ng-if="yesCounter == 1">
-                <p>This will be a message that we are a bit different but thats ok.</p>
+                <p>
+                    It seems we have a pretty diverse way of looking at
+                    <span ng-if="servicesSetTo == 'product'">product development.</span>
+                    <span ng-if="servicesSetTo == 'customers'">customer acquisition.</span>
+                    While a bit of constrasting in thought processes are good, I would like to caution you in working with me
+                    as these viewpoints are core components of the frameworks I have developed over the years.
+                </p>
                 <button class="btn btn-warning btn-lg" ng-click="showServices()">View services</button>
             </div>
             <div ng-if="yesCounter == 2">
