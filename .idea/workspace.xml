@@ -31,7 +31,7 @@
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/services.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.78417265" vertical-offset="255" max-vertical-offset="16100">
-                  <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+                  <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
                   <folding />
                 </state>
               </provider>
@@ -788,18 +788,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78417265" vertical-offset="255" max-vertical-offset="16100">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customService.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34210527" vertical-offset="203" max-vertical-offset="1100">
           <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78417265" vertical-offset="255" max-vertical-offset="16100">
+          <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
           <folding />
         </state>
       </provider>

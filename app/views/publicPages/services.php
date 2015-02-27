@@ -30,7 +30,7 @@
             <img src="http://placehold.it/150/">
             <p class="">
                 I have found that when collaborating, the chemistry in teams can be just as important as the talent of each individual.
-                If its alright with you - can I get an idea of how compatible we are with 3 really quick questions?
+                If its alright with you - can I get an idea of how compatible we could be with 3 really quick questions?
             </p>
             <button class="btn btn-warning btn-lg" ng-click="yesQuestions()">Sure, why not</button>
             <br/>
