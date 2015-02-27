@@ -3,7 +3,7 @@
 
     <div id="contactNav" >
         <div class="row" id="contactNavHeader">
-            <h2 class="text-center pageTitle">4 Easy Ways to Connect</h2>
+            <h2 class="text-center pageTitle">4 easy ways to connect with me.</h2>
         </div>
         <div class="row text-center" id="contactNavList">
 

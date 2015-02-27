@@ -4,6 +4,10 @@
     background: #fff;
 }
 
+.chooseService:hover {
+    cursor:pointer;
+}
+
 .chooseService > img {
     margin-top: 40px;
 }
