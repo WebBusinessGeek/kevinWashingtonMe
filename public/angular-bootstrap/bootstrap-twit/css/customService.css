@@ -1,0 +1,13 @@
+
+.chooseService {
+    min-height: 380px;
+    background: #fff;
+}
+
+.chooseService > img {
+    margin-top: 40px;
+}
+
+.chooseService:hover {
+    background: #dadada;
+}

@@ -1,16 +1,20 @@
 <div ng-controller="servicesController">
-    <h2 ng-if="!servicesSetTo" class="text-center">I could use help...</h2>
+    <h2 ng-if="!servicesSetTo" class="text-center pageTitle">I could use help...</h2>
 
-    <div ng-if="!servicesSetTo" class="row">
-        <div class="col-lg-2"></div>
+    <div ng-if="!servicesSetTo" class="row text-center ">
+        <div class="col-lg-1"></div>
 
-        <div class="col-sm-12 col-md-12 col-lg-4">
-            <button class="btn btn-warning btn-lg" ng-click="setServices('product')">+ Building my Product</button>
+        <div class="col-sm-12 col-md-12 col-lg-4 chooseService" ng-click="setServices('product')">
+            <img src="http://placehold.it/250/">
+<!--            <button class="btn btn-warning btn-lg" ng-click="setServices('product')">+ Building my Product</button>-->
+            <h4>Building my product</h4>
         </div>
         <div class="col-sm-12 col-md-1 col-lg-2"></div>
 
-        <div class="col-sm-12 col-md-12 col-lg-4">
-            <button class="btn btn-warning btn-lg" ng-click="setServices('customers')">+ Getting more Customers</button>
+        <div class="col-sm-12 col-md-12 col-lg-4 chooseService" ng-click="setServices('customers')">
+            <img src="http://placehold.it/250/">
+<!--            <button class="btn btn-warning btn-lg" ng-click="setServices('customers')">+ Getting more Customers</button>-->
+            <h4>Getting more customers</h4>
         </div>
 
     </div>

@@ -11,6 +11,7 @@
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap-theme.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/innerPageStyling.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customSkill.css" rel="stylesheet">
+    <link href="/angular-bootstrap/bootstrap-twit/css/customService.css" rel="stylesheet">
 
 
     <link rel="shortcut icon" href="/assets/kwFavIcon.ico" type="image/x-icon">
@@ -97,6 +98,11 @@
         }
         .navLinks:hover{
             color:#000;
+        }
+
+        .pageTitle {
+            margin-top: -10px;
+            margin-bottom: 50px;
         }
 
     </style>
