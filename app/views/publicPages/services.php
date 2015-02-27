@@ -119,7 +119,8 @@
 
         <!--results to questions-->
         <div ng-if="answered == 3">
-            <div ng-if="yesCounter == 0">
+            <div ng-if="yesCounter == 0" class="col-sm-8 col-md-6 col-lg-6 quizAnswer">
+                <h4>I don't know about this...</h4>
                 <p>
                     While I am a strong believer that diversity in thinking is needed to learn, grow and develop as a team...
                     It seems we do not agree on many foundational components that are building blocks of
@@ -127,9 +128,15 @@
                     <span ng-if="servicesSetTo == 'customers'"> a successful customer acquisition strategy.</span>
                     I would like to caution you in moving forward with me as many of these incompatibilities could become obstacles in the future.
                 </p>
-                <button class="btn btn-warning btn-lg" ng-click="showServices()">See services anyway</button>
+                <button class="btn btn-warning btn-lg" ng-click="showServices()">
+                    Review my
+                    <span ng-if="servicesSetTo == 'product'">Product development services</span>
+                    <span ng-if="servicesSetTo == 'customers'">Customer acquisition services</span>
+                    anyway
+                </button>
             </div>
-            <div ng-if="yesCounter == 1">
+            <div ng-if="yesCounter == 1" class="col-sm-8 col-md-6 col-lg-6 quizAnswer">
+                <h4>Might be some issues...</h4>
                 <p>
                     It seems we have a pretty diverse way of looking at
                     <span ng-if="servicesSetTo == 'product'">product development.</span>
@@ -140,16 +147,25 @@
                     <span ng-if="servicesSetTo == 'customers'">lead generation and conversion</span>
                     frameworks I have developed over the years.
                 </p>
-                <button class="btn btn-warning btn-lg" ng-click="showServices()">View services</button>
+                <button class="btn btn-warning btn-lg" ng-click="showServices()">
+                    Review my
+                    <span ng-if="servicesSetTo == 'product'">Product development services</span>
+                    <span ng-if="servicesSetTo == 'customers'">Customer acquisition services</span>
+                    anyway
+                </button>
             </div>
-            <div ng-if="yesCounter == 2 || yesCounter == 3">
+            <div ng-if="yesCounter == 2 || yesCounter == 3" class="col-sm-8 col-md-6 col-lg-6 quizAnswer">
+                <h4>Good news...</h4>
                 <p>
                     From your answers it seems that we agree on many of the core components that help shape
                     <span ng-if="servicesSetTo == 'product'">a successful product development process.</span>
                     <span ng-if="servicesSetTo == 'customers'">the strategy needed to be effective generating new customers.</span>
                     Hopefully you find one of the plans I offer fitting and we can work together soon!
                 </p>
-                <button class="btn btn-warning btn-lg" ng-click="showServices()">Look forward to working with you</button>
+                <button class="btn btn-warning btn-lg" ng-click="showServices()">
+                    <span ng-if="servicesSetTo == 'product'">Product development services</span>
+                    <span ng-if="servicesSetTo == 'customers'">Customer acquisition services</span>
+                </button>
             </div>
         </div>
     </div>

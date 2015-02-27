@@ -52,3 +52,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.quizAnswer {
+    background: #fff;
+    min-height:240px;
+    padding-top: 30px;
+}
+
+.quizAnswer > p {
+    font-family: 'Roboto', sans-serif;
+
+}
