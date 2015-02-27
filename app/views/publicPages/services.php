@@ -175,10 +175,12 @@
 
         <!--service amenities-->
         <div class="row text-center">
+            <div class="col-lg-1"></div>
             <div ng-if="servicesSetTo == 'product'">
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-12 col-md-12 col-lg-4 servicePlanSmall">
                     <h4>InnovationPlus</h4>
-                    <p>A cutting-edge product management solution for creators.</p>
+                    <p class="planSubTitle">A cutting-edge product management solution for creators.</p>
+                    <img src="http://placehold.it/80/"/>
                     <ul class="text-left">
                         <li>Beach head Market Research</li>
                         <li>Base Traction Strategy</li>
@@ -193,9 +195,12 @@
                         <li>No Long Term Commitments</li>
                     </ul>
                 </div>
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-12 col-md-1 col-lg-2"></div>
+
+                <div class="col-sm-12 col-md-12 col-lg-4 servicePlanLarge">
                     <h4>PrototypePlus</h4>
-                    <p>A unique product to market solution for new ventures.</p>
+                    <p class="planSubTitle">A unique product to market solution for new ventures.</p>
+                    <img src="http://placehold.it/80/"/>
                     <ul class="text-left">
                         <li>Beach head Market Research</li>
                         <li>Base Traction Strategy</li>
@@ -217,9 +222,10 @@
                 </div>-->
             </div>
             <div ng-if="servicesSetTo == 'customers'">
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-12 col-md-12 col-lg-4 servicePlanSmall">
                     <h4>StrategyPlus</h4>
-                    <p>A practical marketing solution for engaged owners.</p>
+                    <p class="planSubTitle">A practical marketing solution for engaged owners.</p>
+                    <img src="http://placehold.it/80/"/>
                     <ul class="text-left">
                         <li>Essential Research</li>
                         <li>Analytics and Performance</li>
@@ -234,9 +240,11 @@
                         <li>No Long Term Commitments</li>
                     </ul>
                 </div>
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-12 col-md-1 col-lg-2"></div>
+                <div class="col-sm-12 col-md-12 col-lg-4 servicePlanLarge">
                     <h4>GrowthPlus</h4>
-                    <p>A complete customer acquisition solution for new and growing businesses.</p>
+                    <p class="planSubTitle">A complete customer acquisition solution for new and growing businesses.</p>
+                    <img src="http://placehold.it/80/"/>
                     <ul class="text-left">
                         <li>Essential Research</li>
                         <li>Analytics and Performance</li>
@@ -254,11 +262,12 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-4 col-md-4 col-lg-4">
+            <!--<div class="col-sm-1 col-md-1 col-lg-1"></div>
+            <div id="collaborativePlan" class="col-sm-2 col-md-2 col-lg-2">
                 <h4>Collaborative/Custom</h4>
                 <p>Already have some ideas on how you want to work with me? I'm willing to listen.</p>
                 <p><a href="/connect">Connect with me</a> and let's talk about it.</p>
-            </div>
+            </div>-->
         </div>
 
         <!--what's the difference?-->

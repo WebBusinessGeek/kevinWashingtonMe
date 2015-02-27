@@ -60,5 +60,28 @@
 
 .quizAnswer > p {
     font-family: 'Roboto', sans-serif;
+}
 
+.servicePlanSmall {
+    background: #fff;
+}
+
+.servicePlanSmall > p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.servicePlanLarge {
+    background: #fff;
+}
+
+.servicePlanLarge > p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.planSubTitle {
+
+}
+
+#collaborativePlan {
+    background: #fff;
 }
