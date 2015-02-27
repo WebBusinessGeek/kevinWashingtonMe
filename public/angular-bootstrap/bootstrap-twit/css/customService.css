@@ -11,3 +11,29 @@
 .chooseService:hover {
     background: #dadada;
 }
+
+#quizRequest {
+    background: #fff;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 420px;
+}
+
+#quizRequest > p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+}
+
+#quizRequest > img {
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+#quizRequest > button {
+    margin-bottom: 10px;
+}
+
+#quizRequestSubTitle{
+    margin-top: 0px;
+}

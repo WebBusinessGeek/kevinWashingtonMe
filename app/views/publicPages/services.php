@@ -23,8 +23,20 @@
 
     <!--pre-question/services section-->
     <div ng-if="servicesSetTo && !revealQuestions && !revealServices" class="row text-center">
-        <p class="subheader">Before seeing my services, do you mind if I make sure we would be a good fit? I have found that when collaborating, the chemistry in teams can be just as important as the talent of each individual. If its alright with you can I get an idea of how compatible we are with 3 really quick questions?</p>
-        <button class="btn btn-warning btn-lg" ng-click="yesQuestions()">Sure, why not</button> <a ng-click="noQuestions()">No thanks, just show me your services.</a>
+        <div class="col-sm-2 col-md-3 col-lg-3"></div>
+        <div id="quizRequest" class="col-sm-8 col-md-6 col-lg-6">
+            <h4>Are we a good fit?</h4>
+
+            <img src="http://placehold.it/150/">
+            <p class="">
+                I have found that when collaborating, the chemistry in teams can be just as important as the talent of each individual.
+                If its alright with you - can I get an idea of how compatible we are with 3 really quick questions?
+            </p>
+            <button class="btn btn-warning btn-lg" ng-click="yesQuestions()">Sure, why not</button>
+            <br/>
+            <a ng-click="noQuestions()">No thanks, just show me your services.</a>
+        </div>
+
     </div>
 
 
