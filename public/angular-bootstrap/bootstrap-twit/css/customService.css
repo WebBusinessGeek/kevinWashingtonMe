@@ -101,10 +101,11 @@
     background: #dadada;
     color: #44464a;
     min-height: 60px;
+    display: none;
 }
 
 .planSubHeader > p {
-    font-family: 'Arvo', serif;
+    font-family: 'roboto', sans-serif;
 }
 
 .planImage {
