@@ -17,6 +17,7 @@ angular.module('app')
         $scope.quoteRequestSubmitted = false;
 
         $scope.largeAmenitiesVisible = false;
+        $scope.smallAmenitiesVisible = false;
 
 
         $scope.setServices = function(value)
@@ -158,6 +159,19 @@ angular.module('app')
             $scope.largeAmenitiesVisible = false;
         };
 
+        $scope.showSmallAmenities = function()
+        {
+            $scope.smallAmenitiesVisible = true;
+        };
+
+        $scope.hideSmallAmenities = function()
+        {
+            $scope.smallAmenitiesVisible = false;
+        };
+
+
+
+        $scope.essentialResearchPopover = 'this is a popver from js script';
 
     }]);
 

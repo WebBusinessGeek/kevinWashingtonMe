@@ -221,21 +221,30 @@
             </div>
             <div ng-if="servicesSetTo == 'customers'">
                 <div class="col-sm-12 col-md-12 col-lg-4 servicePlanSmall">
-                    <h4>StrategyPlus</h4>
-                    <p class="planSubTitle">A practical marketing solution for engaged owners.</p>
-                    <img src="http://placehold.it/80/"/>
+                    <div class="planHeader">
+                        <h4>StrategyPlus</h4>
+                    </div>
+                    <div class="planSubHeader">
+                        <p class="planSubTitle">A practical marketing solution for engaged owners.</p>
+                    </div>
+                    <div ng-hide="smallAmenitiesVisible" class="planImage" ng-mouseenter="showSmallAmenities()">
+                        <img src="http://placehold.it/200/"/>
+                        <p>Hover over me to see amenities</p>
+                    </div>
 
-                        <p>Essential Research</p>
-                        <p>Analytics and Performance</p>
-                        <p>Objectives</p>
-                        <p>Achievement Strategy & Tactics</p>
-                        <p>Project Management</p>
-                        <p>Success Tracking / Report Development</p>
-                        <p>Conversion Rate & Process Optimization</p>
-                        <p>Follow On Strategy</p>
-                        <p>Training</p>
-                        <p>General Collaboration</p>
-                        <p>No Long Term Commitments</p>
+                    <div ng-hide="!smallAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideSmallAmenities()">
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Essential Research</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Analytics and Performance</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Objectives</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Achievement Strategy & Tactics</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Project Management</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Success Tracking / Report Development</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Conversion Rate & Process Optimization</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Follow On Strategy</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Training</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">General Collaboration</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">No Long Term Commitments</p>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-1 col-lg-2"></div>
                 <div class="col-sm-12 col-md-12 col-lg-4 servicePlanLarge">
@@ -247,22 +256,22 @@
                     </div>
                     <div ng-hide="largeAmenitiesVisible" class="planImage" ng-mouseenter="showLargeAmenities()">
                         <img src="http://placehold.it/256/"/>
-                        <p>Hover over me to see amenties</p>
+                        <p>Hover over me to see amenities</p>
                     </div>
                     <div ng-hide="!largeAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideLargeAmenities()">
-                        <p>Essential Research</p>
-                        <p>Analytics and Performance</p>
-                        <p>Objectives</p>
-                        <p>Achievement Strategy & Tactics</p>
-                        <p>Project Management</p>
-                        <p>Success Tracking / Report Development</p>
-                        <p>Conversion Rate & Process Optimization</p>
-                        <p>Follow On Strategy</p>
-                        <p>Training</p>
-                        <p>General Collaboration</p>
-                        <p>Team Management</p>
-                        <p>Implementation & Execution</p>
-                        <p>No Long Term Commitments</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Essential Research</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Analytics and Performance</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Objectives</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Achievement Strategy & Tactics</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Project Management</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Success Tracking / Report Development</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Conversion Rate & Process Optimization</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Follow On Strategy</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Training</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">General Collaboration</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Team Management</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Implementation & Execution</p>
+                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">No Long Term Commitments</p>
                     </div>
 
                 </div>

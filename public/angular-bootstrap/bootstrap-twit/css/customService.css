@@ -67,7 +67,6 @@
 }
 
 .servicePlanSmall {
-    /*background: #fff;*/
 }
 
 .servicePlanSmall > p {
@@ -115,6 +114,10 @@
     margin-bottom: 10px;
     min-height: 320px;
     /*display: none;*/
+}
+
+.planImage > p {
+    font-family: 'Roboto', sans-serif;
 }
 
 .planAmenities {
