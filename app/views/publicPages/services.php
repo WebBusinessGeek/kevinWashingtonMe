@@ -234,19 +234,10 @@
                     </div>
 
                     <div ng-hide="!smallAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideSmallAmenities()">
-                      <p ng-repeat="amenity in strategyPlusAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
-                       <!-- <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Essential Research</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Analytics and Performance</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Objectives</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Achievement Strategy & Tactics</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Project Management</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Success Tracking / Report Development</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Conversion Rate & Process Optimization</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Follow On Strategy</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Training</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">General Collaboration</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">No Long Term Commitments</p>
-                    --></div>
+                        <p ng-repeat="amenity in sharedCustomerAcquisitionAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
+                        <p ng-repeat="amenity in strategyPlusOnlyAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
+
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-1 col-lg-2"></div>
                 <div class="col-sm-12 col-md-12 col-lg-4 servicePlanLarge">
@@ -261,19 +252,8 @@
                         <p>Hover over me to see amenities</p>
                     </div>
                     <div ng-hide="!largeAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideLargeAmenities()">
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Essential Research</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Analytics and Performance</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Objectives</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Achievement Strategy & Tactics</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Project Management</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Success Tracking / Report Development</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Conversion Rate & Process Optimization</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Follow On Strategy</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Training</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">General Collaboration</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Team Management</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Implementation & Execution</p>
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">No Long Term Commitments</p>
+                        <p ng-repeat="amenity in sharedCustomerAcquisitionAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
+                        <p ng-repeat="amenity in growthPlusOnlyAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
                     </div>
 
                 </div>
@@ -286,7 +266,6 @@
             </div>-->
         </div>
 
-        <button class="btn btn-lg btn-primary" ng-click="tester()">tester function</button>
         <!--what's the difference?-->
         <div class="row">
             <div class="col-sm-8 col-md-8 col-lg-8 text-center">

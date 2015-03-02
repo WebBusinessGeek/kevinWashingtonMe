@@ -174,12 +174,70 @@ angular.module('app')
         $scope.essentialResearchPopover = 'this is a popver from js script';
 
 
-        $scope.strategyPlusAmenities = {
+
+        $scope.sharedCustomerAcquisitionAmenities = {
             amenity1: {
                 amenityName: 'Essential Research',
                 amenityDescription: 'Description about essential research'
+            },
+            amenity2: {
+                amenityName: 'Analytics and Performance',
+                amenityDescription: 'Description about analytics and performance'
+            },
+            amenity3: {
+                amenityName: 'Objectives',
+                amenityDescription: 'Description about objectives'
+            },
+            amenity4: {
+                amenityName: 'Achievement Strategy & Tactics',
+                amenityDescription: 'Description about achievement strategy and tactics'
+            },
+            amenity5: {
+                amenityName: 'Project Management',
+                amenityDescription: 'Description about project management'
+            },
+            amenity6: {
+                amenityName: 'Success Tracking / Report Development',
+                amenityDescription: 'Description about success tracking / report development'
+            },
+            amenity7: {
+                amenityName: 'Conversion Rate & Process Optimization',
+                amenityDescription: 'Description about conversion rate & process optimization'
+            },
+            amenity8: {
+                amenityName: 'Follow on Strategy',
+                amenityDescription: 'Description about follow on strategy'
+            },
+            amenity9: {
+                amenityName: 'General Collaboration',
+                amenityDescription: 'Description about general collaboration'
             }
         };
+
+        $scope.strategyPlusOnlyAmenities= {
+            amenity1: {
+                amenityName: '\'Learn As You Achieve\' Training',
+                amenityDescription: 'Description about training'
+            }
+        };
+
+        $scope.growthPlusOnlyAmenities = {
+            amenity1: {
+                amenityName: 'Team Management',
+                amenityDescription: 'Description about team management'
+            },
+            amenity2: {
+                amenityName: 'Staff Development and Training',
+                amenityDescription: 'Description about staff development and Training'
+            },
+            amenity3: {
+                amenityName: 'Implementation & Execution',
+                amenityDescription: 'Description about implementation & execution'
+            }
+
+        }
+
+
 
     }]);
 

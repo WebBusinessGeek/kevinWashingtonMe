@@ -30,8 +30,8 @@
           <file leaf-file-name="services.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/services.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.28057554" vertical-offset="5805" max-vertical-offset="17725">
-                  <caret line="240" column="128" selection-start-line="240" selection-start-column="128" selection-end-line="240" selection-end-column="128" />
+                <state vertical-scroll-proportion="0.9640288" vertical-offset="6030" max-vertical-offset="17200">
+                  <caret line="268" column="0" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -60,8 +60,8 @@
               <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/public/app/services.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.61911356" vertical-offset="4028" max-vertical-offset="4825">
-                      <caret line="179" column="74" selection-start-line="179" selection-start-column="74" selection-end-line="179" selection-end-column="74" />
+                    <state vertical-scroll-proportion="0.7229917" vertical-offset="5253" max-vertical-offset="6275">
+                      <caret line="231" column="14" selection-start-line="231" selection-start-column="14" selection-end-line="231" selection-end-column="14" />
                       <folding />
                     </state>
                   </provider>
@@ -742,18 +742,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/services.php">
+    <entry file="file://$PROJECT_DIR$/public/app/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28057554" vertical-offset="5805" max-vertical-offset="17725">
-          <caret line="240" column="128" selection-start-line="240" selection-start-column="128" selection-end-line="240" selection-end-column="128" />
+        <state vertical-scroll-proportion="0.7229917" vertical-offset="5253" max-vertical-offset="6275">
+          <caret line="231" column="14" selection-start-line="231" selection-start-column="14" selection-end-line="231" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/services.js">
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61911356" vertical-offset="4028" max-vertical-offset="4825">
-          <caret line="179" column="74" selection-start-line="179" selection-start-column="74" selection-end-line="179" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.9640288" vertical-offset="6030" max-vertical-offset="17200">
+          <caret line="268" column="0" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
           <folding />
         </state>
       </provider>
