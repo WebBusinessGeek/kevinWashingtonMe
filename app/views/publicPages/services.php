@@ -178,42 +178,41 @@
             <div class="col-lg-1"></div>
             <div ng-if="servicesSetTo == 'product'">
                 <div class="col-sm-12 col-md-12 col-lg-4 servicePlanSmall">
-                    <h4>InnovationPlus</h4>
-                    <p class="planSubTitle">A cutting-edge product management solution for creators.</p>
-                    <img src="http://placehold.it/80/"/>
+                    <div class="planHeader">
+                        <h4>InnovationPlus</h4>
+                    </div>
+                    <div class="planSubHeader">
+                        <p class="planSubTitle">A cutting-edge product management solution for creators.</p>
+                    </div>
+                    <div ng-hide="smallAmenitiesVisible" class="planImage" ng-mouseenter="showSmallAmenities()">
+                        <img src="http://placehold.it/200/"/>
+                        <p>A cutting-edge product management solution for creators.</p>
+                        <p>See more</p>
+                    </div>
 
-                        <p>Beach head Market Research</p>
-                        <p>Base Traction Strategy</p>
-                        <p>Customer Research</p>
-                        <p>Product Strategy</p>
-                        <p>Product Development</p>
-                        <p>Alpha/Beta Viability & Testing</p>
-                        <p>Product launch</p>
-                        <p>Growth</p>
-                        <p>General Collaboration</p>
-                        <p>Training</p>
-                        <p>No Long Term Commitments</p>
+                    <div ng-hide="!smallAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideSmallAmenities()">
+                        <p ng-repeat="amenity in sharedProductAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
+                        <p ng-repeat="amenity in innovationPlusOnlyAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
+
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-1 col-lg-2"></div>
 
                 <div class="col-sm-12 col-md-12 col-lg-4 servicePlanLarge">
-                    <h4>PrototypePlus</h4>
-                    <p class="planSubTitle">A unique product to market solution for new ventures.</p>
-                    <img src="http://placehold.it/80/"/>
-
-                        <p>Beach head Market Research</p>
-                        <p>Base Traction Strategy</p>
-                        <p>Customer Research</p>
-                        <p>Product Strategy</p>
-                        <p>Product Development</p>
-                        <p>Alpha/Beta Viability & Testing</p>
-                        <p>Product launch</p>
-                        <p>Growth</p>
-                        <p>General Collaboration</p>
-                        <p>Training</p>
-                        <p>Team management</p>
-                        <p>Professional Level Coding & Design</p>
-                        <p>No Long Term Commitments</p>
+                    <div class="planHeader">
+                        <h4>PrototypePlus</h4>
+                    </div>
+                    <div class="planSubHeader">
+                        <p class="planSubTitle">A unique product-to-market solution for new ventures.</p>
+                    </div>
+                    <div ng-hide="largeAmenitiesVisible" class="planImage" ng-mouseenter="showLargeAmenities()">
+                        <img src="http://placehold.it/256/"/>
+                        <p>A unique product-to-market solution for new ventures.</p>
+                    </div>
+                    <div ng-hide="!largeAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideLargeAmenities()">
+                        <p ng-repeat="amenity in sharedProductAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
+                        <p ng-repeat="amenity in prototypePlusOnlyAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
+                    </div>
                 </div>
                 <!--<div class="col-sm-4 col-md-4 col-lg-4">
                     <p>Collaborative/Custom - product</p>
@@ -249,7 +248,7 @@
                     </div>
                     <div ng-hide="largeAmenitiesVisible" class="planImage" ng-mouseenter="showLargeAmenities()">
                         <img src="http://placehold.it/256/"/>
-                        <p>Hover over me to see amenities</p>
+                        <p>A complete customer acquisition solution for new and growing businesses.</p>
                     </div>
                     <div ng-hide="!largeAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideLargeAmenities()">
                         <p ng-repeat="amenity in sharedCustomerAcquisitionAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
@@ -258,12 +257,7 @@
 
                 </div>
             </div>
-            <!--<div class="col-sm-1 col-md-1 col-lg-1"></div>
-            <div id="collaborativePlan" class="col-sm-2 col-md-2 col-lg-2">
-                <h4>Collaborative/Custom</h4>
-                <p>Already have some ideas on how you want to work with me? I'm willing to listen.</p>
-                <p><a href="/connect">Connect with me</a> and let's talk about it.</p>
-            </div>-->
+
         </div>
 
         <!--what's the difference?-->

@@ -235,8 +235,65 @@ angular.module('app')
                 amenityDescription: 'Description about implementation & execution'
             }
 
-        }
+        };
 
+
+        $scope.sharedProductAmenities = {
+            amenity1: {
+                amenityName: 'Beach-Head Market Research',
+                amenityDescription: 'Description about beach-head market research'
+            },
+            amenity2: {
+                amenityName: 'Base Traction Strategy',
+                amenityDescription: 'Description about base traction strategy'
+            },
+            amenity3: {
+                amenityName: 'Customer Research',
+                amenityDescription: 'Description about customer research'
+            },
+            amenity4: {
+                amenityName: 'Product Strategy',
+                amenityDescription: 'Description about product strategy'
+            },
+            amenity5: {
+                amenityName: 'Product Development',
+                amenityDescription: 'Description about product development'
+            },
+            amenity6: {
+                amenityName: 'Alpha/Beta Viability & Testing',
+                amenityDescription: 'Description about Alpha/Beat viability & testing'
+            },
+            amenity7: {
+                amenityName: 'Product launch',
+                amenityDescription: 'Description about product launch'
+            },
+            amenity8: {
+                amenityName: 'Growth',
+                amenityDescription: 'Description about growth'
+            },
+            amenity9: {
+                amenityName: 'General Collaboration',
+                amenityDescription: 'Description about general collaboration'
+            }
+        };
+
+        $scope.innovationPlusOnlyAmenities= {
+            amenity1: {
+                amenityName: '\'Learn As You Build\' Training',
+                amenityDescription: 'Description about learn as you build training'
+            }
+        };
+
+        $scope.prototypePlusOnlyAmenities = {
+            amenity1: {
+                amenityName: 'Team Management',
+                amenityDescription: 'Description about team management'
+            },
+            amenity2: {
+                amenityName: 'Professional Level Coding & Design',
+                amenityDescription: 'Description about professional level coding and design'
+            }
+        }
 
 
     }]);
