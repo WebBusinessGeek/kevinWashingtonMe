@@ -263,13 +263,13 @@
         </div>
 
         <!--what's the difference?-->
-        <div class="row">
-            <div class="col-sm-8 col-md-8 col-lg-8 text-center">
+       <!-- <div class="row">
+            <div id="differenceCTA" class="col-sm-8 col-md-8 col-lg-8 text-center">
                 <a>What's the difference?</a >
             </div>
-        </div>
+        </div>-->
         <!--services cta section-->
-       <div class="row text-center">
+       <div id="ctaSection" class="row text-center">
            <h4>See something you Like?</h4>
            <a class="btn btn-warning btn-lg" ng-click="quoteRequest()">Get a quick Quote!</a>
            <br/>
@@ -277,15 +277,14 @@
        </div>
 
         <!--faq section for services-->
-        <div id="FAQsection">
-            <div class="row text-center">
-                <div>
-                    FAQ Headline
-                </div>
+        <div>
+            <div id="FAQsection" class="row text-center">
+                <h4>Answers to your questions.</h4>
+
                 <div class="col-sm-6 col-md-6 col-lg-6">
 
                     <!--customer services specific questions-->
-                    <div ng-if="servicesSetTo == 'customers'">
+                    <div class="faqQuestionGroups" ng-if="servicesSetTo == 'customers'">
                         <div>
                             <h5>Why should I work with you?</h5>
                             <p>
@@ -320,7 +319,7 @@
                         </div>
                     </div>
                     <!--product development services specific questions-->
-                    <div ng-if="servicesSetTo == 'product'">
+                    <div class="faqQuestionGroups" ng-if="servicesSetTo == 'product'">
                         <div>
                             <h5>Why should I work with you?</h5>
                             <p>
@@ -361,7 +360,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="col-sm-6 col-md-6 col-lg-6 faqQuestionGroups">
                     <div>
                         <h5>How much do you charge?</h5>
                         <p>
