@@ -171,10 +171,6 @@ angular.module('app')
 
 
 
-        $scope.essentialResearchPopover = 'this is a popver from js script';
-
-
-
         $scope.sharedCustomerAcquisitionAmenities = {
             amenity1: {
                 amenityName: 'Essential Research',

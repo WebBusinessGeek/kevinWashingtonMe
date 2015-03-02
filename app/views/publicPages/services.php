@@ -185,9 +185,9 @@
                         <p class="planSubTitle">A cutting-edge product management solution for creators.</p>
                     </div>
                     <div ng-hide="smallAmenitiesVisible" class="planImage" ng-mouseenter="showSmallAmenities()">
-                        <img src="http://placehold.it/200/"/>
                         <p>A cutting-edge product management solution for creators.</p>
-                        <p>See more</p>
+                        <img src="http://placehold.it/200/"/>
+                        <p class="amenityCTA">Amenities</p>
                     </div>
 
                     <div ng-hide="!smallAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideSmallAmenities()">
@@ -205,9 +205,10 @@
                     <div class="planSubHeader">
                         <p class="planSubTitle">A unique product-to-market solution for new ventures.</p>
                     </div>
-                    <div ng-hide="largeAmenitiesVisible" class="planImage" ng-mouseenter="showLargeAmenities()">
-                        <img src="http://placehold.it/256/"/>
+                    <div ng-hide="largeAmenitiesVisible" class="planImage planImageLarge" ng-mouseenter="showLargeAmenities()">
                         <p>A unique product-to-market solution for new ventures.</p>
+                        <img src="http://placehold.it/256/"/>
+                        <p class="amenityCTA">Amenities</p>
                     </div>
                     <div ng-hide="!largeAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideLargeAmenities()">
                         <p ng-repeat="amenity in sharedProductAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
@@ -227,9 +228,9 @@
                         <p class="planSubTitle">A practical marketing solution for engaged owners.</p>
                     </div>
                     <div ng-hide="smallAmenitiesVisible" class="planImage" ng-mouseenter="showSmallAmenities()">
-                        <img src="http://placehold.it/200/"/>
                         <p>A practical marketing solution for engaged owners.</p>
-                            <p>See more</p>
+                        <img src="http://placehold.it/200/"/>
+                        <p class="amenityCTA">Amenities</p>
                     </div>
 
                     <div ng-hide="!smallAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideSmallAmenities()">
@@ -246,9 +247,10 @@
                     <div class="planSubHeader">
                         <p class="planSubTitle">A complete customer acquisition solution for new and growing businesses.</p>
                     </div>
-                    <div ng-hide="largeAmenitiesVisible" class="planImage" ng-mouseenter="showLargeAmenities()">
-                        <img src="http://placehold.it/256/"/>
+                    <div ng-hide="largeAmenitiesVisible" class="planImage planImageLarge" ng-mouseenter="showLargeAmenities()">
                         <p>A complete customer acquisition solution for new and growing businesses.</p>
+                        <img src="http://placehold.it/256/"/>
+                        <p class="amenityCTA">Amenities</p>
                     </div>
                     <div ng-hide="!largeAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideLargeAmenities()">
                         <p ng-repeat="amenity in sharedCustomerAcquisitionAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>

@@ -118,8 +118,17 @@
 }
 
 .planImage > p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arvo', serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 60px;
 }
+
+.planImage >img {
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
 
 .planAmenities {
     background: #fff;
@@ -132,4 +141,10 @@
     min-height: 40px;
     border-top: 1px solid #dadada;
     font-family: 'Roboto', sans-serif;
+}
+
+.amenityCTA {
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }

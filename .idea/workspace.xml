@@ -30,8 +30,8 @@
           <file leaf-file-name="services.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/services.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6115108" vertical-offset="5825" max-vertical-offset="17050">
-                  <caret line="250" column="99" selection-start-line="250" selection-start-column="99" selection-end-line="250" selection-end-column="99" />
+                <state vertical-scroll-proportion="0.43165466" vertical-offset="4875" max-vertical-offset="17100">
+                  <caret line="207" column="88" selection-start-line="207" selection-start-column="88" selection-end-line="207" selection-end-column="88" />
                   <folding />
                 </state>
               </provider>
@@ -40,36 +40,18 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.23638968">
-          <split-first>
-            <leaf>
-              <file leaf-file-name="customService.css" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customService.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.34210527" vertical-offset="2353" max-vertical-offset="3500">
-                      <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/public/app/services.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.58448756" vertical-offset="6928" max-vertical-offset="7700">
-                      <caret line="294" column="13" selection-start-line="294" selection-start-column="13" selection-end-line="294" selection-end-column="13" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
+        <leaf>
+          <file leaf-file-name="customService.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customService.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.9250375" vertical-offset="2583" max-vertical-offset="3875">
+                  <caret line="128" column="23" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-second>
     </splitter>
   </component>
@@ -734,26 +716,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customService.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34210527" vertical-offset="2353" max-vertical-offset="3500">
-          <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58448756" vertical-offset="6928" max-vertical-offset="7700">
-          <caret line="294" column="13" selection-start-line="294" selection-start-column="13" selection-end-line="294" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="0.7922438" vertical-offset="4853" max-vertical-offset="7600">
+          <caret line="217" column="10" selection-start-line="217" selection-start-column="10" selection-end-line="217" selection-end-column="10" />
+          <folding>
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;contactMethod&quot;: 'Email'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Essential Research'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Analytics and Performance'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Objectives'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Achievement Strategy &amp; Tactics'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Project Management'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Success Tracking / Report Development'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Conversion Rate &amp; Process Optimization'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Follow on Strategy'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'General Collaboration'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: '\'Learn As You Achieve\' Training'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Team Management'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Staff Development and Training'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Implementation &amp; Execution'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Beach-Head Market Research'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Base Traction Strategy'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Customer Research'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Product Strategy'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Product Development'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Alpha/Beta Viability &amp; Testing'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Product launch'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Growth'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'General Collaboration'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: '\'Learn As You Build\' Training'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Team Management'...}" />
+            <marker date="1425322473000" expanded="true" signature="-1:-1" placeholder="{&quot;amenityName&quot;: 'Professional Level Coding &amp; Design'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6115108" vertical-offset="5825" max-vertical-offset="17050">
-          <caret line="250" column="99" selection-start-line="250" selection-start-column="99" selection-end-line="250" selection-end-column="99" />
+        <state vertical-scroll-proportion="0.43165466" vertical-offset="4875" max-vertical-offset="17100">
+          <caret line="207" column="88" selection-start-line="207" selection-start-column="88" selection-end-line="207" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customService.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9250375" vertical-offset="2583" max-vertical-offset="3875">
+          <caret line="128" column="23" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
           <folding />
         </state>
       </provider>
