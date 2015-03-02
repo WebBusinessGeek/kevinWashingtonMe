@@ -173,6 +173,14 @@ angular.module('app')
 
         $scope.essentialResearchPopover = 'this is a popver from js script';
 
+
+        $scope.strategyPlusAmenities = {
+            amenity1: {
+                amenityName: 'Essential Research',
+                amenityDescription: 'Description about essential research'
+            }
+        };
+
     }]);
 
 

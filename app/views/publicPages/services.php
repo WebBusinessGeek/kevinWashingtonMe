@@ -229,11 +229,13 @@
                     </div>
                     <div ng-hide="smallAmenitiesVisible" class="planImage" ng-mouseenter="showSmallAmenities()">
                         <img src="http://placehold.it/200/"/>
-                        <p>Hover over me to see amenities</p>
+                        <p>A practical marketing solution for engaged owners.</p>
+                            <p>See more</p>
                     </div>
 
                     <div ng-hide="!smallAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideSmallAmenities()">
-                        <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Essential Research</p>
+                      <p ng-repeat="amenity in strategyPlusAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
+                       <!-- <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Essential Research</p>
                         <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Analytics and Performance</p>
                         <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Objectives</p>
                         <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Achievement Strategy & Tactics</p>
@@ -244,7 +246,7 @@
                         <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">Training</p>
                         <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">General Collaboration</p>
                         <p tooltip title="{{essentialResearchPopover}}" data-toggle="tooltip">No Long Term Commitments</p>
-                    </div>
+                    --></div>
                 </div>
                 <div class="col-sm-12 col-md-1 col-lg-2"></div>
                 <div class="col-sm-12 col-md-12 col-lg-4 servicePlanLarge">
@@ -284,6 +286,7 @@
             </div>-->
         </div>
 
+        <button class="btn btn-lg btn-primary" ng-click="tester()">tester function</button>
         <!--what's the difference?-->
         <div class="row">
             <div class="col-sm-8 col-md-8 col-lg-8 text-center">
