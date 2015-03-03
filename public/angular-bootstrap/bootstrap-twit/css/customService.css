@@ -198,3 +198,39 @@
     border: solid 1px #dadada;
     font-family: 'roboto', sans-serif;
 }
+
+#walkOutSection {
+    background: #fff;
+}
+
+#walkOutHeader {
+    padding: 30px;
+}
+
+#walkOutHeader > p {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top:10px;
+    margin-bottom: -20px;
+}
+
+.paddingLeft {
+    padding-left:60px;
+}
+
+.paddingRight {
+    padding-right:60px;
+}
+
+#addLink {
+    padding-left: 60px;
+}
+
+#addLink:hover {
+    cursor: pointer;
+}
+
+#doneBtn {
+    padding-right: 60px;
+
+}

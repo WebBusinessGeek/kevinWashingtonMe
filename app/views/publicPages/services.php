@@ -536,19 +536,31 @@
 
     <!--walk section-->
     <div ng-if="walk">
-        <div ng-if="!referralsSubmitted" class="text-center">
-            <div class="row">
-                <h4>Hey, Wait!</h4>
+        <div id="walkOutSection" ng-if="!referralsSubmitted" class="text-center">
+            <div id="walkOutHeader" class="row">
+                <h3>Hey, Wait!</h3>
+                <img src="http://placehold.it/128/">
                 <p>Really sorry we won't work together, I wish you luck anyway. Before you leave could tell me about anyone you know who <em>would</em> benefit from these services? Or maybe someone you know who would be interested in free coding or marketing training, <em>yourself included</em>. Thanks!</p>
             </div>
             <div class="row">
-               <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4 paddingLeft">
+                    <h5>Person's Name</h5>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <h5>Person's Email Address</h5>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 paddingRight">
+                    <h5>What would they be interested in?</h5>
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-4 col-md-4 col-lg-4 paddingLeft">
                    <input type="text" ng-model="name0" class="form-control" placeholder="example: Carl Winslow">
                </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <input type="email" ng-model="email0" class="form-control" placeholder="example: carl@familyMatters.com">
                 </div>
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4 paddingRight">
                     <select class="form-control" ng-model="interest0">
                         <option>Select one</option>
                         <option value="productDev">Product development services.</option>
@@ -560,13 +572,13 @@
             </div>
 
             <div class="row" ng-show="referralCounter > 0">
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4 paddingLeft">
                     <input type="text" ng-model="name1" class="form-control" placeholder="example: Carl Winslow">
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <input type="email" ng-model="email1" class="form-control" placeholder="example: carl@familyMatters.com">
                 </div>
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4 paddingRight">
                     <select class="form-control" ng-model="interest1">
                         <option>Select one</option>
                         <option value="productDev">Product development services.</option>
@@ -578,13 +590,13 @@
             </div>
 
             <div class="row" ng-show="referralCounter > 1">
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4 paddingLeft">
                     <input type="text" ng-model="name2" class="form-control" placeholder="example: Carl Winslow">
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <input type="email" ng-model="email2" class="form-control" placeholder="example: carl@familyMatters.com">
                 </div>
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4 paddingRight">
                     <select class="form-control" ng-model="interest2">
                         <option>Select one</option>
                         <option value="productDev">Product development services.</option>
@@ -596,13 +608,13 @@
             </div>
 
             <div class="row" ng-show="referralCounter > 2">
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4 paddingLeft">
                     <input type="text" ng-model="name3" class="form-control" placeholder="example: Carl Winslow">
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <input type="email" ng-model="email3" class="form-control" placeholder="example: carl@familyMatters.com">
                 </div>
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4 paddingRight">
                     <select class="form-control" ng-model="interest3">
                         <option>Select one</option>
                         <option value="productDev">Product development services.</option>
@@ -614,13 +626,13 @@
             </div>
 
             <div class="row" ng-show="referralCounter > 3">
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4 paddingLeft">
                     <input type="text" ng-model="name4" class="form-control" placeholder="example: Carl Winslow">
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <input type="email" ng-model="email4" class="form-control" placeholder="example: carl@familyMatters.com">
                 </div>
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4 paddingRight">
                     <select class="form-control" ng-model="interest4">
                         <option>Select one</option>
                         <option value="productDev">Product development services.</option>
@@ -632,13 +644,13 @@
             </div>
 
             <div class="row" ng-show="referralCounter > 4">
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4 paddingLeft">
                     <input type="text" ng-model="name5" class="form-control" placeholder="example: Carl Winslow">
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <input type="email" ng-model="email5" class="form-control" placeholder="example: carl@familyMatters.com">
                 </div>
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4 paddingRight">
                     <select class="form-control" ng-model="interest5">
                         <option>Select one</option>
                         <option value="productDev">Product development services.</option>
@@ -658,11 +670,11 @@
                 {{referral5 = [name5, email5, interest5]}}
             </div>
 
-            <div class="row" ng-if="referralCounter < 5">
-                <button class="btn btn-lg btn-warning pull-left" ng-click="addReferral(referralCounter)">Add another person</button>
+            <div id="addLink" class="row text-left" ng-if="referralCounter < 5">
+                <a  ng-click="addReferral(referralCounter)">+ Add another person</a>
             </div>
 
-            <div class="row">
+            <div id="doneBtn" class="row">
                 <button class="btn btn-lg btn-warning pull-right" ng-click="sendReferrals(referral0,referral1,referral2,referral3,referral4,referral5)">Done</button>
             </div>
 
