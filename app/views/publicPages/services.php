@@ -528,7 +528,7 @@
             </div>
 
         </div>
-        <div ng-if="quoteRequestSubmitted">
+        <div id="quoteSubmittedResponse" class="text-center" ng-if="quoteRequestSubmitted">
             <h2>Thank you! I will plan to reach out to you shortly.</h2>
             <a href="/">Go back home</a>
         </div>
@@ -677,7 +677,7 @@
 
 
         </div>
-        <div ng-if="referralsSubmitted">
+        <div class="text-center" ng-if="referralsSubmitted">
             <h2>Thank you again! Good luck achieving your business objectives.</h2>
             <a href="/">Go back home</a>
         </div>
