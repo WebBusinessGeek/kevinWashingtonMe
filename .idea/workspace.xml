@@ -30,9 +30,13 @@
           <file leaf-file-name="services.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/services.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.13669065" vertical-offset="13405" max-vertical-offset="17475">
-                  <caret line="540" column="19" selection-start-line="540" selection-start-column="19" selection-end-line="540" selection-end-column="19" />
-                  <caret line="540" column="34" selection-start-line="540" selection-start-column="34" selection-end-line="540" selection-end-column="34" />
+                <state vertical-scroll-proportion="0.92805755" vertical-offset="15555" max-vertical-offset="17325">
+                  <caret line="563" column="70" selection-start-line="563" selection-start-column="70" selection-end-line="563" selection-end-column="70" />
+                  <caret line="580" column="70" selection-start-line="580" selection-start-column="70" selection-end-line="580" selection-end-column="70" />
+                  <caret line="597" column="70" selection-start-line="597" selection-start-column="70" selection-end-line="597" selection-end-column="70" />
+                  <caret line="614" column="70" selection-start-line="614" selection-start-column="70" selection-end-line="614" selection-end-column="70" />
+                  <caret line="631" column="70" selection-start-line="631" selection-start-column="70" selection-end-line="631" selection-end-column="70" />
+                  <caret line="648" column="70" selection-start-line="648" selection-start-column="70" selection-end-line="648" selection-end-column="70" />
                   <folding />
                 </state>
               </provider>
@@ -735,9 +739,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13669065" vertical-offset="13405" max-vertical-offset="17475">
-          <caret line="540" column="19" selection-start-line="540" selection-start-column="19" selection-end-line="540" selection-end-column="19" />
-          <caret line="540" column="34" selection-start-line="540" selection-start-column="34" selection-end-line="540" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.92805755" vertical-offset="15555" max-vertical-offset="17325">
+          <caret line="563" column="70" selection-start-line="563" selection-start-column="70" selection-end-line="563" selection-end-column="70" />
+          <caret line="580" column="70" selection-start-line="580" selection-start-column="70" selection-end-line="580" selection-end-column="70" />
+          <caret line="597" column="70" selection-start-line="597" selection-start-column="70" selection-end-line="597" selection-end-column="70" />
+          <caret line="614" column="70" selection-start-line="614" selection-start-column="70" selection-end-line="614" selection-end-column="70" />
+          <caret line="631" column="70" selection-start-line="631" selection-start-column="70" selection-end-line="631" selection-end-column="70" />
+          <caret line="648" column="70" selection-start-line="648" selection-start-column="70" selection-end-line="648" selection-end-column="70" />
           <folding />
         </state>
       </provider>

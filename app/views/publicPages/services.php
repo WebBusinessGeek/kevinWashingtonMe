@@ -562,7 +562,6 @@
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4 paddingRight">
                     <select class="form-control" ng-model="interest0">
-                        <option>Select one</option>
                         <option value="productDev">Product development services.</option>
                         <option value="customerAcq">Customer acquisition services.</option>
                         <option value="marketingTraining">Free marketing training.</option>
@@ -580,7 +579,6 @@
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4 paddingRight">
                     <select class="form-control" ng-model="interest1">
-                        <option>Select one</option>
                         <option value="productDev">Product development services.</option>
                         <option value="customerAcq">Customer acquisition services.</option>
                         <option value="marketingTraining">Free marketing training.</option>
@@ -598,7 +596,6 @@
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4 paddingRight">
                     <select class="form-control" ng-model="interest2">
-                        <option>Select one</option>
                         <option value="productDev">Product development services.</option>
                         <option value="customerAcq">Customer acquisition services.</option>
                         <option value="marketingTraining">Free marketing training.</option>
@@ -616,7 +613,6 @@
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4 paddingRight">
                     <select class="form-control" ng-model="interest3">
-                        <option>Select one</option>
                         <option value="productDev">Product development services.</option>
                         <option value="customerAcq">Customer acquisition services.</option>
                         <option value="marketingTraining">Free marketing training.</option>
@@ -634,7 +630,6 @@
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4 paddingRight">
                     <select class="form-control" ng-model="interest4">
-                        <option>Select one</option>
                         <option value="productDev">Product development services.</option>
                         <option value="customerAcq">Customer acquisition services.</option>
                         <option value="marketingTraining">Free marketing training.</option>
@@ -652,7 +647,6 @@
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4 paddingRight">
                     <select class="form-control" ng-model="interest5">
-                        <option>Select one</option>
                         <option value="productDev">Product development services.</option>
                         <option value="customerAcq">Customer acquisition services.</option>
                         <option value="marketingTraining">Free marketing training.</option>
