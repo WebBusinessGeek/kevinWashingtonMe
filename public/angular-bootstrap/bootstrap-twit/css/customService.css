@@ -178,3 +178,23 @@
 .faqQuestionGroups > div > p {
     font-family: 'Roboto', sans-serif;
 }
+
+#quoteRequestSection {
+    background: #fff;
+    padding: 20px;
+}
+
+#quoteRequestHeader {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #dadada;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+#quoteRequestPreview {
+    background: #fff;
+    min-height: 710px;
+    border: solid 1px #dadada;
+    font-family: 'roboto', sans-serif;
+}

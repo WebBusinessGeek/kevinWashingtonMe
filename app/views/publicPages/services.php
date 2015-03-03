@@ -399,9 +399,13 @@
     </div>
 
     <!--quote requested section-->
-    <div ng-if="quoteRequested">
-        <div ng-if="!quoteRequestSubmitted" class="row text-center">
-            <div class="col-sm-6 col-md-6 col-lg-6">
+    <div class="text-center" ng-if="quoteRequested">
+        <div id="quoteRequestSection" ng-if="!quoteRequestSubmitted" class="row text-center">
+            <div id="quoteRequestHeader">
+                <h2>Quote request form</h2>
+                <img src="http://placehold.it/128/">
+            </div>
+            <div id="quoteRequestForm" class="col-sm-6 col-md-6 col-lg-6">
                 <div>
                     <label for="serviceOfInterest">What are you primarily interested in?</label>
                     <select name="serviceOfInterest" ng-model="serviceOfInterest" class="form-control">
@@ -463,7 +467,7 @@
                     </select>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-6">
+            <div id="quoteRequestPreview" class="col-sm-6 col-md-6 col-lg-6">
                 <div>
                     <div ng-hide="(serviceOfInterest || objectives || teamSize || url || name || email || phone ||quoteFormat)">
                         <h4>Preview your quote request here.</h4>
