@@ -9,7 +9,7 @@ angular.module('app')
 
         $timeout(function() {
             $scope.loading = false;
-        }, 4000);
+        }, 5000);
 
         $http.get('/api.v1/skills')
             .success(function(data){
