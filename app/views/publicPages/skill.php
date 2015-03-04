@@ -34,9 +34,10 @@
 
                 <div id="textSearchText">
                     <h4>Skill Finder</h4>
+                    <p class="helpText2">(Search skills by typing below)</p>
                 </div>
                 <div id="textSearchBar">
-                    <input type="text" ng-model="textQuery" ng-keypress="clearSupercategory()" class="form-control input-lg input-super" placeholder="Start typing...">
+                    <input type="text" ng-model="textQuery" ng-keypress="clearSupercategory()" class="form-control input-lg input-super lighterText" placeholder="example - 'marketing'">
                 </div>
 
             </div>
