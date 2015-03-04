@@ -327,7 +327,7 @@
                                 More to the point of why that person should be me can be summed up in two words -
                                 Experience & Passion.
                                 With over 4 years experience in developing businesses that range from physical locations to SaaS products,
-                                I have an intimate knowledge of not only of precautions to take to increase the chances of success, but also the pitfalls to avoid to reduce the chances of failure.
+                                I have an intimate knowledge of not only the precautions to take to increase the chances of success, but also the pitfalls to avoid to reduce the chances of failure.
                                 In addition to experience,
                                 I have the passion for product development that's needed in the moments you have ideas or thoughts that need to be talked out with someone you trust.
                             </p>
