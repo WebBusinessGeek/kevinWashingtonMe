@@ -179,7 +179,7 @@
             <div ng-if="servicesSetTo == 'product'">
                 <div class="col-sm-12 col-md-12 col-lg-4 servicePlanSmall">
                     <div class="planHeader">
-                        <h4>InnovationPlus</h4>
+                        <h4>Innovation</h4>
                     </div>
                     <div class="planSubHeader">
                         <p class="planSubTitle">A cutting-edge product management solution for creators.</p>
@@ -192,7 +192,7 @@
 
                     <div ng-hide="!smallAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideSmallAmenities()">
                         <p ng-repeat="amenity in sharedProductAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
-                        <p ng-repeat="amenity in innovationPlusOnlyAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
+                        <p ng-repeat="amenity in innovationOnlyAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
 
                     </div>
                 </div>
@@ -200,7 +200,7 @@
 
                 <div class="col-sm-12 col-md-12 col-lg-4 servicePlanLarge">
                     <div class="planHeader">
-                        <h4>PrototypePlus</h4>
+                        <h4>InnovationPlus</h4>
                     </div>
                     <div class="planSubHeader">
                         <p class="planSubTitle">A unique product-to-market solution for new ventures.</p>
@@ -212,7 +212,7 @@
                     </div>
                     <div ng-hide="!largeAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideLargeAmenities()">
                         <p ng-repeat="amenity in sharedProductAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
-                        <p ng-repeat="amenity in prototypePlusOnlyAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
+                        <p ng-repeat="amenity in innovationPlusOnlyAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
                     </div>
                 </div>
                 <!--<div class="col-sm-4 col-md-4 col-lg-4">
@@ -222,7 +222,7 @@
             <div ng-if="servicesSetTo == 'customers'">
                 <div class="col-sm-12 col-md-12 col-lg-4 servicePlanSmall">
                     <div class="planHeader">
-                        <h4>StrategyPlus</h4>
+                        <h4>Growth</h4>
                     </div>
                     <div class="planSubHeader">
                         <p class="planSubTitle">A practical marketing solution for engaged owners.</p>
@@ -235,7 +235,7 @@
 
                     <div ng-hide="!smallAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideSmallAmenities()">
                         <p ng-repeat="amenity in sharedCustomerAcquisitionAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
-                        <p ng-repeat="amenity in strategyPlusOnlyAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
+                        <p ng-repeat="amenity in growthOnlyAmenities" tooltip title="{{amenity.amenityDescription}}" data-toggle="tooltip">{{amenity.amenityName}}</p>
 
                     </div>
                 </div>
@@ -297,10 +297,10 @@
                             </p>
                         </div>
                         <div>
-                            <h5>What's the difference between the StrategyPlus and GrowthPlus Plans?</h5>
+                            <h5>What's the difference between the Growth and GrowthPlus Plans?</h5>
                             <p>
                                 While both plans include many of the same services, the difference lies in the execution.
-                                In the GrowthPlus plan the majority of the execution will be by me, while in the StrategyPlus I will be serving the role of a guide and mentor allowing the owner to build new skills and improve as a product marketer.
+                                In the GrowthPlus plan the majority of the execution will be by me, while in the Growth plan I will be serving the role of a guide and mentor allowing the owner to build new skills and improve as a product marketer.
                                 In either plan the objectives, strategy, and tactics will always be what's most important for the business.
                             </p>
                         </div>
@@ -333,11 +333,11 @@
                             </p>
                         </div>
                         <div>
-                            <h5>What's the difference between the InnovationPlus and PrototypePlus plans?</h5>
+                            <h5>What's the difference between the Innovation and InnovationPlus plans?</h5>
                             <p>
                                 While each plan includes many of the same services the difference is primarily in the implementation.
-                                In the PrototypePlus plan most of the implementation (i.e research, coding, designing, etc.) will be handled by me.
-                                However collaborators on the InnovationPlus plan will get hands-on experience with many of these processes.
+                                In the InnovationPlus plan most of the implementation (i.e research, coding, designing, etc.) will be handled by me.
+                                However collaborators on the Innovation plan will get hands-on experience with many of these processes.
                                 Both plans are designed to result in a viable and innovative product with clear paths for traction and growth.
                             </p>
                         </div>

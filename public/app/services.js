@@ -210,10 +210,14 @@ angular.module('app')
             }
         };
 
-        $scope.strategyPlusOnlyAmenities= {
+        $scope.growthOnlyAmenities= {
             amenity1: {
                 amenityName: '\'Learn As You Achieve\' Training',
                 amenityDescription: 'Description about training'
+            },
+            amenity2: {
+                amenityName: 'Add-ons',
+                amenityDescription: 'Description about the add-ons'
             }
         };
 
@@ -273,14 +277,18 @@ angular.module('app')
             }
         };
 
-        $scope.innovationPlusOnlyAmenities= {
+        $scope.innovationOnlyAmenities= {
             amenity1: {
                 amenityName: '\'Learn As You Build\' Training',
                 amenityDescription: 'Description about learn as you build training'
+            },
+            amenity2: {
+                amenityName: 'Add-ons',
+                amenityDescription: 'Description about the add-ons'
             }
         };
 
-        $scope.prototypePlusOnlyAmenities = {
+        $scope.innovationPlusOnlyAmenities = {
             amenity1: {
                 amenityName: 'Team Management',
                 amenityDescription: 'Description about team management'
