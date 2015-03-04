@@ -182,7 +182,7 @@
                         <h4>Innovation</h4>
                     </div>
                     <div class="planSubHeader">
-                        <p class="planSubTitle">A cutting-edge product management solution for creators.</p>
+                        <p class="planSubTitle">A unique product-to-market solution for new ventures.</p>
                     </div>
                     <div ng-hide="smallAmenitiesVisible" class="planImage" ng-mouseenter="showSmallAmenities()">
                         <p>A cutting-edge product management solution for creators.</p>
@@ -203,7 +203,7 @@
                         <h4>InnovationPlus</h4>
                     </div>
                     <div class="planSubHeader">
-                        <p class="planSubTitle">A unique product-to-market solution for new ventures.</p>
+                        <p class="planSubTitle">A cutting-edge product management solution for creators.</p>
                     </div>
                     <div ng-hide="largeAmenitiesVisible" class="planImage planImageLarge" ng-mouseenter="showLargeAmenities()">
                         <p>A unique product-to-market solution for new ventures.</p>
