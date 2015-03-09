@@ -197,7 +197,7 @@
                     </div>
                     <div ng-hide="smallAmenitiesVisible" class="planImage" ng-mouseenter="showSmallAmenities()">
                         <p>A cutting-edge product management solution for creators.</p>
-                        <img src="http://placehold.it/200/"/>
+                        <img src="/assets/servicepageIcons/KWICON_innovationCompile.png"/>
                         <p class="amenityCTA">Amenities</p>
                     </div>
 
