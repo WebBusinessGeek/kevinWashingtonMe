@@ -5,14 +5,14 @@
         <div class="col-lg-1"></div>
 
         <div class="col-sm-12 col-md-12 col-lg-4 chooseService" ng-click="setServices('product')">
-            <img src="http://placehold.it/250/">
+            <img src="/assets/servicepageIcons/KWICON_productServices.png">
 <!--            <button class="btn btn-warning btn-lg" ng-click="setServices('product')">+ Building my Product</button>-->
             <h4>Building my product</h4>
         </div>
         <div class="col-sm-12 col-md-1 col-lg-2"></div>
 
         <div class="col-sm-12 col-md-12 col-lg-4 chooseService" ng-click="setServices('customers')">
-            <img src="http://placehold.it/250/">
+           <img src="/assets/servicepageIcons/KWICON_customerAcqServices.png">
 <!--            <button class="btn btn-warning btn-lg" ng-click="setServices('customers')">+ Getting more Customers</button>-->
             <h4>Getting more customers</h4>
         </div>
