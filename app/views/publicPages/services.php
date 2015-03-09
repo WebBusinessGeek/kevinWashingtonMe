@@ -218,7 +218,7 @@
                     </div>
                     <div ng-hide="largeAmenitiesVisible" class="planImage planImageLarge" ng-mouseenter="showLargeAmenities()">
                         <p>A unique product-to-market solution for new ventures.</p>
-                        <img src="http://placehold.it/256/"/>
+                        <img src="/assets/servicepageIcons/KWICON_innovationPlusCompile.png"/>
                         <p class="amenityCTA">Amenities</p>
                     </div>
                     <div ng-hide="!largeAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideLargeAmenities()">
