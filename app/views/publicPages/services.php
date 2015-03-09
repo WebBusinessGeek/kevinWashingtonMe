@@ -240,7 +240,7 @@
                     </div>
                     <div ng-hide="smallAmenitiesVisible" class="planImage" ng-mouseenter="showSmallAmenities()">
                         <p>A practical marketing solution for engaged owners.</p>
-                        <img src="http://placehold.it/200/"/>
+                        <img src="/assets/servicepageIcons/KWICON_growthCompile.png"/>
                         <p class="amenityCTA">Amenities</p>
                     </div>
 
@@ -260,7 +260,7 @@
                     </div>
                     <div ng-hide="largeAmenitiesVisible" class="planImage planImageLarge" ng-mouseenter="showLargeAmenities()">
                         <p>A complete customer acquisition solution for new and growing businesses.</p>
-                        <img src="http://placehold.it/256/"/>
+                        <img src="/assets/servicepageIcons/KWICON_growthPlusCompile.png"/>
                         <p class="amenityCTA">Amenities</p>
                     </div>
                     <div ng-hide="!largeAmenitiesVisible" class="planAmenities"  ng-mouseleave="hideLargeAmenities()">
