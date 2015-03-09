@@ -26,8 +26,7 @@
         <div class="col-sm-2 col-md-3 col-lg-3"></div>
         <div id="quizRequest" class="col-sm-8 col-md-6 col-lg-6">
             <h4>Are we a good fit?</h4>
-
-            <img src="http://placehold.it/150/">
+            <img src="/assets/servicepageIcons/KWICON_quizRequest.png">
             <p class="">
                 I have found that when collaborating, the chemistry in teams can be just as important as the talent of each individual.
                 Before seeing my services - can I get an idea of how compatible we could be with 3 really quick questions?
@@ -47,33 +46,39 @@
         <!--product questions-->
         <div ng-if="servicesSetTo == 'product'">
             <div ng-if="!answered" class="col-sm-8 col-md-6 col-lg-6 quizQuestion">
-                <h4>Do you agree?</h4>
+                <h4>Question #1</h4>
+                <img src="/assets/servicepageIcons/KWICON_quizQuestions.png">
                 <p>
                     Beach Head Market Selection is the process in which a venture identifies and selects the market that gives it the highest probability of success.
                     In actuality, picking the correct market can be the difference between success and failure.
                     For example, going too niche could give a venture great conversions but low quantity, and selecting a market that's too big or crowded could lead to the venture being overwhelmed.
                     Weighing the strengths of those involved in the venture, determining the total market size, and understanding the customers intimately are a few of the essential todo’s before having enough information to tackle this process effectively.
                 </p>
+                <h4>Do you agree?</h4>
                 <button class="btn btn-warning btn-lg" ng-click="answerYes(1)">I agree</button>
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(1)">I disagree</button>
             </div>
             <div ng-if="answered == 1" class="col-sm-8 col-md-6 col-lg-6 quizQuestion">
-                <h4>Do you agree?</h4>
+                <h4>Question #2</h4>
+                <img src="/assets/servicepageIcons/KWICON_quizQuestions.png">
                 <p>
                     A Revenue Generation Strategy is simply the way a business captures the value (or makes money) from the value a product creates for a customer.
                     As the primary objective of most businesses is to generate and maintain a significant amount of sales, this process deserves a lot of attention, innovation, and testing.
                     Identifying the primary captures points in a product’s usage cycle, being empathetic of the customer, and looking for unique competitive advantages are all helpful when working to develop an effective and unique revenue generation model.
                 </p>
+                <h4>Do you agree?</h4>
                 <button class="btn btn-warning btn-lg" ng-click="answerYes(2)">I agree</button>
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(2)">I disagree</button>
             </div>
             <div ng-if="answered == 2" class="col-sm-8 col-md-6 col-lg-6 quizQuestion">
-                <h4>Do you agree?</h4>
+                <h4>Question #3</h4>
+                <img src="/assets/servicepageIcons/KWICON_quizQuestions.png">
                 <p>
                     It is my belief that Branding is about perception, and if done well that perception should not only effect the conscious decision making of potential customers, but also the subconscious thought processes that invoke trust and credibility.
                     In many ways a company’s brand can take on an identity of itself and can be manifested as massive customer loyalty or captivating marketing materials.
                     While branding is one of the many concepts I would love to research and understand more, the core component I do understand is that the value of doing it well reaches far beyond simply converting customers and spans into building followings. Which in my opinion can be argued to be much more valuable.
                 </p>
+                <h4>Do you agree?</h4>
                 <button class="btn btn-warning btn-lg" ng-click="answerYes(3)">I agree</button>
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(3)">I disagree</button>
             </div>
@@ -81,7 +86,8 @@
         <!--customer questions-->
         <div ng-if="servicesSetTo == 'customers'">
             <div ng-if="!answered" class="col-sm-8 col-md-6 col-lg-6 quizQuestion">
-                <h4>Do you agree?</h4>
+                <h4>Question #1</h4>
+                <img src="/assets/servicepageIcons/KWICON_quizQuestions.png">
                 <p>
                     Marketing strategy is less about developing low level checklists and more about marrying the low-level abilities to high-level business objectives.
                     It is about asking the right questions, and drawing logical and analytical conclusions.
@@ -89,29 +95,34 @@
                     Or instead of writing guest posts, asking if that time would have been better spent running sales training or mystery shopping the sales team.
                     Strategy in my opinion cannot just be short term tactics but must also fit cohesively into an overarching plan for marketing success.
                 </p>
+                <h4>Do you agree?</h4>
                 <button class="btn btn-warning btn-lg" ng-click="answerYes(1)">I agree</button>
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(1)">I disagree</button>
 
             </div>
             <div ng-if="answered == 1" class="col-sm-8 col-md-6 col-lg-6 quizQuestion">
-                <h4>Do you agree?</h4>
+                <h4>Question #2</h4>
+                <img src="/assets/servicepageIcons/KWICON_quizQuestions.png">
                 <p>
                     It is my belief that Branding is about perception, and if done well that perception should not only effect the conscious decision making of potential customers, but also the subconscious thought processes that invoke trust and credibility.
                     In many ways a company’s brand can take on an identity of itself and can be manifested as massive customer loyalty or captivating marketing materials.
                     While branding is one of the many concepts I would love to research and understand more, the core component I do understand is that the value of doing it well reaches far beyond simply converting customers and spans into building followings.
                     Which in my opinion can be argued to be much more valuable.
                 </p>
+                <h4>Do you agree?</h4>
                 <button class="btn btn-warning btn-lg" ng-click="answerYes(2)">I agree</button>
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(2)">I disagree</button>
             </div>
             <div ng-if="answered == 2" class="col-sm-8 col-md-6 col-lg-6 quizQuestion">
-                <h4>Do you agree?</h4>
+                <h4>Question #3</h4>
+                <img src="/assets/servicepageIcons/KWICON_quizQuestions.png">
                 <p>
                     Customer Research is the attempt to deeply understand the current or potential users of a given product.
                     While it is summed up quite swiftly, the advantages of conducting proper customer research span into many areas of a venture.
                     These applications include staging as a ‘cheat sheet’ for lead generation strategists attempting to locate their target market, while also acting as a blueprint of true pain points leading to more accurate product development.
                     Conducting adequate customer research should keep a venture customer driven and could lead to identifying unmet needs, innovative marketing strategies, and more efficient decision making.
                 </p>
+                <h4>Do you agree?</h4>
                 <button class="btn btn-warning btn-lg" ng-click="answerYes(3)">I agree</button>
                 <button class="btn btn-danger btn-lg" ng-click="answerNo(3)">I disagree</button>
             </div>
