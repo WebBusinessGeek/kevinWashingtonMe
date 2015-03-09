@@ -1,0 +1,8 @@
+#section1 {
+    background: url('/assets/backgroundImages/slide1_03.png') no-repeat;
+}
+
+.backgroundImageUse {
+    min-height: 600px;
+    background-size: 100% auto;
+}

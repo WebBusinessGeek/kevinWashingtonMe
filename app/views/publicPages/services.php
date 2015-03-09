@@ -293,7 +293,7 @@
                                 However to answer your question of 'why me?', there are two main reasons why I don't think your in bad company working with me.
                                 Experience & Results.
                                 I have so far accumulated almost 9 years of customer acquisition experience - 6 years of business-to-consumer overlapping 4 years of business-to-business.
-                                And the <a href="#">notable & verifiable results</a> I have achieved while gaining this experience should help build some confidence.
+                                And the <a href="/karma-crm-stats">notable & verifiable results</a> I have achieved while gaining this experience should help build some confidence.
                             </p>
                         </div>
                         <div>

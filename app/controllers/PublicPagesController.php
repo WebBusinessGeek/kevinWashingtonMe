@@ -169,6 +169,19 @@ class PublicPagesController extends \BaseController {
 		$view = View::make('publicPages.services');
 		$this->layout->content = $view->render();
 	}
+
+
+
+	/***********************************************************************************************************/
+	/*                                          Karma CRM stats page                  		                    */
+	/***********************************************************************************************************/
+
+	public function viewKarmaCRMStats()
+	{
+		$view = View::make('publicPages.karmaStats');
+		$this->layout->content = $view->render();
+	}
+
 }
 
 

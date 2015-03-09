@@ -28,6 +28,7 @@ Route::group(array(),function()
     Route::get('/experiences', 'PublicPagesController@viewExperiences');
     Route::get('/connect', 'PublicPagesController@viewConnect');
     Route::get('/services', 'PublicPagesController@viewServices');
+    Route::get('/karma-crm-stats', 'PublicPagesController@viewKarmaCRMStats');
 
 
 });

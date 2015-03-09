@@ -12,6 +12,8 @@
     <link href="/angular-bootstrap/bootstrap-twit/css/innerPageStyling.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customSkill.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customService.css" rel="stylesheet">
+    <link href="/angular-bootstrap/bootstrap-twit/css/customKarmaStats.css" rel="stylesheet">
+
 
 
     <link rel="shortcut icon" href="/assets/kwFavIcon.ico" type="image/x-icon">
@@ -112,6 +114,8 @@
             margin-top: -10px;
             margin-bottom: 50px;
         }
+
+        .
 
     </style>
 
