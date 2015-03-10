@@ -93,22 +93,6 @@
             background:#808387;
         }
 
-        .activeNavLink {
-            text-decoration: underline;
-        }
-
-        .navLinks:link{
-            color:#fff;
-        }
-        .navLinks:active{
-            color:#fff;
-        }
-        .navLinks:visited{
-            color:#fff;
-        }
-        .navLinks:hover{
-            color:#000;
-        }
 
         .pageTitle {
             margin-top: -10px;
@@ -124,6 +108,32 @@
         a:hover {
             color:#dadada;
             cursor:pointer;
+        }
+
+        a:visited {
+            color: #000;
+            font-family: 'Arvo', serif;
+            text-decoration: underline;
+        }
+
+        .navLinks:link{
+            color:#fff;
+            text-decoration:none;
+
+        }
+        .navLinks:active{
+            color:#fff;
+            text-decoration:none;
+        }
+        .navLinks:visited{
+            color:#fff;
+        }
+        .navLinks:hover{
+            color:#000;
+        }
+
+        .activeNavLink:link {
+            text-decoration: underline;
         }
 
     </style>
