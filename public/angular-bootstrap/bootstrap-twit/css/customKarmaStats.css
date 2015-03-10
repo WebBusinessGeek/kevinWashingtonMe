@@ -6,26 +6,55 @@ h1 {
     font-family: 'Arvo', serif;
 }
 
+
+
+/*slide 1*/
 #section1 {
     background-color: #666666;
     min-height: 600px;
-    background-size: 100% auto;
     color:white;
 }
 
-/*h1{
-    font-family: 'Roboto', sans-serif;
-}*/
-#slide1_personTalkingImage {
-    background: url('/assets/karmaStatsImages/KWStats_personTalking.png') no-repeat center;
-    min-height: 265px;
+
+@media screen and (min-width:1200px)  {
+    #slide1_analyticAbstract > img {
+        margin-top: -150px;
+    }
+
+    #slide1_analyticAbstract {
+        max-height: 300px;
+    }
+
 
 }
 
-#slide1_analyticAbstract {
-    background: url('/assets/karmaStatsImages/KWStats_slide1_abstract.png') no-repeat center;
-    min-height: 360px;
-    position: relative;
-    top: -180px;
-    left: -70px;
+@media screen and (max-width:1199px)  {
+    #slide1_analyticAbstract {
+        display: none;
+    }
+    #slide1_textSection2 {
+        min-width: 600px;
+        margin-left: 10%;
+    }
+
 }
+
+@media screen and (max-width:800px)  {
+    #slide1_textSection2 {
+        max-width: 200px;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width:500px)  {
+    #slide1_textSection2 {
+        max-width: 200px;
+    }
+}
+
+/* end slide 1*/
+
+
+
+
+

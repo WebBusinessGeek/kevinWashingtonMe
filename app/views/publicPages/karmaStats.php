@@ -6,15 +6,17 @@
             </div>
         </div>
         <div class="row">
-            <div id="slide1_personTalkingImage" class="col-sm-8 col-md-8 col-lg-8 col-lg-offset-5">
+            <div id="slide1_personTalkingImage" class="col-sm-3 col-md-6 col-lg-6 col-sm-offset-2 col-md-offset-5 col-lg-offset-6">
+                <img src="/assets/karmaStatsImages/KWStats_personTalking.png">
             </div>
         </div>
         <div class="row">
-            <div id="slide1_analyticAbstract" class="col-sm-6 col-md-6 col-lg-6">
+            <div id="slide1_analyticAbstract" class="col-sm-5 col-md-5 col-lg-5">
+                <img src="/assets/karmaStatsImages/KWStats_slide1_abstract.png">
             </div>
-<!--        </div>-->
-<!--        <div class="row">-->
-            <div id="slide1_textSection2" class="col-sm-6 col-md-6 col-lg-6">
+        <!--</div>
+        <div class="row">-->
+            <div id="slide1_textSection2" class="col-sm-7 col-md-7 col-lg-7">
                 <h1>Let me <em class="underline">show</em> you what I've done.</h1>
                 <p>
                     Here's what karmaCRM and I were able to accomplish in just 5 months
