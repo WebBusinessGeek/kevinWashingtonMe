@@ -414,7 +414,7 @@
         <div id="quoteRequestSection" ng-if="!quoteRequestSubmitted" class="row text-center">
             <div id="quoteRequestHeader">
                 <h2>Quote request form</h2>
-                <img src="http://placehold.it/128/">
+                <img src="/assets/servicepageIcons/KWICON_quoteRequest.png"/>
             </div>
             <div id="quoteRequestForm" class="col-sm-6 col-md-6 col-lg-6">
                 <div>
@@ -550,7 +550,7 @@
         <div id="walkOutSection" ng-if="!referralsSubmitted" class="text-center">
             <div id="walkOutHeader" class="row">
                 <h3>Hey, Wait!</h3>
-                <img src="http://placehold.it/128/">
+                <img src="/assets/servicepageIcons/KWICON_walkOut.png"/>
                 <p>Really sorry we won't work together, I wish you luck anyway. Before you leave could tell me about anyone you know who <em>would</em> benefit from these services? Or maybe someone you know who would be interested in free coding or marketing training, <em>yourself included</em>. Thanks!</p>
             </div>
             <div class="row">
