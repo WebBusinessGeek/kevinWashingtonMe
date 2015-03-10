@@ -55,4 +55,25 @@ h1 {
 
 
 
+/*slide 2*/
+#section2 {
+    background-color: #fff;
+    min-height: 600px;
+    color:#000;
+}
+
+#slide2_textSection1{
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+#slide2_textSection2{
+    margin-top: 20px;
+    
+}
+
+/* end slide 2*/
+
+
+
 

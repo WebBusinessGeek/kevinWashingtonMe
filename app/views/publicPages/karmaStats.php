@@ -14,8 +14,6 @@
             <div id="slide1_analyticAbstract" class="col-sm-5 col-md-5 col-lg-5">
                 <img src="/assets/karmaStatsImages/KWStats_slide1_abstract.png">
             </div>
-        <!--</div>
-        <div class="row">-->
             <div id="slide1_textSection2" class="col-sm-12 col-md-7 col-lg-7">
                 <h1>Let me <em class="underline">show</em> you what I've done.</h1>
                 <p>
@@ -29,9 +27,36 @@
             </div>
         </div>
 
-
     </div>
+
     <div id="section2" class="col-sm-12 col-md-12 col-lg-12">
+        <div class="row">
+            <div id="slide2_textSection1" class="col-lg-5">
+                <h1>What is karmaCRM?</h1>
+                <p>
+                    karmaCRM is a SaaS based business that offers
+                    Customer Relationship Management solutions to
+                    small and medium sized businesses.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="slide2_karmaLogo" class="col-lg-12 text-center">
+                <img src="/assets/karmaStatsImages/KWStats_slide2_karmaLogo.png">
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="slide2_textSection2" class="col-lg-offset-7 col-lg-5">
+                <h1>An unexpected Twist!</h1>
+                <p>
+                    I was initially contacted to karmaCRM to provide SEO services.
+                    However after learning more about their business model and spotting
+                    some under-performing processes, I worked with them to accomplish much more.
+                </p>
+            </div>
+        </div>
 
     </div>
     <div id="section3" class="col-sm-12 col-md-12 col-lg-12">
