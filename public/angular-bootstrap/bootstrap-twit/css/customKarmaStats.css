@@ -69,6 +69,25 @@ h1 {
 
 #slide2_textSection2{
     margin-top: 20px;
+}
+
+@media screen and (min-width: 1200px)
+{
+    #slide2_textSection2{
+        margin-left: 620px;
+    }
+}
+
+@media screen and (max-width: 1199px)
+{
+    #slide2_textSection1{
+        margin-left: 0px;
+        text-align: center;
+    }
+    #slide2_textSection2{
+        /*margin-left: 5%;*/
+        text-align: center;
+    }
 
 }
 
