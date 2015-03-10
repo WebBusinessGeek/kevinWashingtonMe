@@ -49,9 +49,9 @@
 
         <div class="row">
             <div id="slide2_textSection2" class="col-lg-offset-7 col-lg-5">
-                <h1>An unexpected Twist!</h1>
+                <h1>Long story short...</h1>
                 <p>
-                    I was initially contacted to karmaCRM to provide SEO services.
+                    I was initially contracted to karmaCRM to provide SEO services.
                     However after learning more about their business model and spotting
                     some under-performing processes, I worked with them to accomplish much more.
                 </p>
