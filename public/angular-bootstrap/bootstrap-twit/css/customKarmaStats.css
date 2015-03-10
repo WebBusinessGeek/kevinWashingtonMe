@@ -1,7 +1,31 @@
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Arvo', serif;
+}
+
 #section1 {
-    background: url('/assets/backgroundImages/slide1_03.png') no-repeat;
+    background-color: #666666;
     min-height: 600px;
     background-size: 100% auto;
     color:white;
 }
 
+/*h1{
+    font-family: 'Roboto', sans-serif;
+}*/
+#slide1_personTalkingImage {
+    background: url('/assets/karmaStatsImages/KWStats_personTalking.png') no-repeat center;
+    min-height: 265px;
+
+}
+
+#slide1_analyticAbstract {
+    background: url('/assets/karmaStatsImages/KWStats_slide1_abstract.png') no-repeat center;
+    min-height: 360px;
+    position: relative;
+    top: -180px;
+    left: -70px;
+}
