@@ -7,7 +7,7 @@
         </div>
         <div class="row">
             <div id="slide1_personTalkingImage" class="col-sm-3 col-md-6 col-lg-6 col-sm-offset-2 col-md-offset-5 col-lg-offset-6">
-                <img src="/assets/karmaStatsImages/KWStats_personTalking.png">
+                <img class="img-responsive" src="/assets/karmaStatsImages/KWStats_personTalking.png">
             </div>
         </div>
         <div class="row">
@@ -57,9 +57,44 @@
                 </p>
             </div>
         </div>
-
     </div>
+
+
+
     <div id="section3" class="col-sm-12 col-md-12 col-lg-12">
+        <div class="row">
+            <div id="section3_textSection1" class="col-lg-offset-4 col-lg-8">
+                <h2>When we optimized the sales process we had a notable increase in conversions...</h2>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div id="section3_analyticGear" class="col-lg-6">
+                <img class="img-responsive" src="/assets/karmaStatsImages/KWStats_slide3_analyticCircle.png">
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div id="section3_textSection2" class="col-lg-7">
+                <h1>A 145% increase to be exact!</h1>
+                <p>
+                    karmaCRM offered new users a 30-day free trial of its software.
+                    After noticing that many of these free-trial users were not converting
+                    I helped launch some creative tactics that helped to build value, reduce usage barriers,
+                    and turn those 'drop-offs' into paying customers.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div id="section3_analyticChart" class="col-lg-6 col-lg-offset-7">
+                <img class="img-responsive" src="/assets/karmaStatsImages/KWStats_slide3_analyticChart.png">
+            </div>
+        </div>
+
 
     </div>
     <div id="section4" class="col-sm-12 col-md-12 col-lg-12">

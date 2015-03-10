@@ -85,7 +85,6 @@ h1 {
         text-align: center;
     }
     #slide2_textSection2{
-        /*margin-left: 5%;*/
         text-align: center;
     }
 
@@ -96,3 +95,31 @@ h1 {
 
 
 
+/* slide 3*/
+
+#section3 {
+    background-color: #999999;
+    min-height: 600px;
+    color:#fff;
+}
+
+@media screen and (min-width:1200px)
+{
+    #section3_analyticGear > img {
+        margin-top:-150px;
+        margin-left: -70px;
+        margin-bottom: -30px;
+    }
+
+    #section3_analyticChart > img {
+        margin-top:-430px;
+    }
+
+    #section3_textSection2 {
+        margin-left: 20px;
+    }
+}
+
+
+
+/*end section 3*/
