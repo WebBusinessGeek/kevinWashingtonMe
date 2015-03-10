@@ -20,9 +20,12 @@
                 <h1>Let me <em class="underline">show</em> you what I've done.</h1>
                 <p>
                     Here's what karmaCRM and I were able to accomplish in just 5 months
-                    when we focused ont he smartest objectievs and implemented creative tactics
+                    when we focused on the smartest objectives and implemented creative tactics
                     to achieve success!
                 </p>
+                <div class="text-center">
+                    <span id="slide1_arrow" class="glyphicon glyphicon-chevron-down"></span>
+                </div>
             </div>
         </div>
 

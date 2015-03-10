@@ -1,5 +1,6 @@
 p{
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 h1 {
@@ -42,6 +43,11 @@ h1 {
     #slide1_textSection2 {
         margin-left:0px;
     }
+}
+
+#slide1_arrow {
+    margin-top: 20px;
+    font-size: 40px;
 }
 
 /* end slide 1*/
