@@ -121,5 +121,28 @@ h1 {
 }
 
 
+@media screen and (max-width:1199px)
+{
+
+    #section3_analyticChart > img, #section3_analyticGear > img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #section3_textSection2, #section3_textSection1 {
+        text-align: center;
+    }
+
+    #section3_analyticGear > img {
+        margin-top: -50px;
+    }
+    #section3_textSection2{
+        margin-top: -50px;
+        margin-bottom: 30px;
+    }
+}
+
+
+
 
 /*end section 3*/
