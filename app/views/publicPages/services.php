@@ -282,7 +282,7 @@
         <!--services cta section-->
        <div id="ctaSection" class="row text-center">
            <h4>See something you Like?</h4>
-           <a class="btn btn-warning btn-lg" ng-click="quoteRequest()">Get a quick Quote!</a>
+           <button class="btn btn-warning btn-lg" ng-click="quoteRequest()">Get a quick Quote!</button>
            <br/>
            <a ng-click="walkOut()">No thanks, I don't need these services.</a>
        </div>
@@ -304,7 +304,7 @@
                                 However to answer your question of 'why me?', there are two main reasons why I don't think your in bad company working with me.
                                 Experience & Results.
                                 I have so far accumulated almost 9 years of customer acquisition experience - 6 years of business-to-consumer overlapping 4 years of business-to-business.
-                                And the <a href="/karma-crm-stats">notable & verifiable results</a> I have achieved while gaining this experience should help build some confidence.
+                                And the <a href="/karma-crm-stats" target="_blank">notable & verifiable results</a> I have achieved while gaining this experience should help build some confidence.
                             </p>
                         </div>
                         <div>
@@ -317,7 +317,7 @@
                         </div>
                         <div>
                             <h5>What results have you achieved for other clients?</h5>
-                            <p>Some pretty good ones. Here <a href="#">take a look.</a></p>
+                            <p>Some pretty good ones. Here <a href="/karma-crm-stats" target="_blank">take a look.</a></p>
                         </div>
                         <div>
                             <h5>How much experience do you have in customer acquisition?</h5>
@@ -377,7 +377,7 @@
                         <p>
                             I offer plans that fit into the budgets of new businesses with little cash-flow,
                             and plans that have been adequate for businesses with significant revenue.
-                            If you are interested in working with me you could <a href="#">connect with me</a>,
+                            If you are interested in working with me you could <a href="/connect">connect with me</a>,
                             or you could get a quick quote <a ng-click="quoteRequest()">here</a>.
                         </p>
                     </div>
@@ -403,7 +403,7 @@
             </div>
         </div>
         <div class="row text-center">
-            <a class="btn btn-warning btn-lg" ng-click="quoteRequest()">Get a quick Quote!</a>
+            <button class="btn btn-warning btn-lg" ng-click="quoteRequest()">Get a quick Quote!</button>
             <br/>
             <a href="#">Back to top</a>
         </div>

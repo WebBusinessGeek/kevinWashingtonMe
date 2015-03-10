@@ -115,7 +115,16 @@
             margin-bottom: 50px;
         }
 
-        .
+        a {
+            color: #000;
+            font-family: 'Arvo', serif;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color:#dadada;
+            cursor:pointer;
+        }
 
     </style>
 
