@@ -131,7 +131,8 @@
         <!--results to questions-->
         <div ng-if="answered == 3">
             <div ng-if="yesCounter == 0" class="col-sm-8 col-md-6 col-lg-6 quizAnswer">
-                <h4>I don't know about this...</h4>
+                <h4>Idk about this...</h4>
+                <img src="/assets/servicepageIcons/KWICON_warning.png">
                 <p>
                     While I am a strong believer that diversity in thinking is needed to learn, grow and develop as a team...
                     It seems we do not agree on many foundational components that are building blocks of
@@ -147,12 +148,13 @@
                 </button>
             </div>
             <div ng-if="yesCounter == 1" class="col-sm-8 col-md-6 col-lg-6 quizAnswer">
-                <h4>Might be some issues...</h4>
+                <h4>We may have some issues...</h4>
+                <img src="/assets/servicepageIcons/KWICON_issues.png">
                 <p>
                     It seems we have a pretty diverse way of looking at
                     <span ng-if="servicesSetTo == 'product'">product development.</span>
                     <span ng-if="servicesSetTo == 'customers'">customer acquisition.</span>
-                    While a bit of constrasting in thought processes are good, I would like to caution you in working with me
+                    While a bit of contrasting in thought processes are good, I would like to caution you in working with me
                     as these viewpoints are core components of the
                     <span ng-if="servicesSetTo == 'product'">product-to-market</span>
                     <span ng-if="servicesSetTo == 'customers'">lead generation and conversion</span>
@@ -166,7 +168,8 @@
                 </button>
             </div>
             <div ng-if="yesCounter == 2 || yesCounter == 3" class="col-sm-8 col-md-6 col-lg-6 quizAnswer">
-                <h4>Good news...</h4>
+                <h4>Good news...We may be a good fit!</h4>
+                <img src="/assets/servicepageIcons/KWICON_goodFit.png">
                 <p>
                     From your answers it seems that we agree on many of the core components that help shape
                     <span ng-if="servicesSetTo == 'product'">a successful product development process.</span>
@@ -174,6 +177,7 @@
                     Hopefully you find one of the plans I offer fitting and we can work together soon!
                 </p>
                 <button class="btn btn-warning btn-lg" ng-click="showServices()">
+                    View
                     <span ng-if="servicesSetTo == 'product'">Product development services</span>
                     <span ng-if="servicesSetTo == 'customers'">Customer acquisition services</span>
                 </button>
@@ -290,7 +294,7 @@
         <!--faq section for services-->
         <div>
             <div id="FAQsection" class="row text-center">
-                <h4>Answers to your questions.</h4>
+                <h4>Answers to your Questions.</h4>
 
                 <div class="col-sm-6 col-md-6 col-lg-6">
 
