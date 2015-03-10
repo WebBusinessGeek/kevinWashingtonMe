@@ -16,7 +16,7 @@
             </div>
         <!--</div>
         <div class="row">-->
-            <div id="slide1_textSection2" class="col-sm-7 col-md-7 col-lg-7">
+            <div id="slide1_textSection2" class="col-sm-12 col-md-7 col-lg-7">
                 <h1>Let me <em class="underline">show</em> you what I've done.</h1>
                 <p>
                     Here's what karmaCRM and I were able to accomplish in just 5 months

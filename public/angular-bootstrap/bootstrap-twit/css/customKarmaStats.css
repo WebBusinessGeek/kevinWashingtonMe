@@ -25,7 +25,6 @@ h1 {
         max-height: 300px;
     }
 
-
 }
 
 @media screen and (max-width:1199px)  {
@@ -33,22 +32,15 @@ h1 {
         display: none;
     }
     #slide1_textSection2 {
-        min-width: 600px;
+        max-width: 600px;
         margin-left: 10%;
     }
 
 }
 
-@media screen and (max-width:800px)  {
+@media screen and (max-width:700px)  {
     #slide1_textSection2 {
-        max-width: 200px;
-        margin-left: 5%;
-    }
-}
-
-@media screen and (max-width:500px)  {
-    #slide1_textSection2 {
-        max-width: 200px;
+        margin-left:0px;
     }
 }
 
