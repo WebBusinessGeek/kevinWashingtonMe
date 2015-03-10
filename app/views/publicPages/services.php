@@ -420,15 +420,14 @@
                 <div>
                     <label for="serviceOfInterest">What are you primarily interested in?</label>
                     <select name="serviceOfInterest" ng-model="serviceOfInterest" class="form-control">
-                        <option>Select one</option>
-                        <option value="Getting more customers">Getting more customers.</option>
-                        <option value="Building a product">Building a product.</option>
+                        <option value="Getting more customers">Getting more customers</option>
+                        <option value="Building a product">Building a product</option>
                     </select>
                 </div>
 
                 <div>
                     <label for="objectives">What are some of your business objectives? </label>
-                    <textarea name="objectives"  ng-model="objectives" placeholder="some info here" class="form-control" rows="10" cols="30"></textarea>
+                    <textarea name="objectives"  ng-model="objectives" placeholder="" class="form-control" rows="10" cols="30"></textarea>
                 </div>
 
                 <div>
