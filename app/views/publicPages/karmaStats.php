@@ -100,10 +100,13 @@
     <div id="section4" class="col-sm-12 col-md-12 col-lg-12">
 
         <div class="row">
-            <div id="slide4_textSection1" class="col-lg-12 text-center">
+            <div id="slide4_textSection1" class="col-lg-9 text-center">
                 <h2>With our new strategy we increased revenue by 449%!</h2>
                 <p>
-                    This is the sub text and all that.
+                    While increasing our conversions was a great start, we also implemented tactics that collectively help initiate an enormous spike
+                    in the amount of money the business collected on a daily basis. These tactics included a overhaul on
+                    our pricing options to incentivize the plans that would help us achieve the objectives most important to us.
+
                 </p>
             </div>
         </div>

@@ -30,8 +30,8 @@
           <file leaf-file-name="karmaStats.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/karmaStats.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.17266187" vertical-offset="2455" max-vertical-offset="3525">
-                  <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+                <state vertical-scroll-proportion="0.38848922" vertical-offset="2380" max-vertical-offset="3600">
+                  <caret line="106" column="120" selection-start-line="106" selection-start-column="120" selection-end-line="106" selection-end-column="120" />
                   <folding />
                 </state>
               </provider>
@@ -673,8 +673,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/karmaStats.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17266187" vertical-offset="2455" max-vertical-offset="3525">
-          <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.38848922" vertical-offset="2380" max-vertical-offset="3600">
+          <caret line="106" column="120" selection-start-line="106" selection-start-column="120" selection-end-line="106" selection-end-column="120" />
           <folding />
         </state>
       </provider>
