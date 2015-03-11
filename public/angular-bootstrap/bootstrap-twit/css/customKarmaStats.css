@@ -16,38 +16,43 @@ h1 {
     color:white;
 }
 
-
-@media screen and (min-width:1200px)  {
-    #slide1_analyticAbstract > img {
-        margin-top: -150px;
-    }
-
-    #slide1_analyticAbstract {
-        max-height: 300px;
-    }
-
-}
-
-@media screen and (max-width:1199px)  {
-    #slide1_analyticAbstract {
-        display: none;
-    }
-    #slide1_textSection2 {
-        max-width: 600px;
-        margin-left: 10%;
-    }
-
-}
-
-@media screen and (max-width:700px)  {
-    #slide1_textSection2 {
-        margin-left:0px;
-    }
+.underline {
+    text-decoration: underline;
 }
 
 #slide1_arrow {
-    margin-top: 20px;
     font-size: 40px;
+}
+
+@media screen and (min-width:1200px)
+{
+    #slide1_textSection2 {
+        margin-top: 20px;
+    }
+    #slide1_analyticAbstract {
+        margin-top: -360px;
+        max-height: 10px;
+    }
+}
+
+@media screen and (max-width:1199px)
+{
+    #slide1_textSection1 {
+        text-align: center;
+    }
+
+    #slide1_textSection2 {
+        text-align: center;
+    }
+
+    #slide1_personTalkingImage > img, #slide1_analyticAbstract > img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #slide1_analyticAbstract > img {
+        margin-top: -30px;
+    }
 }
 
 /* end slide 1*/

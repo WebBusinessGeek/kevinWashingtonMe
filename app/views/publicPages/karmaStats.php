@@ -1,21 +1,18 @@
 <div>
     <div id="section1" class="col-sm-12 col-md-12 col-lg-12">
         <div class="row">
-            <div id="slide1_textSection1" class="col-sm-10 col-md-10 col-lg-10">
-                <h1>Any strategist can <em class="underline">tell</em> you what they can do...</h1>
+            <div id="slide1_textSection1" class="col-lg-8">
+                <h2>Any marketer can <span class="underline">tell</span> you what they can do...</h2>
             </div>
         </div>
         <div class="row">
-            <div id="slide1_personTalkingImage" class="col-sm-3 col-md-6 col-lg-6 col-sm-offset-2 col-md-offset-5 col-lg-offset-6">
+            <div id="slide1_personTalkingImage" class="col-lg-offset-6 col-lg-6">
                 <img class="img-responsive" src="/assets/karmaStatsImages/KWStats_personTalking.png">
             </div>
         </div>
         <div class="row">
-            <div id="slide1_analyticAbstract" class="col-sm-5 col-md-5 col-lg-5">
-                <img src="/assets/karmaStatsImages/KWStats_slide1_abstract.png">
-            </div>
-            <div id="slide1_textSection2" class="col-sm-12 col-md-7 col-lg-7">
-                <h1>Let me <em class="underline">show</em> you what I've done.</h1>
+            <div id="slide1_textSection2" class="col-lg-7 col-lg-offset-5">
+                <h1>Let me <span class="underline">show</span> you what I've done.</h1>
                 <p>
                     Here's what karmaCRM and I were able to accomplish in just 5 months
                     when we focused on the smartest objectives and implemented creative tactics
@@ -24,6 +21,12 @@
                 <div class="text-center">
                     <span id="slide1_arrow" class="glyphicon glyphicon-chevron-down"></span>
                 </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="slide1_analyticAbstract" class="col-lg-6">
+                <img class="img-responsive" src="/assets/karmaStatsImages/KWStats_slide1_abstract.png">
             </div>
         </div>
     </div>
