@@ -99,6 +99,30 @@
     </div>
     <div id="section4" class="col-sm-12 col-md-12 col-lg-12">
 
+        <div class="row">
+            <div id="slide4_textSection1" class="col-lg-12 text-center">
+                <h2>With our new strategy we increased revenue by 449%!</h2>
+                <p>
+                    This is the sub text and all that.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div id="slide4_piggyBank" class="col-lg-4">
+                <img class="img-responsive" src="/assets/karmaStatsImages/KWStats_slide4_piggyBank.png">
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="slide4_laptop" class="col-lg-12 text-center">
+                <img class="img-responsive center-block" src="/assets/karmaStatsImages/KWStats_slide4_laptop.png">
+            </div>
+        </div>
+        <div class="row">
+            <div id="slide4_analyticGear" class="col-lg-4 col-lg-offset-6">
+                <img class="img-responsive" src="/assets/karmaStatsImages/KWStats_slide4_analyticGear.png">
+            </div>
+        </div>
     </div>
     <div id="section5" class="col-sm-12 col-md-12 col-lg-12">
 
