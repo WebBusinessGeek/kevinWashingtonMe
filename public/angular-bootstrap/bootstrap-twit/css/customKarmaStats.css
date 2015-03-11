@@ -142,9 +142,6 @@ h1 {
     }
 }
 
-
-
-
 /*end section 3*/
 
 
@@ -184,24 +181,58 @@ h1 {
 
 @media screen and (max-width:1199px)
 {
-    #slide4_textSection1{
-        /*margin-left: 180px;*/
-    }
-
     #slide4_piggyBank {
        display: none;
-    }
-
-    #slide4_laptop {
-        /*margin-top: -200px;*/
     }
 
     #slide4_analyticGear  {
       display: none;
     }
 }
-
-
-
-
 /*end slide 4*/
+
+
+
+
+
+/*slide 5*/
+#section5 {
+    background-color: #fff;
+    min-height: 600px;
+    color:#000;
+}
+
+@media screen and (min-width:1200px)
+{
+    #slide5_textSection1 {
+        margin-left: 120px;
+    }
+
+    #slide5_percentCircle {
+        margin-left: 850px;
+        margin-top: -210px;
+    }
+
+    #slide5_balanceSheet {
+        margin-top: -200px;
+    }
+
+    #slide5_analyticGear {
+        margin-left:-90px;
+        margin-top: -270px;
+        max-height: 100px;
+    }
+}
+
+
+@media screen and (max-width: 1199px)
+{
+    #slide5_percentCircle {
+        display: none;
+    }
+
+    #slide5_analyticGear {
+        display: none;
+    }
+}
+/*end slide 5*/

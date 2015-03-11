@@ -30,8 +30,8 @@
           <file leaf-file-name="karmaStats.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/karmaStats.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8201439" vertical-offset="2530" max-vertical-offset="3600">
-                  <caret line="124" column="73" selection-start-line="124" selection-start-column="73" selection-end-line="124" selection-end-column="73" />
+                <state vertical-scroll-proportion="0.31654677" vertical-offset="3105" max-vertical-offset="4225">
+                  <caret line="133" column="94" selection-start-line="133" selection-start-column="94" selection-end-line="133" selection-end-column="94" />
                   <folding />
                 </state>
               </provider>
@@ -44,8 +44,8 @@
           <file leaf-file-name="customKarmaStats.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customKarmaStats.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.44598338" vertical-offset="4378" max-vertical-offset="5300">
-                  <caret line="188" column="5" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.65373963" vertical-offset="5378" max-vertical-offset="6100">
+                  <caret line="234" column="22" selection-start-line="234" selection-start-column="22" selection-end-line="234" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -663,18 +663,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/karmaStats.php">
+    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customKarmaStats.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8201439" vertical-offset="2530" max-vertical-offset="3600">
-          <caret line="124" column="73" selection-start-line="124" selection-start-column="73" selection-end-line="124" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.65373963" vertical-offset="5378" max-vertical-offset="6100">
+          <caret line="234" column="22" selection-start-line="234" selection-start-column="22" selection-end-line="234" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customKarmaStats.css">
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/karmaStats.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44598338" vertical-offset="4378" max-vertical-offset="5300">
-          <caret line="188" column="5" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.31654677" vertical-offset="3105" max-vertical-offset="4225">
+          <caret line="133" column="94" selection-start-line="133" selection-start-column="94" selection-end-line="133" selection-end-column="94" />
           <folding />
         </state>
       </provider>
