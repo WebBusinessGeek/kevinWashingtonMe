@@ -122,7 +122,7 @@
             </div>
         </div>
         <div class="row">
-            <div id="slide4_analyticGear" class="col-lg-4 col-lg-offset-6">
+            <div id="slide4_analyticGear" class="col-lg-4 col-lg-offset-8">
                 <img class="img-responsive" src="/assets/karmaStatsImages/KWStats_slide4_analyticGear.png">
             </div>
         </div>
