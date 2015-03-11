@@ -135,7 +135,7 @@
                 <p>
                     Yup, you read correctly. We increased the amount of revenue we retained after attrition factors such as cancellations and card expirys by 1,079%!
                     We did this not only by bringing in more revenue, but also launching a few tactics that directly combated many of the factors causing us to
-                    lose money in the back end.
+                    lose money in the first place.
                 </p>
             </div>
         </div>
