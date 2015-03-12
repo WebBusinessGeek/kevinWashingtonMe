@@ -182,6 +182,16 @@ class PublicPagesController extends \BaseController {
 		$this->layout->content = $view->render();
 	}
 
+
+	/***********************************************************************************************************/
+	/*                                         404 Error Page	                 		                    */
+	/***********************************************************************************************************/
+
+	public function view404Error()
+	{
+		return 'error view via public pages';
+	}
+
 }
 
 

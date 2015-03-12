@@ -12,6 +12,11 @@
 |
 */
 
+App::missing(function($exception)
+{
+    return Redirect::action('PublicPagesController@view404Error');
+});
+
 //route for misc testing
 Route::get('test', function()
 {
@@ -29,9 +34,10 @@ Route::group(array(),function()
     Route::get('/connect', 'PublicPagesController@viewConnect');
     Route::get('/services', 'PublicPagesController@viewServices');
     Route::get('/karma-crm-stats', 'PublicPagesController@viewKarmaCRMStats');
-
+    Route::get('/your-lost', 'PublicPagesController@view404Error');
 
 });
+
 
 //routes for angularjs/ajax calls
 Route::group(array('prefix' => 'api.v1'),function()
