@@ -25,7 +25,7 @@ Route::get('test', function()
 
 
 
-//public pages
+//public pages for main site
 Route::group(array(),function()
 {
     Route::get('/', 'PublicPagesController@viewHome');
@@ -39,11 +39,24 @@ Route::group(array(),function()
 });
 
 
+//public pages for seo site
+Route::group(array('prefix' => 'seo'), function()
+{
+    Route::get('/', 'SeoPagesController@viewMain');
+    Route::get('/some-title1', 'SeoPagesController@viewAddValue1');
+    Route::get('/some-title2', 'SeoPagesController@viewAddValue2');
+    Route::get('/some-title3', 'SeoPagesController@viewAddValue3');
+    Route::get('/my-seo-process', 'SeoPagesController@viewDemo');
+    Route::get('/lets-work-together', 'SeoPagesController@viewCTA');
+    Route::get('/lets-work-together-now', 'SeoPagesController@viewCTATO');
+    Route::get('/thank-you', 'SeoPagesController@viewConversionConfirm');
+});
+
+
 //routes for angularjs/ajax calls
 Route::group(array('prefix' => 'api.v1'),function()
 {
     Route::get('/skills', 'PublicPagesController@getDataSkills');
-    Route::get('/experiences', 'PublicPagesController@getDataExperiences');
     Route::post('/connect', 'PublicPagesController@postDataConnect');
 });
 

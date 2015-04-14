@@ -157,9 +157,10 @@
     </div>
     <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
+            <li><a ng-class="{'activeNavLink': currentUrl== 'tmi'}" class="navLinks" href="/about">Intro</a></li>
             <li><a ng-class="{'activeNavLink': currentUrl== 'tmi'}" class="navLinks" href="/tmi">TMI</a></li>
             <li><a ng-class="{'activeNavLink': currentUrl== 'skills'}" class="navLinks" href="/skills">Skills</a></li>
-            <li><a ng-class="{'activeNavLink': currentUrl== 'services'}" class="navLinks" href="/services">Freelancing</a></li>
+<!--            <li><a ng-class="{'activeNavLink': currentUrl== 'services'}" class="navLinks" href="/services">Freelancing & Consulting</a></li>-->
 <!--            <li><a ng-class="{'activeNavLink': currentUrl== 'experiences'}" class="navLinks" href="/experiences">Experiences</a></li>-->
             <li><a ng-class="{'activeNavLink': currentUrl== 'connect'}" class="navLinks" href="/connect">Connect</a></li>
         </ul>
