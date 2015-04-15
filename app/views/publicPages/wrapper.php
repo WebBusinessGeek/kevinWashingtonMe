@@ -13,6 +13,9 @@
     <link href="/angular-bootstrap/bootstrap-twit/css/customSkill.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customService.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customKarmaStats.css" rel="stylesheet">
+    <link href="/angular-bootstrap/bootstrap-twit/css/customIntro.css" rel="stylesheet">
+    <link href="/angular-bootstrap/bootstrap-twit/css/customTMI.css" rel="stylesheet">
+
 
 
 
@@ -200,6 +203,7 @@
     <script src="app/skillJquery.js"></script>
     <script src="app/intro.js"></script>
     <script src="app/tmi.js"></script>
+
 
     <script src="/angular-bootstrap/bootstrap-twit/js/bootstrap.min.js"></script>
 

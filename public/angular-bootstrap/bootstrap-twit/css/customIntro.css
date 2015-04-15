@@ -1,0 +1,23 @@
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.arvo{
+    font-family: 'Arvo', serif;
+}
+
+#background {
+    background-color: #fff;
+    min-height:600px;
+    padding-top: 50px;
+
+}
+
+#introContent {
+    padding-top: 50px;
+}
+
+#introContentSig {
+    padding-top: 30px;
+}
+
