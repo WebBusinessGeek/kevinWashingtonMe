@@ -157,11 +157,9 @@
     </div>
     <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-            <li><a ng-class="{'activeNavLink': currentUrl== 'tmi'}" class="navLinks" href="/about">Intro</a></li>
+            <li><a ng-class="{'activeNavLink': currentUrl== 'intro'}" class="navLinks" href="/intro">Intro</a></li>
             <li><a ng-class="{'activeNavLink': currentUrl== 'tmi'}" class="navLinks" href="/tmi">TMI</a></li>
             <li><a ng-class="{'activeNavLink': currentUrl== 'skills'}" class="navLinks" href="/skills">Skills</a></li>
-<!--            <li><a ng-class="{'activeNavLink': currentUrl== 'services'}" class="navLinks" href="/services">Freelancing & Consulting</a></li>-->
-<!--            <li><a ng-class="{'activeNavLink': currentUrl== 'experiences'}" class="navLinks" href="/experiences">Experiences</a></li>-->
             <li><a ng-class="{'activeNavLink': currentUrl== 'connect'}" class="navLinks" href="/connect">Connect</a></li>
         </ul>
     </div>
@@ -200,6 +198,9 @@
     <script src="app/connect.js"></script>
     <script src="app/services.js"></script>
     <script src="app/skillJquery.js"></script>
+    <script src="app/intro.js"></script>
+    <script src="app/tmi.js"></script>
+
     <script src="/angular-bootstrap/bootstrap-twit/js/bootstrap.min.js"></script>
 
 

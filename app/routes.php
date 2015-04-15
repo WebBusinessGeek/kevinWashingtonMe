@@ -29,10 +29,10 @@ Route::get('test', function()
 Route::group(array(),function()
 {
     Route::get('/', 'PublicPagesController@viewHome');
+    Route::get('/intro', 'PublicPagesController@viewIntro');
+    Route::get('/tmi', 'PublicPagesController@viewTMI');
     Route::get('/skills', 'PublicPagesController@viewSkills');
-    Route::get('/experiences', 'PublicPagesController@viewExperiences');
     Route::get('/connect', 'PublicPagesController@viewConnect');
-    Route::get('/services', 'PublicPagesController@viewServices');
     Route::get('/karma-crm-stats', 'PublicPagesController@viewKarmaCRMStats');
     Route::get('/your-lost', 'PublicPagesController@view404Error');
 

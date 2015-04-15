@@ -45,11 +45,9 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="navLinks" href="/about">Intro</a></li>
+                    <li><a class="navLinks" href="/intro">Intro</a></li>
                     <li><a class="navLinks" href="/tmi">TMI</a></li>
                     <li><a class="navLinks" href="/skills">Skills</a></li>
-<!--                    <li><a class="navLinks" href="/services">Freelancing & Consulting</a></li>-->
-<!--                    <li><a class="navLinks" href="/experiences">Experiences</a></li>-->
                     <li><a class="navLinks" href="/connect">Connect</a></li>
                 </ul>
             </div>

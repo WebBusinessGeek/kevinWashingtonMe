@@ -192,6 +192,29 @@ class PublicPagesController extends \BaseController {
 		return 'error view via public pages';
 	}
 
+
+
+	/***********************************************************************************************************/
+	/*                                         Intro Page	                 		                    */
+	/***********************************************************************************************************/
+
+	public function viewIntro()
+	{
+		$view = View::make('publicPages.intro');
+		$this->layout->content = $view->render();
+	}
+
+
+	/***********************************************************************************************************/
+	/*                                         TMI Page	                 		                    */
+	/***********************************************************************************************************/
+
+	public function viewTMI()
+	{
+		$view = View::make('publicPages.tmi');
+		$this->layout->content = $view->render();
+	}
+
 }
 
 
