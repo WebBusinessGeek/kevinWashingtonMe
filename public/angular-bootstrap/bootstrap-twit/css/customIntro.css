@@ -1,9 +1,11 @@
 p {
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
 .arvo{
     font-family: 'Arvo', serif;
+    font-size: 20px;
 }
 
 #background {
@@ -18,6 +20,6 @@ p {
 }
 
 #introContentSig {
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
