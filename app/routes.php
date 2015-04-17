@@ -25,9 +25,13 @@ Route::get('test', function()
 
 
 //public pages for seo site
-Route::group(array('domain' => 'seo.kevinwashington.me'), function()
+Route::group(array('domain' => 'seo.kevinwashingtonme.local'), function()
 {
-    Route::get('/', 'SeoPagesController@viewMain');
+    Route::get('/', function()
+    {
+        return 'seo pages';
+    });
+
     Route::get('/some-title1', 'SeoPagesController@viewAddValue1');
     Route::get('/some-title2', 'SeoPagesController@viewAddValue2');
     Route::get('/some-title3', 'SeoPagesController@viewAddValue3');
