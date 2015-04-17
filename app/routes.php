@@ -3,23 +3,15 @@
 $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
-
     'local' => array('homestead'),
     'localMachine' => array('Kevs-MacBook-Air.local'),
     'production' => array('KevWashingtonme'),
-
 ));
+
 $hostname ='';
 
-if($env == 'production')
-{
-    $hostName = 'kevinwashington.me';
-
-}
-else
-{
-    $hostname = 'kevinwashingtonme.local';
-}
+if($env == 'production') {$hostName = 'kevinwashington.me';}
+else {$hostname = 'kevinwashingtonme.local';}
 
 
 
@@ -51,10 +43,14 @@ Route::group(array('domain' => 'seo.'.$hostname), function()
 {
     Route::get('/', function()
     {
-        return 'seo pages';
+        return 'seo pagessss';
     });
 
-    Route::get('/some-title1', 'SeoPagesController@viewAddValue1');
+    Route::get('/some-title1',function ()
+    {
+        return 'some title page for seo';
+    });
+
     Route::get('/some-title2', 'SeoPagesController@viewAddValue2');
     Route::get('/some-title3', 'SeoPagesController@viewAddValue3');
     Route::get('/my-seo-process', 'SeoPagesController@viewDemo');
