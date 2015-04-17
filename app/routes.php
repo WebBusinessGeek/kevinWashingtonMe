@@ -40,22 +40,14 @@ Route::get('test', function()
 //Route::group(array('domain' => 'seo.'.$hostname), function()
 Route::group(array('domain' => 'seo.'.$hostname), function()
 {
-    Route::get('/', function()
-    {
-
-        return 'seo pagessss: ';
-    });
-
-    Route::get('/some-title1',function ()
-    {
-        return 'some title page for seo';
-    });
-
+    Route::get('/', 'SeoPagesController@viewMain');
+    Route::get('/some-title1', 'SeoPagesController@viewAddValue1');
     Route::get('/some-title2', 'SeoPagesController@viewAddValue2');
     Route::get('/some-title3', 'SeoPagesController@viewAddValue3');
     Route::get('/my-seo-process', 'SeoPagesController@viewDemo');
-    Route::get('/lets-work-together', 'SeoPagesController@viewCTA');
-    Route::get('/lets-work-together-now', 'SeoPagesController@viewCTATO');
+    Route::get('/connect', 'SeoPagesController@viewConnect');
+    Route::get('/connect/lets-work-together', 'SeoPagesController@viewCTA');
+    Route::get('/connect/lets-work-together-now', 'SeoPagesController@viewCTATO');
     Route::get('/thank-you', 'SeoPagesController@viewConversionConfirm');
 });
 
