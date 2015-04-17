@@ -20,7 +20,7 @@ else
 }*/
 
 $hostname = '';
-$environment = App::environement();
+$environment = App::environment();
 if($environment == 'local' || $environment == 'localMachine')
 {
     $hostname = 'kevinwashingtonme.local';
