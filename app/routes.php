@@ -24,6 +24,19 @@ Route::get('test', function()
 });
 
 
+//public pages for seo site
+Route::group(array('domain' => 'seo.kevinwashington.me'), function()
+{
+    Route::get('/', 'SeoPagesController@viewMain');
+    Route::get('/some-title1', 'SeoPagesController@viewAddValue1');
+    Route::get('/some-title2', 'SeoPagesController@viewAddValue2');
+    Route::get('/some-title3', 'SeoPagesController@viewAddValue3');
+    Route::get('/my-seo-process', 'SeoPagesController@viewDemo');
+    Route::get('/lets-work-together', 'SeoPagesController@viewCTA');
+    Route::get('/lets-work-together-now', 'SeoPagesController@viewCTATO');
+    Route::get('/thank-you', 'SeoPagesController@viewConversionConfirm');
+});
+
 
 //public pages for main site
 Route::group(array(),function()
@@ -38,19 +51,6 @@ Route::group(array(),function()
 
 });
 
-
-//public pages for seo site
-Route::group(array('prefix' => 'seo'), function()
-{
-    Route::get('/', 'SeoPagesController@viewMain');
-    Route::get('/some-title1', 'SeoPagesController@viewAddValue1');
-    Route::get('/some-title2', 'SeoPagesController@viewAddValue2');
-    Route::get('/some-title3', 'SeoPagesController@viewAddValue3');
-    Route::get('/my-seo-process', 'SeoPagesController@viewDemo');
-    Route::get('/lets-work-together', 'SeoPagesController@viewCTA');
-    Route::get('/lets-work-together-now', 'SeoPagesController@viewCTATO');
-    Route::get('/thank-you', 'SeoPagesController@viewConversionConfirm');
-});
 
 
 //routes for angularjs/ajax calls
