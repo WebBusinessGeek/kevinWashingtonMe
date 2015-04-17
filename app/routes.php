@@ -1,6 +1,6 @@
 <?php
 
-$app = new Illuminate\Foundation\Application;
+/*$app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
     'local' => array('homestead'),
@@ -13,6 +13,17 @@ $hostname ='';
 if($env == 'local' || $env == 'localMachine')
 {
     $hostName = 'kevinwashingtonme.local';
+}
+else
+{
+    $hostname = 'kevinwashington.me';
+}*/
+
+$hostname = '';
+$environment = App::environement();
+if($environment == 'local' || $environment == 'localMachine')
+{
+    $hostname = 'kevinwashingtonme.local';
 }
 else
 {
@@ -50,8 +61,8 @@ Route::group(array('domain' => 'seo.'.$hostname), function()
 {
     Route::get('/', function()
     {
-        $environment = App::environment();
-        return 'seo pagessss: '.$environment;
+
+        return 'seo pagessss: ';
     });
 
     Route::get('/some-title1',function ()
