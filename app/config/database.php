@@ -10,7 +10,6 @@ $env = $app->detectEnvironment(array(
 
 ));
 
-//$env = \Illuminate\Support\Facades\App::environment();
 
 
 if($env == 'production')
