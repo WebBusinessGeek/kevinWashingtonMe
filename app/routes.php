@@ -1,6 +1,6 @@
 <?php
 
-$app = new Illuminate\Foundation\Application;
+/*$app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
     'local' => array('homestead'),
@@ -12,7 +12,7 @@ $hostname ='';
 
 if($env == 'production') {$hostName = 'kevinwashington.me';}
 else {$hostname = 'kevinwashingtonme.local';}
-
+*/
 
 
 /*
@@ -39,7 +39,8 @@ Route::get('test', function()
 
 
 //public pages for seo site
-Route::group(array('domain' => 'seo.'.$hostname), function()
+//Route::group(array('domain' => 'seo.'.$hostname), function()
+Route::group(array('domain' => 'seo.kevinwashington.me'), function()
 {
     Route::get('/', function()
     {
