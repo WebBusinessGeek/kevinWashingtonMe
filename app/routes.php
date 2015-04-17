@@ -10,8 +10,14 @@ $env = $app->detectEnvironment(array(
 
 $hostname ='';
 
-if($env == 'local' || $env == 'localMachine') {$hostName = 'kevinwashingtonme.local';}
-else {$hostname = 'kevinwashington.me';}
+if($env == 'local' || $env == 'localMachine')
+{
+    $hostName = 'kevinwashingtonme.local';
+}
+else
+{
+    $hostname = 'kevinwashington.me';
+}
 
 
 
@@ -44,7 +50,8 @@ Route::group(array('domain' => 'seo.'.$hostname), function()
 {
     Route::get('/', function()
     {
-        return 'seo pagessss';
+        $environment = App::environment();
+        return 'seo pagessss: '.$environment;
     });
 
     Route::get('/some-title1',function ()
