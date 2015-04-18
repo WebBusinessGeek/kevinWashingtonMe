@@ -139,6 +139,10 @@
             text-decoration: underline;
         }
 
+        .ng-cloak{
+            opacity: 0;
+        }
+
     </style>
 
     <!-- Analytic scripts -->
@@ -156,7 +160,7 @@
     <!-- /Analytic scripts -->
 </head>
 
-<body>
+<body class="ng-cloak">
 
 
 <nav class="navbar navbar-static-top text-center">
