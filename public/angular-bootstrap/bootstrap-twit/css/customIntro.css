@@ -1,14 +1,9 @@
-p {
+#introContentBody > p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
-.arvo{
-    font-family: 'Arvo', serif;
-    font-size: 20px;
-}
-
-#background {
+#introBackground {
     background-color: #fff;
     min-height:600px;
     padding-top: 50px;
@@ -23,3 +18,7 @@ p {
     padding-top: 10px;
 }
 
+.arvo{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+}

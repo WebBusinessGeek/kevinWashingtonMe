@@ -1,6 +1,6 @@
 <div ng-controller="introController">
 
-    <div id="background" class="row text-center">
+    <div id="introBackground" class="row text-center">
         <div id="introMainImage">
             <img class="img-circle img-responsive center-block" src="http://placehold.it/220">
         </div>
