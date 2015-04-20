@@ -1,16 +1,5 @@
 <?php
 
-/*$hostname = '';
-$environment = App::environment();
-if($environment == 'local' || $environment == 'localMachine')
-{
-    $hostname = 'kevinwashingtonme.local';
-}
-else
-{
-    $hostname = 'kevinwashington.me';
-}*/
-
 
 
 /*

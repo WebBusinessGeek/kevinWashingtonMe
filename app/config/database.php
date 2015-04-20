@@ -14,9 +14,9 @@ $env = $app->detectEnvironment(array(
 
 if($env == 'production')
 {
-	$host = '107.170.46.92';
-	$username = 'forge';
-	$password = '3aOaGM2GCYtHNnGpfrsr';
+	$host = getenv('DB_HOST');
+	$username = getenv('DB_USERNAME');
+	$password = getenv('DB_PASSWORD');
 	$port = null;
 
 }
