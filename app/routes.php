@@ -32,13 +32,13 @@ App::missing(function($exception)
 //route for misc testing
 Route::get('test', function()
 {
-    return 'environment: ' . App::environment() . ' && secret: '. getenv('MANDRILL_SECRET');
 });
 
 
 Route::get('testemail', function()
 {
-    Mail::send('emails.test', [], function($message){
+    Mail::send('emails.test', [], function($message)
+    {
         $message->to('kevw12188@gmail.com')->subject('test email');
     });
 });

@@ -149,10 +149,13 @@ class PublicPagesController extends \BaseController {
 
 		if($this->inquiryService->isModelInstance($potentialInquiry))
 		{
-//			return \Illuminate\Support\Facades\Redirect::to('/connect')->with('message', 'I will plan to reach out to you shortly.');
 			return 'I will plan to reach out to you shortly';
 		}
-//		return \Illuminate\Support\Facades\Redirect::to('/connect')->with('message', $potentialInquiry);
+		Mail::send('emails.newInquiry', ['key' => 'value'], function($message)
+		{
+			$message->to('hello@kevinwashington.me')->subject('New Inquiry from Main Connect');
+		});
+
 		return $potentialInquiry;
 	}
 
