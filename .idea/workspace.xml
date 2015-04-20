@@ -30,8 +30,8 @@
           <file leaf-file-name="tmi.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/tmi.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.45658684" vertical-offset="2730" max-vertical-offset="6900">
-                  <caret line="97" column="58" selection-start-line="97" selection-start-column="58" selection-end-line="97" selection-end-column="58" />
+                <state vertical-scroll-proportion="0.44161677" vertical-offset="3180" max-vertical-offset="6900">
+                  <caret line="139" column="24" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -734,8 +734,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/tmi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.45658684" vertical-offset="2730" max-vertical-offset="6900">
-          <caret line="97" column="58" selection-start-line="97" selection-start-column="58" selection-end-line="97" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.44161677" vertical-offset="3180" max-vertical-offset="6900">
+          <caret line="139" column="24" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
           <folding />
         </state>
       </provider>

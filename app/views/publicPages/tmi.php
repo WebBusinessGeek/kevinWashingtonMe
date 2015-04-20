@@ -137,7 +137,7 @@
 
             <div>
                 <p>
-                    Me 2 yrs ago: "Hello, I'm Kevin and can't seem to stop buying Jordans."
+                    Me 5 yrs ago: "Hello, I'm Kevin and can't seem to stop buying Jordans."
                 </p>
             </div>
 
@@ -148,7 +148,7 @@
         </div>
         <div ng-show="currentTMI == '6'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h3>#6 I'm currently addicted to learning new things</h3>
+                <h3>#6 I'm Addicted to Learning new things</h3>
             </div>
 
             <div>
@@ -216,7 +216,7 @@
             </div>
             <div>
                 <p>While this trait pays off when optimizing business processes.
-                    My wife gets pretty annoyed when I present her with options for best method of travel based on current traffic and destinations. </p>
+                    My wife gets pretty annoyed when I present her with options for best method of travel based on current traffic and our destination. </p>
             </div>
 
             <div>
