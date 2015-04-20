@@ -50,7 +50,10 @@
             </div>
 
             <div>
-                <p>This will be the body of the card.</p>
+                <p>
+                    I thought to put this first because my relationship with God has a enormous influence on my character.
+                    This makes me attribute high value to qualities such as honesty, integrity, and selflessness and those that possess them.
+                </p>
             </div>
 
             <div>
@@ -68,7 +71,11 @@
             </div>
 
             <div>
-                <p>This will be the body of the card.</p>
+                <p>
+                    I am the father of two kids who are doing very well in school.
+                    And I am happily married to my beautiful wife who only ever nags on weekdays.
+                    I love them all very much.
+                </p>
             </div>
 
             <div>
@@ -78,7 +85,7 @@
         </div>
         <div ng-show="currentTMI == '3'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h3>#3 I'm a lefty...Sort of</h3>
+                <h3>#3 I'm a Lefty...and a Righty?</h3>
             </div>
 
             <div>
@@ -86,7 +93,11 @@
             </div>
 
             <div>
-                <p>This will be the body of the card.</p>
+                <p>
+                    I write, drive, and eat with my left hand.
+                    However I brush my teeth, throw a football, and shoot at the range with my right.
+                    Everything else is pretty much up for grabs.
+                </p>
             </div>
 
             <div>
@@ -104,7 +115,10 @@
             </div>
 
             <div>
-                <p>This will be the body of the card.</p>
+                <p>
+                    While I do sit in front of my machine all day I think its important to stay in great shape.
+                    Currently I am chasing a 400lb Bench press, 600lb DeadLift, 500lb HackSquat, 200lb PullUp, and 4.4 sec 120ft Sprint.
+                </p>
             </div>
 
             <div>
@@ -122,7 +136,9 @@
             </div>
 
             <div>
-                <p>This will be the body of the card.</p>
+                <p>
+                    Me 2 yrs ago: "Hello, I'm Kevin and cant stop buying Jordans."
+                </p>
             </div>
 
             <div>
@@ -140,7 +156,11 @@
             </div>
 
             <div>
-                <p>This will be the body of the card.</p>
+                <p>
+                    Most of the time its a new technology that peaks my interest.
+                    However I do enjoy reading and hearing about other people's experiences within a wide variety of topics including:
+                    Business, Psychology, and Engineering.
+                </p>
             </div>
 
             <div>
@@ -157,7 +177,10 @@
                 <img class="center-block" src="http://placehold.it/150">
             </div>
             <div>
-                <p>This will be the body of the card.</p>
+                <p>
+                    Yup. I was that kid who always clung to the side of the pool and NEVER ventured further than arms reach of it.
+                    Now I'm that adult who stays out the pool and splashes everyone. Sad.
+                </p>
             </div>
 
             <div>
