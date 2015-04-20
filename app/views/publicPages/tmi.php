@@ -22,6 +22,20 @@
     </div>
 
     <div id="tmi10Things" class="text-center row" ng-show="showing == '10Things'">
+        <div ng-show="currentTMI == '0'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+            <div>
+                <h4>This is intro to my 10 things</h4>
+            </div>
+
+            <div>
+                <p>This will be the body of the card.</p>
+            </div>
+
+            <div>
+                <button class="btn btn-warning" ng-click="setTMIto1()">Begin</button>
+            </div>
+
+        </div>
         <div ng-show="currentTMI == '1'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
                 <h4>This will be the header of 1</h4>
@@ -164,9 +178,18 @@
         </div>
     </div>
 
-    <div id="tmiSkills" ng-show="showing == 'skills'">
-        <div>
-            <p>Skills section</p>
+    <div id="tmiSkills" class="text-center" ng-show="showing == 'skills'">
+        <div class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+            <div>
+                <h4>Wanna review my skills?</h4>
+            </div>
+            <div>
+                <img class="img-responsive center-block" src="http://placehold.it/150">
+            </div>
+            <div>
+                <p>I developed a light application that can help you quickly determine if I have the skills you are looking for.</p>
+                <a href="/skills">Here it is</a>
+            </div>
         </div>
     </div>
 

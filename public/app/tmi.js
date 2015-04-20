@@ -13,7 +13,12 @@ angular.module('app')
             $scope.showing = target;
         };
 
-        $scope.currentTMI = '1';
+        $scope.currentTMI = '0';
+
+        $scope.setTMIto1 = function ()
+        {
+            $scope.currentTMI = 1;
+        };
 
         $scope.nextTMI = function()
         {
