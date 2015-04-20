@@ -149,7 +149,7 @@ class PublicPagesController extends \BaseController {
 
 		if($this->inquiryService->isModelInstance($potentialInquiry))
 		{
-			Mail::send('emails.newInquiry', [$potentialInquiry], function($message)
+			Mail::send('emails.newInquiry', ['potentialInquiry' => $potentialInquiry], function($message)
 			{
 				$message->to('hello@kevinwashington.me')->subject('New Inquiry from Main Connect');
 			});
