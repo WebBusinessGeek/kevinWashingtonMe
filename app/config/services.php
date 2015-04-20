@@ -3,7 +3,7 @@
 return [
 
 	'mandrill' => array(
-		'secret' => $_ENV['MANDRILL_SECRET']
+		'secret' => getenv('MANDRILL_SECRET')
 	)
 
 
