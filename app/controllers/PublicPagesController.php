@@ -151,7 +151,7 @@ class PublicPagesController extends \BaseController {
 		{
 			return 'I will plan to reach out to you shortly';
 		}
-		Mail::send('emails.newInquiry', ['key' => 'value'], function($message)
+		Mail::send('emails.newInquiry', [], function($message)
 		{
 			$message->to('hello@kevinwashington.me')->subject('New Inquiry from Main Connect');
 		});
