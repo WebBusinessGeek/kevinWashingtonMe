@@ -36,6 +36,13 @@ Route::get('test', function()
 });
 
 
+Route::get('testemail', function()
+{
+    Mail::send('email.test', [], function($message){
+        $message->to('kevw12188@gmail.com')->subject('test email');
+    });
+});
+
 //public pages for seo site
 //Route::group(array('domain' => 'seo.'.$hostname), function()
 Route::group(array('domain' => 'seo.'.$hostname), function()
