@@ -38,7 +38,7 @@ Route::get('test', function()
 
 Route::get('testemail', function()
 {
-    Mail::send('email.test', [], function($message){
+    Mail::send('emails.test', [], function($message){
         $message->to('kevw12188@gmail.com')->subject('test email');
     });
 });
