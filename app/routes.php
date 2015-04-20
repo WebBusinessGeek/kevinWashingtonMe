@@ -32,7 +32,7 @@ App::missing(function($exception)
 //route for misc testing
 Route::get('test', function()
 {
-    return 'secret: '. getenv('MANDRILL_SECRET');
+    return 'environment: ' . App::environment() . ' && secret: '. getenv('MANDRILL_SECRET');
 });
 
 
