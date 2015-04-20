@@ -1,6 +1,6 @@
 <?php
 
-$hostname = '';
+/*$hostname = '';
 $environment = App::environment();
 if($environment == 'local' || $environment == 'localMachine')
 {
@@ -9,7 +9,7 @@ if($environment == 'local' || $environment == 'localMachine')
 else
 {
     $hostname = 'kevinwashington.me';
-}
+}*/
 
 
 
@@ -44,8 +44,7 @@ Route::get('testemail', function()
 });
 
 //public pages for seo site
-//Route::group(array('domain' => 'seo.'.$hostname), function()
-Route::group(array('domain' => 'seo.'.$hostname), function()
+Route::group(array('domain' => 'seo.' . getenv('DOMAIN_NAME')), function()
 {
     Route::get('/', 'SeoPagesController@viewMain');
     Route::get('/some-title1', 'SeoPagesController@viewAddValue1');
