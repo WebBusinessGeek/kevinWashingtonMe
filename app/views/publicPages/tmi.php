@@ -209,7 +209,7 @@
             <div>
                 <img class="center-block" src="http://placehold.it/150">
             </div>
-            
+
             <div>
                 <p>This will be the body of the card.</p>
             </div>
