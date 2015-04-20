@@ -11,5 +11,21 @@ angular.module('app')
         $scope.show = function(target)
         {
             $scope.showing = target;
+        };
+
+        $scope.currentTMI = '1';
+
+        $scope.nextTMI = function()
+        {
+            if($scope.currentTMI == 10)
+            {
+                $scope.currentTMI = 0;
+            }
+            $scope.currentTMI++;
+        };
+
+        $scope.prevTMI = function()
+        {
+            $scope.currentTMI--;
         }
     }]);

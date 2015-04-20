@@ -1,3 +1,13 @@
-#tmiResume, #tmi10Things, #tmiSkills, #tmiVisualWorkHistory {
+#tmiResume, #tmiSkills, #tmiVisualWorkHistory {
     background: #fff;
+}
+
+
+
+.tmi10ThingsCard {
+    background: #fff;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
 }

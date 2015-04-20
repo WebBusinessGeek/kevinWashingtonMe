@@ -21,9 +21,146 @@
         </div>
     </div>
 
-    <div id="tmi10Things" ng-show="showing == '10Things'">
-        <div>
-            <p>10 things section</p>
+    <div id="tmi10Things" class="text-center row" ng-show="showing == '10Things'">
+        <div ng-show="currentTMI == '1'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+            <div>
+                <h4>This will be the header of 1</h4>
+            </div>
+
+            <div>
+                <p>This will be the body of the card.</p>
+            </div>
+
+            <div>
+                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+            </div>
+
+        </div>
+        <div ng-show="currentTMI == '2'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+            <div>
+                <h4>This will be the header of 2</h4>
+            </div>
+
+            <div>
+                <p>This will be the body of the card.</p>
+            </div>
+
+            <div>
+                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
+                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+            </div>
+        </div>
+        <div ng-show="currentTMI == '3'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+            <div>
+                <h4>This will be the header of 3</h4>
+            </div>
+
+            <div>
+                <p>This will be the body of the card.</p>
+            </div>
+
+            <div>
+                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
+                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+            </div>
+        </div>
+        <div ng-show="currentTMI == '4'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+            <div>
+                <h4>This will be the header of 4</h4>
+            </div>
+
+            <div>
+                <p>This will be the body of the card.</p>
+            </div>
+
+            <div>
+                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
+                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+            </div>
+        </div>
+        <div ng-show="currentTMI == '5'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+            <div>
+                <h4>This will be the header of 5</h4>
+            </div>
+
+            <div>
+                <p>This will be the body of the card.</p>
+            </div>
+
+            <div>
+                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
+                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+            </div>
+        </div>
+        <div ng-show="currentTMI == '6'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+            <div>
+                <h4>This will be the header of 6</h4>
+            </div>
+
+            <div>
+                <p>This will be the body of the card.</p>
+            </div>
+
+            <div>
+                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
+                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+            </div>
+        </div>
+        <div ng-show="currentTMI == '7'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+            <div>
+                <h4>This will be the header of 7</h4>
+            </div>
+
+            <div>
+                <p>This will be the body of the card.</p>
+            </div>
+
+            <div>
+                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
+                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+            </div>
+        </div>
+        <div ng-show="currentTMI == '8'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+            <div>
+                <h4>This will be the header of 8</h4>
+            </div>
+
+            <div>
+                <p>This will be the body of the card.</p>
+            </div>
+
+            <div>
+                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
+                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+            </div>
+        </div>
+        <div ng-show="currentTMI == '9'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+            <div>
+                <h4>This will be the header of 9</h4>
+            </div>
+
+            <div>
+                <p>This will be the body of the card.</p>
+            </div>
+
+            <div>
+                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
+                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+            </div>
+        </div>
+        <div ng-show="currentTMI == '10'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+            <div>
+                <h4>This will be the header of 10</h4>
+            </div>
+
+            <div>
+                <p>This will be the body of the card.</p>
+            </div>
+
+            <div>
+                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
+                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+            </div>
         </div>
     </div>
 
