@@ -28,6 +28,10 @@
             </div>
 
             <div>
+                <img class="center-block" src="http://placehold.it/150">
+            </div>
+
+            <div>
                 <p>This will be the body of the card.</p>
             </div>
 
@@ -38,7 +42,11 @@
         </div>
         <div ng-show="currentTMI == '1'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h4>This will be the header of 1</h4>
+                <h3>#1 I'm a follower of Jesus Christ</h3>
+            </div>
+
+            <div>
+                <img class="center-block" src="http://placehold.it/150">
             </div>
 
             <div>
@@ -52,7 +60,11 @@
         </div>
         <div ng-show="currentTMI == '2'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h4>This will be the header of 2</h4>
+                <h3>#2 I'm married and a father of two</h3>
+            </div>
+
+            <div>
+                <img class="center-block" src="http://placehold.it/150">
             </div>
 
             <div>
@@ -66,7 +78,11 @@
         </div>
         <div ng-show="currentTMI == '3'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h4>This will be the header of 3</h4>
+                <h3>#3 I'm a lefty...Sort of</h3>
+            </div>
+
+            <div>
+                <img class="center-block" src="http://placehold.it/150">
             </div>
 
             <div>
@@ -80,7 +96,11 @@
         </div>
         <div ng-show="currentTMI == '4'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h4>This will be the header of 4</h4>
+                <h3>#4 I pump iron</h3>
+            </div>
+
+            <div>
+                <img class="center-block" src="http://placehold.it/150">
             </div>
 
             <div>
@@ -94,7 +114,11 @@
         </div>
         <div ng-show="currentTMI == '5'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h4>This will be the header of 5</h4>
+                <h3>#5 I'm a recovered SneakerHead</h3>
+            </div>
+
+            <div>
+                <img class="center-block" src="http://placehold.it/150">
             </div>
 
             <div>
@@ -108,7 +132,11 @@
         </div>
         <div ng-show="currentTMI == '6'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h4>This will be the header of 6</h4>
+                <h3>#6 I'm currently addicted to learning new things</h3>
+            </div>
+
+            <div>
+                <img class="center-block" src="http://placehold.it/150">
             </div>
 
             <div>
@@ -122,9 +150,12 @@
         </div>
         <div ng-show="currentTMI == '7'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h4>This will be the header of 7</h4>
+                <h3>#7 I can't swim... yet</h3>
             </div>
 
+            <div>
+                <img class="center-block" src="http://placehold.it/150">
+            </div>
             <div>
                 <p>This will be the body of the card.</p>
             </div>
@@ -136,7 +167,11 @@
         </div>
         <div ng-show="currentTMI == '8'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h4>This will be the header of 8</h4>
+                <h3>#8 I would love to work at Google</h3>
+            </div>
+
+            <div>
+                <img class="center-block" src="http://placehold.it/150">
             </div>
 
             <div>
@@ -150,11 +185,15 @@
         </div>
         <div ng-show="currentTMI == '9'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h4>This will be the header of 9</h4>
+                <h3>#9 I'm chronically efficient</h3>
             </div>
 
             <div>
-                <p>This will be the body of the card.</p>
+                <img class="center-block" src="http://placehold.it/150">
+            </div>
+            <div>
+                <p>While this trait pays off when optimizing business processes.
+                    My wife gets pretty annoyed when I present her with options for best method of travel based on current traffic and destinations. lol </p>
             </div>
 
             <div>
@@ -164,9 +203,13 @@
         </div>
         <div ng-show="currentTMI == '10'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h4>This will be the header of 10</h4>
+                <h3>#10 I love what I do</h3>
             </div>
 
+            <div>
+                <img class="center-block" src="http://placehold.it/150">
+            </div>
+            
             <div>
                 <p>This will be the body of the card.</p>
             </div>
