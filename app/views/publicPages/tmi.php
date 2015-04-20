@@ -28,7 +28,7 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/150">
+                <img class="center-block" src="http://placehold.it/128">
             </div>
 
             <div>
@@ -46,7 +46,7 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/150">
+                <img class="center-block" src="http://placehold.it/128">
             </div>
 
             <div>
@@ -67,7 +67,7 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/150">
+                <img class="center-block" src="http://placehold.it/128">
             </div>
 
             <div>
@@ -89,7 +89,7 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/150">
+                <img class="center-block" src="http://placehold.it/128">
             </div>
 
             <div>
@@ -111,7 +111,7 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/150">
+                <img class="center-block" src="http://placehold.it/128">
             </div>
 
             <div>
@@ -132,12 +132,12 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/150">
+                <img class="center-block" src="http://placehold.it/128">
             </div>
 
             <div>
                 <p>
-                    Me 2 yrs ago: "Hello, I'm Kevin and cant stop buying Jordans."
+                    Me 2 yrs ago: "Hello, I'm Kevin and can't seem to stop buying Jordans."
                 </p>
             </div>
 
@@ -152,7 +152,7 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/150">
+                <img class="center-block" src="http://placehold.it/128">
             </div>
 
             <div>
@@ -174,11 +174,11 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/150">
+                <img class="center-block" src="http://placehold.it/128">
             </div>
             <div>
                 <p>
-                    Yup. I was that kid who always clung to the side of the pool and NEVER ventured further than arms reach of it.
+                    I was that kid who always clung to the side of the pool and NEVER ventured further than arms reach of it.
                     Now I'm that adult who stays out the pool and splashes everyone. Sad.
                 </p>
             </div>
@@ -190,15 +190,15 @@
         </div>
         <div ng-show="currentTMI == '8'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h3>#8 I would love to work at Google</h3>
+                <h3>#8 I'm not very tall </h3>
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/150">
+                <img class="center-block" src="http://placehold.it/128">
             </div>
 
             <div>
-                <p>This will be the body of the card.</p>
+                <p>I'm only 5'6". That is all. <br/>#Touchy subject </p>
             </div>
 
             <div>
@@ -212,11 +212,11 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/150">
+                <img class="center-block" src="http://placehold.it/128">
             </div>
             <div>
                 <p>While this trait pays off when optimizing business processes.
-                    My wife gets pretty annoyed when I present her with options for best method of travel based on current traffic and destinations. lol </p>
+                    My wife gets pretty annoyed when I present her with options for best method of travel based on current traffic and destinations. </p>
             </div>
 
             <div>
@@ -224,17 +224,21 @@
                 <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
             </div>
         </div>
-        <div ng-show="currentTMI == '10'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+        <div id="tmi10ThingsCard10" ng-show="currentTMI == '10'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
                 <h3>#10 I love what I do</h3>
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/150">
+                <img class="center-block" src="http://placehold.it/128">
             </div>
 
             <div>
-                <p>This will be the body of the card.</p>
+                <p>
+                    I really find excitement in my 'growth-hackerish' mesh of customer acquisition, business, and web development activities.
+                    I love the consistent learning, collaboration, and experiences I gain daily as I pursue mastery.
+                    I say 'pursue' because the way the web grows I don't see too many skills being completely obsolete-proof. And I wouldn't have it any other way.
+                </p>
             </div>
 
             <div>
@@ -250,7 +254,7 @@
                 <h4>Wanna review my skills?</h4>
             </div>
             <div>
-                <img class="img-responsive center-block" src="http://placehold.it/150">
+                <img class="img-responsive center-block" src="http://placehold.it/128">
             </div>
             <div>
                 <p>I developed a light application that can help you quickly determine if I have the skills you are looking for.</p>
