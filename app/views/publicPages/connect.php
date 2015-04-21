@@ -37,18 +37,18 @@
 
 
                 <div class="form-group">
-                    <label for="body" >Help me understand your business objectives, and how I can help:</label>
+                    <label for="body" >Use this space to give me some details:</label>
                         <textarea name="body" ng-model="inquiryBody" placeholder="{{inquiryBodyPlaceholder}}" class="form-control" rows="10" cols="30"></textarea>
                 </div>
 
                 <div class="form-group">
-                    <label for="name" class="text-center">Enter your full name: </label>
-                    <input type="text" ng-model="inquiryName"  class="form-control input-lg" name="name" id="name" placeholder="example - Carl Winslow">
+                    <label for="name" class="text-center">What's your name? </label>
+                    <input type="text" ng-model="inquiryName"  class="form-control input-lg" name="name" id="name" placeholder="example: 'Carl Winslow' ">
 
                 </div>
 
                 <div class="form-group">
-                    <label for="contactMethod" ng-model="inquiryContactMethod" class="text-center">Preferred Contact Method: (select one) </label>
+                    <label for="contactMethod" ng-model="inquiryContactMethod" class="text-center">How should I respond? (select one) </label>
                     <select ng-model="inquiryContactMethod" class="form-control input-lg">
                         <option>Email</option>
                         <option>Phone</option>
@@ -59,12 +59,12 @@
     <!--            ONe of the below groups should be hidden based on previous input value-->
                 <div class="form-group" ng-show="inquiryContactMethod == 'Email'">
                     <label for="email" class="text-center">Enter your email: </label>
-                    <input type="email" ng-model="inquiryEmail" class="form-control input-lg" name="email" id="email" placeholder="example - carl@familyMatters.com">
+                    <input type="email" ng-model="inquiryEmail" class="form-control input-lg" name="email" id="email" placeholder="example: 'carl@familyMatters.com'">
 
                 </div>
                 <div class="form-group" ng-show="inquiryContactMethod == 'Phone'">
                     <label for="phone" class="text-center">Enter your phone: </label>
-                    <input type="text" ng-model="inquiryPhone"  class="form-control input-lg" name="phone" id="phone" placeholder="example - 215-445-0004">
+                    <input type="text" ng-model="inquiryPhone"  class="form-control input-lg" name="phone" id="phone" placeholder="example: '215-445-0004'">
 
                 </div>
 

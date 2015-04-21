@@ -39,9 +39,9 @@ angular.module('app')
         'I look forward to hearing from you.';
 
 
-        $scope.inquiryBodyPlaceholder = 'example - I am looking to increase the monthly recurring revenue of my SaaS based business.' +
+        $scope.inquiryBodyPlaceholder = 'example: \'I am looking to increase the monthly recurring revenue of my SaaS based business.' +
         'Unfortunately growth has been pretty slow the past few months and I am having trouble increasing my traffic, user base, and my revenue. Looking for a solution that can bring me more quality leads ' +
-        'and help my product grow while also being mindful of costs. Would be interested in picking your brain a bit to determine if these goals are realistic.';
+        'and help my product grow while also being mindful of costs. Would be interested in picking your brain a bit to determine the best approach to these goals.\'';
 
     }]);
 
