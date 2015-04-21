@@ -56,6 +56,7 @@ Route::group(array(),function()
     Route::get('/skills', 'PublicPagesController@viewSkills');
     Route::get('/connect', 'PublicPagesController@viewConnect');
     Route::get('/karma-crm-stats', 'PublicPagesController@viewKarmaCRMStats');
+    Route::get('/resume', 'PublicPagesController@viewResume');
     Route::get('/your-lost', 'PublicPagesController@view404Error');
 
 });

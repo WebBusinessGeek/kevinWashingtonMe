@@ -220,6 +220,18 @@ class PublicPagesController extends \BaseController {
 		$this->layout->content = $view->render();
 	}
 
+
+
+	/***********************************************************************************************************/
+	/*                                         TMI Page	                 		                    */
+	/***********************************************************************************************************/
+
+	public function viewResume()
+	{
+		$view = View::make('publicPages.resume');
+		$this->layout->content = $view->render();
+	}
+
 }
 
 
