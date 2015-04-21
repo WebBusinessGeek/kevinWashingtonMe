@@ -30,8 +30,12 @@
           <file leaf-file-name="resume.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/resume.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5755396" vertical-offset="0" max-vertical-offset="695">
-                  <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+                <state vertical-scroll-proportion="0.92805755" vertical-offset="55" max-vertical-offset="1100">
+                  <caret line="2" column="55" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="55" />
+                  <caret line="14" column="38" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="38" />
+                  <caret line="15" column="61" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="61" />
+                  <caret line="21" column="60" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="60" />
+                  <caret line="28" column="59" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="59" />
                   <folding />
                 </state>
               </provider>
@@ -801,18 +805,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/resume.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5755396" vertical-offset="0" max-vertical-offset="695">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customResume.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03462604" vertical-offset="0" max-vertical-offset="722">
           <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/resume.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.92805755" vertical-offset="55" max-vertical-offset="1100">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="55" />
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="38" />
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="61" />
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="60" />
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="59" />
           <folding />
         </state>
       </provider>
