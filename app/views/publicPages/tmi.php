@@ -24,7 +24,7 @@
     <div id="tmi10Things" class="text-center row" ng-show="showing == '10Things'">
         <div ng-show="currentTMI == '0'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h4>This is intro to my 10 things</h4>
+                <h3>10 Random Things</h3>
             </div>
 
             <div>
@@ -32,7 +32,7 @@
             </div>
 
             <div>
-                <p>This will be the body of the card.</p>
+                <p> The following is a list of 10 very random things about me. Enjoy!</p>
             </div>
 
             <div>
@@ -51,7 +51,7 @@
 
             <div>
                 <p>
-                    I thought to put this first because my relationship with God has a enormous influence on my character.
+                    I put this first because my relationship with God has a enormous influence on my character.
                     This makes me attribute high value to qualities such as honesty, integrity, and selflessness and those that possess them.
                 </p>
             </div>
@@ -63,7 +63,7 @@
         </div>
         <div ng-show="currentTMI == '2'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h3>#2 I'm married and a father of two</h3>
+                <h3>#2 I'm Married and a Father of 2</h3>
             </div>
 
             <div>
@@ -72,7 +72,7 @@
 
             <div>
                 <p>
-                    I am the father of two kids who are doing very well in school.
+                    I am the proud father of two kids who are doing very well in school.
                     And I am happily married to my beautiful wife who only ever nags on weekdays.
                     I love them all very much.
                 </p>
@@ -85,7 +85,7 @@
         </div>
         <div ng-show="currentTMI == '3'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h3>#3 I'm a Lefty...and a Righty?</h3>
+                <h3>#3 I'm a lefty...and a righty?</h3>
             </div>
 
             <div>
@@ -95,7 +95,7 @@
             <div>
                 <p>
                     I write, drive, and eat with my left hand.
-                    However I brush my teeth, throw a football, and shoot at the range with my right.
+                    However I brush my teeth, throw a football, and shoot a basketball with my right.
                     Everything else is pretty much up for grabs.
                 </p>
             </div>
@@ -107,7 +107,7 @@
         </div>
         <div ng-show="currentTMI == '4'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h3>#4 I pump iron</h3>
+                <h3>#4 Brain >= Brawn</h3>
             </div>
 
             <div>
@@ -116,8 +116,8 @@
 
             <div>
                 <p>
-                    While I do sit in front of my machine all day I think its important to stay in great shape.
-                    Currently I am chasing a 400lb Bench press, 600lb DeadLift, 500lb HackSquat, 200lb PullUp, and 4.4 sec 120ft Sprint.
+                    While my mental sharpness is critical for work I think its also important to stay in shape physically.
+                    Im always working to improve my 5RM's which are currently a 315lb Bench press, 390lb DeadLift, 375lb HackSquat, 105lb PullUp, and also a 5.2 sec 120ft Sprint.
                 </p>
             </div>
 
@@ -148,7 +148,7 @@
         </div>
         <div ng-show="currentTMI == '6'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h3>#6 I'm Addicted to Learning new things</h3>
+                <h3>#6 I'm currently Addicted to Learning</h3>
             </div>
 
             <div>
@@ -178,7 +178,7 @@
             </div>
             <div>
                 <p>
-                    I was that kid who always clung to the side of the pool and NEVER ventured further than arms reach of it.
+                    I was that kid who always clung to the side of the pool and NEVER ventured out further than arms reach of it.
                     Now I'm that adult who stays out the pool and splashes everyone. Sad.
                 </p>
             </div>
@@ -190,7 +190,7 @@
         </div>
         <div ng-show="currentTMI == '8'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h3>#8 I'm not very tall </h3>
+                <h3>#8 I'm not very Tall </h3>
             </div>
 
             <div>
@@ -198,7 +198,7 @@
             </div>
 
             <div>
-                <p>I'm only 5'6". That is all. <br/>#Touchy subject </p>
+                <p>I'm 5'6". That is all. <br/>#Touchy subject </p>
             </div>
 
             <div>
@@ -208,15 +208,15 @@
         </div>
         <div ng-show="currentTMI == '9'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h3>#9 I'm chronically efficient</h3>
+                <h3>#9 I'm chronically Efficient</h3>
             </div>
 
             <div>
                 <img class="center-block" src="http://placehold.it/128">
             </div>
             <div>
-                <p>While this trait pays off when optimizing business processes.
-                    My wife gets pretty annoyed when I present her with options for best method of travel based on current traffic and our destination. </p>
+                <p>This trait pays off when optimizing business processes.
+                    Although my wife gets pretty annoyed when I present her with options for best method of travel based on current traffic and our destination. </p>
             </div>
 
             <div>
@@ -235,9 +235,9 @@
 
             <div>
                 <p>
-                    I really find excitement in my 'growth-hackerish' mesh of customer acquisition, business, and web development activities.
-                    I love the consistent learning, collaboration, and experiences I gain daily as I pursue mastery.
-                    I say 'pursue' because the way the web grows I don't see too many skills being completely obsolete-proof. And I wouldn't have it any other way.
+                    I really find excitement in my daily blend of customer acquisition, business, and web development activities.
+                    I love the consistent learning, collaboration, and experiences I gain as I pursue mastery.
+                    I say 'pursue' because as the web grows I don't see certain skills remaining contemporary for long. And I honestly wouldn't have it any other way.
                 </p>
             </div>
 
@@ -257,7 +257,7 @@
                 <img class="img-responsive center-block" src="http://placehold.it/128">
             </div>
             <div>
-                <p>I developed a light application that can help you quickly determine if I have the skills you are looking for.</p>
+                <p>I developed an interactive page that can help you quickly determine if I have the skills you are looking for.</p>
                 <a href="/skills">Here it is</a>
             </div>
         </div>
