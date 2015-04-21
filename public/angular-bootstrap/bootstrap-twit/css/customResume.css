@@ -1,0 +1,11 @@
+#resumeIntro {
+    height: 780px;
+}
+
+#resumeCustAcq , #resumeWebDev {
+    height: 450px;
+}
+
+#resumeMgr {
+    height: 250px;
+}

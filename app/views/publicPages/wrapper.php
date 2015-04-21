@@ -15,6 +15,8 @@
     <link href="/angular-bootstrap/bootstrap-twit/css/customKarmaStats.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customIntro.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customTMI.css" rel="stylesheet">
+    <link href="/angular-bootstrap/bootstrap-twit/css/customResume.css" rel="stylesheet">
+
 
 
 
