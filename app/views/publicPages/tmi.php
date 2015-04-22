@@ -179,7 +179,7 @@
             <div>
                 <p>
                     I was that kid who always clung to the side of the pool and NEVER ventured out further than arms reach of it.
-                    Now I'm that adult who stays out the pool and splashes everyone. Sad.
+                    Now I've become the adult who stays out the pool and sometimes throws people in. Sad.
                 </p>
             </div>
 
