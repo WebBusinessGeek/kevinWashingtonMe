@@ -102,7 +102,7 @@
 
             <div>
                 <img src="http://placehold.it/64">
-                <h4>Work History</h4>
+                <h4>Relevant Work Experience</h4>
             </div>
             <div ng-show="workHistoryShowing == 1">
 
@@ -110,7 +110,6 @@
                     <h5>Director of Growth</h5>
                     <h6>KarmaCRM</h6>
                     <h6>August 15, 2013 - December 1, 2014</h6>
-                    <p></p>
                 </div>
                 <div class="row">
                     <div class="col-sm-4 col-md-4 col-lg-4">
@@ -125,13 +124,94 @@
                 </div>
             </div>
             <div ng-show="workHistoryShowing == 2">
-                <p>2nd page</p>
+                <div>
+                    <h5>Freelancing</h5>
+                    <h6>Self Employed</h6>
+                    <h6>January 2013 - Current</h6>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Responsibilities</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Skills Used & Developed</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Notable Achievements</h5>
+                    </div>
+                </div>
             </div>
             <div ng-show="workHistoryShowing == 3">
-                <p>3rd page</p>
+                <div>
+                    <h5>Project Manager</h5>
+                    <h6>K. Conliffe, Private Investor</h6>
+                    <h6>August 2009 - January 2013</h6>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Responsibilities</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Skills Used & Developed</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Notable Achievements</h5>
+                    </div>
+                </div>
             </div>
             <div ng-show="workHistoryShowing == 4">
-                <p>4th page</p>
+                <div>
+                    <h5>Director of Field Marketing</h5>
+                    <h6>Chandler Consulting</h6>
+                    <h6>??? - ???</h6>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Responsibilities</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Skills Used & Developed</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Notable Achievements</h5>
+                    </div>
+                </div>
+            </div>
+            <div ng-show="workHistoryShowing == 5">
+                <div>
+                    <h5>Area Sales Manager</h5>
+                    <h6>Retro Fitness</h6>
+                    <h6>??? - ???</h6>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Responsibilities</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Skills Used & Developed</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Notable Achievements</h5>
+                    </div>
+                </div>
+            </div>
+            <div ng-show="workHistoryShowing == 6">
+                <div>
+                    <h5>Sales Manager</h5>
+                    <h6>LA Fitness</h6>
+                    <h6>??? - ???</h6>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Responsibilities</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Skills Used & Developed</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Notable Achievements</h5>
+                    </div>
+                </div>
             </div>
 
             <button class="btn btn-warning" ng-click="workHistoryPrev()">Prev</button>

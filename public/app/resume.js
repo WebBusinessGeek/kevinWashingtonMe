@@ -10,13 +10,13 @@ angular.module('app')
         {
             if($scope.workHistoryShowing == 1)
             {
-                $scope.workHistoryShowing = 5;
+                $scope.workHistoryShowing = 7;
             }
             $scope.workHistoryShowing--;
         };
         $scope.workHistoryNext = function()
         {
-            if($scope.workHistoryShowing == 4)
+            if($scope.workHistoryShowing == 6)
             {
                 $scope.workHistoryShowing = 0;
             }
