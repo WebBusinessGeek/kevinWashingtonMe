@@ -125,7 +125,7 @@
             </div>
             <div ng-show="workHistoryShowing == 2">
                 <div>
-                    <h5>Freelancing</h5>
+                    <h5>Freelancer</h5>
                     <h6>Self Employed</h6>
                     <h6>January 2013 - Current</h6>
                 </div>
@@ -145,7 +145,7 @@
                 <div>
                     <h5>Project Manager</h5>
                     <h6>K. Conliffe, Private Investor</h6>
-                    <h6>August 2009 - January 2013</h6>
+                    <h6>April 2009 - January 2013</h6>
                 </div>
                 <div class="row">
                     <div class="col-sm-4 col-md-4 col-lg-4">
@@ -163,7 +163,7 @@
                 <div>
                     <h5>Director of Field Marketing</h5>
                     <h6>Chandler Consulting</h6>
-                    <h6>??? - ???</h6>
+                    <h6>August 2008 - January 2009</h6>
                 </div>
                 <div class="row">
                     <div class="col-sm-4 col-md-4 col-lg-4">
@@ -181,7 +181,7 @@
                 <div>
                     <h5>Area Sales Manager</h5>
                     <h6>Retro Fitness</h6>
-                    <h6>??? - ???</h6>
+                    <h6>March 2008 - August 2008</h6>
                 </div>
                 <div class="row">
                     <div class="col-sm-4 col-md-4 col-lg-4">
@@ -199,7 +199,7 @@
                 <div>
                     <h5>Sales Manager</h5>
                     <h6>LA Fitness</h6>
-                    <h6>??? - ???</h6>
+                    <h6>February 2007 - March 2008</h6>
                 </div>
                 <div class="row">
                     <div class="col-sm-4 col-md-4 col-lg-4">
