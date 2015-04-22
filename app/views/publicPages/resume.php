@@ -7,6 +7,21 @@
             <h5>Web Developer & Customer Acquisition Specialist</h5>
         </div>
 
+        <div>
+            <h5>What I'm Looking For <em>(flexible)</em></h5>
+            <p>Remote Opportunities</p>
+            <p>Web based products (SaaS, Hosting, etc.)</p>
+            <p>Results > Time @ Work Culture</p>
+            <p>Opportunities to learn and grow with others</p>
+        </div>
+
+        <div>
+            <h5>Education & Learning</h5>
+            <p>Roxborough High School <em>Business</em></p>
+            <p>Temple University <em>Advertising</em></p>
+            <p>Google <em>Analytics</em></p>
+        </div>
+
     </div>
 
     <div class="col-lg-8 col-md-8 well">
@@ -30,21 +45,21 @@
                 <p>Direct Interactions</p>
                 <p>Email</p>
 
-                <h5>Optimization Ready Checklist</h5>
+               <!-- <h5>Optimization Ready Checklist</h5>
                 <p>VWO</p>
                 <p>Google Analytics</p>
                 <p>Clicky</p>
-                <p>Creativity</p>
+                <p>Creativity</p>-->
 
-                <h5>Quick Sales Tips</h5>
-                <ol>
-                    <li>Understand the product</li>
-                    <li>Know the User</li>
-                    <li>Engage by Adding value</li>
-                    <li>Sell Benefits not Features</li>
-                    <li>Remember to ask for the sale</li>
-                    <li>Don't forget to ask again</li>
-                </ol>
+                <h5>My Acquisition Process</h5>
+
+                <p>Understand the Product & the User</p>
+                <p>Develop Channels unique to the Medium and Audience Segment</p>
+                <p>Engage by Adding Value</p>
+                <p>Demonstrate Benefits not Features</p>
+                <p>Ask for the sale</p>
+                <p>Don't forget to ask again</p>
+
             </div>
         </div>
         <div id="resumeWebDev" class="col-lg-6 col-md-6 well">
@@ -67,11 +82,11 @@
                     <p>jQuery</p>
                     <p>Twitter Bootstrap</p>
 
-                    <h5>Weapons of Mass Development</h5>
+                    <!--<h5>Weapons of Mass Development</h5>
                     <p>PhotoShop</p>
                     <p>PHPUnit</p>
                     <p>PHPStorm</p>
-                    <p>Macbook Air & Internet Connection</p>
+                    <p>Macbook Air & Internet Connection</p>-->
 
                     <h5>My Development Mantra</h5>
                     <p>Design for Usability</p>
