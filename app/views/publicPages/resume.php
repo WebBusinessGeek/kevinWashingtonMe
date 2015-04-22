@@ -166,12 +166,24 @@
                     <div class="row" ng-hide="moreShowing == false">
                         <div class="col-sm-4 col-md-4 col-lg-4">
                             <h5>Responsibilities</h5>
+                            <p>Assess and Identify the needs of prospective Clients</p>
+                            <p>Provide unique marketing and development solutions to clients and collaborators</p>
+                            <p>Consult and problem solve with clients in areas of web development and marketing</p>
+                            <p>Manage collaborative teams to ensure all services are fulfilled with quality and within timeframe</p>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4">
                             <h5>Skills Used & Developed</h5>
+                            <p>Remote Team Management</p>
+                            <p>Project Management</p>
+                            <p>Sales</p>
+                            <p>Lead Generation Tactics</p>
+                            <p>Problem Solving</p>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Notable Achievements sjdfkdjf</h5>
+                            <h5>Notable Achievements</h5>
+                            <p>Successful collaborations with great team members from across the globe</p>
+                            <p>Optimization of fulfillment processes</p>
+                            <p>Development of unique sales & bidding strategies leading to increase in project award ratios</p>
                         </div>
                     </div>
                 </div>
@@ -187,12 +199,28 @@
                     <div class="row" ng-hide="moreShowing == false">
                         <div class="col-sm-4 col-md-4 col-lg-4">
                             <h5>Responsibilities</h5>
+                            <p>Generate investment and buy-in for new and developing products</p>
+                            <p>Recruit and manage product development teams</p>
+                            <p>Manage capital and development expenses</p>
+                            <p>Assist in developing revenue generation strategies where customers extracted value</p>
+                            <p>Assist in product strategy including branding, business models, and initial product offerings</p>
+                            <p>Develop penetration tactics for beach head and follow on markets</p>
+                            <p>Ensure product quality with thorough bug testing and error handling</p>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4">
                             <h5>Skills Used & Developed</h5>
+                            <p>Business Strategy</p>
+                            <p>Remote Team Management</p>
+                            <p>Creative Thinking</p>
+                            <p>Problem Solving</p>
+                            <p>Business Research</p>
+                            <p>Sales</p>
+                            <p>Organizational buy-in</p>
+                            <p>Project Management</p>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4">
                             <h5>Notable Achievements</h5>
+                            <p>Over 80% Project funding rate</p>
                         </div>
                     </div>
                 </div>
