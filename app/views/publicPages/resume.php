@@ -116,6 +116,7 @@
                 </div>
                 <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
                     <a ng-hide="moreShowing == true">More</a>
+                    <a ng-hide="moreShowing == false"" >Less</a>
                     <div class="row" ng-hide="moreShowing == false">
                         <div class="col-sm-4 col-md-4 col-lg-4">
                             <h5>Responsibilities</h5>
