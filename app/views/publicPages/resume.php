@@ -8,6 +8,14 @@
         </div>
 
         <div class="introGroup">
+            <h5>Hello, I'm Kevin</h5>
+            <p>
+                I help businesses develop innovative products and grow their customer base.
+                Please review my resume and feel free to reach out if I seem like a good fit for your business.
+                I am happy to provide references upon request.
+            </p>
+        </div>
+        <div class="introGroup">
             <h5>What I'm Looking For <em>(flexible)</em></h5>
             <p>Remote Opportunities</p>
             <p>Web based products (SaaS, Hosting, etc.)</p>

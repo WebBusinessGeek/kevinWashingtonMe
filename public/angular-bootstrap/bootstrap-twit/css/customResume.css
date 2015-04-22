@@ -13,7 +13,7 @@
 
 #resumeIntroHeader {
     margin-bottom: 100px;
-    background: blue;
+    /*background: blue;*/
 }
 #resumeCustAcq , #resumeWebDev {
     min-height: 800px;
@@ -35,7 +35,7 @@
 .introGroup {
     height: 240px;
     margin-top: 20px;
-    background: green;
+    /*background: green;*/
 }
 
 .custAcqGroup, .webDevGroup {
