@@ -39,33 +39,30 @@
             </div>
 
             <div>
-                <h5>Specialties</h5>
-                <p>Developing & Optimizing Acquisition Channels</p>
-                <p>Gaining Insights Through Data</p>
-                <p>Process Optimization & Development</p>
-                <p>Growth</p>
-
-                <h5>Engagement Methods</h5>
-                <p>SEO</p>
-                <p>Social</p>
-                <p>Advertising</p>
-                <p>Direct Interactions</p>
-                <p>Email</p>
-
-               <!-- <h5>Optimization Ready Checklist</h5>
-                <p>VWO</p>
-                <p>Google Analytics</p>
-                <p>Clicky</p>
-                <p>Creativity</p>-->
-
-                <h5>My Acquisition Process</h5>
-
-                <p>Understand the Product & the User</p>
-                <p>Develop Channels unique to the Medium and Audience Segment</p>
-                <p>Engage by Adding Value</p>
-                <p>Demonstrate Benefits not Features</p>
-                <p>Ask for the sale</p>
-                <p>Don't forget to ask again</p>
+                <div>
+                    <h5>Specialties</h5>
+                    <p>Developing & Optimizing Acquisition Channels</p>
+                    <p>Gaining Insights Through Data</p>
+                    <p>Process Optimization & Development</p>
+                    <p>Growth</p>
+                </div>
+                <div>
+                    <h5>Engagement Methods</h5>
+                    <p>SEO</p>
+                    <p>Social</p>
+                    <p>Advertising</p>
+                    <p>Direct Interactions</p>
+                    <p>Email</p>
+                </div>
+                <div>
+                    <h5>My Acquisition Process</h5>
+                    <p>Understand the Product & the User</p>
+                    <p>Develop Channels unique to the Medium and Audience Segment</p>
+                    <p>Engage by Adding Value</p>
+                    <p>Demonstrate Benefits not Features</p>
+                    <p>Ask for the sale</p>
+                    <p>Don't forget to ask again</p>
+                </div>
 
             </div>
         </div>
@@ -75,31 +72,28 @@
                 <h4>Web Development</h4>
 
                 <div>
-                    <h5>Core Technologies</h5>
-                    <p>PHP</p>
-                    <p>Javascript</p>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>SQL</p>
-
-
-                    <h5>Frameworks</h5>
-                    <p>Laravel 4.*</p>
-                    <p>AngularJS 1.*</p>
-                    <p>jQuery</p>
-                    <p>Twitter Bootstrap</p>
-
-                    <!--<h5>Weapons of Mass Development</h5>
-                    <p>PhotoShop</p>
-                    <p>PHPUnit</p>
-                    <p>PHPStorm</p>
-                    <p>Macbook Air & Internet Connection</p>-->
-
-                    <h5>My Development Mantra</h5>
-                    <p>Design for Usability</p>
-                    <p>Architect for Change</p>
-                    <p>Program for Maintenance</p>
-                    <p>Deliver in Sprints</p>
+                    <div>
+                        <h5>Core Technologies</h5>
+                        <p>PHP</p>
+                        <p>Javascript</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>SQL</p>
+                    </div>
+                    <div>
+                        <h5>Frameworks</h5>
+                        <p>Laravel 4.*</p>
+                        <p>AngularJS 1.*</p>
+                        <p>jQuery</p>
+                        <p>Twitter Bootstrap</p>
+                    </div>
+                    <div>
+                        <h5>My Development Mantra</h5>
+                        <p>Design for Usability</p>
+                        <p>Architect for Change</p>
+                        <p>Program for Maintenance</p>
+                        <p>Deliver in Sprints</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -107,7 +101,24 @@
         <div id="resumeMgr" class="col-lg-12 col-md-12 well">
             <div>
                 <img src="http://placehold.it/64">
-                <h4>Management</h4>
+                <h4>Work History</h4>
+            </div>
+            <div>
+                <h5>Director of Growth</h5>
+                <h6>KarmaCRM</h6>
+                <h6>August 15, 2013 - December 1, 2014</h6>
+                <p></p>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <p>Responsibility seciton</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <p>Skills section</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <p>Achievements</p>
+                </div>
             </div>
         </div>
     </div>
