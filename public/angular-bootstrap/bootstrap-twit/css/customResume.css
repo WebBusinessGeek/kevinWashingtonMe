@@ -34,11 +34,13 @@
 .introGroup {
     height: 240px;
     margin-top: 20px;
+    background: green;
 }
 
 .custAcqGroup, .webDevGroup {
     height: 180px;
     margin-top: 40px;
+    background: purple;
 }
 
 .groupings {

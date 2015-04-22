@@ -43,6 +43,7 @@
                     <h5>Specialties</h5>
                     <p>Developing & Optimizing Acquisition Channels</p>
                     <p>Gaining Insights Through Data</p>
+                    <p>Analyzing Business Performance</p>
                     <p>Process Optimization & Development</p>
                     <p>Growth</p>
                 </div>
@@ -76,7 +77,8 @@
                         <h5>Core Technologies</h5>
                         <p>PHP</p>
                         <p>Javascript</p>
-                        <p>HTML/CSS</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
                         <p>SQL</p>
                     </div>
                     <div class="webDevGroup">
@@ -85,13 +87,13 @@
                         <p>AngularJS 1.*</p>
                         <p>jQuery</p>
                         <p>Twitter Bootstrap</p>
-                        <p>Any, I learn quickly</p>
+                        <p>PHPUnit</p>
                     </div>
                     <div class="webDevGroup">
                         <h5>My Development Mantra</h5>
                         <p>*Design for Usability*</p>
                         <p>*Architect for Change*</p>
-                        <p>*Code for Maintenance*</p>
+                        <p>*Code for Maintainability*</p>
                         <p>*Deliver in Sprints*</p>
                     </div>
                 </div>
