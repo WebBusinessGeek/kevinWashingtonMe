@@ -225,6 +225,8 @@
     <script src="app/skillJquery.js"></script>
     <script src="app/intro.js"></script>
     <script src="app/tmi.js"></script>
+    <script src="app/resume.js"></script>
+
 
 
     <script src="/angular-bootstrap/bootstrap-twit/js/bootstrap.min.js"></script>

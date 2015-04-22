@@ -1,5 +1,5 @@
 
-<div class="row text-center">
+<div class="row text-center" ng-controller="resumeController">
     <div id="resumeIntro" class="col-lg-4 col-md-4 well">
         <div>
             <img class="img-circle img-responsive center-block" src="http://placehold.it/200">
@@ -111,13 +111,13 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                    <p>Responsibility seciton</p>
+                    <h5>Responsibilities</h5>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                    <p>Skills section</p>
+                    <h5>Skills Used & Developed</h5>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                    <p>Achievements</p>
+                    <h5>Notable Achievements</h5>
                 </div>
             </div>
         </div>
