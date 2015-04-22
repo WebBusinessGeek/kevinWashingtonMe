@@ -13,6 +13,7 @@
 
 #resumeIntroHeader {
     margin-bottom: 130px;
+    background: blue;
 }
 #resumeCustAcq , #resumeWebDev {
     min-height: 800px;
@@ -25,7 +26,7 @@
 }
 
 #resumeWorkHistory {
-    background: #fff;
+    background: pink;
     height: 300px;
     border-top: solid 1px #dadada;
     padding-top: 20px;
