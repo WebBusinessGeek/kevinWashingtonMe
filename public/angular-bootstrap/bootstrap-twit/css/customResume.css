@@ -1,11 +1,50 @@
 #resumeIntro {
-    height: 780px;
+    height: 1100px;
+    background: #44464a;
+    color: #fff;
+    padding-top:20px;
 }
 
+#resumeInfoContainer {
+    background: #fff;
+    height: 1100px;
+    padding-top:20px;
+}
+
+#resumeIntroHeader {
+    margin-bottom: 130px;
+}
 #resumeCustAcq , #resumeWebDev {
-    height: 800px;
+    min-height: 760px;
+    margin-bottom: 20px;
 }
 
-#resumeMgr {
+#resumeCustAcq {
+    border-right: solid 1px #dadada;
+}
+
+#resumeWorkHistory {
+    background: #fff;
     height: 250px;
+    border-top: solid 1px #dadada;
+    padding-top: 20px;
+}
+
+.introGroup {
+    height: 240px;
+    margin-top: 20px;
+}
+
+.custAcqGroup, .webDevGroup {
+    height: 180px;
+    margin-top: 10px;
+}
+
+.groupings {
+    margin-top:40px;
+}
+
+#googleLink > a {
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
 }

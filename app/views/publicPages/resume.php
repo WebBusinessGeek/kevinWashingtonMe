@@ -1,13 +1,13 @@
 
 <div class="row text-center" ng-controller="resumeController">
-    <div id="resumeIntro" class="col-lg-4 col-md-4 well">
-        <div>
+    <div id="resumeIntro" class="col-lg-4 col-md-4">
+        <div id="resumeIntroHeader">
             <img class="img-circle img-responsive center-block" src="http://placehold.it/200">
             <h4><span id="firstName">Kevin</span> <span id="lastName">Washington</span></h4>
             <h5>Web Developer & Customer Acquisition Specialist</h5>
         </div>
 
-        <div>
+        <div class="introGroup">
             <h5>What I'm Looking For <em>(flexible)</em></h5>
             <p>Remote Opportunities</p>
             <p>Web based products (SaaS, Hosting, etc.)</p>
@@ -15,38 +15,38 @@
             <p>Opportunities to learn and grow with others</p>
         </div>
 
-        <div>
+        <div class="introGroup">
             <h5>Education & Learning</h5>
-            <p>Roxborough High School <em>Business</em></p>
-            <p>Temple University <em>Advertising</em></p>
-            <p>Google Analytics <em><a href="https://www.google.com/partners/#i_profile;idtf=103709429231119922285;" target="_blank">Individual Qualification</a></em></p>
+            <p>Roxborough High School <br/><em>Business</em></p>
+            <p>Temple University <br/><em>Advertising</em></p>
+            <p>Google Analytics <br/><em id="googleLink"><a href="https://www.google.com/partners/#i_profile;idtf=103709429231119922285;" target="_blank">IQ Certification</a></em></p>
         </div>
 
-        <div>
+        <div class="introGroup">
             <h5>Connect with me</h5>
             <p>Phone: (609) 416-1077</p>
-            <p>Skype: @web_business_develoepr </p>
+            <p>Skype: @web_business_developer </p>
             <p>Email: hello@kevinwashington.me</p>
         </div>
 
     </div>
 
-    <div class="col-lg-8 col-md-8 well">
-        <div id="resumeCustAcq" class="col-lg-6 col-md-6 well">
+    <div id="resumeInfoContainer" class="col-lg-8 col-md-8">
+        <div id="resumeCustAcq" class="col-lg-6 col-md-6">
             <div>
                 <img src="http://placehold.it/64">
                 <h4>Customer Acquisition</h4>
             </div>
 
-            <div>
-                <div>
+            <div class="groupings">
+                <div class="custAcqGroup">
                     <h5>Specialties</h5>
                     <p>Developing & Optimizing Acquisition Channels</p>
                     <p>Gaining Insights Through Data</p>
                     <p>Process Optimization & Development</p>
                     <p>Growth</p>
                 </div>
-                <div>
+                <div class="custAcqGroup">
                     <h5>Engagement Methods</h5>
                     <p>SEO</p>
                     <p>Social</p>
@@ -54,7 +54,7 @@
                     <p>Direct Interactions</p>
                     <p>Email</p>
                 </div>
-                <div>
+                <div class="custAcqGroup">
                     <h5>My Acquisition Process</h5>
                     <p>Understand the Product & the User</p>
                     <p>Develop Channels unique to the Medium and Audience Segment</p>
@@ -66,13 +66,13 @@
 
             </div>
         </div>
-        <div id="resumeWebDev" class="col-lg-6 col-md-6 well">
+        <div id="resumeWebDev" class="col-lg-6 col-md-6">
             <div>
                 <img src="http://placehold.it/64">
                 <h4>Web Development</h4>
 
-                <div>
-                    <div>
+                <div class="groupings">
+                    <div class="webDevGroup">
                         <h5>Core Technologies</h5>
                         <p>PHP</p>
                         <p>Javascript</p>
@@ -80,14 +80,14 @@
                         <p>CSS</p>
                         <p>SQL</p>
                     </div>
-                    <div>
+                    <div class="webDevGroup">
                         <h5>Frameworks</h5>
                         <p>Laravel 4.*</p>
                         <p>AngularJS 1.*</p>
                         <p>jQuery</p>
                         <p>Twitter Bootstrap</p>
                     </div>
-                    <div>
+                    <div class="webDevGroup">
                         <h5>My Development Mantra</h5>
                         <p>Design for Usability</p>
                         <p>Architect for Change</p>
@@ -98,7 +98,7 @@
             </div>
         </div>
 
-        <div id="resumeMgr" class="col-lg-12 col-md-12 well">
+        <div id="resumeWorkHistory" class="col-lg-12 col-md-12">
 
             <div>
                 <img src="http://placehold.it/64">
