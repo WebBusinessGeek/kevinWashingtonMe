@@ -40,6 +40,7 @@
 
             <div class="groupings">
                 <div class="custAcqGroup">
+                    <img src="http://placehold.it/48">
                     <h5>Specialties</h5>
                     <p>Developing & Optimizing Acquisition Channels</p>
                     <p>Gaining Insights Through Data</p>
@@ -48,6 +49,7 @@
                     <p>Growth</p>
                 </div>
                 <div class="custAcqGroup">
+                    <img src="http://placehold.it/48">
                     <h5>Engagement Methods</h5>
                     <p>SEO</p>
                     <p>Social</p>
@@ -56,6 +58,7 @@
                     <p>Email</p>
                 </div>
                 <div class="custAcqGroup">
+                    <img src="http://placehold.it/48">
                     <h5>My Acquisition Process</h5>
                     <p>1. Understand the Product & the User</p>
                     <p>2. Develop Channels unique to the Medium and Audience Segment</p>
@@ -74,6 +77,7 @@
 
                 <div class="groupings">
                     <div class="webDevGroup">
+                        <img src="http://placehold.it/48">
                         <h5>Core Technologies</h5>
                         <p>PHP</p>
                         <p>Javascript</p>
@@ -82,6 +86,7 @@
                         <p>SQL</p>
                     </div>
                     <div class="webDevGroup">
+                        <img src="http://placehold.it/48">
                         <h5>Frameworks</h5>
                         <p>Laravel 4.*</p>
                         <p>AngularJS 1.*</p>
@@ -89,7 +94,8 @@
                         <p>Twitter Bootstrap</p>
                         <p>PHPUnit</p>
                     </div>
-                    <div class="webDevGroup">
+                    <div id="devMantra" class="webDevGroup">
+                        <img src="http://placehold.it/48">
                         <h5>My Development Mantra</h5>
                         <p>*Design for Usability*</p>
                         <p>*Architect for Change*</p>
