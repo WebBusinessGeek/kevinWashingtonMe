@@ -99,27 +99,45 @@
         </div>
 
         <div id="resumeMgr" class="col-lg-12 col-md-12 well">
+
             <div>
                 <img src="http://placehold.it/64">
                 <h4>Work History</h4>
             </div>
-            <div>
-                <h5>Director of Growth</h5>
-                <h6>KarmaCRM</h6>
-                <h6>August 15, 2013 - December 1, 2014</h6>
-                <p></p>
+            <div ng-show="workHistoryShowing == 1">
+
+                <div>
+                    <h5>Director of Growth</h5>
+                    <h6>KarmaCRM</h6>
+                    <h6>August 15, 2013 - December 1, 2014</h6>
+                    <p></p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Responsibilities</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Skills Used & Developed</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5>Notable Achievements</h5>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4 col-md-4 col-lg-4">
-                    <h5>Responsibilities</h5>
-                </div>
-                <div class="col-sm-4 col-md-4 col-lg-4">
-                    <h5>Skills Used & Developed</h5>
-                </div>
-                <div class="col-sm-4 col-md-4 col-lg-4">
-                    <h5>Notable Achievements</h5>
-                </div>
+            <div ng-show="workHistoryShowing == 2">
+                <p>2nd page</p>
             </div>
+            <div ng-show="workHistoryShowing == 3">
+                <p>3rd page</p>
+            </div>
+            <div ng-show="workHistoryShowing == 4">
+                <p>4th page</p>
+            </div>
+
+            <button class="btn btn-warning" ng-click="workHistoryPrev()">Prev</button>
+            <button class="btn btn-warning" ng-click="workHistoryNext()">Prev</button>
+
+
         </div>
     </div>
 
