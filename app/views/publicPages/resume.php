@@ -22,6 +22,13 @@
             <p>Google Analytics <em><a href="https://www.google.com/partners/#i_profile;idtf=103709429231119922285;" target="_blank">Individual Qualification</a></em></p>
         </div>
 
+        <div>
+            <h5>Connect with me</h5>
+            <p>Phone: </p>
+            <p>Skype: </p>
+            <p>Email: hello@kevinwashington.me</p>
+        </div>
+
     </div>
 
     <div class="col-lg-8 col-md-8 well">
