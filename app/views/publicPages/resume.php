@@ -19,7 +19,7 @@
             <h5>Education & Learning</h5>
             <p>Roxborough High School <em>Business</em></p>
             <p>Temple University <em>Advertising</em></p>
-            <p>Google <em>Analytics</em></p>
+            <p>Google Analytics <em><a href="https://www.google.com/partners/#i_profile;idtf=103709429231119922285;" target="_blank">Individual Qualification</a></em></p>
         </div>
 
     </div>
