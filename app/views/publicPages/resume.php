@@ -28,6 +28,7 @@
                 <p>Social</p>
                 <p>Advertising</p>
                 <p>Direct Interactions</p>
+                <p>Email</p>
 
                 <h5>Optimization Ready Checklist</h5>
                 <p>VWO</p>
