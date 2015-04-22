@@ -1,13 +1,13 @@
 #resumeIntro {
-    height: 1100px;
+    height: 1160px;
     background: #44464a;
     color: #fff;
     padding-top:20px;
 }
 
 #resumeInfoContainer {
-    background: #fff;
-    height: 1100px;
+    background: #000;
+    height: 1160px;
     padding-top:20px;
 }
 
@@ -15,8 +15,9 @@
     margin-bottom: 130px;
 }
 #resumeCustAcq , #resumeWebDev {
-    min-height: 760px;
+    min-height: 800px;
     margin-bottom: 20px;
+    background: red;
 }
 
 #resumeCustAcq {
@@ -25,7 +26,7 @@
 
 #resumeWorkHistory {
     background: #fff;
-    height: 250px;
+    height: 300px;
     border-top: solid 1px #dadada;
     padding-top: 20px;
 }
@@ -37,14 +38,13 @@
 
 .custAcqGroup, .webDevGroup {
     height: 180px;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .groupings {
     margin-top:40px;
 }
 
-#googleLink > a {
+#googleLink{
     color:#fff;
-    font-family: 'Roboto', sans-serif;
 }

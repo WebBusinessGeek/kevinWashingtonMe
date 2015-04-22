@@ -19,7 +19,7 @@
             <h5>Education & Learning</h5>
             <p>Roxborough High School <br/><em>Business</em></p>
             <p>Temple University <br/><em>Advertising</em></p>
-            <p>Google Analytics <br/><em id="googleLink"><a href="https://www.google.com/partners/#i_profile;idtf=103709429231119922285;" target="_blank">IQ Certification</a></em></p>
+            <p>Google Analytics <br/><em>IQ Certification</em><br/><a id="googleLink" href="https://www.google.com/partners/#i_profile;idtf=103709429231119922285;" target="_blank">view</a></p>
         </div>
 
         <div class="introGroup">
@@ -56,12 +56,12 @@
                 </div>
                 <div class="custAcqGroup">
                     <h5>My Acquisition Process</h5>
-                    <p>Understand the Product & the User</p>
-                    <p>Develop Channels unique to the Medium and Audience Segment</p>
-                    <p>Engage by Adding Value</p>
-                    <p>Demonstrate Benefits not Features</p>
-                    <p>Ask for the sale</p>
-                    <p>Don't forget to ask again</p>
+                    <p>1. Understand the Product & the User</p>
+                    <p>2. Develop Channels unique to the Medium and Audience Segment</p>
+                    <p>3. Engage by Adding Value</p>
+                    <p>4. Demonstrate Benefits not Features</p>
+                    <p>5. Ask for the sale</p>
+                    <p>6. Don't forget to ask again</p>
                 </div>
 
             </div>
@@ -76,8 +76,7 @@
                         <h5>Core Technologies</h5>
                         <p>PHP</p>
                         <p>Javascript</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
+                        <p>HTML/CSS</p>
                         <p>SQL</p>
                     </div>
                     <div class="webDevGroup">
@@ -86,13 +85,14 @@
                         <p>AngularJS 1.*</p>
                         <p>jQuery</p>
                         <p>Twitter Bootstrap</p>
+                        <p>Any, I learn quickly</p>
                     </div>
                     <div class="webDevGroup">
                         <h5>My Development Mantra</h5>
-                        <p>Design for Usability</p>
-                        <p>Architect for Change</p>
-                        <p>Program for Maintenance</p>
-                        <p>Deliver in Sprints</p>
+                        <p>*Design for Usability*</p>
+                        <p>*Architect for Change*</p>
+                        <p>*Code for Maintenance*</p>
+                        <p>*Deliver in Sprints*</p>
                     </div>
                 </div>
             </div>
