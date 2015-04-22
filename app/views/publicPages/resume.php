@@ -116,7 +116,6 @@
                 </div>
                 <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
                     <a ng-hide="moreShowing == true">More</a>
-                    <a ng-hide="moreShowing == false"" >Less</a>
                     <div class="row" ng-hide="moreShowing == false">
                         <div class="col-sm-4 col-md-4 col-lg-4">
                             <h5>Responsibilities</h5>
@@ -183,15 +182,18 @@
                     <h6>K. Conliffe, Private Investor</h6>
                     <h6>April 2009 - January 2013 (3 years & 8 months)</h6>
                 </div>
-                <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Responsibilities</h5>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Skills Used & Developed</h5>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Notable Achievements</h5>
+                <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
+                    <a ng-hide="moreShowing == true">More</a>
+                    <div class="row" ng-hide="moreShowing == false">
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Responsibilities</h5>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Skills Used & Developed</h5>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Notable Achievements</h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -201,15 +203,18 @@
                     <h6>Chandler Consulting</h6>
                     <h6>August 2008 - January 2009 (6 months)</h6>
                 </div>
-                <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Responsibilities</h5>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Skills Used & Developed</h5>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Notable Achievements</h5>
+                <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
+                    <a ng-hide="moreShowing == true">More</a>
+                    <div class="row" ng-hide="moreShowing == false">
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Responsibilities</h5>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Skills Used & Developed</h5>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Notable Achievements</h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -219,15 +224,18 @@
                     <h6>Retro Fitness</h6>
                     <h6>March 2008 - August 2008 (6 months)</h6>
                 </div>
-                <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Responsibilities</h5>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Skills Used & Developed</h5>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Notable Achievements</h5>
+                <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
+                    <a ng-hide="moreShowing == true">More</a>
+                    <div class="row" ng-hide="moreShowing == false">
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Responsibilities</h5>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Skills Used & Developed</h5>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Notable Achievements</h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -237,15 +245,18 @@
                     <h6>LA Fitness</h6>
                     <h6>February 2007 - March 2008 (1 year & 1 month)</h6>
                 </div>
-                <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Responsibilities</h5>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Skills Used & Developed</h5>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Notable Achievements</h5>
+                <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
+                    <a ng-hide="moreShowing == true">More</a>
+                    <div class="row" ng-hide="moreShowing == false">
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Responsibilities</h5>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Skills Used & Developed</h5>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Notable Achievements</h5>
+                        </div>
                     </div>
                 </div>
             </div>
