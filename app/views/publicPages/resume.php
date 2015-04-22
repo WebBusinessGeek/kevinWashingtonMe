@@ -104,6 +104,9 @@
                 <img src="http://placehold.it/64">
                 <h4>Relevant Work Experience</h4>
             </div>
+            <button class="btn btn-warning" ng-click="workHistoryPrev()">Prev</button>
+            <button class="btn btn-warning" ng-click="workHistoryNext()">Prev</button>
+
             <div ng-show="workHistoryShowing == 1">
 
                 <div>
@@ -111,33 +114,65 @@
                     <h6>KarmaCRM</h6>
                     <h6>August 15, 2013 - December 1, 2014 (1 year & 5 months)</h6>
                 </div>
-                <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Responsibilities</h5>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Skills Used & Developed</h5>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Notable Achievements</h5>
+                <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
+                    <a ng-hide="moreShowing == true">More</a>
+                    <div class="row" ng-hide="moreShowing == false">
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Responsibilities</h5>
+                            <p>Manage the lead generation and sales processes for the organization</p>
+                            <p>Help develop custom analytic tools to measure and report on business performance</p>
+                            <p>Communicate insights from data for business intelligence</p>
+                            <p>Develop quarterly growth objectives</p>
+                            <p>Architect and implement unique strategies to achieve objectives</p>
+                            <p>Create and optimize Acquisition channels</p>
+                            <p>Measure and improve growth team performance</p>
+                            <p>Collaborate with CEO on critical path of the company</p>
+                            <p>Oversee the overall health of the business along with the CEO and Director of Operations</p>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Skills Used & Developed</h5>
+                            <p>Remote Team Management</p>
+                            <p>Objective Based project Management</p>
+                            <p>Data Insights</p>
+                            <p>Business Strategy</p>
+                            <p>Budgeting</p>
+                            <p>Sales</p>
+                            <p>Problem Solving</p>
+                            <p>Talent Cultivation</p>
+                            <p>Content Development & Promotion</p>
+                            <p>U/X Conversion Design</p>
+                            <p>Visitor & User Behavior Optimization</p>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Notable Achievements</h5>
+                            <p>145% Increase in conversions</p>
+                            <p>449% Increase in New Revenue Per day</p>
+                            <p>1079% Increase in Revenue After Attrition</p>
+                            <p>Developed an Objective Based Project Management Framework that was embrace company wide.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+
+
             <div ng-show="workHistoryShowing == 2">
                 <div>
                     <h5>Freelancer</h5>
                     <h6>Self Employed</h6>
                     <h6>January 2013 - Current</h6>
                 </div>
-                <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Responsibilities</h5>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Skills Used & Developed</h5>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5>Notable Achievements</h5>
+                <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
+                    <a ng-hide="moreShowing == true">More</a>
+                    <div class="row" ng-hide="moreShowing == false">
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Responsibilities</h5>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Skills Used & Developed</h5>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h5>Notable Achievements sjdfkdjf</h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -213,10 +248,6 @@
                     </div>
                 </div>
             </div>
-
-            <button class="btn btn-warning" ng-click="workHistoryPrev()">Prev</button>
-            <button class="btn btn-warning" ng-click="workHistoryNext()">Prev</button>
-
 
         </div>
     </div>

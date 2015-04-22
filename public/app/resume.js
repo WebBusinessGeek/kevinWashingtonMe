@@ -21,6 +21,19 @@ angular.module('app')
                 $scope.workHistoryShowing = 0;
             }
             $scope.workHistoryShowing++;
-        }
+        };
+
+
+        $scope.moreShowing = false;
+
+        $scope.showMore = function()
+        {
+            $scope.moreShowing = true;
+        };
+
+        $scope.hideMore = function()
+        {
+            $scope.moreShowing = false;
+        };
 
     }]);
