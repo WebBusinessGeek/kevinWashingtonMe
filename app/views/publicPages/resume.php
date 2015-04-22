@@ -24,8 +24,8 @@
 
         <div>
             <h5>Connect with me</h5>
-            <p>Phone: </p>
-            <p>Skype: </p>
+            <p>Phone: (609) 416-1077</p>
+            <p>Skype: @web_business_develoepr </p>
             <p>Email: hello@kevinwashington.me</p>
         </div>
 
@@ -109,7 +109,7 @@
                 <div>
                     <h5>Director of Growth</h5>
                     <h6>KarmaCRM</h6>
-                    <h6>August 15, 2013 - December 1, 2014</h6>
+                    <h6>August 15, 2013 - December 1, 2014 (1 year & 5 months)</h6>
                 </div>
                 <div class="row">
                     <div class="col-sm-4 col-md-4 col-lg-4">
@@ -145,7 +145,7 @@
                 <div>
                     <h5>Project Manager</h5>
                     <h6>K. Conliffe, Private Investor</h6>
-                    <h6>April 2009 - January 2013</h6>
+                    <h6>April 2009 - January 2013 (3 years & 8 months)</h6>
                 </div>
                 <div class="row">
                     <div class="col-sm-4 col-md-4 col-lg-4">
@@ -163,7 +163,7 @@
                 <div>
                     <h5>Director of Field Marketing</h5>
                     <h6>Chandler Consulting</h6>
-                    <h6>August 2008 - January 2009</h6>
+                    <h6>August 2008 - January 2009 (6 months)</h6>
                 </div>
                 <div class="row">
                     <div class="col-sm-4 col-md-4 col-lg-4">
@@ -181,7 +181,7 @@
                 <div>
                     <h5>Area Sales Manager</h5>
                     <h6>Retro Fitness</h6>
-                    <h6>March 2008 - August 2008</h6>
+                    <h6>March 2008 - August 2008 (6 months)</h6>
                 </div>
                 <div class="row">
                     <div class="col-sm-4 col-md-4 col-lg-4">
@@ -199,7 +199,7 @@
                 <div>
                     <h5>Sales Manager</h5>
                     <h6>LA Fitness</h6>
-                    <h6>February 2007 - March 2008</h6>
+                    <h6>February 2007 - March 2008 (1 year & 1 month)</h6>
                 </div>
                 <div class="row">
                     <div class="col-sm-4 col-md-4 col-lg-4">
