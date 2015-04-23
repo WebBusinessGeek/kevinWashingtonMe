@@ -24,14 +24,14 @@
     <favorites_list name="kevinWashingtonMe" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5737135">
       <split-first>
         <leaf>
           <file leaf-file-name="resume.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/resume.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.50359714" vertical-offset="0" max-vertical-offset="7950">
-                  <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+                <state vertical-scroll-proportion="0.5323741" vertical-offset="2730" max-vertical-offset="8175">
+                  <caret line="124" column="45" selection-start-line="124" selection-start-column="45" selection-end-line="124" selection-end-column="45" />
                   <folding />
                 </state>
               </provider>
@@ -44,8 +44,8 @@
           <file leaf-file-name="customResume.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customResume.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.23822714" vertical-offset="778" max-vertical-offset="1500">
-                  <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.86149585" vertical-offset="1178" max-vertical-offset="1975">
+                  <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -237,15 +237,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -279,13 +279,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -669,100 +669,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7122302" vertical-offset="4380" max-vertical-offset="6900">
           <caret line="195" column="4" selection-start-line="195" selection-start-column="4" selection-end-line="195" selection-end-column="4" />
-          <folding>
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429740354000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customResume.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23822714" vertical-offset="778" max-vertical-offset="1500">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/resume.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50359714" vertical-offset="0" max-vertical-offset="7950">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.5323741" vertical-offset="2730" max-vertical-offset="8175">
+          <caret line="124" column="45" selection-start-line="124" selection-start-column="45" selection-end-line="124" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customResume.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86149585" vertical-offset="1178" max-vertical-offset="1975">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
           <folding />
         </state>
       </provider>

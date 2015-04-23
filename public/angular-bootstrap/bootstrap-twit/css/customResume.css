@@ -13,7 +13,22 @@
 
 #resumeIntroHeader {
     margin-bottom: 100px;
-    /*background: blue;*/
+}
+
+#resumeIntroGreeting {
+    margin-bottom: 100px;
+}
+
+#resumeIntroLooking {
+    margin-bottom: 100px;
+}
+
+#resumeIntroLearning {
+    margin-bottom: 100px;
+}
+
+#resumeIntroConnect {
+
 }
 #resumeCustAcq , #resumeWebDev {
     min-height: 800px;
@@ -52,4 +67,8 @@
 
 #googleLink{
     color:#fff;
+}
+#workHistoryScrollSection {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }

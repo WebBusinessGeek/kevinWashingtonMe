@@ -7,7 +7,7 @@
             <h5>Web Developer & Customer Acquisition Specialist</h5>
         </div>
 
-        <div class="introGroup">
+        <div id="resumeIntroGreeting">
             <h5>Hello, I'm Kevin</h5>
             <p>
                 I help businesses develop innovative products and grow their customer base.
@@ -15,7 +15,7 @@
                 I am happy to provide references upon request.
             </p>
         </div>
-        <div class="introGroup">
+        <div id="resumeIntroLooking">
             <h5>What I'm Looking For <em>(flexible)</em></h5>
             <p>Remote Opportunities</p>
             <p>Web based products (SaaS, Hosting, etc.)</p>
@@ -23,14 +23,14 @@
             <p>Opportunities to learn and grow with others</p>
         </div>
 
-        <div class="introGroup">
+        <div id="resumeIntroLearning">
             <h5>Education & Learning</h5>
             <p>Roxborough High School <br/><em>Business</em></p>
             <p>Temple University <br/><em>Advertising</em></p>
             <p>Google Analytics <br/><em>IQ Certification</em><br/><a id="googleLink" href="https://www.google.com/partners/#i_profile;idtf=103709429231119922285;" target="_blank">view</a></p>
         </div>
 
-        <div class="introGroup">
+        <div class="resumeIntroConnect">
             <h5>Connect with me</h5>
             <p>Phone: (609) 416-1077</p>
             <p>Skype: @web_business_developer </p>
@@ -120,8 +120,17 @@
                 <img src="http://placehold.it/64">
                 <h4>Relevant Work Experience</h4>
             </div>
-            <button class="btn btn-warning" ng-click="workHistoryPrev()">Prev</button>
-            <button class="btn btn-warning" ng-click="workHistoryNext()">Prev</button>
+          <!--  <button class="btn btn-warning" ng-click="workHistoryPrev()">Prev</button>
+            <button class="btn btn-warning" ng-click="workHistoryNext()">Prev</button>-->
+            <div id="workHistoryScrollSection" class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6" id="workHistoryScrollLeft">
+                    <a  ng-click="workHistoryPrev()"><span class="glyphicon glyphicon-chevron-left" ></span>Prev</a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6" id="workHistoryScrollRight">
+                    <a  ng-click="workHistoryNext()">Next<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+                </div>
+            </div>
+
 
             <div ng-show="workHistoryShowing == 1">
 
