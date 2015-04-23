@@ -30,9 +30,8 @@
           <file leaf-file-name="tmi.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/tmi.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3263473" vertical-offset="6207" max-vertical-offset="6875">
-                  <caret line="257" column="19" selection-start-line="257" selection-start-column="19" selection-end-line="257" selection-end-column="19" />
-                  <caret line="257" column="47" selection-start-line="257" selection-start-column="47" selection-end-line="257" selection-end-column="47" />
+                <state vertical-scroll-proportion="0.41167665" vertical-offset="0" max-vertical-offset="6875">
+                  <caret line="11" column="131" selection-start-line="11" selection-start-column="131" selection-end-line="11" selection-end-column="131" />
                   <folding />
                 </state>
               </provider>
@@ -45,8 +44,8 @@
           <file leaf-file-name="customTMI.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customTMI.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.55401665" vertical-offset="0" max-vertical-offset="722">
-                  <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.6232687" vertical-offset="0" max-vertical-offset="722">
+                  <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -693,19 +692,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customTMI.css">
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/tmi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55401665" vertical-offset="0" max-vertical-offset="722">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.41167665" vertical-offset="0" max-vertical-offset="6875">
+          <caret line="11" column="131" selection-start-line="11" selection-start-column="131" selection-end-line="11" selection-end-column="131" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/tmi.php">
+    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customTMI.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3263473" vertical-offset="6207" max-vertical-offset="6875">
-          <caret line="257" column="19" selection-start-line="257" selection-start-column="19" selection-end-line="257" selection-end-column="19" />
-          <caret line="257" column="47" selection-start-line="257" selection-start-column="47" selection-end-line="257" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.6232687" vertical-offset="0" max-vertical-offset="722">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding />
         </state>
       </provider>

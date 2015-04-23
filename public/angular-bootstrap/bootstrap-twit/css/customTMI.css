@@ -15,3 +15,7 @@
 #tmi10ThingsCard10 {
     height: 350px;
 }
+
+.tmiImageLinks > a {
+    text-decoration: none;
+}
