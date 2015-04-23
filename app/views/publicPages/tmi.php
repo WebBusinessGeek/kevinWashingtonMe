@@ -72,7 +72,7 @@
             <div>
                 <p>
                     I am the proud father of two kids who are doing very well in school.
-                    And I am happily married to my beautiful wife who only ever nags on weekdays.
+                    I am also happily married to my beautiful wife who only ever nags on weekdays.
                     I love them all very much.
                 </p>
             </div>
@@ -84,7 +84,7 @@
         </div>
         <div ng-show="currentTMI == '3'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h3>#3 I'm a lefty...and a righty?</h3>
+                <h3>#3 I am partially Ambidextrous?</h3>
             </div>
 
             <div>
@@ -94,8 +94,8 @@
             <div>
                 <p>
                     I write, drive, and eat with my left hand.
-                    However I brush my teeth, throw a football, and shoot a basketball with my right.
-                    Everything else is pretty much up for grabs.
+                    However I use my right to brush my teeth, and throw a football.
+                    Pretty much everything else is up for grabs.
                 </p>
             </div>
 
@@ -115,7 +115,7 @@
 
             <div>
                 <p>
-                    While my mental sharpness is critical for work I think its also important to stay in shape physically.
+                    I think its important to stay in shape physically.
                     Im always working to improve my 5RM's which are currently a 315lb Bench press, 390lb DeadLift, 375lb HackSquat, 105lb PullUp, and also a 5.2 sec 120ft Sprint.
                 </p>
             </div>
@@ -178,7 +178,7 @@
             <div>
                 <p>
                     I was that kid who always clung to the side of the pool and NEVER ventured out further than arms reach of it.
-                    Now I'm an adult who stays out the pool and sometimes pushes people in. Sad.
+                    Now I'm an adult who rarely ever goes near the pool.
                 </p>
             </div>
 
