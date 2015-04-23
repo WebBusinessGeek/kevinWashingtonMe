@@ -30,6 +30,10 @@
 #resumeIntroConnect {
 
 }
+
+#resumeIntroNote{
+    margin-top: 45px;
+}
 #resumeCustAcq , #resumeWebDev {
     min-height: 800px;
     margin-bottom: 20px;

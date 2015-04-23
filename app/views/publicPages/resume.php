@@ -30,11 +30,15 @@
             <p>Google Analytics <br/><em>IQ Certification</em><br/><a id="googleLink" href="https://www.google.com/partners/#i_profile;idtf=103709429231119922285;" target="_blank">view</a></p>
         </div>
 
-        <div class="resumeIntroConnect">
+        <div id="resumeIntroConnect">
             <h5>Connect with me</h5>
             <p>Phone: (609) 416-1077</p>
             <p>Skype: @web_business_developer </p>
             <p>Email: hello@kevinwashington.me</p>
+        </div>
+
+        <div id="resumeIntroNote">
+            <p>* Some start and end dates are estimated.</p>
         </div>
 
     </div>
@@ -260,7 +264,7 @@
                 <div>
                     <h5>Director of Field Marketing</h5>
                     <h6>Chandler Consulting</h6>
-                    <h6>August 2008 - January 2009 (6 months)</h6>
+                    <h6>*August 2008 - January 2009 (6 months)</h6>
                 </div>
                 <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
                     <a ng-hide="moreShowing == true">More</a>
@@ -268,12 +272,31 @@
                         <div class="moreWorkHistoryInfo">
                             <div class="col-sm-4 col-md-4 col-lg-4">
                                 <h5>Responsibilities</h5>
+                                <p>Locate and target niche organizations</p>
+                                <p>Navigate company hierarchies to set up sales meetings with decision makers</p>
+                                <p>Travel and conduct in person sales presentations</p>
+                                <p>Review solution benefits based on needs of the prospect</p>
+                                <p>Develop mutual and custom contractual terms of service</p>
+                                <p>Oversee fulfillment of services</p>
+                                <p>Manage account relations</p>
+                                <p>Recruit, hire, and manage members of sales team</p>
+                                <p>Organize and conduct regular sales trainings</p>
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4">
                                 <h5>Skills Used & Developed</h5>
+                                <p>Lead Generation</p>
+                                <p>Research</p>
+                                <p>Sales Presentations</p>
+                                <p>Needs Assessments</p>
+                                <p>Problem Solving</p>
+                                <p>Contract Negotiations</p>
+                                <p>Process Management</p>
+                                <p>Team Management</p>
+                                <p>Team Development</p>
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4">
                                 <h5>Notable Achievements</h5>
+                                <p>Maintained highest closing ratio in company while apart of the organization</p>
                             </div>
                         </div>
                     </div>
@@ -283,7 +306,7 @@
                 <div>
                     <h5>Area Sales Manager</h5>
                     <h6>Retro Fitness</h6>
-                    <h6>March 2008 - August 2008 (6 months)</h6>
+                    <h6>*March 2008 - August 2008 (6 months)</h6>
                 </div>
                 <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
                     <a ng-hide="moreShowing == true">More</a>
@@ -291,12 +314,24 @@
                         <div class="moreWorkHistoryInfo">
                             <div class="col-sm-4 col-md-4 col-lg-4">
                                 <h5>Responsibilities</h5>
+                                <p>Oversee general management of 3 Southeastern Pennsylvania locations</p>
+                                <p>Manage account relations with franchisees</p>
+                                <p>Ensure collection and corporate delivery of all sensitive documents throughout area</p>
+                                <p>Ensure locations operate at or above performance goals for each quarter</p>
+                                <p>Organize and conduct location sales trainings</p>
+                                <p>Report to Pennsylvania Senior Manager and Regional Vice President</p>
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4">
                                 <h5>Skills Used & Developed</h5>
+                                <p>Remote Management</p>
+                                <p>Account Relations</p>
+                                <p>Team Accountability</p>
+                                <p>Business Performance Analytics</p>
+                                <p>Team Development</p>
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4">
                                 <h5>Notable Achievements</h5>
+                                <p>Recruited, trained, and promoted 2 General Managers to Pennsylvania region.</p>
                             </div>
                         </div>
                     </div>
@@ -306,7 +341,7 @@
                 <div>
                     <h5>Sales Manager</h5>
                     <h6>LA Fitness</h6>
-                    <h6>February 2007 - March 2008 (1 year & 1 month)</h6>
+                    <h6>*February 2007 - March 2008 (1 year & 1 month)</h6>
                 </div>
                 <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
                     <a ng-hide="moreShowing == true">More</a>
@@ -314,12 +349,24 @@
                         <div class="moreWorkHistoryInfo">
                             <div class="col-sm-4 col-md-4 col-lg-4">
                                 <h5>Responsibilities</h5>
+                                <p>Oversee general management of 3 Southeastern Pennsylvania locations</p>
+                                <p>Manage account relations with franchisees</p>
+                                <p>Ensure collection and corporate delivery of all sensitive documents throughout area</p>
+                                <p>Ensure locations operate at or above performance goals for each quarter</p>
+                                <p>Organize and conduct location sales trainings</p>
+                                <p>Report to Pennsylvania Senior Manager and Regional Vice President</p>
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4">
                                 <h5>Skills Used & Developed</h5>
+                                <p>Remote Management</p>
+                                <p>Account Relations</p>
+                                <p>Team Accountability</p>
+                                <p>Business Performance Analytics</p>
+                                <p>Team Development</p>
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4">
                                 <h5>Notable Achievements</h5>
+                                <p>Recruited, trained, and promoted 2 General Managers to Pennsylvania region.</p>
                             </div>
                         </div>
                     </div>
