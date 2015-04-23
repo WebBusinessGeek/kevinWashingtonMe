@@ -50,7 +50,6 @@
 .introGroup {
     height: 240px;
     margin-top: 20px;
-    /*background: green;*/
 }
 
 .custAcqGroup, .webDevGroup {
@@ -71,4 +70,10 @@
 #workHistoryScrollSection {
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+.moreWorkHistoryInfo {
+    height: 700px;
+    background: #fff;
+    border: 1px #dadada solid;
 }

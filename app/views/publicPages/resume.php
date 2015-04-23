@@ -142,38 +142,40 @@
                 <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
                     <a ng-hide="moreShowing == true">More</a>
                     <div class="row" ng-hide="moreShowing == false">
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Responsibilities</h5>
-                            <p>Manage the lead generation and sales processes for the organization</p>
-                            <p>Help develop custom analytic tools to measure and report on business performance</p>
-                            <p>Communicate insights from data for business intelligence</p>
-                            <p>Develop quarterly growth objectives</p>
-                            <p>Architect and implement unique strategies to achieve objectives</p>
-                            <p>Create and optimize Acquisition channels</p>
-                            <p>Measure and improve growth team performance</p>
-                            <p>Collaborate with CEO on critical path of the company</p>
-                            <p>Oversee the overall health of the business along with the CEO and Director of Operations</p>
-                        </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Skills Used & Developed</h5>
-                            <p>Remote Team Management</p>
-                            <p>Objective Based project Management</p>
-                            <p>Data Insights</p>
-                            <p>Business Strategy</p>
-                            <p>Budgeting</p>
-                            <p>Sales</p>
-                            <p>Problem Solving</p>
-                            <p>Talent Cultivation</p>
-                            <p>Content Development & Promotion</p>
-                            <p>U/X Conversion Design</p>
-                            <p>Visitor & User Behavior Optimization</p>
-                        </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Notable Achievements</h5>
-                            <p>145% Increase in conversions</p>
-                            <p>449% Increase in New Revenue Per day</p>
-                            <p>1079% Increase in Revenue After Attrition</p>
-                            <p>Developed an Objective Based Project Management Framework that was embrace company wide.</p>
+                        <div class="moreWorkHistoryInfo">
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Responsibilities</h5>
+                                <p>Manage the lead generation and sales processes for the organization</p>
+                                <p>Help develop custom analytic tools to measure and report on business performance</p>
+                                <p>Communicate insights from data for business intelligence</p>
+                                <p>Develop quarterly growth objectives</p>
+                                <p>Architect and implement unique strategies to achieve objectives</p>
+                                <p>Create and optimize Acquisition channels</p>
+                                <p>Measure and improve growth team performance</p>
+                                <p>Collaborate with CEO on critical path of the company</p>
+                                <p>Oversee the overall health of the business along with the CEO and Director of Operations</p>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Skills Used & Developed</h5>
+                                <p>Remote Team Management</p>
+                                <p>Objective Based project Management</p>
+                                <p>Data Insights</p>
+                                <p>Business Strategy</p>
+                                <p>Budgeting</p>
+                                <p>Sales</p>
+                                <p>Problem Solving</p>
+                                <p>Talent Cultivation</p>
+                                <p>Content Development & Promotion</p>
+                                <p>U/X Conversion Design</p>
+                                <p>Visitor & User Behavior Optimization</p>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Notable Achievements</h5>
+                                <p>145% Increase in conversions</p>
+                                <p>449% Increase in New Revenue Per day</p>
+                                <p>1079% Increase in Revenue After Attrition</p>
+                                <p>Developed an Objective Based Project Management Framework that was embrace company wide.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -189,26 +191,28 @@
                 <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
                     <a ng-hide="moreShowing == true">More</a>
                     <div class="row" ng-hide="moreShowing == false">
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Responsibilities</h5>
-                            <p>Assess and Identify the needs of prospective Clients</p>
-                            <p>Provide unique marketing and development solutions to clients and collaborators</p>
-                            <p>Consult and problem solve with clients in areas of web development and marketing</p>
-                            <p>Manage collaborative teams to ensure all services are fulfilled with quality and within timeframe</p>
-                        </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Skills Used & Developed</h5>
-                            <p>Remote Team Management</p>
-                            <p>Project Management</p>
-                            <p>Sales</p>
-                            <p>Lead Generation Tactics</p>
-                            <p>Problem Solving</p>
-                        </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Notable Achievements</h5>
-                            <p>Successful collaborations with great team members from across the globe</p>
-                            <p>Optimization of fulfillment processes</p>
-                            <p>Development of unique sales & bidding strategies leading to increase in project award ratios</p>
+                        <div class="moreWorkHistoryInfo">
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Responsibilities</h5>
+                                <p>Assess and Identify the needs of prospective Clients</p>
+                                <p>Provide unique marketing and development solutions to clients and collaborators</p>
+                                <p>Consult and problem solve with clients in areas of web development and marketing</p>
+                                <p>Manage collaborative teams to ensure all services are fulfilled with quality and within timeframe</p>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Skills Used & Developed</h5>
+                                <p>Remote Team Management</p>
+                                <p>Project Management</p>
+                                <p>Sales</p>
+                                <p>Lead Generation Tactics</p>
+                                <p>Problem Solving</p>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Notable Achievements</h5>
+                                <p>Successful collaborations with great team members from across the globe</p>
+                                <p>Optimization of fulfillment processes</p>
+                                <p>Development of unique sales & bidding strategies leading to increase in project award ratios</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -222,30 +226,32 @@
                 <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
                     <a ng-hide="moreShowing == true">More</a>
                     <div class="row" ng-hide="moreShowing == false">
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Responsibilities</h5>
-                            <p>Generate investment and buy-in for new and developing products</p>
-                            <p>Recruit and manage product development teams</p>
-                            <p>Manage capital and development expenses</p>
-                            <p>Assist in developing revenue generation strategies where customers extracted value</p>
-                            <p>Assist in product strategy including branding, business models, and initial product offerings</p>
-                            <p>Develop penetration tactics for beach head and follow on markets</p>
-                            <p>Ensure product quality with thorough bug testing and error handling</p>
-                        </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Skills Used & Developed</h5>
-                            <p>Business Strategy</p>
-                            <p>Remote Team Management</p>
-                            <p>Creative Thinking</p>
-                            <p>Problem Solving</p>
-                            <p>Business Research</p>
-                            <p>Sales</p>
-                            <p>Organizational buy-in</p>
-                            <p>Project Management</p>
-                        </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Notable Achievements</h5>
-                            <p>Over 80% Project funding rate</p>
+                        <div class="moreWorkHistoryInfo">
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Responsibilities</h5>
+                                <p>Generate investment and buy-in for new and developing products</p>
+                                <p>Recruit and manage product development teams</p>
+                                <p>Manage capital and development expenses</p>
+                                <p>Assist in developing revenue generation strategies where customers extracted value</p>
+                                <p>Assist in product strategy including branding, business models, and initial product offerings</p>
+                                <p>Develop penetration tactics for beach head and follow on markets</p>
+                                <p>Ensure product quality with thorough bug testing and error handling</p>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Skills Used & Developed</h5>
+                                <p>Business Strategy</p>
+                                <p>Remote Team Management</p>
+                                <p>Creative Thinking</p>
+                                <p>Problem Solving</p>
+                                <p>Business Research</p>
+                                <p>Sales</p>
+                                <p>Organizational buy-in</p>
+                                <p>Project Management</p>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Notable Achievements</h5>
+                                <p>Over 80% Project funding rate</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -259,14 +265,16 @@
                 <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
                     <a ng-hide="moreShowing == true">More</a>
                     <div class="row" ng-hide="moreShowing == false">
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Responsibilities</h5>
-                        </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Skills Used & Developed</h5>
-                        </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Notable Achievements</h5>
+                        <div class="moreWorkHistoryInfo">
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Responsibilities</h5>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Skills Used & Developed</h5>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Notable Achievements</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -280,14 +288,16 @@
                 <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
                     <a ng-hide="moreShowing == true">More</a>
                     <div class="row" ng-hide="moreShowing == false">
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Responsibilities</h5>
-                        </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Skills Used & Developed</h5>
-                        </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Notable Achievements</h5>
+                        <div class="moreWorkHistoryInfo">
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Responsibilities</h5>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Skills Used & Developed</h5>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Notable Achievements</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -301,14 +311,16 @@
                 <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
                     <a ng-hide="moreShowing == true">More</a>
                     <div class="row" ng-hide="moreShowing == false">
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Responsibilities</h5>
-                        </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Skills Used & Developed</h5>
-                        </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <h5>Notable Achievements</h5>
+                        <div class="moreWorkHistoryInfo">
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Responsibilities</h5>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Skills Used & Developed</h5>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <h5>Notable Achievements</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
