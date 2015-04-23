@@ -331,7 +331,7 @@
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4">
                                 <h5>Notable Achievements</h5>
-                                <p>Recruited, trained, and promoted 2 General Managers to Pennsylvania region.</p>
+                                <p>Recruited, trained, and promoted 2 General Managers to the Pennsylvania region.</p>
                             </div>
                         </div>
                     </div>
@@ -349,24 +349,28 @@
                         <div class="moreWorkHistoryInfo">
                             <div class="col-sm-4 col-md-4 col-lg-4">
                                 <h5>Responsibilities</h5>
-                                <p>Oversee general management of 3 Southeastern Pennsylvania locations</p>
-                                <p>Manage account relations with franchisees</p>
-                                <p>Ensure collection and corporate delivery of all sensitive documents throughout area</p>
-                                <p>Ensure locations operate at or above performance goals for each quarter</p>
-                                <p>Organize and conduct location sales trainings</p>
-                                <p>Report to Pennsylvania Senior Manager and Regional Vice President</p>
+                                <p>Maintain and grow an EFT base with 65,000 in monthly revenue</p>
+                                <p>Work to decrease attrition factors</p>
+                                <p>Manage sales and service staff of over 10 employees</p>
+                                <p>Provide sales support to sales team</p>
+                                <p>Provide customer support to members</p>
+                                <p>Maintain minimum monthly quota for personal revenue generation</p>
+                                <p>Hire, recruit, and train sales and service teams</p>
+                                <p>Report directly to District Manager</p>
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4">
                                 <h5>Skills Used & Developed</h5>
-                                <p>Remote Management</p>
-                                <p>Account Relations</p>
-                                <p>Team Accountability</p>
                                 <p>Business Performance Analytics</p>
+                                <p>Team Management</p>
+                                <p>Sales</p>
+                                <p>Customer Support</p>
+                                <p>Self Management</p>
                                 <p>Team Development</p>
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4">
                                 <h5>Notable Achievements</h5>
-                                <p>Recruited, trained, and promoted 2 General Managers to Pennsylvania region.</p>
+                                <p>Steady at #2 on company wide Top Location Rankings based on sales performance for 2 days while with organization</p>
+                                <p>Placed #1 in District Rankings for consecutive pay periods while with company</p>
                             </div>
                         </div>
                     </div>
