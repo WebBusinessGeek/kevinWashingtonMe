@@ -5,11 +5,11 @@
     </div>
 
     <div class="row text-center" id="tmiNavList">
-        <div class="tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('resume')"><img src="http://placehold.it/125"><br/>My Resume</a></div>
+        <div class="tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('resume')"><img src="http://placehold.it/64"><br/>My Resume</a></div>
 
-        <div class="tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('10Things')"><img src="http://placehold.it/125"><br/>10 Random Things</a></div>
+        <div class="tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('10Things')"><img src="http://placehold.it/64"><br/>10 Random Things</a></div>
 
-        <div class="tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('skills')"><img src="http://placehold.it/125"><br/>My Skills</a></div>
+        <div class="tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('skills')"><img src="http://placehold.it/64"><br/>My Skills</a></div>
     </div>
 
 
