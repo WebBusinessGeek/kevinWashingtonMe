@@ -19,5 +19,14 @@
 }
 
 .tmiCard {
-    background: red;
+    background: #fff;
+    padding-bottom: 20px;
+}
+
+.tmiInnerContentLinks {
+    font-family: 'arvo', serif;
+}
+
+.tmiInnerContentLinks:hover {
+    cursor: pointer;
 }

@@ -15,7 +15,7 @@
 
     <div class="tmiCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3" id="tmiWelcome" ng-hide="showing">
         <div>
-            <h3>What is TMI?</h3>
+            <h3>What is this place?</h3>
         </div>
         <div>
             <img src="http://placehold.it/128">
@@ -23,7 +23,7 @@
         <div>
             <p>
                 This is my TMI page. You can use it to learn more about me.
-                Get started by checking out My Resume, or learning 10 Random Things about me.
+                Get started by checking out <span class="tmiInnerContentLinks" ng-click="show('resume')">My Resume</span>, or learning <span class="tmiInnerContentLinks" ng-click="show('10Things')">10 Random Things about me</span>.
             </p>
         </div>
     </div>
@@ -52,7 +52,7 @@
                 <p> The following is a list of 10 very random things about me. Enjoy!</p>
             </div>
             <div>
-                <button class="btn btn-warning" ng-click="setTMIto1()">Begin</button>
+                <button class="btn btn-warning" ng-click="setTMIto1()">Launch</button>
             </div>
         </div>
         <div ng-show="currentTMI == '1'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
