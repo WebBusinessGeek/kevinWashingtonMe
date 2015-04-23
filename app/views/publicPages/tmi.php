@@ -5,13 +5,12 @@
     </div>
 
     <div class="row text-center" id="tmiNavList">
-        <div class="col-sm-3 col-md-3 col-lg-3"><a ng-click="show('resume')"><img src="http://placehold.it/125">resume</a></div>
+        <div class="col-sm-4 col-md-4 col-lg-4"><a ng-click="show('resume')"><img src="http://placehold.it/125">resume</a></div>
 
-        <div class="col-sm-3 col-md-3 col-lg-3"><a ng-click="show('10Things')"><img src="http://placehold.it/125">10things</a></div>
+        <div class="col-sm-4 col-md-4 col-lg-4"><a ng-click="show('10Things')"><img src="http://placehold.it/125">10things</a></div>
 
-        <div class="col-sm-3 col-md-3 col-lg-3"><a ng-click="show('skills')"><img src="http://placehold.it/125">skills</a></div>
+        <div class="col-sm-4 col-md-4 col-lg-4"><a ng-click="show('skills')"><img src="http://placehold.it/125">skills</a></div>
 
-        <div class="col-sm-3 col-md-3 col-lg-3"><a ng-click="show('visualWorkHistory')"><img src="http://placehold.it/125">visual</a></div>
     </div>
 
 
@@ -52,7 +51,7 @@
             <div>
                 <p>
                     I put this first because my relationship with God has a enormous influence on my character.
-                    This makes me attribute high value to qualities such as honesty, integrity, and selflessness and those that possess them.
+                    This makes me value qualities such as honesty, integrity, and selflessness and those that possess them.
                 </p>
             </div>
 
@@ -179,7 +178,7 @@
             <div>
                 <p>
                     I was that kid who always clung to the side of the pool and NEVER ventured out further than arms reach of it.
-                    Now I've become the adult who stays out the pool and sometimes throws people in. Sad.
+                    Now I'm an adult who stays out the pool and sometimes pushes people in. Sad.
                 </p>
             </div>
 
@@ -237,7 +236,6 @@
                 <p>
                     I really find excitement in my daily blend of customer acquisition, business, and web development activities.
                     I love the consistent learning, collaboration, and experiences I gain as I pursue mastery.
-                    I say 'pursue' because as the web grows I don't see certain skills remaining contemporary for long. And I honestly wouldn't have it any other way.
                 </p>
             </div>
 
@@ -263,9 +261,4 @@
         </div>
     </div>
 
-    <div id="tmiVisualWorkHistory" ng-show="showing == 'visualWorkHistory'">
-        <div>
-            <p>Visual work history section</p>
-        </div>
-    </div>
 </div>
