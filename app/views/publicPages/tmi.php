@@ -10,13 +10,19 @@
         <div class="col-sm-4 col-md-4 col-lg-4"><a ng-click="show('10Things')"><img src="http://placehold.it/125">10things</a></div>
 
         <div class="col-sm-4 col-md-4 col-lg-4"><a ng-click="show('skills')"><img src="http://placehold.it/125">skills</a></div>
-
     </div>
 
 
     <div id="tmiResume" ng-show="showing == 'resume'">
         <div>
-            <p>Resume section</p>
+            <h3>Resume</h3>
+        </div>
+        <div>
+            <img class="img-responsive center-block" src="http://placehold.it/128">
+        </div>
+        <div>
+            <p>The link below will take you to my resume.</p>
+            <a href="/resume" target="_blank">My Resume</a>
         </div>
     </div>
 
@@ -247,16 +253,16 @@
     </div>
 
     <div id="tmiSkills" class="text-center" ng-show="showing == 'skills'">
-        <div class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h4>Wanna review my skills?</h4>
+                <h3>Wanna review my skills?</h3>
             </div>
             <div>
                 <img class="img-responsive center-block" src="http://placehold.it/128">
             </div>
             <div>
                 <p>I developed an interactive page that can help you quickly determine if I have the skills you are looking for.</p>
-                <a href="/skills">Here it is</a>
+                <a href="/skills" target="_blank">Here it is</a>
             </div>
         </div>
     </div>
