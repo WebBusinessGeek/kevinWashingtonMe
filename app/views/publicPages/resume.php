@@ -225,7 +225,7 @@
                 <div>
                     <h5>Project Manager</h5>
                     <h6>K. Conliffe, Private Investor</h6>
-                    <h6>April 2009 - January 2013 (3 years & 8 months)</h6>
+                    <h6>*April 2009 - January 2013 (3 years & 8 months)</h6>
                 </div>
                 <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
                     <a ng-hide="moreShowing == true">More</a>
