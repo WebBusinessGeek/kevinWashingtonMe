@@ -1,6 +1,4 @@
-#tmiResume, #tmiSkills, #tmiVisualWorkHistory {
-    background: #fff;
-}
+
 
 
 
@@ -18,4 +16,8 @@
 
 .tmiImageLinks > a {
     text-decoration: none;
+}
+
+.tmiCard {
+    background: red;
 }

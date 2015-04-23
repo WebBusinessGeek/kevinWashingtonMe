@@ -6,7 +6,7 @@ angular.module('app')
     {
         $scope.$parent.currentUrl = 'tmi';
 
-        $scope.showing = '10Things';
+        $scope.showing = '';
 
         $scope.show = function(target)
         {

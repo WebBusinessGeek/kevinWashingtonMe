@@ -30,8 +30,8 @@
           <file leaf-file-name="tmi.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/tmi.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.41167665" vertical-offset="0" max-vertical-offset="6875">
-                  <caret line="11" column="131" selection-start-line="11" selection-start-column="131" selection-end-line="11" selection-end-column="131" />
+                <state vertical-scroll-proportion="0.74850297" vertical-offset="0" max-vertical-offset="7125">
+                  <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -44,8 +44,8 @@
           <file leaf-file-name="customTMI.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customTMI.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6232687" vertical-offset="0" max-vertical-offset="722">
-                  <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="722">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -644,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/tmi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38088644" vertical-offset="0" max-vertical-offset="1025">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/resume.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.58448756" vertical-offset="353" max-vertical-offset="1100">
@@ -692,18 +685,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/tmi.php">
+    <entry file="file://$PROJECT_DIR$/public/app/tmi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41167665" vertical-offset="0" max-vertical-offset="6875">
-          <caret line="11" column="131" selection-start-line="11" selection-start-column="131" selection-end-line="11" selection-end-column="131" />
-          <folding />
+        <state vertical-scroll-proportion="0.55401665" vertical-offset="0" max-vertical-offset="1025">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1429832104000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1429832104000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429832104000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429832104000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429832104000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429832104000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429832104000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customTMI.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6232687" vertical-offset="0" max-vertical-offset="722">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="722">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/tmi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74850297" vertical-offset="0" max-vertical-offset="7125">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding />
         </state>
       </provider>

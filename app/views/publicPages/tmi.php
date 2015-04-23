@@ -1,7 +1,7 @@
 
 <div class="text-center" ng-controller="tmiController">
     <div id="tmiHeadline">
-        <h1>Some additional information</h1>
+        <h1>Welcome to my TMI page.</h1>
     </div>
 
     <div class="row text-center" id="tmiNavList">
@@ -13,7 +13,21 @@
     </div>
 
 
-    <div id="tmiResume" ng-show="showing == 'resume'">
+    <div class="tmiCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3" id="tmiWelcome" ng-hide="showing">
+        <div>
+            <h3>What is TMI?</h3>
+        </div>
+        <div>
+            <img src="http://placehold.it/128">
+        </div>
+        <div>
+            <p>
+                This is my TMI page. You can use it to learn more about me.
+                Get started by checking out My Resume, or learning 10 Random Things about me.
+            </p>
+        </div>
+    </div>
+    <div class="tmiCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3" id="tmiResume" ng-show="showing == 'resume'">
         <div>
             <h3>Resume</h3>
         </div>
@@ -27,23 +41,19 @@
     </div>
 
     <div id="tmi10Things" class="text-center row" ng-show="showing == '10Things'">
-        <div ng-show="currentTMI == '0'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+        <div ng-show="currentTMI == '0'" class="tmiCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
                 <h3>10 Random Things</h3>
             </div>
-
             <div>
                 <img class="center-block" src="http://placehold.it/128">
             </div>
-
             <div>
                 <p> The following is a list of 10 very random things about me. Enjoy!</p>
             </div>
-
             <div>
                 <button class="btn btn-warning" ng-click="setTMIto1()">Begin</button>
             </div>
-
         </div>
         <div ng-show="currentTMI == '1'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
@@ -253,7 +263,7 @@
     </div>
 
     <div id="tmiSkills" class="text-center" ng-show="showing == 'skills'">
-        <div class="col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+        <div class="tmiCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
                 <h3>Wanna review my skills?</h3>
             </div>
