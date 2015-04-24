@@ -38,7 +38,7 @@
     padding-top: 20px;
 }
 
-@media(max-width:767px)
+@media(max-width:990px)
 {
     .tmi10ThingsCard, #tmi10ThingsCard10 {
         height: 450px;
