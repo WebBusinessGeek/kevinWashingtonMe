@@ -306,7 +306,7 @@
                 <img class="center-block" src="http://placehold.it/128">
             </div>
             <div>
-                <p> How about taking a look at <span class="tmiInnerContentLinks" ng-click="show('resume')">My Resume</span> or reviewing <span class="tmiInnerContentLinks" ng-click="show('skills')">My Skills</span>. </p>
+                <p> How about taking a look at <span class="tmiInnerContentLinks" ng-click="show('resume')">My Resume</span> <span class="hidden767">or reviewing <span class="tmiInnerContentLinks" ng-click="show('skills')">My Skills</span></span>. </p>
             </div>
 
         </div>
