@@ -81,3 +81,17 @@
     background: #fff;
     border: 1px #dadada solid;
 }
+
+
+@media(max-width: 991px)
+{
+    #resumeInfoContainer{
+        min-height: 2350px;
+    }
+    #resumeCustAcq {
+        border-bottom: solid 1px #dadada;
+        border-right: none;
+        padding-bottom: 50px;
+    }
+
+}

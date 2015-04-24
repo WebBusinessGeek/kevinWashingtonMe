@@ -142,7 +142,7 @@
                     <h6>KarmaCRM</h6>
                     <h6>August 15, 2013 - December 1, 2014 (1 year & 5 months)</h6>
                 </div>
-                <div ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
+                <div class="hidden767" ng-mouseEnter="showMore()" ng-mouseLeave="hideMore()">
                     <a ng-hide="moreShowing == true">More</a>
                     <div class="row" ng-hide="moreShowing == false">
                         <div class="moreWorkHistoryInfo">
