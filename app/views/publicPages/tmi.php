@@ -29,13 +29,13 @@
     </div>
     <div class="tmiCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3" id="tmiResume" ng-show="showing == 'resume'">
         <div>
-            <h3>Resume</h3>
+            <h3>Check out My Resume</h3>
         </div>
         <div>
             <img class="img-responsive center-block" src="http://placehold.it/128">
         </div>
         <div>
-            <p>The link below will take you to my resume.</p>
+            <p>The link below will take you to it.</p>
             <a href="/resume" target="_blank">My Resume</a>
         </div>
     </div>
