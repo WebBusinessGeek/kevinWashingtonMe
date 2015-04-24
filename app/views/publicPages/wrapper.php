@@ -10,6 +10,7 @@
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap-theme.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/innerPageStyling.css" rel="stylesheet">
+    <link href="/angular-bootstrap/bootstrap-twit/css/customConnect.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customSkill.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customService.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customKarmaStats.css" rel="stylesheet">

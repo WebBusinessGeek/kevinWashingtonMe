@@ -4,7 +4,7 @@ angular.module('app')
     {
         $scope.$parent.currentUrl = 'connect';
 
-        $scope.showing = 'email';
+        $scope.showing = 'voiceMail';
 
         $scope.show = function(item)
         {
