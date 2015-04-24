@@ -1,7 +1,7 @@
 
 <div class="text-center" ng-controller="tmiController">
-    <div id="tmiHeadline" class="hidden767">
-        <h1>Welcome to my TMI page.</h1>
+    <div id="tmiHeadline">
+        <h1 class="pageTitle">Welcome to my TMI page.</h1>
     </div>
 
     <div class="row text-center" id="tmiNavList">
@@ -23,7 +23,7 @@
         <div>
             <p>
                 This is my TMI page. You can use it to learn more about me.
-                Get started by checking out <span class="tmiInnerContentLinks" ng-click="show('resume')">My Resume</span>, or learning <span class="tmiInnerContentLinks" ng-click="show('10Things')">10 Random Things</span> about me.
+                Get started by checking out <span class="tmiInnerContentLinks" ng-click="show('resume')">My Resume</span>, or learning <span class="tmiInnerContentLinks" ng-click="show('10Things')">10 Random Things</span> I don't mind sharing about myself.
             </p>
         </div>
     </div>
