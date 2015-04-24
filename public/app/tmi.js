@@ -32,5 +32,10 @@ angular.module('app')
         $scope.prevTMI = function()
         {
             $scope.currentTMI--;
+        };
+
+        $scope.end10Things = function()
+        {
+            $scope.currentTMI = 'done';
         }
     }]);

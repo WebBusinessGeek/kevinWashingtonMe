@@ -52,7 +52,7 @@
                 <p> The following is a list of 10 very random things about me. Enjoy!</p>
             </div>
             <div>
-                <button class="btn btn-warning" ng-click="setTMIto1()">Launch</button>
+                <button class="btn btn-success" ng-click="setTMIto1()">Launch</button>
             </div>
         </div>
         <div ng-show="currentTMI == '1'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
@@ -72,7 +72,9 @@
             </div>
 
             <div>
-                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+                <div class="col-lg-offset-6 col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollRight">
+                    <a ng-click="nextTMI()">Next<span class="glyphicon glyphicon-chevron-right" ></span></a>
+                </div>
             </div>
 
         </div>
@@ -94,8 +96,12 @@
             </div>
 
             <div>
-                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
-                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollLeft">
+                    <a ng-click="prevTMI()"><span class="glyphicon glyphicon-chevron-left" ></span>Prev</a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollRight">
+                    <a ng-click="nextTMI()">Next<span class="glyphicon glyphicon-chevron-right" ></span></a>
+                </div>
             </div>
         </div>
         <div ng-show="currentTMI == '3'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
@@ -116,8 +122,12 @@
             </div>
 
             <div>
-                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
-                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollLeft">
+                    <a ng-click="prevTMI()"><span class="glyphicon glyphicon-chevron-left" ></span>Prev</a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollRight">
+                    <a ng-click="nextTMI()">Next<span class="glyphicon glyphicon-chevron-right" ></span></a>
+                </div>
             </div>
         </div>
         <div ng-show="currentTMI == '4'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
@@ -137,8 +147,12 @@
             </div>
 
             <div>
-                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
-                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollLeft">
+                    <a ng-click="prevTMI()"><span class="glyphicon glyphicon-chevron-left" ></span>Prev</a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollRight">
+                    <a ng-click="nextTMI()">Next<span class="glyphicon glyphicon-chevron-right" ></span></a>
+                </div>
             </div>
         </div>
         <div ng-show="currentTMI == '5'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
@@ -157,8 +171,12 @@
             </div>
 
             <div>
-                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
-                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollLeft">
+                    <a ng-click="prevTMI()"><span class="glyphicon glyphicon-chevron-left" ></span>Prev</a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollRight">
+                    <a ng-click="nextTMI()">Next<span class="glyphicon glyphicon-chevron-right" ></span></a>
+                </div>
             </div>
         </div>
         <div ng-show="currentTMI == '6'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
@@ -179,8 +197,12 @@
             </div>
 
             <div>
-                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
-                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollLeft">
+                    <a ng-click="prevTMI()"><span class="glyphicon glyphicon-chevron-left" ></span>Prev</a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollRight">
+                    <a ng-click="nextTMI()">Next<span class="glyphicon glyphicon-chevron-right" ></span></a>
+                </div>
             </div>
         </div>
         <div ng-show="currentTMI == '7'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
@@ -199,8 +221,12 @@
             </div>
 
             <div>
-                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
-                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollLeft">
+                    <a ng-click="prevTMI()"><span class="glyphicon glyphicon-chevron-left" ></span>Prev</a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollRight">
+                    <a ng-click="nextTMI()">Next<span class="glyphicon glyphicon-chevron-right" ></span></a>
+                </div>
             </div>
         </div>
         <div ng-show="currentTMI == '8'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
@@ -217,8 +243,12 @@
             </div>
 
             <div>
-                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
-                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollLeft">
+                    <a ng-click="prevTMI()"><span class="glyphicon glyphicon-chevron-left" ></span>Prev</a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollRight">
+                    <a ng-click="nextTMI()">Next<span class="glyphicon glyphicon-chevron-right" ></span></a>
+                </div>
             </div>
         </div>
         <div ng-show="currentTMI == '9'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
@@ -235,8 +265,12 @@
             </div>
 
             <div>
-                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
-                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollLeft">
+                    <a ng-click="prevTMI()"><span class="glyphicon glyphicon-chevron-left" ></span>Prev</a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollRight">
+                    <a ng-click="nextTMI()">Next<span class="glyphicon glyphicon-chevron-right" ></span></a>
+                </div>
             </div>
         </div>
         <div id="tmi10ThingsCard10" ng-show="currentTMI == '10'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
@@ -256,9 +290,25 @@
             </div>
 
             <div>
-                <button class="btn btn-warning" ng-click="prevTMI()">Prev</button>
-                <button class="btn btn-warning" ng-click="nextTMI()">Next</button>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollLeft">
+                    <a ng-click="prevTMI()"><span class="glyphicon glyphicon-chevron-left" ></span>Prev</a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 10ThingsScroll 10ThingsScrollRight">
+                    <button class="btn btn-danger" ng-click="end10Things()">Done</button>
+                </div>
             </div>
+        </div>
+        <div ng-show="currentTMI == 'done'" class="tmiCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+            <div>
+                <h3>Ok, that's enough personal stuff.</h3>
+            </div>
+            <div>
+                <img class="center-block" src="http://placehold.it/128">
+            </div>
+            <div>
+                <p> How about taking a look at <span class="tmiInnerContentLinks" ng-click="show('resume')">My Resume</span> or reviewing <span class="tmiInnerContentLinks" ng-click="show('skills')">My Skills</span>. </p>
+            </div>
+
         </div>
     </div>
 

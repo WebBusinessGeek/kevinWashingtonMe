@@ -124,8 +124,7 @@
                 <img src="http://placehold.it/64">
                 <h4>Relevant Work Experience</h4>
             </div>
-          <!--  <button class="btn btn-warning" ng-click="workHistoryPrev()">Prev</button>
-            <button class="btn btn-warning" ng-click="workHistoryNext()">Prev</button>-->
+
             <div id="workHistoryScrollSection" class="row">
                 <div class="col-sm-6 col-md-6 col-lg-6" id="workHistoryScrollLeft">
                     <a  ng-click="workHistoryPrev()"><span class="glyphicon glyphicon-chevron-left" ></span>Prev</a>
