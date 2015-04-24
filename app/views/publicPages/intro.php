@@ -13,7 +13,7 @@
                 <p class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2">I not only help businesses create innovative products and grow their customer base - i enjoy it.</p>
 
                 <p class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2">
-                    Im a self taught web developer with working experience in core development technologies like PHP, Javascript, HTML, CSS, and SQL.
+                    Im a web developer with experience in core development technologies like PHP, Javascript, HTML, CSS, and SQL.
                     I have also worked extensively with these technologies in well known frameworks like Angular, Laravel, and Twitter Bootstrap.
                 </p>
 
@@ -21,12 +21,12 @@
                     In addition to web development I have a great deal of tacit experience in customer acquisition.
                 </p>
                 <p class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2">
-                    I understand the processes involved in architecting, building, and optimizing effective acquisition channels
-                    and have experience funneling prospects and targets into these channels using a combination of traction mediums.
+                    I understand the processes involved in architecting, building, and optimizing effective acquisition channels.
+                    I also have experience funneling targets into these channels using a combination of traction mediums.
                 </p>
                 <p class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2">
-                    These mediums include well known methods like SEO, Content Marketing, and Paid Advertising -
-                    and innovative opportunities like Direct Communication Marketing, and Custom Web Applications.
+                    These mediums often include well known methods like SEO, Social, and Paid Advertising.
+                    However I don't neglect unique opportunities like Direct Communication Marketing, and Custom Web Applications.
                 </p>
 
                 <p class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2">
