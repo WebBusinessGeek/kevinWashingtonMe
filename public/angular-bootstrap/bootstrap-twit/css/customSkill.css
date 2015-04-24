@@ -250,3 +250,10 @@
     #directorySearch {min-height: 350px;}
 }
 
+
+@media (max-width: 1199px)
+{
+    .hidden1199 {
+        display: none;
+    }
+}

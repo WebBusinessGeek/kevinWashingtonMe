@@ -12,8 +12,8 @@
 
     <div ng-show="!loading">
 
-        <h1 class="text-center header">Choose 1 of 3 ways to review my skills below.</h1><br/>
-        <h4 class="text-center subheader"> Search for specific skills in the <b class="bolder">Skill Finder</b>, click around in the <b class="bolder">Skill Directory</b>, or choose a category from the <b class="bolder">Skill Slider</b>. </h4>
+        <h1 class="hidden1199 text-center header">Choose 1 of 3 ways to review my skills below.</h1><br/>
+        <h4 class="hidden1199 text-center subheader"> Search for specific skills in the <b class="bolder">Skill Finder</b>, click around in the <b class="bolder">Skill Directory</b>, or choose a category from the <b class="bolder">Skill Slider</b>. </h4>
         <br/>
 
 
@@ -21,7 +21,7 @@
         <img ng-if="!supercategorySetTo" id="moduleHelper2" class="moduleHelpers" src="/assets/moduleHelper2.png">
         <img ng-if="!categorySetTo && !textQuery" id="moduleHelper3" class="moduleHelpers" src="/assets/moduleHelper3.png">
 
-        <div id="textSearchAndDirectorySearchGroup" class="row text-center">
+        <div id="textSearchAndDirectorySearchGroup" class="hidden1199 row text-center">
 
             <div class="col-lg-1">
 
@@ -45,7 +45,7 @@
             ******************************************End TEXT SEARCH MODULE SECTION********************************************
             -->
 
-            <div class="col-sm-12 col-md-1 col-lg-2">
+            <div class="hidden1199 col-sm-12 col-md-1 col-lg-2">
 
             </div>
             <!--
