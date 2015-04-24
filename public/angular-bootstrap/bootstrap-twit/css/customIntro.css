@@ -16,9 +16,15 @@
 
 #introContentSig {
     padding-top: 10px;
+    margin-top: 25px;
 }
 
 .arvo{
     font-family: 'Arvo', serif;
     font-size: 20px;
+}
+
+.handWriting {
+    font-family: 'sacramento', cursive;
+    font-size: 48px;
 }

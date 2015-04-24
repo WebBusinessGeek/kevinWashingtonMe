@@ -26,7 +26,7 @@
                 </p>
                 <p class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2">
                     These mediums often include well known methods like SEO, Social, and Paid Advertising.
-                    However I don't neglect unique opportunities like Direct Communication Marketing, and Custom Web Applications.
+                    However I don't neglect unique opportunities like Direct Interactions and Custom Web Applications.
                 </p>
 
                 <p class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2">
@@ -38,7 +38,7 @@
             </div>
             <div id="introContentSig">
                 <p class="arvo">
-                    Kevin Washington <br/>
+                    <span class="handWriting">Kevin Washington</span> <br/>
                     Product Craftsman & Customer Acquisition Artisan
                 </p>
             </div>
