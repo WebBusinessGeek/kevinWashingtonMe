@@ -281,6 +281,25 @@
 {
     .carousel-inner > div > div  {
         margin-left: 0px;
+    }
 
+    .skillIndexItem {
+        height: 400px;
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 703px)
+{
+   
+    .skillIndexItem {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 587px)
+{
+    .skillIndexItem {
+        margin-left: 20px;
     }
 }
