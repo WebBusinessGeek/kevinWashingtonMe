@@ -25,9 +25,11 @@
 
 .tmiInnerContentLinks {
     font-family: 'arvo', serif;
+    text-decoration: underline;
 }
 
 .tmiInnerContentLinks:hover {
     cursor: pointer;
+    color: #dadada;
 }
 
