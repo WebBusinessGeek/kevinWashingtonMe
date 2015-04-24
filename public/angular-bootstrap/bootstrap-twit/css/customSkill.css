@@ -263,4 +263,8 @@
     .show1199 {
         display: block;
     }
+
+    #carouselModule {
+        margin-top: -80px;
+    }
 }
