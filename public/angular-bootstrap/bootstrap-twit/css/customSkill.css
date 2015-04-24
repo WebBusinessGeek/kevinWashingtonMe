@@ -233,6 +233,10 @@
     color: #dadada;
 }
 
+.show1199 {
+    display: none;
+}
+
 @media screen and (max-width: 1400px)
 {
     .moduleHelpers {
@@ -255,5 +259,8 @@
 {
     .hidden1199 {
         display: none;
+    }
+    .show1199 {
+        display: block;
     }
 }
