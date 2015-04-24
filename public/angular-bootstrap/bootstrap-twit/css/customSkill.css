@@ -254,7 +254,7 @@
     #directorySearch {min-height: 350px;}
 }
 
-
+/*slider needs styling to center images*/
 @media (max-width: 1199px)
 {
     .hidden1199 {
@@ -266,5 +266,20 @@
 
     #carouselModule {
         margin-top: -80px;
+    }
+
+
+    .carousel-inner > div > div  {
+        margin-left: 25%;
+
+    }
+}
+
+/*When slider doesnt need any additional styling*/
+@media (max-width:991px)
+{
+    .carousel-inner > div > div  {
+        margin-left: 0px;
+
     }
 }
