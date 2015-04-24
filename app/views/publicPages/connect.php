@@ -14,7 +14,7 @@
 
                 <div class="hidden767 imageContainer img-responsive col-sm-3 col-md-3 col-lg-3" ng-class="{'activeImage': showing == 'skype' }"><a ng-click="show('skype')"><img class="contactImage" src="/assets/connectIcons/KWICONskype.png"></a></div>
 
-                <div class="imageContainer img-responsive col-sm-3 col-md-3 col-lg-3" ng-class="{'activeImage': showing == 'voiceMail' }"><a ng-click="show('voiceMail')"><img class="contactImage" src="/assets/connectIcons/KWICONphone.png"></a></div>
+                <div class="hidden767 imageContainer img-responsive col-sm-3 col-md-3 col-lg-3" ng-class="{'activeImage': showing == 'voiceMail' }"><a ng-click="show('voiceMail')"><img class="contactImage" src="/assets/connectIcons/KWICONphone.png"></a></div>
 
         </div>
 
