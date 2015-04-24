@@ -23,7 +23,7 @@
         <div>
             <p>
                 This is my TMI page. You can use it to learn more about me.
-                Get started by checking out <span class="tmiInnerContentLinks" ng-click="show('resume')">My Resume</span>, or learning <span class="tmiInnerContentLinks" ng-click="show('10Things')">10 Random Things about me</span>.
+                Get started by checking out <span class="tmiInnerContentLinks" ng-click="show('resume')">My Resume</span>, or learning <span class="tmiInnerContentLinks" ng-click="show('10Things')">10 Random Things</span> about me.
             </p>
         </div>
     </div>
@@ -163,7 +163,7 @@
         </div>
         <div ng-show="currentTMI == '6'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h3>#6 I'm currently Addicted to Learning</h3>
+                <h3>#6 I'm enjoy Learning</h3>
             </div>
 
             <div>
