@@ -86,7 +86,7 @@
 @media(max-width: 991px)
 {
     #resumeInfoContainer{
-        min-height: 2350px;
+        min-height: 2360px;
     }
     #resumeCustAcq {
         border-bottom: solid 1px #dadada;
