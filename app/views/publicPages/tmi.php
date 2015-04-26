@@ -5,20 +5,20 @@
     </div>
 
     <div class="row text-center" id="tmiNavList">
-        <div class="hidden767 tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('resume')"><img src="http://placehold.it/64"><br/>My Resume</a></div>
+        <div class="hidden767 tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('resume')"><img src="/assets/tmiIcons/resumeSmall.png"><br/>My Resume</a></div>
 
-        <div class="hidden767 tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('10Things')"><img src="http://placehold.it/64"><br/>10 Random Things</a></div>
+        <div class="hidden767 tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('10Things')"><img src="/assets/tmiIcons/10ThingsSmall.png"><br/>10 Random Things</a></div>
 
-        <div class="hidden767 tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('skills')"><img src="http://placehold.it/64"><br/>My Skills</a></div>
+        <div class="hidden767 tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('skills')"><img src="/assets/tmiIcons/skillsSmall.png"><br/>My Skills</a></div>
     </div>
 
 
     <div class="tmiCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3" id="tmiWelcome" ng-hide="showing">
         <div>
-            <h3>What is this place?</h3>
+            <h3>Come on in!</h3>
         </div>
         <div>
-            <img src="http://placehold.it/128">
+            <img src="/assets/tmiIcons/tmiMain.png">
         </div>
         <div>
             <p>
@@ -32,7 +32,7 @@
             <h3>Check out My Resume</h3>
         </div>
         <div>
-            <img class="img-responsive center-block" src="http://placehold.it/128">
+            <img class="center-block" src="/assets/tmiIcons/resumeLarge.png">
         </div>
         <div>
             <p>The link below will take you to it.</p>
@@ -46,7 +46,7 @@
                 <h3>10 Random Things</h3>
             </div>
             <div>
-                <img class="center-block" src="http://placehold.it/128">
+                <img class="center-block" src="/assets/tmiIcons/10ThingsLarge.png">
             </div>
             <div>
                 <p> The following is a list of 10 very random things about me. Enjoy!</p>
@@ -61,7 +61,7 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/128">
+                <img class="center-block" src="/assets/tmiIcons/10ThingsIcon1.png">
             </div>
 
             <div>
@@ -84,7 +84,7 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/128">
+                <img class="center-block" src="/assets/tmiIcons/10ThingsIcon2.png">
             </div>
 
             <div>
@@ -110,7 +110,7 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/128">
+                <img class="center-block" src="/assets/tmiIcons/10ThingsIcon3.png">
             </div>
 
             <div>
@@ -136,7 +136,7 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/128">
+                <img class="center-block" src="/assets/tmiIcons/10ThingsIcon4.png">
             </div>
 
             <div>
@@ -161,7 +161,7 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/128">
+                <img class="center-block" src="/assets/tmiIcons/10ThingsIcon5.png">
             </div>
 
             <div>
@@ -185,7 +185,7 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/128">
+                <img class="center-block" src="/assets/tmiIcons/10ThingsIcon6.png">
             </div>
 
             <div>
@@ -211,7 +211,7 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/128">
+                <img class="center-block" src="/assets/tmiIcons/10ThingsIcon7.png">
             </div>
             <div>
                 <p>
@@ -235,7 +235,7 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/128">
+                <img class="center-block" src="/assets/tmiIcons/10ThingsIcon8.png">
             </div>
 
             <div>
@@ -257,7 +257,7 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/128">
+                <img class="center-block" src="/assets/tmiIcons/10ThingsIcon9.png">
             </div>
             <div>
                 <p>This trait pays off when optimizing business processes.
@@ -279,7 +279,7 @@
             </div>
 
             <div>
-                <img class="center-block" src="http://placehold.it/128">
+                <img class="center-block" src="/assets/tmiIcons/10ThingsIcon10.png">
             </div>
 
             <div>
@@ -303,7 +303,7 @@
                 <h3>Ok, that's enough personal stuff.</h3>
             </div>
             <div>
-                <img class="center-block" src="http://placehold.it/128">
+                <img class="center-block" src="/assets/tmiIcons/10ThingsDone.png">
             </div>
             <div>
                 <p> How about taking a look at <span class="tmiInnerContentLinks" ng-click="show('resume')">My Resume</span> <span class="hidden767">or reviewing <span class="tmiInnerContentLinks" ng-click="show('skills')">My Skills</span></span>. </p>
@@ -318,7 +318,7 @@
                 <h3>Wanna review my skills?</h3>
             </div>
             <div>
-                <img class="img-responsive center-block" src="http://placehold.it/128">
+                <img class="center-block" src="/assets/tmiIcons/skillsLarge.png">
             </div>
             <div>
                 <p>I developed an interactive page that can help you quickly determine if I have the skills you are looking for.</p>
