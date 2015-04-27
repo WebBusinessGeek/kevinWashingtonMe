@@ -77,7 +77,7 @@
                     <p>3. Engage by Adding Value</p>
                     <p>4. Demonstrate Benefits not Features</p>
                     <p>5. Ask for the sale</p>
-                    <p>6. Don't forget to ask again</p>
+                    <p>6. Ask for the sale again</p>
                 </div>
 
             </div>
