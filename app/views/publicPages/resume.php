@@ -46,13 +46,13 @@
     <div id="resumeInfoContainer" class="col-lg-8 col-md-8">
         <div id="resumeCustAcq" class="col-lg-6 col-md-6">
             <div>
-                <img src="http://placehold.it/64">
+                <img src="/assets/resumeTestImages/custAcqMain.png">
                 <h4>Customer Acquisition</h4>
             </div>
 
             <div class="groupings">
                 <div class="custAcqGroup">
-                    <img src="http://placehold.it/48">
+                    <img src="/assets/resumeTestImages/custAcqSpecialties.png">
                     <h5>Specialties</h5>
                     <p>Developing & Optimizing Acquisition Channels</p>
                     <p>Gaining Insights Through Data</p>
@@ -61,7 +61,7 @@
                     <p>Growth</p>
                 </div>
                 <div class="custAcqGroup">
-                    <img src="http://placehold.it/48">
+                    <img src="/assets/resumeTestImages/custAcqEngage.png">
                     <h5>Engagement Methods</h5>
                     <p>SEO</p>
                     <p>Social</p>
@@ -70,7 +70,7 @@
                     <p>Email</p>
                 </div>
                 <div class="custAcqGroup">
-                    <img src="http://placehold.it/48">
+                    <img src="/assets/resumeTestImages/custAcqProcess.png">
                     <h5>My Acquisition Process</h5>
                     <p>1. Understand the Product & the User</p>
                     <p>2. Develop Channels unique to the Medium and Audience Segment</p>
@@ -84,12 +84,12 @@
         </div>
         <div id="resumeWebDev" class="col-lg-6 col-md-6">
             <div>
-                <img src="http://placehold.it/64">
+                <img src="/assets/resumeTestImages/webDevMain.png">
                 <h4>Web Development</h4>
 
                 <div class="groupings">
                     <div class="webDevGroup">
-                        <img src="http://placehold.it/48">
+                        <img src="/assets/resumeTestImages/webDevCore.png">
                         <h5>Core Technologies</h5>
                         <p>PHP</p>
                         <p>Javascript</p>
@@ -98,7 +98,7 @@
                         <p>SQL</p>
                     </div>
                     <div class="webDevGroup">
-                        <img src="http://placehold.it/48">
+                        <img src="/assets/resumeTestImages/webDevFrameworks.png">
                         <h5>Frameworks</h5>
                         <p>Laravel 4.*</p>
                         <p>AngularJS 1.*</p>
@@ -107,7 +107,7 @@
                         <p>PHPUnit</p>
                     </div>
                     <div id="devMantra" class="webDevGroup">
-                        <img src="http://placehold.it/48">
+                        <img src="/assets/resumeTestImages/webDevMantra.png">
                         <h5>My Development Mantra</h5>
                         <p>*Design for Usability*</p>
                         <p>*Architect for Change*</p>
@@ -121,7 +121,7 @@
         <div id="resumeWorkHistory" class="col-lg-12 col-md-12">
 
             <div>
-                <img src="http://placehold.it/64">
+                <img src="/assets/resumeTestImages/workExpMain.png">
                 <h4>Relevant Work Experience</h4>
             </div>
 
