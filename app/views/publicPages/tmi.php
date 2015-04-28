@@ -5,11 +5,11 @@
     </div>
 
     <div class="row text-center" id="tmiNavList">
-        <div class="hidden767 tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('resume')"><img src="/assets/tmiIcons/resumeSmall.png"><br/>My Resume</a></div>
+        <div ng-class="{currentImage: showing == 'resume' }" class="hidden767 tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('resume')"><img src="/assets/tmiIcons/resumeSmall.png"><br/>My Resume</a></div>
 
-        <div class="hidden767 tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('10Things')"><img src="/assets/tmiIcons/10ThingsSmall.png"><br/>10 Random Things</a></div>
+        <div ng-class="{currentImage: showing == '10Things' }" class="hidden767 tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('10Things')"><img src="/assets/tmiIcons/10ThingsSmall.png"><br/>10 Random Things</a></div>
 
-        <div class="hidden767 tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('skills')"><img src="/assets/tmiIcons/skillsSmall.png"><br/>My Skills</a></div>
+        <div ng-class="{currentImage: showing == 'skills' }" class="hidden767 tmiImageLinks col-sm-4 col-md-4 col-lg-4"><a ng-click="show('skills')"><img src="/assets/tmiIcons/skillsSmall.png"><br/>My Skills</a></div>
     </div>
 
 

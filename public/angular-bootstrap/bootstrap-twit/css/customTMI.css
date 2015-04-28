@@ -40,6 +40,10 @@
     padding-top: 20px;
 }
 
+.currentImage {
+    background: #dadada;
+}
+
 @media(max-width:990px)
 {
     .tmi10ThingsCard, #tmi10ThingsCard10 {
