@@ -230,7 +230,7 @@
             <div class="row">
 
                 <div class="col-md-3">
-                    <h4><span>Currently viewing</span> <a class="btn btn-primary btn-text-btn btn-lg" ng-click="clearSkill()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>{{skillSetTo.title}}</a></h4>
+                    <h4><span>Currently viewing tools related to</span> <a class="btn btn-primary btn-text-btn btn-lg" ng-click="clearSkill()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>{{skillSetTo.title}}</a></h4>
                 </div>
 
                 <!--<div id="skillArticleSection" class="col-md-6 skillArticle">
@@ -244,9 +244,9 @@
                     </div>
                 </div>-->
 
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <div class="skillShowHeading text-center">
-                        {{skillSetTo.tools.length}} tools I have used for {{skillSetTo.title}}.
+                        I have used the following {{skillSetTo.tools.length}} tools for {{skillSetTo.title}}.
                     </div>
 
                     <div id="skillToolsSection">
