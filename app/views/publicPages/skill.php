@@ -117,10 +117,10 @@
                                 <p class="propertyName">Related tools I'm familiar with: <span class="propertyValue">{{skill.tools.length}}</span></p>
                                 <a class="btn btn-primary btn-text-btn pull-right">View tools</a>
                             </div>
-                            <div class="col-md-7 col-md-offset-2">
+                            <!--<div class="col-md-7 col-md-offset-2">
                                 <p class="propertyName">Thinking out loud: <span class="propertyValue">{{skill.article | limitTo:92}}. . .</span></p>
                                 <a class="btn btn-primary btn-text-btn pull-right">View more</a>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div>
@@ -152,12 +152,12 @@
                                 <p class="propertyName">Related tools I'm familiar with: <span class="propertyValue">{{skill.tools.length}}</span></p>
                                 <a class="btn btn-primary btn-text-btn pull-right">View tools</a>
                             </div>
-                            <div class="col-md-7 col-md-offset-2">
+                            <!--<div class="col-md-7 col-md-offset-2">
                                 <div ng-if="skill.article.length > 1">
                                     <p class="propertyName">Thinking out loud: <span class="propertyValue">{{skill.article | limitTo:92}}. . .</span></p>
                                     <a class="btn btn-primary btn-text-btn pull-right">View more</a>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div>
@@ -233,7 +233,7 @@
                     <h4><span>Currently viewing</span> <a class="btn btn-primary btn-text-btn btn-lg" ng-click="clearSkill()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>{{skillSetTo.title}}</a></h4>
                 </div>
 
-                <div id="skillArticleSection" class="col-md-6 skillArticle">
+                <!--<div id="skillArticleSection" class="col-md-6 skillArticle">
 
                     <div id="skillArticle" class="text-center">
                         <h4>{{skillSetTo.title}}</h4>
@@ -242,7 +242,7 @@
                         <p ng-if='skillSetTo.article.length < 1' class="bodyText">Haven't been inspired to think out loud on {{skillSetTo.title}} yet. Please check back another time.</p>
 
                     </div>
-                </div>
+                </div>-->
 
                 <div class="col-md-3">
                     <div class="skillShowHeading text-center">
