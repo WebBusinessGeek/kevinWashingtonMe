@@ -28,8 +28,8 @@
       <file leaf-file-name="SkillToolTableSeeder.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/database/seeds/SkillToolTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.92805755" vertical-offset="2205" max-vertical-offset="3475">
-              <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.35971224" vertical-offset="0" max-vertical-offset="3425">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -42,9 +42,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1003" />
+    <option name="x" value="768" />
     <option name="y" value="22" />
-    <option name="width" value="437" />
+    <option name="width" value="1377" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -215,7 +215,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1003" y="22" width="437" height="744" extended-state="0" />
+    <frame x="768" y="22" width="1377" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -475,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63597125" vertical-offset="783" max-vertical-offset="2525">
-          <caret line="58" column="62" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/PublicPagesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7122302" vertical-offset="5205" max-vertical-offset="5975">
@@ -629,10 +622,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7194245" vertical-offset="50" max-vertical-offset="2775">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding>
+            <marker date="1430413882000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430413882000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/SkillToolTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92805755" vertical-offset="2205" max-vertical-offset="3475">
-          <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.35971224" vertical-offset="0" max-vertical-offset="3425">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
       </provider>

@@ -21,6 +21,16 @@ App::missing(function($exception)
 //route for misc testing
 Route::get('test', function()
 {
+    $multiArray= [
+        1 => [1,3,5],
+        2 => [2,4,6],
+        3 => [8,9,10],
+    ];
+
+    foreach($multiArray as $key => $value)
+    {
+        echo $key;
+    }
 });
 
 

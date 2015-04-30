@@ -12,8 +12,8 @@ class SkillToolTableSeeder extends \Illuminate\Database\Seeder {
 
     protected $skillToolKey = [
 
-        1 => [2,4,65],
-        2 => [1,2,17,13,16,66],
+        1 => [1,2,4,65],
+        2 => [1,2,5,17,13,16,66],
         3 => [1,2,3,17,36,37,38,44],
         4 => [6,7,8,58],
         5 => [6,1,2,8],
@@ -120,18 +120,16 @@ class SkillToolTableSeeder extends \Illuminate\Database\Seeder {
         106 => [4]
     ];
 
-
-    public function run()
+   public function run()
     {
         \Illuminate\Support\Facades\DB::table('skill_tool')->truncate();
 
-
-        foreach(range(1, 15) as $index)
+        foreach($this->skillToolKey as $skillID => $values)
         {
-            $skill = \App\DomainLogic\SkillDirectory\Skill::find($index);
-            foreach(range(1, 4) as $index2)
+            $skill = \App\DomainLogic\SkillDirectory\Skill::find($skillID);
+            foreach($this->skillToolKey[$skillID] as $toolID)
             {
-                $skill->tools()->attach(rand(1, 15));
+                $skill->tools()->attach($toolID);
             }
         }
 
