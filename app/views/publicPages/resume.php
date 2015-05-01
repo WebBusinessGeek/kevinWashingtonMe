@@ -87,7 +87,7 @@
                 <h4>Web Development</h4>
 
                 <div class="groupings">
-                    <div class="webDevGroup">
+                    <div id="firstWebDevGroup" class="webDevGroup">
                         <img src="/assets/resumeIcons/webDevCore.png">
                         <h5>Core Technologies</h5>
                         <p>PHP</p>

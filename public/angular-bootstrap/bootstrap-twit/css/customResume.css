@@ -58,10 +58,11 @@
 
 .custAcqGroup, .webDevGroup {
     margin-top: 40px;
+    background: #fff;
 }
 
 #devMantra {
-    min-height: 287px;
+    min-height: 255px;
 }
 
 .groupings {
@@ -82,6 +83,12 @@
     border: 1px #dadada solid;
 }
 
+@media(min-width:992px) and (max-width:1200px)
+{
+    #firstWebDevGroup {
+        min-height:255px;
+    }
+}
 
 @media(max-width: 991px)
 {
