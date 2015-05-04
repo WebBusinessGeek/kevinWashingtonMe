@@ -181,7 +181,7 @@
         </div>
         <div ng-show="currentTMI == '6'" class="tmi10ThingsCard col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
             <div>
-                <h3>#6 I'm enjoy Learning</h3>
+                <h3>#6 I enjoy Learning</h3>
             </div>
 
             <div>
