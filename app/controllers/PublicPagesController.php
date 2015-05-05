@@ -259,7 +259,7 @@ class PublicPagesController extends \BaseController {
 
 	public function viewEmploymentTOConversionContent()
 	{
-		$view = View::make('publicPages.employmentAcquisition.contentTO');
+		$view = View::make('publicPages.employmentAcquisition.conversionTO');
 		$this->layout->content = $view->render();
 	}
 

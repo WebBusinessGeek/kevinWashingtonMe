@@ -215,18 +215,18 @@
 
 
 
-    <script src="angular-bootstrap/angular.min.js"></script>
-    <script src="angular-bootstrap/angular-route.min.js"></script>
-    <script src="app/app.js"></script>
-    <script src="app/home.js"></script>
-    <script src="app/skill.js"></script>
-    <script src="app/experience.js"></script>
-    <script src="app/connect.js"></script>
-    <script src="app/services.js"></script>
-    <script src="app/skillJquery.js"></script>
-    <script src="app/intro.js"></script>
-    <script src="app/tmi.js"></script>
-    <script src="app/resume.js"></script>
+    <script src="/angular-bootstrap/angular.min.js"></script>
+    <script src="/angular-bootstrap/angular-route.min.js"></script>
+    <script src="/app/app.js"></script>
+    <script src="/app/home.js"></script>
+    <script src="/app/skill.js"></script>
+    <script src="/app/experience.js"></script>
+    <script src="/app/connect.js"></script>
+    <script src="/app/services.js"></script>
+    <script src="/app/skillJquery.js"></script>
+    <script src="/app/intro.js"></script>
+    <script src="/app/tmi.js"></script>
+    <script src="/app/resume.js"></script>
 
 
 
