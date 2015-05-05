@@ -3,8 +3,13 @@
     <div class="row text-center">
 
         <div id="introBackground" class="col-lg-12">
-            <div id="introMainImage">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/220">
+            <div id="introMainImage" ng-mouseenter="changePic()" ng-mouseleave="changePic()">
+                <div ng-show="currentPic == 'original'">
+                    <img class="img-circle img-responsive center-block" src="/assets/selfPictures/typing_color.png">
+                </div>
+                <div ng-show="currentPic == 'funny'">
+                    <img class="img-circle img-responsive center-block" src="/assets/selfPictures/thumbsUp_color.png">
+                </div>
             </div>
 
             <div id="introContent">
