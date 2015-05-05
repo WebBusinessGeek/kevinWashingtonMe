@@ -21,26 +21,8 @@ App::missing(function($exception)
 //route for misc testing
 Route::get('test', function()
 {
-    $multiArray= [
-        1 => [1,3,5],
-        2 => [2,4,6],
-        3 => [8,9,10],
-    ];
-
-    foreach($multiArray as $key => $value)
-    {
-        echo $key;
-    }
 });
 
-
-Route::get('testemail', function()
-{
-    Mail::send('emails.test', [], function($message)
-    {
-        $message->to('kevw12188@gmail.com')->subject('test email');
-    });
-});
 
 //public pages for seo site
 Route::group(array('domain' => 'seo.' . getenv('DOMAIN_NAME')), function()
@@ -56,6 +38,16 @@ Route::group(array('domain' => 'seo.' . getenv('DOMAIN_NAME')), function()
     Route::get('/thank-you', 'SeoPagesController@viewConversionConfirm');
 });
 
+//routes for employment acquisition channels
+Route::group(array('prefix' => 'recruitment'), function()
+{
+    Route::get('/engagement/11-traits-to-look-for-in-your-next-marketing-hire', 'PublicPagesController@viewEmploymentEngagementContent');
+    Route::get('/my-process', 'PublicPagesController@viewEmploymentDemonstrationContent');
+    Route::get('/connect', 'PublicPagesController@viewEmploymentConversionContent');
+    Route::get('/connect-with-me', 'PublicPagesController@viewEmploymentTOConversionContent');
+    Route::get('/thank-you', 'PublicPagesController@viewEmploymentConfirmationContent');
+
+});
 
 //public pages for main site
 Route::group(array(),function()
@@ -70,6 +62,7 @@ Route::group(array(),function()
     Route::get('/your-lost', 'PublicPagesController@view404Error');
 
 });
+
 
 
 

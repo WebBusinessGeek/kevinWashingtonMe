@@ -230,7 +230,45 @@ class PublicPagesController extends \BaseController {
 	{
 		$view = View::make('publicPages.resume');
 		$this->layout->content = $view->render();
+
 	}
+
+
+	/***********************************************************************************************************/
+	/*                                         Employment Acquisition Pages                		                    */
+	/***********************************************************************************************************/
+
+
+	public function viewEmploymentEngagementContent()
+	{
+		$view = View::make('publicPages.employmentAcquisition.engagement');
+		$this->layout->content = $view->render();
+	}
+
+	public function viewEmploymentDemonstrationContent()
+	{
+		$view = View::make('publicPages.employmentAcquisition.demonstration');
+		$this->layout->content = $view->render();
+	}
+
+	public function viewEmploymentConversionContent()
+	{
+		$view = View::make('publicPages.employmentAcquisition.conversion');
+		$this->layout->content = $view->render();
+	}
+
+	public function viewEmploymentTOConversionContent()
+	{
+		$view = View::make('publicPages.employmentAcquisition.contentTO');
+		$this->layout->content = $view->render();
+	}
+
+	public function viewEmploymentConfirmationContent()
+	{
+		$view = View::make('publicPages.employmentAcquisition.confirmation');
+		$this->layout->content = $view->render();
+	}
+
 
 }
 
