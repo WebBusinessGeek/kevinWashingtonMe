@@ -2,7 +2,7 @@
 <div class="row text-center" ng-controller="resumeController">
     <div id="resumeIntro" class="col-lg-4 col-md-4">
         <div id="resumeIntroHeader">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/200">
+            <img class="img-circle img-responsive center-block" src="/assets/selfPictures/smiling_blackWhite.png">
             <h4><span id="firstName">Kevin</span> <span id="lastName">Washington</span></h4>
             <h5>Web Developer & Customer Acquisition Specialist</h5>
         </div>
