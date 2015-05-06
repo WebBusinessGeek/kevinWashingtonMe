@@ -125,7 +125,7 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
             </div>
             <div class="contentHeading col-lg-12">
-                <h3>Experience Developing Business Objectives.</h3>
+                <h3>Able to Develop Clear Business Objectives.</h3>
             </div>
         </div>
         <div class="contentBodySection row">
