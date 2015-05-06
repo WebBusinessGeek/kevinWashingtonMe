@@ -4,7 +4,7 @@
             <h1>11 Traits to Look For in Your Next Marketing Hire.</h1>
         </div>
         <div id="articleSubTitle">
-            <p>Crafted by <a href="/intro" target="_blank">Kevin Washington</a></p>
+            <p>HandCrafted by <a href="/intro" target="_blank">Kevin Washington</a></p>
         </div>
     </div>
 
@@ -109,7 +109,7 @@
                     <h4>Don't be fooled!</h4>
                     <p>
                         Someone who has experience with optimizing processes will not only think through potential solutions, but also the problems their proposed solutions might cause.
-                        You want a team member who will suggest buying an python to fix a infestation of mice only after they have already called and priced a successful snake charmer.
+                        You want a team member who will suggest buying an python to fix a infestation of mice ONLY after they have called and priced a successful snake charmer.
                     </p>
                 </div>
             </div>
@@ -637,7 +637,7 @@
 
 
     <div id="funnelCTA">
-        <a href="/recruitment/my-process" class="btn btn-danger bottom pull-right">If you hired me I could...</a>
+        <a href="/recruitment/my-process" class="btn btn-danger bottom pull-right">What if you added me to your team?</a>
     </div>
 
 
