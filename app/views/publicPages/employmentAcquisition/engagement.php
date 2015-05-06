@@ -342,37 +342,33 @@
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
+                        Individuals with this trait are able to do two things.
+                        The first things is being able to draw insights from business data.
+                        The second is having the ability to develop actionable steps form quantified business processes.
                     </p>
                 </div>
                 <div class="articleBenefitSection">
                     <h4>Benefits to your business:</h4>
                     <p>
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
+                        The benefits a data oriented individual brings to a business includes better decision making and acute focus.
+                        Smarter decisions are made when steps are taken based on actual business performance.
+                        In addition being data informed will allow a business to keep focused on its critical needs versus arbitrary ‘gut feelings’ from those in charge.
                     </p>
                 </div>
                 <div class="articleSpotSection">
                     <h4>How to Spot it?</h4>
                     <p>
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
+                        Data oriented individuals are pretty easy to spot.
+                        They usually have a lot of experience with testing, analytic platforms, and the quantification of business processes.
+                        To draw out these individuals ask questions about how data can lead to better decision making, and how to go about drawing insights from data.
                     </p>
                 </div>
                 <div class="articleFoolSection">
                     <h4>Don't be fooled!</h4>
                     <p>
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
+                        Anyone with access to Google Analytics or Mixpanel can ‘seem’ data oriented.
+                        What you are looking for is someone who knows the why behind each segmentation or aggregation of data.
+                        This can be achieved by asking candidates how they would go about solving various problems using data available.
                     </p>
                 </div>
             </div>
@@ -399,37 +395,33 @@
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
+                        This is a trait is the ability to quantify the ROI of every action taken by a business.
                     </p>
                 </div>
                 <div class="articleBenefitSection">
                     <h4>Benefits to your business:</h4>
                     <p>
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
+                        Individuals with this trait will bring a ‘owner mentality’ to your business.
+                        When your team begins to think like owners they start prioritizing the company’s health and using it as a primary KPI when making decisions and gauging performance.
                     </p>
                 </div>
                 <div class="articleSpotSection">
                     <h4>How to Spot it?</h4>
                     <p>
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
+                        Here you are looking for a quality that is sometimes neglected in marketing conversations.
+                        Patience.
+                        Marketers who prioritize ROI will typically approach new initiatives the same way.
+                        By testing, proving assumptions, fixing inaccuracies, then scaling.
+                        Ask candidates how they would go about launching new marketing initiatives, or how they would begin marketing for your business specifically.
                     </p>
                 </div>
                 <div class="articleFoolSection">
                     <h4>Don't be fooled!</h4>
                     <p>
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
+                        Watch out for candidates (and current team members for that matter) with ‘fun with spreadsheets’ syndrome.
+                        ROI cannot be gauged accurately without running tests.
+                        Anyone who ‘believes’ they can tell you exactly how much you look to earn back from any initiative is likely not ROI focused.
+                        In actuality, this inexperienced excitement will likely burn through your investment before there is a return.
                     </p>
                 </div>
             </div>
