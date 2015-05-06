@@ -4,6 +4,10 @@
     padding-top: 40px;
 }
 
+#articleHeader{
+    margin-bottom: 60px;
+}
+
 #funnelCTA {
     position:fixed;
     bottom:10px;
@@ -14,3 +18,25 @@
     color:white;
     text-decoration: none;
 }
+
+/*
+.contentWrapper {
+    background: purple;
+}
+.contentSection {
+    background: yellow;
+}
+
+.contentHeading {
+    background: green;
+}
+
+.numberIcon {
+    background: blue;
+}
+
+.contentImg {
+    background: orange;
+}
+*/
+
