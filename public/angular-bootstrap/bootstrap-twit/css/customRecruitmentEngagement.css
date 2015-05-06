@@ -4,6 +4,10 @@
     padding-top: 40px;
 }
 
+#articleBody > div > div > div > div>  p {
+    font-size: 18px;
+}
+
 #articleHeader{
     margin-bottom: 60px;
 }
@@ -21,5 +25,9 @@
 
 .contentSectionWrapper {
     margin-bottom: 60px;
+}
+
+.articleWhatSection, .articleBenefitSection, .articleSpotSection, .articleFoolSection {
+    margin-bottom: 20px;
 }
 

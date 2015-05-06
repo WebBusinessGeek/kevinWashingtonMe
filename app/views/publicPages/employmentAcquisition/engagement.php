@@ -23,16 +23,16 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3">
-                <div>
-                    <h5>What is this trait?</h5>
+                <div class="articleWhatSection">
+                    <h4>What is this trait?</h4>
                     <p>
                         Its really two parts to this trait.
                         The first is being able to understand all the problems your product or service seeks to solve.
                         And the second is understanding the various groups likely to experience those problems.
                     </p>
                 </div>
-                <div>
-                    <h5>Benefits to your business:</h5>
+                <div class="articleBenefitSection">
+                    <h4>Benefits to your business:</h4>
                     <p>
                         The rewards of having members of your marketing team that are knowledgeable about the product and customer includes more effective lead generation.
                         Having empathetic marketers can lead to better sales copy and more appropriate acquisition strategies.
@@ -40,8 +40,8 @@
                         Having team members that can adequately answer a prospect's questions can help prevent bottlenecks during the sales process.
                     </p>
                 </div>
-                <div>
-                    <h5>How to Spot it?</h5>
+                <div class="articleSpotSection">
+                    <h4>How to Spot it?</h4>
                     <p>
                         This is fairly easy trait to spot in prospective hires.
                         One give away is if a candidate comes to the interview with a solid understanding of your business model.
@@ -50,8 +50,8 @@
                         This may be rare but is a great opportunity to bring a team member on board who can really be effective for your company.
                     </p>
                 </div>
-                <div>
-                    <h5>Don't be fooled!</h5>
+                <div class="articleFoolSection">
+                    <h4>Don't be fooled!</h4>
                     <p>
                         Nowadays, interviewees are smarter.
                         There are more resources available to help them 'ace the interview'.
@@ -79,40 +79,37 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3">
-                <div>
-                    <h5>What is this trait?</h5>
+                <div class="articleWhatSection">
+                    <h4>What is this trait?</h4>
                     <p>
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
+                        This is the ability to not only make small processes in your business work better, but also increase the effectiveness of more critical ones.
+                        This trait belongs to those individuals who often ask ‘What could be better?’.
                     </p>
                 </div>
-                <div>
-                    <h5>Benefits to your business:</h5>
+                <div class="articleBenefitSection">
+                    <h4>Benefits to your business:</h4>
                     <p>
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
+                        The benefits of having a team member like this goes past being able to optimize your current processes.
+                        Most successful process optimizers should also be able to develop entirely new processes.
+                        This means the improvement and growth of your business as internal needs are met and scaled.
                     </p>
                 </div>
-                <div>
-                    <h5>How to Spot it?</h5>
+                <div class="articleSpotSection">
+                    <h4>How to Spot it?</h4>
                     <p>
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
+                        How do you spot a process optimizer? Ask them.
+                        Give them a fictions or actual bottleneck in a process and ask them how they would fix it.
+                        You may get some good answers, you may not.
+                        What you are really looking for is the steps they took to get there.
+                        Good optimizers take time to understand what the issue is by gathering as much information as possible.
+                        If someone simply starts shooting off some innovative ideas, they may have the raw talent but might need to be groomed a bit by a veteran on your team.
                     </p>
                 </div>
-                <div>
-                    <h5>Don't be fooled!</h5>
+                <div class="articleFoolSection">
+                    <h4>Don't be fooled!</h4>
                     <p>
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
+                        Someone who has experience with optimizing processes will not only think through potential solutions, but also the problems their proposed solutions might cause.
+                        You want a team member who will suggest buying an python to fix a infestation of mice only after they have already called and priced a successful snake charmer.
                     </p>
                 </div>
             </div>
@@ -136,8 +133,8 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3">
-                <div>
-                    <h5>What is this trait?</h5>
+                <div class="articleWhatSection">
+                    <h4>What is this trait?</h4>
                     <p>
                         This is the why Content. This is the why content. This is the why content.
                         This is the why Content. This is the why content. This is the why content.
@@ -145,8 +142,8 @@
                         This is the why Content. This is the why content. This is the why content.
                     </p>
                 </div>
-                <div>
-                    <h5>Benefits to your business:</h5>
+                <div class="articleBenefitSection">
+                    <h4>Benefits to your business:</h4>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -154,8 +151,8 @@
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                     </p>
                 </div>
-                <div>
-                    <h5>How to Spot it?</h5>
+                <div class="articleSpotSection">
+                    <h4>How to Spot it?</h4>
                     <p>
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                         This is the spot it Content. This is the spot it content. This is the spot it content.
@@ -163,8 +160,8 @@
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                     </p>
                 </div>
-                <div>
-                    <h5>Don't be fooled!</h5>
+                <div class="articleFoolSection">
+                    <h4>Don't be fooled!</h4>
                     <p>
                         This is the fooled Content. This is the fooled content. This is the fooled content.
                         This is the fooled Content. This is the fooled content. This is the fooled content.
@@ -193,8 +190,8 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3">
-                <div>
-                    <h5>What is this trait?</h5>
+                <div class="articleWhatSection">
+                    <h4>What is this trait?</h4>
                     <p>
                         This is the why Content. This is the why content. This is the why content.
                         This is the why Content. This is the why content. This is the why content.
@@ -202,8 +199,8 @@
                         This is the why Content. This is the why content. This is the why content.
                     </p>
                 </div>
-                <div>
-                    <h5>Benefits to your business:</h5>
+                <div class="articleBenefitSection">
+                    <h4>Benefits to your business:</h4>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -211,8 +208,8 @@
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                     </p>
                 </div>
-                <div>
-                    <h5>How to Spot it?</h5>
+                <div class="articleSpotSection">
+                    <h4>How to Spot it?</h4>
                     <p>
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                         This is the spot it Content. This is the spot it content. This is the spot it content.
@@ -220,8 +217,8 @@
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                     </p>
                 </div>
-                <div>
-                    <h5>Don't be fooled!</h5>
+                <div class="articleFoolSection">
+                    <h4>Don't be fooled!</h4>
                     <p>
                         This is the fooled Content. This is the fooled content. This is the fooled content.
                         This is the fooled Content. This is the fooled content. This is the fooled content.
@@ -250,8 +247,8 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3">
-                <div>
-                    <h5>What is this trait?</h5>
+                <div class="articleWhatSection">
+                    <h4>What is this trait?</h4>
                     <p>
                         This is the why Content. This is the why content. This is the why content.
                         This is the why Content. This is the why content. This is the why content.
@@ -259,8 +256,8 @@
                         This is the why Content. This is the why content. This is the why content.
                     </p>
                 </div>
-                <div>
-                    <h5>Benefits to your business:</h5>
+                <div class="articleBenefitSection">
+                    <h4>Benefits to your business:</h4>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -268,8 +265,8 @@
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                     </p>
                 </div>
-                <div>
-                    <h5>How to Spot it?</h5>
+                <div class="articleSpotSection">
+                    <h4>How to Spot it?</h4>
                     <p>
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                         This is the spot it Content. This is the spot it content. This is the spot it content.
@@ -277,8 +274,8 @@
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                     </p>
                 </div>
-                <div>
-                    <h5>Don't be fooled!</h5>
+                <div class="articleFoolSection">
+                    <h4>Don't be fooled!</h4>
                     <p>
                         This is the fooled Content. This is the fooled content. This is the fooled content.
                         This is the fooled Content. This is the fooled content. This is the fooled content.
@@ -307,8 +304,8 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3">
-                <div>
-                    <h5>What is this trait?</h5>
+                <div class="articleWhatSection">
+                    <h4>What is this trait?</h4>
                     <p>
                         This is the why Content. This is the why content. This is the why content.
                         This is the why Content. This is the why content. This is the why content.
@@ -316,8 +313,8 @@
                         This is the why Content. This is the why content. This is the why content.
                     </p>
                 </div>
-                <div>
-                    <h5>Benefits to your business:</h5>
+                <div class="articleBenefitSection">
+                    <h4>Benefits to your business:</h4>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -325,8 +322,8 @@
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                     </p>
                 </div>
-                <div>
-                    <h5>How to Spot it?</h5>
+                <div class="articleSpotSection">
+                    <h4>How to Spot it?</h4>
                     <p>
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                         This is the spot it Content. This is the spot it content. This is the spot it content.
@@ -334,8 +331,8 @@
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                     </p>
                 </div>
-                <div>
-                    <h5>Don't be fooled!</h5>
+                <div class="articleFoolSection">
+                    <h4>Don't be fooled!</h4>
                     <p>
                         This is the fooled Content. This is the fooled content. This is the fooled content.
                         This is the fooled Content. This is the fooled content. This is the fooled content.
@@ -364,8 +361,8 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3">
-                <div>
-                    <h5>What is this trait?</h5>
+                <div class="articleWhatSection">
+                    <h4>What is this trait?</h4>
                     <p>
                         This is the why Content. This is the why content. This is the why content.
                         This is the why Content. This is the why content. This is the why content.
@@ -373,8 +370,8 @@
                         This is the why Content. This is the why content. This is the why content.
                     </p>
                 </div>
-                <div>
-                    <h5>Benefits to your business:</h5>
+                <div class="articleBenefitSection">
+                    <h4>Benefits to your business:</h4>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -382,8 +379,8 @@
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                     </p>
                 </div>
-                <div>
-                    <h5>How to Spot it?</h5>
+                <div class="articleSpotSection">
+                    <h4>How to Spot it?</h4>
                     <p>
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                         This is the spot it Content. This is the spot it content. This is the spot it content.
@@ -391,8 +388,8 @@
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                     </p>
                 </div>
-                <div>
-                    <h5>Don't be fooled!</h5>
+                <div class="articleFoolSection">
+                    <h4>Don't be fooled!</h4>
                     <p>
                         This is the fooled Content. This is the fooled content. This is the fooled content.
                         This is the fooled Content. This is the fooled content. This is the fooled content.
@@ -421,8 +418,8 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3">
-                <div>
-                    <h5>What is this trait?</h5>
+                <div class="articleWhatSection">
+                    <h4>What is this trait?</h4>
                     <p>
                         This is the why Content. This is the why content. This is the why content.
                         This is the why Content. This is the why content. This is the why content.
@@ -430,8 +427,8 @@
                         This is the why Content. This is the why content. This is the why content.
                     </p>
                 </div>
-                <div>
-                    <h5>Benefits to your business:</h5>
+                <div class="articleBenefitSection">
+                    <h4>Benefits to your business:</h4>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -439,8 +436,8 @@
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                     </p>
                 </div>
-                <div>
-                    <h5>How to Spot it?</h5>
+                <div class="articleSpotSection">
+                    <h4>How to Spot it?</h4>
                     <p>
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                         This is the spot it Content. This is the spot it content. This is the spot it content.
@@ -448,8 +445,8 @@
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                     </p>
                 </div>
-                <div>
-                    <h5>Don't be fooled!</h5>
+                <div class="articleFoolSection">
+                    <h4>Don't be fooled!</h4>
                     <p>
                         This is the fooled Content. This is the fooled content. This is the fooled content.
                         This is the fooled Content. This is the fooled content. This is the fooled content.
@@ -478,8 +475,8 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3">
-                <div>
-                    <h5>What is this trait?</h5>
+                <div class="articleWhatSection">
+                    <h4>What is this trait?</h4>
                     <p>
                         This is the why Content. This is the why content. This is the why content.
                         This is the why Content. This is the why content. This is the why content.
@@ -487,8 +484,8 @@
                         This is the why Content. This is the why content. This is the why content.
                     </p>
                 </div>
-                <div>
-                    <h5>Benefits to your business:</h5>
+                <div class="articleBenefitSection">
+                    <h4>Benefits to your business:</h4>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -496,8 +493,8 @@
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                     </p>
                 </div>
-                <div>
-                    <h5>How to Spot it?</h5>
+                <div class="articleSpotSection">
+                    <h4>How to Spot it?</h4>
                     <p>
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                         This is the spot it Content. This is the spot it content. This is the spot it content.
@@ -505,8 +502,8 @@
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                     </p>
                 </div>
-                <div>
-                    <h5>Don't be fooled!</h5>
+                <div class="articleFoolSection">
+                    <h4>Don't be fooled!</h4>
                     <p>
                         This is the fooled Content. This is the fooled content. This is the fooled content.
                         This is the fooled Content. This is the fooled content. This is the fooled content.
@@ -534,8 +531,8 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3">
-                <div>
-                    <h5>What is this trait?</h5>
+                <div class="articleWhatSection">
+                    <h4>What is this trait?</h4>
                     <p>
                         This is the why Content. This is the why content. This is the why content.
                         This is the why Content. This is the why content. This is the why content.
@@ -543,8 +540,8 @@
                         This is the why Content. This is the why content. This is the why content.
                     </p>
                 </div>
-                <div>
-                    <h5>Benefits to your business:</h5>
+                <div class="articleBenefitSection">
+                    <h4>Benefits to your business:</h4>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -552,8 +549,8 @@
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                     </p>
                 </div>
-                <div>
-                    <h5>How to Spot it?</h5>
+                <div class="articleSpotSection">
+                    <h4>How to Spot it?</h4>
                     <p>
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                         This is the spot it Content. This is the spot it content. This is the spot it content.
@@ -561,8 +558,8 @@
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                     </p>
                 </div>
-                <div>
-                    <h5>Don't be fooled!</h5>
+                <div class="articleFoolSection">
+                    <h4>Don't be fooled!</h4>
                     <p>
                         This is the fooled Content. This is the fooled content. This is the fooled content.
                         This is the fooled Content. This is the fooled content. This is the fooled content.
@@ -591,8 +588,8 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3">
-                <div>
-                    <h5>What is this trait?</h5>
+                <div class="articleWhatSection">
+                    <h4>What is this trait?</h4>
                     <p>
                         This is the why Content. This is the why content. This is the why content.
                         This is the why Content. This is the why content. This is the why content.
@@ -600,8 +597,8 @@
                         This is the why Content. This is the why content. This is the why content.
                     </p>
                 </div>
-                <div>
-                    <h5>Benefits to your business:</h5>
+                <div class="articleBenefitSection">
+                    <h4>Benefits to your business:</h4>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -609,8 +606,8 @@
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                     </p>
                 </div>
-                <div>
-                    <h5>How to Spot it?</h5>
+                <div class="articleSpotSection">
+                    <h4>How to Spot it?</h4>
                     <p>
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                         This is the spot it Content. This is the spot it content. This is the spot it content.
@@ -618,8 +615,8 @@
                         This is the spot it Content. This is the spot it content. This is the spot it content.
                     </p>
                 </div>
-                <div>
-                    <h5>Don't be fooled!</h5>
+                <div class="articleFoolSection">
+                    <h4>Don't be fooled!</h4>
                     <p>
                         This is the fooled Content. This is the fooled content. This is the fooled content.
                         This is the fooled Content. This is the fooled content. This is the fooled content.
