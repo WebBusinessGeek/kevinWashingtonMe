@@ -9,7 +9,7 @@
     </div>
 
 
-    <div id="section1">
+    <div id="firstSection">
         <div class="contentHeaderSection row">
             <div class="numberIcon col-lg-12">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
