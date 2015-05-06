@@ -4,7 +4,7 @@
             <h1>11 Traits to Look For in Your Next Marketing Hire.</h1>
         </div>
         <div id="articleSubTitle">
-            <p>A Countdown by <a href="/intro" target="_blank">Kevin Washington</a></p>
+            <p>Crafted by <a href="/intro" target="_blank">Kevin Washington</a></p>
         </div>
     </div>
 
