@@ -136,37 +136,31 @@
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
+                        Someone with this trait will have the ability to identify what needs are the most critical for your business.
+                        This means taking into account where you business is trying to go, and strategizing on how to get there efficiently.
                     </p>
                 </div>
                 <div class="articleBenefitSection">
                     <h4>Benefits to your business:</h4>
                     <p>
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
+                        The benefits of having team members with this trait is an increase in motivation and collaboration.
+                        Motivation because allowing team members to work on company objectives they are bought into is 1000% more motivating than working on something simply because they were told.
+                        And the increase in collaboration comes when team members feel ‘invested’ as they give input on company objectives, and goals.
                     </p>
                 </div>
                 <div class="articleSpotSection">
                     <h4>How to Spot it?</h4>
                     <p>
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
+                        When interviewing candidates who will be responsible for helping your company develop objectives learn about their process.
+                        Smart objectives should always start at the company level.
+                        Your looking for candidates who processes start with the performance, goals, or needs of the company.
                     </p>
                 </div>
                 <div class="articleFoolSection">
                     <h4>Don't be fooled!</h4>
                     <p>
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
+                        Don’t be fooled by candidates who’s goals only include generating traffic, or getting media attention.
+                        While additional traffic and attention for your business may be good, it may be an indicator that a candidate may not possess the abilities needed to set and achieve relevant goals for your business.
                     </p>
                 </div>
             </div>
@@ -193,37 +187,33 @@
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
+                        This is the ability to solve problems in creative and innovative ways.
+                        Mastery will include the capacity to develop creative tactics to achieve company objectives.
                     </p>
                 </div>
                 <div class="articleBenefitSection">
                     <h4>Benefits to your business:</h4>
                     <p>
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
+                        With someone with this trait on board your company will become more likely to achieve its goals.
+                        Problem solvers are usually people who enjoy - and are motivated by - a challenge.
+                        Challenging these individuals to rise to heights for your business is a win win.
                     </p>
                 </div>
                 <div class="articleSpotSection">
                     <h4>How to Spot it?</h4>
                     <p>
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
+                        An easy way to spot these problem solvers during an interview is to give them problems to solve.
+                        Listen to how they breakdown the problem while identifying potential solutions.
+                        Rate their responses.
+                        Are their solutions viable or unfeasible? Are they cliche or full of originality?
                     </p>
                 </div>
                 <div class="articleFoolSection">
                     <h4>Don't be fooled!</h4>
                     <p>
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
+                        Don’t misinterpret vision as innovation.
+                        Vision is the sense of problem solving is more long term and impractical at the moment.
+                        While its nothing wrong with having vision, good problem solvers are able to execute within a timely manner.
                     </p>
                 </div>
             </div>
@@ -250,37 +240,30 @@
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
+                        An individual with this trait will have the ability to manage a project from the brainstorm phase all the way to delivery.
+                        In doing so this person must be able to manage team members, themselves, deadlines and processes.
                     </p>
                 </div>
                 <div class="articleBenefitSection">
                     <h4>Benefits to your business:</h4>
                     <p>
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
+                        The benefits to your business is not only the ability to delegate, but a trust that delegated items will be managed correctly.
+                        With this capability the business becomes more effective as its ability to accomplish important tasks beings to scale.
                     </p>
                 </div>
                 <div class="articleSpotSection">
                     <h4>How to Spot it?</h4>
                     <p>
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
+                        You are looking primarily for two things; experience and results. A brief look through a candidates resume will give you an idea of their experience with managing others.
+                        Results are a bit different.
+                        Asking the candidate to recount mistakes they made as a manager and what they learned can shed light on their approach and past successes.
                     </p>
                 </div>
                 <div class="articleFoolSection">
                     <h4>Don't be fooled!</h4>
                     <p>
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
+                        A ton of management positions don’t equate to high quality.
+                        Asking more open ended questions about their style, approach, and effectiveness may give you a better idea of their project management abilities.
                     </p>
                 </div>
             </div>
