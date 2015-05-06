@@ -26,37 +26,38 @@
                 <div>
                     <h5>What is this trait?</h5>
                     <p>
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
+                        Its really two parts to this trait.
+                        The first is being able to understand all the problems your product or service seeks to solve.
+                        And the second is understanding the various groups likely to experience those problems.
                     </p>
                 </div>
                 <div>
-                    <h5>Benefits to the business:</h5>
+                    <h5>Benefits to your business:</h5>
                     <p>
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
+                        The rewards of having members of your marketing team that are knowledgeable about the product and customer includes more effective lead generation.
+                        Having empathetic marketers can lead to better sales copy and more appropriate acquisition strategies.
+                        In addition to more effective traction tactics, you will also reap a more competent sales force.
+                        Having team members that can adequately answer a prospect's questions can help prevent bottlenecks during the sales process.
                     </p>
                 </div>
                 <div>
                     <h5>How to Spot it?</h5>
                     <p>
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
+                        This is fairly easy trait to spot in prospective hires.
+                        One give away is if a candidate comes to the interview with a solid understanding of your business model.
+                        Not just the company history, but what you sell, who you sell it to, and the problems it solves for your customers.
+                        Another easy spot is if a candidate actually fits your target customer profile.
+                        This may be rare but is a great opportunity to bring a team member on board who can really be effective for your company.
                     </p>
                 </div>
                 <div>
                     <h5>Don't be fooled!</h5>
                     <p>
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
+                        Nowadays, interviewees are smarter.
+                        There are more resources available to help them 'ace the interview'.
+                        What you don’t want to be fooled by is feigned interest in your company and its products.
+                        If it sounds like a candidate is asking questions for the sake of asking questions keep in mind they could be.
+                        You can turn the tables by asking them how they plan to use the information they are gathering to be effective.
                     </p>
                 </div>
             </div>
@@ -88,7 +89,7 @@
                     </p>
                 </div>
                 <div>
-                    <h5>Benefits to the business:</h5>
+                    <h5>Benefits to your business:</h5>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -145,7 +146,7 @@
                     </p>
                 </div>
                 <div>
-                    <h5>Benefits to the business:</h5>
+                    <h5>Benefits to your business:</h5>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -202,7 +203,7 @@
                     </p>
                 </div>
                 <div>
-                    <h5>Benefits to the business:</h5>
+                    <h5>Benefits to your business:</h5>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -259,7 +260,7 @@
                     </p>
                 </div>
                 <div>
-                    <h5>Benefits to the business:</h5>
+                    <h5>Benefits to your business:</h5>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -316,7 +317,7 @@
                     </p>
                 </div>
                 <div>
-                    <h5>Benefits to the business:</h5>
+                    <h5>Benefits to your business:</h5>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -373,7 +374,7 @@
                     </p>
                 </div>
                 <div>
-                    <h5>Benefits to the business:</h5>
+                    <h5>Benefits to your business:</h5>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -430,7 +431,7 @@
                     </p>
                 </div>
                 <div>
-                    <h5>Benefits to the business:</h5>
+                    <h5>Benefits to your business:</h5>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -487,7 +488,7 @@
                     </p>
                 </div>
                 <div>
-                    <h5>Benefits to the business:</h5>
+                    <h5>Benefits to your business:</h5>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -543,7 +544,7 @@
                     </p>
                 </div>
                 <div>
-                    <h5>Benefits to the business:</h5>
+                    <h5>Benefits to your business:</h5>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
@@ -600,7 +601,7 @@
                     </p>
                 </div>
                 <div>
-                    <h5>Benefits to the business:</h5>
+                    <h5>Benefits to your business:</h5>
                     <p>
                         This is the benefit Content. This is the benefit content. This is the benefit content.
                         This is the benefit Content. This is the benefit content. This is the benefit content.
