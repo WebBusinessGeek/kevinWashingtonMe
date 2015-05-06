@@ -290,37 +290,32 @@
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
+                        Candidates who can be effective or productive with little to no oversight.
                     </p>
                 </div>
                 <div class="articleBenefitSection">
                     <h4>Benefits to your business:</h4>
                     <p>
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
+                        Having team members who are great at self management promotes healthy management.
+                        This healthy management will include ensuring team members know their objectives and deadlines, and remaining available to help remove any bottlenecks that arise.
                     </p>
                 </div>
                 <div class="articleSpotSection">
                     <h4>How to Spot it?</h4>
                     <p>
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
+                        Two things to look for when identifying good self managers are any skills acquired independently, or impressive results when managing others.
+                        Acquiring skills independently (like learning to code, or becoming Google Analytics certified) takes many qualities that are relevant to self management.
+                        Those include dedication, discipline, and self accountability.
+                        As for individuals who are successful when managing others, this is an indicator they may be organized, and punctual.
+                        Qualities you expect in a good self manager.
                     </p>
                 </div>
                 <div class="articleFoolSection">
                     <h4>Don't be fooled!</h4>
                     <p>
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
+                        Rarely anyone will tell you they are bad at managing themselves in an interview.
+                        Expect everyone to tell you they are great at it if you ask them directly.
+                        Instead, look for some of the qualities above to spot the individuals with a higher chance of being good at managing themselves.
                     </p>
                 </div>
             </div>
