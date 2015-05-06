@@ -1,6 +1,6 @@
 #articleBody {
     background: #fff;
-    height: 1200px;
+    min-height: 1200px;
     padding-top: 40px;
 }
 
@@ -19,4 +19,7 @@
     text-decoration: none;
 }
 
+.contentSectionWrapper {
+    margin-bottom: 60px;
+}
 
