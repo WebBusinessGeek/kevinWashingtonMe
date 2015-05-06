@@ -419,8 +419,8 @@
                     <h4>Don't be fooled!</h4>
                     <p>
                         Watch out for candidates (and current team members for that matter) with ‘fun with spreadsheets’ syndrome.
-                        ROI cannot be gauged accurately without running tests.
-                        Anyone who ‘believes’ they can tell you exactly how much you look to earn back from any initiative is likely not ROI focused.
+                        Its difficult to gauge ROI accurately without either having access to historical data or first running tests.
+                        Anyone who ‘believes’ they can tell you exactly how much you look to earn back from new initiatives is likely not ROI focused.
                         In actuality, this inexperienced excitement will likely burn through your investment before there is a return.
                     </p>
                 </div>
@@ -448,37 +448,33 @@
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
+                        This is another two part trait.
+                        First there is the ability to convert prospective leads into paying customers.
+                        And the follow up is the ability to develop and refined sales processes.
                     </p>
                 </div>
                 <div class="articleBenefitSection">
                     <h4>Benefits to your business:</h4>
                     <p>
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
+                        Adding high quality sale people to your team will likely increase the efficiency of your sales team.
+                        A more efficient sales team can manifest in several ways including more revenue and lower customer acquisition costs.
                     </p>
                 </div>
                 <div class="articleSpotSection">
                     <h4>How to Spot it?</h4>
                     <p>
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
+                        Good salespeople possess many qualities.
+                        A few notable ones are the abilities to listen attentively, solve problems, deliver effective presentations, and communicate both orally and through writing.
+                        Get a feel for the handle your shortlisted candidates have on these qualities by having them mock a presentation, or write a short persuasive essay for a topic they are familiar with.
                     </p>
                 </div>
                 <div class="articleFoolSection">
                     <h4>Don't be fooled!</h4>
                     <p>
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
+                        Extensive experience in sales does not automatically equate to proficiency nor transferability of a candidate’s skill level in selling your products.
+                        There are many mildly successful sales people who continue to stay in the field.
+                        As there are successful car salesmen who may not be able to sell a CRM tool.
+                        When gauging a candidate’s sales skills look at the potential they have to sell your product.
                     </p>
                 </div>
             </div>
