@@ -500,37 +500,31 @@
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
+                        Individuals with tech skills will be able to code, design, or help your business integrate with complex software tools.
                     </p>
                 </div>
                 <div class="articleBenefitSection">
                     <h4>Benefits to your business:</h4>
                     <p>
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
+                        These days marketing is very tech heavy.
+                        Having a marketing team that is able to design its own landing pages, or develop custom widgets for link building is invaluable.
+                        Independent marketing teams will mean less bottle necks, faster engagement, and more effective marketing.
                     </p>
                 </div>
                 <div class="articleSpotSection">
                     <h4>How to Spot it?</h4>
                     <p>
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
+                        Pretty simple. Ask them for a link to their Github, Dribbble, or Behance page.
+                        If they know what you mean (and have one), their skill level will be apparent after a few minutes on their profile.
                     </p>
                 </div>
                 <div class="articleFoolSection">
                     <h4>Don't be fooled!</h4>
                     <p>
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
+                        Watch for work done by collaborators.
+                        Its very easy to pay someone to code or design for you.
+                        Be on the lookout falsely credited work.
+                        If coding is essential to their role, ask them to write a quick script or style some markup while you wait.
                     </p>
                 </div>
             </div>
@@ -557,37 +551,31 @@
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
-                        This is the why Content. This is the why content. This is the why content.
+                        Candidates with this trait will have the ability to learn new subjects with little to no guidance from management.
                     </p>
                 </div>
                 <div class="articleBenefitSection">
                     <h4>Benefits to your business:</h4>
                     <p>
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
-                        This is the benefit Content. This is the benefit content. This is the benefit content.
+                        As the web develops and new technologies emerge, your team’s ability to stay current will become critical to success.
+                        In addition to being 'disrupt-proof’, many of the new knowledge can be repurposed for your business in the form of engaging content, new product features, or commercialized by-products.
                     </p>
                 </div>
                 <div class="articleSpotSection">
                     <h4>How to Spot it?</h4>
                     <p>
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
-                        This is the spot it Content. This is the spot it content. This is the spot it content.
+                        Look for candidates who are already actively learning.
+                        Especially keep an eye out for those candidates who have already become competent in subjects that are difficult to learn form a single resource.
+                        These subjects include web development frameworks (ruby on rails, laravel, etc), and marketing mediums (SEO, email marketing).
                     </p>
                 </div>
                 <div class="articleFoolSection">
                     <h4>Don't be fooled!</h4>
                     <p>
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
-                        This is the fooled Content. This is the fooled content. This is the fooled content.
+                        Too often you will hear the term ‘hacking’ thrown around in relation to learning.
+                        This is not the same as completely understanding a topic.
+                        A candidate able to learn a few hacks is not comparative to one who can breakdown a subject into components and fully digest all the dependencies.
+                        You will likely do well with the later. 
                     </p>
                 </div>
             </div>
