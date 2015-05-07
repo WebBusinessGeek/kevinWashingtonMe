@@ -13,9 +13,7 @@
     </div>
 
 
-    {{hello}}
-    {{VTSetting}}
-    {{grapes}}
+    
     <div class="videoOrTranscriptSection">
         <div class="slider-toggle left">
             <span class="label">Video</span>
