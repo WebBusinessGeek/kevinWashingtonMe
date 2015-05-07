@@ -44,17 +44,17 @@ Route::group(array('prefix' => 'recruitment'), function()
     //engagement content
     Route::get('/engagement/11-traits-to-look-for-in-your-next-marketing-hire', 'PublicPagesController@viewEmploymentEngagementContent');
 
-    //channel 1
+    //channel 1 routes
     Route::get('/am-i-a-good-fit', 'PublicPagesController@viewEmploymentDemonstrationContent1');
-    Route::get('/1/lets-work-together', 'PublicPagesController@viewEmploymentConversionContent1');
-    Route::get('/1/lets-work-together-now', 'PublicPagesController@viewEmploymentTOConversionContent1');
-    Route::get('/1/thank-you', 'PublicPagesController@viewEmploymentConfirmationContent1');
+    Route::get('/1/lets-work-together', 'PublicPagesController@viewEmploymentConversionContent');
+    Route::get('/1/lets-work-together-now', 'PublicPagesController@viewEmploymentTOConversionContent');
+    Route::get('/1/thank-you', 'PublicPagesController@viewEmploymentConfirmationContent');
 
-    //channel 2
+    //channel 2 routes
     Route::get('/what-can-i-bring', 'PublicPagesController@viewEmploymentDemonstrationContent2');
-    Route::get('/2/lets-work-together', 'PublicPagesController@viewEmploymentConversionContent2');
-    Route::get('/2/lets-work-together-now', 'PublicPagesController@viewEmploymentTOConversionContent2');
-    Route::get('/2/thank-you', 'PublicPagesController@viewEmploymentConfirmationContent2');
+    Route::get('/2/lets-work-together', 'PublicPagesController@viewEmploymentConversionContent');
+    Route::get('/2/lets-work-together-now', 'PublicPagesController@viewEmploymentTOConversionContent');
+    Route::get('/2/thank-you', 'PublicPagesController@viewEmploymentConfirmationContent');
 
 });
 
