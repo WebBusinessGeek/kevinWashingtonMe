@@ -575,7 +575,7 @@
                         Too often you will hear the term ‘hacking’ thrown around in relation to learning.
                         This is not the same as completely understanding a topic.
                         A candidate able to learn a few hacks is not comparative to one who can breakdown a subject into components and fully digest all the dependencies.
-                        You will likely do well with the later. 
+                        You will likely do well with the later.
                     </p>
                 </div>
             </div>

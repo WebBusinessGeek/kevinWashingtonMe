@@ -41,11 +41,20 @@ Route::group(array('domain' => 'seo.' . getenv('DOMAIN_NAME')), function()
 //routes for employment acquisition channels
 Route::group(array('prefix' => 'recruitment'), function()
 {
+    //engagement content
     Route::get('/engagement/11-traits-to-look-for-in-your-next-marketing-hire', 'PublicPagesController@viewEmploymentEngagementContent');
-    Route::get('/my-process', 'PublicPagesController@viewEmploymentDemonstrationContent');
-    Route::get('/connect', 'PublicPagesController@viewEmploymentConversionContent');
-    Route::get('/connect-with-me', 'PublicPagesController@viewEmploymentTOConversionContent');
-    Route::get('/thank-you', 'PublicPagesController@viewEmploymentConfirmationContent');
+
+    //channel 1
+    Route::get('/am-i-a-good-fit', 'PublicPagesController@viewEmploymentDemonstrationContent1');
+    Route::get('/1/lets-work-together', 'PublicPagesController@viewEmploymentConversionContent1');
+    Route::get('/1/lets-work-together-now', 'PublicPagesController@viewEmploymentTOConversionContent1');
+    Route::get('/1/thank-you', 'PublicPagesController@viewEmploymentConfirmationContent1');
+
+    //channel 2
+    Route::get('/what-can-i-bring', 'PublicPagesController@viewEmploymentDemonstrationContent2');
+    Route::get('/2/lets-work-together', 'PublicPagesController@viewEmploymentConversionContent2');
+    Route::get('/2/lets-work-together-now', 'PublicPagesController@viewEmploymentTOConversionContent2');
+    Route::get('/2/thank-you', 'PublicPagesController@viewEmploymentConfirmationContent2');
 
 });
 
