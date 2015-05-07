@@ -5,11 +5,13 @@
         <h1>{{headline}}</h1>
     </div>
 
-    <div class="demoContentBody">
+    <div class="demoContentBody col-lg-8 col-lg-offset-2">
         <p>
             I would like to think I could be a great addition to your team.
             However I don't know your business as well as you do.
-            So I put this together to help you come to your own conclusion.
+        </p>
+        <p class="pHeavyTopMargin">
+            So I put this short video (and transcript) together to help you come to your own conclusion.
         </p>
     </div>
 
