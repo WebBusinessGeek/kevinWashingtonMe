@@ -7,11 +7,11 @@
 
     <div class="demoContentBody col-lg-8 col-lg-offset-2">
         <p>
-            I would like to think I could be a great addition to your team.
-            However I don't know your business as well as you do.
+            I would like to think I could be a great addition to your team,
+            but I don't know your business as well as you do.
         </p>
         <p class="pHeavyTopMargin">
-            So I put this short video (and transcript) together to help you come to your own conclusion.
+            So I put together this short video (and transcript) to help you come to your own conclusion.
         </p>
     </div>
 
@@ -28,8 +28,10 @@
         </div>
     </div>
     <br/>
+
+
     <div class="VTContentSection">
-        <div ng-show="VTSetting == 'video'" class="demoVideoSection">
+        <div ng-show="VTSetting == 'video'" class="demoVideoSection col-lg-10 col-lg-offset-1">
             <div id="demoVideoContainer">
                 <video muted loop controls>
                     <source src="/assets/kevinwashingtonmevideo.mp4" type="video/mp4">
@@ -39,7 +41,7 @@
             </div>
         </div>
 
-        <div ng-show="VTSetting == 'transcript'" class="demoTranscriptSection">
+        <div ng-show="VTSetting == 'transcript'" class="demoTranscriptSection col-lg-8 col-lg-offset-2">
             <div>
                 <p>This will be the transcript</p>
             </div>
@@ -48,7 +50,7 @@
 
 
     <div class="demoCallToActionSection">
-        <a id="demoCTA" href="{{ctaLink}}" class="btn btn-warning btn-lg">How we can work together</a>
+        <a id="demoCTA" href="{{ctaLink}}" class="btn btn-warning btn-lg">Let's set up an interview</a>
     </div>
 
 
