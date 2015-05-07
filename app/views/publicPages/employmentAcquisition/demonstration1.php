@@ -1,4 +1,4 @@
-<div class="demoContentBody" ng-controller="demonstration1Controller">
+<div class="demonstrationBody text-center" ng-controller="demonstrationController">
 
     <div class="demoContentHeading">
         <h1>Am I a Good Fit for Your Team?</h1>
@@ -12,22 +12,39 @@
         </p>
     </div>
 
+
+    {{hello}}
+    {{VTSetting}}
+    {{grapes}}
     <div class="videoOrTranscriptSection">
-        <div class="demoVideoSection">
+        <div class="slider-toggle left">
+            <span class="label">Video</span>
+              <span ng-click="videoTranscriptSwitch()" class="slider">
+                    <span class="toggle">
+                        <span class="grip"></span>
+                    </span>
+                </span>
+            <span class="label">Transcript</span>
+        </div>
+    </div>
+    <br/>
+    <div class="VTContentSection">
+        <div ng-show="VTSetting == 'video'" class="demoVideoSection">
             <div>
                 <p>This will be the video</p>
             </div>
         </div>
 
-        <div class="demoTranscriptSection">
+        <div ng-show="VTSetting == 'transcript'" class="demoTranscriptSection">
             <div>
                 <p>This will be the transcript</p>
             </div>
         </div>
     </div>
 
+
     <div class="demoCallToActionSection">
-        <a href="/recruitment/1/lets-work-together" class="btn btn-warning">Click to get there</a>
+        <a href="/recruitment/1/lets-work-together" class="btn btn-warning">How we can work together</a>
     </div>
 
 

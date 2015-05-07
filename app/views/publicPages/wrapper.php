@@ -18,7 +18,7 @@
     <link href="/angular-bootstrap/bootstrap-twit/css/customTMI.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customResume.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customRecruitmentEngagement.css" rel="stylesheet">
-
+    <link href="/angular-bootstrap/bootstrap-twit/css/customDemonstrationContent.css" rel="stylesheet">
 
 
 
@@ -229,10 +229,13 @@
     <script src="/app/intro.js"></script>
     <script src="/app/tmi.js"></script>
     <script src="/app/resume.js"></script>
+    <script src="/app/demonstration.js"></script>
+
+    <script src="/angular-bootstrap/bootstrap-twit/js/customDemonstrationContent.js"></script>
 
 
 
-    <script src="/angular-bootstrap/bootstrap-twit/js/bootstrap.min.js"></script>
+<script src="/angular-bootstrap/bootstrap-twit/js/bootstrap.min.js"></script>
 
 
 

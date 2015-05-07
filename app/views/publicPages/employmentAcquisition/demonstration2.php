@@ -1,4 +1,4 @@
-<div class="demoContentBody" ng-controller="demonstration2Controller">
+<div class="demonstrationBody text-center" ng-controller="demonstrationController">
 
     <div class="demoContentHeading">
         <h1>What Can I Bring to Your Team?</h1>
@@ -27,7 +27,7 @@
     </div>
 
     <div class="demoCallToActionSection">
-        <a href="/recruitment/2/lets-work-together" class="btn btn-warning">Click to get there</a>
+        <a href="/recruitment/2/lets-work-together" class="btn btn-warning">How we can work together</a>
     </div>
 
 
