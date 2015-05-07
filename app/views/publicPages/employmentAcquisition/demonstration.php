@@ -28,8 +28,12 @@
     <br/>
     <div class="VTContentSection">
         <div ng-show="VTSetting == 'video'" class="demoVideoSection">
-            <div>
-                <p>This will be the video</p>
+            <div id="demoVideoContainer">
+                <video muted loop controls>
+                    <source src="/assets/kevinwashingtonmevideo.mp4" type="video/mp4">
+                    <source src="https://www.youtube.com/watch?v=locvDX2xrLc" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
 
@@ -42,7 +46,7 @@
 
 
     <div class="demoCallToActionSection">
-        <a href="{{ctaLink}}" class="btn btn-warning">How we can work together</a>
+        <a id="demoCTA" href="{{ctaLink}}" class="btn btn-warning btn-lg">How we can work together</a>
     </div>
 
 

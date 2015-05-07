@@ -13,7 +13,7 @@
     margin-top: 40px;
     min-height: 350px;
     margin-bottom: 20px;
-    border: 1px solid #44464a;
+    /*border: 1px solid #44464a;*/
 }
 
 .label{
@@ -86,4 +86,18 @@
     top:4px; left:0;
     width:100%; height:100%;
     background: inherit;
+}
+
+
+#demoVideoContainer >  video {
+    width: 100%;
+    height: 100%;
+}
+
+#demoCTA {
+    color: #fff;
+    text-decoration: none;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
