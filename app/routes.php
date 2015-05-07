@@ -51,7 +51,7 @@ Route::group(array('prefix' => 'recruitment'), function()
     Route::get('/1/thank-you', 'PublicPagesController@viewEmploymentConfirmationContent');
 
     //channel 2 routes
-    Route::get('/what-can-i-bring', 'PublicPagesController@viewEmploymentDemonstrationContent2');
+    Route::get('/what-i-bring', 'PublicPagesController@viewEmploymentDemonstrationContent2');
     Route::get('/2/lets-work-together', 'PublicPagesController@viewEmploymentConversionContent');
     Route::get('/2/lets-work-together-now', 'PublicPagesController@viewEmploymentTOConversionContent');
     Route::get('/2/thank-you', 'PublicPagesController@viewEmploymentConfirmationContent');

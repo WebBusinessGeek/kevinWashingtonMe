@@ -245,9 +245,15 @@ class PublicPagesController extends \BaseController {
 		$this->layout->content = $view->render();
 	}
 
-	public function viewEmploymentDemonstrationContent()
+	public function viewEmploymentDemonstrationContent1()
 	{
-		$view = View::make('publicPages.employmentAcquisition.demonstration');
+		$view = View::make('publicPages.employmentAcquisition.demonstration1');
+		$this->layout->content = $view->render();
+	}
+
+	public function viewEmploymentDemonstrationContent2()
+	{
+		$view = View::make('publicPages.employmentAcquisition.demonstration2');
 		$this->layout->content = $view->render();
 	}
 
