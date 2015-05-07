@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/engagement.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.64028776" vertical-offset="14380" max-vertical-offset="15075">
-              <caret line="593" column="107" selection-start-line="593" selection-start-column="107" selection-end-line="593" selection-end-column="107" />
+              <caret line="593" column="45" selection-start-line="593" selection-start-column="45" selection-end-line="593" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -781,7 +781,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/engagement.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64028776" vertical-offset="14380" max-vertical-offset="15075">
-          <caret line="593" column="107" selection-start-line="593" selection-start-column="107" selection-end-line="593" selection-end-column="107" />
+          <caret line="593" column="45" selection-start-line="593" selection-start-column="45" selection-end-line="593" selection-end-column="45" />
           <folding />
         </state>
       </provider>

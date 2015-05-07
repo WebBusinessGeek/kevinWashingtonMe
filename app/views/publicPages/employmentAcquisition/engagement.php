@@ -591,7 +591,7 @@
 
 
     <div id="funnelCTA">
-        <a href="/recruitment/my-process" class="btn btn-danger bottom pull-right">Am I A Good Fit For Your team?</a>
+        <a href="/recruitment/am-i-a-good-fit" class="btn btn-danger bottom pull-right">Am I A Good Fit For Your team?</a>
     </div>
 
 
