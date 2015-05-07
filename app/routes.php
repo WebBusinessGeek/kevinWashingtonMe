@@ -45,13 +45,13 @@ Route::group(array('prefix' => 'recruitment'), function()
     Route::get('/engagement/11-traits-to-look-for-in-your-next-marketing-hire', 'PublicPagesController@viewEmploymentEngagementContent');
 
     //channel 1 routes
-    Route::get('/am-i-a-good-fit', 'PublicPagesController@viewEmploymentDemonstrationContent1');
+    Route::get('/am-i-a-good-fit', 'PublicPagesController@viewEmploymentDemonstrationContent');
     Route::get('/1/lets-work-together', 'PublicPagesController@viewEmploymentConversionContent');
     Route::get('/1/lets-work-together-now', 'PublicPagesController@viewEmploymentTOConversionContent');
     Route::get('/1/thank-you', 'PublicPagesController@viewEmploymentConfirmationContent');
 
     //channel 2 routes
-    Route::get('/what-i-bring', 'PublicPagesController@viewEmploymentDemonstrationContent2');
+    Route::get('/what-i-bring', 'PublicPagesController@viewEmploymentDemonstrationContent');
     Route::get('/2/lets-work-together', 'PublicPagesController@viewEmploymentConversionContent');
     Route::get('/2/lets-work-together-now', 'PublicPagesController@viewEmploymentTOConversionContent');
     Route::get('/2/thank-you', 'PublicPagesController@viewEmploymentConfirmationContent');

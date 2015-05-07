@@ -1,7 +1,8 @@
 <div class="demonstrationBody text-center" ng-controller="demonstrationController">
 
+
     <div class="demoContentHeading">
-        <h1>Am I a Good Fit for Your Team?</h1>
+        <h1>{{headline}}</h1>
     </div>
 
     <div class="demoContentBody">
@@ -13,7 +14,6 @@
     </div>
 
 
-    
     <div class="videoOrTranscriptSection">
         <div class="slider-toggle left">
             <span class="label">Video</span>
@@ -42,7 +42,7 @@
 
 
     <div class="demoCallToActionSection">
-        <a href="/recruitment/1/lets-work-together" class="btn btn-warning">How we can work together</a>
+        <a href="{{ctaLink}}" class="btn btn-warning">How we can work together</a>
     </div>
 
 
