@@ -148,6 +148,17 @@
             <div id="demoTranscriptQuestion4">
                 <h3>Question 4</h3>
                 <h4>What is your biggest strength and why?</h4>
+                <p>
+                    To be honest I consider my biggest strength my faith.
+                    The reason why is because many of my characteristics and values stem from that.
+                </p>
+                <p>
+                    My faith has taught me to be a man of integrity, honesty, and to give my all in everything I do.
+                </p>
+                <p>
+                    And its these characteristics that have helped shape me as a person. Its these character traits
+                    that I consider to be more valuable than all the knowledge, skills, and experience I have collected as by-products. 
+                </p>
             </div>
             <div id="demoTranscriptQuestion5">
                 <h3>Question 5</h3>
