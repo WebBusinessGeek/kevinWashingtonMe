@@ -157,19 +157,49 @@
                 </p>
                 <p>
                     And its these characteristics that have helped shape me as a person. Its these character traits
-                    that I consider to be more valuable than all the knowledge, skills, and experience I have collected as by-products. 
+                    that I consider to be more valuable than all the knowledge, skills, and experience I have collected as by-products.
                 </p>
             </div>
             <div id="demoTranscriptQuestion5">
                 <h3>Question 5</h3>
                 <h4>In your opinion, what's the three most important things in business?</h4>
+                <p>
+                    To me, it really depends on the stage of the business.
+                </p>
+                <p>
+                    For a newer business, with little to no traction the three most important things would be a
+                    strong team of founders, innovative products, and of course paying customers.
+                </p>
+                <p>
+                    However for a business that has already validated is product with sales of its product, the critical pieces should change.
+                    To me they would be clear and meaningful objectives, proper management of resources (both money and people), and
+                    the constant optimization and management of all the business's processes.
+                </p>
+            </div>
+            <div id="demoTranscriptOutro">
+                <p>
+                    So there you have it.
+                </p>
+                <p>
+                    I hope these questions shed some light on if I could be a valuable asset to your team.
+                </p>
+                <p>
+                    If you have more questions to ask me, or if you want to get in touch go ahead and click that big button right below.
+                </p>
+                <p>
+                    Hope to hear from you soon!
+                </p>
+                <p>(run outtakes)</p>
             </div>
         </div>
     </div>
 
 
     <div class="demoCallToActionSection">
+        <p>Think I can make a good addition to your team?</p>
         <a id="demoCTA" href="{{ctaLink}}" class="btn btn-warning btn-lg">Let's set up an interview</a>
+        <br/>
+        <a href="{{ctaLink}}">Or get in contact with me</a>
     </div>
 
 
