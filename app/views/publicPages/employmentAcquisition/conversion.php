@@ -33,7 +33,38 @@
         </div>
         <div id="interviewFormSection" ng-show="interviewConnectSetting == 'interview'">
             <p>This will be the interview form.</p>
-            
+            <!--
+
+            name
+            best contact method
+            contact info (phone / email)
+            message
+
+            interview
+                type
+                    in-person
+                    Skype
+                contact to schedule interview
+                    same as above
+                    new space for new name
+                    new space for new contact method
+                    new space for new contact info (phone / email)
+
+            position information
+                info about the roles/ responsiblities
+                remote
+                    true
+                    false
+                    both
+                full-time, part-time, project
+                compensation
+                    slider
+                    don’t know yet
+
+
+
+
+            -->
         </div>
         <div id="connectFormSection" ng-show="interviewConnectSetting == 'connect'">
             <p>This will be the connect form. </p>

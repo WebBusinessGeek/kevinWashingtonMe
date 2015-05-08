@@ -24,36 +24,18 @@
     <favorites_list name="kevinWashingtonMe" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.68432206">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="conversion.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/conversion.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5508982" vertical-offset="507" max-vertical-offset="1175">
-                  <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="customRecruitmentConversion.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customRecruitmentConversion.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.38088644" vertical-offset="0" max-vertical-offset="722">
-                  <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="conversion.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/conversion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.81287426" vertical-offset="432" max-vertical-offset="1950">
+              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -62,7 +44,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="24" />
     <option name="y" value="22" />
-    <option name="width" value="1416" />
+    <option name="width" value="1047" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -291,7 +273,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="22" width="1416" height="744" extended-state="0" />
+    <frame x="24" y="22" width="1047" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -701,16 +683,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customRecruitmentConversion.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38088644" vertical-offset="0" max-vertical-offset="722">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.41551247" vertical-offset="0" max-vertical-offset="722">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/conversion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5508982" vertical-offset="507" max-vertical-offset="1175">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.81287426" vertical-offset="432" max-vertical-offset="1950">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
           <folding />
         </state>
       </provider>
