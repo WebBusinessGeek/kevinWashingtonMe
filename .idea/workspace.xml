@@ -30,8 +30,8 @@
           <file leaf-file-name="conversion.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/conversion.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0748503" vertical-offset="0" max-vertical-offset="1000">
-                  <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+                <state vertical-scroll-proportion="0.2994012" vertical-offset="400" max-vertical-offset="1150">
+                  <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
                   <folding />
                 </state>
               </provider>
@@ -41,11 +41,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="conversion.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/app/conversion.js">
+          <file leaf-file-name="customRecruitmentConversion.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customRecruitmentConversion.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.1731302" vertical-offset="0" max-vertical-offset="722">
-                  <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.38088644" vertical-offset="0" max-vertical-offset="722">
+                  <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -134,24 +134,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinWashingtonMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinWashingtonMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="angular-bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -175,6 +157,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bootstrap-twit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinWashingtonMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinWashingtonMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-twit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,13 +355,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Providers/RouteListServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.107913665" vertical-offset="0" max-vertical-offset="695">
@@ -668,16 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customRecruitmentConversion.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13850416" vertical-offset="0" max-vertical-offset="722">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding>
-            <marker date="1431042863000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/demonstration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6115108" vertical-offset="275" max-vertical-offset="5425">
@@ -686,66 +677,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/conversion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6232687" vertical-offset="0" max-vertical-offset="722">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <marker date="1431127251000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1431127251000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431127251000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431127251000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431127251000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42446044" vertical-offset="5630" max-vertical-offset="6375">
-          <caret line="237" column="32" selection-start-line="237" selection-start-column="32" selection-end-line="237" selection-end-column="32" />
-          <folding>
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431126992000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="0.50359714" vertical-offset="225" max-vertical-offset="6375">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/conversion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0748503" vertical-offset="0" max-vertical-offset="1000">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.2994012" vertical-offset="400" max-vertical-offset="1150">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/conversion.js">
+    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customRecruitmentConversion.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1731302" vertical-offset="0" max-vertical-offset="722">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.38088644" vertical-offset="0" max-vertical-offset="722">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding />
         </state>
       </provider>

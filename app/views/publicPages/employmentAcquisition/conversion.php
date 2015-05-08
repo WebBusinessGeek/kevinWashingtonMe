@@ -1,6 +1,6 @@
 <div id="recruitmentConversionBody" class="text-center" ng-controller="conversionController">
 
-    
+
     <div id="recruitmentConversionContentHeader">
         <div>
             <h1>Let's Talk!</h1>
@@ -22,7 +22,7 @@
             <div class="interviewOrConnectSection">
                 <div class="slider-toggle left">
                     <span class="label">Set up an interview</span>
-              <span ng-click="interviewOrConnectSwitch()" class="slider">
+              <span ng-click="interviewConnectSettingSwitch()" class="slider">
                     <span class="toggle">
                         <span class="grip"></span>
                     </span>
@@ -30,6 +30,12 @@
                     <span class="label">Connect with me</span>
                 </div>
             </div>
+        </div>
+        <div id="interviewFormSection" ng-show="interviewConnectSetting == 'interview'">
+            <p>This will be the interview form.</p>
+        </div>
+        <div id="connectFormSection" ng-show="interviewConnectSetting == 'connect'">
+            <p>This will be the connect form. </p>
         </div>
     </div>
 </div>
