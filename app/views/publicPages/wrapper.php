@@ -235,8 +235,10 @@
     <script src="/app/tmi.js"></script>
     <script src="/app/resume.js"></script>
     <script src="/app/demonstration.js"></script>
+    <script src="/app/conversion.js"></script>
 
-    <script src="/angular-bootstrap/bootstrap-twit/js/customDemonstrationContent.js"></script>
+
+<script src="/angular-bootstrap/bootstrap-twit/js/customDemonstrationContent.js"></script>
 
 
 
