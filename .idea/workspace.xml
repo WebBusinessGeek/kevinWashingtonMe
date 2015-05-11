@@ -24,36 +24,18 @@
     <favorites_list name="kevinWashingtonMe" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.34251413">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="customRecruitmentConversion.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customRecruitmentConversion.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.83102494" vertical-offset="0" max-vertical-offset="775">
-                  <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="conversion.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/conversion.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.68836564" vertical-offset="3578" max-vertical-offset="4550">
-                  <caret line="163" column="105" selection-start-line="163" selection-start-column="105" selection-end-line="163" selection-end-column="105" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="engagement.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/engagement.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6115108" vertical-offset="8200" max-vertical-offset="15075">
+              <caret line="345" column="39" selection-start-line="345" selection-start-column="39" selection-end-line="345" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -630,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/engagement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="17.690647" vertical-offset="2530" max-vertical-offset="15075">
-          <caret line="593" column="45" selection-start-line="593" selection-start-column="45" selection-end-line="593" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customCover.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.800554" vertical-offset="1300" max-vertical-offset="3350">
@@ -779,8 +754,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/conversion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68836564" vertical-offset="3578" max-vertical-offset="4550">
-          <caret line="163" column="105" selection-start-line="163" selection-start-column="105" selection-end-line="163" selection-end-column="105" />
+        <state vertical-scroll-proportion="0.8268698" vertical-offset="3578" max-vertical-offset="4550">
+          <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -789,6 +764,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.83102494" vertical-offset="0" max-vertical-offset="775">
           <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <marker date="1431386292000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431386292000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431386292000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431386292000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431386292000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431386292000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/engagement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6115108" vertical-offset="8200" max-vertical-offset="15075">
+          <caret line="345" column="39" selection-start-line="345" selection-start-column="39" selection-end-line="345" selection-end-column="39" />
           <folding />
         </state>
       </provider>

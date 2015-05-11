@@ -98,7 +98,7 @@
                     <h4>How to Spot it?</h4>
                     <p>
                         How do you spot a process optimizer? Ask them.
-                        Give them a fictions or actual bottleneck in a process and ask them how they would fix it.
+                        Give them a fictitious problem or an actual bottleneck in one of your processes to see how they would fix it.
                         You may get some good answers, you may not.
                         What you are really looking for is the steps they took to get there.
                         Good optimizers take time to understand what the issue is by gathering as much information as possible.
@@ -151,7 +151,7 @@
                 <div class="articleSpotSection">
                     <h4>How to Spot it?</h4>
                     <p>
-                        When interviewing candidates who will be responsible for helping your company develop objectives learn about their process.
+                        When you are interviewing candidates who will be responsible for helping your company develop objectives, take time to learn about their process.
                         Smart objectives should always start at the company level.
                         Your looking for candidates who processes start with the performance, goals, or needs of the company.
                     </p>
@@ -160,7 +160,7 @@
                     <h4>Don't be fooled!</h4>
                     <p>
                         Don’t be fooled by candidates who’s goals only include generating traffic, or getting media attention.
-                        While additional traffic and attention for your business may be good, it may be an indicator that a candidate may not possess the abilities needed to set and achieve relevant goals for your business.
+                        While additional traffic and attention for your business may be good, it may be an indicator that a candidate may not possess the abilities needed to set and achieve meaningful goals for your business.
                     </p>
                 </div>
             </div>
@@ -194,7 +194,7 @@
                 <div class="articleBenefitSection">
                     <h4>Benefits to your business:</h4>
                     <p>
-                        With someone with this trait on board your company will become more likely to achieve its goals.
+                        With someone with this trait on the team, your company will become more likely to achieve its goals.
                         Problem solvers are usually people who enjoy - and are motivated by - a challenge.
                         Challenging these individuals to rise to heights for your business is a win win.
                     </p>
@@ -212,7 +212,7 @@
                     <h4>Don't be fooled!</h4>
                     <p>
                         Don’t misinterpret vision as innovation.
-                        Vision is the sense of problem solving is more long term and impractical at the moment.
+                        Vision in the domain of problem solving is more long term and could be defined as 'impractical at the moment'.
                         While its nothing wrong with having vision, good problem solvers are able to execute within a timely manner.
                     </p>
                 </div>
@@ -248,7 +248,7 @@
                     <h4>Benefits to your business:</h4>
                     <p>
                         The benefits to your business is not only the ability to delegate, but a trust that delegated items will be managed correctly.
-                        With this capability the business becomes more effective as its ability to accomplish important tasks beings to scale.
+                        With this capability the business becomes more effective as its ability to accomplish important tasks begins to scale.
                     </p>
                 </div>
                 <div class="articleSpotSection">
@@ -296,18 +296,18 @@
                 <div class="articleBenefitSection">
                     <h4>Benefits to your business:</h4>
                     <p>
-                        Having team members who are great at self management promotes healthy management.
-                        This healthy management will include ensuring team members know their objectives and deadlines, and remaining available to help remove any bottlenecks that arise.
+                        Having team members who are great at self management promotes healthy a healthy management ecosystem within your business.
+                        This healthy management will allow leaders to simply ensure team members know their objectives and deadlines, and remaining available to help remove any bottlenecks that arise.
                     </p>
                 </div>
                 <div class="articleSpotSection">
                     <h4>How to Spot it?</h4>
                     <p>
                         Two things to look for when identifying good self managers are any skills acquired independently, or impressive results when managing others.
-                        Acquiring skills independently (like learning to code, or becoming Google Analytics certified) takes many qualities that are relevant to self management.
+                        Acquiring skills independently (like learning to code) takes many qualities that are relevant to self management.
                         Those include dedication, discipline, and self accountability.
                         As for individuals who are successful when managing others, this is an indicator they may be organized, and punctual.
-                        Qualities you expect in a good self manager.
+                        All qualities you expect in a good self manager.
                     </p>
                 </div>
                 <div class="articleFoolSection">
@@ -343,7 +343,7 @@
                     <h4>What is this trait?</h4>
                     <p>
                         Individuals with this trait are able to do two things.
-                        The first things is being able to draw insights from business data.
+                        The first thing is being able to draw insights from business data.
                         The second is having the ability to develop actionable steps form quantified business processes.
                     </p>
                 </div>
