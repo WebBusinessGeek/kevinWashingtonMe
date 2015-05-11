@@ -3,6 +3,17 @@ angular.module('app')
 
     .controller('conversionController', ['$scope', '$http', function($scope, $http)
     {
+        $scope.currentUrl = window.location.pathname;
+
+        if($scope.currentUrl == '/recruitment/1/lets-work-together')
+        {
+            $scope.nextUrl = '/recruitment/1/thank-you';
+        }
+        else
+        {
+           $scope.nextUrl = '/recruitment/2/thank-you';
+        }
+
         $scope.hidePrivateData = true;
         $scope.compensationRange = 60000;
 
@@ -60,7 +71,7 @@ angular.module('app')
             $http.post('/api.v1/connect', data).
                 success(function(data, status,headers,config) {
                     $scope.message = data;
-                    console.log(data);
+                    window.location.assign($scope.nextUrl);
                 }).
                 error(function (data, status,headers,config) {
                     $scope.error = data;
@@ -82,7 +93,7 @@ angular.module('app')
             $http.post('/api.v1/connect', data).
                 success(function(data, status,headers,config) {
                     $scope.message = data;
-                    console.log(data);
+                    window.location.assign($scope.nextUrl);
                 }).
                 error(function (data, status,headers,config) {
                     $scope.error = data;

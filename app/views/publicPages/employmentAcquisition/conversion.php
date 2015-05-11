@@ -1,6 +1,5 @@
 <div id="recruitmentConversionBody" class="text-center" ng-controller="conversionController">
 
-
     <div id="recruitmentConversionContentHeader">
         <div>
             <h1>Let's Talk!</h1>
