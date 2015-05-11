@@ -352,7 +352,7 @@
                     <p>
                         The benefits a data oriented individual brings to a business includes better decision making and acute focus.
                         Smarter decisions are made when steps are taken based on actual business performance.
-                        In addition being data informed will allow a business to keep focused on its critical needs versus arbitrary ‘gut feelings’ from those in charge.
+                        In addition, being data informed will allow a business to keep focused on its critical needs versus arbitrary ‘gut feelings’.
                     </p>
                 </div>
                 <div class="articleSpotSection">
@@ -395,21 +395,19 @@
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
-                        This is a trait is the ability to quantify the ROI of every action taken by a business.
+                        This trait is the ability to quantify the ROI of most actions taken by a business.
                     </p>
                 </div>
                 <div class="articleBenefitSection">
                     <h4>Benefits to your business:</h4>
                     <p>
-                        Individuals with this trait will bring a ‘owner mentality’ to your business.
-                        When your team begins to think like owners they start prioritizing the company’s health and using it as a primary KPI when making decisions and gauging performance.
+                        Individuals with this trait will bring an ‘owner mentality’ to your business.
+                        When your team begins to think like owners they start prioritizing the company’s health. This includes using profit and return-on-investment as primary KPI's when making decisions and gauging performance.
                     </p>
                 </div>
                 <div class="articleSpotSection">
                     <h4>How to Spot it?</h4>
                     <p>
-                        Here you are looking for a quality that is sometimes neglected in marketing conversations.
-                        Patience.
                         Marketers who prioritize ROI will typically approach new initiatives the same way.
                         By testing, proving assumptions, fixing inaccuracies, then scaling.
                         Ask candidates how they would go about launching new marketing initiatives, or how they would begin marketing for your business specifically.
@@ -450,7 +448,7 @@
                     <p>
                         This is another two part trait.
                         First there is the ability to convert prospective leads into paying customers.
-                        And the follow up is the ability to develop and refined sales processes.
+                        And the follow up is the ability to develop and refine sales processes.
                     </p>
                 </div>
                 <div class="articleBenefitSection">
@@ -471,10 +469,9 @@
                 <div class="articleFoolSection">
                     <h4>Don't be fooled!</h4>
                     <p>
-                        Extensive experience in sales does not automatically equate to proficiency nor transferability of a candidate’s skill level in selling your products.
-                        There are many mildly successful sales people who continue to stay in the field.
-                        As there are successful car salesmen who may not be able to sell a CRM tool.
-                        When gauging a candidate’s sales skills look at the potential they have to sell your product.
+                        Extensive experience in sales does not automatically equate to proficiency in selling your products.
+                        For example, some successful car salesmen may have problems selling a CRM tool.
+                        When gauging a candidate’s sales skills look at the potential they have to sell your specific product.
                     </p>
                 </div>
             </div>
@@ -507,8 +504,8 @@
                     <h4>Benefits to your business:</h4>
                     <p>
                         These days marketing is very tech heavy.
-                        Having a marketing team that is able to design its own landing pages, or develop custom widgets for link building is invaluable.
-                        Independent marketing teams will mean less bottle necks, faster engagement, and more effective marketing.
+                        Having a marketing team that is able to design its own landing pages, or quickly develop widgets for link bait is invaluable.
+                        Tech independent marketing teams will mean less bottle necks, faster engagement, and more effective marketing.
                     </p>
                 </div>
                 <div class="articleSpotSection">
