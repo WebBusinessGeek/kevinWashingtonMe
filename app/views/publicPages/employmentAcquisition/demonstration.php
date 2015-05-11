@@ -44,6 +44,8 @@
         <div ng-show="VTSetting == 'transcript'" class="demoTranscriptSection col-lg-8 col-lg-offset-2">
             <div id="demoTranscriptHeader">
                 <h5>Transcript of the video:</h5>
+            </div>
+            <div id="demoTranscriptIntro">
                 <p>Hi, I'm Kevin.</p>
                 <p>Im a web developer and customer acquisition specialist focusing primarily on web based acquisition.</p>
                 <p>
@@ -60,9 +62,10 @@
                     So to keep this short video short, let's get started!
                 </p>
             </div>
-            <div id="demoTranscriptQuestion1">
+            <div id="demoTranscriptQuestion1" class="demoQuestion">
                 <h3>Question 1</h3>
-                <h4>What are you looking for, and hoping you don't find, in your next position?</h4>
+                <h4>Q: What are you looking for, and hoping you don't find, in your next position?</h4>
+                <p class="demoAnswerGuide">Answer:</p>
                 <p>
                     The three main things I am looking for in my next position are great leadership, good returns,
                     and opportunities for self improvement.
@@ -85,9 +88,10 @@
                     I hope I can avoid companies with poor leadership,  a lack of learning opportunities, and where employees are not valued fairly.
                 </p>
             </div>
-            <div id="demoTranscriptQuestion2">
+            <div id="demoTranscriptQuestion2" class="demoQuestion">
                 <h3>Question 2</h3>
-                <h4>If you can build and sell web solutions, why haven't you build your own product?</h4>
+                <h4>Q: If you can build and sell web solutions, why haven't you built your own product?</h4>
+                <p class="demoAnswerGuide">Answer:</p>
                 <p>
                     To be honest the reason I'm looking for a position rather than starting my own company is patience.
                 </p>
@@ -100,18 +104,19 @@
                     and shortening my development time. I would also like to become a better designer as this is one of my weaker points.
                 </p>
                 <p>
-                    There are alos a few things I would like to learn before rolling out my own software based business like various security protocols
-                    and getting comfortable with penetration testing.
+                    There are also a few things I would like to learn before rolling out my own software based business such as various security protocols
+                    and penetration testing.
                 </p>
                 <p>
-                    Lastly the thing I absolutely don't want to start my company without is a large prospect pool to funnel into paying customers.
+                    Lastly the thing I absolutely don't want to start my company without is a large prospect pool I can turn into paying customers.
                     A common cause of business failure isn't a bad product but the inability to find and sell new customers.
-                    I don't want to have this problem so I'm looking to build a pool of prospects until I feel I'm ready.
+                    I don't want to have this problem so I don't mind waiting until I feel I'm 100% ready.
                 </p>
             </div>
-            <div id="demoTranscriptQuestion3">
+            <div id="demoTranscriptQuestion3" class="demoQuestion">
                 <h3>Question 3</h3>
-                <h4>How have you helped other businesses get more customers, and how do you plan to generate new business for mine?</h4>
+                <h4>Q: How have you helped other businesses get more customers, and how do you plan to generate new business for mine?</h4>
+                <p class="demoAnswerGuide">Answer:</p>
                 <p>
                     The last company I worked with in a growth capacity was karmaCRM.
                     karmaCRM is a business that provides web based CRM tools to small and medium sized businesses.
@@ -145,9 +150,10 @@
                     and improving business analytics to increase the ROI of our marketing spend.
                 </p>
             </div>
-            <div id="demoTranscriptQuestion4">
+            <div id="demoTranscriptQuestion4" class="demoQuestion">
                 <h3>Question 4</h3>
-                <h4>What is your biggest strength and why?</h4>
+                <h4>Q: What is your biggest strength and why?</h4>
+                <p class="demoAnswerGuide">Answer:</p>
                 <p>
                     To be honest I consider my biggest strength my faith.
                     The reason why is because many of my characteristics and values stem from that.
@@ -160,9 +166,10 @@
                     that I consider to be more valuable than all the knowledge, skills, and experience I have collected as by-products.
                 </p>
             </div>
-            <div id="demoTranscriptQuestion5">
+            <div id="demoTranscriptQuestion5" class="demoQuestion">
                 <h3>Question 5</h3>
-                <h4>In your opinion, what's the three most important things in business?</h4>
+                <h4>Q: In your opinion, what's the three most important things in business?</h4>
+                <p class="demoAnswerGuide">Answer:</p>
                 <p>
                     To me, it really depends on the stage of the business.
                 </p>
@@ -171,8 +178,8 @@
                     strong team of founders, innovative products, and of course paying customers.
                 </p>
                 <p>
-                    However for a business that has already validated is product with sales of its product, the critical pieces should change.
-                    To me they would be clear and meaningful objectives, proper management of resources (both money and people), and
+                    However for a business that has already validated is product with significant sales volume, the critical pieces should change.
+                    To me they would become clear and meaningful objectives, proper management of resources (both money and people), and
                     the constant optimization and management of all the business's processes.
                 </p>
             </div>

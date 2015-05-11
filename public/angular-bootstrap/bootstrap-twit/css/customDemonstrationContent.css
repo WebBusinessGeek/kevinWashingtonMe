@@ -128,3 +128,15 @@
 .demoTranscriptSection > div > p {
     font-size: 22px;
 }
+
+#demoTranscriptIntro {
+    margin-top: 50px;
+}
+
+.demoQuestion > h4 {
+    font-size:20px;
+}
+
+.demoAnswerGuide {
+    font-size: 32px;
+}
