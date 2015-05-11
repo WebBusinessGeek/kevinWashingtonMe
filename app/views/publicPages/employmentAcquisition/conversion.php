@@ -90,8 +90,46 @@
                 </div>
 
                 <div id="positionInformation" ng-show="!interviewContactPersonDifferentValue || interviewContactEmail || interviewContactPhone">
-                    should show if interview person is same.
-                    should also show if interview person is not the same and all information is filled out
+
+                    <div class="form-group">
+                        <label for="companyName">Company Name</label>
+                        <input type="text" id="companyName" class="form-control" ng-model="companyName">
+                    </div>
+                    <div class="form-group">
+                        <label for="companyWebsite">Url</label>
+                        <input type="url" id="companyWebsite" class="form-control" ng-model="companyWebsite">
+                    </div>
+                    <div class="form-group">
+                        <label for="positionInfo">What will be my Roles or Responsibilities?</label>
+                        <textarea class="form-control" id="positionInfo" ng-model="positionInformation"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="remoteOrOffice">Is this position remote or on location?</label>
+                        <select class="form-control" id="remoteOrOffice" ng-model="remoteOrOfficeBased">
+                            <option value="remote">Remote</option>
+                            <option value="office">Office</option>
+                            <option value="optionalBoth">Optional/Both</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="employment">Employment Type</label>
+                        <select class="form-control" id="employment" ng-model="employmentType">
+                            <option value="fullTime">Full-time</option>
+                            <option value="partTime">Part-time</option>
+                            <option value="project">Project based</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="compensation">Estimated Monthly Compensation</label>
+                        <input type="range" id="compensation" min="3000" max="9000" ng-model="compensationRange">
+                        <div ng-show="!compensationRange">
+                            $5000 monthly
+                        </div>
+                        <div ng-show="compensationRange">
+                            ${{compensationRange}} monthly
+                        </div>
+
+                    </div>
                 </div>
 
                 <button type="submit" class="btn btn-default">Submit</button>
@@ -101,16 +139,7 @@
             <!--
 
             position information
-                company
-                info about the roles/ responsiblities
-                remote
-                    true
-                    false
-                    both
-                type
-                    full time
-                    part time
-                    project
+
                 compensation
                     slider
                     don’t know yet

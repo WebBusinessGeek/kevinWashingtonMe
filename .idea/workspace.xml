@@ -28,8 +28,8 @@
       <file leaf-file-name="conversion.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/conversion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64028776" vertical-offset="1830" max-vertical-offset="3300">
-              <caret line="91" column="142" selection-start-line="91" selection-start-column="142" selection-end-line="91" selection-end-column="142" />
+            <state vertical-scroll-proportion="0.352518" vertical-offset="2805" max-vertical-offset="4025">
+              <caret line="122" column="60" selection-start-line="122" selection-start-column="60" selection-end-line="122" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -690,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/conversion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64028776" vertical-offset="1830" max-vertical-offset="3300">
-          <caret line="91" column="142" selection-start-line="91" selection-start-column="142" selection-end-line="91" selection-end-column="142" />
+        <state vertical-scroll-proportion="0.352518" vertical-offset="2805" max-vertical-offset="4025">
+          <caret line="122" column="60" selection-start-line="122" selection-start-column="60" selection-end-line="122" selection-end-column="60" />
           <folding />
         </state>
       </provider>
