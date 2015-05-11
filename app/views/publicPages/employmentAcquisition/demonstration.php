@@ -202,11 +202,16 @@
     </div>
 
 
-    <div class="demoCallToActionSection">
-        <p>Think I can make a good addition to your team?</p>
-        <a id="demoCTA" href="{{ctaLink}}" class="btn btn-warning btn-lg">Let's set up an interview</a>
-        <br/>
-        <a href="{{ctaLink}}">Or get in contact with me</a>
+    <div id="demoCallToActionSection">
+        <div id="demoCTAHeadline" class="col-lg-8 col-lg-offset-2">
+            <p>Think I can be a good addition to your team?</p>
+        </div>
+        <div id="demoCTA">
+            <a  href="{{ctaLink}}" class="btn btn-warning btn-lg">Let's set up an interview</a>
+        </div>
+        <div id="demoSubCTA">
+            <a href="{{ctaLink}}">Or get in contact with me</a>
+        </div>
     </div>
 
 

@@ -34,12 +34,11 @@
     height: 100%;
 }
 
-#demoCTA {
+#demoCTA > a {
     color: #fff;
     text-decoration: none;
     width: 300px;
     margin-top: 20px;
-    margin-bottom: 40px;
 }
 
 
@@ -148,4 +147,14 @@
 
 .demoAnswerGuide {
     font-size: 32px;
+}
+
+#demoCallToActionSection {
+    margin-top: 180px;
+    min-height: 180px;
+}
+
+#demoCTAHeadline > p {
+    font-size: 30px;
+    margin-top: 20px;
 }
