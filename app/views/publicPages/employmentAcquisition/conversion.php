@@ -6,11 +6,11 @@
         </div>
 
         <div>
-            <p>
-                I'm glad you think I could make a good addition to your team.
+            <p class="conversionHeaderText">
+                Glad you think I could make a good addition to your team.
             </p>
-            <p>
-                Looking forward to learning more about your opportunity!
+            <p class="conversionHeaderText">
+                I'm looking forward to learning more about your opportunity!
             </p>
         </div>
 
@@ -29,7 +29,7 @@
         </div>
         <p id="formHelpText">Please fill out this short form and I will plan to get back to you with my availability within 24 hours.</p>
 
-        <div id="interviewFormSection" ng-show="interviewConnectSetting == 'interview'">
+        <div id="interviewFormSection" ng-show="interviewConnectSetting == 'interview'" class="col-lg-8 col-lg-offset-2">
 
             <form>
                 <div id="requesterInformation">
@@ -135,10 +135,10 @@
                     {{ interviewInfo = {'type': interviewTypeValue, 'contactPerson': interviewContactPersonName, 'contactMethod': interviewContactMethodValue, 'email': interviewContactEmail, 'phone': interviewContactPhone} }}
                     {{ positionInfo = {'companyName': companyName, 'income': compensationRange, 'website': companyWebsite, 'info': positionInformation, 'remote': remoteOrOfficeBased, 'type': employmentType} }}
                 </div>
-                <button type="submit" class="btn btn-default" ng-click="submitInterviewRequest(requesterInfo, interviewInfo, positionInfo)">Submit</button>
+                <button type="submit" class="btn btn-warning" ng-click="submitInterviewRequest(requesterInfo, interviewInfo, positionInfo)">Submit</button>
             </form>
         </div>
-        <div id="connectFormSection" ng-show="interviewConnectSetting == 'connect'">
+        <div id="connectFormSection" ng-show="interviewConnectSetting == 'connect'" class="col-lg-8 col-lg-offset-2">
             <form>
                 <div id="requesterInformation">
                     <div class="form-group">
@@ -161,7 +161,7 @@
                         <input type="text" class="form-control" id="phone" placeholder="example - 610-444-4444" ng-model="connectPhone">
                     </div>
                     <div class="form-group">
-                        <label for="connectMessage">How can I help?</label>
+                        <label for="connectMessage">Please help me understand the purpose of your contact</label>
                         <textarea class="form-control" id="connectMessage" ng-model="connectMessage"></textarea>
                     </div>
                 </div>
@@ -169,7 +169,7 @@
                 <div ng-hide="hidePrivateData">
                     {{ connectInfo = {'name': connectName, 'email': connectEmail, 'phone':connectPhone,'contactMethod':connectMethodValue, 'message': connectMessage } }}
                 </div>
-                    <button type="submit" class="btn btn-default" ng-click="submitConnectRequest(connectInfo)">Submit</button>
+                    <button type="submit" class="btn btn-warning" ng-click="submitConnectRequest(connectInfo)">Submit</button>
 
             </form>
         </div>
