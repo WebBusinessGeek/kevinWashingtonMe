@@ -51,10 +51,10 @@
                     and also as an opportunity to share what I am looking for in my next company.
                 </p>
                 <p>
-                    In order to do this I thought of 5 of the toughest interview questions I could think of, and answered them for you.
+                    In order to do this I ranked 5 of the toughest interview questions I could think of, and answered them for you.
                 </p>
                 <p>
-                    Keep in mind that you cna click the button right above me to switch from the video to the transcript and quickly browse the questions and answer groups.
+                    Keep in mind that you can click the button right above me to switch from this video to the transcript version and quickly browse through the questions.
                 </p>
                 <p>
                     So to keep this short video short, let's get started!
@@ -76,7 +76,7 @@
                     I would like to be able to grow with the business and be motivated to help make it successful.
                 </p>
                 <p>
-                    And lastly, I'm on the look out for positions where learning and self-improvement is cultivated.
+                    Lastly I'm on the look out for positions where learning and self-improvement is cultivated.
                     Whether this is through interactions with peers, or though external resources - striving to constantly
                     improve is something I take seriously and am looking for in my next company.
                 </p>
