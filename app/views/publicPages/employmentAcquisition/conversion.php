@@ -87,29 +87,18 @@
                             <input type="text" class="form-control" id="interviewPhone" placeholder="example - 610-444-4444" ng-model="interviewContactPhone">
                         </div>
                     </div>
-
                 </div>
 
-                <div id="positionInformation">
-
+                <div id="positionInformation" ng-show="!interviewContactPersonDifferentValue || interviewContactEmail || interviewContactPhone">
+                    should show if interview person is same.
+                    should also show if interview person is not the same and all information is filled out
                 </div>
 
                 <button type="submit" class="btn btn-default">Submit</button>
-                {{interviewContactPersonName}}
-                {{interviewContactMethodValue}}
-                {{interviewContactEmail}}
-                {{interviewContactPhone}}
+
             </form>
 
             <!--
-
-            interview
-                contact person to schedule interview
-                    same as above
-                    or
-                    new space for new name
-                    new space for new contact method
-                    new space for new contact info (phone / email)
 
             position information
                 company
