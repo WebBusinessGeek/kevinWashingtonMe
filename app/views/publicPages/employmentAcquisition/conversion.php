@@ -158,10 +158,14 @@
                         <label for="phone">Phone</label>
                         <input type="text" class="form-control" id="phone" placeholder="example - 610-444-4444" ng-model="connectPhone">
                     </div>
+                    <div class="form-group">
+                        <label for="connectMessage">How can I help?</label>
+                        <textarea class="form-control" id="connectMessage" ng-model="connectMessage"></textarea>
+                    </div>
                 </div>
 
                 <div ng-hide="hidePrivateData">
-                    {{ connectInfo = {'prop1':connectPhone,'prop2':connectMethodValue } }}
+                    {{ connectInfo = {'name': connectName, 'email': connectEmail, 'phone':connectPhone,'contactMethod':connectMethodValue, 'message': connectMessage } }}
                 </div>
                     <button type="submit" class="btn btn-default" ng-click="submitConnectRequest(connectInfo)">Submit</button>
 

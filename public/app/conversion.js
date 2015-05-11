@@ -1,7 +1,7 @@
 
 angular.module('app')
 
-    .controller('conversionController', ['$scope', function($scope)
+    .controller('conversionController', ['$scope', '$http', function($scope, $http)
     {
         $scope.hidePrivateData = true;
 
@@ -17,10 +17,26 @@ angular.module('app')
             {
                 $scope.interviewConnectSetting = 'interview';
             }
-        }
+        };
 
-        $scope.submitConnectRequest = function(arg)
+        $scope.submitConnectRequest = function(connectContainer)
         {
-            console.log(arg);
+            var data = {
+                name : connectContainer.name,
+                body : connectContainer.message,
+                contactMethod : connectContainer.contactMethod,
+                email : connectContainer.email,
+                phone : connectContainer.phone
+            };
+
+            $http.post('/api.v1/connect', data).
+                success(function(data, status,headers,config) {
+                    $scope.message = data;
+                    console.log(data);
+                }).
+                error(function (data, status,headers,config) {
+                    $scope.error = data;
+                });
+
         }
     }]);
