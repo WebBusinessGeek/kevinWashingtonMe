@@ -123,9 +123,7 @@
                     <div class="form-group">
                         <label for="compensation">Estimated Yearly Compensation</label>
                         <input type="range" id="compensation" min="30000" max="90000" step="1000" ng-model="compensationRange">
-                        <div ng-show="!compensationRange">
-                            $60,000.00 yearly
-                        </div>
+
                         <div ng-show="compensationRange">
                             {{compensationRange | currency}} yearly
                         </div>
@@ -133,7 +131,12 @@
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-default" ng-click="submitInterviewRequest()">Submit</button>
+                <div ng-hide="hidePrivateData">
+                    {{ requesterInfo = {'name': contactName, 'email': contactEmail, 'phone':contactPhone,'contactMethod':contactMethodValue } }}
+                    {{ interviewInfo = {'type': interviewTypeValue, 'contactPerson': interviewContactPersonName, 'contactMethod': interviewContactMethodValue, 'email': interviewContactEmail, 'phone': interviewContactPhone} }}
+                    {{ positionInfo = {'companyName': companyName, 'income': compensationRange, 'website': companyWebsite, 'info': positionInformation, 'remote': remoteOrOfficeBased, 'type': employmentType} }}
+                </div>
+                <button type="submit" class="btn btn-default" ng-click="submitInterviewRequest(requesterInfo, interviewInfo, positionInfo)">Submit</button>
             </form>
         </div>
         <div id="connectFormSection" ng-show="interviewConnectSetting == 'connect'">
