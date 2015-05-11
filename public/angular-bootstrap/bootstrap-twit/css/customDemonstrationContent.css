@@ -137,6 +137,15 @@
     font-size:20px;
 }
 
+.demoQuestion {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+#demoTranscriptQuestion1 {
+    margin-top: 45px;
+}
+
 .demoAnswerGuide {
     font-size: 32px;
 }

@@ -30,8 +30,8 @@
           <file leaf-file-name="customDemonstrationContent.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customDemonstrationContent.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.9307479" vertical-offset="2828" max-vertical-offset="3675">
-                  <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.9307479" vertical-offset="2953" max-vertical-offset="3900">
+                  <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -44,7 +44,7 @@
           <file leaf-file-name="demonstration.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/demonstration.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.03462604" vertical-offset="4250" max-vertical-offset="5600">
+                <state vertical-scroll-proportion="3.4626038" vertical-offset="1775" max-vertical-offset="5600">
                   <caret line="171" column="54" selection-start-line="171" selection-start-column="54" selection-end-line="171" selection-end-column="54" />
                   <folding />
                 </state>
@@ -732,18 +732,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customDemonstrationContent.css">
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/demonstration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9307479" vertical-offset="2828" max-vertical-offset="3675">
-          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+        <state vertical-scroll-proportion="3.4626038" vertical-offset="1775" max-vertical-offset="5600">
+          <caret line="171" column="54" selection-start-line="171" selection-start-column="54" selection-end-line="171" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/demonstration.php">
+    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customDemonstrationContent.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03462604" vertical-offset="4250" max-vertical-offset="5600">
-          <caret line="171" column="54" selection-start-line="171" selection-start-column="54" selection-end-line="171" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.9307479" vertical-offset="2953" max-vertical-offset="3900">
+          <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
           <folding />
         </state>
       </provider>
