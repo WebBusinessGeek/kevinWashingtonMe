@@ -59,7 +59,7 @@
                         <label for="interviewType">Interview Type</label>
                         <select class="form-control" id="interviewType" ng-model="interviewTypeValue">
                             <option value="video">Video (Skype, Google Hangouts, etc.)</option>
-                            <option value="person">In Person (Reasonably close to Philadelphia only)</option>
+                            <option value="person">In Person (Reasonably close to Philadelphia please.)</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -93,11 +93,11 @@
 
                     <div class="form-group">
                         <label for="companyName">Company Name</label>
-                        <input type="text" id="companyName" class="form-control" ng-model="companyName">
+                        <input type="text" id="companyName" class="form-control" ng-model="companyName" placeholder="example - Google">
                     </div>
                     <div class="form-group">
                         <label for="companyWebsite">Url</label>
-                        <input type="url" id="companyWebsite" class="form-control" ng-model="companyWebsite">
+                        <input type="text" id="companyWebsite" class="form-control" ng-model="companyWebsite" placeholder="http://example.com">
                     </div>
                     <div class="form-group">
                         <label for="positionInfo">What will be my Roles or Responsibilities?</label>
@@ -135,19 +135,6 @@
                 <button type="submit" class="btn btn-default">Submit</button>
 
             </form>
-
-            <!--
-
-            position information
-
-                compensation
-                    slider
-                    don’t know yet
-
-
-
-
-            -->
         </div>
         <div id="connectFormSection" ng-show="interviewConnectSetting == 'connect'">
             <p>This will be the connect form. </p>
