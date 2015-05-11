@@ -120,13 +120,13 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="compensation">Estimated Monthly Compensation</label>
-                        <input type="range" id="compensation" min="3000" max="9000" ng-model="compensationRange">
+                        <label for="compensation">Estimated Yearly Compensation</label>
+                        <input type="range" id="compensation" min="30000" max="90000" step="1000" ng-model="compensationRange">
                         <div ng-show="!compensationRange">
-                            $5000 monthly
+                            $60,000.00 yearly
                         </div>
                         <div ng-show="compensationRange">
-                            ${{compensationRange}} monthly
+                            {{compensationRange | currency}} yearly
                         </div>
 
                     </div>
