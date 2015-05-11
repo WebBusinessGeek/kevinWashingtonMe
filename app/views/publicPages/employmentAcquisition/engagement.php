@@ -26,18 +26,17 @@
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
-                        Its really two parts to this trait.
-                        The first is being able to understand all the problems your product or service seeks to solve.
-                        And the second is understanding the various groups likely to experience those problems.
+                        Its two parts to this trait.
+                        The first is being able to understand all the problems your product or service solves.
+                        And the second is fully understanding the various groups likely to experience those problems.
                     </p>
                 </div>
                 <div class="articleBenefitSection">
                     <h4>Benefits to your business:</h4>
                     <p>
-                        The rewards of having members of your marketing team that are knowledgeable about the product and customer includes more effective lead generation.
-                        Having empathetic marketers can lead to better sales copy and more appropriate acquisition strategies.
-                        In addition to more effective traction tactics, you will also reap a more competent sales force.
-                        Having team members that can adequately answer a prospect's questions can help prevent bottlenecks during the sales process.
+                        Having a marketing team that is knowledgeable about the product and customer yields a number of rewards to a business.
+                        Empathetic marketers can develop better sales copy and more appropriate acquisition strategies.
+                        While a more competent sales force can adequately answer product questions and prevent bottlenecks during the sales process.
                     </p>
                 </div>
                 <div class="articleSpotSection">
@@ -548,14 +547,14 @@
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
-                        Candidates with this trait will have the ability to learn new subjects with little to no guidance from management.
+                        Candidates with this trait will have the ability to learn new things with little to no guidance from management.
                     </p>
                 </div>
                 <div class="articleBenefitSection">
                     <h4>Benefits to your business:</h4>
                     <p>
                         As the web develops and new technologies emerge, your team’s ability to stay current will become critical to success.
-                        In addition to being 'disrupt-proof’, many of the new knowledge can be repurposed for your business in the form of engaging content, new product features, or commercialized by-products.
+                        In addition to being 'disrupt-proof’, many of this new knowledge can be re-purposed for your business in the form of engaging content, new product features, or commercialized by-products.
                     </p>
                 </div>
                 <div class="articleSpotSection">
@@ -572,7 +571,7 @@
                         Too often you will hear the term ‘hacking’ thrown around in relation to learning.
                         This is not the same as completely understanding a topic.
                         A candidate able to learn a few hacks is not comparative to one who can breakdown a subject into components and fully digest all the dependencies.
-                        You will likely do well with the later.
+                        Your business will likely do well with the later.
                     </p>
                 </div>
             </div>
