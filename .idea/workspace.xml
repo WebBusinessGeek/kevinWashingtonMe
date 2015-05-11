@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="conversion.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/app/conversion.js">
+      <file leaf-file-name="confirmation.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/confirmation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.0083103" vertical-offset="925" max-vertical-offset="2675">
-              <caret line="95" column="59" selection-start-line="95" selection-start-column="59" selection-end-line="95" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.21582733" vertical-offset="0" max-vertical-offset="695">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -70,6 +70,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,6 +171,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-twit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinWashingtonMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinWashingtonMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -194,7 +221,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,7 +300,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26977402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26977402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -329,14 +355,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/conversion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1132" max-vertical-offset="1950">
-          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.107913665" vertical-offset="0" max-vertical-offset="695">
@@ -496,13 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/confirmation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="695">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/SeoPagesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46043167" vertical-offset="830" max-vertical-offset="1525">
@@ -640,6 +651,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61911356" vertical-offset="2553" max-vertical-offset="3375">
           <caret line="120" column="23" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -650,17 +662,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50359714" vertical-offset="225" max-vertical-offset="6375">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customRecruitmentConversion.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55401665" vertical-offset="0" max-vertical-offset="722">
           <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -734,6 +740,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.0083103" vertical-offset="925" max-vertical-offset="2675">
           <caret line="95" column="59" selection-start-line="95" selection-start-column="59" selection-end-line="95" selection-end-column="59" />
+          <folding>
+            <marker date="1431367591000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1431367591000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431367591000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431367591000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431367591000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431367591000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431367591000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431367591000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431367591000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431367591000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431367591000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431367591000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431367591000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431367591000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431367591000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/wrapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4676259" vertical-offset="225" max-vertical-offset="6400">
+          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+          <folding>
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431368451000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customConfirmation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10387812" vertical-offset="0" max-vertical-offset="722">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <marker date="1431368487000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/confirmation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21582733" vertical-offset="0" max-vertical-offset="695">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding />
         </state>
       </provider>
