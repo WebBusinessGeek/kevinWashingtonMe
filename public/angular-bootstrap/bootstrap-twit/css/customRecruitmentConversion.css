@@ -11,3 +11,8 @@
 #interviewFormSection, #connectFormSection {
     margin-top: 140px;
 }
+
+#formHelpText{
+    margin-top: 120px;
+    margin-bottom: -100px;
+}

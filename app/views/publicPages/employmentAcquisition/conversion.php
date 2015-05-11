@@ -28,8 +28,9 @@
                 </div>
             </div>
         </div>
+        <p id="formHelpText">Please fill out this short form and I will plan to get back to you with my availability within 24 hours.</p>
+
         <div id="interviewFormSection" ng-show="interviewConnectSetting == 'interview'">
-            <p>Please fill out this short form and I will plan to get back to you with my availability within 24 hours.</p>
 
             <form>
                 <div id="requesterInformation">
@@ -132,12 +133,39 @@
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-default">Submit</button>
-
+                <button type="submit" class="btn btn-default" ng-click="submitInterviewRequest()">Submit</button>
             </form>
         </div>
         <div id="connectFormSection" ng-show="interviewConnectSetting == 'connect'">
-            <p>This will be the connect form. </p>
+            <form>
+                <div id="requesterInformation">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="example - Carl Winslow" ng-model="connectName">
+                    </div>
+                    <div class="form-group">
+                        <label for="connectMethod">Best Contact Method</label>
+                        <select class="form-control" id="connectMethod"  ng-model="connectMethodValue">
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+                        </select>
+                    </div>
+                    <div class="form-group" ng-show="connectMethodValue == 'email'">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="example - carlWinslow@familymatters.com" ng-model="connectEmail">
+                    </div>
+                    <div class="form-group" ng-show="connectMethodValue == 'phone'">
+                        <label for="phone">Phone</label>
+                        <input type="text" class="form-control" id="phone" placeholder="example - 610-444-4444" ng-model="connectPhone">
+                    </div>
+                </div>
+
+                <div ng-hide="hidePrivateData">
+                    {{ connectInfo = {'prop1':connectPhone,'prop2':connectMethodValue } }}
+                </div>
+                    <button type="submit" class="btn btn-default" ng-click="submitConnectRequest(connectInfo)">Submit</button>
+
+            </form>
         </div>
     </div>
 </div>

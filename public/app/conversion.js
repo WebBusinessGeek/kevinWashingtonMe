@@ -3,6 +3,8 @@ angular.module('app')
 
     .controller('conversionController', ['$scope', function($scope)
     {
+        $scope.hidePrivateData = true;
+
         $scope.interviewConnectSetting = 'interview';
 
         $scope.interviewConnectSettingSwitch = function()
@@ -15,5 +17,10 @@ angular.module('app')
             {
                 $scope.interviewConnectSetting = 'interview';
             }
+        }
+
+        $scope.submitConnectRequest = function(arg)
+        {
+            console.log(arg);
         }
     }]);
