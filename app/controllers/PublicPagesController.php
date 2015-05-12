@@ -272,4 +272,3 @@ class PublicPagesController extends \BaseController {
 
 }
 
-
