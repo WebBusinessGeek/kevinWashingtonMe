@@ -7,6 +7,10 @@
             <h5>Web Developer & Customer Acquisition Specialist</h5>
         </div>
 
+        <div id="resumeCTA">
+            <a href="/recruitment/am-i-a-good-fit" class="btn btn-danger">Am I a good fit for your team?</a>
+        </div>
+
         <div id="resumeIntroGreeting">
             <h5>Hello, I'm Kevin</h5>
             <p>
