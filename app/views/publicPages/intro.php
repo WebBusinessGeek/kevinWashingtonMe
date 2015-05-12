@@ -5,10 +5,10 @@
         <div id="introBackground" class="col-lg-12">
             <div class="center-block" id="introMainImage" ng-mouseenter="changePic()" ng-mouseleave="changePic()">
                 <div ng-show="currentPic == 'original'">
-                    <img class="img-circle img-responsive center-block" src="/assets/selfPictures/intro1.jpg">
+                    <img class="img-circle img-responsive center-block" src="/assets/selfPictures/introMain.jpg">
                 </div>
                 <div ng-show="currentPic == 'funny'">
-                    <img class="img-circle img-responsive center-block" src="/assets/selfPictures/intro2.jpg">
+                    <img class="img-circle img-responsive center-block" src="/assets/selfPictures/introSecondary.jpg">
                 </div>
             </div>
 
