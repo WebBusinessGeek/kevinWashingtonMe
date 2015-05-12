@@ -35,8 +35,15 @@
 
 
 <video autoplay loop muted poster="vid-first-frame.jpg" id="video-bg">
-    <source src="/assets/kevinwashingtonmevideo.mp4" type="video/mp4">
+    <source src="/assets/backgroundVideo.webm" type="video/webm">
+    <source src="/assets/backgroundVideo.mp4" type="video/mp4">
+<!--    <source src="/assets/kevinwashingtonmevideo.webm" type="video/webm">-->
+<!--    <source src="/assets/kevinwashingtonmevideo.mp4" type="video/mp4">-->
+
 </video>
+
+
+
 
 
 <div class="content-section video-section text-center">
@@ -69,10 +76,7 @@
                     <br/><br/><br/><br/>
                     <h1 class="headline">hello, I'm kevin.</h1>
 
-<!--                    <p class="subheadline">I enjoy creating innovative products and growing customer bases.</p>-->
                     <p class="subheadline">I help businesses create innovative products and grow their customer base.</p>
-
-                    <!--                    <a href="/skills" class="btn btn-warning btn-huge-cta ">Let's Work Together</a>-->
                 </div>
             </div>
         </div>

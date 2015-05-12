@@ -19,7 +19,7 @@ body{
 }
 
 .video-section .pattern-overlay {
-    background-color: rgba(71, 71, 71, 0.59);
+    background-color: rgba(71, 71, 71, .70);
     padding: 110px 0 32px;
     min-height: 715px;
 }
