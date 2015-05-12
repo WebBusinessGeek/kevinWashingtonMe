@@ -34,12 +34,11 @@
 <body>
 
 
-<video autoplay loop muted poster="vid-first-frame.jpg" id="video-bg">
+<video autoplay loop muted poster="fixthis.jpg" id="video-bg">
     <source src="/assets/backgroundVideo.webm" type="video/webm">
     <source src="/assets/backgroundVideo.mp4" type="video/mp4">
-<!--    <source src="/assets/kevinwashingtonmevideo.webm" type="video/webm">-->
-<!--    <source src="/assets/kevinwashingtonmevideo.mp4" type="video/mp4">-->
-
+<!--    <source src="/assets/kevinwashingtonmevideo.webm" type="video/webm">
+    <source src="/assets/kevinwashingtonmevideo.mp4" type="video/mp4">-->
 </video>
 
 
