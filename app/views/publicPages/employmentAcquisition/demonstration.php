@@ -33,7 +33,7 @@
     <div class="VTContentSection">
         <div ng-show="VTSetting == 'video'" class="demoVideoSection col-lg-10 col-lg-offset-1">
             <div id="demoVideoContainer">
-                <video muted loop controls>
+                <video loop controls>
                     <source src="/assets/demonstrationVideo.webm" type="video/webm">
                     <source src="/assets/demonstrationVideo.mp4" type="video/mp4">
                     Your browser does not support the video tag.

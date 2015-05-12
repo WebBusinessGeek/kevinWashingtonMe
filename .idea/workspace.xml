@@ -41,11 +41,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="customRecruitmentEngagement.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customRecruitmentEngagement.css">
+          <file leaf-file-name="demonstration.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/demonstration.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.24238227" vertical-offset="0" max-vertical-offset="975">
-                  <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+                <state vertical-scroll-proportion="0.7553957" vertical-offset="350" max-vertical-offset="5725">
+                  <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -588,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/demonstration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7194245" vertical-offset="425" max-vertical-offset="5725">
-          <caret line="37" column="82" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/cover.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.74820143" vertical-offset="430" max-vertical-offset="2350">
@@ -711,6 +704,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24238227" vertical-offset="0" max-vertical-offset="975">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <marker date="1431471479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431471479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431471479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431471479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431471479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431471479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431471479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/demonstration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7553957" vertical-offset="350" max-vertical-offset="5725">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding />
         </state>
       </provider>
