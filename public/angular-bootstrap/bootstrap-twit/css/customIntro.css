@@ -29,3 +29,8 @@
     font-family: 'sacramento', cursive;
     font-size: 48px;
 }
+
+#introMainImage {
+    max-height: 250px;
+    max-width: 250px;
+}
