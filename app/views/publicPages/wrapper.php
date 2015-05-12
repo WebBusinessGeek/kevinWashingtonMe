@@ -223,7 +223,7 @@
 
 
 
-    <script src="/angular-bootstrap/angular.min.js"></script>
+    <script src="public/angular-bootstrap/angular.min.js"></script>
     <script src="/angular-bootstrap/angular-route.min.js"></script>
     <script src="/app/app.js"></script>
     <script src="/app/home.js"></script>
