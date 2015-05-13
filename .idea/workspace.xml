@@ -27,11 +27,12 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="demonstration.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/demonstration.php">
+          <file leaf-file-name="conversion.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/conversion.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.035971224" vertical-offset="675" max-vertical-offset="5725">
-                  <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+                <state vertical-scroll-proportion="0.92805755" vertical-offset="2855" max-vertical-offset="4550">
+                  <caret line="31" column="169" selection-start-line="31" selection-start-column="169" selection-end-line="31" selection-end-column="169" />
+                  <caret line="140" column="165" selection-start-line="140" selection-start-column="165" selection-end-line="140" selection-end-column="165" />
                   <folding />
                 </state>
               </provider>
@@ -41,11 +42,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="customDemonstrationContent.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customDemonstrationContent.css">
+          <file leaf-file-name="customRecruitmentConversion.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customRecruitmentConversion.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5498615" vertical-offset="4028" max-vertical-offset="4750">
-                  <caret line="177" column="1" selection-start-line="177" selection-start-column="1" selection-end-line="177" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.83102494" vertical-offset="0" max-vertical-offset="775">
+                  <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -550,20 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/conversion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8268698" vertical-offset="3578" max-vertical-offset="4550">
-          <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customRecruitmentConversion.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83102494" vertical-offset="0" max-vertical-offset="775">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/PublicPagesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4964029" vertical-offset="6205" max-vertical-offset="6900">
@@ -835,16 +822,126 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/demonstration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.035971224" vertical-offset="675" max-vertical-offset="5725">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding />
+        <state vertical-scroll-proportion="0.2877698" vertical-offset="675" max-vertical-offset="5725">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431531112000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customDemonstrationContent.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5498615" vertical-offset="4028" max-vertical-offset="4750">
-          <caret line="177" column="1" selection-start-line="177" selection-start-column="1" selection-end-line="177" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.30747923" vertical-offset="4028" max-vertical-offset="4750">
+          <caret line="170" column="1" selection-start-line="170" selection-start-column="1" selection-end-line="170" selection-end-column="1" />
+          <folding>
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431531585000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customRecruitmentConversion.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83102494" vertical-offset="0" max-vertical-offset="775">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/conversion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.92805755" vertical-offset="2855" max-vertical-offset="4550">
+          <caret line="31" column="169" selection-start-line="31" selection-start-column="169" selection-end-line="31" selection-end-column="169" />
+          <caret line="140" column="165" selection-start-line="140" selection-start-column="165" selection-end-line="140" selection-end-column="165" />
           <folding />
         </state>
       </provider>

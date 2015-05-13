@@ -29,7 +29,7 @@
         </div>
         <p id="formHelpText">Please fill out this short form and I will plan to get back to you with my availability within 24 hours.</p>
 
-        <div id="interviewFormSection" ng-show="interviewConnectSetting == 'interview'" class="col-lg-8 col-lg-offset-2">
+        <div id="interviewFormSection" ng-show="interviewConnectSetting == 'interview'" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
 
             <form>
                 <div id="requesterInformation">
@@ -138,7 +138,7 @@
                 <button type="submit" class="btn btn-warning" ng-click="submitInterviewRequest(requesterInfo, interviewInfo, positionInfo)">Submit</button>
             </form>
         </div>
-        <div id="connectFormSection" ng-show="interviewConnectSetting == 'connect'" class="col-lg-8 col-lg-offset-2">
+        <div id="connectFormSection" ng-show="interviewConnectSetting == 'connect'" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
             <form>
                 <div id="requesterInformation">
                     <div class="form-group">
