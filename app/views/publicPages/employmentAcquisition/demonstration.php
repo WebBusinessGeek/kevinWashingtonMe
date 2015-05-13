@@ -206,10 +206,10 @@
         <div id="demoCTAHeadline" class="col-lg-8 col-lg-offset-2">
             <p>Think I can be a good addition to your team?</p>
         </div>
-        <div id="demoCTA">
+        <div id="demoCTA" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2" >
             <a  href="{{ctaLink}}" class="btn btn-warning btn-lg">Let's set up an interview</a>
         </div>
-        <div id="demoSubCTA">
+        <div id="demoSubCTA" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
             <a href="{{ctaLink}}">Or get in contact with me</a>
         </div>
     </div>
