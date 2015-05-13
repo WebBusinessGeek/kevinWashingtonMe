@@ -22,7 +22,7 @@
             <div class="contentImg col-lg-12">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
-            <div class="contentSection col-lg-6 col-lg-offset-3">
+            <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
@@ -77,7 +77,7 @@
             <div class="contentImg col-lg-12">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
-            <div class="contentSection col-lg-6 col-lg-offset-3">
+            <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
@@ -131,7 +131,7 @@
             <div class="contentImg col-lg-12">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
-            <div class="contentSection col-lg-6 col-lg-offset-3">
+            <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
@@ -182,7 +182,7 @@
             <div class="contentImg col-lg-12">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
-            <div class="contentSection col-lg-6 col-lg-offset-3">
+            <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
@@ -235,7 +235,7 @@
             <div class="contentImg col-lg-12">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
-            <div class="contentSection col-lg-6 col-lg-offset-3">
+            <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
@@ -285,7 +285,7 @@
             <div class="contentImg col-lg-12">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
-            <div class="contentSection col-lg-6 col-lg-offset-3">
+            <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
@@ -337,7 +337,7 @@
             <div class="contentImg col-lg-12">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
-            <div class="contentSection col-lg-6 col-lg-offset-3">
+            <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
@@ -390,7 +390,7 @@
             <div class="contentImg col-lg-12">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
-            <div class="contentSection col-lg-6 col-lg-offset-3">
+            <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
@@ -441,7 +441,7 @@
             <div class="contentImg col-lg-12">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
-            <div class="contentSection col-lg-6 col-lg-offset-3">
+            <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
@@ -492,7 +492,7 @@
             <div class="contentImg col-lg-12">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
-            <div class="contentSection col-lg-6 col-lg-offset-3">
+            <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
@@ -543,7 +543,7 @@
             <div class="contentImg col-lg-12">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
             </div>
-            <div class="contentSection col-lg-6 col-lg-offset-3">
+            <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
