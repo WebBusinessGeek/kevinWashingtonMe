@@ -20,7 +20,7 @@
         </div>
         <div class="contentBodySection row">
             <div class="contentImg col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+                <img class="img-circle img-responsive center-block" src="/assets/engagementContentIcons/1.png">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
@@ -75,7 +75,7 @@
         </div>
         <div class="contentBodySection row">
             <div class="contentImg col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+                <img class="img-circle img-responsive center-block" src="/assets/engagementContentIcons/2.png">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
@@ -128,8 +128,8 @@
             </div>
         </div>
         <div class="contentBodySection row">
-            <div class="contentImg col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+            <div id="jpgImage" class="contentImg col-lg-12">
+                <img class="img-circle img-responsive center-block" src="/assets/engagementContentIcons/3.jpg">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
@@ -180,7 +180,7 @@
         </div>
         <div class="contentBodySection row">
             <div class="contentImg col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+                <img class="img-circle img-responsive center-block" src="/assets/engagementContentIcons/4.png">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
@@ -233,7 +233,7 @@
         </div>
         <div class="contentBodySection row">
             <div class="contentImg col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+                <img class="img-circle img-responsive center-block" src="/assets/engagementContentIcons/5.png">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
@@ -283,7 +283,7 @@
         </div>
         <div class="contentBodySection row">
             <div class="contentImg col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+                <img class="img-circle img-responsive center-block" src="/assets/engagementContentIcons/6.png">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
@@ -335,7 +335,7 @@
         </div>
         <div class="contentBodySection row">
             <div class="contentImg col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+                <img class="img-circle img-responsive center-block" src="/assets/engagementContentIcons/7.png">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
@@ -388,7 +388,7 @@
         </div>
         <div class="contentBodySection row">
             <div class="contentImg col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+                <img class="img-circle img-responsive center-block" src="/assets/engagementContentIcons/8.png">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
@@ -439,7 +439,7 @@
         </div>
         <div class="contentBodySection row">
             <div class="contentImg col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+                <img class="img-circle img-responsive center-block" src="/assets/engagementContentIcons/9.png">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
@@ -490,7 +490,7 @@
         </div>
         <div class="contentBodySection row">
             <div class="contentImg col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+                <img class="img-circle img-responsive center-block" src="/assets/engagementContentIcons/10.png">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
@@ -541,7 +541,7 @@
         </div>
         <div class="contentBodySection row">
             <div class="contentImg col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+                <img class="img-circle img-responsive center-block" src="/assets/engagementContentIcons/11.png">
             </div>
             <div class="contentSection col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="articleWhatSection">
