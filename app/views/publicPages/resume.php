@@ -8,7 +8,7 @@
         </div>
 
         <div id="resumeCTA">
-            <a href="/recruitment/am-i-a-good-fit" class="btn btn-danger">Am I a good fit for your team?</a>
+            <a href="/recruitment/am-i-a-good-fit" class="btn btn-danger animated shake">Am I a good fit for your team?</a>
         </div>
 
         <div id="resumeIntroGreeting">
