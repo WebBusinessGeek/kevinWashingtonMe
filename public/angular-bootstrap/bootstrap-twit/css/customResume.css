@@ -159,3 +159,10 @@
         height:1345px;
     }
 }
+
+@media(max-width: 400px)
+{
+    #resumeIntroHeader > img {
+        max-width: 290px;
+    }
+}
