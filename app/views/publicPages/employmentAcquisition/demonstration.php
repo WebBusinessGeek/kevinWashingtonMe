@@ -16,7 +16,7 @@
     </div>
 
 
-    <div class="videoOrTranscriptSection">
+    <div id="VTSwitcher" class="videoOrTranscriptSection">
         <div class="slider-toggle left">
             <span class="label">Video</span>
               <span ng-click="videoTranscriptSwitch()" class="slider">
@@ -30,7 +30,7 @@
     <br/>
 
 
-    <div class="VTContentSection">
+    <div id="VTContentContainer" class="VTContentSection">
         <div ng-show="VTSetting == 'video'" class="demoVideoSection col-lg-10 col-lg-offset-1">
             <div id="demoVideoContainer">
                 <video controls>
