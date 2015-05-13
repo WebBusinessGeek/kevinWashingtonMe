@@ -12,7 +12,7 @@
     <div class="contentSectionWrapper">
         <div class="contentHeaderSection row">
             <div class="numberIcon col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+                <img class="img-circle img-responsive center-block" src="/assets/numberIcons/1.png">
             </div>
             <div class="contentHeading col-lg-12">
                 <h3>Capable of Gaining Intimate Product & User Knowledge.</h3>
@@ -67,7 +67,7 @@
     <div class="contentSectionWrapper">
         <div class="contentHeaderSection row">
             <div class="numberIcon col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+                <img class="img-circle img-responsive center-block" src="/assets/numberIcons/2.png">
             </div>
             <div class="contentHeading col-lg-12">
                 <h3>Ability to Optimize Processes.</h3>
@@ -121,7 +121,7 @@
     <div class="contentSectionWrapper">
         <div class="contentHeaderSection row">
             <div class="numberIcon col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+                <img class="img-circle img-responsive center-block" src="/assets/numberIcons/3.png">
             </div>
             <div class="contentHeading col-lg-12">
                 <h3>Develops Clear & Meaningful Objectives.</h3>
@@ -172,7 +172,7 @@
     <div class="contentSectionWrapper">
         <div class="contentHeaderSection row">
             <div class="numberIcon col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+                <img class="img-circle img-responsive center-block" src="/assets/numberIcons/4.png">
             </div>
             <div class="contentHeading col-lg-12">
                 <h3>Creative Problem Solver.</h3>
@@ -225,7 +225,7 @@
     <div class="contentSectionWrapper">
         <div class="contentHeaderSection row">
             <div class="numberIcon col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+                <img class="img-circle img-responsive center-block" src="/assets/numberIcons/5.png">
             </div>
             <div class="contentHeading col-lg-12">
                 <h3>An Effective Project Manager.</h3>
@@ -275,7 +275,7 @@
     <div class="contentSectionWrapper">
         <div class="contentHeaderSection row">
             <div class="numberIcon col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+                <img class="img-circle img-responsive center-block" src="/assets/numberIcons/6.png">
             </div>
             <div class="contentHeading col-lg-12">
                 <h3>Can Manage Themselves.</h3>
@@ -327,7 +327,7 @@
     <div class="contentSectionWrapper">
         <div class="contentHeaderSection row">
             <div class="numberIcon col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+                <img class="img-circle img-responsive center-block" src="/assets/numberIcons/7.png">
             </div>
             <div class="contentHeading col-lg-12">
                 <h3>Understands & Embraces Data.</h3>
@@ -380,7 +380,7 @@
     <div class="contentSectionWrapper">
         <div class="contentHeaderSection row">
             <div class="numberIcon col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+                <img class="img-circle img-responsive center-block" src="/assets/numberIcons/8.png">
             </div>
             <div class="contentHeading col-lg-12">
                 <h3>Profit & ROI Focused.</h3>
@@ -431,7 +431,7 @@
     <div class="contentSectionWrapper">
         <div class="contentHeaderSection row">
             <div class="numberIcon col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+                <img class="img-circle img-responsive center-block" src="/assets/numberIcons/9.png">
             </div>
             <div class="contentHeading col-lg-12">
                 <h3>Quality Salesperson.</h3>
@@ -482,7 +482,7 @@
     <div class="contentSectionWrapper">
         <div class="contentHeaderSection row">
             <div class="numberIcon col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+                <img class="img-circle img-responsive center-block" src="/assets/numberIcons/10.png">
             </div>
             <div class="contentHeading col-lg-12">
                 <h3>Has Some Tech Skills.</h3>
@@ -533,7 +533,7 @@
     <div class="contentSectionWrapper">
         <div class="contentHeaderSection row">
             <div class="numberIcon col-lg-12">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+                <img class="img-circle img-responsive center-block" src="/assets/numberIcons/11.png">
             </div>
             <div class="contentHeading col-lg-12">
                 <h3>Capacity to Self Learn.</h3>
