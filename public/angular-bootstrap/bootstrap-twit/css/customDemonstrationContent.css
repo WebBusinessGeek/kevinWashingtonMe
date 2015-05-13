@@ -42,6 +42,17 @@
 }
 
 
+@media(max-width: 400px)
+{
+    #demoCTA > a {
+        color: #fff;
+        text-decoration: none;
+        width: 280px;
+        margin-top: 20px;
+    }
+}
+
+
 
 
 
