@@ -15,7 +15,7 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
             </div>
             <div class="contentHeading col-lg-12">
-                <h3>Understands The Importance of Product & User Knowledge.</h3>
+                <h3>Capable of Gaining Intimate Product & User Knowledge.</h3>
             </div>
         </div>
         <div class="contentBodySection row">
@@ -70,7 +70,7 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
             </div>
             <div class="contentHeading col-lg-12">
-                <h3>Able to Optimize Processes.</h3>
+                <h3>Ability to Optimize Processes.</h3>
             </div>
         </div>
         <div class="contentBodySection row">
@@ -124,7 +124,7 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
             </div>
             <div class="contentHeading col-lg-12">
-                <h3>Able to Develop Clear Business Objectives.</h3>
+                <h3>Develops Clear & Meaningful Objectives.</h3>
             </div>
         </div>
         <div class="contentBodySection row">
@@ -228,7 +228,7 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
             </div>
             <div class="contentHeading col-lg-12">
-                <h3>Experienced Project Manager.</h3>
+                <h3>An Effective Project Manager.</h3>
             </div>
         </div>
         <div class="contentBodySection row">
@@ -330,7 +330,7 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
             </div>
             <div class="contentHeading col-lg-12">
-                <h3>Data Oriented.</h3>
+                <h3>Understands & Embraces Data.</h3>
             </div>
         </div>
         <div class="contentBodySection row">
@@ -343,7 +343,7 @@
                     <p>
                         Individuals with this trait are able to do two things.
                         The first thing is being able to draw insights from business data.
-                        The second is having the ability to develop actionable steps form quantified business processes.
+                        The second is having the ability to develop actionable steps from quantified business processes.
                     </p>
                 </div>
                 <div class="articleBenefitSection">
@@ -434,7 +434,7 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
             </div>
             <div class="contentHeading col-lg-12">
-                <h3>Quality Sales Skills.</h3>
+                <h3>Quality Salesperson.</h3>
             </div>
         </div>
         <div class="contentBodySection row">
@@ -485,7 +485,7 @@
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
             </div>
             <div class="contentHeading col-lg-12">
-                <h3>Tech Skills.</h3>
+                <h3>Has Some Tech Skills.</h3>
             </div>
         </div>
         <div class="contentBodySection row">
