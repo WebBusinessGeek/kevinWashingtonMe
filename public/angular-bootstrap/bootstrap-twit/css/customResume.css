@@ -5,6 +5,10 @@
     padding-top:20px;
 }
 
+#resumeIntroHeader > img {
+    margin-bottom: 20px;
+}
+
 #resumeInfoContainer {
     background: #fff;
     height: 1345px;
@@ -121,10 +125,19 @@
     #firstWebDevGroup {
         min-height:255px;
     }
+
 }
 
 @media(max-width: 991px)
 {
+    #resumeIntroHeader > img {
+        max-width: 520px;
+    }
+
+    #resumeIntro {
+        height:1445px;
+    }
+
     #resumeInfoContainer{
         min-height: 2360px;
     }
@@ -134,4 +147,15 @@
         padding-bottom: 50px;
     }
 
+}
+
+@media(max-width: 550px )
+{
+    #resumeIntroHeader > img {
+        max-width: 370px;
+    }
+
+    #resumeIntro {
+        height:1345px;
+    }
 }
