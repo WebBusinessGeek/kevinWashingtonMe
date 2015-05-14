@@ -289,7 +289,7 @@
                 <div class="articleWhatSection">
                     <h4>What is this trait?</h4>
                     <p>
-                        Candidates who can be effective or productive with little to no oversight.
+                        Candidates who can be effective and productive with little to no oversight.
                     </p>
                 </div>
                 <div class="articleBenefitSection">
