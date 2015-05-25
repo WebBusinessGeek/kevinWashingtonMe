@@ -1,7 +1,7 @@
 
 angular.module('app')
 
-    .controller('reengagementController', ['$scope', function($scope)
+    .controller('reEngagementForMeetingController', ['$scope', function($scope)
     {
         $scope.identifyCompanyName = function()
         {

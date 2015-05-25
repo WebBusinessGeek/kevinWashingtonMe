@@ -306,7 +306,6 @@ class PublicPagesController extends \BaseController {
 		}
 		$view = View::make('publicPages.employmentAcquisition.re-engagementForOffer');
 		$this->layout->content = $view->render();
-
 	}
 }
 
