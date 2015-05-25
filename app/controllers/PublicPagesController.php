@@ -10,6 +10,15 @@ class PublicPagesController extends \BaseController {
 
 	public $layout = 'publicPages.wrapper';
 
+	public $companiesToReEngage = [
+		'Insticator',
+		'CreativeMMS',
+		'Stream',
+		'FreeBusy',
+		'HackerEarth',
+		'VenturePact'
+	];
+
 
 	public function __construct()
 	{
@@ -20,6 +29,18 @@ class PublicPagesController extends \BaseController {
 	{
 		return \Carbon\Carbon::now()->adddays($days);
 	}
+
+
+	/***********************************************************************************************************/
+	/*                                         404 Error Page	                 		                    */
+	/***********************************************************************************************************/
+
+	public function view404Error()
+	{
+		return 'error view via public pages';
+	}
+
+
 
 
 	/***********************************************************************************************************/
@@ -188,16 +209,6 @@ class PublicPagesController extends \BaseController {
 	}
 
 
-	/***********************************************************************************************************/
-	/*                                         404 Error Page	                 		                    */
-	/***********************************************************************************************************/
-
-	public function view404Error()
-	{
-		return 'error view via public pages';
-	}
-
-
 
 	/***********************************************************************************************************/
 	/*                                         Intro Page	                 		                    */
@@ -270,5 +281,14 @@ class PublicPagesController extends \BaseController {
 	}
 
 
+
+	public function viewDynamicReEngagementContent($companyName)
+	{
+		if(in_array($companyName, $this->companiesToReEngage))
+		{
+			return 'company name: '.$companyName;
+		}
+		return Redirect::action('PublicPagesController@view404Error');
+	}
 }
 

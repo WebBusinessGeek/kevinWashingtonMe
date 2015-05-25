@@ -41,6 +41,9 @@ Route::group(array('prefix' => 'recruitment'), function()
     Route::get('/2/lets-work-together', 'PublicPagesController@viewEmploymentConversionContent');
     Route::get('/2/thank-you', 'PublicPagesController@viewEmploymentConfirmationContent');
 
+    //dynamic re-engagement routes
+    Route::get('/5-things-i-can-bring-to-the-{companyName}-team', 'PublicPagesController@viewDynamicReEngagementContent');
+
 });
 
 //public pages for main site
