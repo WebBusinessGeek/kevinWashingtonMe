@@ -293,7 +293,7 @@ class PublicPagesController extends \BaseController {
 		{
 			return Redirect::action('PublicPagesController@view404Error');
 		}
-		$view = View::make('publicPages.employmentAcquisition.re-engagementForMeeting');
+		$view = View::make('publicPages.employmentAcquisition.reEngagementForMeeting');
 		$this->layout->content = $view->render();
 	}
 
@@ -304,7 +304,7 @@ class PublicPagesController extends \BaseController {
 		{
 			return Redirect::action('PublicPagesController@view404Error');
 		}
-		$view = View::make('publicPages.employmentAcquisition.re-engagementForOffer');
+		$view = View::make('publicPages.employmentAcquisition.reEngagementForOffer');
 		$this->layout->content = $view->render();
 	}
 }
