@@ -240,7 +240,9 @@
     <script src="/app/resume.js"></script>
     <script src="/app/demonstration.js"></script>
     <script src="/app/conversion.js"></script>
-    <script src="/app/re-engagementForMeeting.js"></script>
+    <script src="/app/reEngagementForMeeting.js"></script>
+    <script src="/app/reEngagementForOffer.js"></script>
+
 
 
 

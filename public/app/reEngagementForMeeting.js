@@ -14,6 +14,4 @@ angular.module('app')
         $scope.companyName = $scope.identifyCompanyName();
 
 
-
-
     }]);
