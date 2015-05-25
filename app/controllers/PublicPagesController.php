@@ -284,11 +284,12 @@ class PublicPagesController extends \BaseController {
 
 	public function viewDynamicReEngagementContent($companyName)
 	{
-		if(in_array($companyName, $this->companiesToReEngage))
+		if(!in_array($companyName, $this->companiesToReEngage))
 		{
-			return 'company name: '.$companyName;
+			return Redirect::action('PublicPagesController@view404Error');
 		}
-		return Redirect::action('PublicPagesController@view404Error');
+		$view = View::make('publicPages.employmentAcquisition.re-engagement');
+		$this->layout->content = $view->render();
 	}
 }
 
