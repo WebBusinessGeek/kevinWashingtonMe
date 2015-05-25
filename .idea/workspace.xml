@@ -24,7 +24,7 @@
     <favorites_list name="kevinWashingtonMe" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.30369842">
+    <splitter split-orientation="horizontal" split-proportion="0.49075392">
       <split-first>
         <leaf>
           <file leaf-file-name="re-engagement.php" pinned="false" current-in-tab="true">
@@ -44,8 +44,8 @@
           <file leaf-file-name="re-engagement.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/app/re-engagement.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.55401665" vertical-offset="0" max-vertical-offset="722">
-                  <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+                <state vertical-scroll-proportion="0.13850416" vertical-offset="0" max-vertical-offset="722">
+                  <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -866,8 +866,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/app/re-engagement.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55401665" vertical-offset="0" max-vertical-offset="722">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.13850416" vertical-offset="0" max-vertical-offset="722">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding />
         </state>
       </provider>
