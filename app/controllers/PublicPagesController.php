@@ -10,13 +10,18 @@ class PublicPagesController extends \BaseController {
 
 	public $layout = 'publicPages.wrapper';
 
-	public $companiesToReEngage = [
+	public $companiesToReEngageForMeeting = [
 		'Insticator',
 		'CreativeMMS',
 		'Stream',
 		'FreeBusy',
 		'HackerEarth',
 		'VenturePact'
+	];
+
+	public $companiesToReEngageForOffer = [
+		'Brian' => 'HubSpot',
+		'Yohan' => 'MapTags'
 	];
 
 
@@ -282,14 +287,26 @@ class PublicPagesController extends \BaseController {
 
 
 
-	public function viewDynamicReEngagementContent($companyName)
+	public function viewDynamicReEngagementForMeeting($companyName)
 	{
-		if(!in_array($companyName, $this->companiesToReEngage))
+		if(!in_array($companyName, $this->companiesToReEngageForMeeting))
 		{
 			return Redirect::action('PublicPagesController@view404Error');
 		}
-		$view = View::make('publicPages.employmentAcquisition.re-engagement');
+		$view = View::make('publicPages.employmentAcquisition.re-engagementForMeeting');
 		$this->layout->content = $view->render();
+	}
+
+
+	public function viewDynamicReEngagementForOffer($contactName, $companyName)
+	{
+		if(!isset($this->companiesToReEngageForOffer[$contactName]) || $this->companiesToReEngageForOffer[$contactName] != $companyName)
+		{
+			return Redirect::action('PublicPagesController@view404Error');
+		}
+		$view = View::make('publicPages.employmentAcquisition.re-engagementForOffer');
+		$this->layout->content = $view->render();
+
 	}
 }
 

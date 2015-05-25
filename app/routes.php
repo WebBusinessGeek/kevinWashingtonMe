@@ -42,7 +42,9 @@ Route::group(array('prefix' => 'recruitment'), function()
     Route::get('/2/thank-you', 'PublicPagesController@viewEmploymentConfirmationContent');
 
     //dynamic re-engagement routes
-    Route::get('/5-things-i-can-bring-to-the-{companyName}-team', 'PublicPagesController@viewDynamicReEngagementContent');
+    Route::get('/5-things-i-can-bring-to-the-{companyName}-team', 'PublicPagesController@viewDynamicReEngagementForMeeting');
+    Route::get('/3-reasons-{contactName}-would-be-making-a-good-decision-adding-me-to-the-{companyName}-team', 'PublicPagesController@viewDynamicReEngagementForOffer');
+
 
 });
 
