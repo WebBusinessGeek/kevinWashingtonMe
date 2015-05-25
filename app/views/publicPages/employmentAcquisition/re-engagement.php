@@ -1,4 +1,5 @@
 <div ng-controller="reengagementController">
-    {{tester}}
+
+    {{companyName}}
     This is the re-engagement content for
 </div>
