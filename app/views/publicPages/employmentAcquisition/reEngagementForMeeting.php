@@ -28,7 +28,7 @@
                 <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
             </div>
             <div class="reEngagementContentBody">
-                <p>This is the content</p>
+                <h4>How will this benefit {{companyName}}?</h4>
             </div>
         </div>
 
@@ -43,7 +43,7 @@
                 <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
             </div>
             <div class="reEngagementContentBody">
-                <p>This is the content</p>
+                <h4>How will this benefit {{companyName}}?</h4>
             </div>
         </div>
 
@@ -58,7 +58,7 @@
                 <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
             </div>
             <div class="reEngagementContentBody">
-                <p>This is the content</p>
+                <h4>How will this benefit {{companyName}}?</h4>
             </div>
         </div>
 
@@ -73,7 +73,7 @@
                 <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
             </div>
             <div class="reEngagementContentBody">
-                <p>This is the content</p>
+                <h4>How will this benefit {{companyName}}?</h4>
             </div>
         </div>
 
@@ -88,7 +88,7 @@
                 <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
             </div>
             <div class="reEngagementContentBody">
-                <p>This is the content</p>
+                <h4>How will this benefit {{companyName}}?</h4>
             </div>
         </div>
     </div>

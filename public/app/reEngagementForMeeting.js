@@ -7,7 +7,7 @@ angular.module('app')
         {
             $scope.getUrl = window.location.pathname;
             $scope.getCompanyNameFromUrl = $scope.getUrl.slice(41);
-            $scope.removeUnnecessaryTextFromCompanyName = $scope.getCompanyNameFromUrl.replace('-team', ' ');
+            $scope.removeUnnecessaryTextFromCompanyName = $scope.getCompanyNameFromUrl.replace('-team', '');
             return $scope.removeUnnecessaryTextFromCompanyName;
         };
 
