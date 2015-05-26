@@ -93,11 +93,29 @@
         </div>
 
         <div>
-            <button class="btn btn-danger btn-lg" ng-click="setContentOrSchedule('scheduler')">Ok, Let's set up a time to talk now!</button>
+            <div>
+                <button class="btn btn-danger btn-lg" ng-click="setContentOrSchedule('scheduler')">Ok, Let's set up a time to talk now!</button>
+            </div>
+            <div>
+                <a href="mailto:hello@kevinwashington.me?Subject={{companyName}}%20available%20meeting%20times">Or email me a time that works for you.</a>
+            </div>
         </div>
     </div>
 
     <div id="schedulerSection" ng-show="contentOrSchedule == 'scheduler'">
-        <p>schedule section showing</p>
+        <div>
+            <p>Let's start with some times that work for you.</p>
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="exampleInputName2">Name</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail2">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                </div>
+                <button type="submit" class="btn btn-default">Send invitation</button>
+            </form>
+        </div>
     </div>
 </div>
