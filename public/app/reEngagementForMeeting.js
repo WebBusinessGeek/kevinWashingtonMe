@@ -32,17 +32,34 @@ angular.module('app')
         {
             randomString = Math.random().toString(36).substring(7);
 
-            sendMessage =
-                'Option1: ' + option1Info.day + ' @ ' + option1Info.time +
-                'Option2: ' + option2Info.day + ' @ ' + option2Info.time +
-                'Option3: ' + option3Info.day + ' @ ' + option3Info.time;
+            if(option3Info.day != null)
+            {
+                sendMessage =
+                    'I have these times available: '+
+                    'Option1: ' + option1Info.day + ' @ ' + option1Info.time +
+                    'Option2: ' + option2Info.day + ' @ ' + option2Info.time +
+                    'Option3: ' + option3Info.day + ' @ ' + option3Info.time;
+            }
+            if(option2Info.day == null)
+            {
+                sendMessage =
+                    'I have these times available: '+
+                    'Option1: ' + option1Info.day + ' @ ' + option1Info.time;
+            }
+            else
+            {
+                sendMessage =
+                    'I have these times available: '+
+                    'Option1: ' + option1Info.day + ' @ ' + option1Info.time +
+                    'Option2: ' + option2Info.day + ' @ ' + option2Info.time;
+            }
 
             var data = {
                 name : companyName + randomString,
                 body : sendMessage,
                 contactMethod : 'email',
                 email : 'option'+randomString+'@email.com',
-                phone : '215-222-2222'
+                phone : null
             };
 
             $http.post('/api.v1/connect', data).
