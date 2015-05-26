@@ -3,6 +3,8 @@ angular.module('app')
 
     .controller('reEngagementForMeetingController', ['$scope', function($scope)
     {
+        $scope.scheduleOptions = 1;
+
         $scope.identifyCompanyName = function()
         {
             $scope.getUrl = window.location.pathname;
@@ -17,6 +19,11 @@ angular.module('app')
         $scope.setContentOrSchedule = function (setting)
         {
             $scope.contentOrSchedule = setting;
+        };
+
+        $scope.addScheduleOption = function()
+        {
+            $scope.scheduleOptions++;
         }
 
     }]);
