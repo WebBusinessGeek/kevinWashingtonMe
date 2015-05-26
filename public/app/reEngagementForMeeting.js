@@ -1,7 +1,7 @@
 
 angular.module('app')
 
-    .controller('reEngagementForMeetingController', ['$scope', function($scope)
+    .controller('reEngagementForMeetingController', ['$scope', '$http', function($scope, $http)
     {
         $scope.scheduleOptions = 1;
 
@@ -28,9 +28,30 @@ angular.module('app')
             $scope.scheduleOptions++;
         };
 
-        $scope.sendOptions = function (option1Info)
+        $scope.sendOptions = function (companyName, option1Info, option2Info, option3Info)
         {
-            console.log(option1Info);
+            randomString = Math.random().toString(36).substring(7);
+
+            sendMessage =
+                'Option1: ' + option1Info.day + ' @ ' + option1Info.time +
+                'Option2: ' + option2Info.day + ' @ ' + option2Info.time +
+                'Option3: ' + option3Info.day + ' @ ' + option3Info.time;
+
+            var data = {
+                name : companyName + randomString,
+                body : sendMessage,
+                contactMethod : 'Email',
+                email : randomString+'@email.com',
+                phone : null
+            };
+
+            $http.post('/api.v1/connect', data).
+                success(function(data, status,headers,config) {
+                    $scope.message = data;
+                }).
+                error(function (data, status,headers,config) {
+                    $scope.error = data;
+                });
         };
 
     }]);

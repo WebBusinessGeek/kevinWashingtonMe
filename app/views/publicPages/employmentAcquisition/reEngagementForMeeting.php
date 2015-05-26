@@ -306,9 +306,8 @@
 
             <div ng-show="hidePrivateData == false">
                 {{ option1Info = {'day' : day1, 'time' : hour1 + ":" + minutes1 + ampm1 +' '+ timezone1 +' '+ otherTimeZone1 } }}
-                {{day1}} {{hour1}} {{minutes1}} {{ampm1}} {{timezone1}} {{otherTimeZone1}}
-                {{day2}} {{hour2}} {{minutes2}} {{ampm2}} {{timezone2}} {{otherTimeZone2}}
-                {{day3}} {{hour3}} {{minutes3}} {{ampm3}} {{timezone3}} {{otherTimeZone3}}
+                {{ option2Info = {'day' : day2, 'time' : hour2 + ":" + minutes2 + ampm2 +' '+ timezone2 +' '+ otherTimeZone2 } }}
+                {{ option3Info = {'day' : day3, 'time' : hour3 + ":" + minutes3 + ampm3 +' '+ timezone3 +' '+ otherTimeZone3 } }}
             </div>
 
             <div id="schedulerSectionController">
@@ -316,7 +315,7 @@
                     <a ng-show="scheduleOptions <= 2" ng-click="addScheduleOption()">+Add another time day/time option</a>
                 </div>
                 <div>
-                    <button class="btn btn-warning btn-lg" ng-click="sendOptions(option1Info)">Send</button>
+                    <button class="btn btn-warning btn-lg" ng-click="sendOptions(companyName, option1Info, option2Info, option3Info)">Send</button>
                 </div>
             </div>
 
