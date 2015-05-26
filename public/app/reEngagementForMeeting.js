@@ -59,7 +59,7 @@ angular.module('app')
                 body : sendMessage,
                 contactMethod : 'email',
                 email : 'option'+randomString+'@email.com',
-                phone : null
+                phone : '215-222-2222'
             };
 
             $http.post('/api.v1/connect', data).
