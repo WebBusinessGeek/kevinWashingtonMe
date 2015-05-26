@@ -14,4 +14,9 @@ angular.module('app')
         $scope.companyName = $scope.identifyCompanyName();
 
 
+        $scope.setContentOrSchedule = function (setting)
+        {
+            $scope.contentOrSchedule = setting;
+        }
+
     }]);
