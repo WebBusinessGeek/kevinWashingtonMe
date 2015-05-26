@@ -40,9 +40,9 @@ angular.module('app')
             var data = {
                 name : companyName + randomString,
                 body : sendMessage,
-                contactMethod : 'Email',
-                email : randomString+'@email.com',
-                phone : null
+                contactMethod : 'email',
+                email : 'option'+randomString+'@email.com',
+                phone : '215-222-2222'
             };
 
             $http.post('/api.v1/connect', data).
