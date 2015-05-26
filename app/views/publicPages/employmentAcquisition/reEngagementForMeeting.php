@@ -17,7 +17,20 @@
     </div>
 
     <div id="reEngagementContentSection" ng-show="contentOrSchedule == 'content'">
-        <p>content section showing</p>
+        <div id="reEngagementContent1" class="reEngagementContent">
+            <div class="reEngagementContentNumber">
+                <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+            </div>
+            <div class="reEngagementContentHeader">
+                <h2>'There is no box' Creativity</h2>
+            </div>
+            <div class="reEngagementContentImage">
+                <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
+            </div>
+            <div class="reEngagementContentBody">
+                <p>This is the content</p>
+            </div>
+        </div>
     </div>
 
     <div id="schedulerSection" ng-show="contentOrSchedule == 'scheduler'">
