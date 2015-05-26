@@ -5,6 +5,8 @@ angular.module('app')
     {
         $scope.scheduleOptions = 1;
 
+        $scope.hidePrivateData = true;
+
         $scope.identifyCompanyName = function()
         {
             $scope.getUrl = window.location.pathname;
@@ -24,6 +26,11 @@ angular.module('app')
         $scope.addScheduleOption = function()
         {
             $scope.scheduleOptions++;
-        }
+        };
+
+        $scope.sendOptions = function (option1Info)
+        {
+            console.log(option1Info);
+        };
 
     }]);

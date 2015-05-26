@@ -103,12 +103,10 @@
     </div>
 
     <div id="schedulerSection" ng-show="contentOrSchedule == 'scheduler'">
-        {{day1}} {{hour1}} {{minutes1}} {{ampm1}} {{timezone1}} {{otherTimeZone1}}
-        {{day2}} {{hour2}} {{minutes2}} {{ampm2}} {{timezone2}} {{otherTimeZone2}}
-        {{day3}} {{hour3}} {{minutes3}} {{ampm3}} {{timezone3}} {{otherTimeZone3}}
+
 
         <div>
-            <p>Let's start with some times that work for you.</p>
+            <p>Let's start with some Day/Time Options that work for you.</p>
             <form class="form-inline">
                 <h5>Option 1</h5>
                 <div class="form-group">
@@ -306,10 +304,22 @@
                 </div>
             </form>
 
-            <div id="schedulerSectionController">
-                <a ng-show="scheduleOptions <= 2" ng-click="addScheduleOption()">+Add another time day/time option</a>
-                <button class="btn btn-warning btn-lg">Send</button>
+            <div ng-show="hidePrivateData == false">
+                {{ option1Info = {'day' : day1, 'time' : hour1 + ":" + minutes1 + ampm1 +' '+ timezone1 +' '+ otherTimeZone1 } }}
+                {{day1}} {{hour1}} {{minutes1}} {{ampm1}} {{timezone1}} {{otherTimeZone1}}
+                {{day2}} {{hour2}} {{minutes2}} {{ampm2}} {{timezone2}} {{otherTimeZone2}}
+                {{day3}} {{hour3}} {{minutes3}} {{ampm3}} {{timezone3}} {{otherTimeZone3}}
             </div>
+
+            <div id="schedulerSectionController">
+                <div>
+                    <a ng-show="scheduleOptions <= 2" ng-click="addScheduleOption()">+Add another time day/time option</a>
+                </div>
+                <div>
+                    <button class="btn btn-warning btn-lg" ng-click="sendOptions(option1Info)">Send</button>
+                </div>
+            </div>
+
 
         </div>
     </div>
