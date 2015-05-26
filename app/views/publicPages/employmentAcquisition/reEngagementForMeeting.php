@@ -91,6 +91,10 @@
                 <h4>How will this benefit {{companyName}}?</h4>
             </div>
         </div>
+
+        <div>
+            <button class="btn btn-danger btn-lg" ng-click="setContentOrSchedule('scheduler')">Ok, Let's set up a time to talk now!</button>
+        </div>
     </div>
 
     <div id="schedulerSection" ng-show="contentOrSchedule == 'scheduler'">
