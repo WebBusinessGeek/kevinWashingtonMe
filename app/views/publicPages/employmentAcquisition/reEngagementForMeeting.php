@@ -31,6 +31,66 @@
                 <p>This is the content</p>
             </div>
         </div>
+
+        <div id="reEngagementContent2" class="reEngagementContent">
+            <div class="reEngagementContentNumber">
+                <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+            </div>
+            <div class="reEngagementContentHeader">
+                <h2>Agility & Adaptability</h2>
+            </div>
+            <div class="reEngagementContentImage">
+                <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
+            </div>
+            <div class="reEngagementContentBody">
+                <p>This is the content</p>
+            </div>
+        </div>
+
+        <div id="reEngagementContent3" class="reEngagementContent">
+            <div class="reEngagementContentNumber">
+                <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+            </div>
+            <div class="reEngagementContentHeader">
+                <h2>Honorable Character Traits</h2>
+            </div>
+            <div class="reEngagementContentImage">
+                <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
+            </div>
+            <div class="reEngagementContentBody">
+                <p>This is the content</p>
+            </div>
+        </div>
+
+        <div id="reEngagementContent4" class="reEngagementContent">
+            <div class="reEngagementContentNumber">
+                <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+            </div>
+            <div class="reEngagementContentHeader">
+                <h2>Battle Tested Experience</h2>
+            </div>
+            <div class="reEngagementContentImage">
+                <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
+            </div>
+            <div class="reEngagementContentBody">
+                <p>This is the content</p>
+            </div>
+        </div>
+
+        <div id="reEngagementContent5" class="reEngagementContent">
+            <div class="reEngagementContentNumber">
+                <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+            </div>
+            <div class="reEngagementContentHeader">
+                <h2>Patience & Efficiency</h2>
+            </div>
+            <div class="reEngagementContentImage">
+                <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
+            </div>
+            <div class="reEngagementContentBody">
+                <p>This is the content</p>
+            </div>
+        </div>
     </div>
 
     <div id="schedulerSection" ng-show="contentOrSchedule == 'scheduler'">
