@@ -105,6 +105,8 @@
     <div id="schedulerSection" ng-show="contentOrSchedule == 'scheduler'">
         {{day1}} {{hour1}} {{minutes1}} {{ampm1}} {{timezone1}} {{otherTimeZone1}}
         {{day2}} {{hour2}} {{minutes2}} {{ampm2}} {{timezone2}} {{otherTimeZone2}}
+        {{day3}} {{hour3}} {{minutes3}} {{ampm3}} {{timezone3}} {{otherTimeZone3}}
+
         <div>
             <p>Let's start with some times that work for you.</p>
             <form class="form-inline">
@@ -186,9 +188,9 @@
                         <option value="Saturday" disabled>Saturday</option>
                     </select>
                 </div>
-                @
+
                 <div class="form-group">
-                    <label for="hour2"> </label>
+                    <label for="hour2">@ Time: </label>
                     <select class="form-control" id="hour2" ng-model="hour2">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -238,8 +240,74 @@
                 </div>
             </form>
 
+            <form ng-show="scheduleOptions >= 3" class="form-inline">
+                <h5>Option 3</h5>
+                <div class="form-group">
+                    <label for="day3">Day: </label>
+                    <select class="form-control" id="day3" ng-model="day3">
+                        <option value="Sunday">Sunday</option>
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                        <option value="Saturday" disabled>Saturday</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="hour3">@ Time: </label>
+                    <select class="form-control" id="hour3" ng-model="hour3">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="minutes3"> </label>
+                    <select class="form-control" id="minutes3" ng-model="minutes3">
+                        <option value="00">00</option>
+                        <option value="15">15</option>
+                        <option value="30">30</option>
+                        <option value="45">45</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="ampm3"> </label>
+                    <select class="form-control" id="ampm3" ng-model="ampm3">
+                        <option value="am">am</option>
+                        <option value="pm">pm</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="timezone3"> </label>
+                    <select class="form-control" id="timezone3" ng-model="timezone3">
+                        <option value="EST">EST</option>
+                        <option value="PST">PST</option>
+                        <option value="other">other</option>
+                    </select>
+                </div>
+
+                <div class="form-group" ng-show="timezone3 == 'other'">
+                    <label for="otherTimeZone3">Please enter the timezone: </label>
+                    <input type="text" class="form-control" id="otherTimeZone3" ng-model="otherTimeZone3">
+                </div>
+            </form>
+
             <div id="schedulerSectionController">
-                <a ng-click="addScheduleOption()">+Add another time day/time</a>
+                <a ng-show="scheduleOptions <= 2" ng-click="addScheduleOption()">+Add another time day/time option</a>
                 <button class="btn btn-warning btn-lg">Send</button>
             </div>
 
