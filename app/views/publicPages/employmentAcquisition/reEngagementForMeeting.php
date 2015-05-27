@@ -11,9 +11,9 @@
 
     <div id="contentOrSchedulerSection">
         <p>Choose One:</p>
-        <button class="btn btn-primary btn-lg" ng-click="setContentOrSchedule('content')">5 Things I'll bring to {{companyName}}</button>
+        <button class="btn btn-warning btn-lg" ng-click="setContentOrSchedule('content')">5 Things I'll bring to {{companyName}}</button>
         or
-        <button class="btn btn-primary btn-lg" ng-click="setContentOrSchedule('scheduler')">Let's set up a time to talk</button>
+        <button class="btn btn-warning btn-lg" ng-click="setContentOrSchedule('scheduler')">Let's set up a time to talk</button>
     </div>
 
     <div id="reEngagementContentSection" ng-show="contentOrSchedule == 'content'">
