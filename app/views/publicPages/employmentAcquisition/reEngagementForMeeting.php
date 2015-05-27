@@ -17,17 +17,17 @@
     </div>
 
     <div id="reEngagementContentSection" ng-show="contentOrSchedule == 'content'">
-        <div id="reEngagementContent1" class="reEngagementContent">
-            <div class="reEngagementContentNumber">
+        <div id="reEngagementContent1" class="reEngagementContent row">
+            <div class="reEngagementContentNumber col-lg-12">
                 <img class="img-responsive img-circle center-block" src="/assets/numberIcons/1.png">
             </div>
-            <div class="reEngagementContentHeader">
+            <div class="reEngagementContentHeader col-lg-12">
                 <h2>'There is no box' Creativity</h2>
             </div>
-            <div class="reEngagementContentImage">
+            <div class="reEngagementContentImage col-lg-12">
                 <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
             </div>
-            <div class="reEngagementContentBody">
+            <div class="reEngagementContentBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
                     I am constantly brainstorming ways I can achieve goals in ways that haven’t been done before.
                     A by-product of this consistent reach for innovation is the very article your reading now.
@@ -37,17 +37,17 @@
             </div>
         </div>
 
-        <div id="reEngagementContent2" class="reEngagementContent">
-            <div class="reEngagementContentNumber">
+        <div id="reEngagementContent2" class="reEngagementContent row">
+            <div class="reEngagementContentNumber col-lg-12">
                 <img class="img-responsive img-circle center-block" src="/assets/numberIcons/2.png">
             </div>
-            <div class="reEngagementContentHeader">
+            <div class="reEngagementContentHeader col-lg-12">
                 <h2>Agility & Adaptability</h2>
             </div>
-            <div class="reEngagementContentImage">
+            <div class="reEngagementContentImage col-lg-12">
                 <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
             </div>
-            <div class="reEngagementContentBody">
+            <div class="reEngagementContentBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
                     After years in the industry I understand the only constant is change.
                     Products change, customer needs change, competitors change.
@@ -57,17 +57,17 @@
             </div>
         </div>
 
-        <div id="reEngagementContent3" class="reEngagementContent">
-            <div class="reEngagementContentNumber">
+        <div id="reEngagementContent3" class="reEngagementContent row">
+            <div class="reEngagementContentNumber col-lg-12">
                 <img class="img-responsive img-circle center-block" src="/assets/numberIcons/3.png">
             </div>
-            <div class="reEngagementContentHeader">
+            <div class="reEngagementContentHeader col-lg-12">
                 <h2>Honorable Character Traits</h2>
             </div>
-            <div class="reEngagementContentImage">
+            <div class="reEngagementContentImage col-lg-12">
                 <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
             </div>
-            <div class="reEngagementContentBody">
+            <div class="reEngagementContentBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
                     Something that is sometimes overlooked and undervalued in business is character.
                     While decisions to add new team members are based on things like education, experience or skill sets; one would think that a person's character would trump them all.
@@ -78,17 +78,17 @@
             </div>
         </div>
 
-        <div id="reEngagementContent4" class="reEngagementContent">
-            <div class="reEngagementContentNumber">
+        <div id="reEngagementContent4" class="reEngagementContent row">
+            <div class="reEngagementContentNumber col-lg-12">
                 <img class="img-responsive img-circle center-block" src="/assets/numberIcons/4.png">
             </div>
-            <div class="reEngagementContentHeader">
+            <div class="reEngagementContentHeader col-lg-12">
                 <h2>Battle Tested Experience</h2>
             </div>
-            <div class="reEngagementContentImage">
+            <div class="reEngagementContentImage col-lg-12">
                 <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
             </div>
-            <div class="reEngagementContentBody">
+            <div class="reEngagementContentBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
                     With experience in sales, web development, management, and implementation I can bring a unique perspective to the {{companyName}} team.
                     Problem solving, planning, estimations, strategy.
@@ -97,17 +97,17 @@
             </div>
         </div>
 
-        <div id="reEngagementContent5" class="reEngagementContent">
-            <div class="reEngagementContentNumber">
+        <div id="reEngagementContent5" class="reEngagementContent row">
+            <div class="reEngagementContentNumber col-lg-12">
                 <img class="img-responsive img-circle center-block" src="/assets/numberIcons/5.png">
             </div>
-            <div class="reEngagementContentHeader">
+            <div class="reEngagementContentHeader col-lg-12">
                 <h2>Potential</h2>
             </div>
-            <div class="reEngagementContentImage">
+            <div class="reEngagementContentImage col-lg-12">
                 <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
             </div>
-            <div class="reEngagementContentBody">
+            <div class="reEngagementContentBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
                     Even with the experiences I have been blessed to collect I am as hungry as ever.
                     I am always looking to learn something new and improve as a manager, an acquisition specialist, a web developer, and a person.
