@@ -338,7 +338,7 @@
                 <div>
                     <a ng-show="scheduleOptions <= 2" ng-click="addScheduleOption()">+Add another time day/time option</a>
                 </div>
-                <div>
+                <div ng-show="day1 && hour1 && minutes1 && ampm1 && timezone1">
                     <button class="btn btn-warning btn-lg" ng-click="sendOptions(companyName, option1Info, option2Info, option3Info)">Send</button>
                 </div>
             </div>
