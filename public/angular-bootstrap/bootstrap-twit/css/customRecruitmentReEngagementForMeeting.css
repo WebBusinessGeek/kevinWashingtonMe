@@ -24,3 +24,8 @@
     font-size: 22px;
     margin-top: 15px;
 }
+
+#reEngagementContentForMeetingContainer > #schedulerSection > div > .formHelpText {
+    font-size: 26px;
+    margin-bottom: 20px;
+}

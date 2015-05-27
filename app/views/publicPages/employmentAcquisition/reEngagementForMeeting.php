@@ -127,10 +127,8 @@
     </div>
 
     <div id="schedulerSection" ng-show="contentOrSchedule == 'scheduler'">
-
-
         <div>
-            <p>Let's start with some Day/Time Options that work for you.</p>
+            <p class="formHelpText">Let's start with some Day/Time Options that work for you.</p>
             <form class="form-inline">
                 <h5>Option 1</h5>
                 <div class="form-group">
