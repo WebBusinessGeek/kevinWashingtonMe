@@ -19,3 +19,8 @@
 #reEngagementContentForMeetingContainer > #schedulerSection {
     margin-top: 30px;
 }
+
+#reEngagementContentForMeetingContainer > div > div > .reEngagementContentBody > p {
+    font-size: 22px;
+    margin-top: 15px;
+}
