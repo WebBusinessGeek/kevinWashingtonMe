@@ -9,11 +9,17 @@
         </div>
     </div>
 
-    <div id="contentOrSchedulerSection" ng-hide="contentOrSchedule">
-        <p>Choose One:</p>
-        <button class="btn btn-warning btn-lg" ng-click="setContentOrSchedule('content')">5 Things I'll bring to {{companyName}}</button>
-        or
-        <button class="btn btn-warning btn-lg" ng-click="setContentOrSchedule('scheduler')">Let's set up a time to talk</button>
+    <div id="contentOrSchedulerSection" class="row" ng-hide="contentOrSchedule">
+        <div class="col-lg-12">
+            <p>Choose One:</p>
+        </div>
+        <div class="paddingTop20 col-lg-4 col-lg-offset-2">
+            <button class="btn btn-warning btn-lg" ng-click="setContentOrSchedule('content')">5 Things I'll bring to {{companyName}}</button>
+        </div>
+
+        <div class="paddingTop20 col-lg-4">
+            <button class="btn btn-warning btn-lg" ng-click="setContentOrSchedule('scheduler')">Let's set up a time to talk</button>
+        </div>
     </div>
 
     <div id="reEngagementContentSection" ng-show="contentOrSchedule == 'content'">
