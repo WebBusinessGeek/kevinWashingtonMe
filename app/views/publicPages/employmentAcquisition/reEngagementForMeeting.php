@@ -31,7 +31,7 @@
                 <h2>'There is no box' Creativity</h2>
             </div>
             <div class="reEngagementContentImage col-lg-12">
-                <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
+                <img class="img-responsive img-circle center-block" src="/assets/reEngagementMeetingIcons/1.png">
             </div>
             <div class="reEngagementContentBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
@@ -51,7 +51,7 @@
                 <h2>Agility & Adaptability</h2>
             </div>
             <div class="reEngagementContentImage col-lg-12">
-                <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
+                <img class="img-responsive img-circle center-block" src="/assets/reEngagementMeetingIcons/2.png">
             </div>
             <div class="reEngagementContentBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
@@ -71,7 +71,7 @@
                 <h2>Honorable Character Traits</h2>
             </div>
             <div class="reEngagementContentImage col-lg-12">
-                <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
+                <img class="img-responsive img-circle center-block" src="/assets/reEngagementMeetingIcons/3.png">
             </div>
             <div class="reEngagementContentBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
@@ -89,10 +89,10 @@
                 <img class="img-responsive img-circle center-block" src="/assets/numberIcons/4.png">
             </div>
             <div class="reEngagementContentHeader col-lg-12">
-                <h2>Battle Tested Experience</h2>
+                <h2>Valuable Experience</h2>
             </div>
             <div class="reEngagementContentImage col-lg-12">
-                <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
+                <img class="img-responsive img-circle center-block" src="/assets/reEngagementMeetingIcons/4.png">
             </div>
             <div class="reEngagementContentBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
@@ -111,7 +111,7 @@
                 <h2>Potential</h2>
             </div>
             <div class="reEngagementContentImage col-lg-12">
-                <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
+                <img class="img-responsive img-circle center-block" src="/assets/reEngagementMeetingIcons/5.png">
             </div>
             <div class="reEngagementContentBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
