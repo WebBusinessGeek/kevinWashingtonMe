@@ -9,7 +9,7 @@
         </div>
     </div>
 
-    <div id="contentOrSchedulerSection">
+    <div id="contentOrSchedulerSection" ng-hide="contentOrSchedule">
         <p>Choose One:</p>
         <button class="btn btn-warning btn-lg" ng-click="setContentOrSchedule('content')">5 Things I'll bring to {{companyName}}</button>
         or
