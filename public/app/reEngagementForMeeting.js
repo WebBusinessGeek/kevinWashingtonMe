@@ -36,22 +36,22 @@ angular.module('app')
             {
                 sendMessage =
                     'I have these times available: '+
-                    'Option1: ' + option1Info.day + ' @ ' + option1Info.time +
-                    'Option2: ' + option2Info.day + ' @ ' + option2Info.time +
-                    'Option3: ' + option3Info.day + ' @ ' + option3Info.time;
+                    ' Option1: ' + option1Info.day + ' @ ' + option1Info.time +
+                    ' Option2: ' + option2Info.day + ' @ ' + option2Info.time +
+                    ' Option3: ' + option3Info.day + ' @ ' + option3Info.time;
             }
             if(option3Info.day == undefined && option2Info.day != undefined)
             {
                 sendMessage =
                     'I have these times available: '+
-                    'Option1: ' + option1Info.day + ' @ ' + option1Info.time +
-                    'Option2: ' + option2Info.day + ' @ ' + option2Info.time;
+                    ' Option1: ' + option1Info.day + ' @ ' + option1Info.time +
+                    ' Option2: ' + option2Info.day + ' @ ' + option2Info.time;
             }
             if(option3Info.day == undefined && option2Info.day == undefined && option1Info.day != undefined)
             {
                 sendMessage =
                     'I have these times available: '+
-                    'Option1: ' + option1Info.day + ' @ ' + option1Info.time;
+                    ' Option1: ' + option1Info.day + ' @ ' + option1Info.time;
             }
 
             var data = {
