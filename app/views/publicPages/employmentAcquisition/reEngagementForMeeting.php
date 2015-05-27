@@ -28,7 +28,12 @@
                 <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
             </div>
             <div class="reEngagementContentBody">
-                <h4>How will this benefit {{companyName}}?</h4>
+                <p>
+                    I am constantly brainstorming ways I can achieve goals in ways that haven’t been done before.
+                    A by-product of this consistent reach for innovation is the very article your reading now.
+                    As a member of the {{companyName}} team I will look to use this creativity to achieve all the personal objectives I have been trusted with in unique ways.
+                    In addition I will find satisfaction in helping others solve problems, implement innovation, and achieve critical goals for the better of the company.
+                </p>
             </div>
         </div>
 
@@ -43,7 +48,12 @@
                 <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
             </div>
             <div class="reEngagementContentBody">
-                <h4>How will this benefit {{companyName}}?</h4>
+                <p>
+                    After years in the industry I understand the only constant is change.
+                    Products change, customer needs change, competitors change.
+                    While I don’t hold to the ‘disrupt or be disrupted’ mantra completely, I do believe in constantly improving my skill set and keeping current on new tech and markets I’m competing in.
+                    What I can bring to the {{companyName}} team in this regard is a team member who can fit into many roles, and can learn what’s necessary for the constant growth of {{companyName}}.
+                </p>
             </div>
         </div>
 
@@ -58,7 +68,13 @@
                 <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
             </div>
             <div class="reEngagementContentBody">
-                <h4>How will this benefit {{companyName}}?</h4>
+                <p>
+                    Something that is sometimes overlooked and undervalued in business is character.
+                    While decisions to add new team members are based on things like education, experience or skill sets; one would think that a person's character would trump them all.
+                    For example, should a highly skilled sales rep that lacks integrity get hired before a decent one that maintains his honor?
+                    Or does a Ivy League grad who is incapable of working with others without conflict get added before a humble and similarly skilled grad from a Tier 3 college?
+                    What I can bring to {{companyName}} does not stop at my skill sets and experiences, but also includes integrity, patience, respect, and many other personal qualities that I feel can be far more valuable to the culture at {{companyName}} than any one specific of skills.
+                </p>
             </div>
         </div>
 
@@ -73,7 +89,11 @@
                 <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
             </div>
             <div class="reEngagementContentBody">
-                <h4>How will this benefit {{companyName}}?</h4>
+                <p>
+                    With experience in sales, web development, management, and implementation I can bring a unique perspective to the {{companyName}} team.
+                    Problem solving, planning, estimations, strategy.
+                    These are all areas where experience can help yield a more accurate or efficient solution.
+                </p>
             </div>
         </div>
 
@@ -82,13 +102,17 @@
                 <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
             </div>
             <div class="reEngagementContentHeader">
-                <h2>Patience & Efficiency</h2>
+                <h2>Potential</h2>
             </div>
             <div class="reEngagementContentImage">
                 <img class="img-responsive img-circle center-block" src="http://placehold.it/256">
             </div>
             <div class="reEngagementContentBody">
-                <h4>How will this benefit {{companyName}}?</h4>
+                <p>
+                    Even with the experiences I have been blessed to collect I am as hungry as ever.
+                    I am always looking to learn something new and improve as a manager, an acquisition specialist, a web developer, and a person.
+                    So the last thing I would like to show I can bring to the {{companyName}} team is the potential and desire to grow as an individual while helping {{companyName}} grow and achieve its objectives.
+                </p>
             </div>
         </div>
 
