@@ -118,7 +118,7 @@
 
         <div>
             <div>
-                <button class="btn btn-danger btn-lg" ng-click="setContentOrSchedule('scheduler')">Ok, Let's set up a time to talk now!</button>
+                <button class="btn btn-danger btn-lg" ng-click="setContentOrSchedule('scheduler')">Ok, Let's set up a time to talk!</button>
             </div>
             <div>
                 <a href="mailto:hello@kevinwashington.me?Subject={{companyName}}%20available%20meeting%20times">Or email me a time that works for you.</a>
