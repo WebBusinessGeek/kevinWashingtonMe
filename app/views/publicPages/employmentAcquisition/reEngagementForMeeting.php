@@ -19,7 +19,7 @@
     <div id="reEngagementContentSection" ng-show="contentOrSchedule == 'content'">
         <div id="reEngagementContent1" class="reEngagementContent">
             <div class="reEngagementContentNumber">
-                <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                <img class="img-responsive img-circle center-block" src="/assets/numberIcons/1.png">
             </div>
             <div class="reEngagementContentHeader">
                 <h2>'There is no box' Creativity</h2>
@@ -39,7 +39,7 @@
 
         <div id="reEngagementContent2" class="reEngagementContent">
             <div class="reEngagementContentNumber">
-                <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                <img class="img-responsive img-circle center-block" src="/assets/numberIcons/2.png">
             </div>
             <div class="reEngagementContentHeader">
                 <h2>Agility & Adaptability</h2>
@@ -59,7 +59,7 @@
 
         <div id="reEngagementContent3" class="reEngagementContent">
             <div class="reEngagementContentNumber">
-                <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                <img class="img-responsive img-circle center-block" src="/assets/numberIcons/3.png">
             </div>
             <div class="reEngagementContentHeader">
                 <h2>Honorable Character Traits</h2>
@@ -80,7 +80,7 @@
 
         <div id="reEngagementContent4" class="reEngagementContent">
             <div class="reEngagementContentNumber">
-                <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                <img class="img-responsive img-circle center-block" src="/assets/numberIcons/4.png">
             </div>
             <div class="reEngagementContentHeader">
                 <h2>Battle Tested Experience</h2>
@@ -99,7 +99,7 @@
 
         <div id="reEngagementContent5" class="reEngagementContent">
             <div class="reEngagementContentNumber">
-                <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                <img class="img-responsive img-circle center-block" src="/assets/numberIcons/5.png">
             </div>
             <div class="reEngagementContentHeader">
                 <h2>Potential</h2>
