@@ -1,3 +1,5 @@
-<div>
-    This is the body of work page.
+<div id="bodyOfWorkPageContainer" class="text-center" ng-controller="bodyOfWorkController">
+    <div>
+        {{test}}
+    </div>
 </div>
