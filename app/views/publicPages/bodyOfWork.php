@@ -76,7 +76,6 @@
                     We increased our free trial conversions, revenue, and reduced the negative effects of our attrition by huge percentages.
                     <a href="/karma-crm-stats" target="_blank">See how we did it.</a>
                 </p>
-                <a ng-click="hideProjectWorkExample()">Hide</a>
             </div>
         </div>
     </div>
@@ -152,7 +151,6 @@
                     You can see the full project <a href="http://growthvalley.herokuapp.com/#" target="_blank">here</a>.
                     Try to give it a minute to load as the owner is looking to keep cost down allocating very little dynos via Heroku hosting platform.
                 </p>
-                <a ng-click="hideProjectWorkExample()">Hide</a>
             </div>
         </div>
     </div>
@@ -206,7 +204,6 @@
                     The project consisted of training so there are few deliverables I can link to.
                     However feel free to check out how Estelle is doing by visiting her <a href="http://www.smarthealthywomen.com/" target="_blank">blog</a> and <a href="https://www.facebook.com/SmartHealthyWomen?_rdr" target="_blank">facebook page</a>.
                 </p>
-                <a ng-click="hideProjectWorkExample()">Hide</a>
             </div>
         </div>
     </div>
@@ -245,8 +242,8 @@
                         A collaborator of mine who owned a software and web design company had a client who needed marketing help.
                         The client ended up being NomadYogi, an innovative SaaS startup providing solutions to the yoga instructor and enthusiast markets.
                         The owner of NomadYogi was spending a ton of capital in marketing monthly, with little to no return.
-                        Reaching out to me I developed a strategy that included terminating the current marketing vendor, and following simple approaches that if done correctly would:
-                        reduce the marketing budget significantly, convert more visitors, and maintain current traffic volume.
+                        Reaching out to me I developed a strategy that included terminating the current marketing vendor, and following simple approaches that if done correctly could
+                        reduce the marketing budget, convert more visitors, and maintain current traffic volume.
                     </p>
                 </div>
             </div>
@@ -259,7 +256,6 @@
                     However at the time I was stepping into my full time role as Director of Growth for karmaCRM.
                     Not many deliverables to link to but here is their <a href="https://www.nomadyogi.com/" target="_blank">site</a> which is still in beta.
                 </p>
-                <a ng-click="hideProjectWorkExample()">Hide</a>
             </div>
         </div>
     </div>
@@ -332,7 +328,6 @@
                     We increased our free trial conversions, revenue, and reduced the negative effects of our attrition.
                     <a href="/karma-crm-stats" target="_blank">See how we did it.</a>
                 </p>
-                <a ng-click="hideProjectWorkExample()">Hide</a>
             </div>
         </div>
     </div>
@@ -405,7 +400,6 @@
                     We increased our free trial conversions, revenue, and reduced the negative effects of our attrition.
                     <a href="/karma-crm-stats" target="_blank">See how we did it.</a>
                 </p>
-                <a ng-click="hideProjectWorkExample()">Hide</a>
             </div>
         </div>
     </div>
