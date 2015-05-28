@@ -331,30 +331,29 @@
             <div class="bodyOfWorkProjectInput">
                 <div class="bodyOfWorkProjectInputGroup">
                     <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
-                    <h3>Management</h3>
-                    <p>People</p>
-                    <p>Processes</p>
-                    <p>Revenue</p>
-                    <p>Business Data & Intelligence</p>
+                    <h3>OnSite SEO</h3>
+                    <p>Keyword Research & Strategy</p>
+                    <p>Content Development</p>
+                    <p>Healthy Internal Linking</p>
+                    <p>Markup Optimization</p>
                 </div>
                 <div class="bodyOfWorkProjectInputGroup">
                     <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
-                    <h3>Lead Generation</h3>
-                    <p>Email Marketing</p>
-                    <p>Direct Interaction Marketing</p>
-                    <p>Paid Advertising</p>
-                    <p>Engagement Content Development</p>
-                    <p>Content Promotion via Social Media</p>
-                    <p>OnSite SEO Optimization</p>
+                    <h3>Visitor Behavior Optimization</h3>
+                    <p>Site Redesign</p>
+                    <p>Data Insights</p>
+                    <p>Lead Box Conversion Strategy</p>
                 </div>
                 <div class="bodyOfWorkProjectInputGroup">
                     <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
-                    <h3>Digital Sales</h3>
-                    <p>Landing Page Development, Promotion, & Optimization</p>
-                    <p>Acquisition Process Optimization</p>
-                    <p>Optimization of User Experience</p>
-                    <p>Product Demonstration Promotion & Consulting</p>
-                    <p>New User OnBoarding Process Optimization</p>
+                    <h3>Google AdWords Campaign Management</h3>
+                    <p>Audience Interest Research</p>
+                    <p>Keyword Research</p>
+                    <p>Competition Research</p>
+                    <p>Campaign Construction</p>
+                    <p>Text Ad Development</p>
+                    <p>Landing Page Strategy</p>
+                    <p>Bid Management</p>
                 </div>
             </div>
 
