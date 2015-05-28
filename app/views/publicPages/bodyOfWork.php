@@ -50,8 +50,8 @@
                     <p>Product Demonstration Promotion & Consulting</p>
                     <p>New User OnBoarding Process Optimization</p>
                 </div>
-
             </div>
+
             <div class="bodyOfWorkProjectInfo row">
                 <div class="bodyOfWorkProjectInfoTitle col-lg-12">
                     <img class="img-responsive img-circle center-block" src="http://placehold.it/80">

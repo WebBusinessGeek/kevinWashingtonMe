@@ -18,5 +18,9 @@
 }
 
 #bodyOfWorkPageContainer > .bodyOfWorkProjectContainer > .bodyOfWorkProjectHeader > .bodyOfWorkProjectTitle {
-    margin-bottom: 40px;
+    margin-bottom: 45px;
+}
+
+#bodyOfWorkPageContainer > .bodyOfWorkProjectContainer > .bodyOfWorkProjectBody > .bodyOfWorkProjectInput {
+    margin-bottom: 45px;
 }
