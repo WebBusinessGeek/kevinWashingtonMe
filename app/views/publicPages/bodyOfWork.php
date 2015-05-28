@@ -49,14 +49,30 @@
                 </div>
 
             </div>
-            <div class="bodyOfWorkProjectInfo">
-
+            <div class="bodyOfWorkProjectInfo row">
+                <div class="bodyOfWorkProjectInfoTitle col-lg-12">
+                    <h3>A little Background</h3>
+                </div>
+                <div class="bodyOfWorkProjectInfoBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                    <p>
+                        karmaCRM is a SaaS based business that offers Customer Relationship Management solutions to small and medium sized businesses.
+                        I was initially contracted to karmaCRM to provide SEO services.
+                        However after learning more about their business model and spotting some under-performing processes, I worked with them to accomplish much more.
+                        Eventually working my way up to the role of Director of Growth.
+                    </p>
+                </div>
             </div>
             <div class="bodyOfWorkProjectViewWorkExamples">
-
+                <button class="btn btn-warning btn-lg" ng-click="showProjectWorkExample('karmaCRM')">Some of my karmaCRM work</button>
             </div>
-            <div class="bodyOfWorkProjectWorkExamples">
-
+            <div ng-show="showingProjectWorkExample == 'karmaCRM'" class="bodyOfWorkProjectWorkExamples col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                <p>
+                    While with <a href="http://karmacrm.com" target="_blank">karmaCRM</a>
+                    I lead a growth strategy that had some amazing results.
+                    We increased our free trial conversions, revenue, and reduced the negative effects of our attrition.
+                    <a href="/karma-crm-stats" target="_blank">See how we did it.</a>
+                </p>
+                <a ng-click="hideProjectWorkExample()">Hide</a>
             </div>
         </div>
     </div>
