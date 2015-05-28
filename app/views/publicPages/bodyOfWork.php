@@ -277,56 +277,38 @@
             <div class="bodyOfWorkProjectInput">
                 <div class="bodyOfWorkProjectInputGroup">
                     <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
-                    <h3>Management</h3>
-                    <p>People</p>
-                    <p>Processes</p>
-                    <p>Revenue</p>
-                    <p>Business Data & Intelligence</p>
-                </div>
-                <div class="bodyOfWorkProjectInputGroup">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
-                    <h3>Lead Generation</h3>
-                    <p>Email Marketing</p>
-                    <p>Direct Interaction Marketing</p>
-                    <p>Paid Advertising</p>
-                    <p>Engagement Content Development</p>
-                    <p>Content Promotion via Social Media</p>
-                    <p>OnSite SEO Optimization</p>
-                </div>
-                <div class="bodyOfWorkProjectInputGroup">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
-                    <h3>Digital Sales</h3>
-                    <p>Landing Page Development, Promotion, & Optimization</p>
-                    <p>Acquisition Process Optimization</p>
-                    <p>Optimization of User Experience</p>
-                    <p>Product Demonstration Promotion & Consulting</p>
-                    <p>New User OnBoarding Process Optimization</p>
+                    <h3>Google AdWords Campaign Management</h3>
+                    <p>Audience Interest Research</p>
+                    <p>Keyword Research</p>
+                    <p>Competition Research</p>
+                    <p>Campaign Construction</p>
+                    <p>Text Ad Development</p>
+                    <p>Landing Page Strategy</p>
+                    <p>Bid Management</p>
                 </div>
             </div>
 
             <div class="bodyOfWorkProjectInfo row">
                 <div class="bodyOfWorkProjectInfoTitle col-lg-12">
                     <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
-                    <h3>A little Background</h3>
+                    <h3>Working with FLC</h3>
                 </div>
                 <div class="bodyOfWorkProjectInfoBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                     <p>
-                        karmaCRM is a SaaS based business that offers Customer Relationship Management solutions to small and medium sized businesses.
-                        I was initially contracted to karmaCRM to provide SEO services.
-                        However after learning more about their business model and spotting some under-performing processes, I worked with them to accomplish much more.
-                        Eventually working my way up to the role of Director of Growth.
+                        Carol Delzer, the owner of the Family Law Center, is a very impressive attorney, multiple author, and industry expert on collaborative co-parenting.
+                        However Carol did not have the time to manage the marketing of the Family Law Center and generate enough leads to her other attorneys.
+                        Carol originally contracted another marketing consultant whom she terminated before bringing me on in a light role to optimize & manage her Google Adwords account.
                     </p>
                 </div>
             </div>
             <div class="bodyOfWorkProjectViewWorkExamples">
-                <button class="btn btn-warning btn-lg" ng-click="showProjectWorkExample('karmaCRM')">Some of my karmaCRM work</button>
+                <button class="btn btn-warning btn-lg" ng-click="showProjectWorkExample('familyLawCenter')">The FLC Experience</button>
             </div>
-            <div ng-show="showingProjectWorkExample == 'karmaCRM'" class="bodyOfWorkProjectWorkExamples col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+            <div ng-show="showingProjectWorkExample == 'familyLawCenter'" class="bodyOfWorkProjectWorkExamples col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
-                    While with <a href="http://karmacrm.com" target="_blank">karmaCRM</a>
-                    I lead a growth strategy that had some amazing results.
-                    We increased our free trial conversions, revenue, and reduced the negative effects of our attrition.
-                    <a href="/karma-crm-stats" target="_blank">See how we did it.</a>
+                    Working with Carol was a great experience. I got to see the results of bad marketing not just on a business but the business owner.
+                    I saw how distrusting she was of marketing people even though she knew she needed one.
+                    Unfortunately the contract eventually ended and I began focusing on karmaCRM full time.
                 </p>
             </div>
         </div>
