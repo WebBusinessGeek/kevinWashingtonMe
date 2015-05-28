@@ -67,7 +67,7 @@
                     While decisions to add new team members are based on things like education, experience or skill sets; one would think that a person's character would trump them all.
                     For example, should a highly skilled sales rep that lacks integrity get hired before a decent one that maintains his honor?
                     Or does a Ivy League grad who is incapable of working with others without conflict get added before a humble and similarly skilled grad from a Tier 3 college?
-                    What I can bring to {{companyName}} does not stop at my skill sets and experiences, but also includes integrity, patience, respect, and many other personal qualities that I feel can be far more valuable to the culture at {{companyName}} than any one specific of skills.
+                    What I can bring to {{companyName}} does not stop at my skill sets and experiences, but also includes integrity, patience, respect, and many other personal qualities that I feel can be far more valuable to the culture at {{companyName}} than any one specific set of skills.
                 </p>
             </div>
         </div>
