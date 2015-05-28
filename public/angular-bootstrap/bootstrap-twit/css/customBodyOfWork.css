@@ -14,7 +14,7 @@
 }
 
 #bodyOfWorkPageContainer > .bodyOfWorkProjectContainer {
-    margin-bottom: 150px;
+    margin-bottom: 250px;
 }
 
 #bodyOfWorkPageContainer > .bodyOfWorkProjectContainer > .bodyOfWorkProjectHeader > .bodyOfWorkProjectTitle {
@@ -23,4 +23,10 @@
 
 #bodyOfWorkPageContainer > .bodyOfWorkProjectContainer > .bodyOfWorkProjectBody > .bodyOfWorkProjectInput {
     margin-bottom: 45px;
+}
+
+
+#bodyOfWorkPageContainer > .bodyOfWorkProjectContainer > .bodyOfWorkProjectBody > .bodyOfWorkProjectViewWorkExamples {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
