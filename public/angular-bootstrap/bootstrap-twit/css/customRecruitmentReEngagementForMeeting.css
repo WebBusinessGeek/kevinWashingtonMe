@@ -42,3 +42,16 @@
 .paddingTop20 {
     padding-top:20px;
 }
+
+#reEngagementContentForMeetingContainer > #schedulerSection > div > #goBack {
+    font-family: 'Arvo', serif;
+    color: #44464a;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+
+#reEngagementContentForMeetingContainer > #schedulerSection > div > #goBack:hover {
+    color: #dadada;
+    cursor: pointer;
+}

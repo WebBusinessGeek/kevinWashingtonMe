@@ -122,6 +122,7 @@
 
     <div id="schedulerSection" ng-show="contentOrSchedule == 'scheduler'">
         <div>
+            <p id="goBack" ng-click="setContentOrSchedule('content')">Back to the article</p>
             <p class="formHelpText">Let's start with some Day/Time Options that work for you.</p>
             <h5 ng-hide="day1 && hour1 && minutes1 && ampm1 && timezone1" class="formRedHelpText">You can send me your available times once you have entered at least 1 option.</h5>
             <form class="form-inline">
