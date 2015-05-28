@@ -5,6 +5,9 @@ angular.module('app')
     {
         $scope.scheduleOptions = 1;
 
+        $scope.contentOrSchedule = 'content';
+
+
         $scope.hidePrivateData = true;
 
         $scope.identifyCompanyName = function()

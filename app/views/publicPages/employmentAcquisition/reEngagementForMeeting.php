@@ -1,6 +1,6 @@
 <div id="reEngagementContentForMeetingContainer" ng-controller="reEngagementForMeetingController" class="text-center">
 
-    <div id="reEngagementContentHeader">
+    <div id="reEngagementContentHeader" ng-show="contentOrSchedule == 'content'">
         <div id="reEngagementContentTitle">
             <h1>5 Things I Can Bring to the {{companyName}} Team </h1>
         </div>
@@ -9,18 +9,6 @@
         </div>
     </div>
 
-    <div id="contentOrSchedulerSection" class="row" ng-hide="contentOrSchedule">
-        <div class="col-lg-12">
-            <p>Choose One:</p>
-        </div>
-        <div class="paddingTop20 col-lg-4 col-lg-offset-2">
-            <button class="btn btn-warning btn-lg" ng-click="setContentOrSchedule('content')">5 Things I'll bring to {{companyName}}</button>
-        </div>
-
-        <div class="paddingTop20 col-lg-4">
-            <button class="btn btn-warning btn-lg" ng-click="setContentOrSchedule('scheduler')">Let's set up a time to talk</button>
-        </div>
-    </div>
 
     <div id="reEngagementContentSection" ng-show="contentOrSchedule == 'content'">
         <div id="reEngagementContent1" class="reEngagementContent row">
