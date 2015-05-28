@@ -11,18 +11,40 @@
     <div class="bodyOfWorkProjectContainer">
         <div class="bodyOfWorkProjectHeader">
             <div class="bodyOfWorkProjectTitle">
-                <h3>Director Of Growth</h3>
+                <h3>karmaCRM</h3>
             </div>
             <div class="bodyOfWorkProjectLogo">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/150">
             </div>
             <div class="bodyOfWorkProjectCompany">
-                <h1>karmaCRM</h1>
+                <h1>Director Of Growth</h1>
             </div>
         </div>
 
         <div class="bodyOfWorkProjectBody">
             <div class="bodyOfWorkProjectInput">
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Management</h3>
+                    <p>People</p>
+                    <p>Processes</p>
+                    <p>Revenue</p>
+                </div>
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Lead Generation</h3>
+                    <p>Email Marketing</p>
+                    <p>Direct Interaction Marketing</p>
+                    <p>Paid Advertising</p>
+                    <p>Content Promotion via Social Media</p>
+                    <p>OnSite SEO Optimization</p>
+                </div>
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Digital Sales</h3>
+                    <p>Landing Page Development, Promotion, & Optimization</p>
+                    <p>Acquisition Process Optimization</p>
+                    <p>Optimization of User Experience</p>
+                    <p>Product Demonstration Promotion & Consulting</p>
+                    <p>New User OnBoarding Process Optimization</p>
+                </div>
 
             </div>
             <div class="bodyOfWorkProjectInfo">
