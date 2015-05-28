@@ -3,3 +3,16 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+#bodyOfWorkPageContainer > #bodyOfWorkPageMainHeader {
+    margin-bottom: 80px;
+}
+
+
+#bodyOfWorkPageContainer > div > #bodyOfWorkPageSubTitle {
+    font-size: 20px;
+}
+
+#bodyOfWorkPageContainer > .bodyOfWorkProjectContainer {
+    margin-bottom: 150px;
+}
