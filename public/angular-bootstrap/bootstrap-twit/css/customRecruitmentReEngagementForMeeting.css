@@ -55,3 +55,7 @@
     color: #dadada;
     cursor: pointer;
 }
+
+#thankYouFormFeedback > p {
+    font-size: 24px;
+}

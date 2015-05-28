@@ -68,6 +68,7 @@ angular.module('app')
             $http.post('/api.v1/connect', data).
                 success(function(data, status,headers,config) {
                     $scope.message = data;
+                    $scope.showThankYouMessage = true;
                 }).
                 error(function (data, status,headers,config) {
                     $scope.error = data;
