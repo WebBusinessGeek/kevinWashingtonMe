@@ -10,13 +10,13 @@
 
     <div class="bodyOfWorkProjectContainer">
         <div class="bodyOfWorkProjectHeader">
-            <div class="bodyOfWorkProjectTitle">
+            <div class="bodyOfWorkProjectCompanyName">
                 <h3>karmaCRM</h3>
             </div>
             <div class="bodyOfWorkProjectLogo">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/150">
             </div>
-            <div class="bodyOfWorkProjectCompany">
+            <div class="bodyOfWorkProjectTitle">
                 <h1>Director Of Growth</h1>
             </div>
         </div>
@@ -28,12 +28,14 @@
                     <p>People</p>
                     <p>Processes</p>
                     <p>Revenue</p>
+                    <p>Business Data & Intelligence</p>
                 </div>
                 <div class="bodyOfWorkProjectInputGroup">
                     <h3>Lead Generation</h3>
                     <p>Email Marketing</p>
                     <p>Direct Interaction Marketing</p>
                     <p>Paid Advertising</p>
+                    <p>Engagement Content Development</p>
                     <p>Content Promotion via Social Media</p>
                     <p>OnSite SEO Optimization</p>
                 </div>
@@ -61,19 +63,43 @@
 
     <div class="bodyOfWorkProjectContainer">
         <div class="bodyOfWorkProjectHeader">
-            <div class="bodyOfWorkProjectTitle">
-                <h3>Product Manager</h3>
+            <div class="bodyOfWorkProjectCompanyName">
+                <h3>GrowthValley</h3>
             </div>
             <div class="bodyOfWorkProjectLogo">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/150">
             </div>
-            <div class="bodyOfWorkProjectCompany">
-                <h1>GrowthValley</h1>
+            <div class="bodyOfWorkProjectTitle">
+                <h1>Product Manager</h1>
             </div>
         </div>
 
         <div class="bodyOfWorkProjectBody">
             <div class="bodyOfWorkProjectInput">
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Management</h3>
+                    <p>People</p>
+                    <p>Processes</p>
+                    <p>Revenue</p>
+                    <p>Business Data & Intelligence</p>
+                </div>
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Lead Generation</h3>
+                    <p>Email Marketing</p>
+                    <p>Direct Interaction Marketing</p>
+                    <p>Paid Advertising</p>
+                    <p>Engagement Content Development</p>
+                    <p>Content Promotion via Social Media</p>
+                    <p>OnSite SEO Optimization</p>
+                </div>
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Digital Sales</h3>
+                    <p>Landing Page Development, Promotion, & Optimization</p>
+                    <p>Acquisition Process Optimization</p>
+                    <p>Optimization of User Experience</p>
+                    <p>Product Demonstration Promotion & Consulting</p>
+                    <p>New User OnBoarding Process Optimization</p>
+                </div>
 
             </div>
             <div class="bodyOfWorkProjectInfo">
@@ -90,19 +116,43 @@
 
     <div class="bodyOfWorkProjectContainer">
         <div class="bodyOfWorkProjectHeader">
-            <div class="bodyOfWorkProjectTitle">
-                <h3>SEO Consultant</h3>
+            <div class="bodyOfWorkProjectCompanyName">
+                <h3>SmartHealthyWomen</h3>
             </div>
             <div class="bodyOfWorkProjectLogo">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/150">
             </div>
-            <div class="bodyOfWorkProjectCompany">
-                <h1>SmartHealthyWomen</h1>
+            <div class="bodyOfWorkProjectTitle">
+                <h1>SEO Consultant</h1>
             </div>
         </div>
 
         <div class="bodyOfWorkProjectBody">
             <div class="bodyOfWorkProjectInput">
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Management</h3>
+                    <p>People</p>
+                    <p>Processes</p>
+                    <p>Revenue</p>
+                    <p>Business Data & Intelligence</p>
+                </div>
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Lead Generation</h3>
+                    <p>Email Marketing</p>
+                    <p>Direct Interaction Marketing</p>
+                    <p>Paid Advertising</p>
+                    <p>Engagement Content Development</p>
+                    <p>Content Promotion via Social Media</p>
+                    <p>OnSite SEO Optimization</p>
+                </div>
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Digital Sales</h3>
+                    <p>Landing Page Development, Promotion, & Optimization</p>
+                    <p>Acquisition Process Optimization</p>
+                    <p>Optimization of User Experience</p>
+                    <p>Product Demonstration Promotion & Consulting</p>
+                    <p>New User OnBoarding Process Optimization</p>
+                </div>
 
             </div>
             <div class="bodyOfWorkProjectInfo">
@@ -119,19 +169,43 @@
 
     <div class="bodyOfWorkProjectContainer">
         <div class="bodyOfWorkProjectHeader">
-            <div class="bodyOfWorkProjectTitle">
-                <h3>Digital Marketing Consultant</h3>
+            <div class="bodyOfWorkProjectCompanyName">
+                <h3>NomadYogi</h3>
             </div>
             <div class="bodyOfWorkProjectLogo">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/150">
             </div>
-            <div class="bodyOfWorkProjectCompany">
-                <h1>NomadYogi</h1>
+            <div class="bodyOfWorkProjectTitle">
+                <h1>Digital Marketing Consultant (Indirect)</h1>
             </div>
         </div>
 
         <div class="bodyOfWorkProjectBody">
             <div class="bodyOfWorkProjectInput">
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Management</h3>
+                    <p>People</p>
+                    <p>Processes</p>
+                    <p>Revenue</p>
+                    <p>Business Data & Intelligence</p>
+                </div>
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Lead Generation</h3>
+                    <p>Email Marketing</p>
+                    <p>Direct Interaction Marketing</p>
+                    <p>Paid Advertising</p>
+                    <p>Engagement Content Development</p>
+                    <p>Content Promotion via Social Media</p>
+                    <p>OnSite SEO Optimization</p>
+                </div>
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Digital Sales</h3>
+                    <p>Landing Page Development, Promotion, & Optimization</p>
+                    <p>Acquisition Process Optimization</p>
+                    <p>Optimization of User Experience</p>
+                    <p>Product Demonstration Promotion & Consulting</p>
+                    <p>New User OnBoarding Process Optimization</p>
+                </div>
 
             </div>
             <div class="bodyOfWorkProjectInfo">
@@ -148,19 +222,43 @@
 
     <div class="bodyOfWorkProjectContainer">
         <div class="bodyOfWorkProjectHeader">
-            <div class="bodyOfWorkProjectTitle">
-                <h3>Advertising Manager</h3>
+            <div class="bodyOfWorkProjectCompanyName">
+                <h3>Family Law Center</h3>
             </div>
             <div class="bodyOfWorkProjectLogo">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/150">
             </div>
-            <div class="bodyOfWorkProjectCompany">
-                <h1>Family Law Center</h1>
+            <div class="bodyOfWorkProjectTitle">
+                <h1>Paid Advertising Manager</h1>
             </div>
         </div>
 
         <div class="bodyOfWorkProjectBody">
             <div class="bodyOfWorkProjectInput">
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Management</h3>
+                    <p>People</p>
+                    <p>Processes</p>
+                    <p>Revenue</p>
+                    <p>Business Data & Intelligence</p>
+                </div>
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Lead Generation</h3>
+                    <p>Email Marketing</p>
+                    <p>Direct Interaction Marketing</p>
+                    <p>Paid Advertising</p>
+                    <p>Engagement Content Development</p>
+                    <p>Content Promotion via Social Media</p>
+                    <p>OnSite SEO Optimization</p>
+                </div>
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Digital Sales</h3>
+                    <p>Landing Page Development, Promotion, & Optimization</p>
+                    <p>Acquisition Process Optimization</p>
+                    <p>Optimization of User Experience</p>
+                    <p>Product Demonstration Promotion & Consulting</p>
+                    <p>New User OnBoarding Process Optimization</p>
+                </div>
 
             </div>
             <div class="bodyOfWorkProjectInfo">
@@ -177,19 +275,43 @@
 
     <div class="bodyOfWorkProjectContainer">
         <div class="bodyOfWorkProjectHeader">
-            <div class="bodyOfWorkProjectTitle">
-                <h3>Digital Marketing Consultant</h3>
+            <div class="bodyOfWorkProjectCompanyName">
+                <h3>Sacramento Employment Lawyers</h3>
             </div>
             <div class="bodyOfWorkProjectLogo">
                 <img class="img-circle img-responsive center-block" src="http://placehold.it/150">
             </div>
-            <div class="bodyOfWorkProjectCompany">
-                <h1>Sacramento Family Law</h1>
+            <div class="bodyOfWorkProjectTitle">
+                <h1>Digital Marketing Consultant</h1>
             </div>
         </div>
 
         <div class="bodyOfWorkProjectBody">
             <div class="bodyOfWorkProjectInput">
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Management</h3>
+                    <p>People</p>
+                    <p>Processes</p>
+                    <p>Revenue</p>
+                    <p>Business Data & Intelligence</p>
+                </div>
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Lead Generation</h3>
+                    <p>Email Marketing</p>
+                    <p>Direct Interaction Marketing</p>
+                    <p>Paid Advertising</p>
+                    <p>Engagement Content Development</p>
+                    <p>Content Promotion via Social Media</p>
+                    <p>OnSite SEO Optimization</p>
+                </div>
+                <div class="bodyOfWorkProjectInputGroup">
+                    <h3>Digital Sales</h3>
+                    <p>Landing Page Development, Promotion, & Optimization</p>
+                    <p>Acquisition Process Optimization</p>
+                    <p>Optimization of User Experience</p>
+                    <p>Product Demonstration Promotion & Consulting</p>
+                    <p>New User OnBoarding Process Optimization</p>
+                </div>
 
             </div>
             <div class="bodyOfWorkProjectInfo">
