@@ -58,6 +58,7 @@ Route::group(array(),function()
     Route::get('/connect', 'PublicPagesController@viewConnect');
     Route::get('/karma-crm-stats', 'PublicPagesController@viewKarmaCRMStats');
     Route::get('/resume', 'PublicPagesController@viewResume');
+    Route::get('/body-of-work', 'PublicPagesController@viewBodyOfWork');
     Route::get('/your-lost', 'PublicPagesController@view404Error');
 
 });

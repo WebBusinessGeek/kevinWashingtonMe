@@ -16,6 +16,7 @@
     <link href="/angular-bootstrap/bootstrap-twit/css/customKarmaStats.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customIntro.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customTMI.css" rel="stylesheet">
+    <link href="/angular-bootstrap/bootstrap-twit/css/customBodyOfWork.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customResume.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customDemonstrationContent.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customRecruitmentConversion.css" rel="stylesheet">
@@ -237,6 +238,7 @@
     <script src="/app/skillJquery.js"></script>
     <script src="/app/intro.js"></script>
     <script src="/app/tmi.js"></script>
+    <script src="/app/bodyOfWork.js"></script>
     <script src="/app/resume.js"></script>
     <script src="/app/demonstration.js"></script>
     <script src="/app/conversion.js"></script>

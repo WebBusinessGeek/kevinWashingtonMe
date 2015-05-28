@@ -249,6 +249,15 @@ class PublicPagesController extends \BaseController {
 
 	}
 
+	/***********************************************************************************************************/
+	/*                                          Body of Work page                           		                    */
+	/***********************************************************************************************************/
+
+	public function viewBodyOfWork()
+	{
+		$view = View::make('publicPages.bodyOfWork');
+		$this->layout->content = $view->render();
+	}
 
 	/***********************************************************************************************************/
 	/*                                         Employment Acquisition Pages                		                    */
