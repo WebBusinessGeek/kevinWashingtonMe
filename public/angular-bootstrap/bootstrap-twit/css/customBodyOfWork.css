@@ -16,3 +16,7 @@
 #bodyOfWorkPageContainer > .bodyOfWorkProjectContainer {
     margin-bottom: 150px;
 }
+
+#bodyOfWorkPageContainer > .bodyOfWorkProjectContainer > .bodyOfWorkProjectHeader > .bodyOfWorkProjectTitle {
+    margin-bottom: 40px;
+}

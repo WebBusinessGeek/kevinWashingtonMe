@@ -24,6 +24,7 @@
         <div class="bodyOfWorkProjectBody">
             <div class="bodyOfWorkProjectInput">
                 <div class="bodyOfWorkProjectInputGroup">
+                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
                     <h3>Management</h3>
                     <p>People</p>
                     <p>Processes</p>
@@ -31,6 +32,7 @@
                     <p>Business Data & Intelligence</p>
                 </div>
                 <div class="bodyOfWorkProjectInputGroup">
+                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
                     <h3>Lead Generation</h3>
                     <p>Email Marketing</p>
                     <p>Direct Interaction Marketing</p>
@@ -40,6 +42,7 @@
                     <p>OnSite SEO Optimization</p>
                 </div>
                 <div class="bodyOfWorkProjectInputGroup">
+                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
                     <h3>Digital Sales</h3>
                     <p>Landing Page Development, Promotion, & Optimization</p>
                     <p>Acquisition Process Optimization</p>
@@ -51,6 +54,7 @@
             </div>
             <div class="bodyOfWorkProjectInfo row">
                 <div class="bodyOfWorkProjectInfoTitle col-lg-12">
+                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
                     <h3>A little Background</h3>
                 </div>
                 <div class="bodyOfWorkProjectInfoBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
