@@ -39,3 +39,8 @@
 #bodyOfWorkPageContainer > div > div > .bodyOfWorkProjectWorkExamples > p {
     font-size: 20px;
 }
+
+
+#bodyOfWorkPageContainer > .bodyOfWorkProjectContainer > .bodyOfWorkProjectBody > div > .bodyOfWorkProjectInputGroup > p {
+    font-size: 18px;
+}
