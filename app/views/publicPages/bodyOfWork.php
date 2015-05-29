@@ -376,8 +376,8 @@
             <div ng-show="showingProjectWorkExample == 'sacramento'" class="bodyOfWorkProjectWorkExamples col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
                     The Sacramento Employment Lawyers was a Sacramento based law firm specializing in employment law (smile).
-                    I helped them convert more of their traffic, optimize the design of their website, and wrote engaging content for their audiences.
-                    I am even still allowed access to their Google Analytics and AdWords accounts.
+                    I helped them convert more of their traffic, optimize the design of their website, wrote engaging content for their audiences, and built trust in my marketing abilities.
+                    I am even still allowed access to their Google Analytics and AdWords accounts!
                     Here is <a href="http://www.thesacramentoemploymentlawyers.com/" target="_blank">their website</a> if your interested.
                 </p>
             </div>

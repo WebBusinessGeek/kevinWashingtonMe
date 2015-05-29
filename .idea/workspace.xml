@@ -28,8 +28,8 @@
       <file leaf-file-name="bodyOfWork.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/publicPages/bodyOfWork.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9496403" vertical-offset="9080" max-vertical-offset="9775">
-              <caret line="309" column="70" selection-start-line="309" selection-start-column="70" selection-end-line="309" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.5683453" vertical-offset="9080" max-vertical-offset="9775">
+              <caret line="379" column="98" selection-start-line="379" selection-start-column="98" selection-end-line="379" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -625,8 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/bodyOfWork.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9496403" vertical-offset="9080" max-vertical-offset="9775">
-          <caret line="309" column="70" selection-start-line="309" selection-start-column="70" selection-end-line="309" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.5683453" vertical-offset="9080" max-vertical-offset="9775">
+          <caret line="379" column="98" selection-start-line="379" selection-start-column="98" selection-end-line="379" selection-end-column="98" />
           <folding />
         </state>
       </provider>
