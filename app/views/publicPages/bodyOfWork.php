@@ -378,7 +378,7 @@
                 <p>
                     The Sacramento Employment Lawyers was a Sacramento based law firm specializing in employment law (smile).
                     I helped them convert more of their traffic, optimize the design of their website, and wrote engaging content for their audiences.
-                    Here is <a href="http://www.thesacramentoemploymentlawyers.com/">their website</a> if your interested.
+                    Here is <a href="http://www.thesacramentoemploymentlawyers.com/" target="_blank">their website</a> if your interested.
                 </p>
             </div>
         </div>
