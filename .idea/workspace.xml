@@ -30,8 +30,8 @@
           <file leaf-file-name="bodyOfWork.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/bodyOfWork.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.9356288" vertical-offset="0" max-vertical-offset="9775">
-                  <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+                <state vertical-scroll-proportion="0.4491018" vertical-offset="0" max-vertical-offset="9775">
+                  <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
                   <folding />
                 </state>
               </provider>
@@ -44,8 +44,8 @@
           <file leaf-file-name="customBodyOfWork.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customBodyOfWork.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.9307479" vertical-offset="428" max-vertical-offset="1275">
-                  <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+                <state vertical-scroll-proportion="0.24238227" vertical-offset="0" max-vertical-offset="1275">
+                  <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -582,16 +582,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/bodyOfWork.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9356288" vertical-offset="0" max-vertical-offset="9775">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.4491018" vertical-offset="0" max-vertical-offset="9775">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customBodyOfWork.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9307479" vertical-offset="428" max-vertical-offset="1275">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.24238227" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding />
         </state>
       </provider>

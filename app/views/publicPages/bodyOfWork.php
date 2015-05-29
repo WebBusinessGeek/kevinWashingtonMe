@@ -1,8 +1,8 @@
 <div id="bodyOfWorkPageContainer" class="text-center" ng-controller="bodyOfWorkController">
 
     <div id="bodyOfWorkPageMainHeader">
-        <h1 id="bodyOfWorkPageTitle">A Few of My Projects.</h1>
-        <p id="bodyOfWorkPageSubTitle">
+        <h1 id="bodyOfWorkPageTitle" class="col-lg-12">A Few of My Projects.</h1>
+        <p id="bodyOfWorkPageSubTitle" class="col-lg-10 col-lg-offset-1">
             Short compendium of projects I have had the pleasure of working on.
             Either marketing, product development or both.
         </p>
@@ -10,7 +10,7 @@
 
     <div class="bodyOfWorkProjectContainer">
         <div class="bodyOfWorkProjectHeader">
-            <div class="bodyOfWorkProjectCompanyName">
+            <div class="bodyOfWorkProjectCompanyName col-lg-12">
                 <h3>karmaCRM</h3>
             </div>
             <div class="bodyOfWorkProjectLogo">
