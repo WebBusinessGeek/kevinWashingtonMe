@@ -372,9 +372,9 @@
                 </div>
             </div>
             <div class="bodyOfWorkProjectViewWorkExamples">
-                <button class="btn btn-warning btn-lg" ng-click="showProjectWorkExample('karmaCRM')">About the gig</button>
+                <button class="btn btn-warning btn-lg" ng-click="showProjectWorkExample('sacramento')">About the gig</button>
             </div>
-            <div ng-show="showingProjectWorkExample == 'karmaCRM'" class="bodyOfWorkProjectWorkExamples col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+            <div ng-show="showingProjectWorkExample == 'sacramento'" class="bodyOfWorkProjectWorkExamples col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
                     The Sacramento Employment Lawyers was a Sacramento based law firm specializing in employment law (smile).
                     I helped them convert more of their traffic, optimize the design of their website, and wrote engaging content for their audiences.
