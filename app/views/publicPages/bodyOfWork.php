@@ -147,7 +147,7 @@
             <div ng-show="showingProjectWorkExample == 'growthValley'" class="bodyOfWorkProjectWorkExamples col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
                     The project has since completed and is now a full alpha-ready SaaS product.
-                    The owner asked me to stay on as a co-founder to which I had to decline due to time conflicts.
+                    The owner asked me to stay on as a co-founder to which I had to decline due to my inability to work solely on equity.
                     You can see the full project <a href="http://growthvalley.herokuapp.com/#" target="_blank">here</a>.
                     Try to give it a minute to load as the owner is looking to keep cost down allocating very little dynos via Heroku hosting platform.
                 </p>
@@ -191,7 +191,7 @@
                     <p>
                         SmartHealthyWomen is now a successful Austrailian based blog targeting women and their interests.
                         A few years ago when starting the blog the owner reached out to me for help in marketing her content.
-                        She is one of the most efficient and engaged business professionals I have worked with and wanted to learn how to maintain an SEO presence on her own.
+                        She is one of the most engaged business professionals I have worked with and wanted to learn how to maintain an SEO presence on her own.
                         So she contracted me to help her learn SEO.
                     </p>
                 </div>
@@ -252,7 +252,7 @@
             </div>
             <div ng-show="showingProjectWorkExample == 'nomadYogi'" class="bodyOfWorkProjectWorkExamples col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
-                    Following the strategy, NomadYogi reached out to me for a proposal to work on their marketing full time.
+                    Following the strategy, NomadYogi reached out to me through a collaborator for a proposal to work on their marketing full time.
                     However at the time I was stepping into my full time role as Director of Growth for karmaCRM.
                     Not many deliverables to link to but here is their <a href="https://www.nomadyogi.com/" target="_blank">site</a> which is still in beta.
                 </p>
@@ -308,7 +308,7 @@
                 <p>
                     Working with Carol was a great experience. I got to see the results of bad marketing not just on a business but the business owner.
                     I saw how distrusting she was of marketing people even though she knew she needed one.
-                    Unfortunately the contract eventually ended and I began focusing on karmaCRM full time.
+                    Unfortunately when the contract ended I began focusing on karmaCRM full time.
                 </p>
             </div>
         </div>
@@ -378,6 +378,7 @@
                 <p>
                     The Sacramento Employment Lawyers was a Sacramento based law firm specializing in employment law (smile).
                     I helped them convert more of their traffic, optimize the design of their website, and wrote engaging content for their audiences.
+                    I am even still allowed access to their Google Analytics and AdWords accounts.
                     Here is <a href="http://www.thesacramentoemploymentlawyers.com/" target="_blank">their website</a> if your interested.
                 </p>
             </div>
