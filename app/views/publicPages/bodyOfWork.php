@@ -133,11 +133,10 @@
                     <p>
                         This was initially a consulting project that transformed into a full blown software development contract.
                         The owner looked to solve the niche problems that new web based entrepreneurs experience.
-                        These markets include Developers who don't know how to market, marketers who don't anything about code,
-                        and stakeholders who know neither.
-                        Working with the owner we came up with solutions that included innovative learning solutions like;
-                        Facilitating one on one training, unique courses that allowed interaction with the course provider,
-                        and vetted resources from industry leaders.
+                        These markets included developers unfamiliar with marketing, digital marketers who couldn't code,
+                        and stakeholders who were unfamiliar with the web business ecosystem in general.
+                        Together we came up with solutions that included innovative learning solutions that included
+                        private training facilitation, interactive courses, and vetted resources from industry leaders.
                     </p>
                 </div>
             </div>
@@ -189,8 +188,8 @@
                 </div>
                 <div class="bodyOfWorkProjectInfoBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                     <p>
-                        SmartHealthyWomen is now a successful Austrailian based blog targeting women and their interests.
-                        A few years ago when starting the blog the owner reached out to me for help in marketing her content.
+                        SmartHealthyWomen is now a successful Australian based blog targeting women and their interests.
+                        A few years ago when starting the blog the owner reached out to me for help marketing her content.
                         She is one of the most engaged business professionals I have worked with and wanted to learn how to maintain an SEO presence on her own.
                         So she contracted me to help her learn SEO.
                     </p>
@@ -201,7 +200,7 @@
             </div>
             <div ng-show="showingProjectWorkExample == 'smartHealthyWomen'" class="bodyOfWorkProjectWorkExamples col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
-                    The project consisted of training so there are few deliverables I can link to.
+                    As the project mostly consisted of training there are few deliverables I can link to.
                     However feel free to check out how Estelle is doing by visiting her <a href="http://www.smarthealthywomen.com/" target="_blank">blog</a> and <a href="https://www.facebook.com/SmartHealthyWomen?_rdr" target="_blank">facebook page</a>.
                 </p>
             </div>
@@ -240,10 +239,10 @@
                 <div class="bodyOfWorkProjectInfoBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                     <p>
                         A collaborator of mine who owned a software and web design company had a client who needed marketing help.
-                        The client ended up being NomadYogi, an innovative SaaS startup providing solutions to the yoga instructor and enthusiast markets.
-                        The owner of NomadYogi was spending a ton of capital in marketing monthly, with little to no return.
-                        Reaching out to me I developed a strategy that included terminating the current marketing vendor, and following simple approaches that if done correctly could
-                        reduce the marketing budget, convert more visitors, and maintain current traffic volume.
+                        The client ended up being NomadYogi, an innovative SaaS startup providing solutions to the yoga instructor and yoga enthusiast markets.
+                        The owner of NomadYogi was spending a ton of capital in marketing monthly with low ROI.
+                        Reaching out to me through the collaborator, I developed a strategy that included terminating the current marketing vendor while following some very simple marketing approaches.
+                        If implemented correctly this strategy could reduce the current marketing budget, convert more visitors, and maintain current traffic volume.
                     </p>
                 </div>
             </div>
@@ -252,7 +251,7 @@
             </div>
             <div ng-show="showingProjectWorkExample == 'nomadYogi'" class="bodyOfWorkProjectWorkExamples col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
-                    Following the strategy, NomadYogi reached out to me through a collaborator for a proposal to work on their marketing full time.
+                    After some time, NomadYogi reached out to me through the collaborator for a proposal to work on their marketing full time.
                     However at the time I was stepping into my full time role as Director of Growth for karmaCRM.
                     Not many deliverables to link to but here is their <a href="https://www.nomadyogi.com/" target="_blank">site</a> which is still in beta.
                 </p>
@@ -296,8 +295,8 @@
                 <div class="bodyOfWorkProjectInfoBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                     <p>
                         Carol Delzer, the owner of the Family Law Center, is a very impressive attorney, multiple author, and industry expert on collaborative co-parenting.
-                        However Carol did not have the time to manage the marketing of the Family Law Center and generate enough leads to her other attorneys.
-                        Carol originally contracted another marketing consultant whom she terminated before bringing me on in a light role to optimize & manage her Google Adwords account.
+                        However Carol was not well versed in digital marketing and couldn't generate enough leads to her practice, which housed 3 attorneys.
+                        Carol originally contracted another marketing consultant whom she terminated before bringing me on in a light role to optimize & manage her Google AdWords account.
                     </p>
                 </div>
             </div>
@@ -307,8 +306,8 @@
             <div ng-show="showingProjectWorkExample == 'familyLawCenter'" class="bodyOfWorkProjectWorkExamples col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
                     Working with Carol was a great experience. I got to see the results of bad marketing not just on a business but the business owner.
-                    I saw how distrusting she was of marketing people even though she knew she needed one.
-                    Unfortunately when the contract ended I began focusing on karmaCRM full time.
+                    I saw how distrusting she was of marketers even though she knew she needed one.
+                    Unfortunately the contract ended around the time I began focusing on karmaCRM full time.
                 </p>
             </div>
         </div>
