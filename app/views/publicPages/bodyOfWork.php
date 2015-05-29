@@ -14,7 +14,7 @@
                 <h3>karmaCRM</h3>
             </div>
             <div class="bodyOfWorkProjectLogo">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/150">
+                <img class="img-circle img-responsive center-block" src="/assets/karmaStatsImages/KWStats_slide2_karmaLogo.png">
             </div>
             <div class="bodyOfWorkProjectTitle">
                 <h1>Director Of Growth</h1>
@@ -86,7 +86,7 @@
                 <h3>GrowthValley</h3>
             </div>
             <div class="bodyOfWorkProjectLogo">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/150">
+                <img class="center-block" src="/assets/bodyOfWork/companyImages/growthValley.png">
             </div>
             <div class="bodyOfWorkProjectTitle">
                 <h1>Product Manager</h1>
@@ -161,7 +161,7 @@
                 <h3>SmartHealthyWomen</h3>
             </div>
             <div class="bodyOfWorkProjectLogo">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/150">
+                <img class="img-responsive center-block" src="/assets/bodyOfWork/companyImages/shw.png">
             </div>
             <div class="bodyOfWorkProjectTitle">
                 <h1>SEO Consultant</h1>
@@ -214,7 +214,7 @@
                 <h3>NomadYogi</h3>
             </div>
             <div class="bodyOfWorkProjectLogo">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/150">
+                <img class="img-responsive center-block" src="/assets/bodyOfWork/companyImages/nomadYogi.png">
             </div>
             <div class="bodyOfWorkProjectTitle">
                 <h1>Digital Marketing Strategy</h1>
@@ -266,7 +266,7 @@
                 <h3>Family Law Center</h3>
             </div>
             <div class="bodyOfWorkProjectLogo">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/150">
+                <img class="img-responsive center-block" src="/assets/bodyOfWork/companyImages/flc.png">
             </div>
             <div class="bodyOfWorkProjectTitle">
                 <h1>Paid Advertising Manager</h1>
@@ -320,7 +320,7 @@
                 <h3>Sacramento Employment Lawyers</h3>
             </div>
             <div class="bodyOfWorkProjectLogo">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/150">
+                <img class="img-responsive center-block" src="/assets/bodyOfWork/companyImages/sacEmpLaw.png">
             </div>
             <div class="bodyOfWorkProjectTitle">
                 <h1>Digital Marketing Consultant</h1>
