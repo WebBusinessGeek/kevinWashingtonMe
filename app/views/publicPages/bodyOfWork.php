@@ -54,7 +54,7 @@
 
             <div class="bodyOfWorkProjectInfo row">
                 <div class="bodyOfWorkProjectInfoTitle col-lg-12">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive img-circle center-block" src="/assets/bodyOfWork/projectInfoIcons/karma_background.png">
                     <h3>A little Background</h3>
                 </div>
                 <div class="bodyOfWorkProjectInfoBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
@@ -126,7 +126,7 @@
 
             <div class="bodyOfWorkProjectInfo row">
                 <div class="bodyOfWorkProjectInfoTitle col-lg-12">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive img-circle center-block" src="/assets/bodyOfWork/projectInfoIcons/gvProject.png">
                     <h3>About the GV Project</h3>
                 </div>
                 <div class="bodyOfWorkProjectInfoBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
@@ -184,7 +184,7 @@
 
             <div class="bodyOfWorkProjectInfo row">
                 <div class="bodyOfWorkProjectInfoTitle col-lg-12">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive img-circle center-block" src="/assets/bodyOfWork/projectInfoIcons/shwProject.png">
                     <h3>SEO Training @ SmartHealthWomen</h3>
                 </div>
                 <div class="bodyOfWorkProjectInfoBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
@@ -234,7 +234,7 @@
 
             <div class="bodyOfWorkProjectInfo row">
                 <div class="bodyOfWorkProjectInfoTitle col-lg-12">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive img-circle center-block" src="/assets/bodyOfWork/projectInfoIcons/nomadProject.png">
                     <h3>A Strategy Pivot</h3>
                 </div>
                 <div class="bodyOfWorkProjectInfoBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
@@ -290,7 +290,7 @@
 
             <div class="bodyOfWorkProjectInfo row">
                 <div class="bodyOfWorkProjectInfoTitle col-lg-12">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive img-circle center-block" src="/assets/bodyOfWork/projectInfoIcons/flcProject.png">
                     <h3>Working with FLC</h3>
                 </div>
                 <div class="bodyOfWorkProjectInfoBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
@@ -359,7 +359,7 @@
 
             <div class="bodyOfWorkProjectInfo row">
                 <div class="bodyOfWorkProjectInfoTitle col-lg-12">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive img-circle center-block" src="/assets/bodyOfWork/projectInfoIcons/sacProject.png">
                     <h3>Enter Freelancing</h3>
                 </div>
                 <div class="bodyOfWorkProjectInfoBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
