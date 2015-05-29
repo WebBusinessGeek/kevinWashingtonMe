@@ -24,7 +24,7 @@
         <div class="bodyOfWorkProjectBody">
             <div class="bodyOfWorkProjectInput">
                 <div class="bodyOfWorkProjectInputGroup">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive center-block" src="/assets/bodyOfWork/InfoIcons/management.png">
                     <h3>Management</h3>
                     <p>People</p>
                     <p>Processes</p>
@@ -32,7 +32,7 @@
                     <p>Business Data & Intelligence</p>
                 </div>
                 <div class="bodyOfWorkProjectInputGroup">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive center-block" src="/assets/bodyOfWork/InfoIcons/leadGeneration.png">
                     <h3>Lead Generation</h3>
                     <p>Email Marketing</p>
                     <p>Direct Interaction Marketing</p>
@@ -42,7 +42,7 @@
                     <p>OnSite SEO Optimization</p>
                 </div>
                 <div class="bodyOfWorkProjectInputGroup">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive center-block" src="/assets/bodyOfWork/InfoIcons/digitalSales.png">
                     <h3>Digital Sales</h3>
                     <p>Landing Page Development, Promotion, & Optimization</p>
                     <p>Acquisition Process Optimization</p>
@@ -96,7 +96,7 @@
         <div class="bodyOfWorkProjectBody">
             <div class="bodyOfWorkProjectInput">
                 <div class="bodyOfWorkProjectInputGroup">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive center-block" src="/assets/bodyOfWork/InfoIcons/productResearch.png">
                     <h3>Product Research</h3>
                     <p>Potential Customer Research</p>
                     <p>Preliminary Market Research</p>
@@ -104,7 +104,7 @@
                     <p>Competitor Research</p>
                 </div>
                 <div class="bodyOfWorkProjectInputGroup">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive center-block" src="/assets/bodyOfWork/InfoIcons/productStrategy.png">
                     <h3>Product Strategy</h3>
                     <p>Competitor Solution Gap</p>
                     <p>Beach Head Marketing Strategy</p>
@@ -113,7 +113,7 @@
                     <p>Technology Selection</p>
                 </div>
                 <div class="bodyOfWorkProjectInputGroup">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive center-block" src="/assets/bodyOfWork/InfoIcons/productDevelopment.png">
                     <h3>Product Development</h3>
                     <p>Ruby on Rails Project Management</p>
                     <p>Cover Design Management</p>
@@ -171,7 +171,7 @@
         <div class="bodyOfWorkProjectBody">
             <div class="bodyOfWorkProjectInput">
                 <div class="bodyOfWorkProjectInputGroup">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive center-block" src="/assets/bodyOfWork/InfoIcons/seoConsulting.png">
                     <h3>SEO Consulting</h3>
                     <p>Audience Interest Research</p>
                     <p>Keyword Research</p>
@@ -224,7 +224,7 @@
         <div class="bodyOfWorkProjectBody">
             <div class="bodyOfWorkProjectInput">
                 <div class="bodyOfWorkProjectInputGroup">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive center-block" src="/assets/bodyOfWork/InfoIcons/objectives.png">
                     <h3>Objectives</h3>
                     <p>Reduce Marketing Budget</p>
                     <p>Optimize User Behavior</p>
@@ -276,7 +276,7 @@
         <div class="bodyOfWorkProjectBody">
             <div class="bodyOfWorkProjectInput">
                 <div class="bodyOfWorkProjectInputGroup">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive center-block" src="/assets/bodyOfWork/InfoIcons/adManagement.png">
                     <h3>Google AdWords Campaign Management</h3>
                     <p>Audience Interest Research</p>
                     <p>Keyword Research</p>
@@ -330,7 +330,7 @@
         <div class="bodyOfWorkProjectBody">
             <div class="bodyOfWorkProjectInput">
                 <div class="bodyOfWorkProjectInputGroup">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive center-block" src="/assets/bodyOfWork/InfoIcons/onSiteSEO.png">
                     <h3>OnSite SEO</h3>
                     <p>Keyword Research & Strategy</p>
                     <p>Content Development</p>
@@ -338,14 +338,14 @@
                     <p>Markup Optimization</p>
                 </div>
                 <div class="bodyOfWorkProjectInputGroup">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive center-block" src="/assets/bodyOfWork/InfoIcons/vbo.png">
                     <h3>Visitor Behavior Optimization</h3>
                     <p>Site Redesign</p>
                     <p>Data Insights</p>
                     <p>Lead Box Conversion Strategy</p>
                 </div>
                 <div class="bodyOfWorkProjectInputGroup">
-                    <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
+                    <img class="img-responsive center-block" src="/assets/bodyOfWork/InfoIcons/adManagement.png">
                     <h3>Google AdWords Campaign Management</h3>
                     <p>Audience Interest Research</p>
                     <p>Keyword Research</p>
