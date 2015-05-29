@@ -360,26 +360,25 @@
             <div class="bodyOfWorkProjectInfo row">
                 <div class="bodyOfWorkProjectInfoTitle col-lg-12">
                     <img class="img-responsive img-circle center-block" src="http://placehold.it/80">
-                    <h3>A little Background</h3>
+                    <h3>Enter Freelancing</h3>
                 </div>
                 <div class="bodyOfWorkProjectInfoBody col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                     <p>
-                        karmaCRM is a SaaS based business that offers Customer Relationship Management solutions to small and medium sized businesses.
-                        I was initially contracted to karmaCRM to provide SEO services.
-                        However after learning more about their business model and spotting some under-performing processes, I worked with them to accomplish much more.
-                        Eventually working my way up to the role of Director of Growth.
+                        In 2013, I started working with The Sacramento Employment lawyers in one of my first freelance roles.
+                        Up to this point I was primarily a W-2 employee. I was immediately hit with both the benefits and a few negatives of freelancing.
+                        The benefits included freedom, full autonomy of my schedule, and the ability to be selective about projects.
+                        The evils are Elance fees and self-employment taxes. They are the worst!
                     </p>
                 </div>
             </div>
             <div class="bodyOfWorkProjectViewWorkExamples">
-                <button class="btn btn-warning btn-lg" ng-click="showProjectWorkExample('karmaCRM')">Some of my karmaCRM work</button>
+                <button class="btn btn-warning btn-lg" ng-click="showProjectWorkExample('karmaCRM')">About the gig</button>
             </div>
             <div ng-show="showingProjectWorkExample == 'karmaCRM'" class="bodyOfWorkProjectWorkExamples col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <p>
-                    While with <a href="http://karmacrm.com" target="_blank">karmaCRM</a>
-                    I lead a growth strategy that had some amazing results.
-                    We increased our free trial conversions, revenue, and reduced the negative effects of our attrition.
-                    <a href="/karma-crm-stats" target="_blank">See how we did it.</a>
+                    The Sacramento Employment Lawyers was a Sacramento based law firm specializing in employment law (smile).
+                    I helped them convert more of their traffic, optimize the design of their website, and wrote engaging content for their audiences.
+                    Here is <a href="http://www.thesacramentoemploymentlawyers.com/">their website</a> if your interested.
                 </p>
             </div>
         </div>
