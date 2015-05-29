@@ -30,3 +30,12 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+#bodyOfWorkPageContainer > div > div > .bodyOfWorkProjectInfo > .bodyOfWorkProjectInfoBody > p {
+
+    font-size: 22px;
+}
+
+#bodyOfWorkPageContainer > div > div > .bodyOfWorkProjectWorkExamples > p {
+    font-size: 20px;
+}
