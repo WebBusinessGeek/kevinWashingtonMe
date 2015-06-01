@@ -16,7 +16,8 @@ class PublicPagesController extends \BaseController {
 		'Stream',
 		'FreeBusy',
 		'HackerEarth',
-		'VenturePact'
+		'VenturePact',
+		'RJMetrics'
 	];
 
 	public $companiesToReEngageForOffer = [
