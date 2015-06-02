@@ -46,7 +46,9 @@ class PublicPagesController extends \BaseController {
 
 	public function view404Error()
 	{
-		return 'error view via public pages';
+		$view = View::make('publicPages.404');
+		$this->layout->title = 'Your Lost | Kevin Washington Web Developer & Customer Acquisition';
+		$this->layout->content = $view->render();
 	}
 
 
