@@ -59,6 +59,7 @@ class PublicPagesController extends \BaseController {
 	public function viewHome()
 	{
 		$view = View::make('publicPages.cover');
+		$this->layout->title = 'Kevin Washington | Web Developer & Customer Acquisition Specialist';
 		return $view;
 	}
 
@@ -71,6 +72,7 @@ class PublicPagesController extends \BaseController {
 	public function viewSkills()
 	{
 		$view = View::make('publicPages.skill');
+		$this->layout->title = 'My Skills | Kevin Washington Web Developer & Customer Acquisition Specialist';
 		$this->layout->content = $view->render();
 	}
 	public function getDataSkills()
@@ -127,39 +129,6 @@ class PublicPagesController extends \BaseController {
 	}
 
 
-
-	/***********************************************************************************************************/
-	/*                                          Experience page                           		                    */
-	/***********************************************************************************************************/
-
-	public function viewExperiences()
-	{
-		$view = View::make('publicPages.experience');
-		$this->layout->content = $view->render();
-	}
-	public function getDataExperiences()
-	{
-
-		if(!Cache::has('getDataExperiences'))
-		{
-			$experiences = \App\DomainLogic\ExperienceDirectory\Experience::all();
-			foreach($experiences as $experience)
-			{
-				$experience->images;
-			}
-
-			$log = \Illuminate\Support\Facades\DB::getQueryLog();
-
-			$forCache = ['experiences' => $experiences, 'log' => $log];
-
-			Cache::put('getDataExperiences', $forCache, $this->getCacheLimit());
-
-			return $forCache;
-		}
-		return Cache::get('getDataExperiences');
-	}
-
-
 	/***********************************************************************************************************/
 	/*                                          Connect page                           		                    */
 	/***********************************************************************************************************/
@@ -169,6 +138,7 @@ class PublicPagesController extends \BaseController {
 	public function viewConnect()
 	{
 		$view = View::make('publicPages.connect');
+		$this->layout->title = 'Let\'s Connect! | Kevin Washington Web Developer & Customer Acquisition Specialist';
 		$this->layout->content = $view->render();
 	}
 
@@ -202,6 +172,7 @@ class PublicPagesController extends \BaseController {
 	public function viewServices()
 	{
 		$view = View::make('publicPages.services');
+		$this->layout->title = 'My Services  | Kevin Washington Web Developer & Customer Acquisition Specialist';
 		$this->layout->content = $view->render();
 	}
 
@@ -214,6 +185,7 @@ class PublicPagesController extends \BaseController {
 	public function viewKarmaCRMStats()
 	{
 		$view = View::make('publicPages.karmaStats');
+		$this->layout->title = 'Case study with karmaCRM | Kevin Washington Web Developer & Customer Acquisition Specialist';
 		$this->layout->content = $view->render();
 	}
 
@@ -226,6 +198,7 @@ class PublicPagesController extends \BaseController {
 	public function viewIntro()
 	{
 		$view = View::make('publicPages.intro');
+		$this->layout->title = 'Hello I\'m Kevin | Kevin Washington Web Developer & Customer Acquisition Specialist';
 		$this->layout->content = $view->render();
 	}
 
@@ -237,6 +210,7 @@ class PublicPagesController extends \BaseController {
 	public function viewTMI()
 	{
 		$view = View::make('publicPages.tmi');
+		$this->layout->title = 'TMI page | Kevin Washington Web Developer & Customer Acquisition Specialist';
 		$this->layout->content = $view->render();
 	}
 
@@ -249,6 +223,7 @@ class PublicPagesController extends \BaseController {
 	public function viewResume()
 	{
 		$view = View::make('publicPages.resume');
+		$this->layout->title = 'My Resume | Kevin Washington Web Developer & Customer Acquisition Specialist';
 		$this->layout->content = $view->render();
 
 	}
@@ -260,6 +235,7 @@ class PublicPagesController extends \BaseController {
 	public function viewBodyOfWork()
 	{
 		$view = View::make('publicPages.bodyOfWork');
+		$this->layout->title = 'Projects I have been apart of | Kevin Washington Web Developer & Customer Acquisition Specialist';
 		$this->layout->content = $view->render();
 	}
 
@@ -271,24 +247,28 @@ class PublicPagesController extends \BaseController {
 	public function viewEmploymentEngagementContent()
 	{
 		$view = View::make('publicPages.employmentAcquisition.engagement');
+		$this->layout->title = '11 Traits to look for in your next marketing hire | Kevin Washington Web Developer & Customer Acquisition Specialist';
 		$this->layout->content = $view->render();
 	}
 
 	public function viewEmploymentDemonstrationContent()
 	{
 		$view = View::make('publicPages.employmentAcquisition.demonstration');
+		$this->layout->title = 'Am I A Good Fit | Kevin Washington Web Developer & Customer Acquisition Specialist';
 		$this->layout->content = $view->render();
 	}
 
 	public function viewEmploymentConversionContent()
 	{
 		$view = View::make('publicPages.employmentAcquisition.conversion');
+		$this->layout->title = 'Let\'s talk more! | Kevin Washington Web Developer & Customer Acquisition Specialist';
 		$this->layout->content = $view->render();
 	}
 
 	public function viewEmploymentTOConversionContent()
 	{
 		$view = View::make('publicPages.employmentAcquisition.conversionTO');
+		$this->layout->title = 'Thank you | Kevin Washington Web Developer & Customer Acquisition Specialist';
 		$this->layout->content = $view->render();
 	}
 

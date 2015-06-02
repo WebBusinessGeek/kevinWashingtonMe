@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kevin Washington | Web Developer & Customer Acquisition Specialist</title>
+    <title> <?php if(isset($title)) { echo $title; } ?> </title>
 
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/bootstrap-theme.css" rel="stylesheet">
