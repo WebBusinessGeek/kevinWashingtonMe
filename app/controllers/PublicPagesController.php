@@ -18,7 +18,9 @@ class PublicPagesController extends \BaseController {
 		'HackerEarth',
 		'VenturePact',
 		'RJMetrics',
-		'Zivtech'
+		'Zivtech',
+		'SquishClip',
+		'Edgar'
 	];
 
 	public $companiesToReEngageForOffer = [
