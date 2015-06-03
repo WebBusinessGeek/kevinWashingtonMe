@@ -24,18 +24,36 @@
     <favorites_list name="kevinWashingtonMe" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="PublicPagesController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/PublicPagesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38848922" vertical-offset="6930" max-vertical-offset="7750">
-              <caret line="292" column="78" selection-start-line="292" selection-start-column="78" selection-end-line="292" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="tmi.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/publicPages/tmi.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="6.773952" vertical-offset="0" max-vertical-offset="8375">
+                  <caret line="181" column="60" selection-start-line="181" selection-start-column="60" selection-end-line="181" selection-end-column="60" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="customTMI.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customTMI.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.3767313" vertical-offset="303" max-vertical-offset="1575">
+                  <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -44,7 +62,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="12" />
     <option name="y" value="37" />
-    <option name="width" value="1280" />
+    <option name="width" value="1425" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -215,7 +233,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="37" width="1280" height="744" extended-state="0" />
+    <frame x="12" y="37" width="1425" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -279,20 +297,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/tmi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50359714" vertical-offset="4175" max-vertical-offset="8375">
-          <caret line="181" column="60" selection-start-line="181" selection-start-column="60" selection-end-line="181" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/conversionTO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="695">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/publicPages/connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5755396" vertical-offset="0" max-vertical-offset="3775">
@@ -615,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.107913665" vertical-offset="0" max-vertical-offset="695">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,29 +626,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64748204" vertical-offset="1200" max-vertical-offset="2250">
           <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
-          <folding>
-            <marker date="1432826023000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1432826023000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1432826023000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1432826023000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1432826023000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1432826023000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1432826023000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1432826023000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1432826023000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1432826023000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1432826023000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1432826023000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1432826023000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1432826023000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/PublicPagesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38848922" vertical-offset="6930" max-vertical-offset="7750">
+        <state vertical-scroll-proportion="9.741007" vertical-offset="430" max-vertical-offset="7750">
           <caret line="292" column="78" selection-start-line="292" selection-start-column="78" selection-end-line="292" selection-end-column="78" />
+          <folding>
+            <marker date="1433346121000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433346121000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/tmi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.773952" vertical-offset="0" max-vertical-offset="8375">
+          <caret line="181" column="60" selection-start-line="181" selection-start-column="60" selection-end-line="181" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/angular-bootstrap/bootstrap-twit/css/customTMI.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3767313" vertical-offset="303" max-vertical-offset="1575">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding />
         </state>
       </provider>
