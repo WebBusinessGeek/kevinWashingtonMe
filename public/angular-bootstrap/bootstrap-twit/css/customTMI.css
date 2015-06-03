@@ -47,6 +47,13 @@
     background: #dadada;
 }
 
+#tmiHeadline > .pageSubTitle {
+    margin-top:-35px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+
 @media(max-width:990px)
 {
     .tmi10ThingsCard, #tmi10ThingsCard10 {

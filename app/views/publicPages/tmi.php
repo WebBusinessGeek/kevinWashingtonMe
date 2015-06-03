@@ -2,6 +2,7 @@
 <div class="text-center" ng-controller="tmiController">
     <div id="tmiHeadline">
         <h1 class="pageTitle">Welcome to my TMI page.</h1>
+        <p class="pageSubTitle hidden767">Click an icon below to learn more about me.</p>
     </div>
 
     <div class="row text-center" id="tmiNavList">
