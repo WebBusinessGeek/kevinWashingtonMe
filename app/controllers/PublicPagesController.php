@@ -290,6 +290,7 @@ class PublicPagesController extends \BaseController {
 			return Redirect::action('PublicPagesController@view404Error');
 		}
 		$view = View::make('publicPages.employmentAcquisition.reEngagementForMeeting');
+		$this->layout->title = '5 Things I will bring to team '. $companyName;
 		$this->layout->content = $view->render();
 	}
 
