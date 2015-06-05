@@ -1,8 +1,8 @@
 
 <div class="text-center" ng-controller="tmiController">
     <div id="tmiHeadline">
-        <h1 class="pageTitle">Welcome to my TMI page.</h1>
-        <p class="pageSubTitle hidden767">Click an icon below to learn more about me.</p>
+        <h1 class="pageTitle">Ready to learn more about me?</h1>
+        <p class="pageSubTitle hidden767">Click on an icon below to get started.</p>
     </div>
 
     <div class="row text-center" id="tmiNavList">
