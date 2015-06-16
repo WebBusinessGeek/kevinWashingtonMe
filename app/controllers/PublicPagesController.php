@@ -21,7 +21,8 @@ class PublicPagesController extends \BaseController {
 		'Zivtech',
 		'SquishClip',
 		'Edgar',
-		'Lobster'
+		'Lobster',
+		'HubSpot'
 	];
 
 	public $companiesToReEngageForOffer = [
