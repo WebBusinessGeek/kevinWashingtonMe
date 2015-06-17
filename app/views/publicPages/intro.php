@@ -17,7 +17,7 @@
                     <p class="arvo">Hello, I'm Kevin</p>
                 </div>
                 <div id="introContentBody" class="row">
-                    <p class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2">I not only help businesses create innovative products and grow their customer base - i enjoy it.</p>
+                    <p class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2">I not only help businesses create innovative products and grow their customer base - I enjoy it.</p>
 
                     <p class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2">
                         Im a web developer with experience in core development technologies like PHP, Javascript, HTML, CSS, and SQL.
