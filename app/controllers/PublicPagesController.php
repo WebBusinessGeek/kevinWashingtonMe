@@ -30,6 +30,21 @@ class PublicPagesController extends \BaseController {
 		'Yohan' => 'MapTags'
 	];
 
+	public $companiesForAcquisitionPresentation = [
+		'companyName' => [
+			'roleTitle' => [
+				'group1' => 'group1Title',
+				'group2' => 'group2Title',
+				'group1EngagementTitle' => 'This will be a title for engagement content for group 1',
+				'group2EngagementTitle' => 'This will be a title for engagement content for group 2',
+				'group1DemoDescription' => 'This will be a description of the demo content for group 1',
+				'group2DemoDescription' => 'This will be a description of the demo content for group 2',
+				'group1ConversionDescription' => 'This will be a description of the conversion content for group1',
+				'group2ConversionDescription' => 'This will b ea description of the conversion content for group2'
+			]
+		]
+	];
+
 
 	public function __construct()
 	{
@@ -305,5 +320,17 @@ class PublicPagesController extends \BaseController {
 		$view = View::make('publicPages.employmentAcquisition.reEngagementForOffer');
 		$this->layout->content = $view->render();
 	}
+
+	public function viewDynamicAcquisitionPresentation($roleTitle, $companyName)
+	{
+		if(!isset($this->companiesForAcquisitionPresentation[$companyName]))
+		{
+			return Redirect::action('PublicPagesController@view404Error');
+		}
+		$view = View::make('publicPages.employmentAcquisition.acquisitionPresentation');
+		$this->layout->title = 'Stepping into the'. $roleTitle . 'role at '. $companyName . ' | Kevin Washington Web Developer & Customer Acquisition Specialist';
+		$this->layout->content = $view->render();
+	}
+
 }
 

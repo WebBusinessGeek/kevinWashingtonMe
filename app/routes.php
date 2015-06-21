@@ -45,7 +45,8 @@ Route::group(array('prefix' => 'recruitment'), function()
     Route::get('/5-things-i-can-bring-to-the-{companyName}-team', 'PublicPagesController@viewDynamicReEngagementForMeeting');
     Route::get('/3-reasons-{contactName}-would-be-making-a-good-decision-adding-me-to-the-{companyName}-team', 'PublicPagesController@viewDynamicReEngagementForOffer');
 
-
+    //dynamic acquisition presentation
+    Route::get('/stepping-into-the-{roleTitle}-role-at-{companyName}', 'PublicPagesController@viewDynamicAcquisitionPresentation');
 });
 
 //public pages for main site

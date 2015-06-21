@@ -25,6 +25,7 @@
     <link href="/angular-bootstrap/bootstrap-twit/css/customReEngagementContent.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customRecruitmentReEngagementForMeeting.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customRecruitmentReEngagementForOffer.css" rel="stylesheet">
+    <link href="/angular-bootstrap/bootstrap-twit/css/customAcquisitionPresentation.css" rel="stylesheet">
 
 
 
@@ -244,6 +245,8 @@
     <script src="/app/conversion.js"></script>
     <script src="/app/reEngagementForMeeting.js"></script>
     <script src="/app/reEngagementForOffer.js"></script>
+    <script src="/app/acquisitionPresentation.js"></script>
+
 
 
 
