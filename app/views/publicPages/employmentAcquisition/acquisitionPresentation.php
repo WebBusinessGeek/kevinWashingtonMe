@@ -167,5 +167,28 @@
         </div>
     </div>
 
+    <div id="acquisitionPresentationStepFourContent">
+        <div id="acquisitionPresentationStepFourImage">
+            <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+        </div>
+        <div id="acquisitionPresentationStepFourTitle">
+            <h2>Funnel Initiation Strategy</h2>
+        </div>
+        <div class="row" id="acquisitionPresentationStepFourBody">
+            <div class="col-lg-3" id="acquisitionPresentationStepFourPhone">
+                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+            </div>
+            <div class="col-lg-3" id="acquisitionPresentationStepFourEmail">
+                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+            </div>
+            <div class="col-lg-3" id="acquisitionPresentationStepFourDirect">
+                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+            </div>
+            <div class="col-lg-3" id="acquisitionPresentationStepFourPaid">
+                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+            </div>
+        </div>
+    </div>
+
 
 </div>
