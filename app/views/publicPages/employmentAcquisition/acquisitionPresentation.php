@@ -93,22 +93,25 @@
                     <p>{{group1}}</p>
                 </div>
                 <div id="groupOneChannelArrowOne">
-
+                    <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
                 </div>
                 <div id="groupOneChannelEngagement">
-
+                    <img class="img-responsive center-block" src="http://placehold.it/128">
+                    {{group1EngagementTitle}}
                 </div>
                 <div id="groupOneChannelArrowTwo">
-
+                    <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
                 </div>
                 <div id="groupOneChannelDemonstration">
-
+                    <img class="img-responsive center-block" src="http://placehold.it/128">
+                    {{group1DemoDescription}}
                 </div>
                 <div id="groupOneChannelArrowThree">
-
+                    <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
                 </div>
                 <div id="groupOneChannelConversion">
-
+                    <img class="img-responsive center-block" src="http://placehold.it/128">
+                    {{group1ConversionDescription}}
                 </div>
 
             </div>
@@ -118,22 +121,25 @@
                     <p>{{group2}}</p>
                 </div>
                 <div id="groupTwoChannelArrowOne">
-
+                    <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
                 </div>
                 <div id="groupTwoChannelEngagement">
-
+                    <img class="img-responsive center-block" src="http://placehold.it/128">
+                    {{group2EngagementTitle}}
                 </div>
                 <div id="groupTwoChannelArrowTwo">
-
+                    <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
                 </div>
                 <div id="groupTwoChannelDemonstration">
-
+                    <img class="img-responsive center-block" src="http://placehold.it/128">
+                    {{group2DemoDescription}}
                 </div>
                 <div id="groupTwoChannelArrowThree">
-
+                    <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
                 </div>
                 <div id="groupTwoChannelConversion">
-
+                    <img class="img-responsive center-block" src="http://placehold.it/128">
+                    {{group2ConversionDescription}}
                 </div>
             </div>
         </div>
