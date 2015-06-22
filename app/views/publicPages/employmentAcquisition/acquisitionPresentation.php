@@ -79,5 +79,65 @@
         </div>
     </div>
 
+    <div id="acquisitionPresentationStepTwoContent">
+        <div id="acquisitionPresentationStepTwoImage">
+            <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+        </div>
+        <div id="acquisitionPresentationStepTwoTitle">
+            <h2>Architect Acquisition Channels</h2>
+        </div>
+        <div id="acquisitionPresentationStepTwoGroups" class="row">
+            <div class="col-lg-6" id="acquisitionPresentationStepTwoGroupOneChannel">
+                <div id="groupOneChannelTarget">
+                    <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                    <p>{{group1}}</p>
+                </div>
+                <div id="groupOneChannelArrowOne">
+
+                </div>
+                <div id="groupOneChannelEngagement">
+
+                </div>
+                <div id="groupOneChannelArrowTwo">
+
+                </div>
+                <div id="groupOneChannelDemonstration">
+
+                </div>
+                <div id="groupOneChannelArrowThree">
+
+                </div>
+                <div id="groupOneChannelConversion">
+
+                </div>
+
+            </div>
+            <div class="col-lg-6"  id="acquisitionPresentationStepTwoGroupTwoChannel">
+                <div id="groupTwoChannelTarget">
+                    <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                    <p>{{group2}}</p>
+                </div>
+                <div id="groupTwoChannelArrowOne">
+
+                </div>
+                <div id="groupTwoChannelEngagement">
+
+                </div>
+                <div id="groupTwoChannelArrowTwo">
+
+                </div>
+                <div id="groupTwoChannelDemonstration">
+
+                </div>
+                <div id="groupTwoChannelArrowThree">
+
+                </div>
+                <div id="groupTwoChannelConversion">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 </div>
