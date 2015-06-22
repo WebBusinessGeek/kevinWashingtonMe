@@ -8,6 +8,27 @@ App::missing(function($exception)
 //route for misc testing
 Route::get('test', function()
 {
+    $array =[
+        'companyName' => [
+            'info' => [
+                'roleTitle' => 'Title of the role',
+                'group1' => 'Title of group1',
+                'group2' => 'Title of group2',
+                'group1EngagementTitle' => 'This will be a title for engagement content for group 1',
+                'group2EngagementTitle' => 'This will be a title for engagement content for group 2',
+                'group1DemoDescription' => 'This will be a description of the demo content for group 1',
+                'group2DemoDescription' => 'This will be a description of the demo content for group 2',
+                'group1ConversionDescription' => 'This will be a description of the conversion content for group1',
+                'group2ConversionDescription' => 'This will b ea description of the conversion content for group2'
+            ]
+        ]
+    ];
+
+    return $array['companyName']['info']['roleTitle'];
+
+
+
+
 });
 
 
@@ -70,6 +91,7 @@ Route::group(array('prefix' => 'api.v1'),function()
 {
     Route::get('/skills', 'PublicPagesController@getDataSkills');
     Route::post('/connect', 'PublicPagesController@postDataConnect');
+    Route::get('/acquisitionData/{companyName}', 'PublicPagesController@getDataAcquisition');
 });
 
 

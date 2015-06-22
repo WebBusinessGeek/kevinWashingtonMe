@@ -15,8 +15,22 @@ angular.module('app')
             splitUrl = url.split('-');
             return splitUrl;
         };
-        $scope.roleTitle = $scope.splitUrlByDashes()[3];
-        $scope.companyName = $scope.splitUrlByDashes()[6]
+        $scope.urlSplitIntoAnArray = $scope.splitUrlByDashes();
+        $scope.companyName = $scope.urlSplitIntoAnArray[6];
+
+        $http.get('/api.v1/acquisitionData/' + $scope.companyName)
+            .success(function(data){
+                $scope.roleTitle = data.info.roleTitleForUse;
+                $scope.group1 = data.info.group1;
+                $scope.group1EngagementTitle = data.info.group1EngagementTitle;
+                $scope.group1DemoDescription = data.info.group1DemoDescription;
+                $scope.group1ConversionDescription = data.info.group1ConversionDescription;
+                $scope.group2 = data.info.group2;
+                $scope.group2EngagementTitle = data.info.group2EngagementTitle;
+                $scope.group2DemoDescription = data.info.group2DemoDescription;
+                $scope.group2ConversionDescription = data.info.group2ConversionDescription;
+            });
+
 
 
     }]);

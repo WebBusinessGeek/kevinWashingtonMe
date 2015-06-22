@@ -32,9 +32,26 @@ class PublicPagesController extends \BaseController {
 
 	public $companiesForAcquisitionPresentation = [
 		'companyName' => [
-			'roleTitle' => [
-				'group1' => 'group1Title',
-				'group2' => 'group2Title',
+			'info' => [
+				'roleTitleForURL' => 'roleTitle',
+				'roleTitleForUse' => 'Title of the role to use in content',
+				'group1' => 'Title of group1',
+				'group2' => 'Title of group2',
+				'group1EngagementTitle' => 'This will be a title for engagement content for group 1',
+				'group2EngagementTitle' => 'This will be a title for engagement content for group 2',
+				'group1DemoDescription' => 'This will be a description of the demo content for group 1',
+				'group2DemoDescription' => 'This will be a description of the demo content for group 2',
+				'group1ConversionDescription' => 'This will be a description of the conversion content for group1',
+				'group2ConversionDescription' => 'This will b ea description of the conversion content for group2'
+			]
+		],
+
+		'Wedgies' => [
+			'info' => [
+				'roleTitleForURL' => 'technicalMarketer',
+				'roleTitleForUse' => 'Technical Marketer',
+				'group1' => 'Title of group1',
+				'group2' => 'Title of group2',
 				'group1EngagementTitle' => 'This will be a title for engagement content for group 1',
 				'group2EngagementTitle' => 'This will be a title for engagement content for group 2',
 				'group1DemoDescription' => 'This will be a description of the demo content for group 1',
@@ -323,14 +340,20 @@ class PublicPagesController extends \BaseController {
 
 	public function viewDynamicAcquisitionPresentation($roleTitle, $companyName)
 	{
-		if(!isset($this->companiesForAcquisitionPresentation[$companyName]))
+		if(!isset($this->companiesForAcquisitionPresentation[$companyName]) || $this->companiesForAcquisitionPresentation[$companyName]['info']['roleTitleForURL'] != $roleTitle)
 		{
 			return Redirect::action('PublicPagesController@view404Error');
 		}
 		$view = View::make('publicPages.employmentAcquisition.acquisitionPresentation');
-		$this->layout->title = 'Stepping into the'. $roleTitle . 'role at '. $companyName . ' | Kevin Washington Web Developer & Customer Acquisition Specialist';
+		$this->layout->title = 'Stepping into the ' . $this->companiesForAcquisitionPresentation[$companyName]['info']['roleTitleForUse'] . 'role at '. $companyName . ' | Kevin Washington Web Developer & Customer Acquisition Specialist';
 		$this->layout->content = $view->render();
 	}
+
+	public function getDataAcquisition($companyName)
+	{
+		return $this->companiesForAcquisitionPresentation[$companyName];
+	}
+
 
 }
 
