@@ -35,6 +35,10 @@ class PublicPagesController extends \BaseController {
 			'info' => [
 				'roleTitleForURL' => 'roleTitle',
 				'roleTitleForUse' => 'Title of the role to use in content',
+				'objective1' => 'This is the first objective',
+				'objective2' => 'This is the second objective',
+				'objective3' => 'This is the third objective',
+				'primaryObjective' => 'This will be the primary objective',
 				'group1' => 'Title of group1',
 				'group2' => 'Title of group2',
 				'group1EngagementTitle' => 'This will be a title for engagement content for group 1',
@@ -50,6 +54,10 @@ class PublicPagesController extends \BaseController {
 			'info' => [
 				'roleTitleForURL' => 'technicalMarketer',
 				'roleTitleForUse' => 'Technical Marketer',
+				'objective1' => ' ',
+				'objective2' => ' ',
+				'objective3' => ' ',
+				'primaryObjective' => ' ',
 				'group1' => 'Title of group1',
 				'group2' => 'Title of group2',
 				'group1EngagementTitle' => 'This will be a title for engagement content for group 1',

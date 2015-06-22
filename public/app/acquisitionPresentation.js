@@ -21,6 +21,10 @@ angular.module('app')
         $http.get('/api.v1/acquisitionData/' + $scope.companyName)
             .success(function(data){
                 $scope.roleTitle = data.info.roleTitleForUse;
+                $scope.objective1 = data.info.objective1;
+                $scope.objective2 = data.info.objective2;
+                $scope.objective3 = data.info.objective3;
+                $scope.primaryObjective = data.info.primaryObjective;
                 $scope.group1 = data.info.group1;
                 $scope.group1EngagementTitle = data.info.group1EngagementTitle;
                 $scope.group1DemoDescription = data.info.group1DemoDescription;
