@@ -5,7 +5,7 @@
             <h1>Stepping into the {{roleTitle}} role @ {{companyName}}</h1>
         </div>
         <div id="acquisitionPresentationContentSubTitle">
-            <p>A light look at how I can help in this position</p>
+            <p>A light look at how I would own this position if given the opportunity.</p>
         </div>
     </div>
 
@@ -97,21 +97,21 @@
                 </div>
                 <div id="groupOneChannelEngagement">
                     <img class="img-responsive center-block" src="http://placehold.it/128">
-                    {{group1EngagementTitle}}
+                    <p>{{group1EngagementTitle}}</p>
                 </div>
                 <div id="groupOneChannelArrowTwo">
                     <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
                 </div>
                 <div id="groupOneChannelDemonstration">
                     <img class="img-responsive center-block" src="http://placehold.it/128">
-                    {{group1DemoDescription}}
+                    <p>{{group1DemoDescription}}</p>
                 </div>
                 <div id="groupOneChannelArrowThree">
                     <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
                 </div>
                 <div id="groupOneChannelConversion">
                     <img class="img-responsive center-block" src="http://placehold.it/128">
-                    {{group1ConversionDescription}}
+                    <p>{{group1ConversionDescription}}</p>
                 </div>
 
             </div>
@@ -125,21 +125,21 @@
                 </div>
                 <div id="groupTwoChannelEngagement">
                     <img class="img-responsive center-block" src="http://placehold.it/128">
-                    {{group2EngagementTitle}}
+                    <p>{{group2EngagementTitle}}</p>
                 </div>
                 <div id="groupTwoChannelArrowTwo">
                     <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
                 </div>
                 <div id="groupTwoChannelDemonstration">
                     <img class="img-responsive center-block" src="http://placehold.it/128">
-                    {{group2DemoDescription}}
+                    <p>{{group2DemoDescription}}</p>
                 </div>
                 <div id="groupTwoChannelArrowThree">
                     <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
                 </div>
                 <div id="groupTwoChannelConversion">
                     <img class="img-responsive center-block" src="http://placehold.it/128">
-                    {{group2ConversionDescription}}
+                    <p>{{group2ConversionDescription}}</p>
                 </div>
             </div>
         </div>

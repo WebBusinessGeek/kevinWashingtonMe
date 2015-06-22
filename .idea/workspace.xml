@@ -30,8 +30,8 @@
           <file leaf-file-name="acquisitionPresentation.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/acquisitionPresentation.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.51347303" vertical-offset="3182" max-vertical-offset="3850">
-                  <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
+                <state vertical-scroll-proportion="0.7005988" vertical-offset="3157" max-vertical-offset="3850">
+                  <caret line="145" column="10" selection-start-line="145" selection-start-column="10" selection-end-line="145" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -717,14 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/acquisitionPresentation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51347303" vertical-offset="3182" max-vertical-offset="3850">
-          <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/acquisitionPresentation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44598338" vertical-offset="328" max-vertical-offset="1125">
@@ -743,6 +735,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7963989" vertical-offset="0" max-vertical-offset="750">
           <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/publicPages/employmentAcquisition/acquisitionPresentation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7005988" vertical-offset="3157" max-vertical-offset="3850">
+          <caret line="145" column="10" selection-start-line="145" selection-start-column="10" selection-end-line="145" selection-end-column="10" />
           <folding />
         </state>
       </provider>
