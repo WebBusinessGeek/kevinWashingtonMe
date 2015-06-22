@@ -5,7 +5,7 @@
 }
 
 #acquisitionPresentationContentHeader {
-    margin-bottom: 80px;
+    margin-bottom: 150px;
 }
 
 #acquisitionPresentationObjectiveContent {
@@ -17,9 +17,13 @@
 }
 
 #acquisitionPresentationMyPlanContent {
-    margin-bottom: 90px;
+    margin-bottom: 150px;
 }
 
 #acquisitionPresentationStepOneContent {
+    margin-bottom: 150px;
+}
+
+#acquisitionPresentationStepTwoContent {
     margin-bottom: 150px;
 }

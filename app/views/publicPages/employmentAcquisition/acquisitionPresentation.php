@@ -145,5 +145,27 @@
         </div>
     </div>
 
+    <div id="acquisitionPresentationStepThreeContent">
+        <div id="acquisitionPresentationStepThreeImage">
+            <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+        </div>
+        <div id="acquisitionPresentationStepThreeTitle">
+            <h2>Prevent Funnel DropOffs</h2>
+        </div>
+        <div id="acquisitionPresentationStepThreeBody">
+            <div id="acquisitionPresentationStepThreeBodyImage">
+                <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+            </div>
+            <div class="row" id="acquisitionPresentationStepThreeBodyList">
+                <div class="col-lg-6">
+                    <h4>Re-Marketing/Targeting</h4>
+                </div>
+                <div class="col-lg-6">
+                    <h4>Email Capture for Drip Campaigns</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 </div>
