@@ -18,9 +18,9 @@
             <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/myObjectives.png">
         </div>
         <div id="acquisitionPresentationObjectiveList">
-            <h3>1. {{objective1}}</h3>
-            <h3>2. {{objective2}}</h3>
-            <h3>3. {{objective3}}</h3>
+            <h4>1. {{objective1}}</h4>
+            <h4>2. {{objective2}}</h4>
+            <h4>3. {{objective3}}</h4>
         </div>
     </div>
 
@@ -32,13 +32,13 @@
             <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/primaryObjective.png">
         </div>
         <div id="acquisitionPresentationPrimaryObjectiveStated">
-            <h3>{{primaryObjective}}</h3>
+            <p>{{primaryObjective}}</p>
         </div>
     </div>
 
     <div id="acquisitionPresentationMyPlanContent">
         <div id="acquisitionPresentationMyPlanTitle">
-            <h1>How do I plan on doing this?</h1>
+            <h1>How I plan on doing this</h1>
             <p>My 5 step process</p>
         </div>
         <div id="acquisitionPresentationMyPlanImage">
@@ -48,7 +48,7 @@
 
     <div id="acquisitionPresentationStepOneContent">
         <div id="acquisitionPresentationStepOneImage">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+            <img class="img-circle img-responsive center-block" src="/assets/numberIcons/1.png">
         </div>
         <div id="acquisitionPresentationStepOneTitle">
             <h2>Understanding our target market</h2>
@@ -81,7 +81,7 @@
 
     <div id="acquisitionPresentationStepTwoContent">
         <div id="acquisitionPresentationStepTwoImage">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+            <img class="img-circle img-responsive center-block" src="/assets/numberIcons/2.png">
         </div>
         <div id="acquisitionPresentationStepTwoTitle">
             <h2>Architect Acquisition Channels</h2>
@@ -147,7 +147,7 @@
 
     <div id="acquisitionPresentationStepThreeContent">
         <div id="acquisitionPresentationStepThreeImage">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+            <img class="img-circle img-responsive center-block" src="/assets/numberIcons/3.png">
         </div>
         <div id="acquisitionPresentationStepThreeTitle">
             <h2>Prevent Funnel DropOffs</h2>
@@ -169,7 +169,7 @@
 
     <div id="acquisitionPresentationStepFourContent">
         <div id="acquisitionPresentationStepFourImage">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+            <img class="img-circle img-responsive center-block" src="/assets/numberIcons/4.png">
         </div>
         <div id="acquisitionPresentationStepFourTitle">
             <h2>Funnel Initiation Strategy</h2>
@@ -192,7 +192,7 @@
 
     <div id="acquisitionPresentationStepFiveContent">
         <div id="acquisitionPresentationStepFiveImage">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+            <img class="img-circle img-responsive center-block" src="/assets/numberIcons/5.png">
         </div>
         <div id="acquisitionPresentationStepFiveTitle">
             <h2>Track & Refine</h2>

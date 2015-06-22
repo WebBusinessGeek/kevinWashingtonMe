@@ -54,18 +54,18 @@ class PublicPagesController extends \BaseController {
 			'info' => [
 				'roleTitleForURL' => 'technicalMarketer',
 				'roleTitleForUse' => 'Technical Marketer',
-				'objective1' => ' ',
-				'objective2' => ' ',
-				'objective3' => ' ',
-				'primaryObjective' => ' ',
-				'group1' => 'Title of group1',
-				'group2' => 'Title of group2',
+				'objective1' => 'Developing and optimizing acquisition channels',
+				'objective2' => 'Developing and implementing growth strategies, objectives, and processes.',
+				'objective3' => 'Being adaptive and ready to fill voids as the company\'s needs change.',
+				'primaryObjective' => 'Grow the Wedgie user base while focusing primarily on paid users.',
+				'group1' => 'People',
+				'group2' => 'Businesses',
 				'group1EngagementTitle' => 'This will be a title for engagement content for group 1',
-				'group2EngagementTitle' => 'This will be a title for engagement content for group 2',
+				'group2EngagementTitle' => 'Understanding why your free trial users are not converting into paying customers',
 				'group1DemoDescription' => 'This will be a description of the demo content for group 1',
-				'group2DemoDescription' => 'This will be a description of the demo content for group 2',
+				'group2DemoDescription' => 'Should show benefits/value propositions of using Wedgies including - ease in collecting qualitative/quantitative data from customers.',
 				'group1ConversionDescription' => 'This will be a description of the conversion content for group1',
-				'group2ConversionDescription' => 'This will b ea description of the conversion content for group2'
+				'group2ConversionDescription' => 'A teaser page highlighting the benefits of Wedgies but with more persuasive copywriting.'
 			]
 		]
 	];
