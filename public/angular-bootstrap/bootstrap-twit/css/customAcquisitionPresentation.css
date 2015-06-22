@@ -9,5 +9,13 @@
 }
 
 #acquisitionPresentationObjectiveContent {
-    margin-bottom: 120px;
+    margin-bottom: 150px;
+}
+
+#acquisitionPresentationPrimaryObjectiveContent {
+    margin-bottom: 150px;
+}
+
+#acquisitionPresentationMyPlanContent {
+    margin-bottom: 90px;
 }

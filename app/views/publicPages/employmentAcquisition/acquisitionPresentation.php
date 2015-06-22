@@ -39,6 +39,7 @@
     <div id="acquisitionPresentationMyPlanContent">
         <div id="acquisitionPresentationMyPlanTitle">
             <h1>How do I plan on doing this?</h1>
+            <p>My 5 step process</p>
         </div>
         <div id="acquisitionPresentationMyPlanImage">
             <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
@@ -52,9 +53,28 @@
         <div id="acquisitionPresentationStepOneTitle">
             <h2>Understanding our target market</h2>
         </div>
-        <div id="acquisitionPresentationStepOneBody">
-            <div>
-                
+        <div id="acquisitionPresentationStepOneGroups" class="row">
+            <div class="col-lg-6" id="acquisitionPresentationStepOneGroupOne">
+                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                <p>{{group1}}</p>
+            </div>
+            <div class="col-lg-6"  id="acquisitionPresentationStepOneGroupTwo">
+                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                <p>{{group2}}</p>
+            </div>
+        </div>
+        <div id="acquisitionPresentationStepOneAdditional">
+            <div id="acquisitionPresentationStepOneAdditionalTitle">
+                <h3>Additional Informational</h3>
+                <p>Some extra information we should know about the markets.</p>
+            </div>
+            <div id="acquisitionPresentationStepOneAdditionalList">
+                <h4>What do they care about?</h4>
+                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                <h4>Where are they online?</h4>
+                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                <h4>Can they be broken down further into smaller segments?</h4>
+                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
             </div>
         </div>
     </div>
