@@ -5,7 +5,7 @@
             <h1>Stepping into the {{roleTitle}} role @ {{companyName}}</h1>
         </div>
         <div id="acquisitionPresentationContentSubTitle">
-            <p>A light look at how I would own this position if given the opportunity.</p>
+            <p>A light look at how I would own the {{roleTitle}} position if given the opportunity.</p>
         </div>
     </div>
 
