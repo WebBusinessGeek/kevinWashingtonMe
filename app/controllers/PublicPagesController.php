@@ -63,7 +63,7 @@ class PublicPagesController extends \BaseController {
 				'group1EngagementTitle' => '8 Ways your team members can help you achieve your objectives quicker.',
 				'group2EngagementTitle' => 'The number 1 reason your free trials are not converting into customers.',
 				'group1DemoDescription' => 'Better team engagement, Increased productivity, Faster & more efficient decision making, etc...',
-				'group2DemoDescription' => 'Easily collect qualitative/quantitative data from customers, Improve your ROI, Increase revenue, etc...',
+				'group2DemoDescription' => 'Easily collect qualitative/quantitative data from customers, Improve ROI, Increase revenue, etc...',
 				'group1ConversionDescription' => 'A teaser page highlighting the benefits of Wedgies but with more persuasive copywriting.',
 				'group2ConversionDescription' => 'A teaser page highlighting the benefits of Wedgies but with more persuasive copywriting.'
 			]

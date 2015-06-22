@@ -2,30 +2,62 @@
     background: #fff;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #acquisitionPresentationContentHeader {
     margin-bottom: 150px;
 }
 
+#acquisitionPresentationContentHeader > div > p {
+    font-size:22px;
+}
+
 #acquisitionPresentationObjectiveContent {
     margin-bottom: 150px;
+}
+
+#acquisitionPresentationObjectiveContent > div > p  {
+    font-size:24px;
 }
 
 #acquisitionPresentationPrimaryObjectiveContent {
     margin-bottom: 150px;
 }
 
+#acquisitionPresentationPrimaryObjectiveContent > div > p {
+    font-size:24px;
+}
+
 #acquisitionPresentationMyPlanContent {
     margin-bottom: 150px;
+}
+
+#acquisitionPresentationMyPlanContent > div > p {
+    font-size:24px;
 }
 
 #acquisitionPresentationStepOneContent {
     margin-bottom: 150px;
 }
 
+#acquisitionPresentationStepOneContent > div > div > p {
+    font-size: 20px;
+}
+
+
 #acquisitionPresentationStepTwoContent {
     margin-bottom: 150px;
+}
+
+#acquisitionPresentationStepTwoContent > div > div > div > p {
+   font-size: 20px;
+}
+
+#acquisitionPresentationStepTwoContent > div > div > div > p > .bold {
+    font-size: 26px;
+
 }
 
 #acquisitionPresentationStepThreeContent {
@@ -35,3 +67,4 @@
 #acquisitionPresentationStepFourContent {
     margin-bottom: 150px;
 }
+

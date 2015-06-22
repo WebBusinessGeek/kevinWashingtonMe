@@ -18,9 +18,9 @@
             <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/myObjectives.png">
         </div>
         <div id="acquisitionPresentationObjectiveList">
-            <h4>1. {{objective1}}</h4>
-            <h4>2. {{objective2}}</h4>
-            <h4>3. {{objective3}}</h4>
+            <p>1. {{objective1}}</p>
+            <p>2. {{objective2}}</p>
+            <p>3. {{objective3}}</p>
         </div>
     </div>
 
@@ -90,56 +90,56 @@
             <div class="col-lg-6" id="acquisitionPresentationStepTwoGroupOneChannel">
                 <div id="groupOneChannelTarget">
                     <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/group1.png">
-                    <p>{{group1}}</p>
+                    <p><span class="bold">Target:</span> {{group1}}</p>
                 </div>
                 <div id="groupOneChannelArrowOne">
                     <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/arrow.png">
                 </div>
                 <div id="groupOneChannelEngagement">
                     <img class="img-responsive center-block" src="/assets/acquisitionPresentation/group1And2Engagement.png">
-                    <p>"{{group1EngagementTitle}}"</p>
+                    <p><span class="bold">Sample article:</span> "{{group1EngagementTitle}}"</p>
                 </div>
                 <div id="groupOneChannelArrowTwo">
                     <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/arrow.png">
                 </div>
                 <div id="groupOneChannelDemonstration">
                     <img class="img-responsive center-block" src="/assets/acquisitionPresentation/group1And2Demo.png">
-                    <p>{{group1DemoDescription}}</p>
+                    <p><span class="bold">Benefits to stress:</span> {{group1DemoDescription}}</p>
                 </div>
                 <div id="groupOneChannelArrowThree">
                     <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/arrow.png">
                 </div>
                 <div id="groupOneChannelConversion">
                     <img class="img-responsive center-block" src="/assets/acquisitionPresentation/group1And2Conversion.png">
-                    <p>{{group1ConversionDescription}}</p>
+                    <p><span class="bold">Conversion page description:</span> {{group1ConversionDescription}}</p>
                 </div>
 
             </div>
             <div class="col-lg-6"  id="acquisitionPresentationStepTwoGroupTwoChannel">
                 <div id="groupTwoChannelTarget">
                     <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/group2.png">
-                    <p>{{group2}}</p>
+                    <p><span class="bold">Target:</span> {{group2}}</p>
                 </div>
                 <div id="groupTwoChannelArrowOne">
                     <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/arrow.png">
                 </div>
                 <div id="groupTwoChannelEngagement">
                     <img class="img-responsive center-block" src="/assets/acquisitionPresentation/group1And2Engagement.png">
-                    <p>"{{group2EngagementTitle}}"</p>
+                    <p><span class="bold">Sample article:</span> "{{group2EngagementTitle}}"</p>
                 </div>
                 <div id="groupTwoChannelArrowTwo">
                     <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/arrow.png">
                 </div>
                 <div id="groupTwoChannelDemonstration">
                     <img class="img-responsive center-block" src="/assets/acquisitionPresentation/group1And2Demo.png">
-                    <p>{{group2DemoDescription}}</p>
+                    <p><span class="bold">Benefits to stress:</span> {{group2DemoDescription}}</p>
                 </div>
                 <div id="groupTwoChannelArrowThree">
                     <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/arrow.png">
                 </div>
                 <div id="groupTwoChannelConversion">
                     <img class="img-responsive center-block" src="/assets/acquisitionPresentation/group1And2Conversion.png">
-                    <p>{{group2ConversionDescription}}</p>
+                    <p> <span class="bold">Conversion page description:</span> {{group2ConversionDescription}}</p>
                 </div>
             </div>
         </div>
