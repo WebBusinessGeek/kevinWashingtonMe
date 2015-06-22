@@ -9,6 +9,10 @@
         </div>
     </div>
 
+    <div id="acquisitionPresentationContentMainImage">
+        <img ng-src="/assets/acquisitionPresentation/{{companyName}}.png">
+    </div>
+
     <div id="acquisitionPresentationObjectiveContent">
         <div id="acquisitionPresentationObjectiveTitle">
             <h1>My Objectives</h1>
