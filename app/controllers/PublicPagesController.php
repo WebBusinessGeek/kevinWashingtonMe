@@ -58,13 +58,13 @@ class PublicPagesController extends \BaseController {
 				'objective2' => 'Developing and implementing growth strategies, objectives, and processes.',
 				'objective3' => 'Being adaptive and ready to fill voids as the company\'s needs change.',
 				'primaryObjective' => 'Grow the Wedgie user base while focusing primarily on paid users.',
-				'group1' => 'People',
-				'group2' => 'Businesses',
-				'group1EngagementTitle' => 'This will be a title for engagement content for group 1',
-				'group2EngagementTitle' => 'Understanding why your free trial users are not converting into paying customers',
-				'group1DemoDescription' => 'This will be a description of the demo content for group 1',
-				'group2DemoDescription' => 'Should show benefits/value propositions of using Wedgies including - ease in collecting qualitative/quantitative data from customers.',
-				'group1ConversionDescription' => 'This will be a description of the conversion content for group1',
+				'group1' => 'Team Leads',
+				'group2' => 'Marketers',
+				'group1EngagementTitle' => '8 Ways your team members can help you achieve your objectives quicker.',
+				'group2EngagementTitle' => 'The number 1 reason your free trials are not converting into customers.',
+				'group1DemoDescription' => 'Better team engagement, Increased productivity, Faster & more efficient decision making, etc...',
+				'group2DemoDescription' => 'Easily collect qualitative/quantitative data from customers, Improve your ROI, Increase revenue, etc...',
+				'group1ConversionDescription' => 'A teaser page highlighting the benefits of Wedgies but with more persuasive copywriting.',
 				'group2ConversionDescription' => 'A teaser page highlighting the benefits of Wedgies but with more persuasive copywriting.'
 			]
 		]

@@ -97,7 +97,7 @@
                 </div>
                 <div id="groupOneChannelEngagement">
                     <img class="img-responsive center-block" src="/assets/acquisitionPresentation/group1And2Engagement.png">
-                    <p>{{group1EngagementTitle}}</p>
+                    <p>"{{group1EngagementTitle}}"</p>
                 </div>
                 <div id="groupOneChannelArrowTwo">
                     <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/arrow.png">
@@ -125,7 +125,7 @@
                 </div>
                 <div id="groupTwoChannelEngagement">
                     <img class="img-responsive center-block" src="/assets/acquisitionPresentation/group1And2Engagement.png">
-                    <p>{{group2EngagementTitle}}</p>
+                    <p>"{{group2EngagementTitle}}"</p>
                 </div>
                 <div id="groupTwoChannelArrowTwo">
                     <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/arrow.png">
