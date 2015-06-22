@@ -15,7 +15,7 @@
             <p>As I see them currently</p>
         </div>
         <div id="acquisitionPresentationObjectiveImage">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+            <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/myObjectives.png">
         </div>
         <div id="acquisitionPresentationObjectiveList">
             <h3>1. {{objective1}}</h3>
@@ -29,7 +29,7 @@
             <h1>The Primary Objective</h1>
         </div>
         <div id="acquisitionPresentationPrimaryObjectiveImage">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+            <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/primaryObjective.png">
         </div>
         <div id="acquisitionPresentationPrimaryObjectiveStated">
             <h3>{{primaryObjective}}</h3>
@@ -42,7 +42,7 @@
             <p>My 5 step process</p>
         </div>
         <div id="acquisitionPresentationMyPlanImage">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+            <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/planToDoIt.png">
         </div>
     </div>
 
@@ -55,11 +55,11 @@
         </div>
         <div id="acquisitionPresentationStepOneGroups" class="row">
             <div class="col-lg-6" id="acquisitionPresentationStepOneGroupOne">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/group1.png">
                 <p>{{group1}}</p>
             </div>
             <div class="col-lg-6"  id="acquisitionPresentationStepOneGroupTwo">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/group2.png">
                 <p>{{group2}}</p>
             </div>
         </div>
@@ -70,11 +70,11 @@
             </div>
             <div id="acquisitionPresentationStepOneAdditionalList">
                 <h4>What do they care about?</h4>
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/careAbout.png">
                 <h4>Where are they online?</h4>
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/whereAreThey.png">
                 <h4>Can they be broken down further into smaller segments?</h4>
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/segments.png">
             </div>
         </div>
     </div>
@@ -89,56 +89,56 @@
         <div id="acquisitionPresentationStepTwoGroups" class="row">
             <div class="col-lg-6" id="acquisitionPresentationStepTwoGroupOneChannel">
                 <div id="groupOneChannelTarget">
-                    <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                    <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/group1.png">
                     <p>{{group1}}</p>
                 </div>
                 <div id="groupOneChannelArrowOne">
-                    <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                    <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/arrow.png">
                 </div>
                 <div id="groupOneChannelEngagement">
-                    <img class="img-responsive center-block" src="http://placehold.it/128">
+                    <img class="img-responsive center-block" src="/assets/acquisitionPresentation/group1And2Engagement.png">
                     <p>{{group1EngagementTitle}}</p>
                 </div>
                 <div id="groupOneChannelArrowTwo">
-                    <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                    <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/arrow.png">
                 </div>
                 <div id="groupOneChannelDemonstration">
-                    <img class="img-responsive center-block" src="http://placehold.it/128">
+                    <img class="img-responsive center-block" src="/assets/acquisitionPresentation/group1And2Demo.png">
                     <p>{{group1DemoDescription}}</p>
                 </div>
                 <div id="groupOneChannelArrowThree">
-                    <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                    <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/arrow.png">
                 </div>
                 <div id="groupOneChannelConversion">
-                    <img class="img-responsive center-block" src="http://placehold.it/128">
+                    <img class="img-responsive center-block" src="/assets/acquisitionPresentation/group1And2Conversion.png">
                     <p>{{group1ConversionDescription}}</p>
                 </div>
 
             </div>
             <div class="col-lg-6"  id="acquisitionPresentationStepTwoGroupTwoChannel">
                 <div id="groupTwoChannelTarget">
-                    <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                    <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/group2.png">
                     <p>{{group2}}</p>
                 </div>
                 <div id="groupTwoChannelArrowOne">
-                    <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                    <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/arrow.png">
                 </div>
                 <div id="groupTwoChannelEngagement">
-                    <img class="img-responsive center-block" src="http://placehold.it/128">
+                    <img class="img-responsive center-block" src="/assets/acquisitionPresentation/group1And2Engagement.png">
                     <p>{{group2EngagementTitle}}</p>
                 </div>
                 <div id="groupTwoChannelArrowTwo">
-                    <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                    <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/arrow.png">
                 </div>
                 <div id="groupTwoChannelDemonstration">
-                    <img class="img-responsive center-block" src="http://placehold.it/128">
+                    <img class="img-responsive center-block" src="/assets/acquisitionPresentation/group1And2Demo.png">
                     <p>{{group2DemoDescription}}</p>
                 </div>
                 <div id="groupTwoChannelArrowThree">
-                    <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                    <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/arrow.png">
                 </div>
                 <div id="groupTwoChannelConversion">
-                    <img class="img-responsive center-block" src="http://placehold.it/128">
+                    <img class="img-responsive center-block" src="/assets/acquisitionPresentation/group1And2Conversion.png">
                     <p>{{group2ConversionDescription}}</p>
                 </div>
             </div>
@@ -154,7 +154,7 @@
         </div>
         <div id="acquisitionPresentationStepThreeBody">
             <div id="acquisitionPresentationStepThreeBodyImage">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+                <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/preventDrops.png">
             </div>
             <div class="row" id="acquisitionPresentationStepThreeBodyList">
                 <div class="col-lg-6">
@@ -176,16 +176,16 @@
         </div>
         <div class="row" id="acquisitionPresentationStepFourBody">
             <div class="col-lg-3" id="acquisitionPresentationStepFourPhone">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/phone.png">
             </div>
             <div class="col-lg-3" id="acquisitionPresentationStepFourEmail">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/email.png">
             </div>
             <div class="col-lg-3" id="acquisitionPresentationStepFourDirect">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/direct.png">
             </div>
             <div class="col-lg-3" id="acquisitionPresentationStepFourPaid">
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/paid.png">
             </div>
         </div>
     </div>
@@ -200,13 +200,13 @@
         <div class="row" id="acquisitionPresentationStepFiveBody">
             <div class="col-lg-6">
                 <h3>Data Gathering</h3>
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/dataGathering.png">
                 <h4>Google Analytics</h4>
                 <h4>Clicky</h4>
             </div>
             <div class="col-lg-6">
                 <h3>Running Experiments</h3>
-                <img class="img-circle img-responsive center-block" src="http://placehold.it/128">
+                <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/runningExperiments.png">
                 <h4>VWO</h4>
                 <h4>Optimizely</h4>
             </div>
