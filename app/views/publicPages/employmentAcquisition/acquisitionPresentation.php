@@ -36,4 +36,28 @@
         </div>
     </div>
 
+    <div id="acquisitionPresentationMyPlanContent">
+        <div id="acquisitionPresentationMyPlanTitle">
+            <h1>How do I plan on doing this?</h1>
+        </div>
+        <div id="acquisitionPresentationMyPlanImage">
+            <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+        </div>
+    </div>
+
+    <div id="acquisitionPresentationStepOneContent">
+        <div id="acquisitionPresentationStepOneImage">
+            <img class="img-circle img-responsive center-block" src="http://placehold.it/80">
+        </div>
+        <div id="acquisitionPresentationStepOneTitle">
+            <h2>Understanding our target market</h2>
+        </div>
+        <div id="acquisitionPresentationStepOneBody">
+            <div>
+                
+            </div>
+        </div>
+    </div>
+
+
 </div>
