@@ -201,14 +201,14 @@
             <div class="col-lg-6">
                 <h3>Data Gathering</h3>
                 <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/dataGathering.png">
-                <h4>Google Analytics</h4>
-                <h4>Clicky</h4>
+                <p>Google Analytics</p>
+                <p>Clicky</p>
             </div>
             <div class="col-lg-6">
                 <h3>Running Experiments</h3>
                 <img class="img-circle img-responsive center-block" src="/assets/acquisitionPresentation/runningExperiments.png">
-                <h4>VWO</h4>
-                <h4>Optimizely</h4>
+                <p>VWO</p>
+                <p>Optimizely</p>
             </div>
         </div>
     </div>
