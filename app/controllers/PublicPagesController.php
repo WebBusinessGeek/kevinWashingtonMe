@@ -67,6 +67,25 @@ class PublicPagesController extends \BaseController {
 				'group1ConversionDescription' => 'A teaser page highlighting the benefits of Wedgies but with more persuasive copywriting.',
 				'group2ConversionDescription' => 'A teaser page highlighting the benefits of Wedgies but with more persuasive copywriting.'
 			]
+		],
+
+		'TelTech' => [
+			'info' => [
+				'roleTitleForURL' => 'Marketing',
+				'roleTitleForUse' => 'Marketing',
+				'objective1' => 'Developing and optimizing acquisition channels',
+				'objective2' => 'Help improve TelTech apps in ways that lead to more conversions.',
+				'objective3' => 'Being adaptive and ready to fill voids as the company\'s needs for me change.',
+				'primaryObjective' => 'Sell some TelTech apps!',
+				'group1' => 'Debt Collectors.',
+				'group2' => 'Private Investigators.',
+				'group1EngagementTitle' => '8 techniques to make Collection calls that get results!',
+				'group2EngagementTitle' => '7 tips of the trade for a successful private investigation career.',
+				'group1DemoDescription' => 'Increase call to pick up ratio, collect useful data on targets, etc...',
+				'group2DemoDescription' => 'Unlimited number of ways to use SpoofCard to increase chances of success. ',
+				'group1ConversionDescription' => 'A teaser page highlighting the benefits of SpoofCard but with more persuasive copywriting.',
+				'group2ConversionDescription' => 'A teaser page highlighting the benefits of SpoofCard but with more persuasive copywriting.'
+			]
 		]
 	];
 
