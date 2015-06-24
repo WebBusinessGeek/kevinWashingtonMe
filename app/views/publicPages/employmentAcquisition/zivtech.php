@@ -19,7 +19,7 @@
             <p>As I currently see them</p>
         </div>
         <div id="zivTechPresentationMyObjectivesImage">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+            <img class="img-circle img-responsive center-block" src="/assets/zivtechPresentation/myObjectives.png">
         </div>
         <div id="zivTechPresentationMyObjectivesList">
             <p>1. Be prepared to take the project management role for any projects where help is needed.</p>
@@ -33,7 +33,7 @@
             <h1>Primary Objective</h1>
         </div>
         <div id="zivTechPresentationPrimaryObjectiveImage">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+            <img class="img-circle img-responsive center-block" src="/assets/zivtechPresentation/primaryObjective.png">
         </div>
         <div id="zivTechPresentationPrimaryObjectiveStated">
             <p>Help manage some projects!</p>
@@ -45,7 +45,7 @@
             <h1>How I can help manage projects</h1>
         </div>
         <div id="zivTechPresentationHowICanHelpImage">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+            <img class="img-circle img-responsive center-block" src="/assets/zivtechPresentation/helpManage.png">
         </div>
     </div>
 
@@ -57,7 +57,7 @@
             <h1>Being willing to learn</h1>
         </div>
         <div id="zivTechPresentationWillingToLearnImage">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+            <img class="img-circle img-responsive center-block" src="/assets/zivtechPresentation/willingToLearn.png">
         </div>
         <div id="zivTechPresentationWillingToLearnList">
             <p>Zivtech's project management style</p>
@@ -73,7 +73,7 @@
             <h1>Client interactions</h1>
         </div>
         <div id="zivTechPresentationClientInteractionsImage">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+            <img class="img-circle img-responsive center-block" src="/assets/zivtechPresentation/clientInteractions.png">
         </div>
         <div id="zivTechPresentationClientInteractionsList">
             <p>Understanding client objectives, budget, and timeline.</p>
@@ -90,7 +90,7 @@
             <h1>Planning Projects</h1>
         </div>
         <div id="zivTechPresentationProjectPlanningImage">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+            <img class="img-circle img-responsive center-block" src="/assets/zivtechPresentation/planProjects.png">
         </div>
         <div id="zivTechPresentationProjectPlanningList">
             <p>Analyze implementation and fulfillment factors.</p>
@@ -107,7 +107,7 @@
             <h1>Assembling technical teams</h1>
         </div>
         <div id="zivTechPresentationAssemblingTechTeamsImage">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+            <img class="img-circle img-responsive center-block" src="/assets/zivtechPresentation/assembleTechTeams.png">
         </div>
         <div id="zivTechPresentationAssemblingTechTeamsList">
             <p>Recruiting and sourcing talent.</p>
@@ -124,7 +124,7 @@
             <h1>Managing projects</h1>
         </div>
         <div id="zivTechPresentationProjectManagementImage">
-            <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+            <img class="img-circle img-responsive center-block" src="/assets/zivtechPresentation/manageProjects.png">
         </div>
         <div id="zivTechPresentationProjectManagementList">
             <p><span class="bolder">General Management:</span> Budgets, Deadlines, KanBan boards</p>
