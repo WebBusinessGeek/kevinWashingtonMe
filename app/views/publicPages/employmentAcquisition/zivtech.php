@@ -124,7 +124,7 @@
             <h1>Managing projects</h1>
         </div>
         <div id="zivTechPresentationProjectManagementImage">
-            <img class="img-circle img-responsive center-block" src="/assets/zivtechPresentation/manageProjects.png">
+            <img class=" img-responsive center-block" src="/assets/zivtechPresentation/manageProjects.png">
         </div>
         <div id="zivTechPresentationProjectManagementList">
             <p><span class="bolder">General Management:</span> Budgets, Deadlines, KanBan boards</p>
