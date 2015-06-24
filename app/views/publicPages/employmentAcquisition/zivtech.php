@@ -42,7 +42,7 @@
 
     <div id="zivTechPresentationHowICanHelp">
         <div id="zivTechPresentationHowICanHelpTitle">
-            <h1>How I can help manage projects</h1>
+            <h1>5 ways I can help manage projects</h1>
         </div>
         <div id="zivTechPresentationHowICanHelpImage">
             <img class="img-circle img-responsive center-block" src="/assets/zivtechPresentation/helpManage.png">
