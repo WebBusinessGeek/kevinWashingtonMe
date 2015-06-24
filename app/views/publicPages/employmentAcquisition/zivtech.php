@@ -40,4 +40,73 @@
         </div>
     </div>
 
+    <div id="zivTechPresentationHowICanHelp">
+        <div id="zivTechPresentationHowICanHelpTitle">
+            <h1>How I can help manage projects</h1>
+        </div>
+        <div id="zivTechPresentationHowICanHelpImage">
+            <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+        </div>
+    </div>
+
+    <div id="zivTechPresentationWillingToLearn">
+        <div id="zivTechPresentationWillingToLearnNumberImage">
+            <img class="img-responsive img-circle center-block" src="/assets/numberIcons/1.png">
+        </div>
+        <div id="zivTechPresentationWillingToLearnImage">
+
+        </div>
+        <div id="zivTechPresentationWillingToLearnList">
+
+        </div>
+    </div>
+
+    <div id="zivTechPresentationClientInteractions">
+        <div id="zivTechPresentationClientInteractionsNumberImage">
+            <img class="img-responsive img-circle center-block" src="/assets/numberIcons/2.png">
+        </div>
+        <div id="zivTechPresentationClientInteractionsImage">
+
+        </div>
+        <div id="zivTechPresentationClientInteractionsList">
+
+        </div>
+    </div>
+
+    <div id="zivTechPresentationProjectPlanning">
+        <div id="zivTechPresentationProjectPlanningNumberImage">
+            <img class="img-responsive img-circle center-block" src="/assets/numberIcons/3.png">
+        </div>
+        <div id="zivTechPresentationProjectPlanningImage">
+
+        </div>
+        <div id="zivTechPresentationProjectPlanningList">
+
+        </div>
+    </div>
+
+    <div id="zivTechPresentationAssemblingTechTeams">
+        <div id="zivTechPresentationAssemblingTechTeamsNumberImage">
+            <img class="img-responsive img-circle center-block" src="/assets/numberIcons/4.png">
+        </div>
+        <div id="zivTechPresentationAssemblingTechTeamsImage">
+
+        </div>
+        <div id="zivTechPresentationAssemblingTechTeamsList">
+
+        </div>
+    </div>
+
+    <div id="zivTechPresentationProjectManagement">
+        <div id="zivTechPresentationProjectManagementNumberImage">
+            <img class="img-responsive img-circle center-block" src="/assets/numberIcons/5.png">
+        </div>
+        <div id="zivTechPresentationProjectManagementImage">
+
+        </div>
+        <div id="zivTechPresentationProjectManagementList">
+
+        </div>
+    </div>
+
 </div>
