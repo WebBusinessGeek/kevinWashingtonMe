@@ -28,4 +28,16 @@
         </div>
     </div>
 
+    <div id="zivTechPresentationPrimaryObjective">
+        <div id="zivTechPresentationPrimaryObjectiveTitle">
+            <h1>Primary Objective</h1>
+        </div>
+        <div id="zivTechPresentationPrimaryObjectiveImage">
+            <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
+        </div>
+        <div id="zivTechPresentationPrimaryObjectiveStated">
+            <p>Help manage some projects!</p>
+        </div>
+    </div>
+
 </div>
