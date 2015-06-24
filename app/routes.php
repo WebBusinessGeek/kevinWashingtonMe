@@ -68,6 +68,9 @@ Route::group(array('prefix' => 'recruitment'), function()
 
     //dynamic acquisition presentation
     Route::get('/stepping-into-the-{roleTitle}-role-at-{companyName}', 'PublicPagesController@viewDynamicAcquisitionPresentation');
+
+    //NON dynamic software presentation
+    Route::get('/taking-on-the-project-management-role-at-Zivtech', 'PublicPagesController@viewZivtech');
 });
 
 //public pages for main site

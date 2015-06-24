@@ -382,5 +382,12 @@ class PublicPagesController extends \BaseController {
 	}
 
 
+	public function viewZivtech()
+	{
+		$view = View::make('publicPages.employmentAcquisition.zivtech');
+		$this->layout->title = 'Taking on the project management role at Zivtech';
+		$this->layout->content = $view->render();
+	}
+
 }
 

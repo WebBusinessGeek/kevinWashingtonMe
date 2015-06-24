@@ -26,6 +26,7 @@
     <link href="/angular-bootstrap/bootstrap-twit/css/customRecruitmentReEngagementForMeeting.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customRecruitmentReEngagementForOffer.css" rel="stylesheet">
     <link href="/angular-bootstrap/bootstrap-twit/css/customAcquisitionPresentation.css" rel="stylesheet">
+    <link href="/angular-bootstrap/bootstrap-twit/css/customZivtech.css" rel="stylesheet">
 
 
 
