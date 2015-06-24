@@ -127,10 +127,10 @@
             <img class="img-circle img-responsive center-block" src="http://placehold.it/256">
         </div>
         <div id="zivTechPresentationProjectManagementList">
-            <p>General Management - Budgets, deadlines, KanBan boards</p>
-            <p>Running Weekly Sprints - Week start delegation, Daily stand ups, Mid week follow ups, Show and tells</p>
-            <p>Prioritizing the client - Consistent functionality updates, Futures ideas and retrospectives, Build relationships</p>
-            <p>Close follow on projects - Identify areas of improvement, Revisit sidelined functionality</p>
+            <p><span class="bolder">General Management:</span> Budgets, Deadlines, KanBan boards</p>
+            <p><span class="bolder">Running Weekly Sprints:</span> Week start delegation, Daily stand ups, Mid week follow ups, Show and tells</p>
+            <p><span class="bolder">Prioritizing the client:</span> Consistent functionality updates, Futures ideas and retrospectives, Build relationships</p>
+            <p><span class="bolder">Close follow on projects:</span> Identify areas of improvement, Revisit sidelined functionality</p>
         </div>
     </div>
 

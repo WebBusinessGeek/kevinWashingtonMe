@@ -45,3 +45,22 @@
 #zivTechPresentationProjectManagement {
     margin-bottom: 150px;
 }
+
+
+
+#zivTechPresentationContainer > div > div > p {
+    font-size: 24px;
+}
+
+#zivTechPresentationHeader > #zivTechPresentationSubTitle > p {
+    font-size: 24px;
+}
+#zivTechPresentationProjectManagementList > p  {
+    font-size:14px;
+}
+
+
+#zivTechPresentationProjectManagementList > p > .bolder {
+    font-size: 24px;
+    color:black;
+}
