@@ -56,6 +56,7 @@
         <div id="zivTechPresentationWillingToLearnTitle">
             <h1>Being willing to learn</h1>
         </div>
+        
         <div id="zivTechPresentationWillingToLearnImage">
             <img class="img-circle img-responsive center-block" src="/assets/zivtechPresentation/willingToLearn.png">
         </div>
