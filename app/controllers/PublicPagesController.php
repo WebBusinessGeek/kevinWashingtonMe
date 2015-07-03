@@ -86,6 +86,25 @@ class PublicPagesController extends \BaseController {
 				'group1ConversionDescription' => 'A teaser page highlighting the benefits of SpoofCard but with more persuasive copywriting.',
 				'group2ConversionDescription' => 'A teaser page highlighting the benefits of SpoofCard but with more persuasive copywriting.'
 			]
+		],
+
+		'Unroole' => [
+			'info' => [
+				'roleTitleForURL' => 'growthHacker',
+				'roleTitleForUse' => 'Growth Hacker',
+				'objective1' => 'Developing and optimizing acquisition channels',
+				'objective2' => 'Help improve Unroole product in ways that lead to more conversions.',
+				'objective3' => 'Being adaptive and ready to fill voids as the company\'s needs for me change.',
+				'primaryObjective' => 'Generate leads and conversions!',
+				'group1' => 'Marketing Consultants',
+				'group2' => 'Web design studios',
+				'group1EngagementTitle' => '8 techniques to scale your marketing business.',
+				'group2EngagementTitle' => '7 Ways to speed up development and increase revenue.',
+				'group1DemoDescription' => 'Empower your marketing reach, commercialize separate models, etc...',
+				'group2DemoDescription' => 'Lower development time, increase client base, increase revenue, etc... ',
+				'group1ConversionDescription' => 'A teaser page highlighting the benefits of Unroole but with more persuasive copywriting.',
+				'group2ConversionDescription' => 'A teaser page highlighting the benefits of Unroole but with more persuasive copywriting.'
+			]
 		]
 	];
 
