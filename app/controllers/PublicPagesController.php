@@ -105,7 +105,25 @@ class PublicPagesController extends \BaseController {
 				'group1ConversionDescription' => 'A teaser page highlighting the benefits of Unroole but with more persuasive copywriting.',
 				'group2ConversionDescription' => 'A teaser page highlighting the benefits of Unroole but with more persuasive copywriting.'
 			]
-		]
+		],
+		'TeamGantt' => [
+			'info' => [
+				'roleTitleForURL' => 'marketingLead',
+				'roleTitleForUse' => 'Marketing Lead',
+				'objective1' => 'Developing and optimizing acquisition channels for TeamGantt project management software',
+				'objective2' => 'Help improve product in ways that lead to more conversions.',
+				'objective3' => 'Being adaptive and ready to fill voids as the company\'s needs change.',
+				'primaryObjective' => 'Generate leads and conversions!',
+				'group1' => 'Consultants looking to scale their business',
+				'group2' => 'Software development teams',
+				'group1EngagementTitle' => '8 Techniques to Scale Your Consulting Business.',
+				'group2EngagementTitle' => '7 Tips to Build Your Best Software.',
+				'group1DemoDescription' => 'Manage processes, resources, and time.',
+				'group2DemoDescription' => 'Produce higher quality software, reduce PM headaches. ',
+				'group1ConversionDescription' => 'A teaser page highlighting the benefits of TeamGantt but with more persuasive copywriting.',
+				'group2ConversionDescription' => 'A teaser page highlighting the benefits of TeamGantt but with more persuasive copywriting.'
+			]
+		],
 	];
 
 
