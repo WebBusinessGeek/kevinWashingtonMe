@@ -23,7 +23,8 @@ class PublicPagesController extends \BaseController {
 		'Edgar',
 		'Lobster',
 		'HubSpot',
-		'SoftGravity'
+		'SoftGravity',
+		'MuseumHack'
 	];
 
 	public $companiesToReEngageForOffer = [
